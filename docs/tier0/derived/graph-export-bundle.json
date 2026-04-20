@@ -1,0 +1,111 @@
+{
+  "bundle_name": "diablo2-tier0-graph-export",
+  "derived_root": "docs/tier0/derived",
+  "counts": {
+    "nodes": 272,
+    "edges": 397,
+    "claims": 79,
+    "chunks": 4490,
+    "canonical_entities": 237,
+    "support_edges": 16,
+    "claim_index": 79,
+    "canonical_claims": 51,
+    "aliases": 461,
+    "provenance": 79
+  },
+  "files": {
+    "nodes": "docs/tier0/derived/nodes.jsonl",
+    "edges": "docs/tier0/derived/edges.jsonl",
+    "claims": "docs/tier0/derived/claims.jsonl",
+    "chunks": "docs/tier0/derived/chunks.jsonl",
+    "canonical_entities": "docs/tier0/derived/canonical-entities.jsonl",
+    "support_edges": "docs/tier0/derived/support-edges.jsonl",
+    "claim_index": "docs/tier0/derived/claim-index.jsonl",
+    "canonical_claims": "docs/tier0/derived/canonical-claims.jsonl",
+    "aliases": "docs/tier0/derived/aliases.jsonl",
+    "provenance": "docs/tier0/derived/provenance.jsonl"
+  },
+  "schema": {
+    "bundle_version": 1,
+    "entity_tables": [
+      "nodes",
+      "canonical_entities",
+      "aliases"
+    ],
+    "relation_tables": [
+      "edges",
+      "support_edges",
+      "claims",
+      "canonical_claims",
+      "provenance"
+    ],
+    "retrieval_tables": [
+      "chunks",
+      "claim_index"
+    ],
+    "recommended_load_order": [
+      "nodes",
+      "canonical_entities",
+      "aliases",
+      "edges",
+      "support_edges",
+      "claims",
+      "canonical_claims",
+      "provenance",
+      "chunks",
+      "claim_index"
+    ],
+    "recommended_query_entrypoints": {
+      "entity_lookup": [
+        "canonical_entities",
+        "aliases"
+      ],
+      "source_grounding": [
+        "provenance",
+        "claims"
+      ],
+      "retrieval": [
+        "chunks",
+        "claim_index"
+      ],
+      "support_scoring": [
+        "support_edges",
+        "canonical_claims"
+      ]
+    }
+  },
+  "query_examples": [
+    {
+      "name": "lookup_entity_by_alias",
+      "inputs": {
+        "alias": "Spirit"
+      },
+      "pipeline": [
+        "search aliases.alias == input alias",
+        "resolve canonical_id",
+        "join canonical_entities on canonical_id",
+        "join canonical_claims on subject_id == canonical_id"
+      ]
+    },
+    {
+      "name": "inspect_api_gating_claims",
+      "inputs": {
+        "predicate_family": "availability"
+      },
+      "pipeline": [
+        "filter canonical_claims.predicate_family == availability",
+        "join provenance on claim ids if source evidence is needed"
+      ]
+    },
+    {
+      "name": "retrieve_source_grounded_chunks_for_entity",
+      "inputs": {
+        "canonical_id": "<entity-id>"
+      },
+      "pipeline": [
+        "join claims/provenance for supporting evidence",
+        "use chunks/doc_id linkage to gather retrieval text"
+      ]
+    }
+  ]
+}

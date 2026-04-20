@@ -1,0 +1,20 @@
+{
+  "page_count": 292,
+  "chunk_count": 2793,
+  "error_count": 1,
+  "successful_page_count": 291,
+  "sources": {
+    "diablo2-io": {
+      "pages": 238,
+      "chars": 2618281,
+      "chunks": 2388
+    },
+    "arreat-summit": {
+      "pages": 54,
+      "chars": 335977,
+      "chunks": 405
+    }
+  },
+  "documents_path": "docs/tier0/high-value/normalized/documents.jsonl",
+  "chunks_path": "docs/tier0/high-value/derived/chunks.jsonl"
+}

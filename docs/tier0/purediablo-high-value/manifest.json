@@ -1,0 +1,359 @@
+{
+  "page_count": 49,
+  "successful_pages": 43,
+  "chunk_count": 1006,
+  "char_count": 867151,
+  "pages": [
+    {
+      "url": "https://www.purediablo.com/d2wiki/Horadric_Cube",
+      "title": "Horadric Cube - Diablo 2 Wiki",
+      "chars": 18572,
+      "sha256": "ee28ff723cb38cd9cbb8edf10bcc6c5750434e5cdf283cac53ffbbd9f708b646",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Runewords",
+      "title": "Runewords - Diablo 2 Wiki",
+      "chars": 84344,
+      "sha256": "9ddade85260271e3966b780842a2be9be75525fba86fca2de40f39c9d1f72a2a",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Unique_Items",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Amazon",
+      "title": "Amazon - Diablo 2 Wiki",
+      "chars": 20079,
+      "sha256": "a4e1fdfa1035ddeb584ffbe7c40c8de1aa58ede4abcf2f2c2344b38f390805da",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Amazon_Skills",
+      "title": "Amazon Skills - Diablo 2 Wiki",
+      "chars": 7048,
+      "sha256": "596d70754421e685ca7e5b78b704ae54d8dac17347e4ebc0f743bd373f06f8ec",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Amazon_Bow_and_Crossbow",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Amazon_Passive_and_Magic",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Amazon_Javelin_and_Spear",
+      "title": "",
+      "chars": 71,
+      "sha256": "9a304d273b3be6c21d884ffe678bc222a47e92e7839a6796f7a1f1e1ab2070b9",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Barbarian",
+      "title": "Barbarian - Diablo 2 Wiki",
+      "chars": 18471,
+      "sha256": "b1b60350b14461039304df467dd3399ed4f9c1225fc81c2bb6ccc9f8c63ff4d5",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Barbarian_Skills",
+      "title": "Barbarian Skills - Diablo 2 Wiki",
+      "chars": 6834,
+      "sha256": "784510becce7709caee1adc7c6ad4d7a8db034ed5556700a831382237db04b95",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Barbarian_Combat_Skills",
+      "title": "Barbarian Combat Skills - Diablo 2 Wiki",
+      "chars": 25284,
+      "sha256": "b657652c5d020d809585902d46f6fc48a97df63cd948a14e6873b27e39d528d0",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Barbarian_Combat_Masteries",
+      "title": "Barbarian Combat Masteries - Diablo 2 Wiki",
+      "chars": 18144,
+      "sha256": "0311889ea34aaa91e96d45fa141c6de0f781779b5783baead2f1900524b02415",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Barbarian_Warcries",
+      "title": "Barbarian Warcries - Diablo 2 Wiki",
+      "chars": 26093,
+      "sha256": "8cc1e59d3af21736bfc40ebccc2d17d9e86da8af1b81234d42fe097cddc8871d",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Assassin",
+      "title": "Assassin - Diablo 2 Wiki",
+      "chars": 19211,
+      "sha256": "cc5d0326e9eeec0dec348a9f4ade0b8a67b07866a8e014145ff9055d4b8c5130",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Assassin_Skills",
+      "title": "",
+      "chars": 71,
+      "sha256": "9a304d273b3be6c21d884ffe678bc222a47e92e7839a6796f7a1f1e1ab2070b9",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Assassin_Shadow_Disciplines",
+      "title": "Assassin Shadow Disciplines - Diablo 2 Wiki",
+      "chars": 20276,
+      "sha256": "3051ffa32699cd869ea179129a6a3e5866b076f6d8ecbcb024c73cc0009fc7eb",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Assassin_Martial_Arts",
+      "title": "Assassin Martial Arts - Diablo 2 Wiki",
+      "chars": 19435,
+      "sha256": "df58543a0bfd38afa8744d54b1bec3cdcb2919c7d6bfb06557b83a63a847f12d",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Assassin_Traps",
+      "title": "Assassin Traps - Diablo 2 Wiki",
+      "chars": 17060,
+      "sha256": "929c67f4fb9a6a5faee48a412ea5c070919a3317263d5dd2237582dc433cbdc6",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Paladin",
+      "title": "Paladin - Diablo 2 Wiki",
+      "chars": 12677,
+      "sha256": "afcc769047ac394901be295472c21f93d203343381a159e229c86f5ffd61cdbd",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Paladin_Skills",
+      "title": "Paladin Skills - Diablo 2 Wiki",
+      "chars": 6627,
+      "sha256": "42379b067a043405b3c778206ebf521eb4b039f3157544055faf680d70a3864f",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Paladin_Combat_Skills",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Paladin_Offensive_Auras",
+      "title": "Paladin Offensive Auras - Diablo 2 Wiki",
+      "chars": 19760,
+      "sha256": "35e7d85b0deec8a0f76c18b983b2be54423574f1b6a806d5d16bdb478e68a022",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Paladin_Defensive_Auras",
+      "title": "Paladin Defensive Auras - Diablo 2 Wiki",
+      "chars": 19238,
+      "sha256": "a2e6a6c14dfddfecc2efcbe63d89e5726490215b3d7d0f2c8757f8a6d712589f",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Sorceress",
+      "title": "Sorceress - Diablo 2 Wiki",
+      "chars": 10160,
+      "sha256": "86cde13c082b71a819eab4bafbf072a2af436c5e8a239a4bd8392d99c39b8df5",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Sorceress_Skills",
+      "title": "Sorceress Skills - Diablo 2 Wiki",
+      "chars": 7092,
+      "sha256": "e9de68d4a4a4194536f111181db71313bffeae54763062864749c363ce4100a7",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Sorceress_Cold_Spells",
+      "title": "Sorceress Cold Spells - Diablo 2 Wiki",
+      "chars": 19663,
+      "sha256": "2fad4d7cd404817e14bc9b4a687575229a911db9699394ff0a1378e92cecd684",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Sorceress_Fire_Spells",
+      "title": "Sorceress Fire Spells - Diablo 2 Wiki",
+      "chars": 18233,
+      "sha256": "6e52ab58473e06ba5796b52067a53ec52241e6a9c0816a6767c1be51ba1e48cf",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Druid",
+      "title": "Druid - Diablo 2 Wiki",
+      "chars": 19859,
+      "sha256": "05c214b9c99aad966576fe1bc3e1c9aebf68e9de7073694a676f73f72a9395b7",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Druid_Skills",
+      "title": "Druid Skills - Diablo 2 Wiki",
+      "chars": 6889,
+      "sha256": "e80072728b19d29258c5ae29d3e04d487923ddbbd49c8c59f97d7a0698655972",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Druid_Elemental_Skills",
+      "title": "Druid Elemental Skills - Diablo 2 Wiki",
+      "chars": 20365,
+      "sha256": "d4959651f45589cb3d0f2cadd5351f71828212197131f16f458c116e471bc0ad",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Druid_Summoning_Skills",
+      "title": "Druid Summoning Skills - Diablo 2 Wiki",
+      "chars": 21261,
+      "sha256": "2202d88409db2635a511ab870890b3ce35c4858bd749e8984cc87012ff5deec8",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Druid_Shapeshifting_Skills",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Necromancer",
+      "title": "Necromancer - Diablo 2 Wiki",
+      "chars": 11164,
+      "sha256": "9a176968d8b0f196c46cf484a15ef5f501d696cda5a478b173badffcd89e2fea",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Necromancer_Skills",
+      "title": "Necromancer Skills - Diablo 2 Wiki",
+      "chars": 6604,
+      "sha256": "a06fa05dd5a1741992d1fd3bc1b1c4bed771f1339e64ac6dc06bb8c937dca6b7",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Necromancer_Poison_and_Bone",
+      "title": "Necromancer Poison and Bone - Diablo 2 Wiki",
+      "chars": 20510,
+      "sha256": "aaa06b676f438245c5153d71ad090b31ab7c46ad1e29456f2811199c3e70ac49",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Necromancer_Items",
+      "title": "Necromancer Items - Diablo 2 Wiki",
+      "chars": 22922,
+      "sha256": "870b2774ecee416bd16845df4359a22a09974f52acdaf4ecced4617b1876eb7c",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Runes",
+      "title": "Rune - Diablo 2 Wiki",
+      "chars": 8382,
+      "sha256": "4a8fecbfdf7542dc40e9768f24a7d3b349e6e2205ff33d6e08d1c43f87ed920d",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Set_Items",
+      "title": "Item Set - Diablo 2 Wiki",
+      "chars": 7354,
+      "sha256": "28c571687107f462102228b5b408d218100987e24d8d5f065aed6a0c92ff5891",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Mercenaries",
+      "title": "Mercenaries - Diablo 2 Wiki",
+      "chars": 13414,
+      "sha256": "1d8d4f2db377cd3d315059f057689331415e5d9844cefe2fa4f8dce35fb78cbf",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Magic_Find",
+      "title": "Magic Find - Diablo 2 Wiki",
+      "chars": 48045,
+      "sha256": "3aba16139f23d6e84356376c95132ab054928859783d887681b71ea280a4cf27",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Act_I",
+      "title": "Act I - Diablo 2 Wiki",
+      "chars": 6641,
+      "sha256": "c4e83eebd695b0cc509af2c3a2a2b4d92a23d6fe4a8b1575bcde9f54769a918a",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Act_II",
+      "title": "Act II - Diablo 2 Wiki",
+      "chars": 7384,
+      "sha256": "ab89c5d8cfbeed85f15ffcc5f2a45baa9d9e4ed8881d1220f86725b0731b01bd",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Act_III",
+      "title": "Act III - Diablo 2 Wiki",
+      "chars": 8044,
+      "sha256": "83405ce8bb7cadd873bb8e5f90deeca90b980495a35af276694d07cd27b2e4e8",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Act_IV",
+      "title": "Act IV - Diablo 2 Wiki",
+      "chars": 6824,
+      "sha256": "cc4fc4a91042f3ac2dd7ada133fc7037874639944ae6b0cccdb247dd0891d9c1",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Act_V",
+      "title": "Act V - Diablo 2 Wiki",
+      "chars": 8553,
+      "sha256": "dd571bdd7c59d6e65c245724740dfc2fe0cbe89f71123a77f97f68c1f7f53cdf",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Diablo_II_Manual",
+      "title": "Diablo II Manual - Diablo 2 Wiki",
+      "chars": 142553,
+      "sha256": "33abcd622efd645ac39dc00356df0aa9ecdb48263119fd1b0df49237f0329e54",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/Trang-Oul%27s_Avatar",
+      "title": "Trang-Oul's Avatar - Diablo 2 Wiki",
+      "chars": 7133,
+      "sha256": "3228ead2504189d175cdb229788e1cf3432f191028c0a21ece5596971a9b4b26",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.purediablo.com/d2wiki/V1.10_FAQ",
+      "title": "V1.10 FAQ - Diablo 2 Wiki",
+      "chars": 58807,
+      "sha256": "64a2dc8865248f2eff0c78c7f2844394fdffae46d495e28851d736da8f14132e",
+      "status": "ok"
+    }
+  ],
+  "documents_path": "docs/tier0/purediablo-high-value/normalized/documents.jsonl",
+  "chunks_path": "docs/tier0/purediablo-high-value/derived/chunks.jsonl"
+}

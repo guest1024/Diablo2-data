@@ -1,0 +1,31 @@
+{
+  "sources": 5,
+  "captures": 30,
+  "documents": 30,
+  "chunks": 4490,
+  "graph_counts": {
+    "nodes": 272,
+    "edges": 397,
+    "claims": 79,
+    "chunks": 4490,
+    "canonical_entities": 237,
+    "support_edges": 16,
+    "claim_index": 79,
+    "canonical_claims": 51,
+    "aliases": 461,
+    "provenance": 79
+  },
+  "version_semantics": {
+    "version_tags": 30,
+    "contradiction_seeds": 10
+  },
+  "csv_tables": {
+    "canonical_entities": 237,
+    "aliases": 461,
+    "canonical_claims": 51,
+    "support_edges": 16,
+    "provenance": 79,
+    "chunks": 4490
+  },
+  "artifact_checksum_count": 14
+}

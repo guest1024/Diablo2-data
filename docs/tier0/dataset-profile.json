@@ -1,0 +1,45 @@
+{
+  "totals": {
+    "raw_files": 30,
+    "raw_bytes": 18711181,
+    "documents": 30,
+    "chunks": 4490
+  },
+  "by_source": {
+    "arreat-summit": {
+      "source_name": "The Arreat Summit",
+      "raw_files": 8,
+      "raw_bytes": 167066,
+      "documents": 8,
+      "chunks": 33
+    },
+    "diablo2-io": {
+      "source_name": "diablo2.io structured reference",
+      "raw_files": 11,
+      "raw_bytes": 18287876,
+      "documents": 11,
+      "chunks": 4321
+    },
+    "blizzhackers-d2data": {
+      "source_name": "blizzhackers/d2data",
+      "raw_files": 4,
+      "raw_bytes": 117579,
+      "documents": 4,
+      "chunks": 112
+    },
+    "diablo2-net-api": {
+      "source_name": "Diablo-2.net API",
+      "raw_files": 4,
+      "raw_bytes": 66007,
+      "documents": 4,
+      "chunks": 19
+    },
+    "blizzard-cn-d2": {
+      "source_name": "Diablo II China official portal",
+      "raw_files": 3,
+      "raw_bytes": 72653,
+      "documents": 3,
+      "chunks": 5
+    }
+  }
+}

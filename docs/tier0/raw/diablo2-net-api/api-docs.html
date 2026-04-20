@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager 
+publishes Hotjar, Osano, Cloudflare Insights
+-->
+<script nonce='g00gl3T4gM4n4g3r'>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
+n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH9NFHH');</script>
+
+<!-- Clarity tracking code for https://diablo-2.net/ -->
+<script nonce="MsClar1tyDw2232seddd2x">    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "agay9gxems");</script>
+<!-- End Google Tag Manager -->
+<!-- CSS -->
+<link rel="stylesheet" href="/css/items/bs-tooltip-d2r.css" type="text/css" /><link rel="stylesheet" href="/css/global-d2r.css" type="text/css" /><link rel="stylesheet" href="/css/items/item-images.css" type="text/css">
+<!--<link rel="stylesheet" href="/css/items/item-images.css" type="text/css"> -->
+<!--<link rel="stylesheet" media="screen and (min-width: 2000px)" href="/css/global-hd.css" />  for 2k and 4k screens -->
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--<script src="https://cmp.osano.com/Azyw0MRqsJpcl14Dd/c221499b-107b-4786-9cb1-952f3d097ce8/osano.js"></script>-->
+<script src="/js/random-background-d2r.js?1776651122"></script><!--<script src="https://platform-api.sharethis.com/js/sharethis.js#property=6086795eb304e100190b577d&product=inline-share-buttons" async="async"></script>-->
+<title>Diablo 2 API | Diablo-2.net</title>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- Meta tags -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Language" content="en-US" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Dimitar Dzhongov" />
+<meta name="keywords" content="API, Diablo 2 API, D2 API, Diablo 2 Resurrected API, Resurrected API, Items API">
+<meta name="description" content="Unofficial Diablo 2 API - Get Character, Area, Items stats via an API call for you website and do something fun with it.">
+<!-- Facebook Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.diablo-2.net/api/">
+<meta property="og:title" content="Diablo 2 API">
+<meta property="og:description" content="Unofficial Diablo 2 API - Get Character, Area, Items stats via an API call for you website and do something fun with it.">
+<meta property="og:image" content="/images/banners/og-d2-remaster.png" />
+<meta property="fb:app_id" content="1061751454210608" />
+<!-- Twitter Meta Tags -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@Djongov" />
+<meta property="twitter:creator" content="@Djongov" />
+<meta property="twitter:title" content="Diablo 2 API">
+<meta property="twitter:description" content="Unofficial Diablo 2 API - Get Character, Area, Items stats via an API call for you website and do something fun with it.">
+<meta property="twitter:image" content="/images/banners/og-d2-remaster.png" />
+<meta property="twitter:image:alt" content=" Diablo 2 Datbase fansite" />
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH9NFHH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Loader  
+<div class="page-loader"><h1>Loading.... Please wait</h1><br /><img src="/images/Diablo_II_main_page.png" alt="loading" /></div> 
+-->
+    <div class="all"> <!-- Entire page -->
+            <nav class="mainmenu"><!--
+<div class="theme-switch-wrapper">
+  <label class="theme-switch" for="checkbox">
+    <input type="checkbox" id="checkbox" />
+    <div class="slider round"></div>
+  </label>
+  <p>D2R/Classic Switch!</p>
+</div>-->
+
+<form id="reload-page" action="" method="post">
+
+<input type="hidden" name="theme" value="classic" /><button class="switch-button" type="Submit">Switch to D2 Legacy</button></form>
+<div class="visible-on-mobile">
+    <div id="sandwich" class="sandwich-container">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    </div>
+</div>
+<div id="menu-div-sandwich" class="hidden-on-mobile"><div class="menuwrapper">
+        <div class="menu-button">
+            <a id="" href="/" class="menu">
+                <div class="menu-button-insider">Home</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="articles" href="/articles/" class="menu">
+                <div class="menu-button-insider">Articles</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="trading" href="/trading/" class="menu">
+                <div class="menu-button-insider">Trading</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="skillcalculator" href="/skillcalculator" class="menu">
+                <div class="menu-button-insider">Calculators</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="runes" href="/runes/" class="menu">
+                <div class="menu-button-insider">Runes</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="items" href="/items/" class="menu">
+                <div class="menu-button-insider">Items</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="uniques" href="/uniques/" class="menu">
+                <div class="menu-button-insider">Unique Items</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="sets" href="/sets/" class="menu">
+                <div class="menu-button-insider">Set Items</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="articleshoradric" href="/articles/horadric" class="menu">
+                <div class="menu-button-insider">Horadric Cube</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="downloads" href="/downloads/" class="menu">
+                <div class="menu-button-insider">Downloads</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="acts" href="/acts/" class="menu">
+                <div class="menu-button-insider">Acts</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="monsters" href="/monsters/" class="menu">
+                <div class="menu-button-insider">Monsters</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="classes" href="/classes/" class="menu">
+                <div class="menu-button-insider">Classes</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="mercenaries" href="/mercenaries/" class="menu">
+                <div class="menu-button-insider">Mercenaries</div>
+            </a>
+        </div>
+        <div class="menu-button">
+            <a id="videos" href="/videos/" class="menu">
+                <div class="menu-button-insider">Videos</div>
+            </a>
+        </div></div></div><div class="timerdiv"><img class="center hoverbright" srcset="/images/logo/Diablo-2-Resurrected-Logo.webp 2.8x" alt="Diablo 2" title="Diablo 2" /><p class="timer" id="countdown"></p></div>
+<div class="front-banner">
+    <!--<script src="/js/countdown.js" async></script>-->
+    <p class="center white">Huge congrats to Maxroll and Riv for making the first full-featured D2/D2R planner for our beloved game. Head over to the Planner now - <a href="https://maxroll.gg/d2/d2planner/" target="_blank">https://maxroll.gg/d2/d2planner/</a></p>
+</div></nav>
+
+<main  class="-api-">
+
+<!-- Content --><p id="lastupdated">Page last updated: 10 February 2026 10:23</p>
+<div class="menuwrapper">
+        <div class="menu-button">
+            <a id="api" href="/api/" class="menu">
+                <div class="menu-button-insider">API Home</div>
+            </a>
+        </div></div><link rel="stylesheet" type="text/css" href="/css/loader.css" />
+<!-- Content Starts Here -->
+<h1 class="heading">Diablo 2 API</h1>
+<p>Welcome to www.diablo-2.net's API.</p>
+<p>Currently this API is exposing only the items endpoint. Others will come soon or when appropriate.</p>
+<h2>Authentication</h2>
+<p>Authentication is happening via a request header - X-D2API-KEY and with an api key as a value</p>
+<p>Currently, as we are in BETA, If you want a key for yourself, you need to contact me personally via the <a href="/contact" target="_blank">Contact Form</a> but I have left a key for general use:</p>
+<p class="break-word bold">X-D2API-KEY : b3dae14a34bb0c0bae3e965e7399e16205f14b7e07604fca76</p>
+<h2>Limits</h2>
+<p>The API enforces the following limits (number of requests made to the endpoint):</p>
+<table class="bordered">
+    <tbody>
+        <tr>
+            <td>Daily</td><td>1000</td>
+        </tr>
+        <tr>
+            <td>Total</td><td>100000</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Methods</h2>
+<p>Depending on the endpoint. Check individual endpoints for methods</p>
+<h2>Response</h2>
+<p>Response is in JSON Pretty format or XML</p>
+<p>Example</p>
+<p>https://www.diablo-2.net/api/items?item=ColossusSword&class=Barbarian&level=99&output=xml - XML reponse</p>
+<p>https://www.diablo-2.net/api/items?item=ColossusSword&class=Barbarian&level=99&output=json - JSON reponse</p>
+<p>https://www.diablo-2.net/api/items?item=ColossusSword&class=Barbarian&level=99 - Ommited output params defaults to JSON reponse</p>
+<h2>Endpoints</h2>
+<p>Here are the active api endpoints</p>
+<h3>White Items</h3>
+<p>If you want to query for a normal (white) item from the api, send GET method request to the endpoint https://www.diablo-2.net/api/items with some query parameters that are listed below</p>
+<p>Let's say you want to get the stats for white normal Colossus Sword. In this API, Colossus Sword becomes ColossusSword. If you want to recieve a white item the synthax is the following:</p>
+<div class="quote"><span class="c0py">https://www.diablo-2.net/api/items?item=ColossusSword&class=Barbarian&level=99</span></div>
+<small>* Make sure that you have the authentication header present</small>
+<p>Query parameters</p>
+<ul>
+    <li>item - format: removed spaces and removed ''. Example: The General's Tan Do Li Ga becomes TheGeneralsTanDoLiGa. Full list for devs - <a href="/api/items-list" target="_blank">here</a></li>
+    <li>class (case insensitive) - amazon, assassin, necromancer, barbarian, sorceres, paladin, druid</li>
+    <li>level - 1 to 99</li>
+    <li>output (Optional) - json - for JSON response or xml for xml response. Omitted defaults to json</li>
+</ul>
+<p>Try the API call. Also i will use the response of the API to build an image and tooltip and visualize the item</p>
+<form id="normal-item-form">
+    <input class="filterSearch" type="search" placeholder="Search..." /><br /><label for="item">Item</label><select id="item" name="item" required><optgroup label="Helms"><option value="Shako">Shako</option><option value="ShakoEth">ShakoEth</option><option value="WarHat">WarHat</option><option value="WarHatEth">WarHatEth</option><option value="Cap">Cap</option><option value="CapEth">CapEth</option><option value="Hydraskull">Hydraskull</option><option value="HydraskullEth">HydraskullEth</option><option value="Sallet">Sallet</option><option value="SalletEth">SalletEth</option><option value="SkullCap">SkullCap</option><option value="SkullCapEth">SkullCapEth</option><option value="Armet">Armet</option><option value="ArmetEth">ArmetEth</option><option value="Casque">Casque</option><option value="CasqueEth">CasqueEth</option><option value="HelmHelm">HelmHelm</option><option value="HelmHelmEth">HelmHelmEth</option><option value="GiantConch">GiantConch</option><option value="GiantConchEth">GiantConchEth</option><option value="Basinet">Basinet</option><option value="BasinetEth">BasinetEth</option><option value="FullHelm">FullHelm</option><option value="FullHelmEth">FullHelmEth</option><option value="BoneVisage">BoneVisage</option><option value="BoneVisageEth">BoneVisageEth</option><option value="GrimHelm">GrimHelm</option><option value="GrimHelmEth">GrimHelmEth</option><option value="BoneHelm">BoneHelm</option><option value="BoneHelmEth">BoneHelmEth</option><option value="Demonhead">Demonhead</option><option value="DemonheadEth">DemonheadEth</option><option value="DeathMask">DeathMask</option><option value="DeathMaskEth">DeathMaskEth</option><option value="Mask">Mask</option><option value="MaskEth">MaskEth</option><option value="SpiredHelm">SpiredHelm</option><option value="SpiredHelmEth">SpiredHelmEth</option><option value="WingedHelm">WingedHelm</option><option value="WingedHelmEth">WingedHelmEth</option><option value="GreatHelm">GreatHelm</option><option value="GreatHelmEth">GreatHelmEth</option><option value="Corona">Corona</option><option value="CoronaEth">CoronaEth</option><option value="GrandCrown">GrandCrown</option><option value="GrandCrownEth">GrandCrownEth</option><option value="Crown">Crown</option><option value="CrownEth">CrownEth</option><optgroup label="Armors"><option value="DuskShroud">DuskShroud</option><option value="DuskShroudEth">DuskShroudEth</option><option value="GhostArmor">GhostArmor</option><option value="GhostArmorEth">GhostArmorEth</option><option value="QuiltedArmor">QuiltedArmor</option><option value="QuiltedArmorEth">QuiltedArmorEth</option><option value="Wyrmhide">Wyrmhide</option><option value="WyrmhideEth">WyrmhideEth</option><option value="SerpetnskinArmor">SerpetnskinArmor</option><option value="SerpetnskinArmorEth">SerpetnskinArmorEth</option><option value="LeatherArmor">LeatherArmor</option><option value="LeatherArmorEth">LeatherArmorEth</option><option value="ScarabHusk">ScarabHusk</option><option value="ScarabHuskEth">ScarabHuskEth</option><option value="DemonhideArmor">DemonhideArmor</option><option value="DemonhideArmorEth">DemonhideArmorEth</option><option value="HardLeatherArmor">HardLeatherArmor</option><option value="HardLeatherArmorEth">HardLeatherArmorEth</option><option value="WireFleece">WireFleece</option><option value="WireFleeceEth">WireFleeceEth</option><option value="TrellisedArmor">TrellisedArmor</option><option value="TrellisedArmorEth">TrellisedArmorEth</option><option value="StuddedLeather">StuddedLeather</option><option value="StuddedLeatherEth">StuddedLeatherEth</option><option value="DiamondMail">DiamondMail</option><option value="DiamondMailEth">DiamondMailEth</option><option value="LinkedMail">LinkedMail</option><option value="LinkedMailEth">LinkedMailEth</option><option value="RingMail">RingMail</option><option value="RingMailEth">RingMailEth</option><option value="LoricatedMail">LoricatedMail</option><option value="LoricatedMailEth">LoricatedMailEth</option><option value="TigulatedMail">TigulatedMail</option><option value="TigulatedMailEth">TigulatedMailEth</option><option value="ScaleMail">ScaleMail</option><option value="ScaleMailEth">ScaleMailEth</option><option value="Boneweave">Boneweave</option><option value="BoneweaveEth">BoneweaveEth</option><option value="MeshArmor">MeshArmor</option><option value="MeshArmorEth">MeshArmorEth</option><option value="ChainMail">ChainMail</option><option value="ChainMailEth">ChainMailEth</option><option value="GreatHauberk">GreatHauberk</option><option value="GreatHauberkEth">GreatHauberkEth</option><option value="Cuirass">Cuirass</option><option value="CuirassEth">CuirassEth</option><option value="BreastPlate">BreastPlate</option><option value="BreastPlateEth">BreastPlateEth</option><option value="BalrogSkin">BalrogSkin</option><option value="BalrogSkinEth">BalrogSkinEth</option><option value="RussetArmor">RussetArmor</option><option value="RussetArmorEth">RussetArmorEth</option><option value="SplintMail">SplintMail</option><option value="SplintMailEth">SplintMailEth</option><option value="HellforgePlate">HellforgePlate</option><option value="HellforgePlateEth">HellforgePlateEth</option><option value="TemplarCoat">TemplarCoat</option><option value="TemplarCoatEth">TemplarCoatEth</option><option value="PlateMail">PlateMail</option><option value="PlateMailEth">PlateMailEth</option><option value="KrakenShell">KrakenShell</option><option value="KrakenShellEth">KrakenShellEth</option><option value="SharktoothArmor">SharktoothArmor</option><option value="SharktoothArmorEth">SharktoothArmorEth</option><option value="FieldPlate">FieldPlate</option><option value="FieldPlateEth">FieldPlateEth</option><option value="LacqueredPlate">LacqueredPlate</option><option value="LacqueredPlateEth">LacqueredPlateEth</option><option value="EmbossedPlate">EmbossedPlate</option><option value="EmbossedPlateEth">EmbossedPlateEth</option><option value="GothicPlate">GothicPlate</option><option value="GothicPlateEth">GothicPlateEth</option><option value="ArchonPlate">ArchonPlate</option><option value="ArchonPlateEth">ArchonPlateEth</option><option value="MagePlate">MagePlate</option><option value="MagePlateEth">MagePlateEth</option><option value="LightPlate">LightPlate</option><option value="LightPlateEth">LightPlateEth</option><option value="ShadowPlate">ShadowPlate</option><option value="ShadowPlateEth">ShadowPlateEth</option><option value="ChaosArmor">ChaosArmor</option><option value="ChaosArmorEth">ChaosArmorEth</option><option value="FullPlateMail">FullPlateMail</option><option value="FullPlateMailEth">FullPlateMailEth</option><option value="SacredArmor">SacredArmor</option><option value="SacredArmorEth">SacredArmorEth</option><option value="SacredArmorEthEbug">SacredArmorEthEbug</option><option value="OrnatePlate">OrnatePlate</option><option value="OrnatePlateEth">OrnatePlateEth</option><option value="OrnatePlateEthEbug">OrnatePlateEthEbug</option><option value="AncientArmor">AncientArmor</option><option value="AncientArmorEth">AncientArmorEth</option><option value="AncientArmorEthEbug">AncientArmorEthEbug</option><optgroup label="Shields"><option value="Heater">Heater</option><option value="HeaterEth">HeaterEth</option><option value="Defender">Defender</option><option value="DefenderEth">DefenderEth</option><option value="Buckler">Buckler</option><option value="BucklerEth">BucklerEth</option><option value="Luna">Luna</option><option value="LunaEth">LunaEth</option><option value="RoundShield">RoundShield</option><option value="RoundShieldEth">RoundShieldEth</option><option value="SmallShield">SmallShield</option><option value="SmallShieldEth">SmallShieldEth</option><option value="Hyperion">Hyperion</option><option value="HyperionEth">HyperionEth</option><option value="Scutum">Scutum</option><option value="ScutumEth">ScutumEth</option><option value="LargeShield">LargeShield</option><option value="LargeShieldEth">LargeShieldEth</option><option value="BladeBarrier">BladeBarrier</option><option value="BladeBarrierEth">BladeBarrierEth</option><option value="BarbedShield">BarbedShield</option><option value="BarbedShieldEth">BarbedShieldEth</option><option value="SpikedShield">SpikedShield</option><option value="SpikedShieldEth">SpikedShieldEth</option><option value="Monarch">Monarch</option><option value="MonarchEth">MonarchEth</option><option value="DragonShield">DragonShield</option><option value="DragonShieldEth">DragonShieldEth</option><option value="KiteShield">KiteShield</option><option value="KiteShieldEth">KiteShieldEth</option><option value="TrollNest">TrollNest</option><option value="TrollNestEth">TrollNestEth</option><option value="GrimShield">GrimShield</option><option value="GrimShieldEth">GrimShieldEth</option><option value="BoneShield">BoneShield</option><option value="BoneShieldEth">BoneShieldEth</option><option value="Aegis">Aegis</option><option value="AegisEth">AegisEth</option><option value="Pavise">Pavise</option><option value="PaviseEth">PaviseEth</option><option value="TowerShield">TowerShield</option><option value="TowerShieldEth">TowerShieldEth</option><option value="Ward">Ward</option><option value="WardEth">WardEth</option><option value="AncientShield">AncientShield</option><option value="AncientShieldEth">AncientShieldEth</option><option value="GothicShield">GothicShield</option><option value="GothicShieldEth">GothicShieldEth</option><optgroup label="Gloves"><option value="BrambleMitts">BrambleMitts</option><option value="BrambleMittsEth">BrambleMittsEth</option><option value="DemonhideGloves">DemonhideGloves</option><option value="DemonhideGlovesEth">DemonhideGlovesEth</option><option value="LeatherGloves">LeatherGloves</option><option value="LeatherGlovesEth">LeatherGlovesEth</option><option value="VampireboneGloves">VampireboneGloves</option><option value="VampireboneGlovesEth">VampireboneGlovesEth</option><option value="SharkskinGloves">SharkskinGloves</option><option value="SharkskinGlovesEth">SharkskinGlovesEth</option><option value="HeavyGloves">HeavyGloves</option><option value="HeavyGlovesEth">HeavyGlovesEth</option><option value="Vambracers">Vambracers</option><option value="VambracersEth">VambracersEth</option><option value="HeavyBracers">HeavyBracers</option><option value="HeavyBracersEth">HeavyBracersEth</option><option value="ChainGloves">ChainGloves</option><option value="ChainGlovesEth">ChainGlovesEth</option><option value="CrusaderGauntlets">CrusaderGauntlets</option><option value="CrusaderGauntletsEth">CrusaderGauntletsEth</option><option value="BattleGauntlets">BattleGauntlets</option><option value="BattleGauntletsEth">BattleGauntletsEth</option><option value="LightGauntlets">LightGauntlets</option><option value="LightGauntletsEth">LightGauntletsEth</option><option value="OgreGauntlets">OgreGauntlets</option><option value="OgreGauntletsEth">OgreGauntletsEth</option><option value="WarGauntlets">WarGauntlets</option><option value="WarGauntletsEth">WarGauntletsEth</option><option value="Gauntlets">Gauntlets</option><option value="GauntletsEth">GauntletsEth</option><optgroup label="Boots"><option value="WyrmhideBoots">WyrmhideBoots</option><option value="WyrmhideBootsEth">WyrmhideBootsEth</option><option value="DemonhideBoots">DemonhideBoots</option><option value="DemonhideBootsEth">DemonhideBootsEth</option><option value="BootsBoots">BootsBoots</option><option value="BootsBootsEth">BootsBootsEth</option><option value="ScarabshellBoots">ScarabshellBoots</option><option value="ScarabshellBootsEth">ScarabshellBootsEth</option><option value="SharkskinBoots">SharkskinBoots</option><option value="SharkskinBootsEth">SharkskinBootsEth</option><option value="HeavyBoots">HeavyBoots</option><option value="HeavyBootsEth">HeavyBootsEth</option><option value="BoneweaveBoots">BoneweaveBoots</option><option value="BoneweaveBootsEth">BoneweaveBootsEth</option><option value="MeshBoots">MeshBoots</option><option value="MeshBootsEth">MeshBootsEth</option><option value="ChainBoots">ChainBoots</option><option value="ChainBootsEth">ChainBootsEth</option><option value="MirroredBoots">MirroredBoots</option><option value="MirroredBootsEth">MirroredBootsEth</option><option value="BattleBoots">BattleBoots</option><option value="BattleBootsEth">BattleBootsEth</option><option value="LightPlatedBoots">LightPlatedBoots</option><option value="LightPlatedBootsEth">LightPlatedBootsEth</option><option value="MyrmidonGreaves">MyrmidonGreaves</option><option value="MyrmidonGreavesEth">MyrmidonGreavesEth</option><option value="WarBoots">WarBoots</option><option value="WarBootsEth">WarBootsEth</option><option value="Greaves">Greaves</option><option value="GreavesEth">GreavesEth</option><optgroup label="Circlets"><option value="Coronet">Coronet</option><option value="CoronetEth">CoronetEth</option><option value="Circlet">Circlet</option><option value="CircletEth">CircletEth</option><option value="Diadem">Diadem</option><option value="DiademEth">DiademEth</option><option value="Tiara">Tiara</option><option value="TiaraEth">TiaraEth</option><optgroup label="Axes"><option value="Tomahawk">Tomahawk</option><option value="TomahawkEth">TomahawkEth</option><option value="Hatchet">Hatchet</option><option value="HatchetEth">HatchetEth</option><option value="HandAxe">HandAxe</option><option value="HandAxeEth">HandAxeEth</option><option value="SmallCrescent">SmallCrescent</option><option value="SmallCrescentEth">SmallCrescentEth</option><option value="Cleaver">Cleaver</option><option value="CleaverEth">CleaverEth</option><option value="Axe">Axe</option><option value="AxeEth">AxeEth</option><option value="EttinAxe">EttinAxe</option><option value="EttinAxeEth">EttinAxeEth</option><option value="TwinAxe">TwinAxe</option><option value="TwinAxeEth">TwinAxeEth</option><option value="DoubleAxe">DoubleAxe</option><option value="DoubleAxeEth">DoubleAxeEth</option><option value="WarSpike">WarSpike</option><option value="WarSpikeEth">WarSpikeEth</option><option value="Crowbill">Crowbill</option><option value="CrowbillEth">CrowbillEth</option><option value="MilitaryPick">MilitaryPick</option><option value="MilitaryPickEth">MilitaryPickEth</option><option value="BerserkerAxe">BerserkerAxe</option><option value="BerserkerAxeEth">BerserkerAxeEth</option><option value="Naga">Naga</option><option value="NagaEth">NagaEth</option><option value="WarAxe">WarAxe</option><option value="WarAxeEth">WarAxeEth</option><optgroup label="Two-Handed-Axes"><option value="FeralAxe">FeralAxe</option><option value="FeralAxeEth">FeralAxeEth</option><option value="MilitaryAxe">MilitaryAxe</option><option value="MilitaryAxeEth">MilitaryAxeEth</option><option value="LargeAxe">LargeAxe</option><option value="LargeAxeEth">LargeAxeEth</option><option value="SilverEdgedAxe">SilverEdgedAxe</option><option value="SilverEdgedAxeEth">SilverEdgedAxeEth</option><option value="BeardedAxe">BeardedAxe</option><option value="BeardedAxeEth">BeardedAxeEth</option><option value="BroadAxe">BroadAxe</option><option value="BroadAxeEth">BroadAxeEth</option><option value="Decapitator">Decapitator</option><option value="DecapitatorEth">DecapitatorEth</option><option value="Tabar">Tabar</option><option value="TabarEth">TabarEth</option><option value="BattleAxe">BattleAxe</option><option value="BattleAxeEth">BattleAxeEth</option><option value="ChampionAxe">ChampionAxe</option><option value="ChampionAxeEth">ChampionAxeEth</option><option value="GothicAxe">GothicAxe</option><option value="GothicAxeEth">GothicAxeEth</option><option value="GreatAxe">GreatAxe</option><option value="GreatAxeEth">GreatAxeEth</option><option value="GloriousAxe">GloriousAxe</option><option value="GloriousAxeEth">GloriousAxeEth</option><option value="AncientAxe">AncientAxe</option><option value="AncientAxeEth">AncientAxeEth</option><option value="GiantAxe">GiantAxe</option><option value="GiantAxeEth">GiantAxeEth</option><optgroup label="Maces"><option value="Hammers">Hammers</option><option value="Truncheon">Truncheon</option><option value="TruncheonEth">TruncheonEth</option><option value="Cudgel">Cudgel</option><option value="CudgelEth">CudgelEth</option><option value="Club">Club</option><option value="ClubEth">ClubEth</option><option value="TyrantClub">TyrantClub</option><option value="TyrantClubEth">TyrantClubEth</option><option value="BarbedClub">BarbedClub</option><option value="BarbedClubEth">BarbedClubEth</option><option value="SpikedClub">SpikedClub</option><option value="SpikedClubEth">SpikedClubEth</option><option value="ReinforcedMace">ReinforcedMace</option><option value="ReinforcedMaceEth">ReinforcedMaceEth</option><option value="FlangedMace">FlangedMace</option><option value="FlangedMaceEth">FlangedMaceEth</option><option value="Mace">Mace</option><option value="MaceEth">MaceEth</option><option value="DevilStar">DevilStar</option><option value="DevilStarEth">DevilStarEth</option><option value="JaggedStar">JaggedStar</option><option value="JaggedStarEth">JaggedStarEth</option><option value="MorningStar">MorningStar</option><option value="MorningStarEth">MorningStarEth</option><option value="Scourge">Scourge</option><option value="ScourgeEth">ScourgeEth</option><option value="Knout">Knout</option><option value="KnoutEth">KnoutEth</option><option value="Flail">Flail</option><option value="FlailEth">FlailEth</option><option value="LegendaryMallet">LegendaryMallet</option><option value="LegendaryMalletEth">LegendaryMalletEth</option><option value="BattleHammer">BattleHammer</option><option value="BattleHammerEth">BattleHammerEth</option><option value="WarHammer">WarHammer</option><option value="WarHammerEth">WarHammerEth</option><option value="WirtsLeg">WirtsLeg</option><option value="WirtsLegEth">WirtsLegEth</option><optgroup label="Two-Handed-Maces"><option value="OgreMaul">OgreMaul</option><option value="OgreMaulEth">OgreMaulEth</option><option value="WarClub">WarClub</option><option value="WarClubEth">WarClubEth</option><option value="Maul">Maul</option><option value="MaulEth">MaulEth</option><option value="ThunderMaul">ThunderMaul</option><option value="ThunderMaulEth">ThunderMaulEth</option><option value="MartelDeFer">MartelDeFer</option><option value="MartelDeFerEth">MartelDeFerEth</option><option value="GreatMaul">GreatMaul</option><option value="GreatMaulEth">GreatMaulEth</option><optgroup label="Swords"><option value="Falcata">Falcata</option><option value="FalcataEth">FalcataEth</option><option value="Gladius">Gladius</option><option value="GladiusEth">GladiusEth</option><option value="ShortSword">ShortSword</option><option value="ShortSwordEth">ShortSwordEth</option><option value="Ataghan">Ataghan</option><option value="AtaghanEth">AtaghanEth</option><option value="Cutlass">Cutlass</option><option value="CutlassEth">CutlassEth</option><option value="Scimitar">Scimitar</option><option value="ScimitarEth">ScimitarEth</option><option value="ElegantBlade">ElegantBlade</option><option value="ElegantBladeEth">ElegantBladeEth</option><option value="Shamshir">Shamshir</option><option value="ShamshirEth">ShamshirEth</option><option value="Sabre">Sabre</option><option value="SabreEth">SabreEth</option><option value="HydraEdge">HydraEdge</option><option value="HydraEdgeEth">HydraEdgeEth</option><option value="Tulwar">Tulwar</option><option value="TulwarEth">TulwarEth</option><option value="Falchion">Falchion</option><option value="FalchionEth">FalchionEth</option><option value="PhaseBlade">PhaseBlade</option><option value="PhaseBladeEth">PhaseBladeEth</option><option value="DimensionalBlade">DimensionalBlade</option><option value="DimensionalBladeEth">DimensionalBladeEth</option><option value="CrystalSword">CrystalSword</option><option value="CrystalSwordEth">CrystalSwordEth</option><option value="ConquestSword">ConquestSword</option><option value="ConquestSwordEth">ConquestSwordEth</option><option value="BattleSword">BattleSword</option><option value="BattleSwordEth">BattleSwordEth</option><option value="BroadSword">BroadSword</option><option value="BroadSwordEth">BroadSwordEth</option><option value="CrypticSword">CrypticSword</option><option value="CrypticSwordEth">CrypticSwordEth</option><option value="RuneSword">RuneSword</option><option value="RuneSwordEth">RuneSwordEth</option><option value="LongSword">LongSword</option><option value="LongSwordEth">LongSwordEth</option><option value="MythicalSword">MythicalSword</option><option value="MythicalSwordEth">MythicalSwordEth</option><option value="AncientSword">AncientSword</option><option value="AncientSwordEth">AncientSwordEth</option><option value="WarSword">WarSword</option><option value="WarSwordEth">WarSwordEth</option><optgroup label="Two-Handed-Swords"><option value="LegendSword">LegendSword</option><option value="LegendSwordEth">LegendSwordEth</option><option value="Espandon">Espandon</option><option value="EspandonEth">EspandonEth</option><option value="TwohandedSword">TwohandedSword</option><option value="TwohandedSwordEth">TwohandedSwordEth</option><option value="HighlandBlade">HighlandBlade</option><option value="HighlandBladeEth">HighlandBladeEth</option><option value="DacianFalx">DacianFalx</option><option value="DacianFalxEth">DacianFalxEth</option><option value="Claymore">Claymore</option><option value="ClaymoreEth">ClaymoreEth</option><option value="BalrogBlade">BalrogBlade</option><option value="BalrogBladeEth">BalrogBladeEth</option><option value="TuskSword">TuskSword</option><option value="TuskSwordEth">TuskSwordEth</option><option value="GiantSword">GiantSword</option><option value="GiantSwordEth">GiantSwordEth</option><option value="ChampionSword">ChampionSword</option><option value="ChampionSwordEth">ChampionSwordEth</option><option value="GothicSword">GothicSword</option><option value="GothicSwordEth">GothicSwordEth</option><option value="BastardSword">BastardSword</option><option value="BastardSwordEth">BastardSwordEth</option><option value="ColossusSword">ColossusSword</option><option value="ColossusSwordEth">ColossusSwordEth</option><option value="Zweihander">Zweihander</option><option value="ZweihanderEth">ZweihanderEth</option><option value="Flamberge">Flamberge</option><option value="FlambergeEth">FlambergeEth</option><option value="ColossusBlade">ColossusBlade</option><option value="ColossusBladeEth">ColossusBladeEth</option><option value="ExecutionerSword">ExecutionerSword</option><option value="ExecutionerSwordEth">ExecutionerSwordEth</option><option value="GreatSword">GreatSword</option><option value="GreatSwordEth">GreatSwordEth</option><optgroup label="Bows"><option value="SpiderBow">SpiderBow</option><option value="EdgeBow">EdgeBow</option><option value="ShortBow">ShortBow</option><option value="BladeBow">BladeBow</option><option value="RazorBow">RazorBow</option><option value="HuntersBow">HuntersBow</option><option value="ShadowBow">ShadowBow</option><option value="CedarBow">CedarBow</option><option value="LongBow">LongBow</option><option value="GreatBow">GreatBow</option><option value="DoubleBow">DoubleBow</option><option value="CompositeBow">CompositeBow</option><option value="DiamondBow">DiamondBow</option><option value="ShortSiegeBow">ShortSiegeBow</option><option value="ShortBattleBow">ShortBattleBow</option><option value="CrusaderBow">CrusaderBow</option><option value="LargeSiegeBow">LargeSiegeBow</option><option value="LongBattleBow">LongBattleBow</option><option value="WardBow">WardBow</option><option value="RuneBow">RuneBow</option><option value="ShortWarBow">ShortWarBow</option><option value="HydraBow">HydraBow</option><option value="GothicBow">GothicBow</option><option value="LongWarBow">LongWarBow</option><optgroup label="Crossbows"><option value="PelletBow">PelletBow</option><option value="Arbalest">Arbalest</option><option value="LightCrossbow">LightCrossbow</option><option value="GorgonCrossbow">GorgonCrossbow</option><option value="SiegeCrossbow">SiegeCrossbow</option><option value="Crossbow">Crossbow</option><option value="ColossusCrossbow">ColossusCrossbow</option><option value="Ballista">Ballista</option><option value="HeavyCrossbow">HeavyCrossbow</option><option value="DemonCrossbow">DemonCrossbow</option><option value="ChuKoNu">ChuKoNu</option><option value="RepeatingCrossbow">RepeatingCrossbow</option><optgroup label="Javelins"><option value="HyperionJavelin">HyperionJavelin</option><option value="HyperionJavelinEth">HyperionJavelinEth</option><option value="WarJavelin">WarJavelin</option><option value="WarJavelinEth">WarJavelinEth</option><option value="Javelin">Javelin</option><option value="JavelinEth">JavelinEth</option><option value="StygianPilum">StygianPilum</option><option value="StygianPilumEth">StygianPilumEth</option><option value="GreatPilum">GreatPilum</option><option value="GreatPilumEth">GreatPilumEth</option><option value="Pilum">Pilum</option><option value="PilumEth">PilumEth</option><option value="BalrogSpear">BalrogSpear</option><option value="BalrogSpearEth">BalrogSpearEth</option><option value="Simbilan">Simbilan</option><option value="SimbilanEth">SimbilanEth</option><option value="ShortSpear">ShortSpear</option><option value="ShortSpearEth">ShortSpearEth</option><option value="GhostGlaive">GhostGlaive</option><option value="GhostGlaiveEth">GhostGlaiveEth</option><option value="Spiculum">Spiculum</option><option value="SpiculumEth">SpiculumEth</option><option value="Glaive">Glaive</option><option value="GlaiveEth">GlaiveEth</option><option value="WingedHarpoon">WingedHarpoon</option><option value="WingedHarpoonEth">WingedHarpoonEth</option><option value="Harpoon">Harpoon</option><option value="HarpoonEth">HarpoonEth</option><option value="ThrowingSpear">ThrowingSpear</option><option value="ThrowingSpearEth">ThrowingSpearEth</option><optgroup label="Staves"><option value="WalkingStick">WalkingStick</option><option value="WalkingStickEth">WalkingStickEth</option><option value="JoStaff">JoStaff</option><option value="JoStaffEth">JoStaffEth</option><option value="ShortStaff">ShortStaff</option><option value="ShortStaffEth">ShortStaffEth</option><option value="Stalagmite">Stalagmite</option><option value="StalagmiteEth">StalagmiteEth</option><option value="Quaterstaff">Quaterstaff</option><option value="QuaterstaffEth">QuaterstaffEth</option><option value="LongStaff">LongStaff</option><option value="LongStaffEth">LongStaffEth</option><option value="ElderStaff">ElderStaff</option><option value="ElderStaffEth">ElderStaffEth</option><option value="CedarStaff">CedarStaff</option><option value="CedarStaffEth">CedarStaffEth</option><option value="GnarledStaff">GnarledStaff</option><option value="GnarledStaffEth">GnarledStaffEth</option><option value="Shillelagh">Shillelagh</option><option value="ShillelaghEth">ShillelaghEth</option><option value="GothicStaff">GothicStaff</option><option value="GothicStaffEth">GothicStaffEth</option><option value="BattleStaff">BattleStaff</option><option value="BattleStaffEth">BattleStaffEth</option><option value="ArchonStaff">ArchonStaff</option><option value="ArchonStaffEth">ArchonStaffEth</option><option value="RuneStaff">RuneStaff</option><option value="RuneStaffEth">RuneStaffEth</option><option value="WarStaff">WarStaff</option><option value="WarStaffEth">WarStaffEth</option><optgroup label="Throwing-Weapons"><option value="FlyingKnife">FlyingKnife</option><option value="FlyingKnifeEth">FlyingKnifeEth</option><option value="BattleDart">BattleDart</option><option value="BattleDartEth">BattleDartEth</option><option value="ThrowingKnife">ThrowingKnife</option><option value="ThrowingKnifeEth">ThrowingKnifeEth</option><option value="WingedKnife">WingedKnife</option><option value="WingedKnifeEth">WingedKnifeEth</option><option value="WarDart">WarDart</option><option value="WarDartEth">WarDartEth</option><option value="BalancedKnife">BalancedKnife</option><option value="BalancedKnifeEth">BalancedKnifeEth</option><option value="FlyingAxe">FlyingAxe</option><option value="FlyingAxeEth">FlyingAxeEth</option><option value="Francisca">Francisca</option><option value="FranciscaEth">FranciscaEth</option><option value="ThrowingAxe">ThrowingAxe</option><option value="ThrowingAxeEth">ThrowingAxeEth</option><option value="WingedAxe">WingedAxe</option><option value="WingedAxeEth">WingedAxeEth</option><option value="Hurlbat">Hurlbat</option><option value="HurlbatEth">HurlbatEth</option><option value="BalancedAxe">BalancedAxe</option><option value="BalancedAxeEth">BalancedAxeEth</option><optgroup label="Wands"><option value="PolishedWand">PolishedWand</option><option value="PolishedWandEth">PolishedWandEth</option><option value="BurntWand">BurntWand</option><option value="BurntWandEth">BurntWandEth</option><option value="Wand">Wand</option><option value="WandEth">WandEth</option><option value="GhostWand">GhostWand</option><option value="GhostWandEth">GhostWandEth</option><option value="PetrifiedWand">PetrifiedWand</option><option value="PetrifiedWandEth">PetrifiedWandEth</option><option value="YewWand">YewWand</option><option value="YewWandEth">YewWandEth</option><option value="LichWand">LichWand</option><option value="LichWandEth">LichWandEth</option><option value="TombWand">TombWand</option><option value="TombWandEth">TombWandEth</option><option value="BoneWand">BoneWand</option><option value="BoneWandEth">BoneWandEth</option><option value="UnearthedWand">UnearthedWand</option><option value="UnearthedWandEth">UnearthedWandEth</option><option value="GraveWand">GraveWand</option><option value="GraveWandEth">GraveWandEth</option><option value="GrimWand">GrimWand</option><option value="GrimWandEth">GrimWandEth</option><optgroup label="Daggers"><option value="BoneKnife">BoneKnife</option><option value="BoneKnifeEth">BoneKnifeEth</option><option value="Poignard">Poignard</option><option value="PoignardEth">PoignardEth</option><option value="Dagger">Dagger</option><option value="DaggerEth">DaggerEth</option><option value="MithrilPoint">MithrilPoint</option><option value="MithrilPointEth">MithrilPointEth</option><option value="Rondel">Rondel</option><option value="RondelEth">RondelEth</option><option value="Dirk">Dirk</option><option value="DirkEth">DirkEth</option><option value="FangedKnife">FangedKnife</option><option value="FangedKnifeEth">FangedKnifeEth</option><option value="Cinquedeas">Cinquedeas</option><option value="CinquedeasEth">CinquedeasEth</option><option value="Kris">Kris</option><option value="KrisEth">KrisEth</option><option value="LegendSpike">LegendSpike</option><option value="LegendSpikeEth">LegendSpikeEth</option><option value="Stiletto">Stiletto</option><option value="StilettoEth">StilettoEth</option><option value="Blade">Blade</option><option value="BladeEth">BladeEth</option><optgroup label="Amazon-Weapons"><option value="MatriarchalJavelin">MatriarchalJavelin</option><option value="MatriarchalJavelinEth">MatriarchalJavelinEth</option><option value="CeremonialJavelin">CeremonialJavelin</option><option value="CeremonialJavelinEth">CeremonialJavelinEth</option><option value="MaidenJavelin">MaidenJavelin</option><option value="MaidenJavelinEth">MaidenJavelinEth</option><option value="AmazonBows">AmazonBows</option><option value="MatriarchalBow">MatriarchalBow</option><option value="AshwoodBow">AshwoodBow</option><option value="StagBow">StagBow</option><option value="GrandMatronBow">GrandMatronBow</option><option value="CeremonialBow">CeremonialBow</option><option value="ReflexBow">ReflexBow</option><option value="AmazonSpears">AmazonSpears</option><option value="MatriarchalSpear">MatriarchalSpear</option><option value="MatriarchalSpearEth">MatriarchalSpearEth</option><option value="CeremonialSpear">CeremonialSpear</option><option value="CeremonialSpearEth">CeremonialSpearEth</option><option value="MaidenSpear">MaidenSpear</option><option value="MaidenSpearEth">MaidenSpearEth</option><option value="MatriarchalPike">MatriarchalPike</option><option value="MatriarchalPikeEth">MatriarchalPikeEth</option><option value="CeremonialPike">CeremonialPike</option><option value="CeremonialPikeEth">CeremonialPikeEth</option><option value="MaidenPike">MaidenPike</option><option value="MaidenPikeEth">MaidenPikeEth</option><optgroup label="Assassin-Katars"><option value="Suwayyah">Suwayyah</option><option value="SuwayyahEth">SuwayyahEth</option><option value="Quhab">Quhab</option><option value="QuhabEth">QuhabEth</option><option value="Katar">Katar</option><option value="KatarEth">KatarEth</option><option value="WristSword">WristSword</option><option value="WristSwordEth">WristSwordEth</option><option value="WristSpike">WristSpike</option><option value="WristSpikeEth">WristSpikeEth</option><option value="WristBlade">WristBlade</option><option value="WristBladeEth">WristBladeEth</option><option value="WarFist">WarFist</option><option value="WarFistEth">WarFistEth</option><option value="Fascia">Fascia</option><option value="FasciaEth">FasciaEth</option><option value="HatchetHands">HatchetHands</option><option value="HatchetHandsEth">HatchetHandsEth</option><option value="BattleCestus">BattleCestus</option><option value="BattleCestusEth">BattleCestusEth</option><option value="HandScythe">HandScythe</option><option value="HandScytheEth">HandScytheEth</option><option value="Cestus">Cestus</option><option value="CestusEth">CestusEth</option><option value="FeralClaws">FeralClaws</option><option value="FeralClawsEth">FeralClawsEth</option><option value="GreaterClaws">GreaterClaws</option><option value="GreaterClawsEth">GreaterClawsEth</option><option value="Claws">Claws</option><option value="ClawsEth">ClawsEth</option><option value="RunicTalons">RunicTalons</option><option value="RunicTalonsEth">RunicTalonsEth</option><option value="GreaterTalons">GreaterTalons</option><option value="GreaterTalonsEth">GreaterTalonsEth</option><option value="BladeTalons">BladeTalons</option><option value="BladeTalonsEth">BladeTalonsEth</option><option value="ScissorsSuwayyah">ScissorsSuwayyah</option><option value="ScissorsSuwayyahEth">ScissorsSuwayyahEth</option><option value="ScissorsQuhab">ScissorsQuhab</option><option value="ScissorsQuhabEth">ScissorsQuhabEth</option><option value="ScissorsKatar">ScissorsKatar</option><option value="ScissorsKatarEth">ScissorsKatarEth</option><optgroup label="Necromancer-Shrunken-Heads"><option value="MinionSkull">MinionSkull</option><option value="MinionSkullEth">MinionSkullEth</option><option value="MummifiedTrophy">MummifiedTrophy</option><option value="MummifiedTrophyEth">MummifiedTrophyEth</option><option value="PreservedHead">PreservedHead</option><option value="PreservedHeadEth">PreservedHeadEth</option><option value="HellspawnSkull">HellspawnSkull</option><option value="HellspawnSkullEth">HellspawnSkullEth</option><option value="FetishTrophy">FetishTrophy</option><option value="FetishTrophyEth">FetishTrophyEth</option><option value="ZombieHead">ZombieHead</option><option value="ZombieHeadEth">ZombieHeadEth</option><option value="OverseerSkul">OverseerSkul</option><option value="OverseerSkulEth">OverseerSkulEth</option><option value="SextonTrophy">SextonTrophy</option><option value="SextonTrophyEth">SextonTrophyEth</option><option value="UnravellerHead">UnravellerHead</option><option value="UnravellerHeadEth">UnravellerHeadEth</option><option value="SuccubusSkull">SuccubusSkull</option><option value="SuccubusSkullEth">SuccubusSkullEth</option><option value="CantorTrophy">CantorTrophy</option><option value="CantorTrophyEth">CantorTrophyEth</option><option value="GargoyleHead">GargoyleHead</option><option value="GargoyleHeadEth">GargoyleHeadEth</option><option value="BloodlordSkull">BloodlordSkull</option><option value="BloodlordSkullEth">BloodlordSkullEth</option><option value="HierophantTrophy">HierophantTrophy</option><option value="HierophantTrophyEth">HierophantTrophyEth</option><option value="NecromancerDemonHead">NecromancerDemonHead</option><option value="NecromancerDemonHeadEth">NecromancerDemonHeadEth</option><optgroup label="Barbarian-Helms"><option value="CarnageHelm">CarnageHelm</option><option value="CarnageHelmEth">CarnageHelmEth</option><option value="JawboneVisor">JawboneVisor</option><option value="JawboneVisorEth">JawboneVisorEth</option><option value="JawboneCap">JawboneCap</option><option value="JawboneCapEth">JawboneCapEth</option><option value="FuryVisor">FuryVisor</option><option value="FuryVisorEth">FuryVisorEth</option><option value="LionHelm">LionHelm</option><option value="LionHelmEth">LionHelmEth</option><option value="FangedHelm">FangedHelm</option><option value="FangedHelmEth">FangedHelmEth</option><option value="DestroyerHelm">DestroyerHelm</option><option value="DestroyerHelmEth">DestroyerHelmEth</option><option value="RageMask">RageMask</option><option value="RageMaskEth">RageMaskEth</option><option value="HornedHelm">HornedHelm</option><option value="HornedHelmEth">HornedHelmEth</option><option value="ConquerorCrown">ConquerorCrown</option><option value="ConquerorCrownEth">ConquerorCrownEth</option><option value="SavageHelmet">SavageHelmet</option><option value="SavageHelmetEth">SavageHelmetEth</option><option value="AssaultHelmet">AssaultHelmet</option><option value="AssaultHelmetEth">AssaultHelmetEth</option><option value="GuardianCrown">GuardianCrown</option><option value="GuardianCrownEth">GuardianCrownEth</option><option value="SlayerGuard">SlayerGuard</option><option value="SlayerGuardEth">SlayerGuardEth</option><option value="AvengerGuard">AvengerGuard</option><option value="AvengerGuardEth">AvengerGuardEth</option><optgroup label="Sorceress-Orbs"><option value="HeavenlyStone">HeavenlyStone</option><option value="HeavenlyStoneEth">HeavenlyStoneEth</option><option value="GlowingOrb">GlowingOrb</option><option value="GlowingOrbEth">GlowingOrbEth</option><option value="EagleOrb">EagleOrb</option><option value="EagleOrbEth">EagleOrbEth</option><option value="EldritchOrb">EldritchOrb</option><option value="EldritchOrbEth">EldritchOrbEth</option><option value="CrystallineGlobe">CrystallineGlobe</option><option value="CrystallineGlobeEth">CrystallineGlobeEth</option><option value="SacredGlobe">SacredGlobe</option><option value="SacredGlobeEth">SacredGlobeEth</option><option value="DemonHeart">DemonHeart</option><option value="DemonHeartEth">DemonHeartEth</option><option value="CloudySphere">CloudySphere</option><option value="CloudySphereEth">CloudySphereEth</option><option value="SmokedSphere">SmokedSphere</option><option value="SmokedSphereEth">SmokedSphereEth</option><option value="VortexOrb">VortexOrb</option><option value="VortexOrbEth">VortexOrbEth</option><option value="SparklingBall">SparklingBall</option><option value="SparklingBallEth">SparklingBallEth</option><option value="ClaspedOrb">ClaspedOrb</option><option value="ClaspedOrbEth">ClaspedOrbEth</option><option value="DimensionalShard">DimensionalShard</option><option value="DimensionalShardEth">DimensionalShardEth</option><option value="SwirlingCrystal">SwirlingCrystal</option><option value="SwirlingCrystalEth">SwirlingCrystalEth</option><option value="JaredsStone">JaredsStone</option><option value="JaredsStoneEth">JaredsStoneEth</option><optgroup label="Druid-Pelts"><option value="BloodSpirit">BloodSpirit</option><option value="BloodSpiritEth">BloodSpiritEth</option><option value="AlphaHelm">AlphaHelm</option><option value="AlphaHelmEth">AlphaHelmEth</option><option value="WolfHead">WolfHead</option><option value="WolfHeadEth">WolfHeadEth</option><option value="SunSpirit">SunSpirit</option><option value="SunSpiritEth">SunSpiritEth</option><option value="GriffonHeaddress">GriffonHeaddress</option><option value="GriffonHeaddressEth">GriffonHeaddressEth</option><option value="HawkHelm">HawkHelm</option><option value="HawkHelmEth">HawkHelmEth</option><option value="EarthSpirit">EarthSpirit</option><option value="EarthSpiritEth">EarthSpiritEth</option><option value="HuntersGuise">HuntersGuise</option><option value="HuntersGuiseEth">HuntersGuiseEth</option><option value="Antlers">Antlers</option><option value="AntlersEth">AntlersEth</option><option value="SkySpirit">SkySpirit</option><option value="SkySpiritEth">SkySpiritEth</option><option value="SacredFeathers">SacredFeathers</option><option value="SacredFeathersEth">SacredFeathersEth</option><option value="FalconMask">FalconMask</option><option value="FalconMaskEth">FalconMaskEth</option><option value="DreamSpirit">DreamSpirit</option><option value="DreamSpiritEth">DreamSpiritEth</option><option value="TotemicMask">TotemicMask</option><option value="TotemicMaskEth">TotemicMaskEth</option><option value="SpiritMask">SpiritMask</option><option value="SpiritMaskEth">SpiritMaskEth</option><optgroup label="Paladin Shields"><option value="SacredTarge">SacredTarge</option><option value="SacredTargeEth">SacredTargeEth</option><option value="SacredTargeEthEbug">SacredTargeEthEbug</option><option value="AkaranTarge">AkaranTarge</option><option value="AkaranTargeEth">AkaranTargeEth</option><option value="AkaranTargeEthEbug">AkaranTargeEthEbug</option><option value="Targe">Targe</option><option value="TargeEth">TargeEth</option><option value="TargeEthEbug">TargeEthEbug</option><option value="SacredRondache">SacredRondache</option><option value="SacredRondacheEth">SacredRondacheEth</option><option value="SacredRondacheEthEbug">SacredRondacheEthEbug</option><option value="AkaranRondache">AkaranRondache</option><option value="AkaranRondacheEth">AkaranRondacheEth</option><option value="AkaranRondacheEthEbug">AkaranRondacheEthEbug</option><option value="Rondache">Rondache</option><option value="RondacheEth">RondacheEth</option><option value="RondacheEthEbug">RondacheEthEbug</option><option value="KurastShield">KurastShield</option><option value="KurastShieldEth">KurastShieldEth</option><option value="KurastShieldEthEbug">KurastShieldEthEbug</option><option value="ProtectorShield">ProtectorShield</option><option value="ProtectorShieldEth">ProtectorShieldEth</option><option value="ProtectorShieldEthEbug">ProtectorShieldEthEbug</option><option value="HeraldicShield">HeraldicShield</option><option value="HeraldicShieldEth">HeraldicShieldEth</option><option value="HeraldicShieldEthEbug">HeraldicShieldEthEbug</option><option value="ZakarumShield">ZakarumShield</option><option value="ZakarumShieldEth">ZakarumShieldEth</option><option value="ZakarumShieldEthEbug">ZakarumShieldEthEbug</option><option value="GildedShield">GildedShield</option><option value="GildedShieldEth">GildedShieldEth</option><option value="GildedShieldEthEbug">GildedShieldEthEbug</option><option value="AerinShield">AerinShield</option><option value="AerinShieldEth">AerinShieldEth</option><option value="AerinShieldEthEbug">AerinShieldEthEbug</option><option value="VortexShield">VortexShield</option><option value="VortexShieldEth">VortexShieldEth</option><option value="VortexShieldEthEbug">VortexShieldEthEbug</option><option value="RoyalShield">RoyalShield</option><option value="RoyalShieldEth">RoyalShieldEth</option><option value="RoyalShieldEthEbug">RoyalShieldEthEbug</option><option value="CrownShield">CrownShield</option><option value="CrownShieldEth">CrownShieldEth</option><option value="CrownShieldEthEbug">CrownShieldEthEbug</option><optgroup label="Rings"><option value="Ring">Ring</option><optgroup label="Amulets"><option value="Amulet">Amulet</option></select>    <select id="normal-class" name="class" required>
+        <option value="Amazon" selected>Amazon</option>
+        <option value="Assassin">Assassin</option>
+        <option value="Necromancer">Necromancer</option>
+        <option value="Barbarian">Barbarian</option>
+        <option value="Paladin">Paladin</option>
+        <option value="Sorceres">Sorceres</option>
+        <option value="Druid">Druid</option>
+    </select>
+    <input type="number" id="normal-level" name="level" min="1" max="99" value="99" required />
+    <p>
+        <label for="strength">Strength</label>
+        <input type="number" id="normal-strength" name="Strength" min="1" max="1001" value="75" required />
+    </p>
+    <p>
+        <label for="dexterity">Dexterity</label>
+        <input type="number" id="normal-dexterity" name="dexterity" min="1" max="1001" value="75" required />
+    </p>
+    <input type="submit" class="d2-submit" value="Fetch" />
+</form>
+<div id="loader-normal-items" class="loader">Loading...</div>
+<div id="normal-item-result" class="quote"></div>
+<h3>Unique Items</h3>
+<p>Let's say you want to get the stats for the unique item - The Gladiator's Bane (Wire Fleece). The synthax is very similar to white items and is this:</p>
+<p>The Gladiator's Bane becomes TheGladiatorsBane. So your query parameter will be item=GladiatorsBane</p>
+<p>But we need a base item too. In this API the base items are underscored. For example Wire Fleece becomes wire_fleece. If base item is Shako - shako. So in our case, wire_fleece. We need to append another query parameter called base-item and add the value. Example: base-item=wire_fleece</p>
+<p>So our entire call will look like this
+<div class="quote"><span class="c0py">https://www.diablo-2.net/api/unique-items?item=TheGrandFather&base-item=colossus_blade&class=Assassin&level=55&strength=75&dexterity=75&theme=d2r&identified=yes&output=json</span></div>
+<small>* Make sure that you have the authentication header present</small>
+<p>Query parameters</p>
+<ul>
+    <li>item - format: removed spaces and removed ''. Example: The General's Tan Do Li Ga becomes TheGeneralsTanDoLiGa </li>
+    <li>base-item: spaces and - are replaced with _ and ' are removed. Example: Sacred Armor - sacred_armor, Bec-De-Corbin - bec_de_corbin</li>
+    <li>class - (case insensitive) amazon, assassin, necromancer, barbarian, sorceres, paladin, druid</li>
+    <li>level - 1 to 99</li>
+    <li>identified (Optional) - yes (for identified item) or no (for unidentified item). Will default to identified if ommited</li>
+    <li>Strength (Optional) - 1 to 1000. Will default if ommited</li>
+    <li>Dexterity (Optional) - 1 to 1000. Will default if ommited</li>
+    <li>Theme (Optional) - 'd2r' for D2R and 'legacy' for Legacy. Will default to D2R if ommited</li>
+    <li>output (Optional) - json - for JSON response or xml for xml response. Omitted defaults to json</li>
+</ul>
+<p>I have not restricted the base items :D This means you can try TheGrandFather sacred_armor (not very meaningful) or TyraelsMight quilted_armor, which is a lot of fun :)</p>
+<p>Try the API call. Also i will use the response of the API to build an image and tooltip and visualize the item</p>
+<form id="unique-item-form">
+    <p>
+        <label for="unique-item">Item</label>
+        <input type="text" id="unique-item" name="unique-item" minlength="3" maxlength="25" placeholder="TheGrandFather" value="TheGrandFather" required />
+    </p>
+    <p>
+        <label for="unique-item">Base Item</label>
+        <input type="text" id="base-item" name="base-item" minlength="3" maxlength="25" placeholder="colossus_blade" value="colossus_blade" required />
+    </p>
+    <p>
+        <label for="unique-class">Class</label>
+        <select id="unique-class" name="unique-class" required>
+            <option value="Amazon">Amazon</option>
+            <option value="Assassin" selected>Assassin</option>
+            <option value="Necromancer">Necromancer</option>
+            <option value="Barbarian">Barbarian</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Sorceres">Sorceres</option>
+            <option value="Druid">Druid</option>
+        </select>
+    </p>
+    <p>
+        <label for="level">Level</label>
+        <input type="number" id="unique-level" name="level" min="1" max="99" value="99" required />
+    </p>
+    <p>
+        <label for="strength">Strength</label>
+        <input type="number" id="unique-strength" name="Strength" min="1" max="1001" value="75" required />
+    </p>
+    <p>
+        <label for="dexterity">Dexterity</label>
+        <input type="number" id="unique-dexterity" name="dexterity" min="1" max="1001" value="75" required />
+    </p>
+    <p>
+        <input type="checkbox" id="identified" name="identified" checked />
+        <label for="identified">Identified</label>
+    </p>
+    <p>Output
+    <div>
+        <input type="radio" id="json" name="output" value="json" checked />
+        <label for="json">JSON</label>
+    </div>
+    <div>
+        <input type="radio" id="xml" name="output" value="xml" disabled />
+        <label for="xml">xml</label>
+    </div>
+    </p>
+    <p>Theme</p>
+    <div>
+        <input type="radio" id="theme-d2r" name="theme" value="d2r" checked />
+        <label for="theme-d2r">D2R</label>
+    </div>
+
+    <div>
+        <input type="radio" id="theme-legacy" name="theme" value="legacy">
+        <label for="theme-legacy">Legacy</label>
+    </div>
+    <input type="submit" class="d2-submit" value="Fetch" />
+</form>
+<div id="loader-unique-items" class="loader">Loading...</div>
+<div id="unique-item-result" class="quote"></div>
+<!-- Runes -->
+<h3>Runes</h3>
+<p>If you want to query the api for a Rune, do this:</p>
+<p>So our entire call will look like this
+<div class="quote"><span class="c0py">https://www.diablo-2.net/api/runes?item=ElRune&level=1</span></div>
+<small>* Make sure that you have the authentication header present</small>
+<p>Query parameters</p>
+<ul>
+    <li>item - format: removed spaces. Example: Zod Rune becomes ZodRune. Full list for devs - <a href="/api/runes-list" target="_blank">here</a></li>
+    <li>level - 1 to 99</li>
+    <li>Theme (Optional) - 'd2r' for D2R and 'legacy' for Legacy. Will default to D2R if ommited</li>
+    <li>output (Optional) - json - for JSON response or xml for xml response. Omitted defaults to json</li>
+</ul>
+<form id="runes-item-form">
+    <p>
+        <label for="rune-item">Item</label>
+        <input type="text" id="rune-item" name="rune-item" minlength="3" maxlength="10" placeholder="ZodRune" value="ZodRune" required />
+    </p>
+    <p>
+        <label for="level">Level</label>
+        <input type="number" id="rune-level" name="rune-level" min="1" max="99" value="99" required />
+    </p>
+    <p>Output
+    <div>
+        <input type="radio" id="rune-json" name="rune-output" value="json" checked />
+        <label for="json">JSON</label>
+    </div>
+    <div>
+        <input type="radio" id="rune-xml" name="rune-output" value="xml" disabled />
+        <label for="xml">xml</label>
+    </div>
+    </p>
+    <p>Theme</p>
+    <div>
+        <input type="radio" id="rune-theme-d2r" name="rune-theme" value="d2r" checked />
+        <label for="rune-theme-d2r">D2R</label>
+    </div>
+    <div>
+        <input type="radio" id="rune-theme-legacy" name="rune-theme" value="legacy">
+        <label for="rune-theme-legacy">Legacy</label>
+    </div>
+    <input type="submit" class="d2-submit" value="Fetch" />
+</form>
+<div id="loader-rune-items" class="loader">Loading...</div>
+<div id="rune-item-result" class="quote"></div>
+<h2>Getting Started</h2>
+<p>So if you want to get started, download <a href="./example.html" download>this file</a> and read it. It conains a ready example on fetching a result from the API and vizualizing it as an item.</p>
+<script src="/js/api/api-ajax.js"></script>
+<!-- Copy link to this page part -->
+<p id="pageurl">Page link: <strong class="c0py" >https://www.diablo-2.net/api/</strong></p><div class="sharethis-inline-share-buttons"></div>
+</main>
+<button id="scroll-to-top" class="arrow-up" title="Scroll to Top">Scroll to Top</button>
+<footer>
+  <figure>
+    <a href="https://blizzard.com" target="_blank"><img class="footerimage hoverbright" srcset="/images/logo/Blizzard_Entertainment_Logo.svg.png 1.2x" width="130" height="85" alt="Blizzard Entertainment" title="Blizzard Entertainment" loading="lazy"></a>
+    <a href="https://diablo2.blizzard.com/" target="_blank" title="Buy Diablo 2"><img class="footerimage hoverbright" srcset="/images/logo/Diablo-2-Resurrected-Logo.webp 1.2x" width="150" height="100" alt="Diablo 2: Ressurected" title="Diablo 2: Ressurected" loading="lazy"></a>
+  </figure>
+  <p><a href="/about">About me</a> | <a href="/api/">API</a> | <a href="/contact">Contact Me</a> | <a href="https://old.diablo-2.net" target="_blank">Old Website</a> | <a href="/privacy-policy">Privacy Policy</a></p>
+  <p>
+  <p><a href='/register'>Register</a> | <a href='/login?location=/api/'>Login</a></p><p class="white">All rights reserved Diablo-2.net | 2009-2026</p><p class="white">This is an unofficial non-profit fansite and is not affiliated with Blizzard</p>
+<!-- Default Statcounter code for Diablo-2.net -->
+<script nonce="s747C0un73r">
+var sc_project=12140558;
+var sc_invisible=1;
+var sc_security="d0346314";
+</script>
+<script src="https://www.statcounter.com/counter/counter.js" async></script>
+<!-- End of Statcounter Code -->
+<script src="/js/arrow.js"></script>
+<script src="/js/cClipboard.js"></script>
+<script src="/js/bs-tooltip.js"></script>
+<script src="/js/global.js"></script>
+
+
+    </footer>
+  </div> <!-- End of #all -->
+<script nonce="inlineCh4r4c73rPlann3rEOE20023o2o3">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.nonce='inlineCh4r4c73rPlann3rEOE20023o2o3';d.innerHTML="window.__CF$cv$params={r:'9ef09f27fdb73911',t:'MTc3NjY1MTEyMQ=='};var a=document.createElement('script');a.nonce='inlineCh4r4c73rPlann3rEOE20023o2o3';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

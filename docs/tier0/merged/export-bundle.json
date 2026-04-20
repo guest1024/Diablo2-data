@@ -1,0 +1,31 @@
+{
+  "bundle_name": "diablo2-tier0-merged-graph-export",
+  "paths": {
+    "nodes": "docs/tier0/merged/nodes.jsonl",
+    "edges": "docs/tier0/merged/edges.jsonl",
+    "claims": "docs/tier0/merged/claims.jsonl",
+    "chunks": "docs/tier0/merged/chunks.jsonl"
+  },
+  "counts": {
+    "nodes": 941,
+    "edges": 1065,
+    "claims": 747,
+    "chunks": 8289
+  },
+  "recommended_load_order": [
+    "nodes",
+    "edges",
+    "claims",
+    "chunks"
+  ],
+  "recommended_query_entrypoints": {
+    "graph_lookup": [
+      "nodes",
+      "edges",
+      "claims"
+    ],
+    "retrieval": [
+      "chunks"
+    ]
+  }
+}

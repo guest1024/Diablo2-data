@@ -1,0 +1,15 @@
+{
+  "base_documents": 30,
+  "base_chunks": 4490,
+  "base_chars": 5298286,
+  "high_value_pages": 292,
+  "high_value_successful_pages": 291,
+  "high_value_chunks": 2793,
+  "high_value_chars": 2954258,
+  "purediablo_pages": 49,
+  "purediablo_successful_pages": 35,
+  "purediablo_chunks": 872,
+  "purediablo_chars": 761768,
+  "combined_chars": 9014312,
+  "combined_chunk_surfaces": 8155
+}

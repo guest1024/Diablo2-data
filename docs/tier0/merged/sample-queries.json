@@ -1,0 +1,146 @@
+{
+  "queries": {
+    "resolve_spirit_in_merged_graph": {
+      "input": {
+        "alias": "Spirit"
+      },
+      "matches": [
+        {
+          "node_id": "96d0566a-c3f7-518d-b49e-cb8e57328591",
+          "node_type": "Runeword",
+          "name": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+          "key": "spirit-t3"
+        },
+        {
+          "node_id": "a0d8679b-e7d7-584a-aac1-0cb384fa61d6",
+          "node_type": "Runeword",
+          "name": "spirit-t3.html",
+          "key": "spirit-t3.html"
+        },
+        {
+          "node_id": "00ef10d4-3283-5973-83c9-57579d2e6509",
+          "node_type": "SourceDocument",
+          "name": "Bone Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+          "key": "b28f8014de8a5226a0998484"
+        },
+        {
+          "node_id": "6c2ecd3a-c39d-5f98-9346-eefcb7e45590",
+          "node_type": "Skill",
+          "name": "Bone Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+          "key": "bone-spirit-t4012"
+        },
+        {
+          "node_id": "df063511-85d6-5ee1-b977-fc0fc16a5e70",
+          "node_type": "SourceDocument",
+          "name": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+          "key": "ef481dcd712d1ba501331e7e"
+        },
+        {
+          "node_id": "fc907e86-b31b-54c2-98ba-387643644d97",
+          "node_type": "NPC",
+          "name": "izual-spirit-t3954.html",
+          "key": "izual-spirit-t3954.html"
+        }
+      ]
+    },
+    "find_api_gated_claims_in_merged_graph": {
+      "input": {
+        "predicate": "api_requires_key"
+      },
+      "matches": [
+        {
+          "claim_id": "2d64c844-c570-5151-ba66-0a5ed96a0425",
+          "subject_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "source_id": "diablo2-net-api",
+          "evidence_doc_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678"
+        },
+        {
+          "claim_id": "240d7331-8fbe-5d2a-affe-0ec3b21a9b5b",
+          "subject_id": "7b435363-531e-52b2-949d-2fb5b36094a6",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "source_id": "diablo2-net-api",
+          "evidence_doc_id": "7b435363-531e-52b2-949d-2fb5b36094a6"
+        },
+        {
+          "claim_id": "343c18b4-21ca-5771-8322-9b7c23188885",
+          "subject_id": "efdcb777-4164-5b05-a83f-5a643d3e593a",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "source_id": "diablo2-net-api",
+          "evidence_doc_id": "efdcb777-4164-5b05-a83f-5a643d3e593a"
+        }
+      ]
+    },
+    "grounded_lookup_in_merged_graph": {
+      "input": {
+        "subject_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8"
+      },
+      "subject": {
+        "node_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+        "node_type": "SourceDocument",
+        "key": "homepage",
+        "name": "The Arreat Summit - A Strategy Guide for Diablo II",
+        "source_id": "arreat-summit",
+        "lane": "official",
+        "authority_tier": "official"
+      },
+      "claims": [
+        {
+          "claim_id": "bae625a6-4645-51f3-9408-5764f6d4ca8c",
+          "subject_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "predicate": "lane",
+          "object": "official",
+          "source_id": "arreat-summit",
+          "evidence_doc_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8"
+        },
+        {
+          "claim_id": "bca35566-66d6-522e-927b-5ccb9acfbc44",
+          "subject_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "predicate": "authority_tier",
+          "object": "official",
+          "source_id": "arreat-summit",
+          "evidence_doc_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8"
+        }
+      ],
+      "provenance": [
+        {
+          "provenance_id": "857c2bc9-4859-5d1f-b4cb-685f37f7bb0c",
+          "claim_id": "bae625a6-4645-51f3-9408-5764f6d4ca8c",
+          "subject_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "predicate": "lane",
+          "source_id": "arreat-summit",
+          "evidence_doc_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "evidence_url": "https://classic.battle.net/diablo2exp/",
+          "authority_tier": "official",
+          "lane": "official"
+        },
+        {
+          "provenance_id": "51acd287-1fd4-5d16-8fcb-30b006c94908",
+          "claim_id": "bca35566-66d6-522e-927b-5ccb9acfbc44",
+          "subject_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "predicate": "authority_tier",
+          "source_id": "arreat-summit",
+          "evidence_doc_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8",
+          "evidence_url": "https://classic.battle.net/diablo2exp/",
+          "authority_tier": "official",
+          "lane": "official"
+        }
+      ],
+      "chunks": [
+        {
+          "chunk_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8::chunk-1",
+          "title": "The Arreat Summit - A Strategy Guide for Diablo II",
+          "text_preview": "The Arreat Summit - A Strategy Guide for Diablo II\n\n+ News + Strategy + Ladder + Tournaments + Forums\n\n+ News + Strategy + Ladder FAQ + Forums\n\n+ News + Strategy + Forums\n\nWelcome to The Arreat Summit, a strategy guide for Diablo II: Lord o"
+        },
+        {
+          "chunk_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8::chunk-2",
+          "title": "The Arreat Summit - A Strategy Guide for Diablo II",
+          "text_preview": "Online Privacy Policy \n Battle.net Terms of Use Agreement \n ©2019 Blizzard Entertainment. All rights reserved."
+        }
+      ]
+    }
+  }
+}

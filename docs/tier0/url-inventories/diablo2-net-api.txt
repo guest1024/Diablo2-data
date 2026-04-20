@@ -1,0 +1,4 @@
+https://www.diablo-2.net/api/
+https://www.diablo-2.net/api/items-list
+https://www.diablo-2.net/api/runes-list
+https://www.diablo-2.net/api/example.html

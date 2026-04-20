@@ -1,0 +1,10 @@
+{
+  "canonical_entity_count": 237,
+  "support_edge_count": 16,
+  "claim_index_count": 79,
+  "paths": {
+    "canonical_entities": "docs/tier0/derived/canonical-entities.jsonl",
+    "support_edges": "docs/tier0/derived/support-edges.jsonl",
+    "claim_index": "docs/tier0/derived/claim-index.jsonl"
+  }
+}

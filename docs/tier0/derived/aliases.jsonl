@@ -1,0 +1,461 @@
+{"alias_id": "5f08b9f4-2804-5f9f-8cc7-9bbf54a8bbfd", "canonical_id": "53cd039a-953c-5329-8cc7-9365aa7d10b9", "alias": "The Arreat Summit", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "efe4cb1e-64f5-5e36-88d2-413588204334", "canonical_id": "53cd039a-953c-5329-8cc7-9365aa7d10b9", "alias": "arreat-summit", "alias_type": "key", "node_type": "Source"}
+{"alias_id": "a01a123e-d14c-52a8-afbe-70101e245328", "canonical_id": "53cd039a-953c-5329-8cc7-9365aa7d10b9", "alias": "arreat summit", "alias_type": "slug", "node_type": "Source"}
+{"alias_id": "31baba38-a20d-59b9-a923-ff951340a42f", "canonical_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8", "alias": "The Arreat Summit - A Strategy Guide for Diablo II", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "c9d9c572-9795-563b-9e5c-957e9398b402", "canonical_id": "5e7ba024-4137-5686-8ae8-7f58513c7ef8", "alias": "homepage", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "344973f0-f516-5c0f-ada2-406d67e8a19b", "canonical_id": "f4b81583-a556-59d2-9371-d39b8e655a14", "alias": "A Strategy Guide for Diablo II", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "e95960bd-0730-5702-9916-65cdda1440b7", "canonical_id": "f4b81583-a556-59d2-9371-d39b8e655a14", "alias": "diablo2exp", "alias_type": "key", "node_type": "LegacyReferencePage"}
+{"alias_id": "f6399837-d565-523c-add8-1cf4e3a15530", "canonical_id": "8f14379c-2d92-5f55-b8e9-760936a94049", "alias": "diablo2exp", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "cae187bf-8fa6-5d57-a7d9-fb4f49b7e175", "canonical_id": "3c958292-f4e5-5a50-97ab-c9b9eb6a256e", "alias": "ladder", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "6e74eb41-f318-51f9-bd64-58980f99f0a0", "canonical_id": "0b6496e4-b2b1-575f-9384-6ee2eae9f05e", "alias": "basics", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "50780cad-d245-5fd0-a77c-93c63adb0059", "canonical_id": "474d5dc7-51ed-5b8a-9090-0e08c3718bdb", "alias": "classes", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "0f0f9cac-ad98-51ea-9e33-09cb3cb12c1c", "canonical_id": "7d75c3a5-069e-5df7-aaba-3a1a6918f5ef", "alias": "skills", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "4f755d08-4b04-55e1-bba4-9a52427d926c", "canonical_id": "7c534f9d-853b-517e-8840-b9aedb8814ba", "alias": "items", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "eff44234-bec6-5c08-a78a-9eaee9565bf1", "canonical_id": "e8d29f60-4baf-56ae-a688-9608c16a528e", "alias": "monsters", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "5bbcfb7b-e221-5a59-b4d7-16acbc8495a5", "canonical_id": "b2fcdf62-a432-5410-870f-8cb1d008cd42", "alias": "npcs", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "297e8202-0bc7-5435-aeb8-1229d8a96237", "canonical_id": "ffd373bd-b5df-523f-b350-fad460f2a6f6", "alias": "quests", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "60c74a94-cdc9-5804-bc77-26febfae7d27", "canonical_id": "1606c15f-2d6f-5655-821b-e48f1986c7ec", "alias": "shrines", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "3178bba5-d68d-5d3d-ad5c-7a18bdca0ad1", "canonical_id": "548cb263-0af2-5be4-a3fb-70f00cb4739d", "alias": "maps", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "43b271ce-ab7b-5f4c-a7d5-e49f30a399a7", "canonical_id": "6e093e9d-f98b-5922-850b-547a2791291f", "alias": "faq", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "11033c65-0d3a-51d0-ae4f-25f07da56535", "canonical_id": "77f3a0cb-d8b9-5f6d-b90a-f9643414ff69", "alias": "files", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "89ff108b-e1da-5bcf-a42e-98c1728c0441", "canonical_id": "9c8b77e8-b5e5-52e5-9872-cf748833c035", "alias": "runewords", "alias_type": "title", "node_type": "ItemPage"}
+{"alias_id": "c2392544-1da6-5ac8-a687-339dab957e61", "canonical_id": "55c64761-7784-5e1e-b54c-6eae62f58653", "alias": "runewords-110", "alias_type": "title", "node_type": "ItemPage"}
+{"alias_id": "a9af2e33-1a59-58d6-959b-06a87ae3b71f", "canonical_id": "55c64761-7784-5e1e-b54c-6eae62f58653", "alias": "runewords 110", "alias_type": "slug", "node_type": "ItemPage"}
+{"alias_id": "4a18e694-34e0-545b-93bf-97ac27e850dd", "canonical_id": "8e5a2cee-e913-5c2d-9bed-a318f3311b04", "alias": "The Arreat Summit - Basics", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5b0fcea3-08df-5fd1-b8ad-ac71f19877a4", "canonical_id": "8e5a2cee-e913-5c2d-9bed-a318f3311b04", "alias": "basics", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "1041c6d7-ffe7-5c27-9a52-7cb72dd0d743", "canonical_id": "d7386d56-60ab-5c6f-a8b6-e1f4c3d07090", "alias": "Basics", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "aa09c48d-46d1-5d49-9f7e-643ed1f9eb1f", "canonical_id": "4d5036c1-5370-597f-b7f1-834923c8ce35", "alias": "characters", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "a09de630-d4c1-5f00-8407-c703222e1674", "canonical_id": "53ffa92a-9c43-57cd-9039-38282af1da80", "alias": "charactertypes", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "f9f6ec40-f075-5ea1-ace2-9950baf99329", "canonical_id": "d07f47dd-a714-5f0c-a495-a6190468d81d", "alias": "The Arreat Summit - Classes", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ad82510a-d881-558e-904a-9cc87ebe7c80", "canonical_id": "d07f47dd-a714-5f0c-a495-a6190468d81d", "alias": "classes", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "085795c1-00cf-56be-b619-00548cf84f9a", "canonical_id": "37ab3d63-41a1-50b8-9540-ad4926b8f4e2", "alias": "Classes", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "475323e9-bf0e-5cc5-8727-95a9c3eb7071", "canonical_id": "d2b18d60-e588-507d-9c2f-466819e3812e", "alias": "amazon", "alias_type": "title", "node_type": "Class"}
+{"alias_id": "14d038a1-3692-5c93-a1b3-053a0cc981a3", "canonical_id": "79163e2a-9037-55a3-a66e-c361e3f01411", "alias": "assassin", "alias_type": "title", "node_type": "Class"}
+{"alias_id": "787a9df9-d784-593f-aa3e-f0735348f90b", "canonical_id": "040d4855-c9ab-57c6-8597-75b4ef4da31a", "alias": "The Arreat Summit - Skills", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "71176cc5-fe04-5fe1-8a59-9a88f70464ad", "canonical_id": "040d4855-c9ab-57c6-8597-75b4ef4da31a", "alias": "skills", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "0b97ef56-32f9-531c-9642-aa5536d83488", "canonical_id": "cde5f873-722e-502b-9b8f-2bb53865d558", "alias": "Skills", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "9ea96361-a3fc-5e19-bbf3-577617c6ecbf", "canonical_id": "931dbe12-fe0e-572b-b117-f570160c0de0", "alias": "amazon-javelin", "alias_type": "title", "node_type": "SkillPage"}
+{"alias_id": "40dc207d-9fc7-55a6-9b8b-1036c5f3cac7", "canonical_id": "931dbe12-fe0e-572b-b117-f570160c0de0", "alias": "amazon javelin", "alias_type": "slug", "node_type": "SkillPage"}
+{"alias_id": "598b2fd7-b4d4-5052-bec0-c95166842cc1", "canonical_id": "8e726b65-74e4-5f6e-8a82-ac70eda6f712", "alias": "assassin-martialarts", "alias_type": "title", "node_type": "SkillPage"}
+{"alias_id": "4f6cd5ec-9132-5fd8-b37e-7d1c4cc2fd4e", "canonical_id": "8e726b65-74e4-5f6e-8a82-ac70eda6f712", "alias": "assassin martialarts", "alias_type": "slug", "node_type": "SkillPage"}
+{"alias_id": "89493941-d749-5b4b-8dda-0ecbc0011e48", "canonical_id": "66d522d6-b624-5f2b-87d8-eceda4572eec", "alias": "The Arreat Summit - Items", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a65fc633-c257-571b-a2c1-0cea6010d9e8", "canonical_id": "66d522d6-b624-5f2b-87d8-eceda4572eec", "alias": "items", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "8ab31154-4db4-539c-b5c4-e8158e7524e4", "canonical_id": "c5984ff1-fca2-5a78-825b-503fe21bef75", "alias": "Items", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "cebf3d3e-f16b-56b6-82eb-ce79b2b71485", "canonical_id": "5132a217-02a5-5b5b-bfa7-ad9d8e431e68", "alias": "basics", "alias_type": "title", "node_type": "ItemPage"}
+{"alias_id": "a8aad316-8338-5d6f-9ff2-92d1497432ed", "canonical_id": "9b0640a6-61ae-522e-9532-8bf4b2ac04f5", "alias": "weaponsandarmor", "alias_type": "title", "node_type": "ItemPage"}
+{"alias_id": "25ba1df2-505d-5cc9-bb13-da9afb6ce991", "canonical_id": "6f462207-01de-59c9-aa9b-de2bd970d90b", "alias": "The Arreat Summit - Monsters", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d4fd730f-93bd-58ef-b767-5b14f1d920d4", "canonical_id": "6f462207-01de-59c9-aa9b-de2bd970d90b", "alias": "monsters", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "3603fe87-991a-511d-9e8f-2abaae237f95", "canonical_id": "eb0420e5-150c-5552-9be7-0cd3a9c05b69", "alias": "Monsters", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "64fc10b8-c8a9-57af-afcf-06742d2f3f36", "canonical_id": "18f3d97f-463f-5b0d-91d7-a59f293c0767", "alias": "basics", "alias_type": "title", "node_type": "MonsterPage"}
+{"alias_id": "00e2b73e-ef61-5bd2-a400-4dc561a61bd0", "canonical_id": "09a1ddf9-0555-5a0e-bc21-83621d313fed", "alias": "bonus", "alias_type": "title", "node_type": "MonsterPage"}
+{"alias_id": "a8f5eef9-5c04-5c21-8e17-5937ae7890ea", "canonical_id": "c98c4bce-e10d-5123-8459-690fa8e9c0a2", "alias": "The Arreat Summit - Quests", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "6324a022-4236-586d-b4fb-9a2aefab5b8c", "canonical_id": "c98c4bce-e10d-5123-8459-690fa8e9c0a2", "alias": "quests", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "24dfc537-a052-5c73-918e-3e994d75a8d0", "canonical_id": "6c3756c9-8856-5751-a036-ae2129279f8b", "alias": "Quests", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "12419d66-4fa2-5c29-a64f-ab982be73044", "canonical_id": "f5faf7a2-6ecb-533c-aa71-81dbb45a5dbe", "alias": "act1", "alias_type": "title", "node_type": "QuestPage"}
+{"alias_id": "8cbd272d-f3d7-5ad8-8366-fe5619ac944a", "canonical_id": "8b446213-58a0-57fd-944b-b597b7ee332c", "alias": "act2", "alias_type": "title", "node_type": "QuestPage"}
+{"alias_id": "e26793e9-8de8-51ee-81a5-6976930a132b", "canonical_id": "bfad3a76-0860-51d0-8d46-45f988e51897", "alias": "The Arreat Summit - Maps", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "bde3be61-8d6e-5e0f-9210-3ef61feac913", "canonical_id": "bfad3a76-0860-51d0-8d46-45f988e51897", "alias": "maps", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "363a06df-abfa-533d-aedb-769ca819a8dc", "canonical_id": "12dc5ddf-fc29-5c25-a335-4bc0dafc30a3", "alias": "Maps", "alias_type": "title", "node_type": "LegacyReferencePage"}
+{"alias_id": "cccbabea-84c4-588d-b195-61dc45d20d0c", "canonical_id": "8e9285b2-d55f-59a9-a3a9-a8b61635af94", "alias": "act1", "alias_type": "title", "node_type": "AreaPage"}
+{"alias_id": "882ba680-d9b1-53d1-97c1-9259ebe9fd01", "canonical_id": "3ef8b6d3-bf5b-541c-9c64-fdca2e3cf1b6", "alias": "act2", "alias_type": "title", "node_type": "AreaPage"}
+{"alias_id": "8e33068b-70d7-5ee8-a215-cf3fd6f4a5f5", "canonical_id": "98d0c82c-1752-5d87-aca1-e0acc08f4698", "alias": "diablo2.io structured reference", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "e7f2eebf-5c2e-5705-a111-d9d53b868897", "canonical_id": "98d0c82c-1752-5d87-aca1-e0acc08f4698", "alias": "diablo2-io", "alias_type": "key", "node_type": "Source"}
+{"alias_id": "804eabf2-a5b2-59c3-8dfa-57b69dd8f82b", "canonical_id": "98d0c82c-1752-5d87-aca1-e0acc08f4698", "alias": "diablo2 io", "alias_type": "slug", "node_type": "Source"}
+{"alias_id": "78444836-3307-56b8-ba28-18b9aad2c620", "canonical_id": "1ee666a9-b948-5673-816d-d245499d68dd", "alias": "sitemap", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "970c46cb-10a1-5960-8eb0-5ccde27f11cc", "canonical_id": "f58f8150-b8f4-5501-a1a0-9dd3186e7fc0", "alias": "uniques", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "76525ae9-eb2a-57fb-b977-6762e90ed4c6", "canonical_id": "e3f9f519-e4bf-52f0-8a4a-66229f42d8ec", "alias": "runewords", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "0636c822-28f6-5b15-a8e7-15a2ba988751", "canonical_id": "dc6344e0-dd9e-5648-b71d-f8b782bf1ee8", "alias": "sets", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "951d38af-558f-5e4a-976a-31cf2996ca1b", "canonical_id": "7de2bd05-e524-51db-a624-762301039129", "alias": "base", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "66e95a69-b381-5851-8003-7849c4061f60", "canonical_id": "d1a1a737-1aca-5de8-8aca-7345a9b9a13c", "alias": "recipes", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "9ea71b2e-a849-5db9-a91d-0a5a71e85ea8", "canonical_id": "f790114d-8325-587d-9043-4e4b3fac7986", "alias": "monsters", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "2878b536-500a-5c9f-9cda-983fb76e2f5a", "canonical_id": "bb76362f-ef5a-59ac-8539-3776a78e2992", "alias": "npcs", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "e1dc5e10-1df3-55db-9f0c-6806c769459a", "canonical_id": "b8fd8403-008f-5d7e-ab74-7186ebe579ce", "alias": "skills", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "b8c79b83-b589-54e2-b5b8-740f3a222d77", "canonical_id": "176daa6f-dce8-5807-8296-b7aad464ec1a", "alias": "areas", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "5a2d0650-26c8-5741-bbbd-c2faf902de00", "canonical_id": "5314fb1e-4587-588d-8d60-37b12243a480", "alias": "quests", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "578ada42-b5c5-5d82-ab0b-da300b4d2847", "canonical_id": "704729f6-a4bd-5c1c-9a18-2a81c5c19632", "alias": "misc", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "a4468441-3b7f-5f31-b119-21f381dd34a6", "canonical_id": "2fe45f1a-a162-5076-87e4-32ac8fc0333b", "alias": "silks-of-the-victor-t2.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "7b82964d-7942-527c-b6c9-ea94a9a1f326", "canonical_id": "2fe45f1a-a162-5076-87e4-32ac8fc0333b", "alias": "silks of the victor t2", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "e31ac5db-1324-5e95-ba5a-b7086eb8a06a", "canonical_id": "a0d8679b-e7d7-584a-aac1-0cb384fa61d6", "alias": "spirit-t3.html", "alias_type": "title", "node_type": "Runeword"}
+{"alias_id": "053927df-e66e-549a-98f8-49b21dbefc9a", "canonical_id": "a0d8679b-e7d7-584a-aac1-0cb384fa61d6", "alias": "spirit t3", "alias_type": "slug", "node_type": "Runeword"}
+{"alias_id": "3544832e-859b-592b-9ed7-3fa4f7a94d20", "canonical_id": "aa0a0b9f-6f68-5f24-b272-4b82d4dadfda", "alias": "cathan-s-visage-t4.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "6dd003a6-2442-5784-b0a0-5b93ad2380af", "canonical_id": "aa0a0b9f-6f68-5f24-b272-4b82d4dadfda", "alias": "cathan s visage t4", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "8a55a0d8-038f-53b1-8354-9f403e60bd53", "canonical_id": "bd0c0cf8-70bf-537f-a144-c19f165b74c8", "alias": "ancient-armor-t5.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "0fd49c17-2518-50f1-8a04-883209f2d675", "canonical_id": "bd0c0cf8-70bf-537f-a144-c19f165b74c8", "alias": "ancient armor t5", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "9311ea8b-8795-5289-bce8-d1db1797c11d", "canonical_id": "3bc7ee73-de88-5607-8ce0-015022749b8f", "alias": "All Diablo 2 Resurrected Uniques • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "3c4d0554-8710-5fe7-8138-610b80f419c1", "canonical_id": "3bc7ee73-de88-5607-8ce0-015022749b8f", "alias": "uniques", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "80367722-6b23-5fe0-bd32-a4ee4012b9d8", "canonical_id": "939ad719-0090-5681-8239-cba625faf289", "alias": "uniques", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "62d36d0e-2957-5ebf-aa56-3f20321bf723", "canonical_id": "babc2b44-4976-52eb-bf45-c220c7ed53d1", "alias": "hellslayer-t814.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "3191534b-5351-5eeb-b310-8ad49042fcb0", "canonical_id": "babc2b44-4976-52eb-bf45-c220c7ed53d1", "alias": "hellslayer t814", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "146c60e8-b741-5a07-8328-84f2683c12c0", "canonical_id": "c24e6c92-1801-5761-b647-ceb2e60aa661", "alias": "decapitator-t1612.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "f39c9c8f-9db6-557b-9a00-183238568d18", "canonical_id": "c24e6c92-1801-5761-b647-ceb2e60aa661", "alias": "decapitator t1612", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "87a35d3a-7953-5892-a036-c2f5d1be4a8f", "canonical_id": "28251f60-4639-590e-9ca5-5da706fb709f", "alias": "cranebeak-t731.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "3117f33f-bd08-533e-80e9-9c5ef0f8ec88", "canonical_id": "28251f60-4639-590e-9ca5-5da706fb709f", "alias": "cranebeak t731", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "5cf19826-434a-555c-b735-da382fb8c5fc", "canonical_id": "6965a18e-f3f3-5ee1-9655-1ba04a438c51", "alias": "war-spike-t1598.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "90f89212-4118-5ec2-8bdc-c6000b902ee4", "canonical_id": "6965a18e-f3f3-5ee1-9655-1ba04a438c51", "alias": "war spike t1598", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "1bbca52e-033c-5890-9090-744f3265acd7", "canonical_id": "92ddc2c4-8f54-5b81-ab90-12689a1d7bae", "alias": "pluckeye-t875.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "052e0d36-41b7-5a57-9200-a74540b83b15", "canonical_id": "92ddc2c4-8f54-5b81-ab90-12689a1d7bae", "alias": "pluckeye t875", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "a20c6598-cebc-56fe-9962-23c1bcbae44c", "canonical_id": "f0ad4a24-0e5d-5cda-a63e-8c6536bfbfb7", "alias": "short-bow-t1615.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "4061875d-3a03-5d46-80fc-e485a8731173", "canonical_id": "f0ad4a24-0e5d-5cda-a63e-8c6536bfbfb7", "alias": "short bow t1615", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "82b7a1bd-898e-546c-933d-253ac11ba188", "canonical_id": "49f78d58-6425-52ef-a7bd-9e4d0f3a0c95", "alias": "bane-ash-t683.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "396699de-f3b7-5f04-8985-fbe227657d68", "canonical_id": "49f78d58-6425-52ef-a7bd-9e4d0f3a0c95", "alias": "bane ash t683", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "0b38c9e5-ed7b-5b9c-8843-9ed12b7dd836", "canonical_id": "71de7dfb-0a76-5426-a418-525cacbf3e24", "alias": "short-staff-t1744.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "814a90c1-5f12-5b87-bc64-d025133fa7c1", "canonical_id": "71de7dfb-0a76-5426-a418-525cacbf3e24", "alias": "short staff t1744", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "f392c11a-f64b-5ae6-ac28-2e0198615626", "canonical_id": "fa07e538-1fcf-51b3-b75f-b1509e041dba", "alias": "hellwarden-s-will-t1673933.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "8f67b81f-2e94-53cb-914c-39773ca8e786", "canonical_id": "fa07e538-1fcf-51b3-b75f-b1509e041dba", "alias": "hellwarden s will t1673933", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "217f2735-c1cf-510d-af18-9fbefa6efc52", "canonical_id": "4624543f-1f33-578a-ba3a-ea1458498bc2", "alias": "death-mask-t1496.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "62fec394-1526-5efa-89ca-6371266195fd", "canonical_id": "4624543f-1f33-578a-ba3a-ea1458498bc2", "alias": "death mask t1496", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "0cb10e9f-59ce-5e3d-8f77-e974bd5d6121", "canonical_id": "fc4c51be-c95d-5561-929a-6a5285f7e6af", "alias": "ars-dul-mephistos-t1673924.html", "alias_type": "title", "node_type": "UniqueItem"}
+{"alias_id": "aad9ef96-aea1-5a00-95d9-d22d9967b210", "canonical_id": "fc4c51be-c95d-5561-929a-6a5285f7e6af", "alias": "ars dul mephistos t1673924", "alias_type": "slug", "node_type": "UniqueItem"}
+{"alias_id": "013c69c3-52e3-5099-9aac-46516b864975", "canonical_id": "22040793-ac70-558f-b2bc-efd47bf29ed6", "alias": "occult-tome-t1673950.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "ee150c6e-077d-5881-911c-b2964bf4d3ee", "canonical_id": "22040793-ac70-558f-b2bc-efd47bf29ed6", "alias": "occult tome t1673950", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "c038af7d-aede-5b2e-96ae-8461cb332b97", "canonical_id": "65ef56de-0262-5303-ab66-27fe434c060b", "alias": "All Diablo 2 Resurrected Runewords • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "7d6d82db-d4f5-5b52-812b-013bdf0839b5", "canonical_id": "65ef56de-0262-5303-ab66-27fe434c060b", "alias": "runewords", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "ffd9b6f0-783b-5f8c-b49d-e78c768ff863", "canonical_id": "a6d418f2-81a9-5d95-aaae-56b1e0bee263", "alias": "runewords", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "cfec4f48-bb79-5aac-8d25-869cdccbfcdf", "canonical_id": "2c351183-b897-527b-83af-7a143586fa72", "alias": "mania-t1674022.html", "alias_type": "title", "node_type": "Runeword"}
+{"alias_id": "837c364c-4d87-5012-a5cf-e07de9317907", "canonical_id": "2c351183-b897-527b-83af-7a143586fa72", "alias": "mania t1674022", "alias_type": "slug", "node_type": "Runeword"}
+{"alias_id": "510d952e-c3cf-5548-b183-fadf9a5813ba", "canonical_id": "0af8b38e-ed72-5272-9415-c6016c212401", "alias": "shael-t1319.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "5615a881-b697-5656-944a-0a5117644945", "canonical_id": "0af8b38e-ed72-5272-9415-c6016c212401", "alias": "shael t1319", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "132e50cd-df6a-5717-b77b-40ac1534b6d4", "canonical_id": "aa980ee5-6005-53e7-aa00-fb3054e66142", "alias": "ko-t1320.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "9fa154e1-8c71-5eaa-80aa-e6bc9c8c5d39", "canonical_id": "aa980ee5-6005-53e7-aa00-fb3054e66142", "alias": "ko t1320", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "be64c894-065b-5b8d-8319-4a2ce85aeac6", "canonical_id": "766b178e-9717-5af7-a8b8-c6777198271e", "alias": "eld-t50.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "45a0317e-dac4-5bdd-96b0-92acadeb51c9", "canonical_id": "766b178e-9717-5af7-a8b8-c6777198271e", "alias": "eld t50", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "ab36668a-8759-5e22-92ff-7c17ee9d617e", "canonical_id": "e8e7966c-ce62-5d6f-9035-a95305c27b0d", "alias": "ritual-t1673938.html", "alias_type": "title", "node_type": "Runeword"}
+{"alias_id": "40c634d1-bdec-5580-92fe-62bbf44cc11e", "canonical_id": "e8e7966c-ce62-5d6f-9035-a95305c27b0d", "alias": "ritual t1673938", "alias_type": "slug", "node_type": "Runeword"}
+{"alias_id": "b84f2674-5d64-5fef-887e-613dc9823367", "canonical_id": "10afc63b-7605-522f-bc30-7084082a5d91", "alias": "amn-t23.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "02f05b7e-56e3-57d7-bf70-099c1d0e0153", "canonical_id": "10afc63b-7605-522f-bc30-7084082a5d91", "alias": "amn t23", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "bde2d9af-3261-55b0-af15-7ebb5919376f", "canonical_id": "29c22491-f47b-5be0-8fb2-6e44c89e20f7", "alias": "ohm-t1327.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "dad8ab70-8f33-587c-910c-c08f6065fa83", "canonical_id": "29c22491-f47b-5be0-8fb2-6e44c89e20f7", "alias": "ohm t1327", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "7fd8ff21-4292-5177-bac4-d39a12382f49", "canonical_id": "045140d7-60fa-534d-8f9b-650804693d10", "alias": "rift-t1244.html", "alias_type": "title", "node_type": "Runeword"}
+{"alias_id": "6a54e4eb-ba06-5787-95bc-c638c6f4f598", "canonical_id": "045140d7-60fa-534d-8f9b-650804693d10", "alias": "rift t1244", "alias_type": "slug", "node_type": "Runeword"}
+{"alias_id": "87f16967-d8bf-55e2-9245-41640b7619ca", "canonical_id": "f2de6133-e8f7-5385-b830-2d26cc52dd07", "alias": "hel-t51.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "47c1fc8e-0846-593b-9de1-a3531c9f75d4", "canonical_id": "f2de6133-e8f7-5385-b830-2d26cc52dd07", "alias": "hel t51", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "862c490d-2c53-5051-8492-60f6fbc43f67", "canonical_id": "08b41076-30a4-5bca-8399-9ed015c9f4d9", "alias": "lem-t1322.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "ecea072c-ef59-5834-8374-4a11ae4d053c", "canonical_id": "08b41076-30a4-5bca-8399-9ed015c9f4d9", "alias": "lem t1322", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "d532b2d9-ec37-5cfd-955d-54b1cbf4bd9a", "canonical_id": "15ca4f5b-e9a3-5dd5-99d4-d33748162763", "alias": "gul-t1326.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "b42afda6-2171-5582-9f05-0b9bd062f409", "canonical_id": "15ca4f5b-e9a3-5dd5-99d4-d33748162763", "alias": "gul t1326", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "4738d400-1df2-53d2-8382-75b5886097ad", "canonical_id": "ffdc3618-36d4-5465-977a-f89280ad7f65", "alias": "harmony-t1234.html", "alias_type": "title", "node_type": "Runeword"}
+{"alias_id": "769885e4-2491-5a83-9a45-97594aec45c5", "canonical_id": "ffdc3618-36d4-5465-977a-f89280ad7f65", "alias": "harmony t1234", "alias_type": "slug", "node_type": "Runeword"}
+{"alias_id": "4001a42b-9857-5554-9086-b53e4f705646", "canonical_id": "33a0d5ca-f9e5-5ad6-85e3-ab51d47730bf", "alias": "All Diablo 2 Resurrected Set Items • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "117258c3-f6a2-594a-9569-f8d6cc77a23e", "canonical_id": "33a0d5ca-f9e5-5ad6-85e3-ab51d47730bf", "alias": "sets", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "c56775b8-4383-53a9-808f-8f05d53e864d", "canonical_id": "5c38d109-8a28-54d7-bb12-a3b628c0c07e", "alias": "sets", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "3ec6b0f1-4ca6-5adc-899b-682a2d9010aa", "canonical_id": "b3cdc5ea-b0c9-5d4b-98a3-1384b5c9bcd1", "alias": "horazon-s-splendor-t1673911.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "5b0e6bb3-5a6e-55b8-b755-44b02019bfc1", "canonical_id": "b3cdc5ea-b0c9-5d4b-98a3-1384b5c9bcd1", "alias": "horazon s splendor t1673911", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "ccbddaee-e717-53a8-8b83-ae3a914e966a", "canonical_id": "7eb8396d-9ee5-5c59-9a8d-6bb0d2cf10ca", "alias": "horazon-s-countenance-t1673917.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "96dcbf6b-4d01-5457-b277-883f41f1ef9e", "canonical_id": "7eb8396d-9ee5-5c59-9a8d-6bb0d2cf10ca", "alias": "horazon s countenance t1673917", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "f1b8af82-6306-526a-8d03-8ff5beff8900", "canonical_id": "2dce9e61-d871-574e-b5d2-baf852cd1b91", "alias": "horazon-s-dominion-t1673918.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "e146ef2e-8e31-53a7-9771-99d219d3732c", "canonical_id": "2dce9e61-d871-574e-b5d2-baf852cd1b91", "alias": "horazon s dominion t1673918", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "05629a9a-2976-581a-b150-8b484e5a2d47", "canonical_id": "1d95a323-4a7c-5dcf-9db4-d8548b6c6239", "alias": "horazon-s-hold-t1673919.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "3019a608-3d88-5d4c-8c97-b3e1a30c184f", "canonical_id": "1d95a323-4a7c-5dcf-9db4-d8548b6c6239", "alias": "horazon s hold t1673919", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "e609b6c9-305d-5a40-a251-6613756a107c", "canonical_id": "9c91a8a5-5dee-5110-ac1a-d79642f1572b", "alias": "horazon-s-legacy-t1673920.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "7e73b839-3dd4-5d37-b174-90ac8eda44af", "canonical_id": "9c91a8a5-5dee-5110-ac1a-d79642f1572b", "alias": "horazon s legacy t1673920", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "a5d50bfd-0c84-5a1d-9db6-01a4a4ceac4c", "canonical_id": "dcce649f-d66f-5381-b1ff-d89903bab0c9", "alias": "horazon-s-secrets-t1673921.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "6bb117a8-26e5-53b8-a2bf-85f68b72eb57", "canonical_id": "dcce649f-d66f-5381-b1ff-d89903bab0c9", "alias": "horazon s secrets t1673921", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "3417df3d-a523-59aa-aa32-b7d9a4a94831", "canonical_id": "d75cccbf-3bf4-5699-a584-bad30dc6a467", "alias": "guillaume-s-face-t1135.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "b4ab08f2-d673-5408-bd87-16722354d0c1", "canonical_id": "d75cccbf-3bf4-5699-a584-bad30dc6a467", "alias": "guillaume s face t1135", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "a8ee7666-7901-568a-8b5d-a274fb373c6c", "canonical_id": "31498949-a5b7-5243-ad71-4dcbb8ede14f", "alias": "winged-helm-t1505.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "c7e5e8e1-7595-50e6-9ed9-2c9791e6ede5", "canonical_id": "31498949-a5b7-5243-ad71-4dcbb8ede14f", "alias": "winged helm t1505", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "3781db0b-a287-55a2-8e70-7630c698a4cd", "canonical_id": "88463e65-7e24-5a0f-b152-d6420ea18cd9", "alias": "orphan-s-call-t1133.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "841e6d87-90c0-5ce4-b7ab-542caca1bac7", "canonical_id": "88463e65-7e24-5a0f-b152-d6420ea18cd9", "alias": "orphan s call t1133", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "cc9ce3bc-3a66-5bd8-acd1-ee8f2ef0f3f3", "canonical_id": "41072d18-8ddc-5fb5-b4d9-fae32f194cf8", "alias": "bane-s-garments-t1673910.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "3bfe4c49-1570-567c-b042-7a4c65f73e88", "canonical_id": "41072d18-8ddc-5fb5-b4d9-fae32f194cf8", "alias": "bane s garments t1673910", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "b0bf43fd-a970-59bf-a135-52ad26445cd3", "canonical_id": "1c51abdd-8053-5858-b8e9-55d833945969", "alias": "bane-s-wraithskin-t1673915.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "8875c6fd-517e-5263-a779-5e48c7ecd2b2", "canonical_id": "1c51abdd-8053-5858-b8e9-55d833945969", "alias": "bane s wraithskin t1673915", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "05affa45-2229-5daa-b2db-e3df31605868", "canonical_id": "4bdca866-9d03-56e1-89a8-45adfe181460", "alias": "bane-s-authority-t1673916.html", "alias_type": "title", "node_type": "SetItem"}
+{"alias_id": "84a51107-32ec-52e3-bc94-6f220f5bf362", "canonical_id": "4bdca866-9d03-56e1-89a8-45adfe181460", "alias": "bane s authority t1673916", "alias_type": "slug", "node_type": "SetItem"}
+{"alias_id": "cec08703-b380-5f74-a6a4-595e49f6efe7", "canonical_id": "acb977a3-0e03-518a-92c0-c04c55da8dab", "alias": "All Diablo 2 Resurrected Base Items • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ff21c1f2-1ef9-51d7-9c5d-e13ad4e9a641", "canonical_id": "acb977a3-0e03-518a-92c0-c04c55da8dab", "alias": "base", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "9863cb6e-9adb-5cf5-bb2c-4958a4f74ef3", "canonical_id": "298addff-05cf-5b5e-9cda-f5c5860559e9", "alias": "base", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "4781db2f-34a9-574c-a1cf-8a108ecb1d5f", "canonical_id": "6e2ef9ac-5b45-579e-a045-4338b5661cf7", "alias": "jared-s-stone-t1775.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "862f6652-2533-58ac-b958-4ebfa2552220", "canonical_id": "6e2ef9ac-5b45-579e-a045-4338b5661cf7", "alias": "jared s stone t1775", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "3f5e8533-1f62-5ac8-bd27-5cd60add63c5", "canonical_id": "3bda6563-225d-5312-bb79-30aff9a03191", "alias": "dimensional-shard-t1785.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "75367023-3033-55dd-8da1-974b50d48737", "canonical_id": "3bda6563-225d-5312-bb79-30aff9a03191", "alias": "dimensional shard t1785", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "135bc664-5405-5cf7-a1f0-a22e90932fa3", "canonical_id": "c1512182-4d31-50ae-9f6d-05b2d697b15e", "alias": "swirling-crystal-t1780.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "75efacab-a5b6-5929-aab7-34992e3be612", "canonical_id": "c1512182-4d31-50ae-9f6d-05b2d697b15e", "alias": "swirling crystal t1780", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "91f31bc5-d135-54ac-b466-788eb9c3d68c", "canonical_id": "1117bc68-daca-5a32-893b-2f246702f0a4", "alias": "demonhead-t1497.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "2f62340b-4fc9-5ca5-8c3b-12dd23d4d321", "canonical_id": "1117bc68-daca-5a32-893b-2f246702f0a4", "alias": "demonhead t1497", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "d57d91d5-5f7f-551c-8673-973fea477a41", "canonical_id": "c94a1f92-1d1a-5502-be2e-0f4b578d5958", "alias": "mask-t256.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "b6b5ae00-c64f-5ac3-8737-4cb77e473e4c", "canonical_id": "c94a1f92-1d1a-5502-be2e-0f4b578d5958", "alias": "mask t256", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "85753fe2-6294-58c4-90f1-e4164d820190", "canonical_id": "45d1fef9-aa23-57e0-9305-e203f48b98cc", "alias": "thresher-t1799.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "6bc42315-7c92-5553-a96b-d05b73072e0a", "canonical_id": "45d1fef9-aa23-57e0-9305-e203f48b98cc", "alias": "thresher t1799", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "110b178e-0bf8-5496-b31a-2f59e25190fb", "canonical_id": "35ee5ee9-a45d-5f39-b612-5a8a6790aa80", "alias": "battle-scythe-t1793.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "76fa0c16-a2b9-532f-8257-9b5fddd3b4a1", "canonical_id": "35ee5ee9-a45d-5f39-b612-5a8a6790aa80", "alias": "battle scythe t1793", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "0f35379f-99e0-58ee-a876-4f4336e5d1a2", "canonical_id": "d1727c6e-2ccf-56fa-9bae-673cf59157a3", "alias": "scythe-t61.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "59660f83-fd81-5330-bb9b-72a5a047a370", "canonical_id": "d1727c6e-2ccf-56fa-9bae-673cf59157a3", "alias": "scythe t61", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "7603d3d4-8bb3-58b8-9b2d-c7e7e42cc974", "canonical_id": "d291bffa-63a0-5b97-9b8e-1ed08eeb58f1", "alias": "full-plate-mail-t1427.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "7e0d997e-6f3b-526f-b5fd-8b0e9b0d5266", "canonical_id": "d291bffa-63a0-5b97-9b8e-1ed08eeb58f1", "alias": "full plate mail t1427", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "c17a0150-1796-56f3-9270-7f92fa01d2f7", "canonical_id": "a579dad1-766e-5dcd-9fb6-dc28a0c41557", "alias": "chaos-armor-t1428.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "65ae1d6c-f21c-5807-8ddd-2a32285fad75", "canonical_id": "a579dad1-766e-5dcd-9fb6-dc28a0c41557", "alias": "chaos armor t1428", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "947c6bca-4073-58c8-8986-da3ebcc772e7", "canonical_id": "ff6df691-9617-59c9-968e-0aea2dd37709", "alias": "shadow-plate-t1429.html", "alias_type": "title", "node_type": "BaseItem"}
+{"alias_id": "19c629ba-36c7-55c1-a1d6-eb241f74707c", "canonical_id": "ff6df691-9617-59c9-968e-0aea2dd37709", "alias": "shadow plate t1429", "alias_type": "slug", "node_type": "BaseItem"}
+{"alias_id": "b943b0ec-ca14-5b6d-b253-d5ee859c0ee7", "canonical_id": "f8ba2b6e-c9c5-5a8b-af64-8d6b9d56ff87", "alias": "All Diablo 2 Resurrected Cube Recipes • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "9f2f7367-40a6-5787-b0e8-a31df53da1e4", "canonical_id": "f8ba2b6e-c9c5-5a8b-af64-8d6b9d56ff87", "alias": "recipes", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "b126be3e-ebe5-53bf-a460-9fdb8f2fb97f", "canonical_id": "e26d4eb0-9523-5f1b-afff-780df4c65b29", "alias": "recipes", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "cd912e3c-694b-5c5c-be19-5c77d08d0fca", "canonical_id": "aa2561fb-4e32-5eee-99a0-b69bc57a2678", "alias": "recipe-fully-repaired-armor-t3303.html", "alias_type": "title", "node_type": "Recipe"}
+{"alias_id": "931dce17-bd76-5513-8cdd-4af423b761ee", "canonical_id": "aa2561fb-4e32-5eee-99a0-b69bc57a2678", "alias": "recipe fully repaired armor t3303", "alias_type": "slug", "node_type": "Recipe"}
+{"alias_id": "78649571-8896-5115-abaa-15c610804184", "canonical_id": "10d98329-e450-5510-a3c9-3ebc7d413c42", "alias": "ral-t48.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "152a6370-454b-5b4e-998d-3436f8974c64", "canonical_id": "10d98329-e450-5510-a3c9-3ebc7d413c42", "alias": "ral t48", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "4e82786f-cb61-584e-b660-39d86afecd0f", "canonical_id": "f77730b1-4cf4-526a-8896-7a54f29014e0", "alias": "recipe-add-sockets-to-normal-weapon-t3314.html", "alias_type": "title", "node_type": "Recipe"}
+{"alias_id": "19dd6986-b03e-5414-a106-a8c23276b68f", "canonical_id": "f77730b1-4cf4-526a-8896-7a54f29014e0", "alias": "recipe add sockets to normal weapon t3314", "alias_type": "slug", "node_type": "Recipe"}
+{"alias_id": "42a96838-32eb-575e-856d-e90f9ee62423", "canonical_id": "f47c4834-c88d-5fb3-9ebd-cc79ee7b08d4", "alias": "perfect-amethyst-t1358.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "9fd9f548-4573-5d6c-9c18-3d68f97847a5", "canonical_id": "f47c4834-c88d-5fb3-9ebd-cc79ee7b08d4", "alias": "perfect amethyst t1358", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "da31134b-8445-52c1-93e2-b4ee94e11552", "canonical_id": "eb03eb7f-099e-5130-ae71-91bd118695b3", "alias": "recipe-portal-to-the-secret-cow-level-t6.html", "alias_type": "title", "node_type": "Recipe"}
+{"alias_id": "c508eb65-d118-57fd-8281-218ef86cb01c", "canonical_id": "eb03eb7f-099e-5130-ae71-91bd118695b3", "alias": "recipe portal to the secret cow level t6", "alias_type": "slug", "node_type": "Recipe"}
+{"alias_id": "b2f7f228-a832-56d6-a832-f45772c311ff", "canonical_id": "c56cc244-98b7-5fb6-894f-65545467629c", "alias": "tome-of-town-portal-t12.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "86b22aae-3118-561f-b3ec-7b2c01e98229", "canonical_id": "c56cc244-98b7-5fb6-894f-65545467629c", "alias": "tome of town portal t12", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "1bc28d04-7255-546a-b0b2-b7f0f061a8cc", "canonical_id": "c81f2c15-d76d-5347-bc20-90ce98e7471c", "alias": "wirt-s-leg-t67.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "7d89901e-a50c-5d4c-912d-114fc28eaf0b", "canonical_id": "c81f2c15-d76d-5347-bc20-90ce98e7471c", "alias": "wirt s leg t67", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "044afd4c-8b49-5ef5-bf1c-35465085a5b8", "canonical_id": "8e363041-f0e4-5f60-a393-68e3f0fa396a", "alias": "portal-to-the-secret-cow-level-t68.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "ca127ea3-15ed-5b4e-b7b0-da913ba3cef5", "canonical_id": "8e363041-f0e4-5f60-a393-68e3f0fa396a", "alias": "portal to the secret cow level t68", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "0f80e9fa-bed7-5a87-8708-ce254eac58ae", "canonical_id": "b61a49ff-acab-5683-9ffd-b9eefd264dbe", "alias": "recipe-portal-to-colossal-summit-t1674861.html", "alias_type": "title", "node_type": "Recipe"}
+{"alias_id": "2625281a-a3ee-545e-94dc-8632db97542d", "canonical_id": "b61a49ff-acab-5683-9ffd-b9eefd264dbe", "alias": "recipe portal to colossal summit t1674861", "alias_type": "slug", "node_type": "Recipe"}
+{"alias_id": "de65fd96-deec-5647-baca-63493fdf6ebb", "canonical_id": "0911543d-3463-58e2-80ca-928811ae0087", "alias": "talic-s-anguish-t1674833.html", "alias_type": "title", "node_type": "MiscEntity"}
+{"alias_id": "d5b28ec5-66ce-558e-ae81-51016c754505", "canonical_id": "0911543d-3463-58e2-80ca-928811ae0087", "alias": "talic s anguish t1674833", "alias_type": "slug", "node_type": "MiscEntity"}
+{"alias_id": "07708db0-82fc-520b-b6c9-41079861003c", "canonical_id": "facd31cf-535a-5747-9590-cf8347416a95", "alias": "All Diablo 2 Resurrected Monsters • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "747f7538-4d95-5b40-9d99-bc435f44cb3e", "canonical_id": "facd31cf-535a-5747-9590-cf8347416a95", "alias": "monsters", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "8dc78525-7986-5026-ba54-93613c46f1e1", "canonical_id": "21ab9c69-0d6f-54d5-9b8b-13c209bb0e51", "alias": "monsters", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "4829e892-c808-5926-8b9d-51e08d563f59", "canonical_id": "4d5b09b3-45f9-59e7-946c-885e3ff9abf7", "alias": "uber-madawc-t1674869.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "f9a1e76b-36ec-5b5d-9950-9cbcf0983b74", "canonical_id": "4d5b09b3-45f9-59e7-946c-885e3ff9abf7", "alias": "uber madawc t1674869", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "e698df0c-12e7-5881-8793-2aa4a53c9318", "canonical_id": "17612f18-ebb7-5884-ba09-f4851a075bfa", "alias": "colossal-summit-t1674854.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "a44debb7-1ded-58da-b378-da7cb6f7fd43", "canonical_id": "17612f18-ebb7-5884-ba09-f4851a075bfa", "alias": "colossal summit t1674854", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "d281c36d-74c7-5d58-9297-6711520b7de6", "canonical_id": "a9fc400a-d479-5259-bf30-495d225995bd", "alias": "uber-korlic-t1674867.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "9cdb12e9-e55e-5906-b756-c94cd2bd71b7", "canonical_id": "a9fc400a-d479-5259-bf30-495d225995bd", "alias": "uber korlic t1674867", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "d46a9cc0-75f1-5610-9500-00f340a4bce2", "canonical_id": "47d13501-dffc-544a-bd8c-524dd62ebc50", "alias": "uber-talic-t1674866.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "c038d866-125e-5810-ab0f-b8ce56f2daab", "canonical_id": "47d13501-dffc-544a-bd8c-524dd62ebc50", "alias": "uber talic t1674866", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "c2951a88-154a-5a21-a4a2-de6513dedd19", "canonical_id": "bd028c9b-c5c2-503b-b7bc-21d29a942d2f", "alias": "herald-t1674889.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "c6ed0b74-c76a-5e4c-bf5c-9e07fbf12cbf", "canonical_id": "bd028c9b-c5c2-503b-b7bc-21d29a942d2f", "alias": "herald t1674889", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "5d7b620a-20f7-5c71-ae68-f9dc9bea1b27", "canonical_id": "634ea781-c764-58d6-8c69-dad33b4fc680", "alias": "achmel-the-cursed-t4328.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "64b2535a-9083-592f-99a0-018ca439ec5d", "canonical_id": "634ea781-c764-58d6-8c69-dad33b4fc680", "alias": "achmel the cursed t4328", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "9a4899aa-5bd0-56de-bd39-50171746534c", "canonical_id": "ce02de99-c734-54ad-b480-04e7ac47967b", "alias": "greater-mummy-t4230.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "a1a00187-9505-5c69-8908-b71e7b777954", "canonical_id": "ce02de99-c734-54ad-b480-04e7ac47967b", "alias": "greater mummy t4230", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "1abf8586-5398-5cbd-8aee-348f8ea394ff", "canonical_id": "593e40e1-ff27-538c-951f-c42896cf4d17", "alias": "throne-of-destruction-t3818.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "e00e8db8-1f83-537c-9a9e-9237e0981698", "canonical_id": "593e40e1-ff27-538c-951f-c42896cf4d17", "alias": "throne of destruction t3818", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "ccd57424-ef03-55c3-adf6-584476003648", "canonical_id": "8c135fa3-d9d5-53fc-80de-5b3b2a1ed922", "alias": "the-smith-t4281.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "9c59dbcd-ce9e-5f09-96a6-7fa4e0c97c73", "canonical_id": "8c135fa3-d9d5-53fc-80de-5b3b2a1ed922", "alias": "the smith t4281", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "734489da-1eab-5ae7-908c-8c891f64e38f", "canonical_id": "74f319dd-4e46-5267-884f-a494310e67f7", "alias": "barracks-t3723.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "f7ecfa9a-320b-59f8-880b-d95cc987c53e", "canonical_id": "74f319dd-4e46-5267-884f-a494310e67f7", "alias": "barracks t3723", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "516efc4a-6bd4-5264-8bfb-a250d3d7f595", "canonical_id": "56fd5a9b-494b-5068-ac17-729855f03d0b", "alias": "shenk-the-overseer-t4314.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "ab21117f-6354-515a-95b6-0eca61f2aa45", "canonical_id": "56fd5a9b-494b-5068-ac17-729855f03d0b", "alias": "shenk the overseer t4314", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "8ed1b439-1381-54d2-b6e0-a2f8f20fb383", "canonical_id": "8267003a-0b71-575d-8093-c5ed73cf89f0", "alias": "overseer-t4259.html", "alias_type": "title", "node_type": "Monster"}
+{"alias_id": "265f441a-1daf-5251-aa51-a3001321dc21", "canonical_id": "8267003a-0b71-575d-8093-c5ed73cf89f0", "alias": "overseer t4259", "alias_type": "slug", "node_type": "Monster"}
+{"alias_id": "24937436-447b-59e1-bea5-cc61345b6211", "canonical_id": "a2564477-7e19-54db-9028-56d67ab37cd8", "alias": "All Diablo 2 Resurrected NPCs • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "74ba4d2c-f8b7-5f07-aed9-b07fc6bed894", "canonical_id": "a2564477-7e19-54db-9028-56d67ab37cd8", "alias": "npcs", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7742bba2-7278-5f8d-88b1-e63a9069fdae", "canonical_id": "780881ec-9ff7-5c63-a28b-d3cdcbd6d34b", "alias": "npcs", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "91a450dc-7472-5832-ad97-a4640ca863df", "canonical_id": "09bacfc0-c91b-5e5b-8fcc-ff48209c6062", "alias": "hratli-t3946.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "049f6861-93d8-5f32-8124-d0f4c9ca054e", "canonical_id": "09bacfc0-c91b-5e5b-8fcc-ff48209c6062", "alias": "hratli t3946", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "a2aecd1e-60c6-5268-b789-594117314e7a", "canonical_id": "e46f29aa-2ca7-5229-938a-2cc196b764e5", "alias": "kurast-docks-t3762.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "a54ca6e4-3e7d-5652-9cc7-90326e5e5b60", "canonical_id": "e46f29aa-2ca7-5229-938a-2cc196b764e5", "alias": "kurast docks t3762", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "05c7ccfe-5573-5f95-a48e-76c95a7183e9", "canonical_id": "1f41ff3a-94a9-5566-b815-b0da98c9bdf0", "alias": "malah-t3955.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "c01fb9b7-2702-5f11-98bc-235bd1ea98eb", "canonical_id": "1f41ff3a-94a9-5566-b815-b0da98c9bdf0", "alias": "malah t3955", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "54a2e00f-7eaf-5268-9787-1b2364c94c01", "canonical_id": "846c3260-f0b2-5c48-b960-a9e7db54869c", "alias": "harrogath-t3796.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "129ee9ca-1ef4-574c-8ae8-3b6e351a64ea", "canonical_id": "846c3260-f0b2-5c48-b960-a9e7db54869c", "alias": "harrogath t3796", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "396838c1-8ac5-5a6e-a84a-bc9564016d29", "canonical_id": "fc907e86-b31b-54c2-98ba-387643644d97", "alias": "izual-spirit-t3954.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "220a5aa4-b99f-5b49-99b0-5bacfde14aea", "canonical_id": "fc907e86-b31b-54c2-98ba-387643644d97", "alias": "izual spirit t3954", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "4e80b929-ae23-5208-8aaa-27c5bbee9511", "canonical_id": "22fe1585-3e9a-5ef0-9860-52bf99a5bf3b", "alias": "plains-of-despair-t3792.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "cba02de5-5a11-546d-be3e-ef5bf15fe022", "canonical_id": "22fe1585-3e9a-5ef0-9860-52bf99a5bf3b", "alias": "plains of despair t3792", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "39eced98-db8c-535b-b84a-4730ebd4bd4d", "canonical_id": "906ede50-6197-5698-8ce8-aacefc3eb0bb", "alias": "ormus-t3948.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "07058d77-473d-5a92-ba36-02a403bbccd1", "canonical_id": "906ede50-6197-5698-8ce8-aacefc3eb0bb", "alias": "ormus t3948", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "76b79f21-c02b-554d-a430-d567396292bd", "canonical_id": "7dad8b32-3b2b-5702-a8f7-a93506aa06ca", "alias": "flavie-t3932.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "61f2e763-3fb8-5801-976c-8df580659bd8", "canonical_id": "7dad8b32-3b2b-5702-a8f7-a93506aa06ca", "alias": "flavie t3932", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "a16f933d-4d11-552e-9cd4-dea1883ffbce", "canonical_id": "5b78eaad-8593-5702-b7c6-12072e5c1fec", "alias": "blood-moor-t3711.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "f471a275-c702-5b03-a0f3-cce5ceb3ce33", "canonical_id": "5b78eaad-8593-5702-b7c6-12072e5c1fec", "alias": "blood moor t3711", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "109e3170-b0ed-5362-9f61-db1ea12699d1", "canonical_id": "2d3a04ea-24f9-5467-9b4c-131b8a32e8b2", "alias": "geglash-t3940.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "6ecfe86a-5585-5f91-8081-47b844f5ec3b", "canonical_id": "2d3a04ea-24f9-5467-9b4c-131b8a32e8b2", "alias": "geglash t3940", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "1cd4762e-5ee5-5334-92fb-69edd74a083d", "canonical_id": "28d62221-034a-5906-87a0-6b1f64fdc88a", "alias": "lut-gholein-t3733.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "8a198273-e309-5f03-808c-9489a890cf5b", "canonical_id": "28d62221-034a-5906-87a0-6b1f64fdc88a", "alias": "lut gholein t3733", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "2ffccb23-b35c-5cb4-be16-74bab4be7a4f", "canonical_id": "1c05ba16-aa1d-5931-af18-f29780692b5a", "alias": "tal-rasha-t3962.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "8e07f7eb-5f58-5eb6-afc4-97503cf27380", "canonical_id": "1c05ba16-aa1d-5931-af18-f29780692b5a", "alias": "tal rasha t3962", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "382fe0de-69d7-5ba0-b55a-722fd944f408", "canonical_id": "7fce8d96-aff7-589d-9f89-d23ff3fd06d5", "alias": "All Diablo 2 Resurrected Skills • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "e2329c51-4002-5869-9cf6-b5065674f29d", "canonical_id": "7fce8d96-aff7-589d-9f89-d23ff3fd06d5", "alias": "skills", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6711c796-e9bb-5a9b-ae9a-ef7fd90cb3c6", "canonical_id": "56d36595-9cf1-5704-b986-721258a669f9", "alias": "skills", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "54f8a3ca-5bbf-5304-aee2-af003f52ddd1", "canonical_id": "90461832-3d5a-5aa6-a10e-e022eb5a8dcd", "alias": "enhanced-entropy-t1676856.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "ad785bb9-440b-51ad-8da0-4a9697d9bbb1", "canonical_id": "90461832-3d5a-5aa6-a10e-e022eb5a8dcd", "alias": "enhanced entropy t1676856", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "5e5a48fc-81cf-5b43-9a2f-da0904f137ae", "canonical_id": "e77020ab-7d66-58ac-8126-363c37866a61", "alias": "miasma-chain-t1676851.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "e4834e96-2807-5b9b-b19b-d058db159455", "canonical_id": "e77020ab-7d66-58ac-8126-363c37866a61", "alias": "miasma chain t1676851", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "4a4b099b-1581-5a94-8d63-5a4a8fbd3694", "canonical_id": "bf5476f9-f49d-591f-8885-1ea73ab0f9e2", "alias": "summon-tainted-t1674066.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "4952e0c1-fde1-5626-b111-3b43ba465936", "canonical_id": "bf5476f9-f49d-591f-8885-1ea73ab0f9e2", "alias": "summon tainted t1674066", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "cd39d2f4-6b57-5fee-a613-0a0231eac77d", "canonical_id": "c844a8dd-7e57-5cba-991d-3207a9c2c3bc", "alias": "summon-goatman-t1674063.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "65262b43-bf5e-5436-918e-c7da4f3a4ce0", "canonical_id": "c844a8dd-7e57-5cba-991d-3207a9c2c3bc", "alias": "summon goatman t1674063", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "0b553740-7363-5d41-8645-793d178e8e6c", "canonical_id": "b16b43e9-eb39-508a-b0d9-881d9b39d128", "alias": "blood-oath-t1674064.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "ff38199b-2ca2-5ac2-872b-8761d79d57ac", "canonical_id": "b16b43e9-eb39-508a-b0d9-881d9b39d128", "alias": "blood oath t1674064", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "675e7df6-80dd-56a2-855b-a4dac166aec1", "canonical_id": "fb3c4e1f-4632-542b-bf1c-88d320b1454e", "alias": "eldritch-blast-t1676824.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "960382fa-6569-5a43-beda-84925cc4b3ee", "canonical_id": "fb3c4e1f-4632-542b-bf1c-88d320b1454e", "alias": "eldritch blast t1676824", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "f37b1c7f-0d11-5aab-9b1f-670019e8351f", "canonical_id": "d70fdc6a-b3df-5dfd-b96d-39a7ddb7d08f", "alias": "psychic-ward-t1676823.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "7b697a86-9e2d-5379-bf0d-b57a0e98dcf6", "canonical_id": "d70fdc6a-b3df-5dfd-b96d-39a7ddb7d08f", "alias": "psychic ward t1676823", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "478a8203-980c-56ac-ae48-324886434223", "canonical_id": "130975ca-de2a-59b9-b561-00ab45dd7f24", "alias": "hex-purge-t1676821.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "21d126f3-f682-5655-bea2-6b189ea4dd78", "canonical_id": "130975ca-de2a-59b9-b561-00ab45dd7f24", "alias": "hex purge t1676821", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "b20354fe-d402-52ef-ad4e-d20126aa6cca", "canonical_id": "b5103b69-d69e-5315-a718-86a339c1cc98", "alias": "blade-warp-t1676822.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "1a387f16-0f8d-5d97-ade3-a8860b0f71bc", "canonical_id": "b5103b69-d69e-5315-a718-86a339c1cc98", "alias": "blade warp t1676822", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "8f1ce0df-4be4-50bf-acfa-366d2b201e15", "canonical_id": "cdc1c984-b512-56ff-888e-fc7b944dadeb", "alias": "echoing-strike-t1676820.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "a1aaddb0-e035-599c-a25e-f952467c0299", "canonical_id": "cdc1c984-b512-56ff-888e-fc7b944dadeb", "alias": "echoing strike t1676820", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "75d6d5a1-eefb-572e-9b22-a029aa594ae4", "canonical_id": "a0596a2f-9b68-5ecc-b4f5-8bfe2a879fdd", "alias": "levitation-mastery-t1676818.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "62955412-0463-570f-8a5d-3fbf54d0ffc9", "canonical_id": "a0596a2f-9b68-5ecc-b4f5-8bfe2a879fdd", "alias": "levitation mastery t1676818", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "94be4f5b-3dc1-5667-b90c-ba0edde2f718", "canonical_id": "8eac9292-4004-5f92-a315-8a6e53bbbdb2", "alias": "mirrored-blades-t1676826.html", "alias_type": "title", "node_type": "Skill"}
+{"alias_id": "e34df97f-f3e9-5f10-892b-671a5114a3db", "canonical_id": "8eac9292-4004-5f92-a315-8a6e53bbbdb2", "alias": "mirrored blades t1676826", "alias_type": "slug", "node_type": "Skill"}
+{"alias_id": "e9553d42-661e-5d5c-a9ae-51fbcc5ed5c1", "canonical_id": "fc04c06d-a9d3-5f77-8bf3-d5c2ebfd46f9", "alias": "All Diablo 2 Resurrected Areas • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a7c77649-e6a4-5830-b0b8-3864f7d9e53e", "canonical_id": "fc04c06d-a9d3-5f77-8bf3-d5c2ebfd46f9", "alias": "areas", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4603cb0d-b490-5271-a41a-e65bcb69aba0", "canonical_id": "9eceb76d-59b8-5c24-b71e-13d6654d7464", "alias": "areas", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "3a19cf74-fdf5-5c75-98e3-2dfed9cad281", "canonical_id": "abc34785-5925-508e-96d6-0fffb222f8d3", "alias": "rogue-encampment-t3710.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "689eed13-10bd-5059-b741-c52da5c78b48", "canonical_id": "abc34785-5925-508e-96d6-0fffb222f8d3", "alias": "rogue encampment t3710", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "c26abb4b-0399-5a0b-b727-a1c70c537fe7", "canonical_id": "5e35d282-c0fc-5442-9cad-6f90a9e57f0a", "alias": "cold-plains-t3712.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "2699829b-5d8a-54bf-a7e8-201473157983", "canonical_id": "5e35d282-c0fc-5442-9cad-6f90a9e57f0a", "alias": "cold plains t3712", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "d19c2c62-f692-5ea8-940b-99c4cf8dab6e", "canonical_id": "b33d080d-2a08-5f11-8cbd-6c9ed6b45089", "alias": "den-of-evil-t3696.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "c74a358e-78ee-5df5-9445-4bc6710cd5b5", "canonical_id": "b33d080d-2a08-5f11-8cbd-6c9ed6b45089", "alias": "den of evil t3696", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "17d32b26-8ac8-58b8-9eb3-35fb97d5914f", "canonical_id": "5b60c3dc-c361-505f-aabf-68cc09573a6b", "alias": "worldstone-keep-level-3-t3817.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "e7b0eeb1-4baa-57fd-942e-eb9c01cddc87", "canonical_id": "5b60c3dc-c361-505f-aabf-68cc09573a6b", "alias": "worldstone keep level 3 t3817", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "f8b3cb87-fe30-5469-97f9-f14cb1938552", "canonical_id": "ab2f861f-7d8d-5e74-8d63-b8fa4900764f", "alias": "worldstone-chamber-t3819.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "136deb5b-ef65-5b55-b8ae-23cf3ad122d6", "canonical_id": "ab2f861f-7d8d-5e74-8d63-b8fa4900764f", "alias": "worldstone chamber t3819", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "615f3e3f-7051-5a4f-a3a8-b1c336bceef1", "canonical_id": "ba0c078a-3da7-535a-aadf-6a84a2c5aad0", "alias": "glacial-trail-t3808.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "ef0f5e0a-d59d-5e14-8321-dcbe460da492", "canonical_id": "ba0c078a-3da7-535a-aadf-6a84a2c5aad0", "alias": "glacial trail t3808", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "a24b8031-b00e-54f3-9152-adfd047a87fd", "canonical_id": "b14f52b8-5102-58b2-87ef-287a37ac7082", "alias": "crystalline-passage-t3802.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "f4f23eb9-7e3e-5944-ae62-a5c9b354f410", "canonical_id": "b14f52b8-5102-58b2-87ef-287a37ac7082", "alias": "crystalline passage t3802", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "248c2483-ed68-58d9-a5f4-51b582510ec3", "canonical_id": "b6ddd948-55f3-51cf-a6d5-17a7d5930d70", "alias": "drifter-cavern-t3809.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "eb8b070e-16d2-5bf5-ab3b-ae0b519a13c4", "canonical_id": "b6ddd948-55f3-51cf-a6d5-17a7d5930d70", "alias": "drifter cavern t3809", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "d8880249-e0a9-5f09-8bed-e1325655d858", "canonical_id": "d30712d5-cb64-5aed-9427-0d49c1cef7e4", "alias": "frozen-tundra-t3810.html", "alias_type": "title", "node_type": "Area"}
+{"alias_id": "43953dd5-e3db-50e2-a446-aa6eaa10caec", "canonical_id": "d30712d5-cb64-5aed-9427-0d49c1cef7e4", "alias": "frozen tundra t3810", "alias_type": "slug", "node_type": "Area"}
+{"alias_id": "0dd0ec89-b85b-5a39-b092-3f4d59e45181", "canonical_id": "198e9dec-6e32-504d-93bb-a0901078e8e4", "alias": "All Diablo 2 Resurrected Quests • diablo2.io", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "2c092073-78a3-5d15-b257-547c414b053f", "canonical_id": "198e9dec-6e32-504d-93bb-a0901078e8e4", "alias": "quests", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "34494e9e-c0ca-5305-a732-71e2c4250b1a", "canonical_id": "68b74867-f46d-5989-84c3-8c12674dd36e", "alias": "quests", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "29f232a0-8928-51aa-ba47-a60212e48336", "canonical_id": "92233c1e-0515-5cd3-b99e-909310ab783f", "alias": "eve-of-destruction-t3988.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "d5e536a1-e01e-5591-a015-892c70448151", "canonical_id": "92233c1e-0515-5cd3-b99e-909310ab783f", "alias": "eve of destruction t3988", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "7aeb14bf-3f06-5b54-9dad-b662b795422e", "canonical_id": "95cf92f4-bffc-5632-a39b-98a0c664aec0", "alias": "the-search-for-cain-t11.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "0d8c4b2a-aa68-5592-b05b-b00ab69edf1d", "canonical_id": "95cf92f4-bffc-5632-a39b-98a0c664aec0", "alias": "the search for cain t11", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "ebbe3435-07d1-565b-93c2-c3ce12914537", "canonical_id": "5be9c2e6-e33d-5354-8013-9e961c37b02c", "alias": "akara-t3931.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "2d1d034f-a02d-5ac3-951a-bed94c9119ff", "canonical_id": "5be9c2e6-e33d-5354-8013-9e961c37b02c", "alias": "akara t3931", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "e97889dd-ed03-5e27-b91c-d550158d5a21", "canonical_id": "f0a20ec3-33f1-558a-bd81-fd1bba23c2e3", "alias": "the-hellforge-t3981.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "d739126a-e2a1-5021-a3d5-c84008aa01d9", "canonical_id": "f0a20ec3-33f1-558a-bd81-fd1bba23c2e3", "alias": "the hellforge t3981", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "ff973dd9-126c-5d5f-b845-f9040949b37b", "canonical_id": "48465709-56e0-5f48-93a2-bf795a28b6e5", "alias": "deckard-cain-t8.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "fc2eb3f9-5441-5ee1-99f1-4655791787bf", "canonical_id": "48465709-56e0-5f48-93a2-bf795a28b6e5", "alias": "deckard cain t8", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "e9dfc9f5-da0c-5e72-84d0-3ec8c679ad83", "canonical_id": "c7356a10-e5a5-5548-9745-8c2033313e52", "alias": "rescue-on-mount-arreat-t3984.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "4fd75a98-d750-594c-83a4-897d2fc2d272", "canonical_id": "c7356a10-e5a5-5548-9745-8c2033313e52", "alias": "rescue on mount arreat t3984", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "77781dbb-689d-5f1c-8f6c-fc12907c0c27", "canonical_id": "dd7520c4-b2c8-549b-8bbd-64e900cc4b6f", "alias": "qual-kehk-t3959.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "95a726f9-b3bb-5df3-a70a-60aa8a6f6b4b", "canonical_id": "dd7520c4-b2c8-549b-8bbd-64e900cc4b6f", "alias": "qual kehk t3959", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "ac740972-76f2-541e-a7eb-a49185aa9e14", "canonical_id": "92c81ef2-c0d3-5719-a2fd-078fd90b8df1", "alias": "blade-of-the-old-religion-t3975.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "75df55ff-66a7-594f-97d9-98599a608eac", "canonical_id": "92c81ef2-c0d3-5719-a2fd-078fd90b8df1", "alias": "blade of the old religion t3975", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "4c3aec44-ac8e-59d8-a4c5-bcd4369176c9", "canonical_id": "aabd8a44-a3b8-58e1-b83c-b7e3bd5b9831", "alias": "radament-s-lair-t3968.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "2157735a-f52d-5a90-a515-8e12429ea827", "canonical_id": "aabd8a44-a3b8-58e1-b83c-b7e3bd5b9831", "alias": "radament s lair t3968", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "71fa7072-6b82-578d-ac15-92dbb328277a", "canonical_id": "e1cd372e-691f-5d68-adeb-f3152b9981f0", "alias": "atma-t3935.html", "alias_type": "title", "node_type": "NPC"}
+{"alias_id": "3652e67f-7c80-592a-9ea6-6f389d7c5960", "canonical_id": "e1cd372e-691f-5d68-adeb-f3152b9981f0", "alias": "atma t3935", "alias_type": "slug", "node_type": "NPC"}
+{"alias_id": "8fce8fc1-f796-592c-842f-16003485abe8", "canonical_id": "b39cfb44-102a-5f99-8e83-3231d1761c62", "alias": "lam-esen-s-tome-quest-t3977.html", "alias_type": "title", "node_type": "Quest"}
+{"alias_id": "f12f12a6-6921-54e5-801d-ff1ed715385d", "canonical_id": "b39cfb44-102a-5f99-8e83-3231d1761c62", "alias": "lam esen s tome quest t3977", "alias_type": "slug", "node_type": "Quest"}
+{"alias_id": "6ce6b63a-ba43-582f-acae-b3f8139cdfe7", "canonical_id": "0cfb6e6a-992a-58ca-94c4-7fb667a12988", "alias": "blizzhackers/d2data", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "f5f2cbb9-5d49-5cf5-bbf0-64a8fbe2a238", "canonical_id": "0cfb6e6a-992a-58ca-94c4-7fb667a12988", "alias": "blizzhackers-d2data", "alias_type": "key", "node_type": "Source"}
+{"alias_id": "5376dea4-c0dc-51cd-939c-096052eb8bae", "canonical_id": "0cfb6e6a-992a-58ca-94c4-7fb667a12988", "alias": "blizzhackers d2data", "alias_type": "slug", "node_type": "Source"}
+{"alias_id": "0608aa55-1b27-5d38-b870-236634d21348", "canonical_id": "c575bca6-afac-54f0-be9b-26940f8a968f", "alias": "README", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "105ff4a7-45ec-513b-b42a-9f4cadd4bf27", "canonical_id": "19d24304-b055-5bf8-a081-84290a25b27b", "alias": "README", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "7d597b57-0bb2-5535-95d6-6cf04b3ec7ab", "canonical_id": "19d24304-b055-5bf8-a081-84290a25b27b", "alias": "README.md", "alias_type": "key", "node_type": "OpenDataResource"}
+{"alias_id": "85f13c14-2cdf-56fe-91e4-2406b45150fd", "canonical_id": "75b222a7-1326-51d8-bc27-5eb6b934df3a", "alias": "root-contents", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "094c779a-2ceb-54dd-a13c-a638f4bf9b82", "canonical_id": "75b222a7-1326-51d8-bc27-5eb6b934df3a", "alias": "root contents", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "a39c5c3c-6341-56e3-996b-94f8a1a4e9d8", "canonical_id": "628d09b8-dd86-5ff9-91bf-d58b0b6891e8", "alias": "root-contents", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "313178fc-47bf-522f-9f18-adc1ff310600", "canonical_id": "628d09b8-dd86-5ff9-91bf-d58b0b6891e8", "alias": "contents", "alias_type": "key", "node_type": "OpenDataResource"}
+{"alias_id": "07ec3d83-da70-580e-9ab7-4191d8854de8", "canonical_id": "0d82a132-6aca-5a77-bf6a-b4dbd5552631", "alias": ".eslintrc.js", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "a1fae91f-063b-5737-826e-0394b48e1086", "canonical_id": "dcf7c5e7-23ea-5a18-8252-81159da76558", "alias": ".eslintrc.js", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "a40a8fc5-db25-5cf1-b2ef-4677b3655f17", "canonical_id": "7de5670a-4397-5c06-b652-fe522e56f3b1", "alias": ".eslintrc.js", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "b8566c7c-e025-5a2d-b3d5-83a504069436", "canonical_id": "3985e425-c9a4-546f-a138-cfc54823c17c", "alias": ".gitignore", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "35f6cec1-ee61-504a-9434-f944c03e302e", "canonical_id": "8c8d151a-061b-55e8-a816-ccdd818da033", "alias": ".gitignore", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "636fb2bd-d5af-519a-95d5-34d1c5f410b8", "canonical_id": "bbb981bc-942c-5b88-ad1e-f90d22fbdd1c", "alias": ".gitignore", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "91d33773-6982-5f0c-bd35-ca2cc693cd0c", "canonical_id": "8168fef3-2655-5533-ad6a-ef5f257b3a3c", "alias": "LICENSE", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "89fbc110-eb34-58b8-a723-23ef9286696b", "canonical_id": "e9cdb7db-5ec4-5594-8910-ac0aed55cf9f", "alias": "LICENSE", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "440d6d49-c0c8-5ddb-8db8-02304f1959e1", "canonical_id": "5ae24f81-7bf6-5baf-9dea-84a43a3cf494", "alias": "LICENSE", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "7c08f184-8c5f-52f8-a87b-dc4c15128e76", "canonical_id": "1f1499dc-db6f-55b4-a0b8-6f33ceb990df", "alias": "README.md", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "64f3e00e-0d2a-518c-9980-701504719f7f", "canonical_id": "6f1746af-e5b8-526f-980f-8de419849192", "alias": "README.md", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "3327b67a-683c-52f1-9cfc-6ea9941de9d6", "canonical_id": "74614258-0ae8-5e79-9b5c-4026ad37d6fd", "alias": "README.md", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "99932870-3fb0-5a46-89e3-dc864a76dade", "canonical_id": "b10abbbb-943d-5ce3-9084-53ea45f00591", "alias": "config.yml", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "13c3732c-27e2-5839-adde-c596217a4a66", "canonical_id": "d5687989-81a2-5bec-bde9-42d19e386ec9", "alias": "config.yml", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "451b0d2d-cfd4-5a6a-aa67-5ee364040d13", "canonical_id": "d665a962-bf14-5f30-97ba-92d6c5393795", "alias": "config.yml", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "25be2838-ec29-54e5-8a0b-05f7eadd9e80", "canonical_id": "623d1515-5325-5eea-835a-bc812557d6e3", "alias": "json-contents", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a4b7528d-7322-50b0-a190-8459b036c169", "canonical_id": "623d1515-5325-5eea-835a-bc812557d6e3", "alias": "json contents", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "adeb2082-70ab-52e7-b5f3-d8b9aec9e11d", "canonical_id": "7fc1d921-774e-5152-a265-f094a4e410cd", "alias": "json-contents", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "e55e215a-4278-58af-b4c1-75ae9682f626", "canonical_id": "7fc1d921-774e-5152-a265-f094a4e410cd", "alias": "json", "alias_type": "key", "node_type": "OpenDataResource"}
+{"alias_id": "1a87cf43-51b1-56f1-80a9-7e381e8c2e6d", "canonical_id": "7b6eb153-09be-5d1d-8ce9-d4d44aaac3db", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "a1899128-4226-545b-80d0-c45d43edb828", "canonical_id": "dcb76a7a-1640-51f0-84f1-e35eabb776c6", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "6a65e7b2-3ea1-5b65-824b-be1e96fac2d4", "canonical_id": "013825d4-0f79-538b-95d9-bcec1334895d", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "8864585d-3356-553c-b5e7-ea343c2c482b", "canonical_id": "9d1f45f4-2145-5adc-abc0-eac7869d40c7", "alias": "actinfo.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "5553c513-b079-5cc1-9040-a9f6cf19ef1b", "canonical_id": "e2e63350-8987-5d2d-9594-5d91d03411d3", "alias": "actinfo.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "fee09f2f-5493-5fd7-b68c-eab69059eec2", "canonical_id": "15ad159b-7d09-5032-87e8-d0cc68024865", "alias": "actinfo.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "b548578d-896f-5848-866d-604a2c9b1b47", "canonical_id": "ff911db0-b92f-53db-9b11-194526aa8be5", "alias": "actprofile.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "5fa4de20-c63e-5503-9e2a-efa53e290093", "canonical_id": "48212312-a17d-59e0-a82a-ad5590405826", "alias": "actprofile.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "829e0285-1a5b-5515-bec0-ee2f0ff1e138", "canonical_id": "d1154396-998d-532b-a5f9-4e3ce0e94d43", "alias": "actprofile.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "c8ea16a1-2205-55c1-a3e5-d1613e309d79", "canonical_id": "11cd236a-e34f-5036-bfd1-7d4737fb3b14", "alias": "allstrings-eng.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "862b9b82-5448-522e-b884-ada75f988ecf", "canonical_id": "11cd236a-e34f-5036-bfd1-7d4737fb3b14", "alias": "allstrings eng.json", "alias_type": "slug", "node_type": "OpenDataResource"}
+{"alias_id": "14e18efe-9800-55d9-8099-e5a1e17999c3", "canonical_id": "a405614e-46e2-5658-95c1-fb2a03173b1a", "alias": "allstrings-eng.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "28dc60e2-300c-51a9-9459-b410eb709e80", "canonical_id": "a405614e-46e2-5658-95c1-fb2a03173b1a", "alias": "allstrings eng.json", "alias_type": "slug", "node_type": "OpenDataResource"}
+{"alias_id": "04248785-9b8e-5b11-aab8-696d2c2531c3", "canonical_id": "84662a51-417f-56a8-bc9f-561e194acef3", "alias": "allstrings-eng.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "6b1123a3-1c70-5c34-a728-44659b9e8f4a", "canonical_id": "84662a51-417f-56a8-bc9f-561e194acef3", "alias": "allstrings eng.json", "alias_type": "slug", "node_type": "OpenDataResource"}
+{"alias_id": "7f44c7af-1f89-53d1-8790-3624e20a30f4", "canonical_id": "11d1e1d5-0a06-58df-8fc5-aa314079b092", "alias": "armor.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "ed709236-95f9-59c7-85ec-bf5de7c1bd25", "canonical_id": "aa99fbf1-1228-5594-94e4-6b3d3029eeac", "alias": "armor.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "a0ebe7c4-47c7-553a-aa16-1fefa4e62dc5", "canonical_id": "1988f746-781d-5114-8cb3-a294b58dd499", "alias": "armor.json", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "10e4fb34-cbf7-5c23-8342-92a2ebdbd351", "canonical_id": "d856af32-eb32-5b74-a124-61639b6a0f02", "alias": "txt-contents", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "1cb8901e-1e2a-5000-96b6-3693205e9db8", "canonical_id": "d856af32-eb32-5b74-a124-61639b6a0f02", "alias": "txt contents", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "8a3b9baf-6747-5bfd-997c-5b88cc7273ba", "canonical_id": "491de5f6-1869-5911-88a7-481f727403d6", "alias": "txt-contents", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "9d44a04b-a947-545d-8095-26a3a6ebbd96", "canonical_id": "491de5f6-1869-5911-88a7-481f727403d6", "alias": "txt", "alias_type": "key", "node_type": "OpenDataResource"}
+{"alias_id": "bd79d2fa-0dff-52dc-8580-e7eacf1dc341", "canonical_id": "d46cb5a2-c828-568d-9c74-01e06fe676d6", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "d2434720-521b-5b58-8964-c9fa32301dbb", "canonical_id": "6931c0ab-f1bf-5121-aa80-b6400232abb7", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "2424ccac-7395-5705-963d-ba06f1ceedac", "canonical_id": "7425d0cb-e70d-55f8-a185-a4bd9d9861ba", "alias": ".gitkeep", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "2a42b142-e61d-5f47-abe5-d8822db35ebc", "canonical_id": "68fa4efe-8237-5e36-a353-4ab882288df2", "alias": "base", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "8002a532-552f-5931-bc46-dc178889e7ca", "canonical_id": "9c2af37d-bea8-5b6b-8c80-5c19d69a6609", "alias": "base", "alias_type": "title", "node_type": "OpenDataResource"}
+{"alias_id": "a02d4389-d29e-5038-9d63-7dba47dc8749", "canonical_id": "21ec1faa-c58a-51bf-bdba-6e2a5ebf6eb3", "alias": "Diablo-2.net API", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "d1a09df5-a600-5e1a-b13c-0da0c7cfa2c0", "canonical_id": "21ec1faa-c58a-51bf-bdba-6e2a5ebf6eb3", "alias": "diablo2-net-api", "alias_type": "key", "node_type": "Source"}
+{"alias_id": "61669a9f-9a3d-5d43-9f0e-a76951b14d97", "canonical_id": "21ec1faa-c58a-51bf-bdba-6e2a5ebf6eb3", "alias": "diablo2 net api", "alias_type": "slug", "node_type": "Source"}
+{"alias_id": "cc330500-ebc7-5c0e-b6ff-02687293e34a", "canonical_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678", "alias": "Diablo 2 API | Diablo-2.net", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5702a0c5-4619-5175-b430-be31fcf844cd", "canonical_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678", "alias": "api-docs", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4de5dc83-ebf8-5ab8-887d-493a4203c671", "canonical_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678", "alias": "api docs", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "02aeb314-fab3-50f0-bb03-76b7fd75752e", "canonical_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb", "alias": "Diablo 2 API | Diablo-2.net", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "0ac257c4-aab5-5860-9721-cb27924b2516", "canonical_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb", "alias": "api", "alias_type": "key", "node_type": "ApiEndpoint"}
+{"alias_id": "265b2a72-0ec7-5655-8d2c-996fe7201623", "canonical_id": "b2f93ffd-8dd3-54f0-9786-dd0003c030b2", "alias": "api", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "0d56da91-9067-5453-9200-b1432e46c3a1", "canonical_id": "2402d9b1-2fce-59fc-b5fe-9d821fc91d5d", "alias": "items-list", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "fd1e6d13-66e4-5fd4-81ee-de9f8612909d", "canonical_id": "2402d9b1-2fce-59fc-b5fe-9d821fc91d5d", "alias": "items list", "alias_type": "slug", "node_type": "ApiEndpoint"}
+{"alias_id": "c7db1305-d57a-5d8a-927b-9cc683c43765", "canonical_id": "f0d16ac2-db89-5e7d-a2a8-4373d7d7853f", "alias": "runes-list", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "1ad91656-b19f-5c89-be4e-a5abaa37d2ca", "canonical_id": "f0d16ac2-db89-5e7d-a2a8-4373d7d7853f", "alias": "runes list", "alias_type": "slug", "node_type": "ApiEndpoint"}
+{"alias_id": "63d02f8d-bc35-5a1d-bd18-fe5b78903656", "canonical_id": "c1cf31d7-6098-565a-91c6-3d36c49fbeeb", "alias": "example.html", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "79c9d722-435f-5267-9d71-2b41a11e1591", "canonical_id": "c1cf31d7-6098-565a-91c6-3d36c49fbeeb", "alias": "example", "alias_type": "slug", "node_type": "ApiEndpoint"}
+{"alias_id": "863367e3-fc27-584f-bab6-5a901b5e8eae", "canonical_id": "8684d433-9ff7-56c7-b9a1-3f79dd61e378", "alias": "items-endpoint", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "84c2ac7e-4a0b-5f74-95d9-a751e484e205", "canonical_id": "8684d433-9ff7-56c7-b9a1-3f79dd61e378", "alias": "items endpoint", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "5a30af19-72b5-50fa-a965-b2228d9311e3", "canonical_id": "b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d", "alias": "items-endpoint", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "cfc0d33f-12b5-5631-8014-39ed917800b1", "canonical_id": "b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d", "alias": "items", "alias_type": "key", "node_type": "ApiEndpoint"}
+{"alias_id": "145e6d51-18e2-5757-8eec-668f88f8f13c", "canonical_id": "7b435363-531e-52b2-949d-2fb5b36094a6", "alias": "runes-endpoint", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5bd92669-37e4-5594-bdb2-b50ddf368f4b", "canonical_id": "7b435363-531e-52b2-949d-2fb5b36094a6", "alias": "runes endpoint", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "9871efee-c154-5e18-ad3d-01c971ad2833", "canonical_id": "1e12fd92-f131-58ca-94b8-18b4749586c0", "alias": "runes-endpoint", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "906a5d4d-66e9-53b5-a164-91e95824b515", "canonical_id": "1e12fd92-f131-58ca-94b8-18b4749586c0", "alias": "runes", "alias_type": "key", "node_type": "ApiEndpoint"}
+{"alias_id": "80861221-08b3-5be5-be2f-c5d64e563d15", "canonical_id": "efdcb777-4164-5b05-a83f-5a643d3e593a", "alias": "unique-items-endpoint", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "18d69ad7-3349-566f-a9f0-3eccb2955fe9", "canonical_id": "efdcb777-4164-5b05-a83f-5a643d3e593a", "alias": "unique items endpoint", "alias_type": "slug", "node_type": "SourceDocument"}
+{"alias_id": "5a555aa4-af77-5ebc-8379-6ae524d2e8c9", "canonical_id": "c9eb4129-4857-5618-bac7-05f6ce74a559", "alias": "unique-items-endpoint", "alias_type": "title", "node_type": "ApiEndpoint"}
+{"alias_id": "976427ea-d0a3-5027-9e93-961310c5ae03", "canonical_id": "c9eb4129-4857-5618-bac7-05f6ce74a559", "alias": "unique-items", "alias_type": "key", "node_type": "ApiEndpoint"}
+{"alias_id": "d4496133-d54b-5b39-a8ed-33a89e26b92f", "canonical_id": "c9eb4129-4857-5618-bac7-05f6ce74a559", "alias": "unique items", "alias_type": "slug", "node_type": "ApiEndpoint"}
+{"alias_id": "83830bf5-0b5d-5077-9293-10bf98f1ff1b", "canonical_id": "8c42a552-3b81-5395-89af-04ab6c749969", "alias": "Diablo II China official portal", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "af85a62c-c1a4-5ecd-b6d8-9e4b73c81f36", "canonical_id": "8c42a552-3b81-5395-89af-04ab6c749969", "alias": "blizzard-cn-d2", "alias_type": "key", "node_type": "Source"}
+{"alias_id": "96ea9600-6687-5e47-b6f1-940f833186b8", "canonical_id": "8c42a552-3b81-5395-89af-04ab6c749969", "alias": "blizzard cn d2", "alias_type": "slug", "node_type": "Source"}
+{"alias_id": "b5cec199-453f-5d18-9188-4c461f5430f1", "canonical_id": "84fad44b-a8ed-5b4e-9808-93a29aa61795", "alias": "《暗黑破坏神II》重制版“术士君临”游戏扩展包现已上线", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "78dff81a-5518-57bd-8266-295f17e8dd1c", "canonical_id": "84fad44b-a8ed-5b4e-9808-93a29aa61795", "alias": "homepage", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "f472e015-4021-5e15-8ef8-702d223edd97", "canonical_id": "68c50a64-3b39-552c-9e52-a76d2471358a", "alias": "sitemap", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5305b8c1-d3e9-51d0-8e55-92d1b10a3343", "canonical_id": "f9c4b45e-b9cf-5881-93b1-92316db8719d", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "57fe5426-c3fe-5b53-81dd-5d783084d648", "canonical_id": "f9c4b45e-b9cf-5881-93b1-92316db8719d", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "3a3966b0-be9d-5ad3-859e-2b10e9682519", "canonical_id": "fd717288-c851-5ddc-9a60-b33b01ba1f00", "alias": "news", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "beed0a55-b2c1-531d-9b2b-840e337b79e6", "canonical_id": "a4c3a1f8-a35d-5f86-a5ae-c9fc35a7b8d9", "alias": "42929_1285202.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "ca4fb9a3-6e0b-5eeb-bba1-574ca23f83e7", "canonical_id": "a4c3a1f8-a35d-5f86-a5ae-c9fc35a7b8d9", "alias": "42929 1285202", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "223640cd-7789-549e-9d6f-351169997e7d", "canonical_id": "b653c515-a797-5b8b-9c72-02f2b1a974ac", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "00e81cb4-f3c7-56bf-8ef8-498cd3dc0980", "canonical_id": "b653c515-a797-5b8b-9c72-02f2b1a974ac", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "80a96603-ae7d-539e-bc0a-fa90c3766deb", "canonical_id": "79c79320-6134-5a7e-8c07-0f97437a837f", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "49a3e52a-1dc1-5567-8872-93632c23761c", "canonical_id": "79c79320-6134-5a7e-8c07-0f97437a837f", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "84507a50-b439-53d5-8de2-2939b8d69d66", "canonical_id": "00428748-f3b1-5456-b412-ce65409ce93f", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "085f5079-a8e9-5506-9711-35fc89fccfa6", "canonical_id": "00428748-f3b1-5456-b412-ce65409ce93f", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "cec3c30d-d6a9-5a81-8461-83ff673f7fff", "canonical_id": "717ff4fe-cb97-506c-8359-b8fba3787e3a", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "30c069e3-2e0b-57e7-a6ed-1043edcea9ba", "canonical_id": "717ff4fe-cb97-506c-8359-b8fba3787e3a", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "b0b7f754-778b-59d6-9077-b8fc0d7990ac", "canonical_id": "851e24da-88f5-5c86-a077-731cf7f440ce", "alias": "42929_1277898.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "260e524e-064e-538b-94a2-378462c30f0d", "canonical_id": "851e24da-88f5-5c86-a077-731cf7f440ce", "alias": "42929 1277898", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "769ddb37-431e-5ba7-b57c-00ca7c9c5260", "canonical_id": "7b309c73-87a4-571e-a43c-243770fc93ce", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "1e0e36ff-b3fd-5337-b4d4-37d1e3925e0d", "canonical_id": "7b309c73-87a4-571e-a43c-243770fc93ce", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "048ad57f-8cb6-5169-b4d9-30773631e680", "canonical_id": "a29c9d10-a627-5c68-88c4-ffcf5c60b3c8", "alias": "42929_1267224.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "482562f1-aea7-51b4-a7b1-efe7e22dfbfc", "canonical_id": "a29c9d10-a627-5c68-88c4-ffcf5c60b3c8", "alias": "42929 1267224", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "126500e6-0a5d-51a8-93be-8e784415878a", "canonical_id": "1702b467-844b-56c1-8a42-e903ba08548f", "alias": "42929_1272408.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "4b16e87c-b9c6-5722-99a0-f3dc6d4f3c69", "canonical_id": "1702b467-844b-56c1-8a42-e903ba08548f", "alias": "42929 1272408", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "15a3d64d-0776-5443-b3df-7be621721f61", "canonical_id": "a337470f-d664-52ec-b214-056b55f97792", "alias": "42929_1267024.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "bff18839-aac1-5e9a-a2e7-a48bbac9bc1e", "canonical_id": "a337470f-d664-52ec-b214-056b55f97792", "alias": "42929 1267024", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "048502e0-ffa9-5a6e-aadb-ae25af6eebd9", "canonical_id": "6330659f-8a8f-56f9-9d85-caa4717e7ad3", "alias": "42929_1262557.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "20c9c55f-3006-5461-ae78-77773e1160fd", "canonical_id": "6330659f-8a8f-56f9-9d85-caa4717e7ad3", "alias": "42929 1262557", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "9e8cb631-1219-5e4e-ada2-c94072c30716", "canonical_id": "532e6d29-faab-5e00-a6c6-80ed4a8c06c6", "alias": "index.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "c81b5660-b908-5fef-8f53-f5242fd303eb", "canonical_id": "532e6d29-faab-5e00-a6c6-80ed4a8c06c6", "alias": "index", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "f7c61c81-718d-50d3-8125-9855c79600cf", "canonical_id": "606ae1ea-cf37-5073-b6ba-5eaed94cb885", "alias": "42929_1260699.html", "alias_type": "title", "node_type": "WebPage"}
+{"alias_id": "981d8126-6339-5b05-a417-9bf4af595222", "canonical_id": "606ae1ea-cf37-5073-b6ba-5eaed94cb885", "alias": "42929 1260699", "alias_type": "slug", "node_type": "WebPage"}
+{"alias_id": "04e01e48-4efc-560a-be66-d717ad818c59", "canonical_id": "e0f8f7c4-8e78-503e-8640-840082d0247c", "alias": "《暗黑破坏神II》官方网站 - 新闻", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "b2416a41-5a60-5efa-8a5d-f8c903417913", "canonical_id": "e0f8f7c4-8e78-503e-8640-840082d0247c", "alias": "news-index", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4ce82d2d-7371-57b8-b62f-c8884a47e53a", "canonical_id": "e0f8f7c4-8e78-503e-8640-840082d0247c", "alias": "news index", "alias_type": "slug", "node_type": "SourceDocument"}

@@ -1,0 +1,238 @@
+canonical_id,node_type,key,name,aliases,document_count,supporting_source_count,supporting_sources,claim_count
+b65d2e30-ca3d-5893-b71e-2145685aafdb,ApiEndpoint,api,Diablo 2 API | Diablo-2.net,Diablo 2 API | Diablo-2.net|api,1,1,diablo2-net-api,1
+b2f93ffd-8dd3-54f0-9786-dd0003c030b2,ApiEndpoint,api,api,api,0,0,,0
+c1cf31d7-6098-565a-91c6-3d36c49fbeeb,ApiEndpoint,example.html,example.html,example|example.html,0,0,,0
+b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d,ApiEndpoint,items,items-endpoint,items|items-endpoint,1,1,diablo2-net-api,1
+2402d9b1-2fce-59fc-b5fe-9d821fc91d5d,ApiEndpoint,items-list,items-list,items list|items-list,0,0,,0
+1e12fd92-f131-58ca-94b8-18b4749586c0,ApiEndpoint,runes,runes-endpoint,runes|runes-endpoint,1,1,diablo2-net-api,1
+f0d16ac2-db89-5e7d-a2a8-4373d7d7853f,ApiEndpoint,runes-list,runes-list,runes list|runes-list,0,0,,0
+c9eb4129-4857-5618-bac7-05f6ce74a559,ApiEndpoint,unique-items,unique-items-endpoint,unique items|unique-items|unique-items-endpoint,1,1,diablo2-net-api,1
+74f319dd-4e46-5267-884f-a494310e67f7,Area,barracks-t3723.html,barracks-t3723.html,barracks t3723|barracks-t3723.html,0,0,,0
+5b78eaad-8593-5702-b7c6-12072e5c1fec,Area,blood-moor-t3711.html,blood-moor-t3711.html,blood moor t3711|blood-moor-t3711.html,0,0,,0
+5e35d282-c0fc-5442-9cad-6f90a9e57f0a,Area,cold-plains-t3712.html,cold-plains-t3712.html,cold plains t3712|cold-plains-t3712.html,0,0,,0
+17612f18-ebb7-5884-ba09-f4851a075bfa,Area,colossal-summit-t1674854.html,colossal-summit-t1674854.html,colossal summit t1674854|colossal-summit-t1674854.html,0,0,,0
+b14f52b8-5102-58b2-87ef-287a37ac7082,Area,crystalline-passage-t3802.html,crystalline-passage-t3802.html,crystalline passage t3802|crystalline-passage-t3802.html,0,0,,0
+b33d080d-2a08-5f11-8cbd-6c9ed6b45089,Area,den-of-evil-t3696.html,den-of-evil-t3696.html,den of evil t3696|den-of-evil-t3696.html,0,0,,0
+b6ddd948-55f3-51cf-a6d5-17a7d5930d70,Area,drifter-cavern-t3809.html,drifter-cavern-t3809.html,drifter cavern t3809|drifter-cavern-t3809.html,0,0,,0
+d30712d5-cb64-5aed-9427-0d49c1cef7e4,Area,frozen-tundra-t3810.html,frozen-tundra-t3810.html,frozen tundra t3810|frozen-tundra-t3810.html,0,0,,0
+ba0c078a-3da7-535a-aadf-6a84a2c5aad0,Area,glacial-trail-t3808.html,glacial-trail-t3808.html,glacial trail t3808|glacial-trail-t3808.html,0,0,,0
+846c3260-f0b2-5c48-b960-a9e7db54869c,Area,harrogath-t3796.html,harrogath-t3796.html,harrogath t3796|harrogath-t3796.html,0,0,,0
+e46f29aa-2ca7-5229-938a-2cc196b764e5,Area,kurast-docks-t3762.html,kurast-docks-t3762.html,kurast docks t3762|kurast-docks-t3762.html,0,0,,0
+28d62221-034a-5906-87a0-6b1f64fdc88a,Area,lut-gholein-t3733.html,lut-gholein-t3733.html,lut gholein t3733|lut-gholein-t3733.html,0,0,,0
+22fe1585-3e9a-5ef0-9860-52bf99a5bf3b,Area,plains-of-despair-t3792.html,plains-of-despair-t3792.html,plains of despair t3792|plains-of-despair-t3792.html,0,0,,0
+abc34785-5925-508e-96d6-0fffb222f8d3,Area,rogue-encampment-t3710.html,rogue-encampment-t3710.html,rogue encampment t3710|rogue-encampment-t3710.html,0,0,,0
+593e40e1-ff27-538c-951f-c42896cf4d17,Area,throne-of-destruction-t3818.html,throne-of-destruction-t3818.html,throne of destruction t3818|throne-of-destruction-t3818.html,0,0,,0
+ab2f861f-7d8d-5e74-8d63-b8fa4900764f,Area,worldstone-chamber-t3819.html,worldstone-chamber-t3819.html,worldstone chamber t3819|worldstone-chamber-t3819.html,0,0,,0
+5b60c3dc-c361-505f-aabf-68cc09573a6b,Area,worldstone-keep-level-3-t3817.html,worldstone-keep-level-3-t3817.html,worldstone keep level 3 t3817|worldstone-keep-level-3-t3817.html,0,0,,0
+8e9285b2-d55f-59a9-a3a9-a8b61635af94,AreaPage,act1,act1,act1,0,0,,0
+3ef8b6d3-bf5b-541c-9c64-fdca2e3cf1b6,AreaPage,act2,act2,act2,0,0,,0
+bd0c0cf8-70bf-537f-a144-c19f165b74c8,BaseItem,ancient-armor-t5.html,ancient-armor-t5.html,ancient armor t5|ancient-armor-t5.html,0,0,,0
+35ee5ee9-a45d-5f39-b612-5a8a6790aa80,BaseItem,battle-scythe-t1793.html,battle-scythe-t1793.html,battle scythe t1793|battle-scythe-t1793.html,0,0,,0
+a579dad1-766e-5dcd-9fb6-dc28a0c41557,BaseItem,chaos-armor-t1428.html,chaos-armor-t1428.html,chaos armor t1428|chaos-armor-t1428.html,0,0,,0
+4624543f-1f33-578a-ba3a-ea1458498bc2,BaseItem,death-mask-t1496.html,death-mask-t1496.html,death mask t1496|death-mask-t1496.html,0,0,,0
+c24e6c92-1801-5761-b647-ceb2e60aa661,BaseItem,decapitator-t1612.html,decapitator-t1612.html,decapitator t1612|decapitator-t1612.html,0,0,,0
+1117bc68-daca-5a32-893b-2f246702f0a4,BaseItem,demonhead-t1497.html,demonhead-t1497.html,demonhead t1497|demonhead-t1497.html,0,0,,0
+3bda6563-225d-5312-bb79-30aff9a03191,BaseItem,dimensional-shard-t1785.html,dimensional-shard-t1785.html,dimensional shard t1785|dimensional-shard-t1785.html,0,0,,0
+d291bffa-63a0-5b97-9b8e-1ed08eeb58f1,BaseItem,full-plate-mail-t1427.html,full-plate-mail-t1427.html,full plate mail t1427|full-plate-mail-t1427.html,0,0,,0
+6e2ef9ac-5b45-579e-a045-4338b5661cf7,BaseItem,jared-s-stone-t1775.html,jared-s-stone-t1775.html,jared s stone t1775|jared-s-stone-t1775.html,0,0,,0
+c94a1f92-1d1a-5502-be2e-0f4b578d5958,BaseItem,mask-t256.html,mask-t256.html,mask t256|mask-t256.html,0,0,,0
+22040793-ac70-558f-b2bc-efd47bf29ed6,BaseItem,occult-tome-t1673950.html,occult-tome-t1673950.html,occult tome t1673950|occult-tome-t1673950.html,0,0,,0
+d1727c6e-2ccf-56fa-9bae-673cf59157a3,BaseItem,scythe-t61.html,scythe-t61.html,scythe t61|scythe-t61.html,0,0,,0
+ff6df691-9617-59c9-968e-0aea2dd37709,BaseItem,shadow-plate-t1429.html,shadow-plate-t1429.html,shadow plate t1429|shadow-plate-t1429.html,0,0,,0
+f0ad4a24-0e5d-5cda-a63e-8c6536bfbfb7,BaseItem,short-bow-t1615.html,short-bow-t1615.html,short bow t1615|short-bow-t1615.html,0,0,,0
+71de7dfb-0a76-5426-a418-525cacbf3e24,BaseItem,short-staff-t1744.html,short-staff-t1744.html,short staff t1744|short-staff-t1744.html,0,0,,0
+c1512182-4d31-50ae-9f6d-05b2d697b15e,BaseItem,swirling-crystal-t1780.html,swirling-crystal-t1780.html,swirling crystal t1780|swirling-crystal-t1780.html,0,0,,0
+45d1fef9-aa23-57e0-9305-e203f48b98cc,BaseItem,thresher-t1799.html,thresher-t1799.html,thresher t1799|thresher-t1799.html,0,0,,0
+6965a18e-f3f3-5ee1-9655-1ba04a438c51,BaseItem,war-spike-t1598.html,war-spike-t1598.html,war spike t1598|war-spike-t1598.html,0,0,,0
+31498949-a5b7-5243-ad71-4dcbb8ede14f,BaseItem,winged-helm-t1505.html,winged-helm-t1505.html,winged helm t1505|winged-helm-t1505.html,0,0,,0
+d2b18d60-e588-507d-9c2f-466819e3812e,Class,amazon,amazon,amazon,0,0,,0
+79163e2a-9037-55a3-a66e-c361e3f01411,Class,assassin,assassin,assassin,0,0,,0
+5132a217-02a5-5b5b-bfa7-ad9d8e431e68,ItemPage,basics,basics,basics,0,0,,0
+9c8b77e8-b5e5-52e5-9872-cf748833c035,ItemPage,runewords,runewords,runewords,0,0,,0
+55c64761-7784-5e1e-b54c-6eae62f58653,ItemPage,runewords-110,runewords-110,runewords 110|runewords-110,0,0,,0
+9b0640a6-61ae-522e-9532-8bf4b2ac04f5,ItemPage,weaponsandarmor,weaponsandarmor,weaponsandarmor,0,0,,0
+f4b81583-a556-59d2-9371-d39b8e655a14,LegacyReferencePage,diablo2exp,A Strategy Guide for Diablo II,A Strategy Guide for Diablo II|diablo2exp,1,1,arreat-summit,1
+d7386d56-60ab-5c6f-a8b6-e1f4c3d07090,LegacyReferencePage,basics,Basics,Basics,1,1,arreat-summit,1
+37ab3d63-41a1-50b8-9540-ad4926b8f4e2,LegacyReferencePage,classes,Classes,Classes,1,1,arreat-summit,1
+c5984ff1-fca2-5a78-825b-503fe21bef75,LegacyReferencePage,items,Items,Items,1,1,arreat-summit,1
+12dc5ddf-fc29-5c25-a335-4bc0dafc30a3,LegacyReferencePage,maps,Maps,Maps,1,1,arreat-summit,1
+eb0420e5-150c-5552-9be7-0cd3a9c05b69,LegacyReferencePage,monsters,Monsters,Monsters,1,1,arreat-summit,1
+6c3756c9-8856-5751-a036-ae2129279f8b,LegacyReferencePage,quests,Quests,Quests,1,1,arreat-summit,1
+cde5f873-722e-502b-9b8f-2bb53865d558,LegacyReferencePage,skills,Skills,Skills,1,1,arreat-summit,1
+0b6496e4-b2b1-575f-9384-6ee2eae9f05e,LegacyReferencePage,basics,basics,basics,0,0,,0
+4d5036c1-5370-597f-b7f1-834923c8ce35,LegacyReferencePage,characters,characters,characters,0,0,,0
+53ffa92a-9c43-57cd-9039-38282af1da80,LegacyReferencePage,charactertypes,charactertypes,charactertypes,0,0,,0
+474d5dc7-51ed-5b8a-9090-0e08c3718bdb,LegacyReferencePage,classes,classes,classes,0,0,,0
+8f14379c-2d92-5f55-b8e9-760936a94049,LegacyReferencePage,diablo2exp,diablo2exp,diablo2exp,0,0,,0
+6e093e9d-f98b-5922-850b-547a2791291f,LegacyReferencePage,faq,faq,faq,0,0,,0
+77f3a0cb-d8b9-5f6d-b90a-f9643414ff69,LegacyReferencePage,files,files,files,0,0,,0
+7c534f9d-853b-517e-8840-b9aedb8814ba,LegacyReferencePage,items,items,items,0,0,,0
+3c958292-f4e5-5a50-97ab-c9b9eb6a256e,LegacyReferencePage,ladder,ladder,ladder,0,0,,0
+548cb263-0af2-5be4-a3fb-70f00cb4739d,LegacyReferencePage,maps,maps,maps,0,0,,0
+e8d29f60-4baf-56ae-a688-9608c16a528e,LegacyReferencePage,monsters,monsters,monsters,0,0,,0
+b2fcdf62-a432-5410-870f-8cb1d008cd42,LegacyReferencePage,npcs,npcs,npcs,0,0,,0
+ffd373bd-b5df-523f-b350-fad460f2a6f6,LegacyReferencePage,quests,quests,quests,0,0,,0
+1606c15f-2d6f-5655-821b-e48f1986c7ec,LegacyReferencePage,shrines,shrines,shrines,0,0,,0
+7d75c3a5-069e-5df7-aaba-3a1a6918f5ef,LegacyReferencePage,skills,skills,skills,0,0,,0
+10afc63b-7605-522f-bc30-7084082a5d91,MiscEntity,amn-t23.html,amn-t23.html,amn t23|amn-t23.html,0,0,,0
+766b178e-9717-5af7-a8b8-c6777198271e,MiscEntity,eld-t50.html,eld-t50.html,eld t50|eld-t50.html,0,0,,0
+15ca4f5b-e9a3-5dd5-99d4-d33748162763,MiscEntity,gul-t1326.html,gul-t1326.html,gul t1326|gul-t1326.html,0,0,,0
+f2de6133-e8f7-5385-b830-2d26cc52dd07,MiscEntity,hel-t51.html,hel-t51.html,hel t51|hel-t51.html,0,0,,0
+aa980ee5-6005-53e7-aa00-fb3054e66142,MiscEntity,ko-t1320.html,ko-t1320.html,ko t1320|ko-t1320.html,0,0,,0
+08b41076-30a4-5bca-8399-9ed015c9f4d9,MiscEntity,lem-t1322.html,lem-t1322.html,lem t1322|lem-t1322.html,0,0,,0
+29c22491-f47b-5be0-8fb2-6e44c89e20f7,MiscEntity,ohm-t1327.html,ohm-t1327.html,ohm t1327|ohm-t1327.html,0,0,,0
+f47c4834-c88d-5fb3-9ebd-cc79ee7b08d4,MiscEntity,perfect-amethyst-t1358.html,perfect-amethyst-t1358.html,perfect amethyst t1358|perfect-amethyst-t1358.html,0,0,,0
+8e363041-f0e4-5f60-a393-68e3f0fa396a,MiscEntity,portal-to-the-secret-cow-level-t68.html,portal-to-the-secret-cow-level-t68.html,portal to the secret cow level t68|portal-to-the-secret-cow-level-t68.html,0,0,,0
+10d98329-e450-5510-a3c9-3ebc7d413c42,MiscEntity,ral-t48.html,ral-t48.html,ral t48|ral-t48.html,0,0,,0
+0af8b38e-ed72-5272-9415-c6016c212401,MiscEntity,shael-t1319.html,shael-t1319.html,shael t1319|shael-t1319.html,0,0,,0
+0911543d-3463-58e2-80ca-928811ae0087,MiscEntity,talic-s-anguish-t1674833.html,talic-s-anguish-t1674833.html,talic s anguish t1674833|talic-s-anguish-t1674833.html,0,0,,0
+c56cc244-98b7-5fb6-894f-65545467629c,MiscEntity,tome-of-town-portal-t12.html,tome-of-town-portal-t12.html,tome of town portal t12|tome-of-town-portal-t12.html,0,0,,0
+c81f2c15-d76d-5347-bc20-90ce98e7471c,MiscEntity,wirt-s-leg-t67.html,wirt-s-leg-t67.html,wirt s leg t67|wirt-s-leg-t67.html,0,0,,0
+634ea781-c764-58d6-8c69-dad33b4fc680,Monster,achmel-the-cursed-t4328.html,achmel-the-cursed-t4328.html,achmel the cursed t4328|achmel-the-cursed-t4328.html,0,0,,0
+ce02de99-c734-54ad-b480-04e7ac47967b,Monster,greater-mummy-t4230.html,greater-mummy-t4230.html,greater mummy t4230|greater-mummy-t4230.html,0,0,,0
+bd028c9b-c5c2-503b-b7bc-21d29a942d2f,Monster,herald-t1674889.html,herald-t1674889.html,herald t1674889|herald-t1674889.html,0,0,,0
+8267003a-0b71-575d-8093-c5ed73cf89f0,Monster,overseer-t4259.html,overseer-t4259.html,overseer t4259|overseer-t4259.html,0,0,,0
+56fd5a9b-494b-5068-ac17-729855f03d0b,Monster,shenk-the-overseer-t4314.html,shenk-the-overseer-t4314.html,shenk the overseer t4314|shenk-the-overseer-t4314.html,0,0,,0
+8c135fa3-d9d5-53fc-80de-5b3b2a1ed922,Monster,the-smith-t4281.html,the-smith-t4281.html,the smith t4281|the-smith-t4281.html,0,0,,0
+a9fc400a-d479-5259-bf30-495d225995bd,Monster,uber-korlic-t1674867.html,uber-korlic-t1674867.html,uber korlic t1674867|uber-korlic-t1674867.html,0,0,,0
+4d5b09b3-45f9-59e7-946c-885e3ff9abf7,Monster,uber-madawc-t1674869.html,uber-madawc-t1674869.html,uber madawc t1674869|uber-madawc-t1674869.html,0,0,,0
+47d13501-dffc-544a-bd8c-524dd62ebc50,Monster,uber-talic-t1674866.html,uber-talic-t1674866.html,uber talic t1674866|uber-talic-t1674866.html,0,0,,0
+18f3d97f-463f-5b0d-91d7-a59f293c0767,MonsterPage,basics,basics,basics,0,0,,0
+09a1ddf9-0555-5a0e-bc21-83621d313fed,MonsterPage,bonus,bonus,bonus,0,0,,0
+5be9c2e6-e33d-5354-8013-9e961c37b02c,NPC,akara-t3931.html,akara-t3931.html,akara t3931|akara-t3931.html,0,0,,0
+e1cd372e-691f-5d68-adeb-f3152b9981f0,NPC,atma-t3935.html,atma-t3935.html,atma t3935|atma-t3935.html,0,0,,0
+48465709-56e0-5f48-93a2-bf795a28b6e5,NPC,deckard-cain-t8.html,deckard-cain-t8.html,deckard cain t8|deckard-cain-t8.html,0,0,,0
+7dad8b32-3b2b-5702-a8f7-a93506aa06ca,NPC,flavie-t3932.html,flavie-t3932.html,flavie t3932|flavie-t3932.html,0,0,,0
+2d3a04ea-24f9-5467-9b4c-131b8a32e8b2,NPC,geglash-t3940.html,geglash-t3940.html,geglash t3940|geglash-t3940.html,0,0,,0
+09bacfc0-c91b-5e5b-8fcc-ff48209c6062,NPC,hratli-t3946.html,hratli-t3946.html,hratli t3946|hratli-t3946.html,0,0,,0
+fc907e86-b31b-54c2-98ba-387643644d97,NPC,izual-spirit-t3954.html,izual-spirit-t3954.html,izual spirit t3954|izual-spirit-t3954.html,0,0,,0
+1f41ff3a-94a9-5566-b815-b0da98c9bdf0,NPC,malah-t3955.html,malah-t3955.html,malah t3955|malah-t3955.html,0,0,,0
+906ede50-6197-5698-8ce8-aacefc3eb0bb,NPC,ormus-t3948.html,ormus-t3948.html,ormus t3948|ormus-t3948.html,0,0,,0
+dd7520c4-b2c8-549b-8bbd-64e900cc4b6f,NPC,qual-kehk-t3959.html,qual-kehk-t3959.html,qual kehk t3959|qual-kehk-t3959.html,0,0,,0
+1c05ba16-aa1d-5931-af18-f29780692b5a,NPC,tal-rasha-t3962.html,tal-rasha-t3962.html,tal rasha t3962|tal-rasha-t3962.html,0,0,,0
+0d82a132-6aca-5a77-bf6a-b4dbd5552631,OpenDataResource,.eslintrc.js,.eslintrc.js,.eslintrc.js,0,0,,0
+dcf7c5e7-23ea-5a18-8252-81159da76558,OpenDataResource,.eslintrc.js,.eslintrc.js,.eslintrc.js,0,0,,0
+7de5670a-4397-5c06-b652-fe522e56f3b1,OpenDataResource,.eslintrc.js,.eslintrc.js,.eslintrc.js,0,0,,0
+3985e425-c9a4-546f-a138-cfc54823c17c,OpenDataResource,.gitignore,.gitignore,.gitignore,0,0,,0
+8c8d151a-061b-55e8-a816-ccdd818da033,OpenDataResource,.gitignore,.gitignore,.gitignore,0,0,,0
+bbb981bc-942c-5b88-ad1e-f90d22fbdd1c,OpenDataResource,.gitignore,.gitignore,.gitignore,0,0,,0
+7b6eb153-09be-5d1d-8ce9-d4d44aaac3db,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+dcb76a7a-1640-51f0-84f1-e35eabb776c6,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+013825d4-0f79-538b-95d9-bcec1334895d,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+d46cb5a2-c828-568d-9c74-01e06fe676d6,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+6931c0ab-f1bf-5121-aa80-b6400232abb7,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+7425d0cb-e70d-55f8-a185-a4bd9d9861ba,OpenDataResource,.gitkeep,.gitkeep,.gitkeep,0,0,,0
+8168fef3-2655-5533-ad6a-ef5f257b3a3c,OpenDataResource,LICENSE,LICENSE,LICENSE,0,0,,0
+e9cdb7db-5ec4-5594-8910-ac0aed55cf9f,OpenDataResource,LICENSE,LICENSE,LICENSE,0,0,,0
+5ae24f81-7bf6-5baf-9dea-84a43a3cf494,OpenDataResource,LICENSE,LICENSE,LICENSE,0,0,,0
+19d24304-b055-5bf8-a081-84290a25b27b,OpenDataResource,README.md,README,README|README.md,1,1,blizzhackers-d2data,1
+1f1499dc-db6f-55b4-a0b8-6f33ceb990df,OpenDataResource,README.md,README.md,README.md,0,0,,0
+6f1746af-e5b8-526f-980f-8de419849192,OpenDataResource,README.md,README.md,README.md,0,0,,0
+74614258-0ae8-5e79-9b5c-4026ad37d6fd,OpenDataResource,README.md,README.md,README.md,0,0,,0
+b10abbbb-943d-5ce3-9084-53ea45f00591,OpenDataResource,_config.yml,_config.yml,config.yml,0,0,,0
+d5687989-81a2-5bec-bde9-42d19e386ec9,OpenDataResource,_config.yml,_config.yml,config.yml,0,0,,0
+d665a962-bf14-5f30-97ba-92d6c5393795,OpenDataResource,_config.yml,_config.yml,config.yml,0,0,,0
+9d1f45f4-2145-5adc-abc0-eac7869d40c7,OpenDataResource,actinfo.json,actinfo.json,actinfo.json,0,0,,0
+e2e63350-8987-5d2d-9594-5d91d03411d3,OpenDataResource,actinfo.json,actinfo.json,actinfo.json,0,0,,0
+15ad159b-7d09-5032-87e8-d0cc68024865,OpenDataResource,actinfo.json,actinfo.json,actinfo.json,0,0,,0
+ff911db0-b92f-53db-9b11-194526aa8be5,OpenDataResource,actprofile.json,actprofile.json,actprofile.json,0,0,,0
+48212312-a17d-59e0-a82a-ad5590405826,OpenDataResource,actprofile.json,actprofile.json,actprofile.json,0,0,,0
+d1154396-998d-532b-a5f9-4e3ce0e94d43,OpenDataResource,actprofile.json,actprofile.json,actprofile.json,0,0,,0
+11cd236a-e34f-5036-bfd1-7d4737fb3b14,OpenDataResource,allstrings-eng.json,allstrings-eng.json,allstrings eng.json|allstrings-eng.json,0,0,,0
+a405614e-46e2-5658-95c1-fb2a03173b1a,OpenDataResource,allstrings-eng.json,allstrings-eng.json,allstrings eng.json|allstrings-eng.json,0,0,,0
+84662a51-417f-56a8-bc9f-561e194acef3,OpenDataResource,allstrings-eng.json,allstrings-eng.json,allstrings eng.json|allstrings-eng.json,0,0,,0
+11d1e1d5-0a06-58df-8fc5-aa314079b092,OpenDataResource,armor.json,armor.json,armor.json,0,0,,0
+aa99fbf1-1228-5594-94e4-6b3d3029eeac,OpenDataResource,armor.json,armor.json,armor.json,0,0,,0
+1988f746-781d-5114-8cb3-a294b58dd499,OpenDataResource,armor.json,armor.json,armor.json,0,0,,0
+68fa4efe-8237-5e36-a353-4ab882288df2,OpenDataResource,base,base,base,0,0,,0
+9c2af37d-bea8-5b6b-8c80-5c19d69a6609,OpenDataResource,base,base,base,0,0,,0
+7fc1d921-774e-5152-a265-f094a4e410cd,OpenDataResource,json,json-contents,json|json-contents,1,1,blizzhackers-d2data,1
+628d09b8-dd86-5ff9-91bf-d58b0b6891e8,OpenDataResource,contents,root-contents,contents|root-contents,1,1,blizzhackers-d2data,1
+491de5f6-1869-5911-88a7-481f727403d6,OpenDataResource,txt,txt-contents,txt|txt-contents,1,1,blizzhackers-d2data,1
+92c81ef2-c0d3-5719-a2fd-078fd90b8df1,Quest,blade-of-the-old-religion-t3975.html,blade-of-the-old-religion-t3975.html,blade of the old religion t3975|blade-of-the-old-religion-t3975.html,0,0,,0
+92233c1e-0515-5cd3-b99e-909310ab783f,Quest,eve-of-destruction-t3988.html,eve-of-destruction-t3988.html,eve of destruction t3988|eve-of-destruction-t3988.html,0,0,,0
+b39cfb44-102a-5f99-8e83-3231d1761c62,Quest,lam-esen-s-tome-quest-t3977.html,lam-esen-s-tome-quest-t3977.html,lam esen s tome quest t3977|lam-esen-s-tome-quest-t3977.html,0,0,,0
+aabd8a44-a3b8-58e1-b83c-b7e3bd5b9831,Quest,radament-s-lair-t3968.html,radament-s-lair-t3968.html,radament s lair t3968|radament-s-lair-t3968.html,0,0,,0
+c7356a10-e5a5-5548-9745-8c2033313e52,Quest,rescue-on-mount-arreat-t3984.html,rescue-on-mount-arreat-t3984.html,rescue on mount arreat t3984|rescue-on-mount-arreat-t3984.html,0,0,,0
+f0a20ec3-33f1-558a-bd81-fd1bba23c2e3,Quest,the-hellforge-t3981.html,the-hellforge-t3981.html,the hellforge t3981|the-hellforge-t3981.html,0,0,,0
+95cf92f4-bffc-5632-a39b-98a0c664aec0,Quest,the-search-for-cain-t11.html,the-search-for-cain-t11.html,the search for cain t11|the-search-for-cain-t11.html,0,0,,0
+f5faf7a2-6ecb-533c-aa71-81dbb45a5dbe,QuestPage,act1,act1,act1,0,0,,0
+8b446213-58a0-57fd-944b-b597b7ee332c,QuestPage,act2,act2,act2,0,0,,0
+f77730b1-4cf4-526a-8896-7a54f29014e0,Recipe,recipe-add-sockets-to-normal-weapon-t3314.html,recipe-add-sockets-to-normal-weapon-t3314.html,recipe add sockets to normal weapon t3314|recipe-add-sockets-to-normal-weapon-t3314.html,0,0,,0
+aa2561fb-4e32-5eee-99a0-b69bc57a2678,Recipe,recipe-fully-repaired-armor-t3303.html,recipe-fully-repaired-armor-t3303.html,recipe fully repaired armor t3303|recipe-fully-repaired-armor-t3303.html,0,0,,0
+b61a49ff-acab-5683-9ffd-b9eefd264dbe,Recipe,recipe-portal-to-colossal-summit-t1674861.html,recipe-portal-to-colossal-summit-t1674861.html,recipe portal to colossal summit t1674861|recipe-portal-to-colossal-summit-t1674861.html,0,0,,0
+eb03eb7f-099e-5130-ae71-91bd118695b3,Recipe,recipe-portal-to-the-secret-cow-level-t6.html,recipe-portal-to-the-secret-cow-level-t6.html,recipe portal to the secret cow level t6|recipe-portal-to-the-secret-cow-level-t6.html,0,0,,0
+ffdc3618-36d4-5465-977a-f89280ad7f65,Runeword,harmony-t1234.html,harmony-t1234.html,harmony t1234|harmony-t1234.html,0,0,,0
+2c351183-b897-527b-83af-7a143586fa72,Runeword,mania-t1674022.html,mania-t1674022.html,mania t1674022|mania-t1674022.html,0,0,,0
+045140d7-60fa-534d-8f9b-650804693d10,Runeword,rift-t1244.html,rift-t1244.html,rift t1244|rift-t1244.html,0,0,,0
+e8e7966c-ce62-5d6f-9035-a95305c27b0d,Runeword,ritual-t1673938.html,ritual-t1673938.html,ritual t1673938|ritual-t1673938.html,0,0,,0
+a0d8679b-e7d7-584a-aac1-0cb384fa61d6,Runeword,spirit-t3.html,spirit-t3.html,spirit t3|spirit-t3.html,0,0,,0
+4bdca866-9d03-56e1-89a8-45adfe181460,SetItem,bane-s-authority-t1673916.html,bane-s-authority-t1673916.html,bane s authority t1673916|bane-s-authority-t1673916.html,0,0,,0
+41072d18-8ddc-5fb5-b4d9-fae32f194cf8,SetItem,bane-s-garments-t1673910.html,bane-s-garments-t1673910.html,bane s garments t1673910|bane-s-garments-t1673910.html,0,0,,0
+1c51abdd-8053-5858-b8e9-55d833945969,SetItem,bane-s-wraithskin-t1673915.html,bane-s-wraithskin-t1673915.html,bane s wraithskin t1673915|bane-s-wraithskin-t1673915.html,0,0,,0
+aa0a0b9f-6f68-5f24-b272-4b82d4dadfda,SetItem,cathan-s-visage-t4.html,cathan-s-visage-t4.html,cathan s visage t4|cathan-s-visage-t4.html,0,0,,0
+d75cccbf-3bf4-5699-a584-bad30dc6a467,SetItem,guillaume-s-face-t1135.html,guillaume-s-face-t1135.html,guillaume s face t1135|guillaume-s-face-t1135.html,0,0,,0
+7eb8396d-9ee5-5c59-9a8d-6bb0d2cf10ca,SetItem,horazon-s-countenance-t1673917.html,horazon-s-countenance-t1673917.html,horazon s countenance t1673917|horazon-s-countenance-t1673917.html,0,0,,0
+2dce9e61-d871-574e-b5d2-baf852cd1b91,SetItem,horazon-s-dominion-t1673918.html,horazon-s-dominion-t1673918.html,horazon s dominion t1673918|horazon-s-dominion-t1673918.html,0,0,,0
+1d95a323-4a7c-5dcf-9db4-d8548b6c6239,SetItem,horazon-s-hold-t1673919.html,horazon-s-hold-t1673919.html,horazon s hold t1673919|horazon-s-hold-t1673919.html,0,0,,0
+9c91a8a5-5dee-5110-ac1a-d79642f1572b,SetItem,horazon-s-legacy-t1673920.html,horazon-s-legacy-t1673920.html,horazon s legacy t1673920|horazon-s-legacy-t1673920.html,0,0,,0
+dcce649f-d66f-5381-b1ff-d89903bab0c9,SetItem,horazon-s-secrets-t1673921.html,horazon-s-secrets-t1673921.html,horazon s secrets t1673921|horazon-s-secrets-t1673921.html,0,0,,0
+b3cdc5ea-b0c9-5d4b-98a3-1384b5c9bcd1,SetItem,horazon-s-splendor-t1673911.html,horazon-s-splendor-t1673911.html,horazon s splendor t1673911|horazon-s-splendor-t1673911.html,0,0,,0
+88463e65-7e24-5a0f-b152-d6420ea18cd9,SetItem,orphan-s-call-t1133.html,orphan-s-call-t1133.html,orphan s call t1133|orphan-s-call-t1133.html,0,0,,0
+b5103b69-d69e-5315-a718-86a339c1cc98,Skill,blade-warp-t1676822.html,blade-warp-t1676822.html,blade warp t1676822|blade-warp-t1676822.html,0,0,,0
+b16b43e9-eb39-508a-b0d9-881d9b39d128,Skill,blood-oath-t1674064.html,blood-oath-t1674064.html,blood oath t1674064|blood-oath-t1674064.html,0,0,,0
+cdc1c984-b512-56ff-888e-fc7b944dadeb,Skill,echoing-strike-t1676820.html,echoing-strike-t1676820.html,echoing strike t1676820|echoing-strike-t1676820.html,0,0,,0
+fb3c4e1f-4632-542b-bf1c-88d320b1454e,Skill,eldritch-blast-t1676824.html,eldritch-blast-t1676824.html,eldritch blast t1676824|eldritch-blast-t1676824.html,0,0,,0
+90461832-3d5a-5aa6-a10e-e022eb5a8dcd,Skill,enhanced-entropy-t1676856.html,enhanced-entropy-t1676856.html,enhanced entropy t1676856|enhanced-entropy-t1676856.html,0,0,,0
+130975ca-de2a-59b9-b561-00ab45dd7f24,Skill,hex-purge-t1676821.html,hex-purge-t1676821.html,hex purge t1676821|hex-purge-t1676821.html,0,0,,0
+a0596a2f-9b68-5ecc-b4f5-8bfe2a879fdd,Skill,levitation-mastery-t1676818.html,levitation-mastery-t1676818.html,levitation mastery t1676818|levitation-mastery-t1676818.html,0,0,,0
+e77020ab-7d66-58ac-8126-363c37866a61,Skill,miasma-chain-t1676851.html,miasma-chain-t1676851.html,miasma chain t1676851|miasma-chain-t1676851.html,0,0,,0
+8eac9292-4004-5f92-a315-8a6e53bbbdb2,Skill,mirrored-blades-t1676826.html,mirrored-blades-t1676826.html,mirrored blades t1676826|mirrored-blades-t1676826.html,0,0,,0
+d70fdc6a-b3df-5dfd-b96d-39a7ddb7d08f,Skill,psychic-ward-t1676823.html,psychic-ward-t1676823.html,psychic ward t1676823|psychic-ward-t1676823.html,0,0,,0
+c844a8dd-7e57-5cba-991d-3207a9c2c3bc,Skill,summon-goatman-t1674063.html,summon-goatman-t1674063.html,summon goatman t1674063|summon-goatman-t1674063.html,0,0,,0
+bf5476f9-f49d-591f-8885-1ea73ab0f9e2,Skill,summon-tainted-t1674066.html,summon-tainted-t1674066.html,summon tainted t1674066|summon-tainted-t1674066.html,0,0,,0
+931dbe12-fe0e-572b-b117-f570160c0de0,SkillPage,amazon-javelin,amazon-javelin,amazon javelin|amazon-javelin,0,0,,0
+8e726b65-74e4-5f6e-8a82-ac70eda6f712,SkillPage,assassin-martialarts,assassin-martialarts,assassin martialarts|assassin-martialarts,0,0,,0
+fc4c51be-c95d-5561-929a-6a5285f7e6af,UniqueItem,ars-dul-mephistos-t1673924.html,ars-dul-mephistos-t1673924.html,ars dul mephistos t1673924|ars-dul-mephistos-t1673924.html,0,0,,0
+49f78d58-6425-52ef-a7bd-9e4d0f3a0c95,UniqueItem,bane-ash-t683.html,bane-ash-t683.html,bane ash t683|bane-ash-t683.html,0,0,,0
+28251f60-4639-590e-9ca5-5da706fb709f,UniqueItem,cranebeak-t731.html,cranebeak-t731.html,cranebeak t731|cranebeak-t731.html,0,0,,0
+babc2b44-4976-52eb-bf45-c220c7ed53d1,UniqueItem,hellslayer-t814.html,hellslayer-t814.html,hellslayer t814|hellslayer-t814.html,0,0,,0
+fa07e538-1fcf-51b3-b75f-b1509e041dba,UniqueItem,hellwarden-s-will-t1673933.html,hellwarden-s-will-t1673933.html,hellwarden s will t1673933|hellwarden-s-will-t1673933.html,0,0,,0
+92ddc2c4-8f54-5b81-ab90-12689a1d7bae,UniqueItem,pluckeye-t875.html,pluckeye-t875.html,pluckeye t875|pluckeye-t875.html,0,0,,0
+2fe45f1a-a162-5076-87e4-32ac8fc0333b,UniqueItem,silks-of-the-victor-t2.html,silks-of-the-victor-t2.html,silks of the victor t2|silks-of-the-victor-t2.html,0,0,,0
+606ae1ea-cf37-5073-b6ba-5eaed94cb885,WebPage,42929_1260699.html,42929_1260699.html,42929 1260699|42929_1260699.html,0,0,,0
+6330659f-8a8f-56f9-9d85-caa4717e7ad3,WebPage,42929_1262557.html,42929_1262557.html,42929 1262557|42929_1262557.html,0,0,,0
+a337470f-d664-52ec-b214-056b55f97792,WebPage,42929_1267024.html,42929_1267024.html,42929 1267024|42929_1267024.html,0,0,,0
+a29c9d10-a627-5c68-88c4-ffcf5c60b3c8,WebPage,42929_1267224.html,42929_1267224.html,42929 1267224|42929_1267224.html,0,0,,0
+1702b467-844b-56c1-8a42-e903ba08548f,WebPage,42929_1272408.html,42929_1272408.html,42929 1272408|42929_1272408.html,0,0,,0
+851e24da-88f5-5c86-a077-731cf7f440ce,WebPage,42929_1277898.html,42929_1277898.html,42929 1277898|42929_1277898.html,0,0,,0
+a4c3a1f8-a35d-5f86-a5ae-c9fc35a7b8d9,WebPage,42929_1285202.html,42929_1285202.html,42929 1285202|42929_1285202.html,0,0,,0
+176daa6f-dce8-5807-8296-b7aad464ec1a,WebPage,areas,areas,areas,0,0,,0
+9eceb76d-59b8-5c24-b71e-13d6654d7464,WebPage,areas,areas,areas,0,0,,0
+7de2bd05-e524-51db-a624-762301039129,WebPage,base,base,base,0,0,,0
+298addff-05cf-5b5e-9cda-f5c5860559e9,WebPage,base,base,base,0,0,,0
+f9c4b45e-b9cf-5881-93b1-92316db8719d,WebPage,index.html,index.html,index|index.html,0,0,,0
+b653c515-a797-5b8b-9c72-02f2b1a974ac,WebPage,index.html,index.html,index|index.html,0,0,,0
+79c79320-6134-5a7e-8c07-0f97437a837f,WebPage,index.html,index.html,index|index.html,0,0,,0
+00428748-f3b1-5456-b412-ce65409ce93f,WebPage,index.html,index.html,index|index.html,0,0,,0
+717ff4fe-cb97-506c-8359-b8fba3787e3a,WebPage,index.html,index.html,index|index.html,0,0,,0
+7b309c73-87a4-571e-a43c-243770fc93ce,WebPage,index.html,index.html,index|index.html,0,0,,0
+532e6d29-faab-5e00-a6c6-80ed4a8c06c6,WebPage,index.html,index.html,index|index.html,0,0,,0
+704729f6-a4bd-5c1c-9a18-2a81c5c19632,WebPage,misc,misc,misc,0,0,,0
+f790114d-8325-587d-9043-4e4b3fac7986,WebPage,monsters,monsters,monsters,0,0,,0
+21ab9c69-0d6f-54d5-9b8b-13c209bb0e51,WebPage,monsters,monsters,monsters,0,0,,0
+fd717288-c851-5ddc-9a60-b33b01ba1f00,WebPage,news,news,news,0,0,,0
+bb76362f-ef5a-59ac-8539-3776a78e2992,WebPage,npcs,npcs,npcs,0,0,,0
+780881ec-9ff7-5c63-a28b-d3cdcbd6d34b,WebPage,npcs,npcs,npcs,0,0,,0
+5314fb1e-4587-588d-8d60-37b12243a480,WebPage,quests,quests,quests,0,0,,0
+68b74867-f46d-5989-84c3-8c12674dd36e,WebPage,quests,quests,quests,0,0,,0
+d1a1a737-1aca-5de8-8aca-7345a9b9a13c,WebPage,recipes,recipes,recipes,0,0,,0
+e26d4eb0-9523-5f1b-afff-780df4c65b29,WebPage,recipes,recipes,recipes,0,0,,0
+e3f9f519-e4bf-52f0-8a4a-66229f42d8ec,WebPage,runewords,runewords,runewords,0,0,,0
+a6d418f2-81a9-5d95-aaae-56b1e0bee263,WebPage,runewords,runewords,runewords,0,0,,0
+dc6344e0-dd9e-5648-b71d-f8b782bf1ee8,WebPage,sets,sets,sets,0,0,,0
+5c38d109-8a28-54d7-bb12-a3b628c0c07e,WebPage,sets,sets,sets,0,0,,0
+b8fd8403-008f-5d7e-ab74-7186ebe579ce,WebPage,skills,skills,skills,0,0,,0
+56d36595-9cf1-5704-b986-721258a669f9,WebPage,skills,skills,skills,0,0,,0
+f58f8150-b8f4-5501-a1a0-9dd3186e7fc0,WebPage,uniques,uniques,uniques,0,0,,0
+939ad719-0090-5681-8239-cba625faf289,WebPage,uniques,uniques,uniques,0,0,,0

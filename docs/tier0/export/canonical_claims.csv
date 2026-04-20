@@ -1,0 +1,52 @@
+canonical_claim_id,subject_id,subject_type,subject_name,subject_aliases,predicate,predicate_family,object,supporting_source_count,supporting_sources,claim_variant_count
+7b9859d3-6dd2-568e-b523-3468e710f0c8,b65d2e30-ca3d-5893-b71e-2145685aafdb,ApiEndpoint,Diablo 2 API | Diablo-2.net,Diablo 2 API | Diablo-2.net|api,discovered_via,provenance,https://www.diablo-2.net/api/,1,diablo2-net-api,1
+d04f89df-f975-54a1-a37f-6191538ad45d,b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d,ApiEndpoint,items-endpoint,items|items-endpoint,discovered_via,provenance,https://www.diablo-2.net/api/items,1,diablo2-net-api,1
+24227fc9-4a93-5757-945a-7d402163a2a8,1e12fd92-f131-58ca-94b8-18b4749586c0,ApiEndpoint,runes-endpoint,runes|runes-endpoint,discovered_via,provenance,https://www.diablo-2.net/api/runes?item=ElRune&level=1,1,diablo2-net-api,1
+d5ab684e-888a-5e39-a64e-dbc244b759d4,c9eb4129-4857-5618-bac7-05f6ce74a559,ApiEndpoint,unique-items-endpoint,unique items|unique-items|unique-items-endpoint,discovered_via,provenance,https://www.diablo-2.net/api/unique-items?item=TheGrandFather&base-item=colossus_blade&class=Assassin&level=55&strength=75&dexterity=75&theme=d2r&identified=yes&output=json,1,diablo2-net-api,1
+a754d377-66de-53fa-8175-6f70a9cb1736,f4b81583-a556-59d2-9371-d39b8e655a14,LegacyReferencePage,A Strategy Guide for Diablo II,A Strategy Guide for Diablo II|diablo2exp,discovered_via,provenance,https://classic.battle.net/diablo2exp/,1,arreat-summit,1
+4f6ef994-cac9-53b8-91fd-bdb426c949e8,d7386d56-60ab-5c6f-a8b6-e1f4c3d07090,LegacyReferencePage,Basics,Basics,discovered_via,provenance,https://classic.battle.net/diablo2exp/basics/,1,arreat-summit,1
+8e44127e-2bf6-5f95-ae19-dac9d21ea945,37ab3d63-41a1-50b8-9540-ad4926b8f4e2,LegacyReferencePage,Classes,Classes,discovered_via,provenance,https://classic.battle.net/diablo2exp/classes/,1,arreat-summit,1
+ff35e807-cfb6-5068-8b39-17e88b2d7cf9,c5984ff1-fca2-5a78-825b-503fe21bef75,LegacyReferencePage,Items,Items,discovered_via,provenance,https://classic.battle.net/diablo2exp/items/,1,arreat-summit,1
+2fed3a77-efa8-5d15-917f-ec6f4b2dac6b,12dc5ddf-fc29-5c25-a335-4bc0dafc30a3,LegacyReferencePage,Maps,Maps,discovered_via,provenance,https://classic.battle.net/diablo2exp/maps/,1,arreat-summit,1
+65b38973-4b45-507c-a7d5-7f2eb18a2be3,eb0420e5-150c-5552-9be7-0cd3a9c05b69,LegacyReferencePage,Monsters,Monsters,discovered_via,provenance,https://classic.battle.net/diablo2exp/monsters/,1,arreat-summit,1
+9304611f-0e51-5c0f-9111-84fce749a26d,6c3756c9-8856-5751-a036-ae2129279f8b,LegacyReferencePage,Quests,Quests,discovered_via,provenance,https://classic.battle.net/diablo2exp/quests/,1,arreat-summit,1
+1ff1ec3f-7b85-5bdb-8609-3e627a343b37,cde5f873-722e-502b-9b8f-2bb53865d558,LegacyReferencePage,Skills,Skills,discovered_via,provenance,https://classic.battle.net/diablo2exp/skills/,1,arreat-summit,1
+ef12608c-8d18-5261-82e8-7593ec50281a,19d24304-b055-5bf8-a081-84290a25b27b,OpenDataResource,README,README|README.md,discovered_via,provenance,https://raw.githubusercontent.com/blizzhackers/d2data/master/README.md,1,blizzhackers-d2data,1
+d78f56c8-e8b5-5dcc-a653-7362b7951ec0,7fc1d921-774e-5152-a265-f094a4e410cd,OpenDataResource,json-contents,json|json-contents,discovered_via,provenance,https://api.github.com/repos/blizzhackers/d2data/contents/json,1,blizzhackers-d2data,1
+c5c86973-309e-5b4c-9105-2b19a45a5d4e,628d09b8-dd86-5ff9-91bf-d58b0b6891e8,OpenDataResource,root-contents,contents|root-contents,discovered_via,provenance,https://api.github.com/repos/blizzhackers/d2data/contents/,1,blizzhackers-d2data,1
+723a524e-b309-50ce-99fc-aab976afee18,491de5f6-1869-5911-88a7-481f727403d6,OpenDataResource,txt-contents,txt|txt-contents,discovered_via,provenance,https://api.github.com/repos/blizzhackers/d2data/contents/txt,1,blizzhackers-d2data,1
+598c4448-e4fd-58c0-b1f4-cb68f9376c52,f4b81583-a556-59d2-9371-d39b8e655a14,SourceDocument,A Strategy Guide for Diablo II,A Strategy Guide for Diablo II|diablo2exp,authority_tier,classification,official,1,arreat-summit,1
+93b30d87-2560-59f9-97af-a2b63d37dfd8,f4b81583-a556-59d2-9371-d39b8e655a14,SourceDocument,A Strategy Guide for Diablo II,A Strategy Guide for Diablo II|diablo2exp,lane,classification,official,1,arreat-summit,1
+e4fc4d1e-5077-54f1-aa29-0d900ef4f28a,d7386d56-60ab-5c6f-a8b6-e1f4c3d07090,SourceDocument,Basics,Basics,authority_tier,classification,official,1,arreat-summit,1
+d0dbf6b2-4847-5347-8ef6-2a3d097907fd,d7386d56-60ab-5c6f-a8b6-e1f4c3d07090,SourceDocument,Basics,Basics,lane,classification,official,1,arreat-summit,1
+182c771d-fa61-54de-a1a9-4ed0e9783a35,37ab3d63-41a1-50b8-9540-ad4926b8f4e2,SourceDocument,Classes,Classes,authority_tier,classification,official,1,arreat-summit,1
+0a67e23c-beba-57ec-822d-5716c21efa46,37ab3d63-41a1-50b8-9540-ad4926b8f4e2,SourceDocument,Classes,Classes,lane,classification,official,1,arreat-summit,1
+8b6d64ea-d15c-59f2-a55a-736ab4fc0825,b65d2e30-ca3d-5893-b71e-2145685aafdb,SourceDocument,Diablo 2 API | Diablo-2.net,Diablo 2 API | Diablo-2.net|api,api_requires_key,availability,true,1,diablo2-net-api,1
+777cc813-c929-5ee4-938e-025cc4db1a31,b65d2e30-ca3d-5893-b71e-2145685aafdb,SourceDocument,Diablo 2 API | Diablo-2.net,Diablo 2 API | Diablo-2.net|api,authority_tier,classification,structured_db,1,diablo2-net-api,1
+22676865-761f-5dca-acee-80fcf889fffc,b65d2e30-ca3d-5893-b71e-2145685aafdb,SourceDocument,Diablo 2 API | Diablo-2.net,Diablo 2 API | Diablo-2.net|api,lane,classification,api,1,diablo2-net-api,1
+ac05c6c3-0ef4-59d4-916f-7179b808990a,c5984ff1-fca2-5a78-825b-503fe21bef75,SourceDocument,Items,Items,authority_tier,classification,official,1,arreat-summit,1
+1c6eaf8a-0f20-5626-ae8f-4b0fc0ce7f6a,c5984ff1-fca2-5a78-825b-503fe21bef75,SourceDocument,Items,Items,lane,classification,official,1,arreat-summit,1
+223e3300-7075-5ab1-bf90-c9e0a43e0f7c,12dc5ddf-fc29-5c25-a335-4bc0dafc30a3,SourceDocument,Maps,Maps,authority_tier,classification,official,1,arreat-summit,1
+b5c1eaad-21e1-50f3-994b-7eb305e39630,12dc5ddf-fc29-5c25-a335-4bc0dafc30a3,SourceDocument,Maps,Maps,lane,classification,official,1,arreat-summit,1
+da51ffd6-3181-5ec8-a8d8-cddd1d7c3b82,eb0420e5-150c-5552-9be7-0cd3a9c05b69,SourceDocument,Monsters,Monsters,authority_tier,classification,official,1,arreat-summit,1
+6cc9c42d-80b0-5e16-84d0-9ca5874701f3,eb0420e5-150c-5552-9be7-0cd3a9c05b69,SourceDocument,Monsters,Monsters,lane,classification,official,1,arreat-summit,1
+8e4695eb-52a2-5b9b-a120-20017ec71ae8,6c3756c9-8856-5751-a036-ae2129279f8b,SourceDocument,Quests,Quests,authority_tier,classification,official,1,arreat-summit,1
+cdec8ddb-af7c-54a9-8338-50ec66ef696f,6c3756c9-8856-5751-a036-ae2129279f8b,SourceDocument,Quests,Quests,lane,classification,official,1,arreat-summit,1
+e0f3346a-139e-5a54-9c37-d5888666d725,19d24304-b055-5bf8-a081-84290a25b27b,SourceDocument,README,README|README.md,authority_tier,classification,structured_db,1,blizzhackers-d2data,1
+ae6f7994-8b42-5492-8748-f09799bc7a9a,19d24304-b055-5bf8-a081-84290a25b27b,SourceDocument,README,README|README.md,lane,classification,open_data,1,blizzhackers-d2data,1
+418f0505-ceea-53a3-887b-1879a77b0801,cde5f873-722e-502b-9b8f-2bb53865d558,SourceDocument,Skills,Skills,authority_tier,classification,official,1,arreat-summit,1
+4a02d114-e65f-5fdf-bf67-605508ab4040,cde5f873-722e-502b-9b8f-2bb53865d558,SourceDocument,Skills,Skills,lane,classification,official,1,arreat-summit,1
+b2a09ebf-9924-5cc9-82d6-8bc0a3139f93,b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d,SourceDocument,items-endpoint,items|items-endpoint,authority_tier,classification,structured_db,1,diablo2-net-api,1
+3728e9e7-1534-5f29-91b5-533d829cbdc3,b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d,SourceDocument,items-endpoint,items|items-endpoint,lane,classification,api,1,diablo2-net-api,1
+1dbd652b-9ba2-5243-bc4f-1701b004020b,7fc1d921-774e-5152-a265-f094a4e410cd,SourceDocument,json-contents,json|json-contents,authority_tier,classification,structured_db,1,blizzhackers-d2data,1
+57e22d14-eb63-5871-92c4-5b89dcdff98f,7fc1d921-774e-5152-a265-f094a4e410cd,SourceDocument,json-contents,json|json-contents,lane,classification,open_data,1,blizzhackers-d2data,1
+13374477-d4b7-5984-915a-6df1ec135f3e,628d09b8-dd86-5ff9-91bf-d58b0b6891e8,SourceDocument,root-contents,contents|root-contents,authority_tier,classification,structured_db,1,blizzhackers-d2data,1
+ff62d2ca-530e-57e8-aca2-549a8516c303,628d09b8-dd86-5ff9-91bf-d58b0b6891e8,SourceDocument,root-contents,contents|root-contents,lane,classification,open_data,1,blizzhackers-d2data,1
+a1c2197e-8bdd-5712-9ca7-5f8a5336625e,1e12fd92-f131-58ca-94b8-18b4749586c0,SourceDocument,runes-endpoint,runes|runes-endpoint,api_requires_key,availability,true,1,diablo2-net-api,1
+14d2fd20-79bc-539a-b8a3-d0da03d004a3,1e12fd92-f131-58ca-94b8-18b4749586c0,SourceDocument,runes-endpoint,runes|runes-endpoint,authority_tier,classification,structured_db,1,diablo2-net-api,1
+55680157-0e9c-5ffe-8d2d-23d23edf8ce6,1e12fd92-f131-58ca-94b8-18b4749586c0,SourceDocument,runes-endpoint,runes|runes-endpoint,lane,classification,api,1,diablo2-net-api,1
+2a2ad1c6-cf97-50d1-ac06-95d078b6530f,491de5f6-1869-5911-88a7-481f727403d6,SourceDocument,txt-contents,txt|txt-contents,authority_tier,classification,structured_db,1,blizzhackers-d2data,1
+099386cf-13de-52cb-81fe-5386c62f8a9b,491de5f6-1869-5911-88a7-481f727403d6,SourceDocument,txt-contents,txt|txt-contents,lane,classification,open_data,1,blizzhackers-d2data,1
+f4657a7e-efb0-5c7d-aa05-a9384d6c7660,c9eb4129-4857-5618-bac7-05f6ce74a559,SourceDocument,unique-items-endpoint,unique items|unique-items|unique-items-endpoint,api_requires_key,availability,true,1,diablo2-net-api,1
+5d15f51c-ed6b-56b0-8d37-b0c07345c6ac,c9eb4129-4857-5618-bac7-05f6ce74a559,SourceDocument,unique-items-endpoint,unique items|unique-items|unique-items-endpoint,authority_tier,classification,structured_db,1,diablo2-net-api,1
+28106fcb-1ad5-5a60-a582-8dfbc8c1798a,c9eb4129-4857-5618-bac7-05f6ce74a559,SourceDocument,unique-items-endpoint,unique items|unique-items|unique-items-endpoint,lane,classification,api,1,diablo2-net-api,1

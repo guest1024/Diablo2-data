@@ -1,0 +1,14 @@
+{
+  "csv_tables": {
+    "nodes": 941,
+    "edges": 1065,
+    "claims": 747,
+    "chunks": 8289
+  },
+  "files": {
+    "nodes": "docs/tier0/merged/csv/nodes.csv",
+    "edges": "docs/tier0/merged/csv/edges.csv",
+    "claims": "docs/tier0/merged/csv/claims.csv",
+    "chunks": "docs/tier0/merged/csv/chunks.csv"
+  }
+}

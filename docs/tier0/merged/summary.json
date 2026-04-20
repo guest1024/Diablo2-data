@@ -1,0 +1,26 @@
+{
+  "base_counts": {
+    "nodes": 272,
+    "edges": 397,
+    "claims": 79,
+    "chunks": 4490
+  },
+  "high_value_counts": {
+    "nodes": 584,
+    "edges": 582,
+    "claims": 582,
+    "chunks": 2793
+  },
+  "merged_counts": {
+    "nodes": 941,
+    "edges": 1065,
+    "claims": 747,
+    "chunks": 8289
+  },
+  "paths": {
+    "nodes": "docs/tier0/merged/nodes.jsonl",
+    "edges": "docs/tier0/merged/edges.jsonl",
+    "claims": "docs/tier0/merged/claims.jsonl",
+    "chunks": "docs/tier0/merged/chunks.jsonl"
+  }
+}

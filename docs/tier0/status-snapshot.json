@@ -1,0 +1,52 @@
+{
+  "readiness": {
+    "tier0_pipeline_rerunnable": true,
+    "stack_verification_present": true,
+    "checksum_verification_present": true,
+    "graph_export_bundle_present": true,
+    "csv_export_present": true,
+    "neo4j_playbook_present": true,
+    "consumer_guide_present": true,
+    "handoff_present": true
+  },
+  "counts": {
+    "sources": 5,
+    "captures": 30,
+    "documents": 30,
+    "chunks": 4490,
+    "graph": {
+      "nodes": 272,
+      "edges": 397,
+      "claims": 79,
+      "chunks": 4490,
+      "canonical_entities": 237,
+      "support_edges": 16,
+      "claim_index": 79,
+      "canonical_claims": 51,
+      "aliases": 461,
+      "provenance": 79
+    },
+    "version_semantics": {
+      "version_tags": 30,
+      "contradiction_seeds": 10
+    },
+    "csv_export": {
+      "canonical_entities": 237,
+      "aliases": 461,
+      "canonical_claims": 51,
+      "support_edges": 16,
+      "provenance": 79,
+      "chunks": 4490
+    },
+    "artifact_checksums": 14
+  },
+  "entrypoints": {
+    "readme": "docs/tier0/README.md",
+    "handoff": "docs/tier0/HANDOFF.md",
+    "consumer_guide": "docs/tier0/graph-export-consumer-guide.md",
+    "neo4j_playbook": "docs/tier0/neo4j-import-playbook.md",
+    "pipeline": "python3 scripts/run_tier0_pipeline.py",
+    "verify_stack": "python3 scripts/verify_tier0_stack.py",
+    "verify_checksums": "python3 scripts/verify_artifact_checksums.py"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version_tag_count": 30,
+  "contradiction_seed_count": 10,
+  "paths": {
+    "version_tags": "docs/tier0/derived/version-tags.jsonl",
+    "contradiction_seeds": "docs/tier0/derived/contradiction-seeds.jsonl"
+  }
+}

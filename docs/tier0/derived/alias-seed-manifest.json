@@ -1,0 +1,8 @@
+{
+  "alias_count": 461,
+  "provenance_count": 79,
+  "paths": {
+    "aliases": "docs/tier0/derived/aliases.jsonl",
+    "provenance": "docs/tier0/derived/provenance.jsonl"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "artifact_count": 14,
+  "entries": [
+    {
+      "path": "docs/tier0/fetch-manifest.json",
+      "size": 45777,
+      "sha256": "80fcc7c7a760e466c308572d5e27b7c88dd87c0879eb6d8419c1d19b2524e6fd"
+    },
+    {
+      "path": "docs/tier0/fetch-report.md",
+      "size": 12851,
+      "sha256": "554c789dcb3d90fb47fa0ee7aab86bc582356b6b7f96ccb6e6f28b441fe20d28"
+    },
+    {
+      "path": "docs/tier0/normalized-manifest.json",
+      "size": 612,
+      "sha256": "97d400d652e0bac6c07a03f42dab6d51f43a19c5938b7d5e9119320e14623cae"
+    },
+    {
+      "path": "docs/tier0/normalized-report.md",
+      "size": 487,
+      "sha256": "068c3bdedc30396f6b02689e9ac8a9fa8272491c8c68750f4fc315716b55e2d1"
+    },
+    {
+      "path": "docs/tier0/derived/graph-seed-manifest.json",
+      "size": 805,
+      "sha256": "12c20f7fc07eff0b49be2a6ab1849c242c2283132553454eeb586342d988060b"
+    },
+    {
+      "path": "docs/tier0/derived/alias-seed-manifest.json",
+      "size": 176,
+      "sha256": "3a0e098bb5c60bb851da71392891daff6acc6237085b8dbed9d8a148a9c7e6a5"
+    },
+    {
+      "path": "docs/tier0/derived/refined-graph-manifest.json",
+      "size": 303,
+      "sha256": "44506e95d277ca867604cf994e95a1e88a00ead57bbc7424a2b6673730081f96"
+    },
+    {
+      "path": "docs/tier0/derived/claim-normalization-manifest.json",
+      "size": 296,
+      "sha256": "582db3dc2e41cb6ea64eacaeb459ff9561bcaeac2e9003773f66d0b4f8a839bb"
+    },
+    {
+      "path": "docs/tier0/derived/version-semantics-manifest.json",
+      "size": 217,
+      "sha256": "d068fd81d54c49e7757514c3a64329836c158cedce881631a6922d55c3a34014"
+    },
+    {
+      "path": "docs/tier0/derived/graph-export-bundle.json",
+      "size": 2767,
+      "sha256": "5beb0c837fe1f24fc2d12297a1cd457f0f6b67fabda6c0b550c9386c637c055a"
+    },
+    {
+      "path": "docs/tier0/export/csv-export-manifest.json",
+      "size": 532,
+      "sha256": "da115a74e8aacaf8bf6652aae318ae327d914e685e57839c40800e344b81903e"
+    },
+    {
+      "path": "docs/tier0/graph-export-consumer-guide.md",
+      "size": 4660,
+      "sha256": "e1b9c48e421da02dfecf6fadf5cf42014bf926b6108c17cc1b0d2fbc3cd82a4c"
+    },
+    {
+      "path": "docs/tier0/neo4j-import-playbook.md",
+      "size": 1941,
+      "sha256": "0a3adf0b292d5d446f80aa5071131fab8b5e593fd0eff6993f8ee389ef3d44b9"
+    },
+    {
+      "path": "docs/tier0/pipeline-operator-notes.md",
+      "size": 804,
+      "sha256": "8f14e4bf82c0f83ac8a7d78d3cf2cdde597539a878d0b0730d99575833ba8548"
+    }
+  ]
+}

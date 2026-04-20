@@ -1,0 +1,296 @@
+{
+  "generated_from_prd": ".omx/plans/prd-diablo2-knowledge-base-phase1.md",
+  "sources": [
+    {
+      "id": "arreat-summit",
+      "name": "The Arreat Summit",
+      "tier": 0,
+      "lane": "official",
+      "capture_mode": "scoped",
+      "policy_note": "Legacy official site; no robots.txt was found during planning, so execution is limited to core section pages and discovered internal inventories.",
+      "execution_note": "Core section pages + discovered internal URL inventory",
+      "discovery_rules": {
+        "allow_prefixes": [
+          "https://classic.battle.net/diablo2exp/"
+        ],
+        "exclude_substrings": [
+          "/war3/",
+          "/scc/"
+        ],
+        "exclude_suffixes": [
+          ".css",
+          ".js",
+          ".wav",
+          ".jpg",
+          ".jpeg",
+          ".gif",
+          ".png"
+        ]
+      },
+      "targets": [
+        {
+          "label": "homepage",
+          "url": "https://classic.battle.net/diablo2exp/",
+          "path": "homepage.html"
+        },
+        {
+          "label": "basics",
+          "url": "https://classic.battle.net/diablo2exp/basics/",
+          "path": "basics.html"
+        },
+        {
+          "label": "classes",
+          "url": "https://classic.battle.net/diablo2exp/classes/",
+          "path": "classes.html"
+        },
+        {
+          "label": "skills",
+          "url": "https://classic.battle.net/diablo2exp/skills/",
+          "path": "skills.html"
+        },
+        {
+          "label": "items",
+          "url": "https://classic.battle.net/diablo2exp/items/",
+          "path": "items.html"
+        },
+        {
+          "label": "monsters",
+          "url": "https://classic.battle.net/diablo2exp/monsters/",
+          "path": "monsters.html"
+        },
+        {
+          "label": "quests",
+          "url": "https://classic.battle.net/diablo2exp/quests/",
+          "path": "quests.html"
+        },
+        {
+          "label": "maps",
+          "url": "https://classic.battle.net/diablo2exp/maps/",
+          "path": "maps.html"
+        }
+      ]
+    },
+    {
+      "id": "diablo2-io",
+      "name": "diablo2.io structured reference",
+      "tier": 0,
+      "lane": "structured_db",
+      "capture_mode": "scoped",
+      "policy_note": "Fetch sitemap plus allowed structured category roots only. Skip forum/build/article/tool/trade recursion because of robots restrictions and quality policy.",
+      "execution_note": "Sitemap + structured category roots only",
+      "discovery_rules": {
+        "allow_prefixes": [
+          "https://diablo2.io/uniques/",
+          "https://diablo2.io/runewords/",
+          "https://diablo2.io/sets/",
+          "https://diablo2.io/base/",
+          "https://diablo2.io/recipes/",
+          "https://diablo2.io/monsters/",
+          "https://diablo2.io/npcs/",
+          "https://diablo2.io/skills/",
+          "https://diablo2.io/areas/",
+          "https://diablo2.io/quests/",
+          "https://diablo2.io/misc/"
+        ],
+        "exclude_substrings": [
+          "/forums",
+          "/trade",
+          "/builds",
+          "/articles",
+          "/tools",
+          "price-check",
+          "dclonetracker"
+        ],
+        "exclude_suffixes": [
+          ".css",
+          ".js",
+          ".jpg",
+          ".jpeg",
+          ".gif",
+          ".png",
+          ".svg",
+          ".webp"
+        ]
+      },
+      "targets": [
+        {
+          "label": "sitemap",
+          "url": "https://diablo2.io/sitemap.xml",
+          "path": "sitemap.xml"
+        },
+        {
+          "label": "uniques",
+          "url": "https://diablo2.io/uniques/",
+          "path": "uniques.html"
+        },
+        {
+          "label": "runewords",
+          "url": "https://diablo2.io/runewords/",
+          "path": "runewords.html"
+        },
+        {
+          "label": "sets",
+          "url": "https://diablo2.io/sets/",
+          "path": "sets.html"
+        },
+        {
+          "label": "base",
+          "url": "https://diablo2.io/base/",
+          "path": "base.html"
+        },
+        {
+          "label": "recipes",
+          "url": "https://diablo2.io/recipes/",
+          "path": "recipes.html"
+        },
+        {
+          "label": "monsters",
+          "url": "https://diablo2.io/monsters/",
+          "path": "monsters.html"
+        },
+        {
+          "label": "npcs",
+          "url": "https://diablo2.io/npcs/",
+          "path": "npcs.html"
+        },
+        {
+          "label": "skills",
+          "url": "https://diablo2.io/skills/",
+          "path": "skills.html"
+        },
+        {
+          "label": "areas",
+          "url": "https://diablo2.io/areas/",
+          "path": "areas.html"
+        },
+        {
+          "label": "quests",
+          "url": "https://diablo2.io/quests/",
+          "path": "quests.html"
+        }
+      ]
+    },
+    {
+      "id": "blizzhackers-d2data",
+      "name": "blizzhackers/d2data",
+      "tier": 0,
+      "lane": "open_data",
+      "capture_mode": "scoped",
+      "policy_note": "Public GitHub repository suitable for machine-readable seeding. Capture README plus API listings for root/json/txt directories.",
+      "execution_note": "GitHub README + contents API for root/json/txt",
+      "discovery_rules": {
+        "allow_hosts": [
+          "api.github.com",
+          "github.com",
+          "raw.githubusercontent.com"
+        ],
+        "exclude_suffixes": [
+          ".png",
+          ".jpg",
+          ".jpeg",
+          ".gif"
+        ]
+      },
+      "targets": [
+        {
+          "label": "readme",
+          "url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/README.md",
+          "path": "README.md"
+        },
+        {
+          "label": "root-contents",
+          "url": "https://api.github.com/repos/blizzhackers/d2data/contents/",
+          "path": "root-contents.json"
+        },
+        {
+          "label": "json-contents",
+          "url": "https://api.github.com/repos/blizzhackers/d2data/contents/json",
+          "path": "json-contents.json"
+        },
+        {
+          "label": "txt-contents",
+          "url": "https://api.github.com/repos/blizzhackers/d2data/contents/txt",
+          "path": "txt-contents.json"
+        }
+      ]
+    },
+    {
+      "id": "diablo2-net-api",
+      "name": "Diablo-2.net API",
+      "tier": 0,
+      "lane": "api",
+      "capture_mode": "scoped",
+      "policy_note": "Capture API docs and public error/guard behavior. Current live endpoint responses indicate an API key is required for live rune/unique queries.",
+      "execution_note": "Docs page + sample endpoint responses",
+      "discovery_rules": {
+        "allow_prefixes": [
+          "https://www.diablo-2.net/api"
+        ]
+      },
+      "targets": [
+        {
+          "label": "api-docs",
+          "url": "https://www.diablo-2.net/api/",
+          "path": "api-docs.html"
+        },
+        {
+          "label": "items-endpoint",
+          "url": "https://www.diablo-2.net/api/items",
+          "path": "items-endpoint.json"
+        },
+        {
+          "label": "runes-endpoint",
+          "url": "https://www.diablo-2.net/api/runes?item=ElRune&level=1",
+          "path": "runes-endpoint.json"
+        },
+        {
+          "label": "unique-items-endpoint",
+          "url": "https://www.diablo-2.net/api/unique-items?item=TheGrandFather&base-item=colossus_blade&class=Assassin&level=55&strength=75&dexterity=75&theme=d2r&identified=yes&output=json",
+          "path": "unique-items-endpoint.json"
+        }
+      ]
+    },
+    {
+      "id": "blizzard-cn-d2",
+      "name": "Diablo II China official portal",
+      "tier": 0,
+      "lane": "official",
+      "capture_mode": "scoped",
+      "policy_note": "Capture homepage, sitemap, and news index to seed official Chinese terminology/news references.",
+      "execution_note": "Homepage + sitemap + news index",
+      "discovery_rules": {
+        "allow_prefixes": [
+          "https://d2.blizzard.cn/",
+          "https://d2.blizzard.cn/news/"
+        ],
+        "exclude_suffixes": [
+          ".css",
+          ".js",
+          ".jpg",
+          ".jpeg",
+          ".gif",
+          ".png",
+          ".svg",
+          ".webp"
+        ]
+      },
+      "targets": [
+        {
+          "label": "homepage",
+          "url": "https://d2.blizzard.cn/",
+          "path": "homepage.html"
+        },
+        {
+          "label": "sitemap",
+          "url": "https://d2.blizzard.cn/sitemap.txt",
+          "path": "sitemap.txt"
+        },
+        {
+          "label": "news-index",
+          "url": "https://d2.blizzard.cn/news/",
+          "path": "news-index.html"
+        }
+      ]
+    }
+  ]
+}

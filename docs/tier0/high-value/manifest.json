@@ -1,0 +1,2940 @@
+{
+  "sources": {
+    "diablo2-io": {
+      "pages": 238,
+      "chars": 2618281,
+      "chunks": 2388
+    },
+    "arreat-summit": {
+      "pages": 54,
+      "chars": 335977,
+      "chunks": 405
+    }
+  },
+  "page_count": 292,
+  "chunk_count": 2793,
+  "documents_path": "docs/tier0/high-value/normalized/documents.jsonl",
+  "chunks_path": "docs/tier0/high-value/derived/chunks.jsonl",
+  "pages": [
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/spirit-t3.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__spirit-t3.html.html",
+      "title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 17210,
+      "sha256": "3336daff8d28950c5525a5fc240984a39bb42e91e4e7f70d8ea5298da45203f1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/enigma-t42.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__enigma-t42.html.html",
+      "title": "Enigma \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 18366,
+      "sha256": "66de95dfe2353b035b4a739d21a92ca6520a1dcd88b0448a888592101c2b70fd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/ancients-pledge-t46.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__ancients-pledge-t46.html.html",
+      "title": "Ancients' Pledge \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 11437,
+      "sha256": "bf048d38e20c7afefe0ac2ed66c525bce607331ff6359f586e7c90775a12eceb",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/silence-t55.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__silence-t55.html.html",
+      "title": "Silence \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 13132,
+      "sha256": "e4adde1c56e1e92b81be09b6bdfa40191d80006c3244f07c9283d49ebb63a226",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/strength-t56.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__strength-t56.html.html",
+      "title": "Strength \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 9573,
+      "sha256": "8c46d4ecc2171fd3ac5e2635c7f75b0a53dcbaa13ab0b7a815beac77036de78d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/leaf-t57.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__leaf-t57.html.html",
+      "title": "Leaf \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 13104,
+      "sha256": "c954a0fdd7ebecb3f9ba4aff97652ef41444a3c76120c71c1ecc892c7850b0c7",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/black-t1182.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__black-t1182.html.html",
+      "title": "Black \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 12614,
+      "sha256": "375cd45d3d69d42ab434f5a31a246e1d021b4f1fa7ab7e93e39642ed1ddb85c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/fury-t1183.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__fury-t1183.html.html",
+      "title": "Fury \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10865,
+      "sha256": "a08aba79538fff6067879ed9bf870ac84f496f09b92e94c3d498680177ccae04",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/holy-thunder-t1184.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__holy-thunder-t1184.html.html",
+      "title": "Holy Thunder \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 11394,
+      "sha256": "2dfd32738b081d0b15bc3e9d21b9a563674f6b63e0966fa7ec98008365156a12",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/honor-t1185.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__honor-t1185.html.html",
+      "title": "Honor \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10552,
+      "sha256": "da632a5b7777cda8267c1c80dfb815609713adbf21ffb05a243c513c9ec3ff8a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/king-s-grace-t1186.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__king-s-grace-t1186.html.html",
+      "title": "King's Grace \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 9986,
+      "sha256": "21a145d92cd38034d31ea7eb44b2c0c4d97d66be5be7fc1d91ac6d470b8172d7",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/lionheart-t1187.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__lionheart-t1187.html.html",
+      "title": "Lionheart \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10286,
+      "sha256": "68f6731681b469cbbbbb3c01a4703377ae2d93409e2db69e7e0fda3e03b5b957",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/lore-t1188.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__lore-t1188.html.html",
+      "title": "Lore \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10901,
+      "sha256": "8af0c4348f79dd2fc59e8f40b3cb1a204fcbcaf1491cff437d626518af7e85b1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/malice-t1189.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__malice-t1189.html.html",
+      "title": "Malice \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10185,
+      "sha256": "65ad9b56c00f93385b6bf876b2d2e6f27a0917e26158b888cee2eb13db2d4eec",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/melody-t1190.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__melody-t1190.html.html",
+      "title": "Melody \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10911,
+      "sha256": "aea87fd497e2a227cd0ac695594123e99b58a328c79fdc1b44ecee5b516b8426",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/memory-t1191.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__memory-t1191.html.html",
+      "title": "Memory \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10121,
+      "sha256": "7e895d12d45c5724965fe0970c112311bc579bcadfa703cdbb9a37d37cdba91b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/nadir-t1192.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__nadir-t1192.html.html",
+      "title": "Nadir \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 8911,
+      "sha256": "f0a7ee3356e0186410916d16232a7b176fad61bac21a0a8716f65a2671416c41",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/radiance-t1193.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__radiance-t1193.html.html",
+      "title": "Radiance \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 12508,
+      "sha256": "554fc73fa9de8b2665a3a9e4569fb76c2b0c6762115cddca67d162be77ccba32",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/rhyme-t1194.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__rhyme-t1194.html.html",
+      "title": "Rhyme \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 11627,
+      "sha256": "3f1ff9681c720baa4141fd7285242fdf3551226a56692d22f1df5921bf886c08",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/smoke-t1195.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__smoke-t1195.html.html",
+      "title": "Smoke \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 9609,
+      "sha256": "4c8771deeda905f31c579b31645ba2fcf2097c20b07f6fd4b285e5b0ad737eea",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/stealth-t1196.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__stealth-t1196.html.html",
+      "title": "Stealth \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 9893,
+      "sha256": "e24d135c1bb4e5964e10bb01ddacb03a9574067a20bc405de6de65ff2a4c0321",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/steel-t1197.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__steel-t1197.html.html",
+      "title": "Steel \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10574,
+      "sha256": "52696f434f1dc924255eaf07a4c46b002479a612605def6c7013b76b774403b8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/venom-t1198.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__venom-t1198.html.html",
+      "title": "Venom \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 10877,
+      "sha256": "5337dc8fb628c71177f3ae1f054b3c53b0353e8d667dcc5947304ac43453d5c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/runewords/wealth-t1199.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/runewords__wealth-t1199.html.html",
+      "title": "Wealth \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "chars": 9390,
+      "sha256": "eebfa8af32d086af2099310b4a408b9f7b45919ca86b9cb9c6f65fcdb4c5dc9b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/silks-of-the-victor-t2.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__silks-of-the-victor-t2.html.html",
+      "title": "Silks of the Victor \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10855,
+      "sha256": "5c99a61f357453af1ce38bce50225d90b886ff564322adc54f9649fc7e264c33",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/soul-harvest-t36.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__soul-harvest-t36.html.html",
+      "title": "Soul Harvest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10310,
+      "sha256": "b39472f2f1010c0bbad882d4f816e9b0973899da246054fb7236a1517d7b7227",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/harlequin-crest-t37.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__harlequin-crest-t37.html.html",
+      "title": "Harlequin Crest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 18391,
+      "sha256": "c45744a68419308b560266f7449b133d7786916936a387beb255fcdf1f6f6e39",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/thundergod-s-vigor-t38.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__thundergod-s-vigor-t38.html.html",
+      "title": "Thundergod's Vigor \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12422,
+      "sha256": "6f7197e4754ae79b41dbb6f12888bd4cd139df86b00ee453328a49c4b4b3f99e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/hellfire-torch-t39.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__hellfire-torch-t39.html.html",
+      "title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 16702,
+      "sha256": "cd030f9cdc322bb1d767c3d52f2fb625efb3f06b6d243e4804c447f0f31818d3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/seraph-s-hymn-t41.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__seraph-s-hymn-t41.html.html",
+      "title": "Seraph's Hymn \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12297,
+      "sha256": "9d29cb8b2e15611d422e1ddc520d9b2af6e092332319b37c7f91c439d89ef18b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/razorswitch-t257.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__razorswitch-t257.html.html",
+      "title": "Razorswitch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10384,
+      "sha256": "3ce616024b80524b4a6f7581afbc8230fdfddacfef05657c5c2bc8bf464a9777",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/alma-negra-t668.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__alma-negra-t668.html.html",
+      "title": "Alma Negra \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13672,
+      "sha256": "5b1375426832b327175dbc79ad22ed7957547919a60340ed1b11e856aeafc315",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/andariel-s-visage-t669.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__andariel-s-visage-t669.html.html",
+      "title": "Andariel's Visage \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 15625,
+      "sha256": "5210d4fdceaebcbfadd3df729bb133630e4ed8c986b8bb0c8c60e6bd62df704c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/annihilus-t670.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__annihilus-t670.html.html",
+      "title": "Annihilus \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12980,
+      "sha256": "e9cf095743b4f0ca6a713b9f081ba2aa733bc8c00ce2e34e2705c78cf841d393",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/arachnid-mesh-t671.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__arachnid-mesh-t671.html.html",
+      "title": "Arachnid Mesh \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 14237,
+      "sha256": "5c980c503dfc33e6a9cc5d926974b3761bb0850d00904f55220f5e24f2974af9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/arioc-s-needle-t672.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__arioc-s-needle-t672.html.html",
+      "title": "Arioc's Needle \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13472,
+      "sha256": "205e826d316d2fb3bf5261fc8f68fee2825437c92d04c266d88931253cc2e212",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/arkaine-s-valor-t673.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__arkaine-s-valor-t673.html.html",
+      "title": "Arkaine's Valor \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12619,
+      "sha256": "2e7128c760305ec8842f93ed08ad5945dc0eb4ccb8d84672584db7d3afef30e3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/arm-of-king-leoric-t674.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__arm-of-king-leoric-t674.html.html",
+      "title": "Arm of King Leoric \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13600,
+      "sha256": "8c4a8e164eaf8f224414065275c5d00c2c60f5474790ce6ce72caaee561af5b6",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/arreat-s-face-t675.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__arreat-s-face-t675.html.html",
+      "title": "Arreat's Face \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11751,
+      "sha256": "851eb6764e516b28bab3fdfe93a1328cc148fb5fb579c667d26dcfed23d597f9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/astreon-s-iron-ward-t676.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__astreon-s-iron-ward-t676.html.html",
+      "title": "Astreon's Iron Ward \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12538,
+      "sha256": "e4b113595308026d93a92b6547855f3a191b4ef18c0d9d86cdbe6c1c75c35b17",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/athena-s-wrath-t677.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__athena-s-wrath-t677.html.html",
+      "title": "Athena's Wrath \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11214,
+      "sha256": "39c0f224f63a7cad7e508f0482b1581f336bf93cb40765086543e7879eaa65e3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/atma-s-scarab-t678.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__atma-s-scarab-t678.html.html",
+      "title": "Atma's Scarab \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12048,
+      "sha256": "186ceca55485cad65ab41f02e4f84efc1101806317acfb096d3f94b17faf4ec9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/atma-s-wail-t679.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__atma-s-wail-t679.html.html",
+      "title": "Atma's Wail \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11756,
+      "sha256": "07b691744bb6fcf2916df2f8ce10865364f7b9df24101b2eddcba3593a43fa7d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/axe-of-fechmar-t680.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__axe-of-fechmar-t680.html.html",
+      "title": "Axe of Fechmar \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9763,
+      "sha256": "c32e401aed510f1ac314e99afc22a1185fdc7f61ff8bcea2cd9e311917e3fe73",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/azurewrath-t681.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__azurewrath-t681.html.html",
+      "title": "Azurewrath \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 14176,
+      "sha256": "553faa22beeea5e28d64f785949f40689afaf7f5d63ce65722b442c472445ea2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/baezil-s-vortex-t682.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__baezil-s-vortex-t682.html.html",
+      "title": "Baezil's Vortex \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10059,
+      "sha256": "4d2bd407abd2516480fd755246d9cfd250c0ad294bcee8b45ea9522b6226b56a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bane-ash-t683.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bane-ash-t683.html.html",
+      "title": "Bane Ash \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11460,
+      "sha256": "c0cac87608bfedbbab21c42db62a339b181942a717b3fd37d3fd2afe7dee9a4e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/baranar-s-star-t684.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__baranar-s-star-t684.html.html",
+      "title": "Baranar's Star \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11000,
+      "sha256": "1938f16a0865f09802d3ea8a086463ac5bcc9602252d214ee9be97897b5dbebc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bartuc-s-cut-throat-t685.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bartuc-s-cut-throat-t685.html.html",
+      "title": "Bartuc's Cut-Throat \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10817,
+      "sha256": "81353dbd02f7db583fc1b5152c9479ca74419b4a45c563614069ffc5f5a327e3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/biggin-s-bonnet-t686.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__biggin-s-bonnet-t686.html.html",
+      "title": "Biggin's Bonnet \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9769,
+      "sha256": "2f184f5b854eb316d80a6d4b629ba5e73e4ccbd81666b5b3ddcde9854875a1fc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bing-sz-wang-t687.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bing-sz-wang-t687.html.html",
+      "title": "Bing Sz Wang \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11661,
+      "sha256": "6fc50bc482b3672b0399e433915cf602f21e1b453f0308c140c470d66b40059f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/black-hades-t688.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__black-hades-t688.html.html",
+      "title": "Black Hades \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11204,
+      "sha256": "ddda568c5955d3d9b0688b00dd0985cbfdaaecf072df2818dd5bfa89f4c8e340",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blackbog-s-sharp-t689.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blackbog-s-sharp-t689.html.html",
+      "title": "Blackbog's Sharp \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11055,
+      "sha256": "0f76efdc2e4c5e330b763cee6a37ffb6d52a8d29994f9a604a5e833b3454fbf5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blackhand-key-t690.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blackhand-key-t690.html.html",
+      "title": "Blackhand Key \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11755,
+      "sha256": "84a0612337d2fa6e7479758a190b6b7e4339d12222dd7aee35ed437eb728d8fd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blackhorn-s-face-t691.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blackhorn-s-face-t691.html.html",
+      "title": "Blackhorn's Face \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13088,
+      "sha256": "a22cf121e2c67f2a62ecaa981eb89b5fb48866fdb401b3de826b5756fbecee36",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blackleach-blade-t692.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blackleach-blade-t692.html.html",
+      "title": "Blackleach Blade \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10393,
+      "sha256": "d938b7802ad6c38ec5122b50fd5f08754d75441cd83bc0675ee1517059c0adfa",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blackoak-shield-t693.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blackoak-shield-t693.html.html",
+      "title": "Blackoak Shield \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12424,
+      "sha256": "96f1907ddd397c19170c1169126c8ae72eb08b75e08ddde11ce8ad903a71c2e8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blacktongue-t694.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blacktongue-t694.html.html",
+      "title": "Blacktongue \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9298,
+      "sha256": "bcad8c6ca9556ae8f85792bb93853520627b2d7cc3a1836db7cfaf31f947b287",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blade-of-ali-baba-t695.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blade-of-ali-baba-t695.html.html",
+      "title": "Blade Of Ali Baba \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 14548,
+      "sha256": "504b3c12cb25b2dbc93bc5a4b0ebb18462dd2eb81b230282fc2110a5fbd00c77",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bladebone-t696.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bladebone-t696.html.html",
+      "title": "Bladebone \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9078,
+      "sha256": "56d66abf02a1fd43fa136452f4423b533806151010230a709c3e8e90ccdc4069",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bladebuckle-t697.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bladebuckle-t697.html.html",
+      "title": "Bladebuckle \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9202,
+      "sha256": "a53f4a1210dd32a448f39d011e58abf40ea970c75b8ab45eede2ab351fb75ece",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blastbark-t698.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blastbark-t698.html.html",
+      "title": "Blastbark \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9709,
+      "sha256": "e20e84f1e84576480fcfc975ac7c187fca352e00bcfae5fa7d391eb255377a5a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blinkbat-s-form-t699.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blinkbat-s-form-t699.html.html",
+      "title": "Blinkbat's Form \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9482,
+      "sha256": "59a4b9754b98b65f631e13445f2038f1e9c8f358bccc8c756fe2fe90a8833dcb",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blood-crescent-t700.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blood-crescent-t700.html.html",
+      "title": "Blood Crescent \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11416,
+      "sha256": "b0467cd768b9a7d93bc0d3902e7a94af1a39188fcdf1e11129680a7574b4d893",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/blood-raven-s-charge-t701.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__blood-raven-s-charge-t701.html.html",
+      "title": "Blood Raven's Charge \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11877,
+      "sha256": "7e85c5c07bbeb5e02c006e64fc84ecebb71e1e7dd0f94ef43efa722b4848f8e5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodfist-t702.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodfist-t702.html.html",
+      "title": "Bloodfist \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10365,
+      "sha256": "977c804a07a9f178acb79ea72c3f02842d2ee939fad5529958f21ff63aa98a66",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodletter-t703.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodletter-t703.html.html",
+      "title": "Bloodletter \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13504,
+      "sha256": "5c8e12b3cb98ecdf0a664ad5a1ef35f95cf10e615748f78e756fb774c159cf67",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodmoon-t704.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodmoon-t704.html.html",
+      "title": "Bloodmoon \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10194,
+      "sha256": "c826f9e58b918d39f2b9dfb6ddad986c26da8a9fc765326c7df2948e849291a8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodrise-t705.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodrise-t705.html.html",
+      "title": "Bloodrise \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9599,
+      "sha256": "5ddc3992861ddd490bd8530b0852fc4d4fd07b7b804c074ac69b50b773b66c8c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodthief-t706.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodthief-t706.html.html",
+      "title": "Bloodthief \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9546,
+      "sha256": "8a235134f5591ebe8ef46c120d5be5e00c2a46524953bc25267b86a67864dbcd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bloodtree-stump-t707.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bloodtree-stump-t707.html.html",
+      "title": "Bloodtree Stump \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10222,
+      "sha256": "de0215e7411f9600c7c64b5e3ca2b4cc10c7b1211ec9746d11e38ef7313f3e22",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/boneflame-t708.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__boneflame-t708.html.html",
+      "title": "Boneflame \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10329,
+      "sha256": "f872352bb307cb40bd1a1dea2359c7ac2b9f76e5c6650e840104dc20d2edc43d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/boneflesh-t709.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__boneflesh-t709.html.html",
+      "title": "Boneflesh \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9789,
+      "sha256": "10a4a8a6fc4129fbf85fe812595b8f16b0263d66dacbf9d0b27204b30213e0f8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bonehew-t710.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bonehew-t710.html.html",
+      "title": "Bonehew \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10893,
+      "sha256": "73d87b90db6d92187092b4cae1c29407c0b2cf2d06bf41b452b0712887bcf747",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/boneshade-t711.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__boneshade-t711.html.html",
+      "title": "Boneshade \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11878,
+      "sha256": "25a843e7c3190dc88807cc627b1a6598b3df03e15cfab7d0a744bcf59e765a61",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/boneslayer-blade-t712.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__boneslayer-blade-t712.html.html",
+      "title": "Boneslayer Blade \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 12240,
+      "sha256": "64fc72f698e371a858ff09c0ec4330a06c141b9c331494c8d2cb84497585a19f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bonesnap-t713.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bonesnap-t713.html.html",
+      "title": "Bonesnap \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11119,
+      "sha256": "69a4954bdb24928e90c9d4be19074fb6b9d9241590b6da5c101d26c865328242",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/brainhew-t714.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__brainhew-t714.html.html",
+      "title": "Brainhew \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9506,
+      "sha256": "c14592266b8aae59190659de41d2beff38fce1921aaf45b7e972628b76651400",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bul-kathos-wedding-band-t715.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bul-kathos-wedding-band-t715.html.html",
+      "title": "Bul-Kathos' Wedding Band \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11557,
+      "sha256": "662a763abe4db28fa7b1c79f446ed2cbbe9b197b8b778914d209f06c5187951e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/buriza-do-kyanon-t716.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__buriza-do-kyanon-t716.html.html",
+      "title": "Buriza-Do Kyanon \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 15049,
+      "sha256": "e4b2d093fc27f70e7455981696c4c75aa2208bad33fa6b22cb5ed175231ea2c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/butcher-s-pupil-t717.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__butcher-s-pupil-t717.html.html",
+      "title": "Butcher's Pupil \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10599,
+      "sha256": "dfcb772e6f7709a3473ea1ce4ebba5c3f3f84fccc6fd7528d43c57fecc23272b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/bverrit-keep-t718.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__bverrit-keep-t718.html.html",
+      "title": "Bverrit Keep \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11238,
+      "sha256": "1e4d530fea82d22d15b4110056597b0e0bb4fd9c98b914234d00661ec7ec871b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/carin-shard-t719.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__carin-shard-t719.html.html",
+      "title": "Carin Shard \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11890,
+      "sha256": "debbd8af0ab789c25f3bca2e38972c3d4a89f777c0d2751ddd1c9417ee320eef",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/carrion-wind-t720.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__carrion-wind-t720.html.html",
+      "title": "Carrion Wind \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13552,
+      "sha256": "4bc78dd1f6e3d6c8ef77dbe082b03c5c4a289b1f867885b30af19776db5e8ad2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/cerebus-bite-t721.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__cerebus-bite-t721.html.html",
+      "title": "Cerebus' Bite \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11862,
+      "sha256": "42041b7cc15ba154c13dffda7c25156972a835603701882205429c76de628150",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/chance-guards-t722.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__chance-guards-t722.html.html",
+      "title": "Chance Guards \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 13835,
+      "sha256": "8b367094e8bda54dac3090cb9bbab7563ac48b00688d11202aa00cccf98a055f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/chromatic-ire-t723.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__chromatic-ire-t723.html.html",
+      "title": "Chromatic Ire \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11015,
+      "sha256": "4f39007c418b594f2da27f25fe70eca13b1b8555f0c7dd7afda37897afea443e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/cliffkiller-t724.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__cliffkiller-t724.html.html",
+      "title": "Cliffkiller \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 8896,
+      "sha256": "6fb157fa9b497953dfcefd35ae04e7bebed1ed51a2baa4d1330ebe39e3fc2910",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/cloudcrack-t725.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__cloudcrack-t725.html.html",
+      "title": "Cloudcrack \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9392,
+      "sha256": "a543f58147ad746fc7c7cc04e5645c1dcf3da155d37af56c1fc8307ea5bbffe6",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/coif-of-glory-t726.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__coif-of-glory-t726.html.html",
+      "title": "Coif of Glory \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 9719,
+      "sha256": "0e7226d3e683c63c01b8e2ce85a70db8484b2832165e46cf628e7bbd3d4f2459",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/coldkill-t727.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__coldkill-t727.html.html",
+      "title": "Coldkill \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 8945,
+      "sha256": "5be88a00eb1c5149d36e5179a8f6461b084a88245fca43600a08d13f5441d1b9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/coldsteel-eye-t728.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__coldsteel-eye-t728.html.html",
+      "title": "Coldsteel Eye \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11829,
+      "sha256": "989d2d3e4881466e3dae7453d7d8764b4301df4e50ef88748dc558edc34297c3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/corpsemourn-t729.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__corpsemourn-t729.html.html",
+      "title": "Corpsemourn \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 11895,
+      "sha256": "b8f88ebd6268bf0eb355669d8880ade513a8bbb624176df9f3c1c2ce9a353f8b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/uniques/crainte-vomir-t730.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/uniques__crainte-vomir-t730.html.html",
+      "title": "Crainte Vomir \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "chars": 10588,
+      "sha256": "fb1bae78e3e7b4399281900ce1e246c9d98ab4d29d0c331a9b0398faa761915e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-visage-t4.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-visage-t4.html.html",
+      "title": "Cathan's Visage \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10824,
+      "sha256": "38132cfe3336983aea3f592bc27ad0462b037d1fbd4b03ea38d0f1943f62d8c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-traps-t29.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-traps-t29.html.html",
+      "title": "Cathan's Traps \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Full Set\n                                          \n        \n         • diablo2.io",
+      "chars": 12879,
+      "sha256": "55a3f5aa8909f3f6f4d6878d12faec24674d41ac775b9d0c65070d1ce34219f9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-rule-t30.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-rule-t30.html.html",
+      "title": "Cathan's Rule \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 11625,
+      "sha256": "a00bfb9af645b6e392ef9a635a46b0bc4c4827a8ed761346f8b3fe6657300d36",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-seal-t31.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-seal-t31.html.html",
+      "title": "Cathan's Seal \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 11645,
+      "sha256": "74507864c6544144b3364436c18657d15c6b8750c658f5aae8c7d91ed77e53c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-sigil-t32.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-sigil-t32.html.html",
+      "title": "Cathan's Sigil \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10944,
+      "sha256": "810e3b8fab166e8a9c1d43012ea9bbcfc8a45608cac178b200a9b3528adbf35b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/cathan-s-mesh-t33.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__cathan-s-mesh-t33.html.html",
+      "title": "Cathan's Mesh \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 9729,
+      "sha256": "5654de578748e1477d4845715fc0cdae94618a5f044acd02eeeaacec60cda11c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/immortal-king-s-stone-crusher-t58.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__immortal-king-s-stone-crusher-t58.html.html",
+      "title": "Immortal King's Stone Crusher \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 12480,
+      "sha256": "239fb1ae037fb4cc0a160cc9e8fd9115d79816d4fe9afb47d6cbfc32e627a851",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/immortal-king-s-detail-t59.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__immortal-king-s-detail-t59.html.html",
+      "title": "Immortal King's Detail \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 12370,
+      "sha256": "15a515596683264ed40ed038ffbfa1cee90ea9a1eff2a75cfbcb8bea702140a4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/sander-s-superstition-t60.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__sander-s-superstition-t60.html.html",
+      "title": "Sander's Superstition \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 9275,
+      "sha256": "bbc8fa39ba760242e09168498ed7f1c3628e5d8f0a54353eedbb57571a7b8252",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/immortal-king-t91.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__immortal-king-t91.html.html",
+      "title": "Immortal King \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Full Set\n                                          \n        \n         • diablo2.io",
+      "chars": 13221,
+      "sha256": "135ef891344b44587f4699c9acf2523d8d91b1c86f9b398feff1306674b90638",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/aldur-s-watchtower-t1033.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__aldur-s-watchtower-t1033.html.html",
+      "title": "Aldur's Watchtower \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Full Set\n                                          \n        \n         • diablo2.io",
+      "chars": 14086,
+      "sha256": "6f468c20f557d8ee838dff8ac391405b262df3cd464abc68845cd9ca72a18f45",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/aldur-s-rhythm-t1034.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__aldur-s-rhythm-t1034.html.html",
+      "title": "Aldur's Rhythm \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 13566,
+      "sha256": "3aadd8adc2207864fd00ff1a41596265c287be2c60ddfde9b1b3921e31eb957d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/aldur-s-stony-gaze-t1035.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__aldur-s-stony-gaze-t1035.html.html",
+      "title": "Aldur's Stony Gaze \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 11345,
+      "sha256": "f809a31aecfcaaea0c4d8f19d882091d6cd4412a811cee41c36e414433c436d5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/aldur-s-deception-t1036.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__aldur-s-deception-t1036.html.html",
+      "title": "Aldur's Deception \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10724,
+      "sha256": "ee20e155ffaacf1b1e8c933c8a8089777662f3d8477695beb6967e56f2328b1d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/aldur-s-advance-t1037.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__aldur-s-advance-t1037.html.html",
+      "title": "Aldur's Advance \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 12503,
+      "sha256": "098e32751b6d6a2bee3dcc9c546d21e0009f3e04541cc4cbde16e6229a721382",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/angelic-raiment-t1038.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__angelic-raiment-t1038.html.html",
+      "title": "Angelic Raiment \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Full Set\n                                          \n        \n         • diablo2.io",
+      "chars": 12162,
+      "sha256": "aab9c4d73f22f1de0147455d73ba7ffeafcd8126e37fc2bc070e8829336d7207",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/angelic-wings-t1039.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__angelic-wings-t1039.html.html",
+      "title": "Angelic Wings \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10548,
+      "sha256": "40b50d173529bfbdea6caf4f80d6cfda222d0f6ee5e191afdfb9db9c0d8f2aa5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/angelic-halo-t1040.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__angelic-halo-t1040.html.html",
+      "title": "Angelic Halo \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 12225,
+      "sha256": "4d548f02fc1319c12d6b75f470ce22564ebbd6582356a5558f9930001f2beae7",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/angelic-mantle-t1041.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__angelic-mantle-t1041.html.html",
+      "title": "Angelic Mantle \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 9742,
+      "sha256": "cd9b19d4790b8a7b7f31f7ade2b60797033af346e2b1b44b826abd5ef69320eb",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/angelic-sickle-t1042.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__angelic-sickle-t1042.html.html",
+      "title": "Angelic Sickle \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10397,
+      "sha256": "8417c7fb4337c0070961231a4ae84dcd3acf4fce5e50a336f9c9536f66d77bd3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/arcanna-s-tricks-t1043.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__arcanna-s-tricks-t1043.html.html",
+      "title": "Arcanna's Tricks \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Full Set\n                                          \n        \n         • diablo2.io",
+      "chars": 10238,
+      "sha256": "c759373452ee267eea54b7fce47a4c103f3a4600d65f550b6695cd866ead59a3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/arcanna-s-sign-t1044.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__arcanna-s-sign-t1044.html.html",
+      "title": "Arcanna's Sign \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 9703,
+      "sha256": "9fa61e5de2c355020ae66708dbd0f70040cdcbc240842e8f80f155705b92cc49",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/arcanna-s-head-t1045.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__arcanna-s-head-t1045.html.html",
+      "title": "Arcanna's Head \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 10260,
+      "sha256": "f6d4c7e9b50222b6c0e90720f7e852fb0e57ce92d28510541d3a258db785b701",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/sets/arcanna-s-flesh-t1046.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/sets__arcanna-s-flesh-t1046.html.html",
+      "title": "Arcanna's Flesh \n        \n        \n        \n                                  • Diablo 2 Resurrected \n                                  Set Item\n                                          \n        \n         • diablo2.io",
+      "chars": 9199,
+      "sha256": "095f82b46f0b1cd7e77846a18ad67325d5ad2e27d36f30ab0516426d92e80a74",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blizzard-t9.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blizzard-t9.html.html",
+      "title": "Blizzard \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13249,
+      "sha256": "e38bfe9c39314f1f9664d88116b826c9615ba8cc8af77f4540e3da5e196aff3b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/amplify-damage-t3990.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__amplify-damage-t3990.html.html",
+      "title": "Amplify Damage \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 14976,
+      "sha256": "e46b42c45838116eb3dbefcdbef6755cd1ab00b4b1d3620850ad867737ab6bab",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/arctic-blast-t3991.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__arctic-blast-t3991.html.html",
+      "title": "Arctic Blast \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11132,
+      "sha256": "f9cbb18b779cf2aebeb65f9bd35b35a4768bc6f4da1d84c6fc3349bb9bcee461",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/armageddon-t3992.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__armageddon-t3992.html.html",
+      "title": "Armageddon \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13105,
+      "sha256": "92c11d7fb1a1c9348f72669880000e15338cbe7302c9e6761a2e0b68c0b642f7",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/attract-t3993.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__attract-t3993.html.html",
+      "title": "Attract \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10302,
+      "sha256": "3a50ed823e3050051a49bde33c9f92b2ee8c4c3efbdc6700e73877ae1bbb6e05",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/avoid-t3994.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__avoid-t3994.html.html",
+      "title": "Avoid \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 9444,
+      "sha256": "aa68152a42953c2e4a75510c124ab31bdadc57879eeddfadfe5a6ef69e45536d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/axe-mastery-t3995.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__axe-mastery-t3995.html.html",
+      "title": "Axe Mastery \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 9989,
+      "sha256": "06fbd6d34863e2e8aeea0a1a97eca91f60fd950593ae69c79808cc7a5464493b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bash-t3996.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bash-t3996.html.html",
+      "title": "Bash \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 9337,
+      "sha256": "ba4931e41924cce01b6ee79ef08d7f403f969aa5395533949f0360159877205a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/battle-command-t3997.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__battle-command-t3997.html.html",
+      "title": "Battle Command \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 12428,
+      "sha256": "54991c61e7cf7655e95b4a9f0f5ab61a270d2f71e86ff5946590ca83fa479c0a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/battle-cry-t3998.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__battle-cry-t3998.html.html",
+      "title": "Battle Cry \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11202,
+      "sha256": "35a467ba0e867aca503b534a2c1a4eed7ffd369aa40c7de226f974084a2cc35c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/battle-orders-t3999.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__battle-orders-t3999.html.html",
+      "title": "Battle Orders \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 12255,
+      "sha256": "3a23e266db5901001bd0fb5c70aed5574438fb40fb58ae42c2e18ddfb3f725d5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/berserk-t4000.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__berserk-t4000.html.html",
+      "title": "Berserk \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 14076,
+      "sha256": "7b4e37cc467bf0d0c2e91a702cdd7fb003c23037b67540122c670f0031c99794",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blade-fury-t4001.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blade-fury-t4001.html.html",
+      "title": "Blade Fury \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13694,
+      "sha256": "c623e947a27d6bf3de32f39b922690373a43ebc38608e9c213d0164d8feb2761",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blade-sentinel-t4002.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blade-sentinel-t4002.html.html",
+      "title": "Blade Sentinel \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 12265,
+      "sha256": "84d85c1119f6974ba91a665e396f32766ef6611da254493f2d02286dcb21cb8c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blade-shield-t4003.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blade-shield-t4003.html.html",
+      "title": "Blade Shield \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11438,
+      "sha256": "565dae0282548388f24078f8c26b5654feca78f05416478c52ff27aa7fcf09e8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blades-of-ice-t4004.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blades-of-ice-t4004.html.html",
+      "title": "Blades of Ice \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10858,
+      "sha256": "73d1457001d9785a8501fe4b315d761597977e60b7f62b98d8eadc30ce783c04",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blaze-t4005.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blaze-t4005.html.html",
+      "title": "Blaze \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11393,
+      "sha256": "0d668b6bf574977742b965c0137721dbcfc41b8921c5e87175d6a66e81b81755",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blessed-aim-t4006.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blessed-aim-t4006.html.html",
+      "title": "Blessed Aim \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10943,
+      "sha256": "bfb2a76f471e5a99b1a22f8129cc9cce2e7f5f4d9ca71a21a5f750429b4f1845",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blessed-hammer-t4007.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blessed-hammer-t4007.html.html",
+      "title": "Blessed Hammer \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13957,
+      "sha256": "7061bbc59660716e06bbca2d106f9097c5197938ba4120cb766594bef692a66a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/blood-golem-t4008.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__blood-golem-t4008.html.html",
+      "title": "Blood Golem \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 12276,
+      "sha256": "4bc6a0014169a5b4e2e3d9666723249f9370714909d4bf671cf45e3c81069343",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bone-armor-t4009.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-armor-t4009.html.html",
+      "title": "",
+      "chars": 0,
+      "sha256": "",
+      "status": "error",
+      "note": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bone-prison-t4010.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-prison-t4010.html.html",
+      "title": "Bone Prison \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11208,
+      "sha256": "42a66e7e5239d8f995d1bd748ee9fc31153dbb6113c3bc447aca5f35eb938d58",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bone-spear-t4011.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-spear-t4011.html.html",
+      "title": "Bone Spear \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13342,
+      "sha256": "3f02569f4f0e7efc2e81aa4b843936c74d5c17e359e6fe0a940bd6418ada5d98",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bone-spirit-t4012.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-spirit-t4012.html.html",
+      "title": "Bone Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 13155,
+      "sha256": "70ea3a3339dd0f68a5d34352754408fe8ad63afc7312fc659daccaf9978a31d2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/bone-wall-t4013.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-wall-t4013.html.html",
+      "title": "Bone Wall \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10195,
+      "sha256": "556b16722dfc9596eccadf946d896d15a55d736bbe9555dc6e17b80e72d25fc8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/burst-of-speed-t4014.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__burst-of-speed-t4014.html.html",
+      "title": "Burst of Speed \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10492,
+      "sha256": "ef1543bf8d65e61eb669725943b5bf795de626066eb2f3c8e677a577ed593ecc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/carrion-vine-t4015.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__carrion-vine-t4015.html.html",
+      "title": "Carrion Vine \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 10058,
+      "sha256": "7eaa8e795ca758f972f7c02f5df895e5caa9d3e4a53a98cf7815f98d20cf53a2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/skills/chain-lightning-t4016.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__chain-lightning-t4016.html.html",
+      "title": "Chain Lightning \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11359,
+      "sha256": "d7f42d32e6f2d75f224838aa129be9155b0fab0db505771f7f29325f888925ba",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/rakanishu-t7.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__rakanishu-t7.html.html",
+      "title": "Rakanishu \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 9338,
+      "sha256": "8b66f6c7473eb339f20f3189c75eb2201a6ebe55206b078f761d8b896e7b337f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/fallen-t4199.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__fallen-t4199.html.html",
+      "title": "Fallen \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 12486,
+      "sha256": "fa3d8494970d1e58b482f46c4277f49f48ec521a1f9653854008efa7c9c9495e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/fallen-shaman-t4200.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__fallen-shaman-t4200.html.html",
+      "title": "Fallen Shaman \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10653,
+      "sha256": "70e0668171bc93a750095d313fa2dbb263432b9fef0298aa43ff6d668daf9f4c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/spike-fiend-t4201.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__spike-fiend-t4201.html.html",
+      "title": "Spike Fiend \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10483,
+      "sha256": "f42b52bfca523929a10284fb3c01317d105f26e2fe5c1c5404cf3330e81d274d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/zombie-t4202.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__zombie-t4202.html.html",
+      "title": "Zombie \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 8985,
+      "sha256": "6207363c69badf45bfbfb43f9b431578d294f45401c73220ba620adf5c51693f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/wendigo-t4203.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__wendigo-t4203.html.html",
+      "title": "Wendigo \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 8868,
+      "sha256": "0bbd81b47ae623e5925e0006ed1fa58b0a4fd47bd1387dc7eb631d95d087dcc0",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/corrupt-rogue-t4204.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__corrupt-rogue-t4204.html.html",
+      "title": "Corrupt Rogue \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10359,
+      "sha256": "f2878a6cb27fb6f74a2ea7457d9ae5af72f399cbb7f580097fc442fa2cfa239e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/corrupt-rogue-archer-t4205.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__corrupt-rogue-archer-t4205.html.html",
+      "title": "Corrupt Rogue Archer \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10998,
+      "sha256": "640ce55bc0fece42729084f01262a80c5f1ca03e45d77d8f5d91a1348522c6cc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/corrupt-rogue-spearwoman-t4206.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__corrupt-rogue-spearwoman-t4206.html.html",
+      "title": "Corrupt Rogue Spearwoman \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 11782,
+      "sha256": "484e9a83c33e8add5d9fc62ab4c4bd41270ab5263ab14cff5f8f530adf30416d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/skeleton-t4207.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__skeleton-t4207.html.html",
+      "title": "Skeleton \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 11101,
+      "sha256": "26879a1d45935e743a1c72c5debafe7f2f48c7cd8712cb4509b689c395a78615",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/skeleton-archer-t4208.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__skeleton-archer-t4208.html.html",
+      "title": "Skeleton Archer \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10638,
+      "sha256": "c3012a4ed919cee611bbf31487c161285a944240ad9182c0729c3a9fc5b4ed0e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/skeleton-mage-t4209.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__skeleton-mage-t4209.html.html",
+      "title": "Skeleton Mage \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 11763,
+      "sha256": "76ec65ca8930740105cca3831a7411770626679ffc19b3123e6cecc258e705ff",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/goatman-t4210.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__goatman-t4210.html.html",
+      "title": "Goatman \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10525,
+      "sha256": "f38d3d3314e116ebd08a1d8c59fcaab5ce9782e44e8697c10cd3dee3c4bd177f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/blood-hawk-t4211.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__blood-hawk-t4211.html.html",
+      "title": "Blood Hawk \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10822,
+      "sha256": "193f22f295363f16d6f2cc018b25e5cb0892813f15fa6ee23bbb7622bb24c6bf",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/tainted-t4212.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__tainted-t4212.html.html",
+      "title": "Tainted \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10172,
+      "sha256": "3feae9ef40b3eaca8422b935f2f0396b02f283641563e99b353cb54de24d83cd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/giant-spider-t4213.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__giant-spider-t4213.html.html",
+      "title": "Giant Spider \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10244,
+      "sha256": "dd5b6dc66318dc66aa6fd6bc2ef945c3c5f56580e97cf9484caadc15df3561a2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/wraith-t4214.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__wraith-t4214.html.html",
+      "title": "Wraith \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 10697,
+      "sha256": "433585430323b158518c3898b989cdc67dfb9b375eeb9599e43b8ff3b0b9390f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/fetish-t4215.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__fetish-t4215.html.html",
+      "title": "Fetish \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 9639,
+      "sha256": "d0e04f6f79debe1b4f9e991cc6191c0a2b49a8f19d5297b0fb5a535687ff4b14",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/vampire-t4216.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__vampire-t4216.html.html",
+      "title": "Vampire \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 9422,
+      "sha256": "298037bb48882a6a97b9279f4329f460e70fafd366e181f862b9d6d140366202",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/monsters/flying-scimitar-t4217.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/monsters__flying-scimitar-t4217.html.html",
+      "title": "Flying Scimitar \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "chars": 8868,
+      "sha256": "2104b9e1793bbb12430ef1a2638546f93fe2db2ec3896f9c3dbfd13f0132671e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/den-of-evil-t3696.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__den-of-evil-t3696.html.html",
+      "title": "Den of Evil \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 11056,
+      "sha256": "6fb6af70e1865c5c996b5a46667fcdaabc134e6447c4ff17877fd8512efa2ea0",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/cave-level-1-t3697.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__cave-level-1-t3697.html.html",
+      "title": "Cave Level 1 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 9985,
+      "sha256": "5a54d2fe4638ba18dfed33e9cda18c2058116869b30d08170656f13b8f297d36",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/cave-level-2-t3698.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__cave-level-2-t3698.html.html",
+      "title": "Cave Level 2 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10006,
+      "sha256": "fd4505e3114344c3814f1cad30cbb98aebd53cd80ad4950642813193c64619d8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/hole-level-1-t3699.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__hole-level-1-t3699.html.html",
+      "title": "Hole Level 1 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 9496,
+      "sha256": "9f8e24815d45e5a5c016b523c8f7c849e230041f5e27067e48fa9926b3cdcd08",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/hole-level-2-t3700.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__hole-level-2-t3700.html.html",
+      "title": "Hole level 2 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 9839,
+      "sha256": "fc5dd86483f4d5f786da71008e08624255823a971bf16b066808818d0b028199",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/pit-level-1-t3701.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__pit-level-1-t3701.html.html",
+      "title": "Pit Level 1 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10269,
+      "sha256": "3c265db8967738dfd4f69ae996649034023d9b9b5a265653fe55b26ee469dc7e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/pit-level-2-t3702.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__pit-level-2-t3702.html.html",
+      "title": "Pit Level 2 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10690,
+      "sha256": "ab5009f353d23a581f48c3f3d8fbbcd207229be4225a88c68303cc2fc9d17bae",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/crypt-t3703.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__crypt-t3703.html.html",
+      "title": "Crypt \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10081,
+      "sha256": "143e22ff5d1bc9e245e9746eb159dc9436eca14846c1776e724c1a789189ea8a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/mausoleum-t3704.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__mausoleum-t3704.html.html",
+      "title": "Mausoleum \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10142,
+      "sha256": "b3eade7c9bf9bef18a52a76276570e7bb7f2adc305ee41f42c197fec2f87eccd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/tower-cellar-level-1-t3705.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__tower-cellar-level-1-t3705.html.html",
+      "title": "Tower Cellar Level 1 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 11556,
+      "sha256": "b8fe14d7304ed346fc22843081d88766b738fbe73360787ff494c1ff91aaab0d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/tower-cellar-level-2-t3706.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__tower-cellar-level-2-t3706.html.html",
+      "title": "Tower Cellar Level 2 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 11002,
+      "sha256": "9cf78dfb91064478bd94db1f8eda6b31002de7a07dd4ebf1cb370bc2e68bfa80",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/tower-cellar-level-3-t3707.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__tower-cellar-level-3-t3707.html.html",
+      "title": "Tower Cellar Level 3 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10385,
+      "sha256": "919d8167f1c87a85a908b9a6c8accb4fe61c3187c62e883d0ad221188c61a0f4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/tower-cellar-level-4-t3708.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__tower-cellar-level-4-t3708.html.html",
+      "title": "Tower Cellar Level 4 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10716,
+      "sha256": "dd5131aaaee713238709ec36b5ff8f8546dfbe9dda44722dc966aaf09218b451",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/tower-cellar-level-5-t3709.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__tower-cellar-level-5-t3709.html.html",
+      "title": "Tower Cellar Level 5 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10790,
+      "sha256": "7f84c5604d6a02b1fb44b894fdf2ed441d27512b2b38dc420d0ef9f4035d79a4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/rogue-encampment-t3710.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__rogue-encampment-t3710.html.html",
+      "title": "Rogue Encampment \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 10942,
+      "sha256": "81a6fbf3003873118af3cda2a2d9242c1c682c66734dd04c383838a9d647ec63",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/blood-moor-t3711.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__blood-moor-t3711.html.html",
+      "title": "Blood Moor \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 11793,
+      "sha256": "1171eac57578199fa85438866d009426716c0fced055e3890c71134f8d111983",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/cold-plains-t3712.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__cold-plains-t3712.html.html",
+      "title": "Cold Plains \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 11766,
+      "sha256": "44372c3f6c000b1d56ea69d234c7522baf72eb14eeb6e608657c61f20f407ad4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/areas/burial-grounds-t3713.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/areas__burial-grounds-t3713.html.html",
+      "title": "Burial Grounds \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "chars": 9174,
+      "sha256": "162914ab9619c63c085592229478c92a4d448d95f570e1717a71b561998c71ed",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-portal-to-the-secret-cow-level-t6.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-portal-to-the-secret-cow-level-t6.html.html",
+      "title": "Recipe: Portal to the Secret Cow Level \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 11810,
+      "sha256": "632fcb85caa8746bb9d31f75c2a581089ebf02bbbc4b56a523e50fb2154e0b86",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-tal-t25.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-tal-t25.html.html",
+      "title": "Recipe: Tal \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8505,
+      "sha256": "2063a4ae0db65db4d27134a1b0ec0006e55c2b56f963ab630b5d903f8f300a06",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-thul-t26.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-thul-t26.html.html",
+      "title": "Recipe: Thul \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8549,
+      "sha256": "d7878ed830482666160e6954df0c61b35260fb7222f71238fdc1d7d40f9f70e2",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-ort-t27.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-ort-t27.html.html",
+      "title": "Recipe: Ort \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8559,
+      "sha256": "ef68b6ea22d43a00e3e49cfb2cf0d013acc09cb163e69ca96c81daa92547bcff",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-amn-t28.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-amn-t28.html.html",
+      "title": "Recipe: Amn \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8920,
+      "sha256": "9a24a20e580125bb2d5a017284acb69d9870e4a9b0164c08a6ce6f41af1ca42e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-topaz-t66.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-topaz-t66.html.html",
+      "title": "Recipe: Flawed Topaz \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8609,
+      "sha256": "58727b57eeb8d2826b795a228dddf1b03f32a31b5046b5cf0919271766b93674",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-perfect-sapphire-t70.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-perfect-sapphire-t70.html.html",
+      "title": "Recipe: Perfect Sapphire \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8567,
+      "sha256": "807d1e035e44479cc6e24b21e5afd0cb9889f5b0f120e8f33f2b2556cd081274",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-full-rejuvenation-potion-t73.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-full-rejuvenation-potion-t73.html.html",
+      "title": "Recipe: Full Rejuvenation Potion \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8966,
+      "sha256": "21e1956c2688b53465995b2b81788fe7e63e331ce0b5c8bdbf19fee357f39c90",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-lum-t75.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-lum-t75.html.html",
+      "title": "Recipe: Lum \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8493,
+      "sha256": "67c67e6f3b5c11548d8e669bb19c687236480e02e92eafbbdeaf2adc03d7ff53",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-fully-repaired-weapon-t85.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-fully-repaired-weapon-t85.html.html",
+      "title": "Recipe: Fully repaired weapon \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8763,
+      "sha256": "330b6800234bd0517ed8b64b3a22efc915f7f6e6891ecc06e622d1eef39f1084",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-skull-t1254.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-skull-t1254.html.html",
+      "title": "Recipe: Flawed Skull \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8519,
+      "sha256": "eb5adb10bfc8e9dd4d6fdcf0ad3303b0a86b0d582ed21bd349efe774a330a06e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-amethyst-t1255.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-amethyst-t1255.html.html",
+      "title": "Recipe: Flawed Amethyst \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8559,
+      "sha256": "805576032d879dca058ce5774d8da1bdfa95a40ece0ca620f3bbd91d929a9b01",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-sapphire-t1256.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-sapphire-t1256.html.html",
+      "title": "Recipe: Flawed Sapphire \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8558,
+      "sha256": "1a2bf594c0674f889f19a00c1ae4df720e504f8b1a44bf64fd9434f2c8114915",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-emerald-t1257.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-emerald-t1257.html.html",
+      "title": "Recipe: Flawed Emerald \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8550,
+      "sha256": "bbc519fb85fed32006bf76a67ce046bb0fcbbfe401cf3d1c7a835b7a7fa1abee",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-ruby-t1258.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-ruby-t1258.html.html",
+      "title": "Recipe: Flawed Ruby \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8542,
+      "sha256": "0b0462475e80516e2887863c8f68cd83cb60371c135aa3376e61a186f7b96f79",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/recipes/recipe-flawed-diamond-t1259.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/recipes__recipe-flawed-diamond-t1259.html.html",
+      "title": "Recipe: Flawed Diamond \n        \n        \n        \n                                  • Diablo 2 Resurrected Cube Recipe\n                          \n        \n         • diablo2.io",
+      "chars": 8552,
+      "sha256": "02ac6762bc94d12dc694ea70d5f08a62bee64a3e8ff8b1a2ec77fdfedce2b3ae",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/deckard-cain-t8.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__deckard-cain-t8.html.html",
+      "title": "Deckard Cain \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 9730,
+      "sha256": "5d555b308204368aceb917a80944ac6f28c393161e56e62592de5f2240164748",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/gheed-t3929.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__gheed-t3929.html.html",
+      "title": "Gheed \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 10276,
+      "sha256": "3295f0ef91107c2ae87edf5d40aa7e356b2007c8e53a712c0b7b3456db7469e5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/charsi-t3930.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__charsi-t3930.html.html",
+      "title": "Charsi \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 11474,
+      "sha256": "9a04a91a6f31ac87012f5cc7c49588ac20f8bc0d73e77a4b8367228f70956506",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/akara-t3931.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__akara-t3931.html.html",
+      "title": "Akara \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 9334,
+      "sha256": "dc74f17dcba72e9bebe4c0c75c166f7fb1bd20e300ebf01f7efc111cd8e2cf54",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/flavie-t3932.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__flavie-t3932.html.html",
+      "title": "Flavie \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 10097,
+      "sha256": "597eb0df3ba13fc68949d54f24499cd5de573edded5aef5c46ebf621d52f4533",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/npcs/kashya-t3933.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/npcs__kashya-t3933.html.html",
+      "title": "Kashya \n        \n        \n        \n                                  \n        \n         • diablo2.io",
+      "chars": 8717,
+      "sha256": "32276b0bd81339ee1e7eb5cecb1d5b1e4e68dfd3a2c36010f893a603e5faa3be",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/the-search-for-cain-t11.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__the-search-for-cain-t11.html.html",
+      "title": "The Search for Cain \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 11324,
+      "sha256": "5f00d69902163f2759169e78afbaa29fe653e58414a88569ebd83ffaded6649d",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/the-den-of-evil-t3963.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__the-den-of-evil-t3963.html.html",
+      "title": "The Den of Evil \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 10676,
+      "sha256": "6fe39d952cb5265029cbae7f9c47249c77dc7f007f95fff758d29a0980949905",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/sisters-burial-grounds-t3964.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__sisters-burial-grounds-t3964.html.html",
+      "title": "Sisters' Burial Grounds \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 9933,
+      "sha256": "5ac9c3555d536c2c100c75bfcf07d4fb82109209c4c600a65c13b5ee87c10dfd",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/the-forgotten-tower-t3965.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__the-forgotten-tower-t3965.html.html",
+      "title": "The Forgotten Tower \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 10637,
+      "sha256": "f53afefe852e586d72d1282aac47ef560628033bcfd42acbabd39ff569c37f1b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/sisters-to-the-slaughter-t3967.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__sisters-to-the-slaughter-t3967.html.html",
+      "title": "Sisters to the Slaughter \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 9019,
+      "sha256": "15baac9ada7ac190db65f6ef726c62b104b8e035aa61315fe66ba76722fad6a1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/radament-s-lair-t3968.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__radament-s-lair-t3968.html.html",
+      "title": "Radament's Lair \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 10807,
+      "sha256": "629448d58ffb7467f3bc6878888b2a3779b79723a2fb8dd6ca4a64f357edba46",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/the-horadric-staff-t3969.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__the-horadric-staff-t3969.html.html",
+      "title": "The Horadric Staff \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 11696,
+      "sha256": "5f30f7a4df56c6ff7b5535a96c420c556c62bf30420f33930e8ec82923f441ac",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/quests/the-tainted-sun-t3970.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/quests__the-tainted-sun-t3970.html.html",
+      "title": "The Tainted Sun \n        \n        \n        \n                                  • Diablo 2 Resurrected Quest\n                          \n        \n         • diablo2.io",
+      "chars": 10678,
+      "sha256": "aa9e98b1de5d63298512f09ae37e2d0926e3473fee80cdc3d1c07b984fdc3b40",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/ancient-armor-t5.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__ancient-armor-t5.html.html",
+      "title": "Ancient Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 10529,
+      "sha256": "4a89a1c0ae565e7f78e9f09deb7fcf082184cfbe3d0f6640caf967a915fb7bd9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/scythe-t61.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__scythe-t61.html.html",
+      "title": "Scythe \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11081,
+      "sha256": "977f45a88d63f6105c78eb14d0c2507128b4fb9c95596b96d1e638bde56b8904",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/shako-t62.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__shako-t62.html.html",
+      "title": "Shako \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 12251,
+      "sha256": "a73bf3f433ec132440af06da8b2786ec0698bf5eeb3f612aca7a3d2e5a347e67",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/sacred-armor-t80.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__sacred-armor-t80.html.html",
+      "title": "Sacred Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 12461,
+      "sha256": "781f4b74d17b95eb55800febc14a08187fefd91d3b50cdd055f3ad78ea40ec09",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/ornate-plate-t136.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__ornate-plate-t136.html.html",
+      "title": "Ornate Plate \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11248,
+      "sha256": "aceaa19fe316a46bf6813e94714355b611ccda96b7648054b676b8c463ada9f0",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/war-belt-t254.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__war-belt-t254.html.html",
+      "title": "War Belt \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9154,
+      "sha256": "ac8f992b1aff3845e5b92843b0156a8bc70569465fb871dc106f84525cc17b1c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/mask-t256.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__mask-t256.html.html",
+      "title": "Mask \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 10629,
+      "sha256": "2221729eb3d59f39fc9037cc61288568644b3d6e58369de6ba1beb1e83e79583",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/quilted-armor-t1388.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__quilted-armor-t1388.html.html",
+      "title": "Quilted Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9539,
+      "sha256": "e86e722f66bc5a53f3c30c5ca8373c174b45088f5cbce4bc1cdb58f7792bb279",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/ghost-armor-t1389.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__ghost-armor-t1389.html.html",
+      "title": "Ghost Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9831,
+      "sha256": "dda1440a00f3fdaaed7fb6de109622d01d20aae10a20cc801c395cd1034efddf",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/dusk-shroud-t1390.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__dusk-shroud-t1390.html.html",
+      "title": "Dusk Shroud \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 12191,
+      "sha256": "a11b3a556b87f0d5b0c6b3eaf23c7ac46875cdf63b20252ffcd26c675e52219c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/leather-armor-t1391.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__leather-armor-t1391.html.html",
+      "title": "Leather Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9940,
+      "sha256": "f75a480ae686b68378b691c288f6e80560a9a65bbaec2db0a8184fcb8d269a6b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/serpentskin-armor-t1392.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__serpentskin-armor-t1392.html.html",
+      "title": "Serpentskin Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9726,
+      "sha256": "68e92aac7c50561a4eab6541382fd99522cc520a4b0ff8441866342496a11ad3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/wyrmhide-t1393.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__wyrmhide-t1393.html.html",
+      "title": "Wyrmhide \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11061,
+      "sha256": "b2c44ebbcbd632f0ceab4474847009d28ceb562027f4448eb5fe3c44a3c3b100",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/hard-leather-armor-t1394.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__hard-leather-armor-t1394.html.html",
+      "title": "Hard Leather Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9769,
+      "sha256": "f8757a7fab86d1e55820bad432b829c9cab5653fa6ca47a7eb6fa7db9ec20bbc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/demonhide-armor-t1395.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__demonhide-armor-t1395.html.html",
+      "title": "Demonhide Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9727,
+      "sha256": "f09d4ba28ac76a134b8a89f9fba4883204f16952a11031c1f4dcb9a287baf69f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/scarab-husk-t1396.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__scarab-husk-t1396.html.html",
+      "title": "Scarab Husk \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11621,
+      "sha256": "650d760f99af1502132ebfdc340b63bb5303fe068c81c6cfe1fffb418b5278ea",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/studded-leather-t1397.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__studded-leather-t1397.html.html",
+      "title": "Studded Leather \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9278,
+      "sha256": "9a4c34f405ebd70cf73e6fce9db5ae912318f3e5e86cd2f4123ae084830ee2ed",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/trellised-armor-t1398.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__trellised-armor-t1398.html.html",
+      "title": "Trellised Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 9723,
+      "sha256": "91949a84a2381d672b1e416558e97c150277093d3612299a532dc9422db23885",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/wire-fleece-t1399.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__wire-fleece-t1399.html.html",
+      "title": "Wire Fleece \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 10866,
+      "sha256": "b946788ff5dcfb1d02aa4fbb6c17e81804f0df47b86911cdda84d040a62ee3c5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/breast-plate-t1400.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__breast-plate-t1400.html.html",
+      "title": "Breast Plate \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 10331,
+      "sha256": "71532c819dd8b6c2d6c2bd33f50070ec4d2ade89430dd748f9abab1eeffaa5a3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/great-hauberk-t1402.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__great-hauberk-t1402.html.html",
+      "title": "Great Hauberk \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 13340,
+      "sha256": "955a72607d374722ca17070d49f1e808e48ac344b1747ba8d1a6a005f659617a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/light-plate-t1403.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__light-plate-t1403.html.html",
+      "title": "Light Plate \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11446,
+      "sha256": "29df2fb065c99974aca5ef4309d211a7dfb39b682006909e53c32f80769a920c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/mage-plate-t1404.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__mage-plate-t1404.html.html",
+      "title": "Mage Plate \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 12604,
+      "sha256": "f479a70792f2897caad5f7dfb82dbfdd829dbe04a4fc27735c12bc5d24d95415",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "diablo2-io",
+      "url": "https://diablo2.io/base/archon-plate-t1405.html",
+      "local_path": "docs/tier0/high-value/raw/diablo2-io/base__archon-plate-t1405.html.html",
+      "title": "Archon Plate \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "chars": 11989,
+      "sha256": "5432ddd385c45dcdd91d57a24e34a144e15f857ac6e3919d059f5cb1f54ca948",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/amazon.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__amazon.shtml.html",
+      "title": "The Arreat Summit - Classes: Amazon",
+      "chars": 1537,
+      "sha256": "943b70883ef98045a4322a2cce18a7d8f6ec319d6bd0d34e29c81dbe21739d54",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/assassin.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__assassin.shtml.html",
+      "title": "The Arreat Summit - Classes: Assassin",
+      "chars": 2494,
+      "sha256": "9f1a7f10c4d0a6561b20e845394d50afa866f52a8eb9640646e36a198a96210e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/necromancer.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__necromancer.shtml.html",
+      "title": "The Arreat Summit - Classes: Necromancer",
+      "chars": 1503,
+      "sha256": "27abf1586794dd12ea69f17488526f7f04803c4a820a503735bc31d31ab77926",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/barbarian.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__barbarian.shtml.html",
+      "title": "The Arreat Summit - Classes: Barbarian",
+      "chars": 1578,
+      "sha256": "0fb1cddc54900cf440a9300a51a396f1649bae94e3abe927af0797255f69ed8e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/sorceress.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__sorceress.shtml.html",
+      "title": "The Arreat Summit - Classes: Sorceress",
+      "chars": 1445,
+      "sha256": "c3acef44464779eca32eb6328076d68ea4b09b24097fe9b2c096bb7a319a4261",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/druid.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__druid.shtml.html",
+      "title": "The Arreat Summit - Classes: Druid",
+      "chars": 1313,
+      "sha256": "e035171f0b1098c9fcf038e8ffd2dc0a66138f96991c4a30d63299e37b88673f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/classes/paladin.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__classes__paladin.shtml.html",
+      "title": "The Arreat Summit - Classes: Paladin",
+      "chars": 1335,
+      "sha256": "c2b4aeee0d90f1221a74b6f4424ff14915cbe0c26af9378aeea6ee8ce29e58b5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/amazon-javelin.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__amazon-javelin.shtml.html",
+      "title": "The Arreat Summit - Skills: Amazon Javelin and Spear Skills",
+      "chars": 12279,
+      "sha256": "dacf85eaadab8840f15da2040c142f9b04e428b8760e177a1d5c8ae013d8030c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/assassin-martialarts.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__assassin-martialarts.shtml.html",
+      "title": "The Arreat Summit - Assassin Martial Arts Skills",
+      "chars": 12221,
+      "sha256": "ee8545b4d54a9ac3398650fb97541259e647b6b88e00996c0ee6aaec91e929b7",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/necromancer-summoning.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__necromancer-summoning.shtml.html",
+      "title": "The Arreat Summit - Skills: Necromancer Summoning Spells",
+      "chars": 30375,
+      "sha256": "1261f37bfc6b582587912c82efb2cdd58140da06a2578a7a10847064204daaa5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/barbarian-warcries.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__barbarian-warcries.shtml.html",
+      "title": "The Arreat Summit - Skills: Barbarian Warcries",
+      "chars": 12332,
+      "sha256": "3fbaf0483b68b0d9dff4eb7bdf55f0b3549da8b9f75993b5877daf31ee807d56",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/sorceress-cold.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__sorceress-cold.shtml.html",
+      "title": "The Arreat Summit - Skills: Sorceress Cold Spells",
+      "chars": 14472,
+      "sha256": "05304f0e08d2612c0bac4f4d5b3e98496e5f2ef1c763ee15770af3e7c3ea4234",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/druid-elemental.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__druid-elemental.shtml.html",
+      "title": "The Arreat Summit - Druid: Elemental Skills",
+      "chars": 9817,
+      "sha256": "f16a8220604559a73a9fe99950ac5c6e287d5e430326b95bfc238233c42e41ff",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/paladin-defense.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__paladin-defense.shtml.html",
+      "title": "The Arreat Summit - Skills: Paladin Defensive Auras",
+      "chars": 14473,
+      "sha256": "b213c9e574bff8261bfab876accdef345979cede39005667f12487c7ae64bc62",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/basics.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__basics.shtml.html",
+      "title": "The Arreat Summit - Skills: Basic Skill Information",
+      "chars": 7717,
+      "sha256": "79b68d7f728e9261de76da5fc0e1b38da26cb6163c68aa1438cbc499e733f6d3",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/castingdelays.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__castingdelays.shtml.html",
+      "title": "The Arreat Summit - Skills: Basic Skill Information",
+      "chars": 2370,
+      "sha256": "d86a5422d1b48d48e1ddd9cbf624fb2ae4528364ee88b9cde248f4ed42dbbeee",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/skills/alphaskills.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__skills__alphaskills.shtml.html",
+      "title": "The Arreat Summit - Skills: Alphabetical Skill Listing",
+      "chars": 9094,
+      "sha256": "43782396c8f290e2048a984b7bf3a3e34188c526027f81a50693f518d37b8ba0",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/runewords.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__runewords.shtml.html",
+      "title": "The Arreat Summit - Items: Rune Words",
+      "chars": 6078,
+      "sha256": "050fb0417fdbd71bea903a3f0b058fbe82ae8665aa7373ca01efab527cfc84e8",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__runewords-110.shtml.html",
+      "title": "The Arreat Summit - Items: Rune Words: 1.10 Rune Words",
+      "chars": 22027,
+      "sha256": "07ebef5eceba1f3e8580a6c2fcf0e65f040debd435ce43c33054b7d378b0fa0c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/basics.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__basics.shtml.html",
+      "title": "The Arreat Summit - Items: Basic Item Information",
+      "chars": 18492,
+      "sha256": "ecb1d1f40c0ff98f1c3143e456dd23b4dbe57f25e8e42ffe033d86b2702db289",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/weaponsandarmor.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__weaponsandarmor.shtml.html",
+      "title": "The Arreat Summit - Items: Weapons and Armor",
+      "chars": 4687,
+      "sha256": "9393f08c20403183a785042f4f6eb50d1d809dba1f3ef0d0051644e236439daf",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/socketeditems.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__socketeditems.shtml.html",
+      "title": "The Arreat Summit - Items: Socketed Items",
+      "chars": 3558,
+      "sha256": "f55226a9d2a470d6ac36b041afcdf384379322216b257d2950dd3e85a7ceb0bc",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/gems.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__gems.shtml.html",
+      "title": "The Arreat Summit - Items: Socketed Items and Gems",
+      "chars": 6961,
+      "sha256": "e4a6ba1b18910bd3f96d8e69d4ee25d22ebb674813be0c0497092206421b8873",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/jewels.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__jewels.shtml.html",
+      "title": "The Arreat Summit - Items: Jewels",
+      "chars": 1300,
+      "sha256": "dc2d837e39b19355d653fedbfe2f18269644d3fba33a9497427ed945a4ed8673",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/runes.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__runes.shtml.html",
+      "title": "The Arreat Summit - Items: Runes",
+      "chars": 4511,
+      "sha256": "2e71a5b42ba9cbcb0d13b54ed82e877a4897940fb5126a9531143f018157af61",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/magic.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__magic.shtml.html",
+      "title": "The Arreat Summit - Items: Magic",
+      "chars": 15160,
+      "sha256": "80782b217a857d69db2a59f32f14e02a989e4512f488b5ea86cbc3ff62232277",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/crafteditems.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__crafteditems.shtml.html",
+      "title": "The Arreat Summit - Items: Crafted Items",
+      "chars": 6134,
+      "sha256": "743f2cc264e5f21a28e6bd02c9c3ca9be6c211c4ec46de778dc68170ce96be3f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/uniques.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__uniques.shtml.html",
+      "title": "The Arreat Summit - Items: Unique Items",
+      "chars": 1444,
+      "sha256": "7038be7b44b8e5a6dcdbe5e841ad6b9b52e5fd0412ff9d8ec8a696dec4c6beb9",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/charms.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__charms.shtml.html",
+      "title": "The Arreat Summit - Items: Charms",
+      "chars": 2083,
+      "sha256": "6a89c16eb032eb07276beb5ff94346156d7b46164b9ddeb3b9eb86baebaa5252",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/cube.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__cube.shtml.html",
+      "title": "The Arreat Summit - Items: The Horadric Cube",
+      "chars": 18631,
+      "sha256": "e4a6d5bc0b7010cd8d615fab4fbd131fb9c3319a397b0e5d781d57ee17599990",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/potions.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__potions.shtml.html",
+      "title": "The Arreat Summit - Potions",
+      "chars": 7748,
+      "sha256": "a46c3c12046dd55f70f8e078b7b1e20c6321cb84c53b4439f1e3b13fe23a266e",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/items/ringsnamulets.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__items__ringsnamulets.shtml.html",
+      "title": "The Arreat Summit - Items: Rings and Amulets",
+      "chars": 1626,
+      "sha256": "5618bed98b35187e8cd700822662eef6fcb145099d33a1b041538732e8193239",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/basics.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__basics.shtml.html",
+      "title": "The Arreat Summit - Monsters: Basic Monster Information",
+      "chars": 6169,
+      "sha256": "4913aadab2290e72d4ceae7dfae9a32a63bb6dd0563307acab074b254161e5f1",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/bonus.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__bonus.shtml.html",
+      "title": "The Arreat Summit - Monsters: Monster Bonuses",
+      "chars": 6918,
+      "sha256": "8b67d05c51adf0be0d8e5e6460490140d5c734e7acb227b31f43b6baa3c709f4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/super.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__super.shtml.html",
+      "title": "The Arreat Summit - Monsters: Super Unique Monsters",
+      "chars": 1986,
+      "sha256": "cbff3e6250626d43d937e4508ffabaf2d06135b1bba987d6b066c5195f51390b",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__bosses.shtml.html",
+      "title": "The Arreat Summit - Monsters: Bosses",
+      "chars": 2706,
+      "sha256": "05155ae688bca832f356836b5d04c44889337f494ae0f55130ac9debca6f5238",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/act1.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__act1.shtml.html",
+      "title": "The Arreat Summit - Monsters: Act I Bestiary",
+      "chars": 2811,
+      "sha256": "16557652f4216d5ffc456515c82448bb2fd8714cf8d0f27c049365c6a024a61c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/act2.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__act2.shtml.html",
+      "title": "The Arreat Summit - Monsters: Act II Bestiary",
+      "chars": 2597,
+      "sha256": "8a98e38a5984f376f7cbcbeb22a76b102cab4abcc4660078127e7a791583ea15",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/act3.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__act3.shtml.html",
+      "title": "The Arreat Summit - Monsters: Act III Bestiary",
+      "chars": 2590,
+      "sha256": "d4c2a5b6ded29b41897f9f7c275f23bc6cb2f88f4543255c87c30d04ea880e1f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/act4.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__act4.shtml.html",
+      "title": "The Arreat Summit - Monsters: Act IV Bestiary",
+      "chars": 1583,
+      "sha256": "5e38b60b035ccf43a73f9de613878a8e9d75686e722f44d2daa221994bc5105f",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/monsters/act5.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__monsters__act5.shtml.html",
+      "title": "The Arreat Summit - Monsters: Act V Bestiary",
+      "chars": 2763,
+      "sha256": "8f99510aa4d255abc9980e5ac93a4bcf54b185c4adbff55d30109280b6d82a76",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/act1.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__act1.shtml.html",
+      "title": "The Arreat Summit - Quests: Act I",
+      "chars": 3618,
+      "sha256": "d066371493cb2056573e2f9880867c8762a7affe02c0a692ac7aa18d37bdb483",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/act2.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__act2.shtml.html",
+      "title": "The Arreat Summit - Quests: Act II",
+      "chars": 4175,
+      "sha256": "b78a3d8e63c5564752cea4605647983ad304d506beb0fa3c9b31e639247f872a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/act3.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__act3.shtml.html",
+      "title": "The Arreat Summit - Quests: Act III",
+      "chars": 3992,
+      "sha256": "8f8ec9eaf3fc39682477a0ca8ee3cfe9662fbff88affa7df10d5f4faa2e1b3d0",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/act4.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__act4.shtml.html",
+      "title": "The Arreat Summit - Quests: Act IV",
+      "chars": 2395,
+      "sha256": "eeaf719aed0ad35f805b89bf47649a8b7e146ef316b14b417d100b08bdc0f4ab",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/act5.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__act5.shtml.html",
+      "title": "The Arreat Summit - Quests: Act V",
+      "chars": 5684,
+      "sha256": "afdf023889ec05b08c43617f29700a983a1f6f757fc6e0d44e9371f3ea4f860a",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/cow.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__cow.shtml.html",
+      "title": "The Arreat Summit - The Secret Cow Level",
+      "chars": 7771,
+      "sha256": "b71aaf61a19622c8d529e06524bb15d966dcd7b41295056a0e682c86c43f31aa",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/basic.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__basic.shtml.html",
+      "title": "The Arreat Summit - Quests: Basic Quest Information",
+      "chars": 4194,
+      "sha256": "9f3c6237eb64d5f367140e7fadb2ff44964b19fede823d724f5e36efba5d39e4",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/quests/rewards.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__quests__rewards.shtml.html",
+      "title": "The Arreat Summit - Quests: Rewards",
+      "chars": 5490,
+      "sha256": "dd0872d33165ecd99e8bc691c03698c1ecf54f4b0b4864a92ad0014591e28bce",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/maps/act1.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__maps__act1.shtml.html",
+      "title": "The Arreat Summit - Maps: Act I",
+      "chars": 2597,
+      "sha256": "46b782ecaa3c96a9598cf145530fff0b93cf7eeebb3220dd163d184f62107031",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/maps/act2.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__maps__act2.shtml.html",
+      "title": "The Arreat Summit - Maps: Act II",
+      "chars": 2490,
+      "sha256": "b6c589c25be08eabd57aa8e2b2ccf0df889dde252ea7da40f353c5b3b705320c",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/maps/act3.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__maps__act3.shtml.html",
+      "title": "The Arreat Summit - Maps: Act III",
+      "chars": 2062,
+      "sha256": "b90250f850f2f91e94f22556d064a801baf5fcef8b2b56cab123d8fef4e4fc01",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/maps/act4.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__maps__act4.shtml.html",
+      "title": "The Arreat Summit - Maps: Act IV",
+      "chars": 1100,
+      "sha256": "1c51f930fd83d0aea811a872483cb08eb7b77cf774c745f8674e65d484fe8ed5",
+      "status": "ok",
+      "note": null
+    },
+    {
+      "source_id": "arreat-summit",
+      "url": "https://classic.battle.net/diablo2exp/maps/act5.shtml",
+      "local_path": "docs/tier0/high-value/raw/arreat-summit/diablo2exp__maps__act5.shtml.html",
+      "title": "The Arreat Summit - Maps: Act V",
+      "chars": 3491,
+      "sha256": "a73ee4d310a84a977524589d88a304bf340be6edbf375af1d1193702f2c20262",
+      "status": "ok",
+      "note": null
+    }
+  ]
+}

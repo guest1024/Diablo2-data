@@ -1,0 +1,4336 @@
+authority_tier,char_count,key,lane,name,node_id,node_type,source_id
+,,arreat-summit,,arreat-summit,53cd039a-953c-5329-8cc7-9365aa7d10b9,Source,
+official,,homepage,official,The Arreat Summit - A Strategy Guide for Diablo II,5e7ba024-4137-5686-8ae8-7f58513c7ef8,SourceDocument,arreat-summit
+,,diablo2exp,,A Strategy Guide for Diablo II,f4b81583-a556-59d2-9371-d39b8e655a14,LegacyReferencePage,arreat-summit
+,,diablo2exp,,diablo2exp,8f14379c-2d92-5f55-b8e9-760936a94049,LegacyReferencePage,arreat-summit
+,,ladder,,ladder,3c958292-f4e5-5a50-97ab-c9b9eb6a256e,LegacyReferencePage,arreat-summit
+,,basics,,basics,0b6496e4-b2b1-575f-9384-6ee2eae9f05e,LegacyReferencePage,arreat-summit
+,,classes,,classes,474d5dc7-51ed-5b8a-9090-0e08c3718bdb,LegacyReferencePage,arreat-summit
+,,skills,,skills,7d75c3a5-069e-5df7-aaba-3a1a6918f5ef,LegacyReferencePage,arreat-summit
+,,items,,items,7c534f9d-853b-517e-8840-b9aedb8814ba,LegacyReferencePage,arreat-summit
+,,monsters,,monsters,e8d29f60-4baf-56ae-a688-9608c16a528e,LegacyReferencePage,arreat-summit
+,,npcs,,npcs,b2fcdf62-a432-5410-870f-8cb1d008cd42,LegacyReferencePage,arreat-summit
+,,quests,,quests,ffd373bd-b5df-523f-b350-fad460f2a6f6,LegacyReferencePage,arreat-summit
+,,shrines,,shrines,1606c15f-2d6f-5655-821b-e48f1986c7ec,LegacyReferencePage,arreat-summit
+,,maps,,maps,548cb263-0af2-5be4-a3fb-70f00cb4739d,LegacyReferencePage,arreat-summit
+,,faq,,faq,6e093e9d-f98b-5922-850b-547a2791291f,LegacyReferencePage,arreat-summit
+,,files,,files,77f3a0cb-d8b9-5f6d-b90a-f9643414ff69,LegacyReferencePage,arreat-summit
+,,runewords,,runewords,9c8b77e8-b5e5-52e5-9872-cf748833c035,ItemPage,arreat-summit
+,,runewords-110,,runewords-110,55c64761-7784-5e1e-b54c-6eae62f58653,ItemPage,arreat-summit
+official,,basics,official,The Arreat Summit - Basics,8e5a2cee-e913-5c2d-9bed-a318f3311b04,SourceDocument,arreat-summit
+,,basics,,Basics,d7386d56-60ab-5c6f-a8b6-e1f4c3d07090,LegacyReferencePage,arreat-summit
+,,characters,,characters,4d5036c1-5370-597f-b7f1-834923c8ce35,LegacyReferencePage,arreat-summit
+,,charactertypes,,charactertypes,53ffa92a-9c43-57cd-9039-38282af1da80,LegacyReferencePage,arreat-summit
+official,,classes,official,The Arreat Summit - Classes,d07f47dd-a714-5f0c-a495-a6190468d81d,SourceDocument,arreat-summit
+,,classes,,Classes,37ab3d63-41a1-50b8-9540-ad4926b8f4e2,LegacyReferencePage,arreat-summit
+,,amazon,,amazon,d2b18d60-e588-507d-9c2f-466819e3812e,Class,arreat-summit
+,,assassin,,assassin,79163e2a-9037-55a3-a66e-c361e3f01411,Class,arreat-summit
+official,,skills,official,The Arreat Summit - Skills,040d4855-c9ab-57c6-8597-75b4ef4da31a,SourceDocument,arreat-summit
+,,skills,,Skills,cde5f873-722e-502b-9b8f-2bb53865d558,LegacyReferencePage,arreat-summit
+,,amazon-javelin,,amazon-javelin,931dbe12-fe0e-572b-b117-f570160c0de0,SkillPage,arreat-summit
+,,assassin-martialarts,,assassin-martialarts,8e726b65-74e4-5f6e-8a82-ac70eda6f712,SkillPage,arreat-summit
+official,,items,official,The Arreat Summit - Items,66d522d6-b624-5f2b-87d8-eceda4572eec,SourceDocument,arreat-summit
+,,items,,Items,c5984ff1-fca2-5a78-825b-503fe21bef75,LegacyReferencePage,arreat-summit
+,,basics,,basics,5132a217-02a5-5b5b-bfa7-ad9d8e431e68,ItemPage,arreat-summit
+,,weaponsandarmor,,weaponsandarmor,9b0640a6-61ae-522e-9532-8bf4b2ac04f5,ItemPage,arreat-summit
+official,,monsters,official,The Arreat Summit - Monsters,6f462207-01de-59c9-aa9b-de2bd970d90b,SourceDocument,arreat-summit
+,,monsters,,Monsters,eb0420e5-150c-5552-9be7-0cd3a9c05b69,LegacyReferencePage,arreat-summit
+,,basics,,basics,18f3d97f-463f-5b0d-91d7-a59f293c0767,MonsterPage,arreat-summit
+,,bonus,,bonus,09a1ddf9-0555-5a0e-bc21-83621d313fed,MonsterPage,arreat-summit
+official,,quests,official,The Arreat Summit - Quests,c98c4bce-e10d-5123-8459-690fa8e9c0a2,SourceDocument,arreat-summit
+,,quests,,Quests,6c3756c9-8856-5751-a036-ae2129279f8b,LegacyReferencePage,arreat-summit
+,,act1,,act1,f5faf7a2-6ecb-533c-aa71-81dbb45a5dbe,QuestPage,arreat-summit
+,,act2,,act2,8b446213-58a0-57fd-944b-b597b7ee332c,QuestPage,arreat-summit
+official,,maps,official,The Arreat Summit - Maps,bfad3a76-0860-51d0-8d46-45f988e51897,SourceDocument,arreat-summit
+,,maps,,Maps,12dc5ddf-fc29-5c25-a335-4bc0dafc30a3,LegacyReferencePage,arreat-summit
+,,act1,,act1,8e9285b2-d55f-59a9-a3a9-a8b61635af94,AreaPage,arreat-summit
+,,act2,,act2,3ef8b6d3-bf5b-541c-9c64-fdca2e3cf1b6,AreaPage,arreat-summit
+,,diablo2-io,,diablo2-io,98d0c82c-1752-5d87-aca1-e0acc08f4698,Source,
+structured_db,,sitemap,structured_db,sitemap,1ee666a9-b948-5673-816d-d245499d68dd,SourceDocument,diablo2-io
+,,uniques,,uniques,f58f8150-b8f4-5501-a1a0-9dd3186e7fc0,WebPage,diablo2-io
+,,runewords,,runewords,e3f9f519-e4bf-52f0-8a4a-66229f42d8ec,WebPage,diablo2-io
+,,sets,,sets,dc6344e0-dd9e-5648-b71d-f8b782bf1ee8,WebPage,diablo2-io
+,,base,,base,7de2bd05-e524-51db-a624-762301039129,WebPage,diablo2-io
+,,recipes,,recipes,d1a1a737-1aca-5de8-8aca-7345a9b9a13c,WebPage,diablo2-io
+,,monsters,,monsters,f790114d-8325-587d-9043-4e4b3fac7986,WebPage,diablo2-io
+,,npcs,,npcs,bb76362f-ef5a-59ac-8539-3776a78e2992,WebPage,diablo2-io
+,,skills,,skills,b8fd8403-008f-5d7e-ab74-7186ebe579ce,WebPage,diablo2-io
+,,areas,,areas,176daa6f-dce8-5807-8296-b7aad464ec1a,WebPage,diablo2-io
+,,quests,,quests,5314fb1e-4587-588d-8d60-37b12243a480,WebPage,diablo2-io
+,,misc,,misc,704729f6-a4bd-5c1c-9a18-2a81c5c19632,WebPage,diablo2-io
+,,silks-of-the-victor-t2.html,,silks-of-the-victor-t2.html,2fe45f1a-a162-5076-87e4-32ac8fc0333b,UniqueItem,diablo2-io
+,,spirit-t3.html,,spirit-t3.html,a0d8679b-e7d7-584a-aac1-0cb384fa61d6,Runeword,diablo2-io
+,,cathan-s-visage-t4.html,,cathan-s-visage-t4.html,aa0a0b9f-6f68-5f24-b272-4b82d4dadfda,SetItem,diablo2-io
+,,ancient-armor-t5.html,,ancient-armor-t5.html,bd0c0cf8-70bf-537f-a144-c19f165b74c8,BaseItem,diablo2-io
+structured_db,,uniques,structured_db,"All Diablo 2 Resurrected Uniques
+        
+                                  
+        
+         • diablo2.io",3bc7ee73-de88-5607-8ce0-015022749b8f,SourceDocument,diablo2-io
+,,uniques,,uniques,939ad719-0090-5681-8239-cba625faf289,WebPage,diablo2-io
+,,hellslayer-t814.html,,hellslayer-t814.html,babc2b44-4976-52eb-bf45-c220c7ed53d1,UniqueItem,diablo2-io
+,,decapitator-t1612.html,,decapitator-t1612.html,c24e6c92-1801-5761-b647-ceb2e60aa661,BaseItem,diablo2-io
+,,cranebeak-t731.html,,cranebeak-t731.html,28251f60-4639-590e-9ca5-5da706fb709f,UniqueItem,diablo2-io
+,,war-spike-t1598.html,,war-spike-t1598.html,6965a18e-f3f3-5ee1-9655-1ba04a438c51,BaseItem,diablo2-io
+,,pluckeye-t875.html,,pluckeye-t875.html,92ddc2c4-8f54-5b81-ab90-12689a1d7bae,UniqueItem,diablo2-io
+,,short-bow-t1615.html,,short-bow-t1615.html,f0ad4a24-0e5d-5cda-a63e-8c6536bfbfb7,BaseItem,diablo2-io
+,,bane-ash-t683.html,,bane-ash-t683.html,49f78d58-6425-52ef-a7bd-9e4d0f3a0c95,UniqueItem,diablo2-io
+,,short-staff-t1744.html,,short-staff-t1744.html,71de7dfb-0a76-5426-a418-525cacbf3e24,BaseItem,diablo2-io
+,,hellwarden-s-will-t1673933.html,,hellwarden-s-will-t1673933.html,fa07e538-1fcf-51b3-b75f-b1509e041dba,UniqueItem,diablo2-io
+,,death-mask-t1496.html,,death-mask-t1496.html,4624543f-1f33-578a-ba3a-ea1458498bc2,BaseItem,diablo2-io
+,,ars-dul-mephistos-t1673924.html,,ars-dul-mephistos-t1673924.html,fc4c51be-c95d-5561-929a-6a5285f7e6af,UniqueItem,diablo2-io
+,,occult-tome-t1673950.html,,occult-tome-t1673950.html,22040793-ac70-558f-b2bc-efd47bf29ed6,BaseItem,diablo2-io
+structured_db,,runewords,structured_db,"All Diablo 2 Resurrected Runewords
+        
+                                  
+        
+         • diablo2.io",65ef56de-0262-5303-ab66-27fe434c060b,SourceDocument,diablo2-io
+,,runewords,,runewords,a6d418f2-81a9-5d95-aaae-56b1e0bee263,WebPage,diablo2-io
+,,mania-t1674022.html,,mania-t1674022.html,2c351183-b897-527b-83af-7a143586fa72,Runeword,diablo2-io
+,,shael-t1319.html,,shael-t1319.html,0af8b38e-ed72-5272-9415-c6016c212401,MiscEntity,diablo2-io
+,,ko-t1320.html,,ko-t1320.html,aa980ee5-6005-53e7-aa00-fb3054e66142,MiscEntity,diablo2-io
+,,eld-t50.html,,eld-t50.html,766b178e-9717-5af7-a8b8-c6777198271e,MiscEntity,diablo2-io
+,,ritual-t1673938.html,,ritual-t1673938.html,e8e7966c-ce62-5d6f-9035-a95305c27b0d,Runeword,diablo2-io
+,,amn-t23.html,,amn-t23.html,10afc63b-7605-522f-bc30-7084082a5d91,MiscEntity,diablo2-io
+,,ohm-t1327.html,,ohm-t1327.html,29c22491-f47b-5be0-8fb2-6e44c89e20f7,MiscEntity,diablo2-io
+,,rift-t1244.html,,rift-t1244.html,045140d7-60fa-534d-8f9b-650804693d10,Runeword,diablo2-io
+,,hel-t51.html,,hel-t51.html,f2de6133-e8f7-5385-b830-2d26cc52dd07,MiscEntity,diablo2-io
+,,lem-t1322.html,,lem-t1322.html,08b41076-30a4-5bca-8399-9ed015c9f4d9,MiscEntity,diablo2-io
+,,gul-t1326.html,,gul-t1326.html,15ca4f5b-e9a3-5dd5-99d4-d33748162763,MiscEntity,diablo2-io
+,,harmony-t1234.html,,harmony-t1234.html,ffdc3618-36d4-5465-977a-f89280ad7f65,Runeword,diablo2-io
+structured_db,,sets,structured_db,"All Diablo 2 Resurrected Set Items
+        
+                                  
+        
+         • diablo2.io",33a0d5ca-f9e5-5ad6-85e3-ab51d47730bf,SourceDocument,diablo2-io
+,,sets,,sets,5c38d109-8a28-54d7-bb12-a3b628c0c07e,WebPage,diablo2-io
+,,horazon-s-splendor-t1673911.html,,horazon-s-splendor-t1673911.html,b3cdc5ea-b0c9-5d4b-98a3-1384b5c9bcd1,SetItem,diablo2-io
+,,horazon-s-countenance-t1673917.html,,horazon-s-countenance-t1673917.html,7eb8396d-9ee5-5c59-9a8d-6bb0d2cf10ca,SetItem,diablo2-io
+,,horazon-s-dominion-t1673918.html,,horazon-s-dominion-t1673918.html,2dce9e61-d871-574e-b5d2-baf852cd1b91,SetItem,diablo2-io
+,,horazon-s-hold-t1673919.html,,horazon-s-hold-t1673919.html,1d95a323-4a7c-5dcf-9db4-d8548b6c6239,SetItem,diablo2-io
+,,horazon-s-legacy-t1673920.html,,horazon-s-legacy-t1673920.html,9c91a8a5-5dee-5110-ac1a-d79642f1572b,SetItem,diablo2-io
+,,horazon-s-secrets-t1673921.html,,horazon-s-secrets-t1673921.html,dcce649f-d66f-5381-b1ff-d89903bab0c9,SetItem,diablo2-io
+,,guillaume-s-face-t1135.html,,guillaume-s-face-t1135.html,d75cccbf-3bf4-5699-a584-bad30dc6a467,SetItem,diablo2-io
+,,winged-helm-t1505.html,,winged-helm-t1505.html,31498949-a5b7-5243-ad71-4dcbb8ede14f,BaseItem,diablo2-io
+,,orphan-s-call-t1133.html,,orphan-s-call-t1133.html,88463e65-7e24-5a0f-b152-d6420ea18cd9,SetItem,diablo2-io
+,,bane-s-garments-t1673910.html,,bane-s-garments-t1673910.html,41072d18-8ddc-5fb5-b4d9-fae32f194cf8,SetItem,diablo2-io
+,,bane-s-wraithskin-t1673915.html,,bane-s-wraithskin-t1673915.html,1c51abdd-8053-5858-b8e9-55d833945969,SetItem,diablo2-io
+,,bane-s-authority-t1673916.html,,bane-s-authority-t1673916.html,4bdca866-9d03-56e1-89a8-45adfe181460,SetItem,diablo2-io
+structured_db,,base,structured_db,"All Diablo 2 Resurrected Base Items
+        
+                                  
+        
+         • diablo2.io",acb977a3-0e03-518a-92c0-c04c55da8dab,SourceDocument,diablo2-io
+,,base,,base,298addff-05cf-5b5e-9cda-f5c5860559e9,WebPage,diablo2-io
+,,jared-s-stone-t1775.html,,jared-s-stone-t1775.html,6e2ef9ac-5b45-579e-a045-4338b5661cf7,BaseItem,diablo2-io
+,,dimensional-shard-t1785.html,,dimensional-shard-t1785.html,3bda6563-225d-5312-bb79-30aff9a03191,BaseItem,diablo2-io
+,,swirling-crystal-t1780.html,,swirling-crystal-t1780.html,c1512182-4d31-50ae-9f6d-05b2d697b15e,BaseItem,diablo2-io
+,,demonhead-t1497.html,,demonhead-t1497.html,1117bc68-daca-5a32-893b-2f246702f0a4,BaseItem,diablo2-io
+,,mask-t256.html,,mask-t256.html,c94a1f92-1d1a-5502-be2e-0f4b578d5958,BaseItem,diablo2-io
+,,thresher-t1799.html,,thresher-t1799.html,45d1fef9-aa23-57e0-9305-e203f48b98cc,BaseItem,diablo2-io
+,,battle-scythe-t1793.html,,battle-scythe-t1793.html,35ee5ee9-a45d-5f39-b612-5a8a6790aa80,BaseItem,diablo2-io
+,,scythe-t61.html,,scythe-t61.html,d1727c6e-2ccf-56fa-9bae-673cf59157a3,BaseItem,diablo2-io
+,,full-plate-mail-t1427.html,,full-plate-mail-t1427.html,d291bffa-63a0-5b97-9b8e-1ed08eeb58f1,BaseItem,diablo2-io
+,,chaos-armor-t1428.html,,chaos-armor-t1428.html,a579dad1-766e-5dcd-9fb6-dc28a0c41557,BaseItem,diablo2-io
+,,shadow-plate-t1429.html,,shadow-plate-t1429.html,ff6df691-9617-59c9-968e-0aea2dd37709,BaseItem,diablo2-io
+structured_db,,recipes,structured_db,"All Diablo 2 Resurrected Cube Recipes
+        
+                                  
+        
+         • diablo2.io",f8ba2b6e-c9c5-5a8b-af64-8d6b9d56ff87,SourceDocument,diablo2-io
+,,recipes,,recipes,e26d4eb0-9523-5f1b-afff-780df4c65b29,WebPage,diablo2-io
+,,recipe-fully-repaired-armor-t3303.html,,recipe-fully-repaired-armor-t3303.html,aa2561fb-4e32-5eee-99a0-b69bc57a2678,Recipe,diablo2-io
+,,ral-t48.html,,ral-t48.html,10d98329-e450-5510-a3c9-3ebc7d413c42,MiscEntity,diablo2-io
+,,recipe-add-sockets-to-normal-weapon-t3314.html,,recipe-add-sockets-to-normal-weapon-t3314.html,f77730b1-4cf4-526a-8896-7a54f29014e0,Recipe,diablo2-io
+,,perfect-amethyst-t1358.html,,perfect-amethyst-t1358.html,f47c4834-c88d-5fb3-9ebd-cc79ee7b08d4,MiscEntity,diablo2-io
+,,recipe-portal-to-the-secret-cow-level-t6.html,,recipe-portal-to-the-secret-cow-level-t6.html,eb03eb7f-099e-5130-ae71-91bd118695b3,Recipe,diablo2-io
+,,tome-of-town-portal-t12.html,,tome-of-town-portal-t12.html,c56cc244-98b7-5fb6-894f-65545467629c,MiscEntity,diablo2-io
+,,wirt-s-leg-t67.html,,wirt-s-leg-t67.html,c81f2c15-d76d-5347-bc20-90ce98e7471c,MiscEntity,diablo2-io
+,,portal-to-the-secret-cow-level-t68.html,,portal-to-the-secret-cow-level-t68.html,8e363041-f0e4-5f60-a393-68e3f0fa396a,MiscEntity,diablo2-io
+,,recipe-portal-to-colossal-summit-t1674861.html,,recipe-portal-to-colossal-summit-t1674861.html,b61a49ff-acab-5683-9ffd-b9eefd264dbe,Recipe,diablo2-io
+,,talic-s-anguish-t1674833.html,,talic-s-anguish-t1674833.html,0911543d-3463-58e2-80ca-928811ae0087,MiscEntity,diablo2-io
+structured_db,,monsters,structured_db,"All Diablo 2 Resurrected Monsters
+        
+                                  
+        
+         • diablo2.io",facd31cf-535a-5747-9590-cf8347416a95,SourceDocument,diablo2-io
+,,monsters,,monsters,21ab9c69-0d6f-54d5-9b8b-13c209bb0e51,WebPage,diablo2-io
+,,uber-madawc-t1674869.html,,uber-madawc-t1674869.html,4d5b09b3-45f9-59e7-946c-885e3ff9abf7,Monster,diablo2-io
+,,colossal-summit-t1674854.html,,colossal-summit-t1674854.html,17612f18-ebb7-5884-ba09-f4851a075bfa,Area,diablo2-io
+,,uber-korlic-t1674867.html,,uber-korlic-t1674867.html,a9fc400a-d479-5259-bf30-495d225995bd,Monster,diablo2-io
+,,uber-talic-t1674866.html,,uber-talic-t1674866.html,47d13501-dffc-544a-bd8c-524dd62ebc50,Monster,diablo2-io
+,,herald-t1674889.html,,herald-t1674889.html,bd028c9b-c5c2-503b-b7bc-21d29a942d2f,Monster,diablo2-io
+,,achmel-the-cursed-t4328.html,,achmel-the-cursed-t4328.html,634ea781-c764-58d6-8c69-dad33b4fc680,Monster,diablo2-io
+,,greater-mummy-t4230.html,,greater-mummy-t4230.html,ce02de99-c734-54ad-b480-04e7ac47967b,Monster,diablo2-io
+,,throne-of-destruction-t3818.html,,throne-of-destruction-t3818.html,593e40e1-ff27-538c-951f-c42896cf4d17,Area,diablo2-io
+,,the-smith-t4281.html,,the-smith-t4281.html,8c135fa3-d9d5-53fc-80de-5b3b2a1ed922,Monster,diablo2-io
+,,barracks-t3723.html,,barracks-t3723.html,74f319dd-4e46-5267-884f-a494310e67f7,Area,diablo2-io
+,,shenk-the-overseer-t4314.html,,shenk-the-overseer-t4314.html,56fd5a9b-494b-5068-ac17-729855f03d0b,Monster,diablo2-io
+,,overseer-t4259.html,,overseer-t4259.html,8267003a-0b71-575d-8093-c5ed73cf89f0,Monster,diablo2-io
+structured_db,,npcs,structured_db,"All Diablo 2 Resurrected NPCs
+        
+                                  
+        
+         • diablo2.io",a2564477-7e19-54db-9028-56d67ab37cd8,SourceDocument,diablo2-io
+,,npcs,,npcs,780881ec-9ff7-5c63-a28b-d3cdcbd6d34b,WebPage,diablo2-io
+,,hratli-t3946.html,,hratli-t3946.html,09bacfc0-c91b-5e5b-8fcc-ff48209c6062,NPC,diablo2-io
+,,kurast-docks-t3762.html,,kurast-docks-t3762.html,e46f29aa-2ca7-5229-938a-2cc196b764e5,Area,diablo2-io
+,,malah-t3955.html,,malah-t3955.html,1f41ff3a-94a9-5566-b815-b0da98c9bdf0,NPC,diablo2-io
+,,harrogath-t3796.html,,harrogath-t3796.html,846c3260-f0b2-5c48-b960-a9e7db54869c,Area,diablo2-io
+,,izual-spirit-t3954.html,,izual-spirit-t3954.html,fc907e86-b31b-54c2-98ba-387643644d97,NPC,diablo2-io
+,,plains-of-despair-t3792.html,,plains-of-despair-t3792.html,22fe1585-3e9a-5ef0-9860-52bf99a5bf3b,Area,diablo2-io
+,,ormus-t3948.html,,ormus-t3948.html,906ede50-6197-5698-8ce8-aacefc3eb0bb,NPC,diablo2-io
+,,flavie-t3932.html,,flavie-t3932.html,7dad8b32-3b2b-5702-a8f7-a93506aa06ca,NPC,diablo2-io
+,,blood-moor-t3711.html,,blood-moor-t3711.html,5b78eaad-8593-5702-b7c6-12072e5c1fec,Area,diablo2-io
+,,geglash-t3940.html,,geglash-t3940.html,2d3a04ea-24f9-5467-9b4c-131b8a32e8b2,NPC,diablo2-io
+,,lut-gholein-t3733.html,,lut-gholein-t3733.html,28d62221-034a-5906-87a0-6b1f64fdc88a,Area,diablo2-io
+,,tal-rasha-t3962.html,,tal-rasha-t3962.html,1c05ba16-aa1d-5931-af18-f29780692b5a,NPC,diablo2-io
+structured_db,,skills,structured_db,"All Diablo 2 Resurrected Skills
+        
+                                  
+        
+         • diablo2.io",7fce8d96-aff7-589d-9f89-d23ff3fd06d5,SourceDocument,diablo2-io
+,,skills,,skills,56d36595-9cf1-5704-b986-721258a669f9,WebPage,diablo2-io
+,,enhanced-entropy-t1676856.html,,enhanced-entropy-t1676856.html,90461832-3d5a-5aa6-a10e-e022eb5a8dcd,Skill,diablo2-io
+,,miasma-chain-t1676851.html,,miasma-chain-t1676851.html,e77020ab-7d66-58ac-8126-363c37866a61,Skill,diablo2-io
+,,summon-tainted-t1674066.html,,summon-tainted-t1674066.html,bf5476f9-f49d-591f-8885-1ea73ab0f9e2,Skill,diablo2-io
+,,summon-goatman-t1674063.html,,summon-goatman-t1674063.html,c844a8dd-7e57-5cba-991d-3207a9c2c3bc,Skill,diablo2-io
+,,blood-oath-t1674064.html,,blood-oath-t1674064.html,b16b43e9-eb39-508a-b0d9-881d9b39d128,Skill,diablo2-io
+,,eldritch-blast-t1676824.html,,eldritch-blast-t1676824.html,fb3c4e1f-4632-542b-bf1c-88d320b1454e,Skill,diablo2-io
+,,psychic-ward-t1676823.html,,psychic-ward-t1676823.html,d70fdc6a-b3df-5dfd-b96d-39a7ddb7d08f,Skill,diablo2-io
+,,hex-purge-t1676821.html,,hex-purge-t1676821.html,130975ca-de2a-59b9-b561-00ab45dd7f24,Skill,diablo2-io
+,,blade-warp-t1676822.html,,blade-warp-t1676822.html,b5103b69-d69e-5315-a718-86a339c1cc98,Skill,diablo2-io
+,,echoing-strike-t1676820.html,,echoing-strike-t1676820.html,cdc1c984-b512-56ff-888e-fc7b944dadeb,Skill,diablo2-io
+,,levitation-mastery-t1676818.html,,levitation-mastery-t1676818.html,a0596a2f-9b68-5ecc-b4f5-8bfe2a879fdd,Skill,diablo2-io
+,,mirrored-blades-t1676826.html,,mirrored-blades-t1676826.html,8eac9292-4004-5f92-a315-8a6e53bbbdb2,Skill,diablo2-io
+structured_db,,areas,structured_db,"All Diablo 2 Resurrected Areas
+        
+                                  
+        
+         • diablo2.io",fc04c06d-a9d3-5f77-8bf3-d5c2ebfd46f9,SourceDocument,diablo2-io
+,,areas,,areas,9eceb76d-59b8-5c24-b71e-13d6654d7464,WebPage,diablo2-io
+,,rogue-encampment-t3710.html,,rogue-encampment-t3710.html,abc34785-5925-508e-96d6-0fffb222f8d3,Area,diablo2-io
+,,cold-plains-t3712.html,,cold-plains-t3712.html,5e35d282-c0fc-5442-9cad-6f90a9e57f0a,Area,diablo2-io
+,,den-of-evil-t3696.html,,den-of-evil-t3696.html,b33d080d-2a08-5f11-8cbd-6c9ed6b45089,Area,diablo2-io
+,,worldstone-keep-level-3-t3817.html,,worldstone-keep-level-3-t3817.html,5b60c3dc-c361-505f-aabf-68cc09573a6b,Area,diablo2-io
+,,worldstone-chamber-t3819.html,,worldstone-chamber-t3819.html,ab2f861f-7d8d-5e74-8d63-b8fa4900764f,Area,diablo2-io
+,,glacial-trail-t3808.html,,glacial-trail-t3808.html,ba0c078a-3da7-535a-aadf-6a84a2c5aad0,Area,diablo2-io
+,,crystalline-passage-t3802.html,,crystalline-passage-t3802.html,b14f52b8-5102-58b2-87ef-287a37ac7082,Area,diablo2-io
+,,drifter-cavern-t3809.html,,drifter-cavern-t3809.html,b6ddd948-55f3-51cf-a6d5-17a7d5930d70,Area,diablo2-io
+,,frozen-tundra-t3810.html,,frozen-tundra-t3810.html,d30712d5-cb64-5aed-9427-0d49c1cef7e4,Area,diablo2-io
+structured_db,,quests,structured_db,"All Diablo 2 Resurrected Quests
+        
+                                  
+        
+         • diablo2.io",198e9dec-6e32-504d-93bb-a0901078e8e4,SourceDocument,diablo2-io
+,,quests,,quests,68b74867-f46d-5989-84c3-8c12674dd36e,WebPage,diablo2-io
+,,eve-of-destruction-t3988.html,,eve-of-destruction-t3988.html,92233c1e-0515-5cd3-b99e-909310ab783f,Quest,diablo2-io
+,,the-search-for-cain-t11.html,,the-search-for-cain-t11.html,95cf92f4-bffc-5632-a39b-98a0c664aec0,Quest,diablo2-io
+,,akara-t3931.html,,akara-t3931.html,5be9c2e6-e33d-5354-8013-9e961c37b02c,NPC,diablo2-io
+,,the-hellforge-t3981.html,,the-hellforge-t3981.html,f0a20ec3-33f1-558a-bd81-fd1bba23c2e3,Quest,diablo2-io
+,,deckard-cain-t8.html,,deckard-cain-t8.html,48465709-56e0-5f48-93a2-bf795a28b6e5,NPC,diablo2-io
+,,rescue-on-mount-arreat-t3984.html,,rescue-on-mount-arreat-t3984.html,c7356a10-e5a5-5548-9745-8c2033313e52,Quest,diablo2-io
+,,qual-kehk-t3959.html,,qual-kehk-t3959.html,dd7520c4-b2c8-549b-8bbd-64e900cc4b6f,NPC,diablo2-io
+,,blade-of-the-old-religion-t3975.html,,blade-of-the-old-religion-t3975.html,92c81ef2-c0d3-5719-a2fd-078fd90b8df1,Quest,diablo2-io
+,,radament-s-lair-t3968.html,,radament-s-lair-t3968.html,aabd8a44-a3b8-58e1-b83c-b7e3bd5b9831,Quest,diablo2-io
+,,atma-t3935.html,,atma-t3935.html,e1cd372e-691f-5d68-adeb-f3152b9981f0,NPC,diablo2-io
+,,lam-esen-s-tome-quest-t3977.html,,lam-esen-s-tome-quest-t3977.html,b39cfb44-102a-5f99-8e83-3231d1761c62,Quest,diablo2-io
+structured_db,,blizzhackers-d2data,open_data,blizzhackers/d2data,0cfb6e6a-992a-58ca-94c4-7fb667a12988,Source,
+structured_db,,readme,open_data,README,c575bca6-afac-54f0-be9b-26940f8a968f,SourceDocument,blizzhackers-d2data
+,,README.md,,README,19d24304-b055-5bf8-a081-84290a25b27b,OpenDataResource,blizzhackers-d2data
+structured_db,,root-contents,open_data,root-contents,75b222a7-1326-51d8-bc27-5eb6b934df3a,SourceDocument,blizzhackers-d2data
+,,contents,,root-contents,628d09b8-dd86-5ff9-91bf-d58b0b6891e8,OpenDataResource,blizzhackers-d2data
+,,.eslintrc.js,,.eslintrc.js,0d82a132-6aca-5a77-bf6a-b4dbd5552631,OpenDataResource,blizzhackers-d2data
+,,.eslintrc.js,,.eslintrc.js,dcf7c5e7-23ea-5a18-8252-81159da76558,OpenDataResource,blizzhackers-d2data
+,,.eslintrc.js,,.eslintrc.js,7de5670a-4397-5c06-b652-fe522e56f3b1,OpenDataResource,blizzhackers-d2data
+,,.gitignore,,.gitignore,3985e425-c9a4-546f-a138-cfc54823c17c,OpenDataResource,blizzhackers-d2data
+,,.gitignore,,.gitignore,8c8d151a-061b-55e8-a816-ccdd818da033,OpenDataResource,blizzhackers-d2data
+,,.gitignore,,.gitignore,bbb981bc-942c-5b88-ad1e-f90d22fbdd1c,OpenDataResource,blizzhackers-d2data
+,,LICENSE,,LICENSE,8168fef3-2655-5533-ad6a-ef5f257b3a3c,OpenDataResource,blizzhackers-d2data
+,,LICENSE,,LICENSE,e9cdb7db-5ec4-5594-8910-ac0aed55cf9f,OpenDataResource,blizzhackers-d2data
+,,LICENSE,,LICENSE,5ae24f81-7bf6-5baf-9dea-84a43a3cf494,OpenDataResource,blizzhackers-d2data
+,,README.md,,README.md,1f1499dc-db6f-55b4-a0b8-6f33ceb990df,OpenDataResource,blizzhackers-d2data
+,,README.md,,README.md,6f1746af-e5b8-526f-980f-8de419849192,OpenDataResource,blizzhackers-d2data
+,,README.md,,README.md,74614258-0ae8-5e79-9b5c-4026ad37d6fd,OpenDataResource,blizzhackers-d2data
+,,_config.yml,,_config.yml,b10abbbb-943d-5ce3-9084-53ea45f00591,OpenDataResource,blizzhackers-d2data
+,,_config.yml,,_config.yml,d5687989-81a2-5bec-bde9-42d19e386ec9,OpenDataResource,blizzhackers-d2data
+,,_config.yml,,_config.yml,d665a962-bf14-5f30-97ba-92d6c5393795,OpenDataResource,blizzhackers-d2data
+structured_db,,json-contents,open_data,json-contents,623d1515-5325-5eea-835a-bc812557d6e3,SourceDocument,blizzhackers-d2data
+,,json,,json-contents,7fc1d921-774e-5152-a265-f094a4e410cd,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,7b6eb153-09be-5d1d-8ce9-d4d44aaac3db,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,dcb76a7a-1640-51f0-84f1-e35eabb776c6,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,013825d4-0f79-538b-95d9-bcec1334895d,OpenDataResource,blizzhackers-d2data
+,,actinfo.json,,actinfo.json,9d1f45f4-2145-5adc-abc0-eac7869d40c7,OpenDataResource,blizzhackers-d2data
+,,actinfo.json,,actinfo.json,e2e63350-8987-5d2d-9594-5d91d03411d3,OpenDataResource,blizzhackers-d2data
+,,actinfo.json,,actinfo.json,15ad159b-7d09-5032-87e8-d0cc68024865,OpenDataResource,blizzhackers-d2data
+,,actprofile.json,,actprofile.json,ff911db0-b92f-53db-9b11-194526aa8be5,OpenDataResource,blizzhackers-d2data
+,,actprofile.json,,actprofile.json,48212312-a17d-59e0-a82a-ad5590405826,OpenDataResource,blizzhackers-d2data
+,,actprofile.json,,actprofile.json,d1154396-998d-532b-a5f9-4e3ce0e94d43,OpenDataResource,blizzhackers-d2data
+,,allstrings-eng.json,,allstrings-eng.json,11cd236a-e34f-5036-bfd1-7d4737fb3b14,OpenDataResource,blizzhackers-d2data
+,,allstrings-eng.json,,allstrings-eng.json,a405614e-46e2-5658-95c1-fb2a03173b1a,OpenDataResource,blizzhackers-d2data
+,,allstrings-eng.json,,allstrings-eng.json,84662a51-417f-56a8-bc9f-561e194acef3,OpenDataResource,blizzhackers-d2data
+,,armor.json,,armor.json,11d1e1d5-0a06-58df-8fc5-aa314079b092,OpenDataResource,blizzhackers-d2data
+,,armor.json,,armor.json,aa99fbf1-1228-5594-94e4-6b3d3029eeac,OpenDataResource,blizzhackers-d2data
+,,armor.json,,armor.json,1988f746-781d-5114-8cb3-a294b58dd499,OpenDataResource,blizzhackers-d2data
+structured_db,,txt-contents,open_data,txt-contents,d856af32-eb32-5b74-a124-61639b6a0f02,SourceDocument,blizzhackers-d2data
+,,txt,,txt-contents,491de5f6-1869-5911-88a7-481f727403d6,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,d46cb5a2-c828-568d-9c74-01e06fe676d6,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,6931c0ab-f1bf-5121-aa80-b6400232abb7,OpenDataResource,blizzhackers-d2data
+,,.gitkeep,,.gitkeep,7425d0cb-e70d-55f8-a185-a4bd9d9861ba,OpenDataResource,blizzhackers-d2data
+,,base,,base,68fa4efe-8237-5e36-a353-4ab882288df2,OpenDataResource,blizzhackers-d2data
+,,base,,base,9c2af37d-bea8-5b6b-8c80-5c19d69a6609,OpenDataResource,blizzhackers-d2data
+structured_db,,diablo2-net-api,api,Diablo-2.net API,21ec1faa-c58a-51bf-bdba-6e2a5ebf6eb3,Source,
+structured_db,,api-docs,api,Diablo 2 API | Diablo-2.net,aac77696-0d4c-5192-a1c6-bd2aa0cae678,SourceDocument,diablo2-net-api
+,,api,,Diablo 2 API | Diablo-2.net,b65d2e30-ca3d-5893-b71e-2145685aafdb,ApiEndpoint,diablo2-net-api
+,,api,,api,b2f93ffd-8dd3-54f0-9786-dd0003c030b2,ApiEndpoint,diablo2-net-api
+,,items-list,,items-list,2402d9b1-2fce-59fc-b5fe-9d821fc91d5d,ApiEndpoint,diablo2-net-api
+,,runes-list,,runes-list,f0d16ac2-db89-5e7d-a2a8-4373d7d7853f,ApiEndpoint,diablo2-net-api
+,,example.html,,example.html,c1cf31d7-6098-565a-91c6-3d36c49fbeeb,ApiEndpoint,diablo2-net-api
+structured_db,,items-endpoint,api,items-endpoint,8684d433-9ff7-56c7-b9a1-3f79dd61e378,SourceDocument,diablo2-net-api
+,,items,,items-endpoint,b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d,ApiEndpoint,diablo2-net-api
+structured_db,,runes-endpoint,api,runes-endpoint,7b435363-531e-52b2-949d-2fb5b36094a6,SourceDocument,diablo2-net-api
+,,runes,,runes-endpoint,1e12fd92-f131-58ca-94b8-18b4749586c0,ApiEndpoint,diablo2-net-api
+structured_db,,unique-items-endpoint,api,unique-items-endpoint,efdcb777-4164-5b05-a83f-5a643d3e593a,SourceDocument,diablo2-net-api
+,,unique-items,,unique-items-endpoint,c9eb4129-4857-5618-bac7-05f6ce74a559,ApiEndpoint,diablo2-net-api
+official,,blizzard-cn-d2,official,Diablo II China official portal,8c42a552-3b81-5395-89af-04ab6c749969,Source,
+official,,homepage,official,《暗黑破坏神II》重制版“术士君临”游戏扩展包现已上线,84fad44b-a8ed-5b4e-9808-93a29aa61795,SourceDocument,blizzard-cn-d2
+official,,sitemap,official,sitemap,68c50a64-3b39-552c-9e52-a76d2471358a,SourceDocument,blizzard-cn-d2
+,,index.html,,index.html,f9c4b45e-b9cf-5881-93b1-92316db8719d,WebPage,blizzard-cn-d2
+,,news,,news,fd717288-c851-5ddc-9a60-b33b01ba1f00,WebPage,blizzard-cn-d2
+,,42929_1285202.html,,42929_1285202.html,a4c3a1f8-a35d-5f86-a5ae-c9fc35a7b8d9,WebPage,blizzard-cn-d2
+,,index.html,,index.html,b653c515-a797-5b8b-9c72-02f2b1a974ac,WebPage,blizzard-cn-d2
+,,index.html,,index.html,79c79320-6134-5a7e-8c07-0f97437a837f,WebPage,blizzard-cn-d2
+,,index.html,,index.html,00428748-f3b1-5456-b412-ce65409ce93f,WebPage,blizzard-cn-d2
+,,index.html,,index.html,717ff4fe-cb97-506c-8359-b8fba3787e3a,WebPage,blizzard-cn-d2
+,,42929_1277898.html,,42929_1277898.html,851e24da-88f5-5c86-a077-731cf7f440ce,WebPage,blizzard-cn-d2
+,,index.html,,index.html,7b309c73-87a4-571e-a43c-243770fc93ce,WebPage,blizzard-cn-d2
+,,42929_1267224.html,,42929_1267224.html,a29c9d10-a627-5c68-88c4-ffcf5c60b3c8,WebPage,blizzard-cn-d2
+,,42929_1272408.html,,42929_1272408.html,1702b467-844b-56c1-8a42-e903ba08548f,WebPage,blizzard-cn-d2
+,,42929_1267024.html,,42929_1267024.html,a337470f-d664-52ec-b214-056b55f97792,WebPage,blizzard-cn-d2
+,,42929_1262557.html,,42929_1262557.html,6330659f-8a8f-56f9-9d85-caa4717e7ad3,WebPage,blizzard-cn-d2
+,,index.html,,index.html,532e6d29-faab-5e00-a6c6-80ed4a8c06c6,WebPage,blizzard-cn-d2
+,,42929_1260699.html,,42929_1260699.html,606ae1ea-cf37-5073-b6ba-5eaed94cb885,WebPage,blizzard-cn-d2
+official,,news-index,official,《暗黑破坏神II》官方网站 - 新闻,e0f8f7c4-8e78-503e-8640-840082d0247c,SourceDocument,blizzard-cn-d2
+,17210,ef481dcd712d1ba501331e7e,,"Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",df063511-85d6-5ee1-b977-fc0fc16a5e70,SourceDocument,diablo2-io
+,,spirit-t3,,"Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",96d0566a-c3f7-518d-b49e-cb8e57328591,Runeword,diablo2-io
+,18366,4f80293987117e453dcb68e0,,"Enigma 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",118bc094-3b56-58b8-94be-2cf166de95c9,SourceDocument,diablo2-io
+,,enigma-t42,,"Enigma 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",e0577cf7-ef8f-507c-8f63-a48cc8b004ef,Runeword,diablo2-io
+,11437,13d41ca2b64d1777d3834f1e,,"Ancients' Pledge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",69062cb7-2d24-514e-b698-ff47ffd008b5,SourceDocument,diablo2-io
+,,ancients-pledge-t46,,"Ancients' Pledge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",2f3531e8-0788-59c5-9511-edc190d4dc14,Runeword,diablo2-io
+,13132,57c44a5e1acca14ba707287a,,"Silence 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",1b0cac2f-1779-59c3-a2c4-c691f1d094f4,SourceDocument,diablo2-io
+,,silence-t55,,"Silence 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",52557100-aa5f-55b2-97ed-36321fbeb01f,Runeword,diablo2-io
+,9573,39615734295a2659122c7d2c,,"Strength 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",2609bb08-d7f7-5181-af72-5bc57f3b3795,SourceDocument,diablo2-io
+,,strength-t56,,"Strength 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",78b7fa9f-bd8d-5425-84b4-74ba660bec26,Runeword,diablo2-io
+,13104,948ddfdafcd239e21691cfbc,,"Leaf 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",3e4fe90f-d127-5d79-ac17-125f86b6d13c,SourceDocument,diablo2-io
+,,leaf-t57,,"Leaf 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",d7996653-c55a-5a8c-9d88-ebc91591bd18,Runeword,diablo2-io
+,12614,9b8a5b83a9b1b4eea7bb9b5a,,"Black 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",0307848b-edda-5572-9e9e-cb115d5bc9ec,SourceDocument,diablo2-io
+,,black-t1182,,"Black 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",e75989d5-5161-565d-827b-6d07463fd6b0,Runeword,diablo2-io
+,10865,eac9d0c125e313e4000ed8f7,,"Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",efe17956-53c5-5182-99de-edf8ca1d38c8,SourceDocument,diablo2-io
+,,fury-t1183,,"Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",140d42c8-1a4c-5f71-bc9c-8a54579b21a3,Runeword,diablo2-io
+,11394,5f8ba2a2af61cf7df5a4dd4f,,"Holy Thunder 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",4c81af8c-d44d-5282-b22c-a911c9486d30,SourceDocument,diablo2-io
+,,holy-thunder-t1184,,"Holy Thunder 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",78ca7f3a-15c5-58cc-844d-20af50d3c84c,Runeword,diablo2-io
+,10552,fe4cc28866c4b2099003e67f,,"Honor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",2abafd54-7b49-552f-8338-8fba8fc71d2e,SourceDocument,diablo2-io
+,,honor-t1185,,"Honor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",62f40959-51d6-58a7-8454-3dd10b6e5417,Runeword,diablo2-io
+,9986,50296438c0527fd3e7de952d,,"King's Grace 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",b3398011-7da0-5066-a11c-2ac43575a0cc,SourceDocument,diablo2-io
+,,king-s-grace-t1186,,"King's Grace 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",0404c949-8ca8-5085-a95f-7a6f56df88e2,Runeword,diablo2-io
+,10286,a1b09d36a3ccaed8fe9ba374,,"Lionheart 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",4aa80317-326b-5ec6-b947-f6cec248b352,SourceDocument,diablo2-io
+,,lionheart-t1187,,"Lionheart 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",a65245b3-583b-5f53-a01d-79a48ffa4f3f,Runeword,diablo2-io
+,10901,a71d2da2a200093f841ca99c,,"Lore 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",89a38113-ba70-5c0b-bdb9-236da36b3549,SourceDocument,diablo2-io
+,,lore-t1188,,"Lore 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",5e824175-10ab-5306-a02f-99b9220a3190,Runeword,diablo2-io
+,10185,fce3bccca22c3ad1265994c2,,"Malice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",db82331d-5f8e-5292-b8b5-134166d97419,SourceDocument,diablo2-io
+,,malice-t1189,,"Malice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",ca796944-a1ea-5ccc-b651-99efe38e733d,Runeword,diablo2-io
+,10911,bf9b5f57ead9296181c560d8,,"Melody 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",899e3b44-1545-5c25-967e-53bd19c3e89a,SourceDocument,diablo2-io
+,,melody-t1190,,"Melody 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",84138d6c-be66-5d57-bc80-56288fd173d7,Runeword,diablo2-io
+,10121,160fffcdfb86c5b582f67812,,"Memory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",5f3b377f-afa1-5975-bdaf-348064f54092,SourceDocument,diablo2-io
+,,memory-t1191,,"Memory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",bd936382-3c19-529b-bd4f-ca6be323b0a1,Runeword,diablo2-io
+,8911,3236901ca916cd9462ebf275,,"Nadir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",05a08c82-b4f5-5008-a668-e2bea28d7f4b,SourceDocument,diablo2-io
+,,nadir-t1192,,"Nadir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",4147a071-91b1-55a4-96a8-dbfaaaad0946,Runeword,diablo2-io
+,12508,4d93f5fc7968181b85feca8a,,"Radiance 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",cf4cbdd9-c77c-54d0-84b9-324eb23655c4,SourceDocument,diablo2-io
+,,radiance-t1193,,"Radiance 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",3969ba9a-419a-53fa-9231-d6d4ba33d201,Runeword,diablo2-io
+,11627,94647150999b2229e7c60794,,"Rhyme 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",eb7cb438-737b-51d1-a9d1-913ecfd4bc73,SourceDocument,diablo2-io
+,,rhyme-t1194,,"Rhyme 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",054f7d51-a6fe-5d05-8ee4-d93642c5c8f8,Runeword,diablo2-io
+,9609,84820f510181dc9354d180de,,"Smoke 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",a094c478-eb9a-5220-b6b0-1f74f968a325,SourceDocument,diablo2-io
+,,smoke-t1195,,"Smoke 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",7ad787eb-9e16-5617-a8dc-d4e79b22d0f5,Runeword,diablo2-io
+,9893,29a57a6b95ca6105cd4a8633,,"Stealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",40933d27-276c-5b6b-bbd1-eddf8e63c9d0,SourceDocument,diablo2-io
+,,stealth-t1196,,"Stealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",813fdd12-6b66-583f-a8b2-e55379c52a2f,Runeword,diablo2-io
+,10574,c03b13215a7c9c98741e6682,,"Steel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",0a0d5d40-6808-5ade-aa12-d1e5ace06b56,SourceDocument,diablo2-io
+,,steel-t1197,,"Steel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",ddab279a-ee71-5688-8be0-423c47d54aab,Runeword,diablo2-io
+,10877,d353ea25233f23bd43c831eb,,"Venom 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",e3fbd2d5-7fa0-5856-ae5f-50ddec15bb66,SourceDocument,diablo2-io
+,,venom-t1198,,"Venom 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",c957ea04-5ad7-5cd4-b35c-98b38e74feb0,Runeword,diablo2-io
+,9390,e533a1c877bd49407684b2ee,,"Wealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",ca2497f8-c720-5072-91e7-00cfc0875dc4,SourceDocument,diablo2-io
+,,wealth-t1199,,"Wealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io",135d9f23-41ea-5863-8f36-82c5b90f26b7,Runeword,diablo2-io
+,10855,f9e5c5a6ccfde14fe84c31ba,,"Silks of the Victor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",d2e0ae9f-7266-5678-b6de-30d29e713099,SourceDocument,diablo2-io
+,,silks-of-the-victor-t2,,"Silks of the Victor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7943113d-0876-5ef3-ad24-cd0641e92c04,UniqueItem,diablo2-io
+,10310,99b76633fb00a76e3560127a,,"Soul Harvest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",80ed8df2-444f-5813-ae01-5ba8f7ac0a7b,SourceDocument,diablo2-io
+,,soul-harvest-t36,,"Soul Harvest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",3cd0053a-f2b2-55ac-9541-a3aa0c79d147,UniqueItem,diablo2-io
+,18391,f828a9fa0999ad35b05c6c5e,,"Harlequin Crest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",785fca35-f159-5086-a696-91cad5281137,SourceDocument,diablo2-io
+,,harlequin-crest-t37,,"Harlequin Crest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",de301e9e-1681-5237-901f-81904fedd8c8,UniqueItem,diablo2-io
+,12422,cda13b935394d670ed85609d,,"Thundergod's Vigor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",46951c5e-e9fc-5e01-ba20-dbb7a94624a9,SourceDocument,diablo2-io
+,,thundergod-s-vigor-t38,,"Thundergod's Vigor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5911ab44-c4b1-5c9e-b6fb-8900ec946b87,UniqueItem,diablo2-io
+,16702,f9e97a8c5a04c5f9483e33e9,,"Hellfire Torch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",739f6c15-8ed7-5ef2-95a2-167f8967cd20,SourceDocument,diablo2-io
+,,hellfire-torch-t39,,"Hellfire Torch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",b9697845-0d90-50a3-ae0b-01299bbbb00c,UniqueItem,diablo2-io
+,12297,e2f85253d2149a09220e3607,,"Seraph's Hymn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",2248c2b3-1ed5-57eb-9be1-aaa4700528d1,SourceDocument,diablo2-io
+,,seraph-s-hymn-t41,,"Seraph's Hymn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5fc4f348-74e1-5d6b-b49c-b7f3ac0313cd,UniqueItem,diablo2-io
+,10384,b045b7a9987035729d8606aa,,"Razorswitch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8e1119f8-16b4-5738-9710-76a1a122d914,SourceDocument,diablo2-io
+,,razorswitch-t257,,"Razorswitch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",b74febdc-3897-5d60-8977-257451c5deed,UniqueItem,diablo2-io
+,13672,34328a459c631d075476ab67,,"Alma Negra 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",b5a184ef-f315-5861-bbca-fe66269dfb84,SourceDocument,diablo2-io
+,,alma-negra-t668,,"Alma Negra 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5cc460ae-e757-51dc-922f-e58e39dda311,UniqueItem,diablo2-io
+,15625,57f16b8adc6374b1b0086a85,,"Andariel's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",29bfbadf-a5e2-5b48-8d78-4f839b07c4b2,SourceDocument,diablo2-io
+,,andariel-s-visage-t669,,"Andariel's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9db7d94e-a1d6-59e1-95d9-0cda1d3f91e1,UniqueItem,diablo2-io
+,12980,ab74e8e7733ce9ff2d8c3b54,,"Annihilus 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",bcda54cf-3a8d-5130-a5aa-7dd8599b3985,SourceDocument,diablo2-io
+,,annihilus-t670,,"Annihilus 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9069051f-61c5-5685-8e5d-343423ad6c67,UniqueItem,diablo2-io
+,14237,631de26d0e191a17f6f84e3c,,"Arachnid Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",84fa2f8b-0533-520f-8293-f25a8f8ff81d,SourceDocument,diablo2-io
+,,arachnid-mesh-t671,,"Arachnid Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5fe3ba4b-c673-5bf6-8bbb-a0bdf80ed17c,UniqueItem,diablo2-io
+,13472,aef015b2a43e84cce4045921,,"Arioc's Needle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",434c2227-a76d-5580-9f34-15c477171681,SourceDocument,diablo2-io
+,,arioc-s-needle-t672,,"Arioc's Needle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",d6acccca-4f14-5b56-9902-7fee3ee05787,UniqueItem,diablo2-io
+,12619,3f4e5b9d73f6869c7f4a69ca,,"Arkaine's Valor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",dd48f821-325c-55a8-af38-957b7faa4a7e,SourceDocument,diablo2-io
+,,arkaine-s-valor-t673,,"Arkaine's Valor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5c1e2f81-da0e-5910-8979-cba5b3066f68,UniqueItem,diablo2-io
+,13600,197fbafcd0239f61e1650b9e,,"Arm of King Leoric 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",633a3e8b-bac4-5623-a883-bca4d6691415,SourceDocument,diablo2-io
+,,arm-of-king-leoric-t674,,"Arm of King Leoric 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",2c2274c2-8e9f-5594-980b-b2b72a9b778a,UniqueItem,diablo2-io
+,11751,64833a01a5ba0f36dfe2497b,,"Arreat's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",e67fbcfb-95a0-58b7-a8c1-e625b828efaf,SourceDocument,diablo2-io
+,,arreat-s-face-t675,,"Arreat's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",971588d9-2867-569a-b504-7b2f660bc2f1,UniqueItem,diablo2-io
+,12538,1cd6e49e4fa21686fbaf6dab,,"Astreon's Iron Ward 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",87ec7363-9bfb-53af-a58e-40e5edcbfb3f,SourceDocument,diablo2-io
+,,astreon-s-iron-ward-t676,,"Astreon's Iron Ward 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",201f3cbb-7657-51a9-b532-44a2aaff7e0a,UniqueItem,diablo2-io
+,11214,c6f1882cc4f0fb4d05954c92,,"Athena's Wrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",47e975b5-5355-5963-9024-50769dd179e3,SourceDocument,diablo2-io
+,,athena-s-wrath-t677,,"Athena's Wrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8484bf0e-a3d2-5d6c-8914-82a74b354c1f,UniqueItem,diablo2-io
+,12048,4c40ddf95757b78c3ca3be5f,,"Atma's Scarab 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",fe4db379-04e6-5d3f-bd46-e4b61841d80a,SourceDocument,diablo2-io
+,,atma-s-scarab-t678,,"Atma's Scarab 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8954917a-1d0a-5fc1-8681-4f185cd4a6d3,UniqueItem,diablo2-io
+,11756,b1c0b74ca23714581cdadfc7,,"Atma's Wail 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",c1b2f1a0-d2d6-57b0-bb80-7082e6286b76,SourceDocument,diablo2-io
+,,atma-s-wail-t679,,"Atma's Wail 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",698e4086-7c4f-5e30-8567-4ba18215240b,UniqueItem,diablo2-io
+,9763,e644eb91b8277a4d57821af2,,"Axe of Fechmar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",718e9c31-8a6d-5e20-8677-e2bb42863023,SourceDocument,diablo2-io
+,,axe-of-fechmar-t680,,"Axe of Fechmar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",943bae91-019a-5fda-8be8-f34c8e10a9a4,UniqueItem,diablo2-io
+,14176,6a584a97818231c63f95bdaf,,"Azurewrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f3b1bf1c-134a-540c-8b0c-9fc455e19881,SourceDocument,diablo2-io
+,,azurewrath-t681,,"Azurewrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",4c413feb-c0c1-5991-b20f-f4748a294022,UniqueItem,diablo2-io
+,10059,8ca3816cc4a80fb3850b7e40,,"Baezil's Vortex 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",76caffa3-90c2-5a6b-aa91-de4df6a17f17,SourceDocument,diablo2-io
+,,baezil-s-vortex-t682,,"Baezil's Vortex 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",b6979d4b-c206-576b-a1be-ba10bdfd61d8,UniqueItem,diablo2-io
+,11460,b27ec5ba5ba8efee89c01cbb,,"Bane Ash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",e4f57a2c-8876-5765-bb02-7fd17bfe842e,SourceDocument,diablo2-io
+,,bane-ash-t683,,"Bane Ash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",d0c3b8ba-2eac-54e7-8489-8b658f500b61,UniqueItem,diablo2-io
+,11000,3cb6f2ae54d749fdcfa716be,,"Baranar's Star 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",16288c1e-05c6-5c92-85ed-5e041d85653c,SourceDocument,diablo2-io
+,,baranar-s-star-t684,,"Baranar's Star 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",67344eae-d8c5-5760-80ab-1429521f0274,UniqueItem,diablo2-io
+,10817,bfa050fc3be079d41e582478,,"Bartuc's Cut-Throat 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",20fb6021-570e-583f-9f68-7b8124a8c58b,SourceDocument,diablo2-io
+,,bartuc-s-cut-throat-t685,,"Bartuc's Cut-Throat 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",d4d8ba63-70fb-5d58-bc5a-076fdd0ef02d,UniqueItem,diablo2-io
+,9769,b54c729d39cf9b2308670c89,,"Biggin's Bonnet 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9769301c-0d9d-5525-9e44-1871f7aa8e84,SourceDocument,diablo2-io
+,,biggin-s-bonnet-t686,,"Biggin's Bonnet 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",338a0ec4-8900-5481-80a4-38ef74f7e106,UniqueItem,diablo2-io
+,11661,fca52a6fc60251f17b60c23b,,"Bing Sz Wang 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7ad63992-9e67-5e56-abb0-58f42df55234,SourceDocument,diablo2-io
+,,bing-sz-wang-t687,,"Bing Sz Wang 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f387fc56-570c-5846-9752-800f1faf8d1c,UniqueItem,diablo2-io
+,11204,4e8357a43c50a4e9f74bf532,,"Black Hades 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",cbf71a53-78e9-5962-95e0-44f617b5ccda,SourceDocument,diablo2-io
+,,black-hades-t688,,"Black Hades 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",075fc88e-2509-5add-a4c4-06d878a371a1,UniqueItem,diablo2-io
+,11055,f8c43c36406aec1a70d0b340,,"Blackbog's Sharp 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",54701cf5-18b8-5fbe-aa48-3546d405106d,SourceDocument,diablo2-io
+,,blackbog-s-sharp-t689,,"Blackbog's Sharp 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",e1dec5ec-bb12-5354-86b2-0f393fe8fa1e,UniqueItem,diablo2-io
+,11755,af10aaacbc24a3775a76b6e4,,"Blackhand Key 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",c710abc2-4054-5da8-8f8b-12b5e14f22f3,SourceDocument,diablo2-io
+,,blackhand-key-t690,,"Blackhand Key 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",bc959372-ee56-5b47-b25d-d1665baa8bf6,UniqueItem,diablo2-io
+,13088,27fd388319e2e99656145e9a,,"Blackhorn's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",ce413a75-b363-5006-a49e-cd33698d5c3a,SourceDocument,diablo2-io
+,,blackhorn-s-face-t691,,"Blackhorn's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5f8c49dc-a07c-5dcf-bc09-c80632a8471c,UniqueItem,diablo2-io
+,10393,54a91010da1a7578ebd8a670,,"Blackleach Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",c24cbc17-8ae8-5110-8c0a-e42454356c05,SourceDocument,diablo2-io
+,,blackleach-blade-t692,,"Blackleach Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f798fc25-67ee-5258-9c3b-4a89c30daaeb,UniqueItem,diablo2-io
+,12424,ac5bada558ba819cd012e634,,"Blackoak Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",26111185-09a4-549f-9241-e3aa82f20b65,SourceDocument,diablo2-io
+,,blackoak-shield-t693,,"Blackoak Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",be65c216-6cb3-587c-b2c4-4c4992217585,UniqueItem,diablo2-io
+,9298,1efb7e342e6648ebf407d399,,"Blacktongue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",4d76ee24-d076-53b3-933c-544361e568f1,SourceDocument,diablo2-io
+,,blacktongue-t694,,"Blacktongue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f19e78d3-09da-534c-82df-3f0e36d88712,UniqueItem,diablo2-io
+,14548,62c59efc1324485b6a3c70b6,,"Blade Of Ali Baba 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",86dd3a45-3a6f-54bc-8168-a63baeb98306,SourceDocument,diablo2-io
+,,blade-of-ali-baba-t695,,"Blade Of Ali Baba 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",6b7b2104-fd12-5efe-b670-0d6056965609,UniqueItem,diablo2-io
+,9078,0f138496fac4c5290e604491,,"Bladebone 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5bbc209f-654b-506d-b66b-906246863fbd,SourceDocument,diablo2-io
+,,bladebone-t696,,"Bladebone 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",c1144bb5-6c5e-5ad1-92f1-37136f1f34ef,UniqueItem,diablo2-io
+,9202,dcff71fb04a16dc987271c63,,"Bladebuckle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9ec364ed-f532-5f12-9cb9-87da5d83a86d,SourceDocument,diablo2-io
+,,bladebuckle-t697,,"Bladebuckle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7729f48d-bd0b-5384-ac44-1e9f877a8c1c,UniqueItem,diablo2-io
+,9709,4764ebb6e77f61e79f7cc94c,,"Blastbark 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5f57a611-11da-5a9b-ac98-1a9d48782d8e,SourceDocument,diablo2-io
+,,blastbark-t698,,"Blastbark 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",d87dd275-bc1d-5415-ad33-6fb7a6d89083,UniqueItem,diablo2-io
+,9482,ae510b2aef8a2e7b0d41fbe5,,"Blinkbat's Form 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",caab4abd-4f05-59e1-91d9-74670e5553af,SourceDocument,diablo2-io
+,,blinkbat-s-form-t699,,"Blinkbat's Form 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",dd85ea8b-c884-5cd9-8017-553b22e677ef,UniqueItem,diablo2-io
+,11416,e02c89d0e12c24fb77646382,,"Blood Crescent 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",87631128-37a6-5767-8515-05c5eb7ce428,SourceDocument,diablo2-io
+,,blood-crescent-t700,,"Blood Crescent 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",116da8d0-3275-5751-97b4-c97159e96e59,UniqueItem,diablo2-io
+,11877,6048f8f3f1ef4f62673a9cc3,,"Blood Raven's Charge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",eaee32bd-ad0e-5247-a539-fa65b8816abc,SourceDocument,diablo2-io
+,,blood-raven-s-charge-t701,,"Blood Raven's Charge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",340f7abf-c940-5c1b-893f-7e6088d2110e,UniqueItem,diablo2-io
+,10365,db7482bcf130caeb5e00e963,,"Bloodfist 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5fd927a3-427d-5cca-8627-49e85f80c308,SourceDocument,diablo2-io
+,,bloodfist-t702,,"Bloodfist 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",353faf6c-7330-5510-908f-f556b3edbfe4,UniqueItem,diablo2-io
+,13504,164b15ff86d91df357ae19a7,,"Bloodletter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",283c1e8b-70ca-5302-89b2-7d52a4e9ae9c,SourceDocument,diablo2-io
+,,bloodletter-t703,,"Bloodletter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8c023d98-b616-5e9a-b800-a1559031c1c4,UniqueItem,diablo2-io
+,10194,3f6ddcee1fce502ca0344ff1,,"Bloodmoon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",93ef9e87-896f-59d8-a4f2-9a2fd150e4b7,SourceDocument,diablo2-io
+,,bloodmoon-t704,,"Bloodmoon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",e4b83c51-0531-5b1b-a072-e692545bad2d,UniqueItem,diablo2-io
+,9599,ef5e89cce7bc0ebd3ad6d8e2,,"Bloodrise 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",87d8142f-08c3-5bb6-b6e4-789bb35afa30,SourceDocument,diablo2-io
+,,bloodrise-t705,,"Bloodrise 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",ba1bffb5-441d-542a-b74b-11b8ae3cc286,UniqueItem,diablo2-io
+,9546,7833b8c1709c13a8c76d02aa,,"Bloodthief 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",00eddc6b-34f8-5f97-a36d-73e470474567,SourceDocument,diablo2-io
+,,bloodthief-t706,,"Bloodthief 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",739f6e49-1a53-5226-a5d0-898ed7df2292,UniqueItem,diablo2-io
+,10222,acbab42a6b69b69d354f2160,,"Bloodtree Stump 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9c6bf238-f467-5ed4-8d15-bfed9df1b701,SourceDocument,diablo2-io
+,,bloodtree-stump-t707,,"Bloodtree Stump 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",173eee69-f4f9-56b7-9457-5d4a91150fc5,UniqueItem,diablo2-io
+,10329,0e3bcfc965a50a044095680e,,"Boneflame 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",25102202-f4bc-593b-a5d0-614595599f70,SourceDocument,diablo2-io
+,,boneflame-t708,,"Boneflame 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8e0db5b9-77c4-5472-8e6c-b09e23075ea8,UniqueItem,diablo2-io
+,9789,49fe7369db043c63b0cd3f00,,"Boneflesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",00a79f80-2864-5fdb-8417-9d5bada24aec,SourceDocument,diablo2-io
+,,boneflesh-t709,,"Boneflesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f28b0ee0-6e4a-5329-9ee4-b8e75c2a97d3,UniqueItem,diablo2-io
+,10893,ddc1e88d9617708c14cc576d,,"Bonehew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",cf8a611b-86fb-577a-b26b-977115052c68,SourceDocument,diablo2-io
+,,bonehew-t710,,"Bonehew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",87252170-92f6-5921-a433-ec25c4d8a3db,UniqueItem,diablo2-io
+,11878,0f5d83a36ee1556ea5ff6d7c,,"Boneshade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",85fe169d-1ece-56e2-9de3-54db651ccafd,SourceDocument,diablo2-io
+,,boneshade-t711,,"Boneshade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",5e66d675-be2b-5369-afff-6aa6dc938363,UniqueItem,diablo2-io
+,12240,a8a1506b650bab87ffed13bd,,"Boneslayer Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",2c450eca-b03e-5714-bb77-300a29832064,SourceDocument,diablo2-io
+,,boneslayer-blade-t712,,"Boneslayer Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",cda92b7b-67d3-5424-b396-8e428462586f,UniqueItem,diablo2-io
+,11119,74ba4750f4594b72afead70c,,"Bonesnap 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",507f1dae-1624-540b-a7c3-a2875c857540,SourceDocument,diablo2-io
+,,bonesnap-t713,,"Bonesnap 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",3f81ede4-3885-5570-9f54-7a7ce5c34ca1,UniqueItem,diablo2-io
+,9506,57fc925327aca70c0eb8c8c2,,"Brainhew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",cc5618ec-c270-509f-b1ac-f9bec0a02fbc,SourceDocument,diablo2-io
+,,brainhew-t714,,"Brainhew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",a3de8108-0da9-5868-b49b-5108c906a3a8,UniqueItem,diablo2-io
+,11557,5139bb74977ae207ae31dc7d,,"Bul-Kathos' Wedding Band 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",df3c9109-2396-58d2-9497-a1107d799093,SourceDocument,diablo2-io
+,,bul-kathos-wedding-band-t715,,"Bul-Kathos' Wedding Band 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",eef1319b-8d18-5741-883b-cb39d2163e30,UniqueItem,diablo2-io
+,15049,962d984fc193accf1cef4846,,"Buriza-Do Kyanon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",0a1d12c3-1cc7-53b5-b858-36ffd0c6f054,SourceDocument,diablo2-io
+,,buriza-do-kyanon-t716,,"Buriza-Do Kyanon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",af61d362-fb3c-5bc0-b9ef-1c13053c64bd,UniqueItem,diablo2-io
+,10599,17bfc0eac3c20f64fa4e0e50,,"Butcher's Pupil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",9cf66f63-5948-5cb1-a2c0-79c16b4166af,SourceDocument,diablo2-io
+,,butcher-s-pupil-t717,,"Butcher's Pupil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",0701d0ae-578c-58f9-9732-473c46bf773b,UniqueItem,diablo2-io
+,11238,1f45866f4ace2e05b760801d,,"Bverrit Keep 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",626361e6-59ed-5f87-b527-a03f2e1632e6,SourceDocument,diablo2-io
+,,bverrit-keep-t718,,"Bverrit Keep 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",e2cea283-2568-51ec-ac9b-e2ca52c75a03,UniqueItem,diablo2-io
+,11890,735fca9f2174c81b51dc10db,,"Carin Shard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7ce23ebf-57c4-5647-a1c1-d39a4c21e4ca,SourceDocument,diablo2-io
+,,carin-shard-t719,,"Carin Shard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",2ba33843-d7bc-51e1-88e8-73e4590963e3,UniqueItem,diablo2-io
+,13552,19a119fbdcb1794850543bca,,"Carrion Wind 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",37a9db7e-cadf-5e90-98c5-e04f711d7f42,SourceDocument,diablo2-io
+,,carrion-wind-t720,,"Carrion Wind 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",00821710-cd43-5583-87db-eb7de3b60dbd,UniqueItem,diablo2-io
+,11862,18a6701c659007c5bd702175,,"Cerebus' Bite 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",ffe812e1-f153-53cf-9643-3c16d6bf8c3b,SourceDocument,diablo2-io
+,,cerebus-bite-t721,,"Cerebus' Bite 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",722890a4-9570-5c94-8933-509399abc58c,UniqueItem,diablo2-io
+,13835,a5c0ee2f5411a71eb29ed531,,"Chance Guards 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8336f0a8-1890-5cd0-a176-ca9b44d4c72b,SourceDocument,diablo2-io
+,,chance-guards-t722,,"Chance Guards 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",fc5dd44f-14f9-5521-bde5-df5290dd51d3,UniqueItem,diablo2-io
+,11015,0b4f861bd661e397f0ad555a,,"Chromatic Ire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",b8fd8d38-1e27-5304-9b95-6d01ea88b2c4,SourceDocument,diablo2-io
+,,chromatic-ire-t723,,"Chromatic Ire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",6240b500-bd53-517a-a40a-bedaa4193717,UniqueItem,diablo2-io
+,8896,734315f1518078a4de7422cd,,"Cliffkiller 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f0bc041b-1002-5adb-8009-e79c45277ea9,SourceDocument,diablo2-io
+,,cliffkiller-t724,,"Cliffkiller 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",030e9a4d-5890-51a2-9344-257f3de04d45,UniqueItem,diablo2-io
+,9392,449690fbef90af2748e65a12,,"Cloudcrack 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7827a908-0fe9-5bf6-9bf0-4a53b142d3e7,SourceDocument,diablo2-io
+,,cloudcrack-t725,,"Cloudcrack 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",ca9df261-69a9-5bb6-9852-bd9eb9ac2dce,UniqueItem,diablo2-io
+,9719,0996cacb950334ad019d9f54,,"Coif of Glory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",c1fc8d61-1bcf-5c68-ae4e-7568fd7cc2bd,SourceDocument,diablo2-io
+,,coif-of-glory-t726,,"Coif of Glory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",cb0e22b5-5465-5b45-be1d-df322b85bcd4,UniqueItem,diablo2-io
+,8945,48b8e76a278b88561a135a5e,,"Coldkill 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",a23eba5e-a22b-584f-8808-b7d62667d2bf,SourceDocument,diablo2-io
+,,coldkill-t727,,"Coldkill 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",6e0a3e0d-70b6-542b-a4f8-afa51d7f3d7a,UniqueItem,diablo2-io
+,11829,62e9b2ffbcc90b08139cbabf,,"Coldsteel Eye 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",8f507c3d-fc8e-53aa-a357-c1cdc7be7a1b,SourceDocument,diablo2-io
+,,coldsteel-eye-t728,,"Coldsteel Eye 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",fa548fbb-4308-5ee5-b4c7-55aeccd5980c,UniqueItem,diablo2-io
+,11895,b455fff4159b42dd4a1c188e,,"Corpsemourn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",7751fb75-3fa1-5045-aa31-43f36021ba79,SourceDocument,diablo2-io
+,,corpsemourn-t729,,"Corpsemourn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f6bfdb4c-4ad1-57f2-8732-0621eec11a06,UniqueItem,diablo2-io
+,10588,617882191b939c3c7795d0da,,"Crainte Vomir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",6d2fef34-553e-5eba-b30a-1e73f0ae88b2,SourceDocument,diablo2-io
+,,crainte-vomir-t730,,"Crainte Vomir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io",f598498a-9800-5ee6-bf62-1d9acdd8581b,UniqueItem,diablo2-io
+,10824,f8eba59f128aaf2f1585a7d2,,"Cathan's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",31852c17-c8b3-5679-a578-2ee1f5a76c26,SourceDocument,diablo2-io
+,,cathan-s-visage-t4,,"Cathan's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",c03d72d9-08f1-595d-8d53-47d2aa703e68,SetItem,diablo2-io
+,12879,74d3e97d22042faca154bcc2,,"Cathan's Traps 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",2ec8ea0a-62cb-5e82-b697-010b80ccfaa8,SourceDocument,diablo2-io
+,,cathan-s-traps-t29,,"Cathan's Traps 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",2e5286dc-f75b-5cb6-8d1e-1571ccfd8e6b,SetItem,diablo2-io
+,11625,781bf0b636276d3aa7ce2965,,"Cathan's Rule 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",c4231d31-52d3-5faa-8b00-081b1fbdfcbc,SourceDocument,diablo2-io
+,,cathan-s-rule-t30,,"Cathan's Rule 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",7dcdd374-e0d3-544c-9431-7f9f91f4bee2,SetItem,diablo2-io
+,11645,7c3062af0e8190380e94c7ce,,"Cathan's Seal 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",f694fdbc-d9ba-5a38-a58f-87f76528426f,SourceDocument,diablo2-io
+,,cathan-s-seal-t31,,"Cathan's Seal 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",d5ea2c0c-368b-5927-9443-a5a109fa3517,SetItem,diablo2-io
+,10944,f2fbeb5a13441043caf8b761,,"Cathan's Sigil 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",4d03e403-7076-5cd9-8c6b-61fad541a4fa,SourceDocument,diablo2-io
+,,cathan-s-sigil-t32,,"Cathan's Sigil 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",47f76a15-c81d-52a0-a8bb-2f72e4d71693,SetItem,diablo2-io
+,9729,33b65a72ef93a27102788227,,"Cathan's Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",1368a6c0-0753-5211-9cfe-53dafbae3c5d,SourceDocument,diablo2-io
+,,cathan-s-mesh-t33,,"Cathan's Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",1e66e68c-ab62-596f-a361-8101415b378c,SetItem,diablo2-io
+,12480,f09519e30e3b320c279dbb53,,"Immortal King's Stone Crusher 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",eb443d3d-2ee8-559c-97da-d047675238a6,SourceDocument,diablo2-io
+,,immortal-king-s-stone-crusher-t58,,"Immortal King's Stone Crusher 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",17dfefdf-12a7-553e-a173-c5390d7c9342,SetItem,diablo2-io
+,12370,62e2cf2b99b17cd55097ab9d,,"Immortal King's Detail 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",9e59913f-bd1f-50d3-8fc0-c522a68fa5ff,SourceDocument,diablo2-io
+,,immortal-king-s-detail-t59,,"Immortal King's Detail 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",667fd876-9094-5146-8095-bd2f591df81b,SetItem,diablo2-io
+,9275,a0c4aaabb700b5831fc42901,,"Sander's Superstition 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",5b37aa89-48aa-58c3-8f03-b17209bcead4,SourceDocument,diablo2-io
+,,sander-s-superstition-t60,,"Sander's Superstition 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",3883ebf1-7be3-5dc5-9915-cdb15e52c7c2,SetItem,diablo2-io
+,13221,45e23e1d3992eb6b65adc2f2,,"Immortal King 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",911ae442-f946-5a39-bb76-611280d94439,SourceDocument,diablo2-io
+,,immortal-king-t91,,"Immortal King 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",d8aab8cb-a3a6-514a-84d5-eb6dfed0e9fa,SetItem,diablo2-io
+,14086,6f94b59b23cf7ba11b91171a,,"Aldur's Watchtower 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",42da3dd9-544a-59a8-afc9-c4c5d47348b0,SourceDocument,diablo2-io
+,,aldur-s-watchtower-t1033,,"Aldur's Watchtower 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",6295482b-af64-595b-a94d-8794546816e7,SetItem,diablo2-io
+,13566,f99fcf710c8af131f7c06047,,"Aldur's Rhythm 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",1382e92e-4539-57ae-ad7b-54c4cccf8443,SourceDocument,diablo2-io
+,,aldur-s-rhythm-t1034,,"Aldur's Rhythm 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",c7999e4b-ffa3-5dec-a751-da1ab29f8619,SetItem,diablo2-io
+,11345,f233a70bc59cc43220ead488,,"Aldur's Stony Gaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",4f41fae4-60e2-5341-99a8-781f1a6ff5b5,SourceDocument,diablo2-io
+,,aldur-s-stony-gaze-t1035,,"Aldur's Stony Gaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",149c4029-ef89-5d96-af1e-c75f7f3f7f76,SetItem,diablo2-io
+,10724,2767a8ea8b038541fe377af6,,"Aldur's Deception 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",f7bd0ce9-e88c-568e-a102-a99189adbefd,SourceDocument,diablo2-io
+,,aldur-s-deception-t1036,,"Aldur's Deception 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",294bd3bd-c42b-5fbb-ba34-f6fc4921765e,SetItem,diablo2-io
+,12503,eb6c983105ef17b880d036e8,,"Aldur's Advance 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",79033814-6e70-5390-98d6-35194dcfa030,SourceDocument,diablo2-io
+,,aldur-s-advance-t1037,,"Aldur's Advance 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",467aa0e8-2576-5ac6-8b73-3993a2df9fce,SetItem,diablo2-io
+,12162,0c55a0744ced8b0c84e3ea5c,,"Angelic Raiment 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",8da3e466-5b62-5f2c-978e-cdfc2b3bed1d,SourceDocument,diablo2-io
+,,angelic-raiment-t1038,,"Angelic Raiment 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",5b397da9-4bd7-56c1-9e95-2c33df5fdb8e,SetItem,diablo2-io
+,10548,bc46be2143b4d5a84c465f32,,"Angelic Wings 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",340e185a-1ce8-5b6b-8062-e61417bf5d8e,SourceDocument,diablo2-io
+,,angelic-wings-t1039,,"Angelic Wings 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",5c1b57e7-ebff-5667-97f2-13c0543ac1ad,SetItem,diablo2-io
+,12225,76d8a0d6b1331ad17ea78bbe,,"Angelic Halo 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",938ff5e0-f5a2-5328-a7f5-a0ad3c278f80,SourceDocument,diablo2-io
+,,angelic-halo-t1040,,"Angelic Halo 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",55a3af85-1105-5bba-99f8-91a22a6c11cf,SetItem,diablo2-io
+,9742,2d23e090010602eaf09e56a9,,"Angelic Mantle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",09daf866-b82a-52bb-a12c-952f90f25ad3,SourceDocument,diablo2-io
+,,angelic-mantle-t1041,,"Angelic Mantle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",9e1e1e2d-fd69-55d2-aa19-52d617e591dd,SetItem,diablo2-io
+,10397,00e635095e16a570b0063e5d,,"Angelic Sickle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",1b8daba6-5b95-5a58-8ed7-e02ec05f2aef,SourceDocument,diablo2-io
+,,angelic-sickle-t1042,,"Angelic Sickle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",b6a74b73-8d10-5bf9-86e7-ed5762e749a5,SetItem,diablo2-io
+,10238,8d10185fe165af5b58d241e0,,"Arcanna's Tricks 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",23c42c43-c092-5337-937a-55e0eab32585,SourceDocument,diablo2-io
+,,arcanna-s-tricks-t1043,,"Arcanna's Tricks 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io",af96d368-4d50-5a6b-9d78-937578837fc6,SetItem,diablo2-io
+,9703,ce633da80f4837f2b214069c,,"Arcanna's Sign 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",7c728875-0df2-5d4d-9b10-dc4b5e51a105,SourceDocument,diablo2-io
+,,arcanna-s-sign-t1044,,"Arcanna's Sign 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",5f493c1a-7f87-596a-81fc-94c1ad21d604,SetItem,diablo2-io
+,10260,c85033e1f3b7b1cdd08f1e38,,"Arcanna's Head 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",d9b42ac3-0d30-5902-8faf-4cd97167d23e,SourceDocument,diablo2-io
+,,arcanna-s-head-t1045,,"Arcanna's Head 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",ee429a8a-0d95-5535-b3ea-82d40ad160a2,SetItem,diablo2-io
+,9199,9dbecf954e0cfe2d6f66f604,,"Arcanna's Flesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",a056a095-ec7a-5bc3-9d15-d6fa163fb460,SourceDocument,diablo2-io
+,,arcanna-s-flesh-t1046,,"Arcanna's Flesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io",aba675c4-9135-5da4-9233-4f5b69b3b030,SetItem,diablo2-io
+,13249,2e7de2c9ba029cd4dc0a67e3,,"Blizzard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",0c7a47aa-39d9-5239-8b06-bf5841d6ac7f,SourceDocument,diablo2-io
+,,blizzard-t9,,"Blizzard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",bff1e5f0-5093-5175-b789-efa91c07f682,Skill,diablo2-io
+,14976,044755197bc82053b3a1e9fe,,"Amplify Damage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",c56fcd49-17f2-53f9-a145-d31671b51d7d,SourceDocument,diablo2-io
+,,amplify-damage-t3990,,"Amplify Damage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",be20d1c4-8223-5b53-8a3a-1764fbc3a17f,Skill,diablo2-io
+,11132,13b08b32c3de4dcbfbdc4485,,"Arctic Blast 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",158a2303-ee7a-589e-a14f-b7b10dd177bd,SourceDocument,diablo2-io
+,,arctic-blast-t3991,,"Arctic Blast 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",aa73b59e-a6e3-53da-ab85-9e93464e2ac1,Skill,diablo2-io
+,13105,b74b9285b0c6e1aae840a5d2,,"Armageddon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",52853aad-ea24-5f59-876b-83da6308148b,SourceDocument,diablo2-io
+,,armageddon-t3992,,"Armageddon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",39b8d52c-0639-596b-a4e7-7445d8dd09b2,Skill,diablo2-io
+,10302,d143dd4a21deaab1472fcd1c,,"Attract 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",70b232df-3481-5c6a-b4d0-a457881325e8,SourceDocument,diablo2-io
+,,attract-t3993,,"Attract 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",043d6d63-051d-5b88-9790-b40db64d8438,Skill,diablo2-io
+,9444,4666f50fdd0c5fe0b6b57410,,"Avoid 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",5057d027-1f2a-50c6-9bd0-f8ea02989a22,SourceDocument,diablo2-io
+,,avoid-t3994,,"Avoid 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",e2e11bfa-c881-52d0-b850-520ab0920d09,Skill,diablo2-io
+,9989,48969d655bfcf841121ac5d1,,"Axe Mastery 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",dc297eb0-f5df-559d-a0db-757dfa3572d7,SourceDocument,diablo2-io
+,,axe-mastery-t3995,,"Axe Mastery 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",101738c1-9538-5d1a-853c-88b0c19bd962,Skill,diablo2-io
+,9337,8b143806ed5b9e0a09ede01b,,"Bash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",476a491e-4d4b-51f7-9449-5e98b04b51f8,SourceDocument,diablo2-io
+,,bash-t3996,,"Bash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",205e6a1b-fa60-57f2-be64-90142b4372fe,Skill,diablo2-io
+,12428,7b386e37e7b38e9c4fe23911,,"Battle Command 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",03ed7ed9-9b31-5c17-9d4e-cb42cae2f2f0,SourceDocument,diablo2-io
+,,battle-command-t3997,,"Battle Command 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",ceba455e-cb6c-5ed5-9578-fa2b6cbefed1,Skill,diablo2-io
+,11202,e861a320b00279bcb0785d84,,"Battle Cry 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",6aca99c2-3e90-5d7b-a079-16dc1f1542f2,SourceDocument,diablo2-io
+,,battle-cry-t3998,,"Battle Cry 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",697ad3da-65f1-5d1e-a156-4df7602fdacf,Skill,diablo2-io
+,12255,f8894348a2b1610b249a946e,,"Battle Orders 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",bbdfdb04-50b5-5be9-9201-2a8450ba73e9,SourceDocument,diablo2-io
+,,battle-orders-t3999,,"Battle Orders 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",a4fd2f31-1f4e-54ce-8106-f7686cddd08c,Skill,diablo2-io
+,14076,82378ea3362ae0ffc0b2e88a,,"Berserk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",89678097-4c28-5638-ad16-5fc75b252875,SourceDocument,diablo2-io
+,,berserk-t4000,,"Berserk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",49f5823f-afc4-5202-b8a3-8c2754743c93,Skill,diablo2-io
+,13694,494a2e5a62d494824a3f50ab,,"Blade Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",4d497eb5-ad41-5e78-a9ed-573a7d185abe,SourceDocument,diablo2-io
+,,blade-fury-t4001,,"Blade Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",b8bb28e8-841e-5a5b-a74e-387d76e25cb2,Skill,diablo2-io
+,12265,aeb80930d8ef81f36fb72438,,"Blade Sentinel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",e2bef2d7-ff74-5373-89c7-483b4f0240fe,SourceDocument,diablo2-io
+,,blade-sentinel-t4002,,"Blade Sentinel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",ab22ecfd-cfbf-5713-a721-881055c6e8d3,Skill,diablo2-io
+,11438,22e74d2bc40b55113f82e9b5,,"Blade Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",f5baac50-3d25-5bf0-a777-c28278b158cc,SourceDocument,diablo2-io
+,,blade-shield-t4003,,"Blade Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",5e72fd65-77bc-5d4d-ab86-6360b014fe01,Skill,diablo2-io
+,10858,8426d115a42e2361ac6b9234,,"Blades of Ice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",fb2cd7e8-46a7-5ca9-a499-f93f13c97eb7,SourceDocument,diablo2-io
+,,blades-of-ice-t4004,,"Blades of Ice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",37478065-4b3d-5231-86cd-03b478a5772b,Skill,diablo2-io
+,11393,9c04dea6586302fc4bbb5644,,"Blaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",fea40ff7-bf79-57ae-b7c6-ab115e84315e,SourceDocument,diablo2-io
+,,blaze-t4005,,"Blaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",fcc5a42f-cc9a-5420-97e1-98f229256dde,Skill,diablo2-io
+,10943,c9a0c98320246857e0552d39,,"Blessed Aim 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",71006185-8478-576f-8bd4-10d985f7608b,SourceDocument,diablo2-io
+,,blessed-aim-t4006,,"Blessed Aim 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",79b1b2a1-b3f9-5f0d-a9c1-d2a33c8e8f6e,Skill,diablo2-io
+,13957,f375465588b86a4fcf0d6bfb,,"Blessed Hammer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",657443d0-cd30-5ca9-9634-f07cb832c9fa,SourceDocument,diablo2-io
+,,blessed-hammer-t4007,,"Blessed Hammer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",784a62f9-00d8-5f3c-8072-e06a52fa23bf,Skill,diablo2-io
+,12276,4c7b7f554fd56c79475e637b,,"Blood Golem 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",d2854abb-e97b-58a1-b0cd-a2a8df21913f,SourceDocument,diablo2-io
+,,blood-golem-t4008,,"Blood Golem 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",b7353180-bb6f-50ed-b21f-bf8d985e05ce,Skill,diablo2-io
+,11208,cf900aafc99deb6d34825a64,,"Bone Prison 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",58964ad3-5fc2-51a1-8515-f0f98140be05,SourceDocument,diablo2-io
+,,bone-prison-t4010,,"Bone Prison 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",0133ee17-ea01-5890-b24d-03a0fa889053,Skill,diablo2-io
+,13342,1eb3b115577a358ed3ba67d6,,"Bone Spear 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",56f592d8-16ae-51e3-a19d-7d7b4d00f139,SourceDocument,diablo2-io
+,,bone-spear-t4011,,"Bone Spear 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",0fa24911-5c3d-5aad-b7ca-5ec5014b43bc,Skill,diablo2-io
+,13155,b28f8014de8a5226a0998484,,"Bone Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",00ef10d4-3283-5973-83c9-57579d2e6509,SourceDocument,diablo2-io
+,,bone-spirit-t4012,,"Bone Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",6c2ecd3a-c39d-5f98-9346-eefcb7e45590,Skill,diablo2-io
+,10195,06398409a5860290aa988128,,"Bone Wall 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",c9696f57-0689-5560-9a5b-656dd636df01,SourceDocument,diablo2-io
+,,bone-wall-t4013,,"Bone Wall 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",a61cee5d-bd79-579b-8c80-f585ff4bdd4c,Skill,diablo2-io
+,10492,b66fc456ef99fb02a153b063,,"Burst of Speed 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",b3203f3a-9d6e-52a3-af01-cecfd841ef5a,SourceDocument,diablo2-io
+,,burst-of-speed-t4014,,"Burst of Speed 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",08408a82-fa8e-5936-be77-7ced53479d6d,Skill,diablo2-io
+,10058,e2659a8e6e1445887406a662,,"Carrion Vine 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",df54e349-22eb-5da2-a598-0d94a931193c,SourceDocument,diablo2-io
+,,carrion-vine-t4015,,"Carrion Vine 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",01c8cf8e-5ece-5c5a-8b42-b4797fee3777,Skill,diablo2-io
+,11359,4fa27fb04ab03a7b848fc019,,"Chain Lightning 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",71d7043e-4ca2-503e-aeb1-aae297561b9e,SourceDocument,diablo2-io
+,,chain-lightning-t4016,,"Chain Lightning 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io",89f8260e-442d-588e-91e1-369ea45dd61b,Skill,diablo2-io
+,9338,b82471293ed5ce1e977f49fd,,"Rakanishu 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",500e530f-1f34-59ab-a66c-fc92ed0695e9,SourceDocument,diablo2-io
+,,rakanishu-t7,,"Rakanishu 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",8f5954af-02d5-5536-961d-8a5d555f79e5,Monster,diablo2-io
+,12486,4214a34f54608043a0ad0ec7,,"Fallen 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",80cdb4f9-5756-5402-a2ea-b1445bcc2b64,SourceDocument,diablo2-io
+,,fallen-t4199,,"Fallen 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",5b93dd30-0487-5f8c-a2fa-5e34ce3c78a6,Monster,diablo2-io
+,10653,f5bd033a1bec876bf846a49d,,"Fallen Shaman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",e91d411c-fdaf-597d-b6a4-f2c930061342,SourceDocument,diablo2-io
+,,fallen-shaman-t4200,,"Fallen Shaman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",87b7f266-9f55-5ed0-bbd2-7cac662c4771,Monster,diablo2-io
+,10483,83d0da22912e2af6bd036da2,,"Spike Fiend 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",e446a94b-e6d5-51dd-97bb-726fd72c9de9,SourceDocument,diablo2-io
+,,spike-fiend-t4201,,"Spike Fiend 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",c910861a-fc6d-50df-9a39-ec0054adf4ef,Monster,diablo2-io
+,8985,3c7b62f95f62c717d65e6317,,"Zombie 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",e2a41c61-2dd9-534c-845f-1babb215b7e4,SourceDocument,diablo2-io
+,,zombie-t4202,,"Zombie 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",f95e12ce-d745-5d3c-b936-6be6952199a8,Monster,diablo2-io
+,8868,8839ddc08ac5cb1045e4af77,,"Wendigo 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",a4254053-7ea8-5494-8941-f8cb0fb8fe40,SourceDocument,diablo2-io
+,,wendigo-t4203,,"Wendigo 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",96571307-9c9d-52d9-a713-0bad1ad187d8,Monster,diablo2-io
+,10359,19cd5eece9483d244d53a156,,"Corrupt Rogue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",adb7698f-2914-561d-bc49-8f0e0cad0ab7,SourceDocument,diablo2-io
+,,corrupt-rogue-t4204,,"Corrupt Rogue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",b166ad36-84fd-51b4-a8f9-d19298c7e6fa,Monster,diablo2-io
+,10998,5ea05ba3097e1ba6b0a9de5e,,"Corrupt Rogue Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",b1f6569c-8d55-54bf-bc6e-c56584cdf227,SourceDocument,diablo2-io
+,,corrupt-rogue-archer-t4205,,"Corrupt Rogue Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",9c8790a9-ad5e-5b4f-a869-eb858d661024,Monster,diablo2-io
+,11782,3f1c655530c772365e048551,,"Corrupt Rogue Spearwoman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",35f00783-bd94-5a13-a482-abac32bc6c1a,SourceDocument,diablo2-io
+,,corrupt-rogue-spearwoman-t4206,,"Corrupt Rogue Spearwoman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",c4a8f86e-da36-5d0e-9972-4284676424d1,Monster,diablo2-io
+,11101,e14469603326eb53c8a646c1,,"Skeleton 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",00fcfeb0-3202-51fd-8818-7f541c237465,SourceDocument,diablo2-io
+,,skeleton-t4207,,"Skeleton 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",35198aa9-9ff9-52af-a718-f9238a364726,Monster,diablo2-io
+,10638,4e08ac54a34977c60caae7af,,"Skeleton Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",f8dbae38-f45b-5975-9f4e-5d4e428ff0c6,SourceDocument,diablo2-io
+,,skeleton-archer-t4208,,"Skeleton Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",5272755e-4359-59bf-9f56-0ee8a2d65ab7,Monster,diablo2-io
+,11763,286d3cb4e56a47207648801d,,"Skeleton Mage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",6cb145ba-b8fe-5e09-a378-135ad44e0d4a,SourceDocument,diablo2-io
+,,skeleton-mage-t4209,,"Skeleton Mage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",e2bb7f13-c2fc-5098-8d40-ef133eea2491,Monster,diablo2-io
+,10525,41fb94fc75d00c02196e820d,,"Goatman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",0647c9b3-7157-551f-bfa2-4f765f6b5d4f,SourceDocument,diablo2-io
+,,goatman-t4210,,"Goatman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",994ec117-c8fc-594d-8f0d-5f2bbb44adad,Monster,diablo2-io
+,10822,2acaf02e7ad71c6ddc859daf,,"Blood Hawk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",45a35aa1-e748-5d4b-b562-cf474db6d1a2,SourceDocument,diablo2-io
+,,blood-hawk-t4211,,"Blood Hawk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",cd442d16-d149-50fd-b3c9-88637acf40b9,Monster,diablo2-io
+,10172,b438524926f6c6951b5f58d8,,"Tainted 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",16585387-31ef-5486-8939-71d15318da5e,SourceDocument,diablo2-io
+,,tainted-t4212,,"Tainted 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",c253bde0-5130-5fcb-9a11-88cd2882ccf1,Monster,diablo2-io
+,10244,cf2dedb267c6e73aecff38fd,,"Giant Spider 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",73ddfa2e-caae-55e1-97ff-c6b4a2a18a72,SourceDocument,diablo2-io
+,,giant-spider-t4213,,"Giant Spider 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",246c3d2e-09ff-5979-ab5e-f09fea64be1c,Monster,diablo2-io
+,10697,fd75f1cbe9a8657e9224c5a8,,"Wraith 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",ac973d0c-7579-5566-9d92-4b53b487cc31,SourceDocument,diablo2-io
+,,wraith-t4214,,"Wraith 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",40a8508a-89ab-58f1-9ffe-6f4da0d06f4c,Monster,diablo2-io
+,9639,4ba35108e797710eeadd5454,,"Fetish 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",317e8ec3-32e6-59f3-b595-6d711db45c2a,SourceDocument,diablo2-io
+,,fetish-t4215,,"Fetish 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",2e8d8149-17d4-5ddb-af1b-7b5a5eaa3bbc,Monster,diablo2-io
+,9422,ccd7a07444e89fdda9e86dde,,"Vampire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",ab38ccc5-4fd2-5608-84bb-08be97e218eb,SourceDocument,diablo2-io
+,,vampire-t4216,,"Vampire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",db4fdda5-3839-5a07-8693-c5aa0adfb914,Monster,diablo2-io
+,8868,4a71e1572911a016638c05bf,,"Flying Scimitar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",887e0ccf-49bb-520d-abf3-f733ce1ff2a3,SourceDocument,diablo2-io
+,,flying-scimitar-t4217,,"Flying Scimitar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io",2ab1c3b8-57ea-567e-96fd-2b3e6dcd9c46,Monster,diablo2-io
+,11056,2729004fb3b517b2052cd241,,"Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",c8455337-67af-50fa-b358-a1fde7d9b4f3,SourceDocument,diablo2-io
+,,den-of-evil-t3696,,"Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",af4a9501-18c6-5ebb-9b20-c5dec7212107,Area,diablo2-io
+,9985,b836ba5c6322aeeb8b0c30fa,,"Cave Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",3271225d-54e2-539a-9222-032a7a629011,SourceDocument,diablo2-io
+,,cave-level-1-t3697,,"Cave Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",8f191003-53ab-5f43-ac88-5c3b64af3a71,Area,diablo2-io
+,10006,41f521f82a4bfb4c6d5586b0,,"Cave Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",48d9ef05-3640-5e4c-bd09-460ec239ecca,SourceDocument,diablo2-io
+,,cave-level-2-t3698,,"Cave Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",b7882e89-9d37-5756-884b-62f381f9e287,Area,diablo2-io
+,9496,e387b0feea74655161768b2d,,"Hole Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",ab6a7aea-2338-5b8f-94c9-77abb6c6c4f1,SourceDocument,diablo2-io
+,,hole-level-1-t3699,,"Hole Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",cc6f9d18-5821-50f1-a771-3f0bc57dc1ca,Area,diablo2-io
+,9839,43f892294b220affae8b64c8,,"Hole level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",72b9bb11-235b-5bf9-b28d-05a05bf8cb6d,SourceDocument,diablo2-io
+,,hole-level-2-t3700,,"Hole level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",4e4282bc-1bdb-5074-a39a-e02dd65b1223,Area,diablo2-io
+,10269,e91be3e311c170da6427e09c,,"Pit Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",548d574e-e7f3-58cc-a352-967d68471104,SourceDocument,diablo2-io
+,,pit-level-1-t3701,,"Pit Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",9287ca7a-cf17-5abf-9500-466d9a90d2bc,Area,diablo2-io
+,10690,ab4b742ba45461c808428751,,"Pit Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",e5f8a466-e3b3-5a8b-81f3-69225d65a9da,SourceDocument,diablo2-io
+,,pit-level-2-t3702,,"Pit Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",7f2ca9d2-ef88-560a-91b6-63aa82bf841e,Area,diablo2-io
+,10081,227a0d7d9785e56825f5e7da,,"Crypt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",b533371e-08a3-5cc3-be2f-4f9d3996b3cc,SourceDocument,diablo2-io
+,,crypt-t3703,,"Crypt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",d2c19df1-768b-5d1c-b5d1-cf283f30b40f,Area,diablo2-io
+,10142,b1d70c30051f58d41fb5c395,,"Mausoleum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",0103b5fe-65f0-5cee-8c70-dce56ea63e46,SourceDocument,diablo2-io
+,,mausoleum-t3704,,"Mausoleum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",43a7cb37-47c6-5bff-be1d-70181bfe0a6f,Area,diablo2-io
+,11556,5d777f26281553c38dd9b29c,,"Tower Cellar Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",96e742bc-65fc-572a-b86d-7a938e38881a,SourceDocument,diablo2-io
+,,tower-cellar-level-1-t3705,,"Tower Cellar Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",da593f4a-1c8f-58fb-91ec-58cd3cd9dbf8,Area,diablo2-io
+,11002,0b1d8d81d8521fc96f020a32,,"Tower Cellar Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",94a7d3d1-6eb3-55ba-9fd8-07cdc5919761,SourceDocument,diablo2-io
+,,tower-cellar-level-2-t3706,,"Tower Cellar Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",cdb03562-b031-52d7-a5e3-ff6ffd50e5b1,Area,diablo2-io
+,10385,cde10a59d62a358f647e0610,,"Tower Cellar Level 3 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",82a8cd2e-8e97-500c-83cc-6ff7c69209ec,SourceDocument,diablo2-io
+,,tower-cellar-level-3-t3707,,"Tower Cellar Level 3 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",10ff715a-fc48-515c-b51e-ee8892e1d518,Area,diablo2-io
+,10716,21b6af80fb585309fbe72663,,"Tower Cellar Level 4 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",43459d9d-e31e-510d-b099-7cf0d9fd0afc,SourceDocument,diablo2-io
+,,tower-cellar-level-4-t3708,,"Tower Cellar Level 4 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",0a1a9e9a-4b6f-587d-996c-6b97acd985a3,Area,diablo2-io
+,10790,0a0221adfef688bdfb3752b8,,"Tower Cellar Level 5 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",dbd8c841-9bb9-5588-b5cb-7254ff036dcf,SourceDocument,diablo2-io
+,,tower-cellar-level-5-t3709,,"Tower Cellar Level 5 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",15a689cc-9801-5fb5-a778-698d2ea86697,Area,diablo2-io
+,10942,ee1ce986b2d68f9323a2a0d5,,"Rogue Encampment 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",b7cd8fe5-282a-5210-a045-8e1341e2359a,SourceDocument,diablo2-io
+,,rogue-encampment-t3710,,"Rogue Encampment 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",e9dd42b1-f58f-598d-8f1c-8f4fa1a656f2,Area,diablo2-io
+,11793,b70cd8f234c30f2f69bb98a3,,"Blood Moor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",7df8e715-23ea-57c3-a612-51229ab75fae,SourceDocument,diablo2-io
+,,blood-moor-t3711,,"Blood Moor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",8b0abf54-a640-5fb7-8869-bc5071bbe3b6,Area,diablo2-io
+,11766,c485ce18320398a4b2a3d190,,"Cold Plains 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",8ce83563-fe24-5303-a5c1-e321eb4a75e1,SourceDocument,diablo2-io
+,,cold-plains-t3712,,"Cold Plains 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",fc3ddf5f-f1fb-5a12-8c91-3ef7dcc60f17,Area,diablo2-io
+,9174,1e191870cfa9815bd6f068d0,,"Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",d16a2331-3c9f-5dee-992e-cf3f444c7caa,SourceDocument,diablo2-io
+,,burial-grounds-t3713,,"Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io",21b8cf94-5cad-56aa-96d5-687a64d2a2b4,Area,diablo2-io
+,11810,7353bad8e63fd8ef404fdb4a,,"Recipe: Portal to the Secret Cow Level 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",72db550d-7e4f-5716-8d5d-97e340ad81cf,SourceDocument,diablo2-io
+,,recipe-portal-to-the-secret-cow-level-t6,,"Recipe: Portal to the Secret Cow Level 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",5ee8b7b9-d664-5ef2-8948-13460cee4390,Recipe,diablo2-io
+,8505,a8238ed637619322ad5e9e95,,"Recipe: Tal 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",9f917ab7-65fd-50d2-8200-975e714d2005,SourceDocument,diablo2-io
+,,recipe-tal-t25,,"Recipe: Tal 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",53520d21-8460-5bb8-bc42-bafa5b3ef043,Recipe,diablo2-io
+,8549,36216cbef552bce3c2e1eab7,,"Recipe: Thul 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",928cfa64-a937-54b8-bf53-5a06becf924f,SourceDocument,diablo2-io
+,,recipe-thul-t26,,"Recipe: Thul 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",9cdf4805-2a9d-531a-b949-f223d564fd94,Recipe,diablo2-io
+,8559,c27baca6254194ef86ff52cc,,"Recipe: Ort 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",29cefd3d-c2a2-51bd-bdbd-574b6c8fc1d8,SourceDocument,diablo2-io
+,,recipe-ort-t27,,"Recipe: Ort 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",893cf254-8ef6-5ddf-bd73-c7b11689b309,Recipe,diablo2-io
+,8920,0428548a63fa13221ed8dba1,,"Recipe: Amn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",88afbdc8-a618-5295-9d74-bdf577c44cdc,SourceDocument,diablo2-io
+,,recipe-amn-t28,,"Recipe: Amn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",ee07ba02-87e0-5da2-b6fe-251f010154d4,Recipe,diablo2-io
+,8609,6394f6eb9160500519178293,,"Recipe: Flawed Topaz 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",1dbce6a7-df20-54d1-b09e-7fe40cfb0be2,SourceDocument,diablo2-io
+,,recipe-flawed-topaz-t66,,"Recipe: Flawed Topaz 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",0c232cd6-d874-5ec7-8d85-dbd8e25e28c1,Recipe,diablo2-io
+,8567,5a73859b84ccfe6548bbce6f,,"Recipe: Perfect Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",5537ff1d-a1c7-5ab5-acbb-99d148c66ec2,SourceDocument,diablo2-io
+,,recipe-perfect-sapphire-t70,,"Recipe: Perfect Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",fcdeacd5-51a4-5257-b224-cf3347757910,Recipe,diablo2-io
+,8966,dee334562855b282c6b0d01d,,"Recipe: Full Rejuvenation Potion 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",6c6f2053-5e45-5eef-bc35-8deb87c6a754,SourceDocument,diablo2-io
+,,recipe-full-rejuvenation-potion-t73,,"Recipe: Full Rejuvenation Potion 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",3baea3b5-bbf3-57a9-bc21-97636b051389,Recipe,diablo2-io
+,8493,7f7684340836836a80ef3b39,,"Recipe: Lum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",e5975d5b-6194-5728-ba8f-cca2569ae8b0,SourceDocument,diablo2-io
+,,recipe-lum-t75,,"Recipe: Lum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",d3edb2b2-2ae5-5b39-8d21-4560e262d3e1,Recipe,diablo2-io
+,8763,2f185249182c2ecd3018a475,,"Recipe: Fully repaired weapon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",e9447050-bf5c-5b8c-9c7a-4c7e8355b02d,SourceDocument,diablo2-io
+,,recipe-fully-repaired-weapon-t85,,"Recipe: Fully repaired weapon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",6a3839cd-351f-584c-a3b8-6c5e4d2ba5d3,Recipe,diablo2-io
+,8519,c3f69cf0ecbc16d4c288d5ab,,"Recipe: Flawed Skull 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",031ca7e1-8d1e-533d-b1d3-b6e8e349c27a,SourceDocument,diablo2-io
+,,recipe-flawed-skull-t1254,,"Recipe: Flawed Skull 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",28b8105f-07d2-57e0-8196-d29db4d15b09,Recipe,diablo2-io
+,8559,9e9001b6dd555a9ec3839371,,"Recipe: Flawed Amethyst 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",8e9e5894-7ddf-5045-93aa-9950b53fa177,SourceDocument,diablo2-io
+,,recipe-flawed-amethyst-t1255,,"Recipe: Flawed Amethyst 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",1f088c60-e6a3-517c-ad51-0d84c32a642b,Recipe,diablo2-io
+,8558,c8809f7afd6ea446ebddcb7a,,"Recipe: Flawed Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",eba20b5f-8162-5f81-8cc1-21e9b8ed1f2e,SourceDocument,diablo2-io
+,,recipe-flawed-sapphire-t1256,,"Recipe: Flawed Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",a4c28f81-b43f-542a-bc54-943d09f4233e,Recipe,diablo2-io
+,8550,adfec3bc11533f5c82d99d06,,"Recipe: Flawed Emerald 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",46553f09-a580-50bb-b167-76a88bbf5f74,SourceDocument,diablo2-io
+,,recipe-flawed-emerald-t1257,,"Recipe: Flawed Emerald 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",dc02240a-ceca-570a-a148-823dceb45b8d,Recipe,diablo2-io
+,8542,a56f737d62e52a5085ef6e25,,"Recipe: Flawed Ruby 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",892c3b93-42aa-51ba-9672-c6dd88939b2b,SourceDocument,diablo2-io
+,,recipe-flawed-ruby-t1258,,"Recipe: Flawed Ruby 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",a0e0525f-f21f-51c6-943d-bc3ddc0221c6,Recipe,diablo2-io
+,8552,abdac121ea2b7760a4ddeedc,,"Recipe: Flawed Diamond 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",8c76c625-bed5-51bf-a7f5-f8037608baa3,SourceDocument,diablo2-io
+,,recipe-flawed-diamond-t1259,,"Recipe: Flawed Diamond 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io",b5a184f4-51a2-5d48-9877-a07474d63698,Recipe,diablo2-io
+,9730,031e7c5503ddcbcc4cb1d6fc,,"Deckard Cain 
+        
+        
+        
+                                  
+        
+         • diablo2.io",c069a5b4-2c1c-5ae1-a06b-0c087aef9378,SourceDocument,diablo2-io
+,,deckard-cain-t8,,"Deckard Cain 
+        
+        
+        
+                                  
+        
+         • diablo2.io",208d436c-f82f-50ec-8621-fae6f17c956b,NPC,diablo2-io
+,10276,85c9f93f6cde95b6dcfdd027,,"Gheed 
+        
+        
+        
+                                  
+        
+         • diablo2.io",ecb921e3-5cf1-55ee-8f30-ee2fd4dbc2f8,SourceDocument,diablo2-io
+,,gheed-t3929,,"Gheed 
+        
+        
+        
+                                  
+        
+         • diablo2.io",b15db2c3-171a-57c3-a7c8-f0f315aaa72a,NPC,diablo2-io
+,11474,d94edd0f6f6c9cc16701a615,,"Charsi 
+        
+        
+        
+                                  
+        
+         • diablo2.io",42a969b0-6697-54ba-951e-307fdb082e30,SourceDocument,diablo2-io
+,,charsi-t3930,,"Charsi 
+        
+        
+        
+                                  
+        
+         • diablo2.io",021d6b52-5926-564d-9dfe-5cab9bcae1d7,NPC,diablo2-io
+,9334,fc1d1fa9851056f46898f4c2,,"Akara 
+        
+        
+        
+                                  
+        
+         • diablo2.io",cd04a3c7-536e-50ed-b18d-02c4153dc711,SourceDocument,diablo2-io
+,,akara-t3931,,"Akara 
+        
+        
+        
+                                  
+        
+         • diablo2.io",afbc20d0-0365-553b-aaaa-dc8c247bac5e,NPC,diablo2-io
+,10097,5bc0b532cc5efd758746db32,,"Flavie 
+        
+        
+        
+                                  
+        
+         • diablo2.io",a467f350-bd27-55d9-8a38-3aa619ba14d8,SourceDocument,diablo2-io
+,,flavie-t3932,,"Flavie 
+        
+        
+        
+                                  
+        
+         • diablo2.io",826910bb-97b2-5be0-a6b0-40864ef1296f,NPC,diablo2-io
+,8717,c3956f485a30fa44bbc2a5be,,"Kashya 
+        
+        
+        
+                                  
+        
+         • diablo2.io",4b6090bf-9649-5788-b23f-9b8c9daa061d,SourceDocument,diablo2-io
+,,kashya-t3933,,"Kashya 
+        
+        
+        
+                                  
+        
+         • diablo2.io",963395c3-afc5-50a7-83da-550febf1e436,NPC,diablo2-io
+,11324,89dc036daf17eea0e90e270c,,"The Search for Cain 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",984056f4-3c24-55e2-bfce-d7948c400ccf,SourceDocument,diablo2-io
+,,the-search-for-cain-t11,,"The Search for Cain 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",b7b8f2bc-54d1-5946-9449-d4a29a3da7dd,Quest,diablo2-io
+,10676,851c0ff2a09ad68d588af4ae,,"The Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",06447f7d-4017-58e6-a455-e9913c8ece20,SourceDocument,diablo2-io
+,,the-den-of-evil-t3963,,"The Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",b365ba71-d644-5bfe-93cb-5a02d3a03e4e,Quest,diablo2-io
+,9933,93f0d05de2feaa3f07019c34,,"Sisters' Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",4ae1d47d-5349-51a8-820f-d2a8e4c85598,SourceDocument,diablo2-io
+,,sisters-burial-grounds-t3964,,"Sisters' Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",7bcc5735-e619-5315-a4e4-f4483e155485,Quest,diablo2-io
+,10637,7b002f0540fb8ef355dfa3ee,,"The Forgotten Tower 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",99b897de-b77d-5e08-b208-5d77a2fa8534,SourceDocument,diablo2-io
+,,the-forgotten-tower-t3965,,"The Forgotten Tower 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",6e925783-ad2d-5f2e-847a-f101b6b05617,Quest,diablo2-io
+,9019,28e82a499220a31c84673890,,"Sisters to the Slaughter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",906c9ec6-a65e-51e8-9560-1305adfb25d6,SourceDocument,diablo2-io
+,,sisters-to-the-slaughter-t3967,,"Sisters to the Slaughter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",3eef26e7-256a-5469-a179-8e490ce31dd5,Quest,diablo2-io
+,10807,f420f49305f508bf2b13217e,,"Radament's Lair 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",cfdec228-2744-519b-9a0c-655e8948fa5d,SourceDocument,diablo2-io
+,,radament-s-lair-t3968,,"Radament's Lair 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",89f5588f-cb00-5c0a-8574-7abd33acc530,Quest,diablo2-io
+,11696,b88caa1f428133dd28150889,,"The Horadric Staff 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",70670506-8054-536a-ab9b-7b7586ff7062,SourceDocument,diablo2-io
+,,the-horadric-staff-t3969,,"The Horadric Staff 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",e7852279-398a-5d3f-9ec9-f7381d79be11,Quest,diablo2-io
+,10678,3c1611e2b6762e741249ccbc,,"The Tainted Sun 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",46661c24-fa49-57af-8807-6793abf4b335,SourceDocument,diablo2-io
+,,the-tainted-sun-t3970,,"The Tainted Sun 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io",241e4853-8b1b-5ecd-ab36-3e595bee6999,Quest,diablo2-io
+,10529,c2dcdf6d1f30b04f4d49c3a4,,"Ancient Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",a9a31b6e-d59b-5531-b03d-94d398a5a3fd,SourceDocument,diablo2-io
+,,ancient-armor-t5,,"Ancient Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",b9767f8b-39fd-524e-9acf-3683642b2e19,BaseItem,diablo2-io
+,11081,2a4ae7bbfb46636717cb024e,,"Scythe 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",0266c32f-9eb1-5a7d-8502-35391001efc8,SourceDocument,diablo2-io
+,,scythe-t61,,"Scythe 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",3ef1ac4a-accf-597c-aae3-1ddc7ee3ec78,BaseItem,diablo2-io
+,12251,8ebe9d8eb4fb7cb3c433212b,,"Shako 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",6db3b3d5-58fc-5b8c-af8f-db931fa501a3,SourceDocument,diablo2-io
+,,shako-t62,,"Shako 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",a9829c2d-7bd5-5baf-91d0-eeb5d9391a83,BaseItem,diablo2-io
+,12461,0133fe839831208ee0ecd1ee,,"Sacred Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",9fdcdc57-6f44-5f8f-bf39-286ab623ab1a,SourceDocument,diablo2-io
+,,sacred-armor-t80,,"Sacred Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",521b8972-5c63-585e-91d1-41ea5a7652d5,BaseItem,diablo2-io
+,11248,da7e5dc1da16d0e8d0d69a3e,,"Ornate Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",2aab07e7-0bf0-5f85-823e-78b96ade68ca,SourceDocument,diablo2-io
+,,ornate-plate-t136,,"Ornate Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",92a4bfd1-42f7-5e45-88dd-ae38a435d589,BaseItem,diablo2-io
+,9154,aee831e661024967f25f87a1,,"War Belt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",d6433357-be6f-5b4f-90cf-d46cccac822d,SourceDocument,diablo2-io
+,,war-belt-t254,,"War Belt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",4f8e508c-5d1d-516d-b1f4-993097f3f051,BaseItem,diablo2-io
+,10629,98c00930bf06849916f9d3f0,,"Mask 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",46d5672b-8c19-5a36-9d7b-b67b50ccdd2b,SourceDocument,diablo2-io
+,,mask-t256,,"Mask 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",eb8a0ade-117a-5f0e-9fc1-53d0cad5cda5,BaseItem,diablo2-io
+,9539,829ac6f971536da88ed5dae9,,"Quilted Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",806f11ba-7453-5f29-abc6-6a3508acacb1,SourceDocument,diablo2-io
+,,quilted-armor-t1388,,"Quilted Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",4dcf7114-269f-519b-b1fc-545b3a39a553,BaseItem,diablo2-io
+,9831,0063c3abc7b36a8956a89159,,"Ghost Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",304bf0c1-0ef3-54ce-bb53-a5f957a2225f,SourceDocument,diablo2-io
+,,ghost-armor-t1389,,"Ghost Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",563797e5-3b14-5dfc-be11-3c689fcf75d4,BaseItem,diablo2-io
+,12191,4c17f0c0d0046e5df561aa12,,"Dusk Shroud 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",614af29e-47de-570a-a840-da930a66349b,SourceDocument,diablo2-io
+,,dusk-shroud-t1390,,"Dusk Shroud 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",a1d5ca2c-0098-5108-b53b-f87d071880ce,BaseItem,diablo2-io
+,9940,3f7247de3f1ba9efce8e8e42,,"Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",5d84c0c4-089e-5b51-a3ad-7d8baee2a18e,SourceDocument,diablo2-io
+,,leather-armor-t1391,,"Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",59ce20df-5196-5829-8fed-0ce467063882,BaseItem,diablo2-io
+,9726,f8863c7b5975e8f62e9eed70,,"Serpentskin Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",671f757c-2012-5723-b976-02df44e179ae,SourceDocument,diablo2-io
+,,serpentskin-armor-t1392,,"Serpentskin Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",16484802-1ae5-5f2f-a109-25a0aa498f81,BaseItem,diablo2-io
+,11061,b7aaa7d558ca04301934beb9,,"Wyrmhide 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",db7e0ee2-828b-5337-9165-8c65436f6388,SourceDocument,diablo2-io
+,,wyrmhide-t1393,,"Wyrmhide 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",050157a4-4473-5c2b-85c1-8c812f246619,BaseItem,diablo2-io
+,9769,d9a068aacd9f3afd3fcb1083,,"Hard Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",ccd2c1f4-b3ba-56da-bb4e-9e9d9a105bc7,SourceDocument,diablo2-io
+,,hard-leather-armor-t1394,,"Hard Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",20355a54-8942-52e3-a46c-736a5809e633,BaseItem,diablo2-io
+,9727,83df686a95fa2bb284e85c97,,"Demonhide Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",155b8d1c-90ad-51f0-941a-42346955e66c,SourceDocument,diablo2-io
+,,demonhide-armor-t1395,,"Demonhide Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",4143b605-c7da-5d51-84b2-4f6f4740b31c,BaseItem,diablo2-io
+,11621,4fbcabc1fc84ed1f7bb24cbb,,"Scarab Husk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",4b8dc665-cc8b-541a-9a19-4ea128b7519f,SourceDocument,diablo2-io
+,,scarab-husk-t1396,,"Scarab Husk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",8bfb3a83-a5a6-5af9-8357-605581d5039d,BaseItem,diablo2-io
+,9278,8ad959fae155b72c892bc232,,"Studded Leather 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",73047640-b149-55e2-a9a0-1d728d91bbe2,SourceDocument,diablo2-io
+,,studded-leather-t1397,,"Studded Leather 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",233e9cea-4a43-581e-8667-d1ab9751e863,BaseItem,diablo2-io
+,9723,3cb400e29ee09ca536937962,,"Trellised Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",6933e172-08b4-506e-bb0e-0407be65ddc0,SourceDocument,diablo2-io
+,,trellised-armor-t1398,,"Trellised Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",b1500d4d-e8ac-5438-a3dd-f614892d0b35,BaseItem,diablo2-io
+,10866,98b8cbcb5a6d519900d72a29,,"Wire Fleece 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",7b21dfe7-ad1d-5cc7-a654-74ba7703bd3c,SourceDocument,diablo2-io
+,,wire-fleece-t1399,,"Wire Fleece 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",8fb3a842-1386-5125-b743-f0f83ca8f1bf,BaseItem,diablo2-io
+,10331,bddf1d5f0d1c16b5ffd50bde,,"Breast Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",3e429c85-35bf-5506-98aa-1f3b3f65e4a4,SourceDocument,diablo2-io
+,,breast-plate-t1400,,"Breast Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",8acb3407-1fe6-5be2-9693-7e1cb9c3e38d,BaseItem,diablo2-io
+,13340,647c5829a40ca249143091df,,"Great Hauberk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",c1e89f75-1838-5ee7-a5a2-d981b57f3921,SourceDocument,diablo2-io
+,,great-hauberk-t1402,,"Great Hauberk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",1b0fda11-0098-5bbb-9d1f-25d326d6b840,BaseItem,diablo2-io
+,11446,87d70889a69b127b0cae0f14,,"Light Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",e99c8ca4-5e4f-58db-9f33-b381d79678d6,SourceDocument,diablo2-io
+,,light-plate-t1403,,"Light Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",37bc7579-1a6f-5238-a5c6-784beb42383a,BaseItem,diablo2-io
+,12604,75408e33c2704a153fda5c9d,,"Mage Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",68feea74-e10b-579c-8ae0-b8781340a8ab,SourceDocument,diablo2-io
+,,mage-plate-t1404,,"Mage Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",7c9619da-1837-528a-8d7b-49d01ab53870,BaseItem,diablo2-io
+,11989,8b2796e3f59819d2c916e103,,"Archon Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",f25b76be-2c32-5a6b-8a05-c4422ee22789,SourceDocument,diablo2-io
+,,archon-plate-t1405,,"Archon Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io",44a66e26-7a94-5000-a435-ea51ab2af1b9,BaseItem,diablo2-io
+,1537,2a7d37318f91f78d7ae60380,,The Arreat Summit - Classes: Amazon,0519f5a8-f33d-533d-b8bb-461a62a508b2,SourceDocument,arreat-summit
+,,amazon,,The Arreat Summit - Classes: Amazon,38a29003-6d17-58db-9af1-c4c0c62fd063,Class,arreat-summit
+,2494,3fd5121e5cb745519e14df12,,The Arreat Summit - Classes: Assassin,58adad2b-c692-5d62-bff1-b177f3c44c4b,SourceDocument,arreat-summit
+,,assassin,,The Arreat Summit - Classes: Assassin,161e34cc-64da-5475-bbb5-f30ca4f714ee,Class,arreat-summit
+,1503,89e50c48bfce8732a66ea43a,,The Arreat Summit - Classes: Necromancer,d046273a-db00-533c-bc44-b455c483a47f,SourceDocument,arreat-summit
+,,necromancer,,The Arreat Summit - Classes: Necromancer,877bdfe6-b82e-56d1-81d4-a9296cd51517,Class,arreat-summit
+,1578,fbf839976953c548ad6d72cd,,The Arreat Summit - Classes: Barbarian,a7fcd774-0116-5934-b20f-a9bb23cd2efe,SourceDocument,arreat-summit
+,,barbarian,,The Arreat Summit - Classes: Barbarian,7cd2d6ee-0c92-5c52-aff5-4a2c52c0ecf9,Class,arreat-summit
+,1445,5c8e55fd792c5aaccc48f602,,The Arreat Summit - Classes: Sorceress,535962d3-2024-5b1f-b3d9-223ab7e2db85,SourceDocument,arreat-summit
+,,sorceress,,The Arreat Summit - Classes: Sorceress,6d3f26c9-3cfe-554b-b36a-074a1f983511,Class,arreat-summit
+,1313,52fde4d74cf6f63ce1bf23b9,,The Arreat Summit - Classes: Druid,d4c89052-2e4a-5d91-9ea0-fb07003d4b28,SourceDocument,arreat-summit
+,,druid,,The Arreat Summit - Classes: Druid,0ac796fe-b823-50e9-b22d-1921c5a1138c,Class,arreat-summit
+,1335,d8bf1256edbc7812401f87ca,,The Arreat Summit - Classes: Paladin,f9b6848f-a241-570b-bf8f-d4405eca97af,SourceDocument,arreat-summit
+,,paladin,,The Arreat Summit - Classes: Paladin,5f3cbd40-d402-543c-96c8-23d970681c30,Class,arreat-summit
+,12279,38d2fbf56543d9b356e0d7a3,,The Arreat Summit - Skills: Amazon Javelin and Spear Skills,6b58f814-6533-53e5-a916-b856790bce17,SourceDocument,arreat-summit
+,,amazon-javelin,,The Arreat Summit - Skills: Amazon Javelin and Spear Skills,9269fbdc-6e27-5641-b39c-785d148683d1,SkillPage,arreat-summit
+,12221,c19fe5ceb06c975901e6dd29,,The Arreat Summit - Assassin Martial Arts Skills,dceaebd1-5952-5c95-b29c-73d9f4d50d54,SourceDocument,arreat-summit
+,,assassin-martialarts,,The Arreat Summit - Assassin Martial Arts Skills,ce403805-babb-5ca2-a1de-95db5e5224c3,SkillPage,arreat-summit
+,30375,202282f2a6b33477afc990af,,The Arreat Summit - Skills: Necromancer Summoning Spells,b457a431-96bd-555e-8df7-5db1a13a9151,SourceDocument,arreat-summit
+,,necromancer-summoning,,The Arreat Summit - Skills: Necromancer Summoning Spells,40ceeb06-32dd-531c-9e8e-643700505f30,SkillPage,arreat-summit
+,12332,5c5ce54f4b4da1cb4fe89185,,The Arreat Summit - Skills: Barbarian Warcries,e1150914-5cec-552c-8547-6c9921ee670b,SourceDocument,arreat-summit
+,,barbarian-warcries,,The Arreat Summit - Skills: Barbarian Warcries,96ed25a4-14b6-5915-8d13-971723856b5c,SkillPage,arreat-summit
+,14472,f6f0e0c2b4759781dd170c31,,The Arreat Summit - Skills: Sorceress Cold Spells,6e3e6024-2fa6-5b0b-b6d3-918340d824bb,SourceDocument,arreat-summit
+,,sorceress-cold,,The Arreat Summit - Skills: Sorceress Cold Spells,db8f9f80-a4dc-536d-80ab-a664a24af3b8,SkillPage,arreat-summit
+,9817,599b489c12b3bfdaf8ad53ca,,The Arreat Summit - Druid: Elemental Skills,c0061fe9-e794-5d04-9201-281bb4f72ff0,SourceDocument,arreat-summit
+,,druid-elemental,,The Arreat Summit - Druid: Elemental Skills,4e664d4a-9d90-5dca-8d13-c40ea9e3696d,SkillPage,arreat-summit
+,14473,b54e4e2e70d894d834d67462,,The Arreat Summit - Skills: Paladin Defensive Auras,bc4e14ea-31d6-5fbf-b924-e639f4755622,SourceDocument,arreat-summit
+,,paladin-defense,,The Arreat Summit - Skills: Paladin Defensive Auras,0bedebad-320c-543f-bd9f-0154d622068d,SkillPage,arreat-summit
+,7717,77cc701aab38dfc6f95741b6,,The Arreat Summit - Skills: Basic Skill Information,c06aa686-c8c8-5976-8907-037a2a873942,SourceDocument,arreat-summit
+,,basics,,The Arreat Summit - Skills: Basic Skill Information,400a3f8c-0019-59a0-b947-4cb88ae00dac,SkillPage,arreat-summit
+,2370,a6ffb92749e4d9d11bf0bdbf,,The Arreat Summit - Skills: Basic Skill Information,a6a454ca-fea7-58f6-bb7c-f95e3736737a,SourceDocument,arreat-summit
+,,castingdelays,,The Arreat Summit - Skills: Basic Skill Information,8b7c2786-8fb6-5da9-bb60-f8c4861da281,SkillPage,arreat-summit
+,9094,03c575392ca4fa82577a2bb5,,The Arreat Summit - Skills: Alphabetical Skill Listing,e4b84476-2575-5018-8f30-a987125aaea2,SourceDocument,arreat-summit
+,,alphaskills,,The Arreat Summit - Skills: Alphabetical Skill Listing,cdfc66d4-86b9-576f-a845-3db9685bd107,SkillPage,arreat-summit
+,6078,7b0f7fa8c4ab205d2f583bfe,,The Arreat Summit - Items: Rune Words,c902505d-b943-5d22-9699-05fbd6fb7b83,SourceDocument,arreat-summit
+,,runewords,,The Arreat Summit - Items: Rune Words,9e3b1073-8eaa-5533-ac41-49b930a49783,ItemPage,arreat-summit
+,22027,6d9323fba864197e2371a555,,The Arreat Summit - Items: Rune Words: 1.10 Rune Words,98a11289-a88d-5bcd-9c91-11610559d623,SourceDocument,arreat-summit
+,,runewords-110,,The Arreat Summit - Items: Rune Words: 1.10 Rune Words,88651f44-17fb-5d71-8cdf-3891b14e3e02,ItemPage,arreat-summit
+,18492,d1d387ae9a37db1b1e41d528,,The Arreat Summit - Items: Basic Item Information,2b303451-deba-5255-8f98-425f951890b3,SourceDocument,arreat-summit
+,,basics,,The Arreat Summit - Items: Basic Item Information,fd26efb5-e350-531a-8949-07075d0b9938,ItemPage,arreat-summit
+,4687,9da739ccbb83765a805e9c47,,The Arreat Summit - Items: Weapons and Armor,77f2ede8-f921-53d5-9eca-b5f9b3d5cc59,SourceDocument,arreat-summit
+,,weaponsandarmor,,The Arreat Summit - Items: Weapons and Armor,900ad94b-88f1-57ee-af45-95eae9e1a006,ItemPage,arreat-summit
+,3558,c43bc950b571b3cdbcf770fe,,The Arreat Summit - Items: Socketed Items,3baeb55e-827c-56a3-bab3-7dc22c3b3935,SourceDocument,arreat-summit
+,,socketeditems,,The Arreat Summit - Items: Socketed Items,1221dbda-0fa0-5df0-854a-bfb56f88ccde,ItemPage,arreat-summit
+,6961,118ba85dea673beecf8208fd,,The Arreat Summit - Items: Socketed Items and Gems,7e69255c-e1f2-54ce-9ea0-5762627e337b,SourceDocument,arreat-summit
+,,gems,,The Arreat Summit - Items: Socketed Items and Gems,99901a06-66d0-59ce-8c6b-b21aa4b3592a,ItemPage,arreat-summit
+,1300,45344c462545f5d3876f2886,,The Arreat Summit - Items: Jewels,d73ed35b-a3d1-5789-afd8-24b975b4a773,SourceDocument,arreat-summit
+,,jewels,,The Arreat Summit - Items: Jewels,0783a5e7-ad76-5fa6-87b2-9d827789a81a,ItemPage,arreat-summit
+,4511,c66926ff0aff02511f7e9797,,The Arreat Summit - Items: Runes,02cbcb53-d382-59dd-9986-78a3b75a2ae1,SourceDocument,arreat-summit
+,,runes,,The Arreat Summit - Items: Runes,2c197acf-012e-56fb-b172-db5006256401,ItemPage,arreat-summit
+,15160,61562dca6d7dcd06a35101f6,,The Arreat Summit - Items: Magic,1bb81e99-5ac7-563c-a43b-c0c6503124de,SourceDocument,arreat-summit
+,,magic,,The Arreat Summit - Items: Magic,28dc6468-c2ff-5ae0-9ec6-b28a463bb23c,ItemPage,arreat-summit
+,6134,40f783c724e322e4ff2c0dcf,,The Arreat Summit - Items: Crafted Items,4ecb4d55-8987-53ad-9b7d-d9793d272062,SourceDocument,arreat-summit
+,,crafteditems,,The Arreat Summit - Items: Crafted Items,7cafe7f6-0ab6-5a4b-9ad2-1fde3d73b748,ItemPage,arreat-summit
+,1444,560bbcdb60b7973bb02bc115,,The Arreat Summit - Items: Unique Items,2688d7ba-257c-55cd-a989-273d9f45e0b3,SourceDocument,arreat-summit
+,,uniques,,The Arreat Summit - Items: Unique Items,705d753c-247b-5546-b7a2-9992068a60b0,ItemPage,arreat-summit
+,2083,7d0b7cf127554618c9c1e731,,The Arreat Summit - Items: Charms,b3994190-79ad-54ce-af7e-234ef13638c9,SourceDocument,arreat-summit
+,,charms,,The Arreat Summit - Items: Charms,0588771b-f671-528b-9a03-f2aa9bae7d6a,ItemPage,arreat-summit
+,18631,0864ee32f26ac759fcb16b5a,,The Arreat Summit - Items: The Horadric Cube,589803ee-7146-5f51-9a4c-4b891ba6f8f6,SourceDocument,arreat-summit
+,,cube,,The Arreat Summit - Items: The Horadric Cube,cf4a0185-6c51-56f6-bc57-f074e1e883ac,ItemPage,arreat-summit
+,7748,1aa363378fe1a4de4e92d8e9,,The Arreat Summit - Potions,d03559a5-b96b-5f02-bedb-599c1b241fc9,SourceDocument,arreat-summit
+,,potions,,The Arreat Summit - Potions,201245bd-551a-5457-a891-5e58b332f337,ItemPage,arreat-summit
+,1626,0ce22f13eb9242e99e43c5f7,,The Arreat Summit - Items: Rings and Amulets,db5d72c5-a433-5711-9ea5-1ce570632fde,SourceDocument,arreat-summit
+,,ringsnamulets,,The Arreat Summit - Items: Rings and Amulets,33289473-627a-5e20-bba7-4326d5a14d5e,ItemPage,arreat-summit
+,6169,274f77adc0f4951ea307290f,,The Arreat Summit - Monsters: Basic Monster Information,5afe53c5-83e6-5e3a-98f2-0e816503c749,SourceDocument,arreat-summit
+,,basics,,The Arreat Summit - Monsters: Basic Monster Information,5349cf83-17b3-508c-8bcf-4af6f1b20936,MonsterPage,arreat-summit
+,6918,7303faeb2f79fdaa246cfd5f,,The Arreat Summit - Monsters: Monster Bonuses,31e1a4c0-27a1-5d50-99ef-43a8d87c5b70,SourceDocument,arreat-summit
+,,bonus,,The Arreat Summit - Monsters: Monster Bonuses,927b3623-c8e1-5f74-8c7d-08f0f960df83,MonsterPage,arreat-summit
+,1986,8a2eed15853c88251497e4ab,,The Arreat Summit - Monsters: Super Unique Monsters,5ead5cf1-9971-550d-b845-7f5a0ac7c8a4,SourceDocument,arreat-summit
+,,super,,The Arreat Summit - Monsters: Super Unique Monsters,7a40b3d1-a784-5a65-9da3-4fae0abd952e,MonsterPage,arreat-summit
+,2706,ab329385e0ff16fc917f61f2,,The Arreat Summit - Monsters: Bosses,6a242eba-47cf-5c87-8bf1-bc5d1b71d2d3,SourceDocument,arreat-summit
+,,bosses,,The Arreat Summit - Monsters: Bosses,a52ee7d5-4b7b-5730-8390-58212fd65943,MonsterPage,arreat-summit
+,2811,c421d948e04c3961078201bf,,The Arreat Summit - Monsters: Act I Bestiary,e45e6c2f-80b3-528d-9964-7fa91b115e18,SourceDocument,arreat-summit
+,,act1,,The Arreat Summit - Monsters: Act I Bestiary,f4cda960-b42d-5e07-ab62-a310462d9ca2,MonsterPage,arreat-summit
+,2597,8a21a85b9bc2b28ac8b26ca5,,The Arreat Summit - Monsters: Act II Bestiary,8419e1e0-bc52-5156-a82d-88ded911e798,SourceDocument,arreat-summit
+,,act2,,The Arreat Summit - Monsters: Act II Bestiary,69e55b6d-af2e-53c2-8b18-07082eb68e02,MonsterPage,arreat-summit
+,2590,4a7d6117f84a14d233b8ee95,,The Arreat Summit - Monsters: Act III Bestiary,d1fb25c4-c127-5ae0-b696-54b1fafa87bb,SourceDocument,arreat-summit
+,,act3,,The Arreat Summit - Monsters: Act III Bestiary,63be9ebf-88ff-5aa3-a35b-855a8722b7d7,MonsterPage,arreat-summit
+,1583,0bd3ef874c030a80007f2630,,The Arreat Summit - Monsters: Act IV Bestiary,822b884c-1726-5c18-9879-44578a416959,SourceDocument,arreat-summit
+,,act4,,The Arreat Summit - Monsters: Act IV Bestiary,3d6dbe11-0f80-54c9-b00c-a9310fc214fd,MonsterPage,arreat-summit
+,2763,4b344458a98744d54ce3239b,,The Arreat Summit - Monsters: Act V Bestiary,3811d69b-cf9b-5444-a595-819f81804f92,SourceDocument,arreat-summit
+,,act5,,The Arreat Summit - Monsters: Act V Bestiary,9fa8459c-e80d-525c-b40f-ffa80fd71ec9,MonsterPage,arreat-summit
+,3618,a0639244a46749a6983351d5,,The Arreat Summit - Quests: Act I,d718aa0a-11ab-5b6b-bb47-1824d9409a3c,SourceDocument,arreat-summit
+,,act1,,The Arreat Summit - Quests: Act I,767f3105-064d-5cb0-b803-117fdba43b6b,QuestPage,arreat-summit
+,4175,1e79a727062fda202bf44451,,The Arreat Summit - Quests: Act II,dd0ff7ea-7837-5e44-bc44-293a623565cd,SourceDocument,arreat-summit
+,,act2,,The Arreat Summit - Quests: Act II,06e4b431-d8b4-5505-a3f7-b6909c77aa73,QuestPage,arreat-summit
+,3992,6a9d20540ddae97b6ca9b80f,,The Arreat Summit - Quests: Act III,7c82801d-3584-5109-b27a-0a977524b5d6,SourceDocument,arreat-summit
+,,act3,,The Arreat Summit - Quests: Act III,bdfc026c-0a49-5cd2-9f87-79f2f9f12436,QuestPage,arreat-summit
+,2395,809869cb35244841b0bb448b,,The Arreat Summit - Quests: Act IV,ab9ee584-8408-5813-8af8-a854ade705ec,SourceDocument,arreat-summit
+,,act4,,The Arreat Summit - Quests: Act IV,3ec9ca4d-4b14-50a6-9eff-0079e52fda72,QuestPage,arreat-summit
+,5684,6247266e3ef62ce18dece839,,The Arreat Summit - Quests: Act V,c2218fb6-55a9-5a49-93dd-77b63f3b6939,SourceDocument,arreat-summit
+,,act5,,The Arreat Summit - Quests: Act V,1498bceb-4bd6-5e7d-bd32-7a06ddf91cdf,QuestPage,arreat-summit
+,7771,f636a18b4525547d5fe7fcaa,,The Arreat Summit - The Secret Cow Level,f74989e8-4308-5ea6-8bd2-f9759518ccfc,SourceDocument,arreat-summit
+,,cow,,The Arreat Summit - The Secret Cow Level,b1bc1e3d-bb41-551b-b1aa-a197f79240d9,QuestPage,arreat-summit
+,4194,3b1d0d0900b933d503c354a5,,The Arreat Summit - Quests: Basic Quest Information,118c68d2-52f0-56e0-ae90-31cc0c59eb1b,SourceDocument,arreat-summit
+,,basic,,The Arreat Summit - Quests: Basic Quest Information,9a7c432c-788e-5220-a59f-517473f42bca,QuestPage,arreat-summit
+,5490,a4d457b63789a814469c9c04,,The Arreat Summit - Quests: Rewards,776d7a97-a669-5b80-8723-d2fa6fc1770c,SourceDocument,arreat-summit
+,,rewards,,The Arreat Summit - Quests: Rewards,5056fdc0-9820-5c44-a84e-2170f1a6f0b5,QuestPage,arreat-summit
+,2597,2f7c3602044d24a9de3107eb,,The Arreat Summit - Maps: Act I,27c85c0d-c7d0-5ffd-9423-2f2a5d43f00e,SourceDocument,arreat-summit
+,,act1,,The Arreat Summit - Maps: Act I,0db90844-98ad-569a-9bc0-0239f51ae66c,AreaPage,arreat-summit
+,2490,fd37d5f139dd65f220847773,,The Arreat Summit - Maps: Act II,e4dd0175-ea2e-5c03-894c-f2f82133951c,SourceDocument,arreat-summit
+,,act2,,The Arreat Summit - Maps: Act II,f6deeb42-b3e4-54f6-a053-fbca05d5bafd,AreaPage,arreat-summit
+,2062,617da15456dbb56181accaa3,,The Arreat Summit - Maps: Act III,25bf68ff-8f0c-5f78-b8db-afc1c5a1af22,SourceDocument,arreat-summit
+,,act3,,The Arreat Summit - Maps: Act III,7257478e-aeba-54d3-b161-c27b494e1eb2,AreaPage,arreat-summit
+,1100,4945afbffd41663f09bbae3b,,The Arreat Summit - Maps: Act IV,e76f211d-2f70-551a-ab62-e9a58286da60,SourceDocument,arreat-summit
+,,act4,,The Arreat Summit - Maps: Act IV,f6b9d327-7727-5123-b3b6-e3fd30f54b71,AreaPage,arreat-summit
+,3491,d04d748ed493ca6e80caf24d,,The Arreat Summit - Maps: Act V,e797ea2c-f489-536a-9a94-c04d825621ca,SourceDocument,arreat-summit
+,,act5,,The Arreat Summit - Maps: Act V,a2af295c-05c4-55f5-b82d-8736b3574ef5,AreaPage,arreat-summit
+,,purediablo-d2wiki,,PureDiablo D2Wiki,96237198-c621-59f3-a63f-3e518fa94b50,Source,
+,18572,c38066d71b9947c6870017ce,,Horadric Cube - Diablo 2 Wiki,27ee807a-4b61-5bd3-994a-4f556c8781ff,SourceDocument,purediablo-d2wiki
+,,Horadric_Cube,,Horadric Cube - Diablo 2 Wiki,e29178f1-2ef6-5e9d-8d7a-a566cde8928c,RecipePage,purediablo-d2wiki
+,84344,9b3f49fd36ce3ac1899d20fb,,Runewords - Diablo 2 Wiki,18a757f2-ad8a-58e7-93f9-e004e3b8f73c,SourceDocument,purediablo-d2wiki
+,,Runewords,,Runewords - Diablo 2 Wiki,63cd158f-46ff-5f05-85c7-6da500b5e400,RunewordIndex,purediablo-d2wiki
+,20079,97969bbb90bb416d04d09731,,Amazon - Diablo 2 Wiki,b2edfcac-601f-5de7-a7cb-2d87f6647d01,SourceDocument,purediablo-d2wiki
+,,Amazon,,Amazon - Diablo 2 Wiki,776ed47b-bb90-5837-87f8-11e2fefc67eb,Class,purediablo-d2wiki
+,7048,c5b299d3bc88b7e1aeee52da,,Amazon Skills - Diablo 2 Wiki,8c48aea7-48c2-5328-ad1a-8a6070539ca8,SourceDocument,purediablo-d2wiki
+,,Amazon_Skills,,Amazon Skills - Diablo 2 Wiki,b3fb60c2-4de8-5992-a519-0cc9b79c2e5b,WikiPage,purediablo-d2wiki
+,71,873fbb3b1d4d9a617686ee6b,,,338b3688-77e9-5330-a847-456615408a30,SourceDocument,purediablo-d2wiki
+,,Amazon_Javelin_and_Spear,,,ce042b22-8c91-5ccb-94ad-389440b2f742,WikiPage,purediablo-d2wiki
+,18471,9f1af5cc6a1d02dcdfe2d498,,Barbarian - Diablo 2 Wiki,880204fb-bd78-5a78-b44e-932eca673e38,SourceDocument,purediablo-d2wiki
+,,Barbarian,,Barbarian - Diablo 2 Wiki,b34469f7-617c-542b-9fe4-194ae7ea1847,WikiPage,purediablo-d2wiki
+,6834,9cdf6072c88a74cef0eb42e9,,Barbarian Skills - Diablo 2 Wiki,53b64586-64e2-5d36-8d9c-f50a7dbdb0bb,SourceDocument,purediablo-d2wiki
+,,Barbarian_Skills,,Barbarian Skills - Diablo 2 Wiki,fb00886d-184f-5f06-a46a-9ce9eda176c1,WikiPage,purediablo-d2wiki
+,25284,d16831be8d4e6dc821579ab9,,Barbarian Combat Skills - Diablo 2 Wiki,c464381c-12d8-5c4c-a889-da66c2d07e7e,SourceDocument,purediablo-d2wiki
+,,Barbarian_Combat_Skills,,Barbarian Combat Skills - Diablo 2 Wiki,8b6685ee-7810-5d99-a63f-25dad9238d2c,WikiPage,purediablo-d2wiki
+,18144,e3380087d4b4dcf72be63933,,Barbarian Combat Masteries - Diablo 2 Wiki,0ad73bac-41a1-5423-b351-152a567cc858,SourceDocument,purediablo-d2wiki
+,,Barbarian_Combat_Masteries,,Barbarian Combat Masteries - Diablo 2 Wiki,376a5930-2475-5726-80de-2965a8226a85,WikiPage,purediablo-d2wiki
+,26093,34235989058ca95f9977c061,,Barbarian Warcries - Diablo 2 Wiki,8ff9f142-b2c6-52cb-ab82-588bc9503ec9,SourceDocument,purediablo-d2wiki
+,,Barbarian_Warcries,,Barbarian Warcries - Diablo 2 Wiki,152d8639-a853-5539-8222-c0e10e198792,WikiPage,purediablo-d2wiki
+,19211,8d6f4ce634a77d6bd4dfd8ce,,Assassin - Diablo 2 Wiki,0dd20058-b375-5f85-8c5a-592ad3b16484,SourceDocument,purediablo-d2wiki
+,,Assassin,,Assassin - Diablo 2 Wiki,c1190e40-0ba7-5d39-abd9-a8bf609dc0f1,WikiPage,purediablo-d2wiki
+,71,971da391ca321259c4700f05,,,c0665ebb-bd98-59f6-9c94-b379da528388,SourceDocument,purediablo-d2wiki
+,,Assassin_Skills,,,422e1be1-4bc3-5845-81e7-61cecd984b2b,WikiPage,purediablo-d2wiki
+,20276,8895d78b72dab522ffe75c87,,Assassin Shadow Disciplines - Diablo 2 Wiki,f03d3513-9f27-5172-a37c-991ae12fb862,SourceDocument,purediablo-d2wiki
+,,Assassin_Shadow_Disciplines,,Assassin Shadow Disciplines - Diablo 2 Wiki,3214b01b-d724-55dd-84ea-d8a91d1bd6b5,WikiPage,purediablo-d2wiki
+,19435,186ff7a0ddb7b8a66f436843,,Assassin Martial Arts - Diablo 2 Wiki,e13e3487-1001-558d-af7c-7b8c91bb839f,SourceDocument,purediablo-d2wiki
+,,Assassin_Martial_Arts,,Assassin Martial Arts - Diablo 2 Wiki,a346e1f2-fce3-555b-9e80-3f7ccf325a94,WikiPage,purediablo-d2wiki
+,17060,f75063d42347340d19ef6858,,Assassin Traps - Diablo 2 Wiki,85e4c95b-0fac-5639-aba7-dd72ce50302a,SourceDocument,purediablo-d2wiki
+,,Assassin_Traps,,Assassin Traps - Diablo 2 Wiki,6b095ae2-ccdd-53ae-b2fb-470dfcaff0a4,WikiPage,purediablo-d2wiki
+,12677,29a691598873b6d57ebb3339,,Paladin - Diablo 2 Wiki,b0b1d22b-e12b-5946-89d9-0a25a8042067,SourceDocument,purediablo-d2wiki
+,,Paladin,,Paladin - Diablo 2 Wiki,fcebc41c-f50e-55e9-93e1-37b801f0cdb4,Class,purediablo-d2wiki
+,6627,8e344582841e1ca3eb0dd5a1,,Paladin Skills - Diablo 2 Wiki,46370b86-9cc6-5782-81a0-dc48ba570a36,SourceDocument,purediablo-d2wiki
+,,Paladin_Skills,,Paladin Skills - Diablo 2 Wiki,e9447d6a-6415-58df-8d22-bc38957cdac1,WikiPage,purediablo-d2wiki
+,19760,534ff726035f4fb25f9d7a96,,Paladin Offensive Auras - Diablo 2 Wiki,02789265-ee70-5a6b-9c62-806fd81829d4,SourceDocument,purediablo-d2wiki
+,,Paladin_Offensive_Auras,,Paladin Offensive Auras - Diablo 2 Wiki,2d76289d-a73a-5bda-bac6-0fee237e94ba,WikiPage,purediablo-d2wiki
+,19238,7b44cfdc9f7fb7025d2d7c79,,Paladin Defensive Auras - Diablo 2 Wiki,b2138669-1d8b-54d9-8e77-8fe7a940d221,SourceDocument,purediablo-d2wiki
+,,Paladin_Defensive_Auras,,Paladin Defensive Auras - Diablo 2 Wiki,516542ac-e147-51a9-89e1-52975fda95b8,WikiPage,purediablo-d2wiki
+,10160,90e1f27805cd5fc2d2d2f5eb,,Sorceress - Diablo 2 Wiki,475d5bbe-bfd0-5c29-a6c7-a0a662056a04,SourceDocument,purediablo-d2wiki
+,,Sorceress,,Sorceress - Diablo 2 Wiki,0ba81323-4aff-5c8b-81eb-5cb503dae2dc,WikiPage,purediablo-d2wiki
+,7092,5b682cee73e64886e141b51c,,Sorceress Skills - Diablo 2 Wiki,c6ec1372-16c5-504b-9653-242580c5808f,SourceDocument,purediablo-d2wiki
+,,Sorceress_Skills,,Sorceress Skills - Diablo 2 Wiki,915f2256-950d-533b-af14-cedcf69c204b,WikiPage,purediablo-d2wiki
+,19663,726b24a9f9dab6708fea2871,,Sorceress Cold Spells - Diablo 2 Wiki,f9edb1e9-8b0e-58ba-bf2a-76475e423e63,SourceDocument,purediablo-d2wiki
+,,Sorceress_Cold_Spells,,Sorceress Cold Spells - Diablo 2 Wiki,3a42c5f2-3181-552c-911e-2e0336b43404,WikiPage,purediablo-d2wiki
+,18233,c8e97c57754e876bbd045a0e,,Sorceress Fire Spells - Diablo 2 Wiki,44f7f018-1ba7-5248-81af-3f74c0845f93,SourceDocument,purediablo-d2wiki
+,,Sorceress_Fire_Spells,,Sorceress Fire Spells - Diablo 2 Wiki,ebc7f357-6012-52cf-9705-41db3d221ed2,WikiPage,purediablo-d2wiki
+,19859,658bf648dbc86098e72b7472,,Druid - Diablo 2 Wiki,b36687be-17b3-5676-8ffa-93f3558845ad,SourceDocument,purediablo-d2wiki
+,,Druid,,Druid - Diablo 2 Wiki,662083bd-853d-5444-9ccc-dd041b93a896,WikiPage,purediablo-d2wiki
+,6889,0a7ed4cae48fc0517ffcdae7,,Druid Skills - Diablo 2 Wiki,d55b1774-4fd1-5b56-af04-4c923c066e80,SourceDocument,purediablo-d2wiki
+,,Druid_Skills,,Druid Skills - Diablo 2 Wiki,104c2b31-8e71-5b84-a2f9-d05cb93a6ad4,WikiPage,purediablo-d2wiki
+,20365,1e89978480a955ecaa1517e2,,Druid Elemental Skills - Diablo 2 Wiki,074f550c-86ad-5dbe-a174-cd6e2efe557e,SourceDocument,purediablo-d2wiki
+,,Druid_Elemental_Skills,,Druid Elemental Skills - Diablo 2 Wiki,777bbd68-05a4-542a-901c-a02d8c533a6e,WikiPage,purediablo-d2wiki
+,21261,c2a90b70dcbf6805bbbfcb7b,,Druid Summoning Skills - Diablo 2 Wiki,09633bf1-db80-5447-9ea7-0efe2653c2a6,SourceDocument,purediablo-d2wiki
+,,Druid_Summoning_Skills,,Druid Summoning Skills - Diablo 2 Wiki,7d840fe4-d70e-59cd-b614-ac90c89eff12,WikiPage,purediablo-d2wiki
+,11164,2ae2c2f7b4cfc1040da6bf16,,Necromancer - Diablo 2 Wiki,748c651d-81e3-510b-91e9-e2400ccf6a00,SourceDocument,purediablo-d2wiki
+,,Necromancer,,Necromancer - Diablo 2 Wiki,64ce8943-b18a-536f-baf2-a4c9c5991cef,Class,purediablo-d2wiki
+,6604,90a0cb0a1a999836c5aa0fb4,,Necromancer Skills - Diablo 2 Wiki,c8d6e5a3-7f92-5430-b28b-01d02e03dcc1,SourceDocument,purediablo-d2wiki
+,,Necromancer_Skills,,Necromancer Skills - Diablo 2 Wiki,a81a530f-8bb5-5b21-a031-1e3c565f3f32,SkillPage,purediablo-d2wiki
+,20510,140306925cb6010ceae41d9b,,Necromancer Poison and Bone - Diablo 2 Wiki,372767ee-6625-58a8-baa7-65bfa5191ad7,SourceDocument,purediablo-d2wiki
+,,Necromancer_Poison_and_Bone,,Necromancer Poison and Bone - Diablo 2 Wiki,f94d7e81-0bf2-52fc-9d30-b66f52477996,SkillPage,purediablo-d2wiki
+,22922,7af1fef5f7969f0e15f9de7c,,Necromancer Items - Diablo 2 Wiki,796154e7-c9c1-5a7a-aa7b-5c15f7edd1cf,SourceDocument,purediablo-d2wiki
+,,Necromancer_Items,,Necromancer Items - Diablo 2 Wiki,b189cff6-8620-5986-b66a-7112bcb2de97,ItemGuidePage,purediablo-d2wiki
+,8382,8f3872946abd0f38ccece7d5,,Rune - Diablo 2 Wiki,53939a42-69ee-569b-92eb-3f04525e5107,SourceDocument,purediablo-d2wiki
+,,Runes,,Rune - Diablo 2 Wiki,7d91a438-58e8-55ae-9375-b5b5808b2caa,WikiPage,purediablo-d2wiki
+,7354,abef6d6f64f52553a62e07a7,,Item Set - Diablo 2 Wiki,098a9a06-01da-5434-9f81-5d58680834c9,SourceDocument,purediablo-d2wiki
+,,Set_Items,,Item Set - Diablo 2 Wiki,9103f6e0-5c76-5707-83e6-6b74432e512b,WikiPage,purediablo-d2wiki
+,13414,5764943536564af16a18c2d2,,Mercenaries - Diablo 2 Wiki,e96c6743-919a-5900-b122-8341145db95f,SourceDocument,purediablo-d2wiki
+,,Mercenaries,,Mercenaries - Diablo 2 Wiki,6f70776c-f8d5-5e66-a465-db91150d0748,WikiPage,purediablo-d2wiki
+,48045,0e664a6d795009bc0254c3b5,,Magic Find - Diablo 2 Wiki,423da44a-a578-5634-8677-db28062d50d2,SourceDocument,purediablo-d2wiki
+,,Magic_Find,,Magic Find - Diablo 2 Wiki,002c6a4d-18ed-57f4-89d4-ba3a09e86665,WikiPage,purediablo-d2wiki
+,6641,1d4e6947e976d855342c95ef,,Act I - Diablo 2 Wiki,bfd3e597-dc6e-51c9-a449-1ed894c146a6,SourceDocument,purediablo-d2wiki
+,,Act_I,,Act I - Diablo 2 Wiki,af1c9c4a-cffe-542c-8b1c-d6a8424a62ea,WikiPage,purediablo-d2wiki
+,7384,862c5e4477d0ba8121606898,,Act II - Diablo 2 Wiki,ff1673e6-fc92-5d97-a698-3873d218604d,SourceDocument,purediablo-d2wiki
+,,Act_II,,Act II - Diablo 2 Wiki,ec3a6da9-7e2e-502f-9e66-6a133e2bf1ea,WikiPage,purediablo-d2wiki
+,8044,2cec531ff8c5fcecdc8fdd2f,,Act III - Diablo 2 Wiki,d99624a5-dce9-507a-80b0-6ef96c738ca9,SourceDocument,purediablo-d2wiki
+,,Act_III,,Act III - Diablo 2 Wiki,6b68311f-5bd7-511a-b5bb-f7bed09079c5,WikiPage,purediablo-d2wiki
+,6824,2595b38a46ac8f8b396c5517,,Act IV - Diablo 2 Wiki,96301e42-e7bc-5e68-92a8-71fe78ed6180,SourceDocument,purediablo-d2wiki
+,,Act_IV,,Act IV - Diablo 2 Wiki,c8b381c4-d3ba-5e37-b158-300f492d4f97,WikiPage,purediablo-d2wiki
+,8553,fb01e53635a68ab9ad795a62,,Act V - Diablo 2 Wiki,de9f245e-9528-5b05-9bde-e47ebd6500b2,SourceDocument,purediablo-d2wiki
+,,Act_V,,Act V - Diablo 2 Wiki,124ee1b0-3b84-5c91-886b-fd13ba5dcfc0,WikiPage,purediablo-d2wiki
+,142553,9aa2d11a2ecc875ebb3447b1,,Diablo II Manual - Diablo 2 Wiki,e9de20a2-ea0f-5a5b-ab2a-32c94bd1df8e,SourceDocument,purediablo-d2wiki
+,,Diablo_II_Manual,,Diablo II Manual - Diablo 2 Wiki,0f045d71-7b02-5416-a213-98a37644bd5a,ReferenceManual,purediablo-d2wiki
+,7133,ebff025d51499cd0f278e5ca,,Trang-Oul's Avatar - Diablo 2 Wiki,9a9a3689-55db-5058-a3ac-cbf1043f92db,SourceDocument,purediablo-d2wiki
+,,Trang-Oul%27s_Avatar,,Trang-Oul's Avatar - Diablo 2 Wiki,bbd9ae61-5825-5021-953a-6376c127ac62,WikiPage,purediablo-d2wiki
+,58807,62cb0dc69ada28b0f26acace,,V1.10 FAQ - Diablo 2 Wiki,e2a9f243-69bc-52fb-aa32-f6167470fe09,SourceDocument,purediablo-d2wiki
+,,V1.10_FAQ,,V1.10 FAQ - Diablo 2 Wiki,5a131645-f8ba-58b2-a7e4-59ec9c35d08e,ReferenceFAQ,purediablo-d2wiki

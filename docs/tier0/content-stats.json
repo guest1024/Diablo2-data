@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "documents": 30,
+    "chunks": 4490,
+    "total_doc_chars": 5298286,
+    "total_doc_words_approx": 290428,
+    "raw_bytes": 18711181,
+    "normalized_bytes": 5533186,
+    "chunks_bytes": 7320944
+  },
+  "by_source": {
+    "arreat-summit": {
+      "documents": 8,
+      "chars": 25775,
+      "words": 4444,
+      "chunks": 33
+    },
+    "diablo2-io": {
+      "documents": 11,
+      "chars": 5120255,
+      "words": 279811,
+      "chunks": 4321
+    },
+    "blizzhackers-d2data": {
+      "documents": 4,
+      "chars": 131452,
+      "words": 4245,
+      "chunks": 112
+    },
+    "diablo2-net-api": {
+      "documents": 4,
+      "chars": 17156,
+      "words": 1736,
+      "chunks": 19
+    },
+    "blizzard-cn-d2": {
+      "documents": 3,
+      "chars": 3648,
+      "words": 192,
+      "chunks": 5
+    }
+  }
+}

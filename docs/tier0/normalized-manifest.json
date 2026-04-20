@@ -1,0 +1,27 @@
+{
+  "document_count": 30,
+  "chunk_count": 4490,
+  "sources": [
+    "arreat-summit",
+    "blizzard-cn-d2",
+    "blizzhackers-d2data",
+    "diablo2-io",
+    "diablo2-net-api"
+  ],
+  "documents_by_source": {
+    "arreat-summit": 8,
+    "diablo2-io": 11,
+    "blizzhackers-d2data": 4,
+    "diablo2-net-api": 4,
+    "blizzard-cn-d2": 3
+  },
+  "chunks_by_source": {
+    "arreat-summit": 33,
+    "diablo2-io": 4321,
+    "blizzhackers-d2data": 112,
+    "diablo2-net-api": 19,
+    "blizzard-cn-d2": 5
+  },
+  "documents_path": "docs/tier0/normalized/documents.jsonl",
+  "chunks_path": "docs/tier0/derived/chunks.jsonl"
+}

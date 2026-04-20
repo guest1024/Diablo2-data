@@ -1,0 +1,210 @@
+{
+  "queries": {
+    "resolve_alias_spirit": {
+      "input": {
+        "alias": "Spirit"
+      },
+      "matches": [
+        {
+          "canonical_id": "a0d8679b-e7d7-584a-aac1-0cb384fa61d6",
+          "name": "spirit-t3.html",
+          "node_type": "Runeword",
+          "aliases": [
+            "spirit t3",
+            "spirit-t3.html"
+          ]
+        },
+        {
+          "canonical_id": "fc907e86-b31b-54c2-98ba-387643644d97",
+          "name": "izual-spirit-t3954.html",
+          "node_type": "NPC",
+          "aliases": [
+            "izual spirit t3954",
+            "izual-spirit-t3954.html"
+          ]
+        }
+      ]
+    },
+    "find_api_gated_knowledge": {
+      "input": {
+        "predicate": "api_requires_key"
+      },
+      "matches": [
+        {
+          "canonical_claim_id": "8b6d64ea-d15c-59f2-a55a-736ab4fc0825",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "subject_name": "Diablo 2 API | Diablo-2.net",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ]
+        },
+        {
+          "canonical_claim_id": "a1c2197e-8bdd-5712-9ca7-5f8a5336625e",
+          "subject_id": "1e12fd92-f131-58ca-94b8-18b4749586c0",
+          "subject_name": "runes-endpoint",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ]
+        },
+        {
+          "canonical_claim_id": "f4657a7e-efb0-5c7d-aa05-a9384d6c7660",
+          "subject_id": "c9eb4129-4857-5618-bac7-05f6ce74a559",
+          "subject_name": "unique-items-endpoint",
+          "predicate": "api_requires_key",
+          "object": "true",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ]
+        }
+      ]
+    },
+    "grounded_lookup_first_entity": {
+      "input": {
+        "canonical_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb"
+      },
+      "claims": [
+        {
+          "canonical_claim_id": "7b9859d3-6dd2-568e-b523-3468e710f0c8",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "subject_type": "ApiEndpoint",
+          "subject_name": "Diablo 2 API | Diablo-2.net",
+          "subject_aliases": [
+            "Diablo 2 API | Diablo-2.net",
+            "api"
+          ],
+          "predicate": "discovered_via",
+          "predicate_family": "provenance",
+          "object": "https://www.diablo-2.net/api/",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ],
+          "supporting_source_count": 1,
+          "claim_variant_count": 1
+        },
+        {
+          "canonical_claim_id": "8b6d64ea-d15c-59f2-a55a-736ab4fc0825",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "subject_type": "SourceDocument",
+          "subject_name": "Diablo 2 API | Diablo-2.net",
+          "subject_aliases": [
+            "Diablo 2 API | Diablo-2.net",
+            "api"
+          ],
+          "predicate": "api_requires_key",
+          "predicate_family": "availability",
+          "object": "true",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ],
+          "supporting_source_count": 1,
+          "claim_variant_count": 1
+        },
+        {
+          "canonical_claim_id": "777cc813-c929-5ee4-938e-025cc4db1a31",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "subject_type": "SourceDocument",
+          "subject_name": "Diablo 2 API | Diablo-2.net",
+          "subject_aliases": [
+            "Diablo 2 API | Diablo-2.net",
+            "api"
+          ],
+          "predicate": "authority_tier",
+          "predicate_family": "classification",
+          "object": "structured_db",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ],
+          "supporting_source_count": 1,
+          "claim_variant_count": 1
+        },
+        {
+          "canonical_claim_id": "22676865-761f-5dca-acee-80fcf889fffc",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "subject_type": "SourceDocument",
+          "subject_name": "Diablo 2 API | Diablo-2.net",
+          "subject_aliases": [
+            "Diablo 2 API | Diablo-2.net",
+            "api"
+          ],
+          "predicate": "lane",
+          "predicate_family": "classification",
+          "object": "api",
+          "supporting_sources": [
+            "diablo2-net-api"
+          ],
+          "supporting_source_count": 1,
+          "claim_variant_count": 1
+        }
+      ],
+      "provenance": [
+        {
+          "provenance_id": "2ea01dfe-dfa6-5c49-b339-46f4280e5450",
+          "claim_id": "fe2e28fa-594d-52fc-ad27-427de18a393f",
+          "subject_id": "b65d2e30-ca3d-5893-b71e-2145685aafdb",
+          "predicate": "discovered_via",
+          "source_id": "diablo2-net-api",
+          "evidence_doc_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678",
+          "evidence_url": "https://www.diablo-2.net/api/",
+          "authority_tier": "structured_db",
+          "lane": "api"
+        }
+      ],
+      "chunks": [
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-1",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "Diablo 2 API | Diablo-2.net \n Switch to D2 Legacy\n\nHome\n\nArticles\n\nTrading\n\nCalculators\n\nRunes\n\nItems\n\nUnique Items\n\nSet Items\n\nHoradric Cube\n\nDownloads\n\nActs\n\nMonsters\n\nClasses\n\nMercenaries\n\nVideos\n\nHuge congrats to Maxroll and Riv for mak"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-2",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "Methods \n \n Depending on the endpoint. Check individual endpoints for methods \n \n Response \n \n Response is in JSON Pretty format or XML \n \n Example \n \n https://www.diablo-2.net/api/items?item=ColossusSword&class=Barbarian&level=99&output=xm"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-3",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "es TheGeneralsTanDoLiGa. Full list for devs - here \n \n class (case insensitive) - amazon, assassin, necromancer, barbarian, sorceres, paladin, druid \n \n level - 1 to 99 \n \n output (Optional) - json - for JSON response or xml for xml respons"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-4",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "Item Shako ShakoEth WarHat WarHatEth Cap CapEth Hydraskull HydraskullEth Sallet SalletEth SkullCap SkullCapEth Armet ArmetEth Casque CasqueEth HelmHelm HelmHelmEth GiantConch GiantConchEth Basinet BasinetEth FullHelm FullHelmEth BoneVisage "
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-5",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "l SplintMailEth HellforgePlate HellforgePlateEth TemplarCoat TemplarCoatEth PlateMail PlateMailEth KrakenShell KrakenShellEth SharktoothArmor SharktoothArmorEth FieldPlate FieldPlateEth LacqueredPlate LacqueredPlateEth EmbossedPlate Embosse"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-6",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "rGloves LeatherGlovesEth VampireboneGloves VampireboneGlovesEth SharkskinGloves SharkskinGlovesEth HeavyGloves HeavyGlovesEth Vambracers VambracersEth HeavyBracers HeavyBracersEth ChainGloves ChainGlovesEth CrusaderGauntlets CrusaderGauntle"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-7",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "rAxe WarAxeEth FeralAxe FeralAxeEth MilitaryAxe MilitaryAxeEth LargeAxe LargeAxeEth SilverEdgedAxe SilverEdgedAxeEth BeardedAxe BeardedAxeEth BroadAxe BroadAxeEth Decapitator DecapitatorEth Tabar TabarEth BattleAxe BattleAxeEth ChampionAxe "
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-8",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "e PhaseBladeEth DimensionalBlade DimensionalBladeEth CrystalSword CrystalSwordEth ConquestSword ConquestSwordEth BattleSword BattleSwordEth BroadSword BroadSwordEth CrypticSword CrypticSwordEth RuneSword RuneSwordEth LongSword LongSwordEth "
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-9",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": "epeatingCrossbow HyperionJavelin HyperionJavelinEth WarJavelin WarJavelinEth Javelin JavelinEth StygianPilum StygianPilumEth GreatPilum GreatPilumEth Pilum PilumEth BalrogSpear BalrogSpearEth Simbilan SimbilanEth ShortSpear ShortSpearEth Gh"
+        },
+        {
+          "chunk_id": "aac77696-0d4c-5192-a1c6-bd2aa0cae678::chunk-10",
+          "title": "Diablo 2 API | Diablo-2.net",
+          "text_preview": " LichWand LichWandEth TombWand TombWandEth BoneWand BoneWandEth UnearthedWand UnearthedWandEth GraveWand GraveWandEth GrimWand GrimWandEth BoneKnife BoneKnifeEth Poignard PoignardEth Dagger DaggerEth MithrilPoint MithrilPointEth Rondel Rond"
+        }
+      ]
+    }
+  }
+}

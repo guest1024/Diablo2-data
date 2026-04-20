@@ -1,0 +1,1823 @@
+<html>
+<head>
+	<title>The Arreat Summit - Skills: Paladin Defensive Auras</title>
+	<link rel="stylesheet" type="text/css" href="/diablo2exp/includes/d2-strat.css">
+	<script language="JavaScript" src="/diablo2exp/includes/d2.js"></script>
+</head>
+
+<body background="/images/battle/diablo2exp/images/bg2.jpg" bgcolor=black text="#AFAFAF" link="#928A70" vlink="#706850" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0 onLoad="self.focus()">
+
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td background=0 valign=top>
+
+<!--- MAIN MENU ------------------------------------------------------------------------------->
+	<table border=0 cellpadding=0 cellspacing=0>
+	<tr>
+	<td background=0><a href="http://us.blizzard.com/en-us/games/d2/" onMouseOut="offImg('logo')" onMouseOver="ovrImg('logo')" ><img src="/images/battle/diablo2exp/images/d2-logo-off.gif" name="logo" alt="Diablo II: Lord of Destruction" border=0 width=116 height=82></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/" onMouseOut="offImg('news')" onMouseOver="ovrImg('news')" onClick="actImg('news')"><img src="/images/battle/diablo2exp/images/menu/menu-news-off.gif" name="news" alt="News" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/basics/" onMouseOut="offImg('basics')" onMouseOver="ovrImg('basics')" onClick="actImg('basics')"><img src="/images/battle/diablo2exp/images/menu/menu-basics-off.gif" name="basics" alt="Basics" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/classes/" onMouseOut="offImg('classes')" onMouseOver="ovrImg('classes')" onClick="actImg('classes')"><img src="/images/battle/diablo2exp/images/menu/menu-classes-off.gif" name="classes" alt="Character Classes" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/skills/"><img src="/images/battle/diablo2exp/images/menu/menu-skills-act.gif" name="skills" alt="Skills" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/items/" onMouseOut="offImg('items')" onMouseOver="ovrImg('items')" onClick="actImg('items')"><img src="/images/battle/diablo2exp/images/menu/menu-items-off.gif" name="items" alt="Items" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/monsters/"  onMouseOut="offImg('monsters')" onMouseOver="ovrImg('monsters')" onClick="actImg('monsters')"><img src="/images/battle/diablo2exp/images/menu/menu-monsters-off.gif" name="monsters" alt="Monsters" border=0 width=116 height=37></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/npcs/" onMouseOut="offImg('npcs')" onMouseOver="ovrImg('npcs')" onClick="actImg('npcs')"><img src="/images/battle/diablo2exp/images/menu/menu-npcs-off.gif" name="npcs" alt="Towns" border=0 width=116 height=37></a></td>
+	</tr>
+	
+	<tr>
+	<td background=0><a href="/diablo2exp/quests/" onMouseOut="offImg('quests')" onMouseOver="ovrImg('quests')" onClick="actImg('quests')"><img src="/images/battle/diablo2exp/images/menu/menu-quests-off.gif" name="quests" alt="Quests" border=0 width=116 height=38></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/shrines.shtml" onMouseOut="offImg('shrines')" onMouseOver="ovrImg('shrines')" onClick="actImg('shrines')"><img src="/images/battle/diablo2exp/images/menu/menu-shrines-off.gif" name="shrines" alt="Shrines" border=0 width=116 height=38></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/maps/" onMouseOut="offImg('maps')" onMouseOver="ovrImg('maps')" onClick="actImg('maps')"><img src="/images/battle/diablo2exp/images/menu/menu-maps-off.gif" name="maps" alt="Maps" border=0 width=116 height=38></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="/diablo2exp/faq/" onMouseOut="offImg('faq')" onMouseOver="ovrImg('faq')" onClick="actImg('faq')"><img src="/images/battle/diablo2exp/images/menu/menu-faq-off.gif" name="faq" alt="F.A.Q." border=0 width=116 height=38></a></td>
+	</tr>
+	
+	<tr>
+	<td background=0><a href="/diablo2exp/files.shtml" onMouseOut="offImg('files')" onMouseOver="ovrImg('files')" onClick="actImg('files')"><img src="/images/battle/diablo2exp/images/menu/menu-files-off.gif" name="files" alt="Files" border=0 width=116 height=38></a></td>
+	</tr>
+
+	<tr>
+	<td background=0><img src="/images/battle/diablo2exp/images/menu/menu-bottom.gif" border=0 width=116 height=27></td>
+	</tr>
+
+	<tr>
+	<td background=0><a href="http://www.battle.net"><img src="/images/battle/diablo2exp/images/blizz-logo.gif" alt="Battle.net" border=0 width=116 height=78></a></td>
+	</tr>
+	</table>
+</td>
+
+<td background=0 valign=top width=90%>
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-top-back.gif" align=left width=50%><img src="/images/battle/diablo2exp/images/mid-top-left.gif" border=0 width=65 height=13></td>
+	<td background="/images/battle/diablo2exp/images/mid-top-back.gif" align=right width=50%><img src="/images/battle/diablo2exp/images/mid-top-right.gif" border=0 width=73 height=13></td>
+	</tr>
+	</table>
+
+<!--- SUBMENU BAR ----------------------------------------------------------------------------->
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background=0><img src="/images/battle/diablo2exp/images/mid-linkbar-left.gif" border=0 width=20 height=35></td>
+	<td background="/images/battle/diablo2exp/images/mid-linkbar-back.gif" align=center width=100%>
+		<font face="arial,helvetica" size=1><small>
+
+<a class="tiny" href="paladin-defense.shtml">Paladin: Defensive Auras</a> |
+<a class="tiny" href="paladin-offense.shtml">Paladin: Offensive Auras</a> |
+<a class="tiny" href="paladin-combat.shtml">Paladin: Combat Skills</a><br>
+<a class="tiny" href="basics.shtml">Skills Basics</a> | 
+<a class="tiny" href="castingdelays.shtml">Casting Delays</a> |
+<a class="tiny" href="/diablo2exp/skills/">Skills Index</a>
+    <br>
+
+		</small></font>
+	</td>
+	<td background=0><img src="/images/battle/diablo2exp/images/mid-linkbar-right.gif" border=0 width=21 height=35></td>
+	</tr>
+	</table>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-linkbarbot-back.gif" align=left width=50%><img src="/images/battle/diablo2exp/images/mid-linkbarbot-left.gif" border=0 width=30 height=8></td>
+	<td background="/images/battle/diablo2exp/images/mid-linkbarbot-back.gif" align=right width=50%><img src="/images/battle/diablo2exp/images/mid-linkbarbot-right.gif" border=0 width=36 height=8></td>
+	</tr>
+
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-mid-back.gif" colspan=2><img src="/images/shared/blank.gif" border=0 width=576 height=7></td>
+	</tr>
+	</table>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-textboxtop-back.gif" align=left width=50%><img src="/images/battle/diablo2exp/images/mid-textboxtop-left.gif" border=0 width=36 height=23></td>
+	<td background="/images/battle/diablo2exp/images/mid-textboxtop-back.gif" align=right width=50%><img src="/images/battle/diablo2exp/images/mid-textboxtop-right.gif" border=0 width=36 height=23></td>
+	</tr>
+	</table>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-textboxleft.gif"><img src="/images/shared/blank.gif" border=0 width=20 height=5></td>
+	<td background="/images/battle/diablo2exp/images/blackbg.gif" width=100%>
+
+
+		<br>
+<!--- HEADER GRAPHIC ---------------------------->
+		<table border=0 cellpadding=0 cellspacing=0 width=100%>
+		<tr>
+		<td background="/images/battle/diablo2exp/images/headers/header-back.gif"><img src="/images/battle/diablo2exp/images/headers/header-left.gif" border=0 width=80 height=60></td>
+		<td background="/images/battle/diablo2exp/images/headers/header-back.gif" align=center width=100%><img src="/images/battle/diablo2exp/images/headers/skills-pal-defensive.gif" alt="Defensive Auras" border=0 width=275 height=60></td>
+		<td background="/images/battle/diablo2exp/images/headers/header-back.gif"><img src="/images/battle/diablo2exp/images/headers/header-right.gif" border=0 width=80 height=60></td>
+		</tr>
+		</table>
+<!--- END HEADER GRAPHIC ------------------------>
+		<br>
+
+		<table border=0 cellpadding=10 cellspacing=0 width=100%>
+		<tr>
+		<td background="/images/battle/diablo2exp/images/blackbg.gif" align=left width=100%>
+			<font face="arial,helvetica" size=-1><span>
+			<p>
+<!--- MAIN CONTENT --------------------------------------------------------------------------->
+
+<center><a href="zp1.shtml">Skill Level Chart</a></center><P>
+
+<a href="#prayer">Prayer</a> [1], <a href="#resistfire">Resist Fire</a> [1],
+<a href="#resistcold">Resist Cold</a> [6], <a href="#resistlightning">Resist Lightning</a> [12],
+<a href="#defiance">Defiance</a> [6], <a href="#cleansing">Cleansing</a> [12], 
+<a href="#vigor">Vigor</a> [18], <a href="#meditation">Meditation</a> [24],
+<a href="#redemption">Redemption</a> [30], <a href="#salvation">Salvation</a> [30]
+<P>
+A Paladin cannot use more than one Aura at the same time. Different Auras can be stacked by multiple
+Paladins.
+<P>
+
+
+<!-----------PRAYER------------------------->
+<a name="prayer"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/prayer.jpg" alt="Prayer" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Prayer</b></font><BR>
+<b>Required Level:</b> 1<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+With this aura the Paladin basks himself and all he deems faithful in a warm, healing light. His 
+prayers for salvation carry him through the direst situations, allowing him to heal even 
+the deepest wounds in time.
+<P>
+
+<B>Effect</b>: 
+Heals all party members.
+<P>
+
+Prayer is helpful to heal other party members including Hirelings. However, at level 12 you can use Cleansing which is the same as having prayer active without mana cost and also reduces poison and curse duration but also shrine duration.<P>
+
+Often Prayer is best used after battle, but when focused, can provide healing during battle.<P>
+
+Before focusing in Prayer, keep in mind <a href="#redemption">Redemption</a> is available
+at Level 30. Redemption has the potential to heal much faster and only needs monster corpses to support rather than mana.
+One draw back of Redemption is that it cannot heal party members.<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Healing</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>2</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>3</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>4</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>5</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>6</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>7</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>8</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>9</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>10</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>11</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>12</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>13</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>14</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>15</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>16</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>17</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>19</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>21</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>23</font></TD>		
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>25</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Mana Cost</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1.1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1.5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1.7</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1.9</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2.1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2.5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2.8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3.2</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3.4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3.8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4.1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4.5</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/prayer01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/prayer01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 82 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!-------RESIST FIRE-------------------->
+<a name="resistfire"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/resisfire.jpg" alt="Resist Fire" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Resist Fire</b></font><BR>
+<b>Required Level:</b> 1<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+Shrouding himself in his devotions, the fervent servant of the Light can walk a lake of 
+fire and feel only the comforting warmth of his convictions. A Paladin can withstand the 
+might of a fierce conflagration if his piety is strong enough.
+<P>
+
+<B>Effect</B>: 
+Increases the Fire resistance of all party members.
+<BR><BR>
+This skill has a hidden bonus to max resistance. It does not display on the skill itself (for space reasons) but it will display on your character screen. For each point in the skill you, and your nearby party members and pets, will receive +1% to maximum resist. This is capped at 95%. The Paladin also receives half of the +max resistance bonus (rounded down) when the skill is not active. So with 20 points in the skill you will get +10 to maximum resistance when the skill is off. You get no passive resistance to your actual resist but just to your maximum resist. Items that give bonuses to skills do not increase the passive bonus. 
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Resist Fire +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>52</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>66</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>76</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>85</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>92</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>98</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>102</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>106</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>110</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>113</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>116</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>118</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>121</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>123</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>124</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>127</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>128</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>129</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>130</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>131</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>+X% To Maximum Fire Res.</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>9</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>13</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>17</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/resistfire01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/resistfire01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 68 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!--------RESIST COLD-------------------->
+<a name="resistcold"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/resiscold.jpg" alt="Resist Cold" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Resist Cold</b></font><BR>
+<b>Required Level:</b> 6<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+The splendor of absolute devotion is all the warmth and comfort a Paladin requires. Embraced deep within 
+the shelter of this aura, the faithful need never fear the frost. 
+<P>
+
+<B>Effect</b>: 
+Increases the Cold resistance of all party members.
+<BR><BR>
+This skill has a hidden bonus to max resistance. It does not display on the skill itself (for space reasons) but it will display on your character screen. For each point in the skill you, and your nearby party members and pets, will receive +1% to maximum resist. This is capped at 95%. The Paladin also receives half of the +max resistance bonus (rounded down) when the skill is not active. So with 20 points in the skill you will get +10 to maximum resistance when the skill is off. You get no passive resistance to your actual resist but just to your maximum resist. Items that give bonuses to skills do not increase the passive bonus. 
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>22</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>23.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>24.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>26</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>27.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>28.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>30</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>31.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>32.6</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Resist Cold +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>52</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>66</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>76</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>85</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>92</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>98</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>102</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>106</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>110</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>113</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>116</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>118</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>121</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>123</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>124</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>127</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>128</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>129</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>130</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>131</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>+X% To Maximum Cold Res.</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>9</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>13</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>17</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=5 cellspacing=0 width=100%>
+<tr>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/resistcold01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/resistcold01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/resistcold02.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/resistcold02.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 91 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 104 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+
+<!-------RESIST LIGHTNING----------->
+<a name="resistlightning"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/resislight.jpg" alt="Resist Lightning" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Resist Lightning</b></font><BR>
+<b>Required Level:</b> 12<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+Even the elements of nature must yield before the glory of the Light. When a knight of Zakarum has 
+manifested this aura, he and his allies undergo a lessening of their body's natural conductivity, 
+protecting them from attacks empowered by electricity.
+<P>
+
+<B>Effect</b>: 
+Increases the Lighting resistance of all party members.
+<BR><BR>
+This skill has a hidden bonus to max resistance. It does not display on the skill itself (for space reasons) but it will display on your character screen. For each point in the skill you, and your nearby party members and pets, will receive +1% to maximum resist. This is capped at 95%. The Paladin also receives half of the +max resistance bonus (rounded down) when the skill is not active. So with 20 points in the skill you will get +10 to maximum resistance when the skill is off. You get no passive resistance to your actual resist but just to your maximum resist. Items that give bonuses to skills do not increase the passive bonus. 
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Resist Lightning +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>52</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>66</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>76</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>85</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>92</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>98</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>102</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>106</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>110</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>113</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>116</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>118</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>121</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>123</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>124</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>127</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>128</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>129</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>130</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>131</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>+X% To Maximum Light Res.</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>9</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>13</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>17</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=5 cellspacing=0 width=100%>
+<tr>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/resistlightning01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/resistlightning01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/resistlightning02.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/resistlightning02.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 91 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 93 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!------DEFIANCE------------->
+<a name="defiance"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/defiance.jpg" alt="Defiance" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Defiance</b></font><BR>
+<b>Required Level:</b> 6<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+Shielding himself and nearby companions within a glow of holy light, the Paladin girds 
+himself to face the unjust in combat. By standing resolute and earnest in the face of 
+opposition, his faith is his shield against harm.
+<P>
+
+<B>Effect</b>: 
+Boosts the Defense of all party members.
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Defense +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>70</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>80</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>90</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>100</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>110</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>120</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>130</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>140</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>150</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>160</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>170</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>180</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>190</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>200</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>210</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>220</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>230</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>240</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>250</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>260</font></TD>
+</TR>
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/defiance01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/defiance01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 121 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!-------CLEANSING------------->
+<a name="cleansing"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/cleansing.jpg" alt="Cleansing" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Cleansing</b></font><BR>
+<b>Required Level:</b> 12<BR>
+<b>Prerequisites</b>: <a href="#prayer">Prayer</a> [1]<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+Chaste is the Paladin in the face of all temptations. Pure in body and spirit, he trusts to 
+the splendor of the Light to rid him of all impurities. A Knight of the Faith shall neither 
+be tainted, nor corrupted.
+<P>
+
+<B>Effect</b>: 
+Reduces Poison and Curse duration for all party members.
+<P>
+
+<li>Cleansing is one of only two skills in the game that can reduce curse duration, the other being the Assassin skill Fade (which cannot be used on party members). 
+<li>Cleansing also reduces shrine duration.
+<p>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Duration Reduction</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>39</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>46</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>51</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>56</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>60</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>63</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>65</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>67</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>69</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>70</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>72</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>73</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>76</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>76</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>78</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>78</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>79</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>79</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>80</font></TD>
+</TR>
+
+</table>
+<BR>
+
+
+<table border=0 cellpadding=1 valign=left>
+<TR>
+<TH align=left><font face="arial,helvetica" size=-1 color="#00c400"><small>Bonuses To Cleansing</small></font></TH>
+</TR>
+<TR><TD align=left><font face="arial,helvetica" size=-1><small>Prayer: same as having Prayer active without mana cost</font></TD></TR>
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/cleansing01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/cleansing01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 71 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!------VIGOR------------------>
+<a name="vigor"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/vigor.jpg" alt="Vigor" width=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Vigor</b></font><BR>
+<b>Required Level:</b> 18<BR>
+<b>Prerequisites</b>: <a href="#prayer">Prayer</a> [1], <a href="#cleansing">Cleansing</a> [12], <a href="#defiance">Defiance</a> [6]<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+A noble knight of Zakarum feels the rapture of his salvation at all times. In his need, the 
+weight of the world lifts from his shoulders, allowing him to march forth without heed to the 
+lamentations of his body. 
+<P>
+
+<B>Effect</b>: 
+Increases Speed, Stamina, and Stamina recovery for all party members.
+<P>
+
+Vigor allows you and your party to travel faster, further, and longer! This is definitely a must have skill for fast paced
+game players. As you devote more points into Vigor you will walk and run faster, recover stamina faster, and
+increase the overall amount of stamina you have whenever this aura is active. Switch to Vigor whenever you are not fighting and not
+in any danger of enemy monsters. Use it when traveling over long distances that have already been cleared, use
+it in town to get to the vendors faster. Use it to return to town faster from the field. This can even be combined with Fastest Run/Walk 
+items to make the Paladin run even faster! This is one skill you don't want to miss.
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>22</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>24</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>26</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>28</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>30</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>32</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>34</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>38</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>40</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>42</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>44</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>46</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>48</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Walk Run Speed +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>13</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>22</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>25</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>28</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>30</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>32</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>33</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>35</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>36</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>37</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>38</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>39</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>40</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>40</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>41</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>41</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>42</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>42</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>43</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Max Stam Recovery +%</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>50</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>100</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>125</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>150</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>175</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>200</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>225</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>250</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>275</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>300</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>325</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>350</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>375</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>400</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>425</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>450</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>475</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>500</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>525</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Incr Stamina Recovery +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>50</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>100</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>125</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>150</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>175</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>200</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>225</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>250</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>275</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>300</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>325</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>350</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>375</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>400</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>425</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>450</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>475</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>500</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>525</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/vigor01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/vigor01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 69 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!------MEDITATION------------------>
+<a name="meditation"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/meditation.jpg" alt="Meditation" weight=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Meditation</b></font><BR>
+<b>Required Level:</b> 24<BR>
+<b>Prerequisites</b>: <a href="#prayer">Prayer</a> [1], <a href="#cleansing">Cleansing</a> [12]<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+With the observance of this aura, the Paladin supplicates himself to the Light with silent utterances 
+of prayers. It is in these times of silent worship that the Paladin is rejuvenated in spirit.
+<P>
+
+<B>Effect</b>: 
+Boosts Mana recovery for all party members.
+<P>
+
+Meditation will make you very popular with other party members such as Sorceress' and Necromancers.
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>22</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>23.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>24.6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>26</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>27.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>28.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>30</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>31.3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>32.6</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Mana Recovery +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>300</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>325</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>350</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>375</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>400</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>425</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>450</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>475</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>500</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>525</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>550</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>575</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>600</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>625</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>650</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>675</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>700</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>725</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>750</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>775</font></TD>
+</TR>
+
+</table>
+<BR>
+
+
+<table border=0 cellpadding=1 valign=left>
+<TR>
+<TH align=left><font face="arial,helvetica" size=-1 color="#00c400"><small>Bonuses To Meditation</small></font></TH>
+</TR>
+<TR><TD align=left><font face="arial,helvetica" size=-1><small> 
+Prayer: same as having Prayer active without mana cost<BR>
+        Note: Meditation will not work on hirelings
+</font></TD></TR>
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/meditation01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/meditation01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 51 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!------REDEMPTION------>
+<a name="redemption"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/redemption.jpg" alt="Redemption" weight=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Redemption</b></font><BR>
+<b>Required Level:</b> 30<BR>
+<b>Prerequisites</b>: <a href="#prayer">Prayer</a> [1], <a href="#cleansing">Cleansing</a> [12],
+<a href="#defiance">Defiance</a> [6], <a href="#vigor">Vigor</a> [18]<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+A Paladin must be true to his duty and belief that all souls are worthy of attempted salvation. With this 
+aura, the Paladin shares the glory of the Light with his vanquished enemies. With each administration of 
+these final rites, the Paladin is redeemed physically as well as spiritually.
+<P>
+
+<B>Effect</b>: 
+Periodically attempts to redeem corpses for Health and Mana.
+<P>
+
+Redemption does not regain mana or hit points for other party members, Minions, Monsters that have
+been converted or Hirelings.<P>
+
+To use Redemption, get within range of some monster bodies and turn on the aura. When you mouse over the skill it lists
+chance to Redeem. This means how fast Redemption will work. As you devote more points into Redemption, the chance
+to redeem will go up and it will work much faster. 
+<P>
+Redemption turns the Paladin to a virtual walking well. Whenever the Paladin can kill monsters creating bodies, he can use
+Redemption to regain mana and health. As you know, there is no shortage of monsters so there is now an almost endless supply
+of monsters to use to heal the Paladin and to regain mana. 
+
+This aura is a great replacement to Prayer. It works much faster than Prayer in combat and requires no mana, just
+monster bodies. When it works, it instantly regains health and mana. 
+<P>
+
+As you devote more points into Redemption, it will regain more
+Health and Mana from a body, and work much faster. However, this will eat up bodies much faster which isn't always what
+you want. If you plan on using Redemption while you fight, devote more points into it, so it will help you faster and heal more
+life, and regain more mana. If you plan on using it after battle, only devote one to a few points to it. 
+<P>
+
+The best way to use Redemption is to kill a few monsters, then run in circles around the monster's corpses until
+they are redeemed, then jump back into combat. This works very well against large groups of monsters. After finishing 
+a battle with less than full health or mana (if you're using Mana Skills), run back to a group of monster corpses and 
+turn on redemption.
+<P>
+
+
+Redemption can be used to get rid of monster bodies preventing any other creatures such as Shamans from raising the bodies. If
+possible bait the minions who might be raised away from their leader with Redemption on out of the range of the 
+raising monster. Kill them quickly and make sure redemption gets rid of the body. This will prevent the enemy 
+master from raising their minions. It's also possible to do this within the raising corpses range, but is 
+more difficult to pull off.
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD colspan=20><font face="arial,helvetica" size=-1><small>10.6</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Chance to Redeem +%</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>23</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>34</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>42</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>49</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>55</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>59</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>63</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>65</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>69</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>71</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>73</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>77</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>79</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>80</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>82</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>82</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>83</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>84</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>85</font></TD>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>HP/Mana Recovery (points)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>25</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>30</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>35</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>40</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>45</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>50</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>55</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>60</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>65</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>70</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>80</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>85</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>90</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>95</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>100</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>105</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>110</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>115</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>120</font></TD>
+</TR>
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=5 cellspacing=0 width=100%>
+<tr>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/redemption01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/redemption01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+<td valign=top align=center width=50%>
+<a href="/images/battle/diablo2exp/images/skills/redemption02.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/redemption02.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 97 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+<td valign=top align=center width="50%">
+<font size=-1 face="arial,helvetica">
+<P>
+<small><font color="#ffffff">
+[ Click to Enlarge - 96 KB ]
+</font>
+</small>
+</font>
+<br>
+</td>
+</tr>
+</table>
+</center>
+<br><br><br><br>
+
+<!------SALVATION------>
+<a name="salvation"></a>
+<table border=0 cellpadding=0 cellspacing=10>
+<tr>
+<td background=0 valign=top><img src="/images/battle/diablo2exp/images/paladin/salvation.jpg" alt="Salvation" weight=48 height=48></td>
+<td background=0 valign=top>
+	<font face="arial,helvetica" size=-1><span>
+<font color="#00c400"><b>Salvation</b></font><BR>
+<b>Required Level:</b> 30<BR>
+<b>Prerequisites</b>: None<BR>
+	</span></font>
+</td>
+</tr>
+</table>
+<p>
+
+Trust in the glory of the Light, for its authority supercedes all power in the mortal world. With 
+this aura, the Paladin calls upon the Light to protect his allies from elemental attacks. 
+<P>
+
+<B>Effect</b>: 
+Increases all Elemental resistances for all party members.
+<P>
+
+The ultimate in resistance skills, Salvation provides 60% Resistance to Fire, Cold, Lightning (but not Poison), with
+the first point. Used in connection with other resistance equipment, this can quickly boost you to the
+max of 75% resistance on Normal Difficulty. This can now be used to replace Resist Cold, Resist Fire, 
+and Resist lightning. By giving you resistance to Lightning, Fire and Cold at the same time, you 
+can take on packs of monsters with all of these attacks, instead of having to switch between Resist 
+Fire, Cold and Lightning Auras. Before devoting too many points to Resist Cold/Fire/Lightning, 
+keep in mind this skill is available at level 30. You'll find it very useful in parties and 
+for yourself as you head into Nightmare and Hell difficulty levels, and especially when you face 
+Unique Monsters and Bosses. 
+<P>
+
+
+<table border=0 width=100% cellpadding=1>
+<TR>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>Level</small></font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>1</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>2</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>3</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>4</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>5</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>6</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>7</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>8</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>9</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>10</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>11</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>12</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>13</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>14</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>15</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>16</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>17</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>18</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>19</font></TH>
+<TH><font face="arial,helvetica" size=-1 color="#ffffff"><small>20</font></TH>
+</TR>
+
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>Radius (yards)</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>12	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>13.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>14.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>16	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>17.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>18.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>20	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>21.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>22.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>24	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>25.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>26.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>28	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>29.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>30.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>32	</font></TD>	
+<TD align=center><font face="arial,helvetica" size=-1><small>33.3</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>34.6</font></TD>		
+<TD align=center><font face="arial,helvetica" size=-1><small>36</font></TD>
+</TR>
+
+<TR>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>Resist Lightning/Cold/Fire %</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>60</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>68</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>75</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>80</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>85</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>88</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>91</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>93</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>96</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>97</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>99</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>101</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>102</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>103</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>104</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>106</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>106</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>107</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>108</font></TD>
+<TD align=center bgcolor="#20100a"><font face="arial,helvetica" size=-1><small>108</font></TD>
+</TR>
+
+<!----------
+<TR>
+<TD align=center><font face="arial,helvetica" size=-1><small>+X% To Max Light/Cold/Fire Res.</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>1</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>2</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>3</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>4</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>5</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>6</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>7</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>8</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>9</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>10</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>11</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>12</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>13</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>14</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>15</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>16</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>17</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>18</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>19</font></TD>
+<TD align=center><font face="arial,helvetica" size=-1><small>20</font></TD>
+</TR>
+----------->
+
+</table>
+
+<P>
+
+<center>
+<table border=0 cellpadding=3 cellspacing=0>
+<tr>
+<td valign=bottom align=center width=200>
+<a href="/images/battle/diablo2exp/images/skills/salvation01.jpg" Target="new_window">
+<img src="/images/battle/diablo2exp/images/skills/salvation01.gif" width=200 height=150 border=0></a>
+</a>
+</td>
+</tr>
+
+<tr>
+<td valign=top align=center>
+<font size=-1 face="arial,helvetica">
+<small><font color="#ffffff">
+[ Click to Enlarge - 63 KB ]
+</font>
+</small>
+</font>
+</td>
+</tr>
+</table>
+</center>
+
+<!--- END MAIN CONTENT ----------------------------------------------------------------------->
+<p>
+<center>
+<br/>
+<br>
+<font face="arial,helvetica" size=1><small>
+<a class="tiny" href="http://us.blizzard.com/en-us/company/about/privacy.html">Online Privacy Policy</a><br>
+<a class="tiny" href="/tou.shtml">Battle.net Terms of Use Agreement</a><br>
+<a class="tiny" href="http://us.blizzard.com/en-us/company/about/legal-faq.html">&copy;2019 Blizzard Entertainment. All rights reserved.</a>
+</small></font>
+</center>
+<!--- Google Analytics -------------------------------->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-544112-16");
+pageTracker._setDomainName("battle.net");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<div style="display:none;">
+<iframe src="http://view.atdmt.com/NTB/iview/48a2358b5be444d995caf135b19a1389/direct;wi.1;hi.1/01?click=" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="1" height="1">
+<script language="JavaScript" type="text/javascript">
+document.write('<a href="http://clk.atdmt.com/NTB/go/48a2358b5be444d995caf135b19a1389/direct;wi.1;hi.1/01/" target="_blank"><img src="http://view.atdmt.com/NTB/view/48a2358b5be444d995caf135b19a1389/direct;wi.1;hi.1/01/"/></a>');
+</script>
+<noscript>
+<a href="http://clk.atdmt.com/NTB/go/48a2358b5be444d995caf135b19a1389/direct;wi.1;hi.1/01/" target="_blank">
+<img border="0" src="http://view.atdmt.com/NTB/view/48a2358b5be444d995caf135b19a1389/direct;wi.1;hi.1/01/" />
+</a>
+</noscript>
+</iframe>
+</div>
+			</span></font>
+		</td>
+		</tr>
+		</table>
+
+	</td>
+	<td background="/images/battle/diablo2exp/images/mid-textboxright.gif"><img src="/images/shared/blank.gif" border=0 width=21 height=5></td>
+	</tr>
+	</table>
+
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background="/images/battle/diablo2exp/images/mid-textboxbot-back.gif" align=left width=50%><img src="/images/battle/diablo2exp/images/mid-textboxbot-left.gif" border=0 width=132 height=98></td>
+	<td background="/images/battle/diablo2exp/images/mid-textboxbot-back.gif" align=right width=50%><img src="/images/battle/diablo2exp/images/mid-textboxbot-right.gif" border=0 width=106 height=98></td>
+	</tr>
+	</table>
+
+<!--- NAVIGATION BAR ------------------------------------------------------------------------->
+	<table border=0 cellpadding=0 cellspacing=0 width=100%>
+	<tr>
+	<td background=0 align=left width=100%><br><a href="/"  onMouseOut="offImg('exit')" onMouseOver="ovrImg('exit')"><img src="/images/battle/diablo2exp/images/botmenu-close-off.gif" name="exit" alt="Exit" border=0 width=43 height=43></a></td>
+	<td background=0><br><a href="index.shtml" onMouseOut="offImg('prev')" onMouseOver="ovrImg('prev')"><img src="/images/battle/diablo2exp/images/botmenu-prev-off.gif" name="prev" alt="Previous" border=0 width=44 height=43></a></td>
+	<td background=0><br><a href="paladin-offense.shtml" onMouseOut="offImg('next')" onMouseOver="ovrImg('next')"><img src="/images/battle/diablo2exp/images/botmenu-next-off.gif" name="next" alt="Next" border=0 width=45 height=43></a></td>
+	</tr>
+	</table>
+
+	<br>
+</td>
+
+<td background=0 valign=top width=10%>
+	<img src="/images/shared/blank.gif" border=0 width=10 height=1>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

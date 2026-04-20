@@ -1,0 +1,10 @@
+{
+  "canonical_entity_count": 571,
+  "support_edge_count": 350,
+  "claim_index_count": 747,
+  "paths": {
+    "canonical_entities": "docs/tier0/merged/canonical-entities.jsonl",
+    "support_edges": "docs/tier0/merged/support-edges.jsonl",
+    "claim_index": "docs/tier0/merged/claim-index.jsonl"
+  }
+}

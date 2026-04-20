@@ -1,0 +1,18 @@
+{
+  "csv_tables": {
+    "canonical_entities": 237,
+    "aliases": 461,
+    "canonical_claims": 51,
+    "support_edges": 16,
+    "provenance": 79,
+    "chunks": 4490
+  },
+  "files": {
+    "canonical_entities": "docs/tier0/export/canonical_entities.csv",
+    "aliases": "docs/tier0/export/aliases.csv",
+    "canonical_claims": "docs/tier0/export/canonical_claims.csv",
+    "support_edges": "docs/tier0/export/support_edges.csv",
+    "provenance": "docs/tier0/export/provenance.csv",
+    "chunks": "docs/tier0/export/chunks.csv"
+  }
+}

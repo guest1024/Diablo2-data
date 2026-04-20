@@ -1,0 +1,20 @@
+{
+  "predicate_families": {
+    "provenance": [
+      "discovered_via"
+    ],
+    "classification": [
+      "lane",
+      "authority_tier"
+    ],
+    "availability": [
+      "api_requires_key"
+    ]
+  },
+  "recommended_query_filters": [
+    "subject_type",
+    "predicate_family",
+    "supporting_source_count",
+    "supporting_sources"
+  ]
+}

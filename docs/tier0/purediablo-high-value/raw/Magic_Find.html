@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html class="client-nojs skin-citizen-dark" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Magic Find - Diablo 2 Wiki</title>
+<script>document.documentElement.className="client-js skin-citizen-dark";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"aeW7MFbRDCLSA2nEeIjP1QAAAU0","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Magic_Find","wgTitle":"Magic Find","wgCurRevisionId":27849,"wgRevisionId":27849,"wgArticleId":1690,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Modifiers","Magic Find","Calculations","FAQs","Item strategy guides (Diablo II)"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Magic_Find","wgRelevantArticleId":1690,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],
+"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"nearby":false,"watchlist":false,"tagline":false},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgEditSubmitButtonLabelPublish":false};RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.citizen.styles":"ready","skins.citizen.icons":"ready","skins.citizen.icons.wmui":"ready","yyy.customizations.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.citizen.scripts","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/d2wiki/load.php?lang=en&amp;modules=ext.visualEditor.desktopArticleTarget.noscript%7Cskins.citizen.icons%2Cstyles%7Cskins.citizen.icons.wmui%7Cyyy.customizations.styles&amp;only=styles&amp;skin=citizen"/>
+<script async="" src="/d2wiki/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=citizen"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/d2wiki/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=citizen"/>
+<meta name="generator" content="MediaWiki 1.39.1"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="theme-color" content="#101010"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0"/>
+<link rel="manifest" href="https://www.purediablo.com/d2wiki/api.php?action=webapp-manifest"/>
+<link rel="icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/d2wiki/opensearch_desc.php" title="Diablo 2 Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://www.purediablo.com/d2wiki/api.php?action=rsd"/>
+<link rel="canonical" href="https://www.purediablo.com/d2wiki/Magic_Find"/>
+<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="64bfd0ae235c5f5c8e60ea34" data-mode="scan" async></script>
+<script>window.applyPref=()=>{const a="skin-citizen-",b="skin-citizen-theme",c=a=>window.localStorage.getItem(a),d=c("skin-citizen-theme"),e=()=>{const d={fontsize:"font-size",pagewidth:"--width-layout",lineheight:"--line-height"},e=()=>["auto","dark","light"].map(b=>a+b),f=a=>{let b=document.getElementById("citizen-style");null===b&&(b=document.createElement("style"),b.setAttribute("id","citizen-style"),document.head.appendChild(b)),b.textContent=`:root{${a}}`};try{const g=c(b);let h="";if(null!==g){const b=document.documentElement;b.classList.remove(...e(a)),b.classList.add(a+g)}for(const[b,e]of Object.entries(d)){const d=c(a+b);null!==d&&(h+=`${e}:${d};`)}h&&f(h)}catch(a){}};if("auto"===d){const a=window.matchMedia("(prefers-color-scheme: dark)"),c=a.matches?"dark":"light",d=(a,b)=>window.localStorage.setItem(a,b);d(b,c),e(),a.addEventListener("change",()=>{e()}),d(b,"auto")}else e()},(()=>{window.applyPref()})();</script>
+</head>
+<body class="citizen-sections-enabled mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Magic_Find rootpage-Magic_Find skin-citizen action-view skin--responsive">
+ <script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="64bfd0ae235c5f5c8e60ea34" data-mode="scan" async></script>
+
+ 
+<header class="mw-header citizen-header">
+	<div class="citizen-header__logo">
+		<a href="/d2wiki/Main_Page" class="mw-logo citizen-header__button">
+			<img class="mw-logo-icon" src="/d2wiki/images/d2_logo.webp"alt="" aria-hidden="true" height="32" width="32">
+		</a>
+	</div>
+		
+<div class="citizen-search citizen-header__item mw-checkbox-hack-container">
+	<input
+		type="checkbox" 
+		id="citizen-search__checkbox" 
+		class="mw-checkbox-hack-checkbox"
+		role="button"
+		aria-labelledby="citizen-search__buttonCheckbox"
+		aria-haspopup="true">
+	<div role="search" class="citizen-search-box citizen-search__card mw-checkbox-hack-target">
+		<span class="citizen-search__icon citizen-ui-icon mw-ui-icon-wikimedia-search"></span>
+		<form action="/d2wiki/index.php" id="searchform" autocomplete="off">
+			<input type="hidden" name="title" value="Special:Search">
+			<label class="screen-reader-text" for="searchInput">Search</label>
+			<input type="search" name="search" placeholder="Search Diablo 2 Wiki" aria-label="Search Diablo 2 Wiki" autocapitalize="sentences" title="Search Diablo 2 Wiki [f]" accesskey="f" id="searchInput"/>
+		</form>
+		<a
+			class="citizen-search__random"
+			href="/d2wiki/Special:Random"
+			title="Random page">
+			<span class="citizen-ui-icon mw-ui-icon-wikimedia-die"></span>
+			<span class="screen-reader-text"></span>
+		</a>
+	</div>
+	<div class="citizen-search__button citizen-header__button">
+		<div class="citizen-search__buttonIcon citizen-header__buttonIcon">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<label
+			id="citizen-search__buttonCheckbox" 
+			class="mw-checkbox-hack-button citizen-header__buttonCheckbox" 
+			for="citizen-search__checkbox"
+			title="Toggle search [/]"
+			aria-hidden="true">
+			<span>Toggle search</span>
+		</label>
+	</div>
+</div>
+
+	<div class="citizen-drawer citizen-header__item mw-checkbox-hack-container">
+		<input 
+			type="checkbox" 
+			id="citizen-drawer__checkbox" 
+			class="mw-checkbox-hack-checkbox"
+			role="button"
+			aria-labelledby="citizen-drawer__buttonCheckbox"
+			aria-haspopup="true">
+		<aside id="citizen-drawer__card" class="citizen-drawer__card mw-checkbox-hack-target">
+			<header class="citizen-drawer__header">
+				<a href="/d2wiki/Main_Page" class="mw-logo citizen-drawer__logo">
+				<img class="mw-logo-icon" src="/d2wiki/images/d2_logo.webp"alt="" aria-hidden="true" height="80" width="80" loading="lazy">
+			</a>
+						<div class="citizen-drawer__siteinfo">
+					<div class="citizen-siteStats">
+	<div class="citizen-siteStats__item" id="citizen-siteStats__item--articles" title="articles">
+		<span class="citizen-ui-icon mw-ui-icon-article mw-ui-icon-wikimedia-article"></span>
+		1,932
+	</div>
+	<div class="citizen-siteStats__item" id="citizen-siteStats__item--images" title="files">
+		<span class="citizen-ui-icon mw-ui-icon-image mw-ui-icon-wikimedia-image"></span>
+		2,661
+	</div>
+	<div class="citizen-siteStats__item" id="citizen-siteStats__item--users" title="users">
+		<span class="citizen-ui-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar"></span>
+		9,180
+	</div>
+	<div class="citizen-siteStats__item" id="citizen-siteStats__item--edits" title="edits">
+		<span class="citizen-ui-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit"></span>
+		28,646
+	</div>
+</div>
+					<div class="mw-logo-wordmark">Diablo 2 Wiki</div>
+				</div>
+			</header>
+			<section class="citizen-drawer__menu">
+				
+<nav id="p-navigation" class="mw-portlet mw-portlet-navigation"  >
+	<label
+		id="p-navigation-label"
+		
+		class="citizen-menu__heading">
+		<span class="citizen-menu__heading-label">Navigation</span>
+	</label>
+	
+	<ul><li id="n-mainpage-description" class="mw-list-item"><a href="/d2wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span class="citizen-ui-icon mw-ui-icon-wikimedia-home"></span> Main page</a></li><li id="n-portal" class="mw-list-item"><a href="/d2wiki/Diablo_2_Wiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-currentevents" class="mw-list-item"><a href="/d2wiki/Diablo_2_Wiki:Current_events" title="Find background information on current events">Current events</a></li><li id="n-recentchanges" class="mw-list-item"><a href="/d2wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span class="citizen-ui-icon mw-ui-icon-wikimedia-recentChanges"></span> Recent changes</a></li><li id="n-randompage" class="mw-list-item"><a href="/d2wiki/Special:Random" title="Load a random page [x]" accesskey="x"><span class="citizen-ui-icon mw-ui-icon-wikimedia-die"></span> Random page</a></li><li id="n-help" class="mw-list-item"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out"><span class="citizen-ui-icon mw-ui-icon-wikimedia-help"></span> Help</a></li><li id="t-specialpages" class="mw-list-item"><a href="/d2wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-upload" class="mw-list-item"><a href="/d2wiki/Special:UploadWizard" title="Upload files [u]" accesskey="u">Upload file</a></li></ul>
+	
+</nav>
+				
+			</section>
+		</aside>
+		<div class="citizen-drawer__button citizen-header__button">
+		<div class="citizen-drawer__buttonIcon citizen-header__buttonIcon">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<label
+			id="citizen-drawer__buttonCheckbox"
+			class="mw-checkbox-hack-button citizen-header__buttonCheckbox"
+			for="citizen-drawer__checkbox"
+			title="Toggle menu"
+			aria-hidden="true">
+			<span>Toggle menu</span>
+		</label>
+	</div></div>	<div class="citizen-header__inner">
+		<div class="citizen-header__start"></div>
+		<div class="citizen-header__end">
+			
+<nav id="p-notifications" class="mw-portlet mw-portlet-notifications emptyPortlet"  >
+	
+	<ul></ul>
+	
+</nav>
+			<div class="citizen-userMenu citizen-header__item mw-checkbox-hack-container">
+				<input 
+					type="checkbox" 
+					id="citizen-userMenu__checkbox" 
+					class="mw-checkbox-hack-checkbox"
+					role="button"
+					aria-labelledby="citizen-userMenu__buttonCheckbox"
+					aria-haspopup="true">
+				<aside id="citizen-userMenu__card" class="citizen-userMenu__card mw-checkbox-hack-target">
+						<div class="citizen-userMenu__header">
+<nav id="p-user-info"  >
+	
+	<ul>	<li id="pt-anonuserpage" class="mw-list-item">
+		<span title="The user page for the IP address you are editing as">Not logged in</span>
+	</li></ul>
+	
+</nav></div>
+					
+<nav id="p-personal" class="mw-portlet mw-portlet-personal"  title="User menu" >
+	
+	<ul><li id="pt-login" class="mw-list-item"><a href="/d2wiki/index.php?title=Special:UserLogin&amp;returnto=Magic+Find" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span class="citizen-ui-icon mw-ui-icon-wikimedia-logIn"></span> Log in</a></li></ul>
+	
+</nav>
+				</aside>
+				<label
+					id="citizen-userMenu__buttonCheckbox" 
+					class="mw-checkbox-hack-button citizen-header__button" 
+					for="citizen-userMenu__checkbox"
+					title="Toggle personal menu"
+					aria-hidden="true">
+					<span class="citizen-ui-icon mw-ui-icon-wikimedia-userAvatar"></span>
+					<span>Toggle personal menu</span>
+				</label>
+			</div>		</div>
+	</div>
+</header>
+<div class="vm-placement" data-id="64c3e2e0bab7e94502ecf964" style="display:none"></div>
+<div class="citizen-page-container">
+	<div id="siteNotice"><div id="localNotice"><div class="sitenotice" lang="en" dir="ltr"><center><a href="/d2wiki/Main_Page" title="The Diablo 2 Wiki"><img alt="The Diablo 2 Wiki" src="/d2wiki/images/e/e6/Diablo-2-wiki-logo.png" decoding="async" width="781" height="194" data-file-width="781" data-file-height="194" /></a></center>
+<div style="margin-top: 10px; margin-bottom: 25px; padding: 10px; background: #000000; width:60%; margin:auto;">The Diablo 2 Wiki archive is available for anyone looking for information on Diablo 2. All information here is pre-D2R but contains a lot of useful information that is still relevant. Updated sections for new D2R features can be found on the <a rel="nofollow" class="external text" href="https://www.purediablo.com/diablo-2">PureDiablo Diablo 2 section</a></div></div></div></div>
+	
+	<div class="topad">
+<div class="vm-placement" data-id="64c3e2c7b3ba2f25427f7d75"></div>
+
+</div>
+	
+	
+	
+	
+	<main class="mw-body citizen-toc-enabled" id="content">
+	
+
+	
+	
+		<div class="citizen-body-container">
+		<header class="mw-body-header">
+			<div class="page-heading">
+				<div class="firstHeading-container">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Magic Find</span></h1>
+					
+			<div class="mw-indicators">
+			</div>		</div>
+				<div id="siteSub">From Diablo 2 Wiki</div>
+				<a href="#top" class="citizen-jumptotop" title="Back to top [home]"></a>
+			</div>
+			<div class="page-actions">
+		
+			
+<nav id="p-views" class="mw-portlet mw-portlet-views"  >
+	
+	<ul><li id="ca-view" class="selected mw-list-item"><a href="/d2wiki/Magic_Find"><span class="citizen-ui-icon mw-ui-icon-wikimedia-article"></span> Read</a></li><li id="ca-viewsource" class="mw-list-item"><a href="/d2wiki/index.php?title=Magic_Find&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span class="citizen-ui-icon mw-ui-icon-wikimedia-editLock"></span> View source</a></li><li id="ca-history" class="mw-list-item"><a href="/d2wiki/index.php?title=Magic_Find&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span class="citizen-ui-icon mw-ui-icon-wikimedia-history"></span> View history</a></li></ul>
+	
+</nav>
+			
+<nav id="p-associated-pages" class="mw-portlet mw-portlet-associated-pages"  >
+	
+	<ul><li id="ca-nstab-main" class="selected mw-list-item"><a href="/d2wiki/Magic_Find" title="View the content page [c]" accesskey="c"><span class="citizen-ui-icon mw-ui-icon-wikimedia-article"></span> Page</a></li><li id="ca-talk" class="new mw-list-item"><a href="/d2wiki/index.php?title=Talk:Magic_Find&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span class="citizen-ui-icon mw-ui-icon-wikimedia-speechBubbles"></span> Discussion</a></li></ul>
+	
+</nav>
+		<div class="page-actions-more page-actions__item mw-checkbox-hack-container">
+			<input 
+				type="checkbox" 
+				id="page-actions-more__checkbox" 
+				class="mw-checkbox-hack-checkbox"
+				role="button"
+				aria-labelledby="page-actions-more__buttonCheckbox"
+				aria-haspopup="true">
+			<aside id="page-actions-more__card" class="page-actions__card mw-checkbox-hack-target">
+					
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet"  title="More options" >
+	
+	<ul></ul>
+	
+</nav>
+				
+<nav id="p-tb" class="mw-portlet mw-portlet-tb"  >
+	<label
+		id="p-tb-label"
+		
+		class="citizen-menu__heading">
+		<span class="citizen-menu__heading-label">Tools</span>
+	</label>
+	
+	<ul><li id="t-whatlinkshere" class="mw-list-item"><a href="/d2wiki/Special:WhatLinksHere/Magic_Find" title="A list of all wiki pages that link here [j]" accesskey="j"><span class="citizen-ui-icon mw-ui-icon-wikimedia-articleRedirect"></span> What links here</a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/d2wiki/Special:RecentChangesLinked/Magic_Find" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span class="citizen-ui-icon mw-ui-icon-wikimedia-recentChanges"></span> Related changes</a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span class="citizen-ui-icon mw-ui-icon-wikimedia-printer"></span> Printable version</a></li><li id="t-permalink" class="mw-list-item"><a href="/d2wiki/index.php?title=Magic_Find&amp;oldid=27849" title="Permanent link to this revision of this page"><span class="citizen-ui-icon mw-ui-icon-wikimedia-link"></span> Permanent link</a></li><li id="t-info" class="mw-list-item"><a href="/d2wiki/index.php?title=Magic_Find&amp;action=info" title="More information about this page"><span class="citizen-ui-icon mw-ui-icon-wikimedia-infoFilled"></span> Page information</a></li></ul>
+	
+</nav>
+			</aside>
+			<label
+				id="page-actions-more__buttonCheckbox" 
+				class="mw-checkbox-hack-button page-actions__button page-actions__button--icon" 
+				for="page-actions-more__checkbox"
+				title="More actions"
+				aria-hidden="true">
+				<span class="citizen-ui-icon mw-ui-icon-wikimedia-ellipsis"></span>
+				<span>More actions</span>
+			</label>
+		</div>
+	</div></header>
+		<div id="citizen-body-header-sticky-sentinel"></div>		<div id="bodyContent" class="citizen-body" aria-labelledby="firstHeading">
+			<div id="contentSub"></div>
+			
+			
+			
+			
+	
+			
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (document.getElementById("mw-panel-toc")) {
+        var element = document.getElementById("300div");
+        element.parentNode.removeChild(element);
+    }
+});
+</script>
+			
+			<div id="300div" style="float: right; margin-left: 20px;">
+<div class="vm-placement" data-id="64c3e2bcbab7e94502ecf962"></div>
+			</div>
+			
+			
+			<div class="citizen-toc-enabled">
+		
+			</div>
+	
+			
+			
+			<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr"><div class="mw-parser-output"><section class="section-collapsible" id="section-collapsible-0"><table style="width: 180px; border-collapse: collapse; border: 1px solid #4D0B0B; background: #2D0606; line-height: 10px; font-size: 10px; color: white; text-align: center; float: right; margin-top: 5px; margin-right: 0px; margin-bottom: 5px; margin-left: 10px; clear:right;">
+<tbody><tr>
+<th colspan="2" style="background: #1A0303; font-size:125%; line-height:125%;"><a href="/d2wiki/Items" class="mw-redirect" title="Items">Diablo II Items</a> <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Item_navbox&amp;action=edit">e</a></span>]</span>
+</th></tr>
+<tr>
+<th style="background: #1A0303; text-align: center;" colspan="2">Weapons
+</th></tr>
+<tr>
+<td valign="top" width="50%" colspan="2"><a href="/d2wiki/Axes" title="Axes">Axes</a> • <a href="/d2wiki/Bows" title="Bows">Bows</a> • <a href="/d2wiki/Crossbows" title="Crossbows">Crossbows</a> • <a href="/d2wiki/Daggers" title="Daggers">Daggers</a> • <a href="/d2wiki/Javelins" title="Javelins">Javelins</a> • <a href="/d2wiki/Maces" title="Maces">Maces</a> • <a href="/d2wiki/Polearms" title="Polearms">Polearms</a> • <a href="/d2wiki/Scepters" title="Scepters">Scepters</a> • <a href="/d2wiki/Spears" title="Spears">Spears</a> • <a href="/d2wiki/Staves" title="Staves">Staves</a> • <a href="/d2wiki/Swords" title="Swords">Swords</a> • <a href="/d2wiki/Throwing" title="Throwing">Throwing</a> • <a href="/d2wiki/Wands" title="Wands">Wands</a>
+</td></tr>
+<tr>
+<th style="background: #1A0303; text-align: center;" colspan="2">Armor
+</th></tr>
+<tr>
+<td valign="top" width="50%" colspan="2"><a href="/d2wiki/Belts" title="Belts">Belts</a> • <a href="/d2wiki/Body_Armor" title="Body Armor">Body Armor</a> • <a href="/d2wiki/Boots" title="Boots">Boots</a> • <a href="/d2wiki/Circlets" title="Circlets">Circlets</a> • <a href="/d2wiki/Gloves" title="Gloves">Gloves</a> • <a href="/d2wiki/Helms" title="Helms">Helms</a> • <a href="/d2wiki/Shields" title="Shields">Shields</a>
+</td></tr>
+<tr>
+<th style="background: #1A0303; text-align: center;" colspan="2">Class-specific
+</th></tr>
+<tr>
+<td valign="top" width="50%" colspan="2"><a href="/d2wiki/Assassin_Items" title="Assassin Items">Assassin Items</a>  • <a href="/d2wiki/Amazon_Items" title="Amazon Items">Amazon Items</a> • <a href="/d2wiki/Barbarian_Items" title="Barbarian Items">Barbarian Items</a> • <a href="/d2wiki/Druid_Items" title="Druid Items">Druid Items</a> • <a href="/d2wiki/Necromancer_Items" title="Necromancer Items">Necromancer Items</a> • <a href="/d2wiki/Paladin_Items" title="Paladin Items">Paladin Items</a>  • <a href="/d2wiki/Sorceress_Items" title="Sorceress Items">Sorceress Items</a>
+</td></tr>
+<tr>
+<th style="background: #1A0303; text-align: center;" colspan="2">Other
+</th></tr>
+<tr>
+<td valign="top" width="50%" colspan="2"><a href="/d2wiki/Category:Charms" title="Category:Charms">Charms</a> • <a href="/d2wiki/Category:Class_Specific_Items" title="Category:Class Specific Items">Class Items</a> • <a href="/d2wiki/Category:Crafted_Items" title="Category:Crafted Items">Crafted</a> • <a href="/d2wiki/Horadric_Cube" title="Horadric Cube">Horadric Cube</a> • <a href="/d2wiki/Category:Runes" title="Category:Runes">Runes</a> • <a href="/d2wiki/Category:Set_Items" title="Category:Set Items">Set Items</a> • <a href="/d2wiki/Category:Uniques" title="Category:Uniques">Uniques</a> • <a href="/d2wiki/Jewels" title="Jewels">Jewels</a> • <a href="/d2wiki/Sockets" title="Sockets">Sockets</a>
+</td></tr>
+<tr>
+<th style="background: #1A0303; text-align: center;" colspan="2">Guides and Stats
+</th></tr>
+<tr>
+<td valign="top" width="50%" colspan="2"><a href="/d2wiki/Category:Calculations" title="Category:Calculations">Calculations</a> • <a href="/d2wiki/Category:Gambling" title="Category:Gambling">Gambling</a> • <a href="/d2wiki/Category:Item_Generation" title="Category:Item Generation">Item Generation</a> • <a href="/d2wiki/Category:Modifiers" title="Category:Modifiers">Modifiers</a> • <a href="/d2wiki/Runewords" title="Runewords">Runewords</a> • <a href="/d2wiki/Quest_Items" title="Quest Items">Quest Items</a> • <a href="/d2wiki/Potions" title="Potions">Potions</a> • <a href="/d2wiki/Ethereal" title="Ethereal">Ethereal</a> • <a href="/d2wiki/Gems" title="Gems">Gems</a> • <a href="/d2wiki/Base_Item_Levels" title="Base Item Levels">Base Item Levels</a> • <a href="/d2wiki/Misc" title="Misc">Misc</a>
+</td></tr></tbody></table>
+<p>Among the most fun equipment to outfit your character with are items with bonuses to Magic Find. Magic Find gear makes the items that drop more likely to be higher quality, and for most players, loading up on "MF" and going item hunting is their ultimate goal in Diablo II
+</p>
+<tocplace></tocplace>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Magic_Find_Equipment">Magic Find Equipment</span></h2><section class="section-collapsible" id="section-collapsible-1">
+<p>You  can get MF on most every type of item in the game.  Gloves or Boots or jewelry with +10% or 15% or 30% won't make a real noticeable difference on their own, but as you accumulate more and more items with these bonuses, you'll start to notice that you find more Rares, Uniques, Set Items, etc.
+</p><p>The easiest way to add it is by socketing perfect topazes into Armor or Helm.  Getting a hold of 4 socket armor and a 3 socket helm shouldn't be too hard, and that's 168% right there.
+</p><p>There is no cap on magic find, but there are diminishing returns as of v1.09, see the table below for the actual stats. You'll start to notice improvements at around 100% Magic Find, and by 200-300% it will start to get very addictive.
+</p><p>Characters who can kill with their skills, especially Sorcs, are the best at going to a very high Magic Find, since they don't need equipment for their offense.  Barbarians are very good also, since they get huge hit points and resistance bonuses form their skills and stats, so need less good equipment to survive, and can dual wield Gulls or Ali Babas for a huge MF bonus from the weapon slots.
+</p><p>It can be a lot of fun to load up all your best +MF stuff and do item runs on normal or Nightmare where you don't really need much good gear to survive.  Killing the bosses, Mephisto, Diablo, and Baal are the best drops and they can can all be reached pretty quickly, especially Meph.  You won't get the best stuff, Elite set or unique items on Nightmare (some of the lowest elite item types can drop from Baal or Diablo, but your odds aren't good) but there are lots of very good Exceptional items that can be found there.
+</p><p>For obvious reasons, Hardcore characters have to be more careful about going all out on +MF stuff.  Usually resistances drop very low when switching to the magic find equipment, and one Lightning Enchanted boss that you would normally tear right through can be suddenly deadly if your Lightning Resistance is -22%, rather than your normal 65%.  For example.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Magic_Find_Percentages">Magic Find Percentages</span></h2><section class="section-collapsible" id="section-collapsible-2">
+<p>Magic Find doesn't boost your odds of finding everything equally.  It did in earlier versions of D2X, but as players realized the power of the modifier and began to specialize in it, Blizzard made some changes to scale back the effectiveness of the property. It's still quite useful, even at lower amounts, but thanks to the diminishing returns of magic find it's not all that beneficial to specialize entirely in MF.
+</p>
+<ul><li>A more detailed table <a href="/d2wiki/Magic_find_diminishing_returns" title="Magic find diminishing returns">can be found here</a>.</li></ul>
+<table>
+<tbody><tr>
+<th>Magic Find
+</th>
+<th>Rare Find
+</th>
+<th>Set Find
+</th>
+<th>Unique Find
+</th></tr>
+<tr>
+<td>50
+</td>
+<td>46
+</td>
+<td>45
+</td>
+<td>41
+</td></tr>
+<tr>
+<td>100
+</td>
+<td>85
+</td>
+<td>83
+</td>
+<td>71
+</td></tr>
+<tr>
+<td>200
+</td>
+<td>150
+</td>
+<td>142
+</td>
+<td>111
+</td></tr>
+<tr>
+<td>300
+</td>
+<td>200
+</td>
+<td>187
+</td>
+<td>136
+</td></tr>
+<tr>
+<td>400
+</td>
+<td>240
+</td>
+<td>222
+</td>
+<td>153
+</td></tr>
+<tr>
+<td>500
+</td>
+<td>272
+</td>
+<td>250
+</td>
+<td>166
+</td></tr>
+<tr>
+<td>750
+</td>
+<td>333
+</td>
+<td>300
+</td>
+<td>187
+</td></tr>
+<tr>
+<td>1000
+</td>
+<td>375
+</td>
+<td>333
+</td>
+<td>200
+</td></tr></tbody></table>
+<p>The actual % that is applied towards finding each type of item. Magical is full, Rare/Set/Uniques are less.
+</p><p>How much you want to wear should be based largely on these percentages. More always helps for magical items, so if you have 1000% MF virtually every monster will drop a magical item. Want normal items or socketed items? Not so much. 
+</p><p>If you can get to 250-350% that's really all you need, in terms of finding Sets and Uniques at an increased rate. More after that generally doesn't make enough of a difference to be worth the equipment sacrifices, especially if you are playing Hardcore.
+</p><p>In addition to this, many monsters have unequal odds to drop the various qualities of items. Act Bosses have better odds to drop Uniques than anything else does, SuperUniques drop more uniques than random bosses, and so on.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Magic_Find_FAQ">Magic Find FAQ</span></h2><section class="section-collapsible" id="section-collapsible-3">
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_exactly_does_.2BMF_do.3F"></span><span class="mw-headline" id="What_exactly_does_+MF_do?">What exactly does +MF do?</span></h2><section class="section-collapsible" id="section-collapsible-4">
+<p>Basically, Magic Find makes more of the items that drop be magical or better (Rare/Set/Unique). If you have 100% +MF, if an item dropped normally had a 10% chance to be magical, it will now have a 20% chance. You won't get more items dropping, but the ones that do drop will be better items. More players in a game = more item drops, so you want to try and combine the +MF with a big MP game for the best results. 
+</p><p>For a hypothetical example, say normally out of 100 item drops, you would get 20 magic, 2 rare, 2 set, and 1 unique. With 100% +MF you'd expect 40 magic, 4 Rare, 4 Set, and 2 Uniques. It's never exactly like this, but that's about how much it should increase.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_are_the_.22Magic_Items.22_that_this_finds_more_of.3F"></span><span class="mw-headline" id='What_are_the_"Magic_Items"_that_this_finds_more_of?'>What are the "Magic Items" that this finds more of?</span></h2><section class="section-collapsible" id="section-collapsible-5">
+<p>MF doesn't make more items drop, nor does it make Elite or Exceptional items drop more often. Magic Find merely increases the chances that an item, when dropped, will be "high quality". Unique, Set, Rare, etc. With Magic Find, normal items will more often be magical or better, and items that are always at least magical (jewelry, charms, jewels, etc) more often be higher quality.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_things_doesn.27t_MF_help_with.3F"></span><span class="mw-headline" id="What_things_doesn't_MF_help_with?">What things doesn't MF help with?</span></h2><section class="section-collapsible" id="section-collapsible-6">
+<p>Magic Find helps you get more magical, set, rare, and unique items.
+</p><p>Magic Find % <b>does not make</b>:
+</p>
+<ul><li>More total items drop.</li></ul>
+<ul><li>Higher level items drop.</li></ul>
+<ul><li>More of a particular type of item (such as rings/amulets) drop.</li></ul>
+<ul><li>More Exceptional or Elite Items drop. More of the ones that do drop will be magical or better, though.</li></ul>
+<ul><li>More Charms drop.</li></ul>
+<ul><li>More Jewels drop. It does make more of the Jewels that do drop be Rare, instead of magical.</li></ul>
+<ul><li>The rarer Unique rings and amulets drop. It does increase the chances of a ring/amulet being better than magical though.</li></ul>
+<ul><li>More or less Runes drop. MF has no effect either way.</li></ul>
+<ul><li>MF is <b>not</b> factored into any item creation other than item drops. It does <b>not</b> get checked when NPC items are created, when you gamble, when you upgrade items in the Horadric Cube, etc.</li></ul>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_are_.22High_Quality.22_items.3F"></span><span class="mw-headline" id='What_are_"High_Quality"_items?'>What are "High Quality" items?</span></h2><section class="section-collapsible" id="section-collapsible-7">
+<p>"High Quality" refers to Unique, Set, or Rare items. The sorts of things that Magic Find enables you to find more of. It does not refer to item type, since Magic Find has no effect on if a monster drops a short bow or a hydra bow.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Since_Magic_Find_has_diminishing_returns.2C_is_110.25_the_best.3F"></span><span class="mw-headline" id="Since_Magic_Find_has_diminishing_returns,_is_110%_the_best?">Since Magic Find has diminishing returns, is 110% the best?</span></h2><section class="section-collapsible" id="section-collapsible-8">
+<p>No, the more MF you have the better, always, in terms of getting higher quality items. 1000% will find more Uniques, over time, than 900%, and far far more than 300% or 200%. The balance comes in how long it takes you. If you can do an item finding run in 10 minutes with 1000% MF, and the same run in 3 minutes with 500% MF, it's probably better to go faster, since you could do the same run 3x, which would be better odds for good equipment over all.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_order_are_items_checked_to_drop.3F"></span><span class="mw-headline" id="What_order_are_items_checked_to_drop?">What order are items checked to drop?</span></h2><section class="section-collapsible" id="section-collapsible-9">
+<p>The game first determines what type of item will be dropped; Magic Find has no effect on this. Once the item is determined, your MF is checked in determining if the item is Unique, Rare, etc. The game rolls for Unique first, then Set, Rare, Magical, and normal. This is why more MF is always better, since it boosts your odds of Unique, Set, and Rare. Since SuperUniques, bosses, and Act Bosses always drop at least magical items, (and have much better odds of dropping higher quality items than normal monsters do) MF there will make a big difference.
+</p><p>If the game rolls a Unique, and there is no Unique of that item type you will get a Rare item with 3x normal durability. If the game rolls a set and there is no set of that item type, you will get a magical item with 3x the normal durability.
+</p><p>If you are tracking how many Uniques and Sets you get from item runs, you must note the durability of all Rare and Magical items to have an accurate total.
+</p>
+<ul><li>See the <a href="/d2wiki/Item_Generation_Tutorial" title="Item Generation Tutorial">Item Generation Tutorial</a> for complete information on how items are generated in Diablo II.</li></ul>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="When_is_MF_calculated.3F"></span><span class="mw-headline" id="When_is_MF_calculated?">When is MF calculated?</span></h2><section class="section-collapsible" id="section-collapsible-10">
+<p>The MF on the character getting the kill, at the instant the monster dies, is what's checked. This means you can fire an arrow or cast a spell, then switch to bigger MF weapon/shield, and get the MF bonus from it. For example an Assassin or Sorceress can cast traps or spells with +skills weapons, then quickly switch to a Gull/Rhyme and get the bigger MF from that when the monster actually dies. This even works with arrows, you can fire Guided Arrows with your Buriza, and switch weapons to a sword/shield before the arrow hits the target, and get the MF credit as long as you switch in time.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_more_MF_help_find_more_Charms_and_Jewels.3F"></span><span class="mw-headline" id="Does_more_MF_help_find_more_Charms_and_Jewels?">Does more MF help find more Charms and Jewels?</span></h2><section class="section-collapsible" id="section-collapsible-11">
+<p>No, this is a common misconception. Magic find will help you get more rare and unique jewels, and unique charms but since charms and jewels are always at least magical, magic find does nothing to increase their overall probability. Just the quality of the ones that do drop.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="How_much_Magic_Find_do_I_need.3F"></span><span class="mw-headline" id="How_much_Magic_Find_do_I_need?">How much Magic Find do I need?</span></h2><section class="section-collapsible" id="section-collapsible-12">
+<p>There is no answer to this, but the more you have the better. Noticeably better results start around 80-100%, you'll really start to like it by 200-300%. By 500% or more virtually everything that drops is magical. Since v1.09 introduced diminishing returns, it's not especially useful to get higher than 350% or so, in terms of finding more Uniques and Sets, but the higher the better for normal play.
+</p><p>The main issue to consider is your killing speed, compared with the diminishing returns (see the table up this page a bit). Going from 500% to 1000% MF only increases your Uniques MF from 253% to 295%, which is just a 42% improvement. If your killing speed drops 50% due to lesser equipment when you go from 500% to 1000%, you'd be better off doing twice as many runs at 500%, since with so many more items found your odds of something good would be much higher.
+</p><p>The main reason you want really high MF is to counter the "what if" factor. If you're playing with 400% MF and could be at 700% but slower, and you find a rare Hydra Bow, or Rare Shako, you'll probably bang your head into the keyboard, thinking "what if". Tell yourself that in the long run your 400% and faster killing will pay off, and that the item would probably have been a Rare anyway. Then bang your head a few more times. 
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="What_are_the_drawbacks_of_high_Magic_Find.3F"></span><span class="mw-headline" id="What_are_the_drawbacks_of_high_Magic_Find?">What are the drawbacks of high Magic Find?</span></h2><section class="section-collapsible" id="section-collapsible-13">
+<p>The most obvious is the equipment trade off. You'll lose many +skills, but the biggest changes are generally resistances and defense, and killing power if you are doing an MF weapon and aren't a Sorceress. The Hardcore character has to carefully evaluate their equipment changes, since death is a bad thing.
+</p><p>You'll find very few normal items with very high magic find. So if you want items to Imbue, or socketed items, you'll want to go easy on the Magic Find.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_help_with_Runes.3F"></span><span class="mw-headline" id="Does_Magic_Find_help_with_Runes?">Does Magic Find help with Runes?</span></h2><section class="section-collapsible" id="section-collapsible-14">
+<p>No, it doesn't get more Runes to drop or higher quality ones to drop. It doesn't hurt your chances either though. Some have speculated that more +MF means more magical drops, and thus fewer Runes and Gems, but that's not the case.
+</p><p>A more detailed explanation of how Runes are dropped might help:
+</p><p>All items in the game are listed in "Treasure Classes" for the purposes of determining which monsters can drop them, and what the odds are of them being dropped. There are lots of these Treasure Classes, 29 each for Armor and Weapons, as well as lots of others for other items, such as potions, scrolls, runes, etc. Each Weapon and Armor "TC" has 8 or 10 item types in it, all items with similar item levels. For example, Weapons 84 (the second highest) has these items in it: Champion axe, Cryptic sword, Demon xbow, Fanged knife, Ghost spear, Great poleaxe, Legendary mallet, Shillelagh, and Vortex orb. If you kill a monster that can drop from Weapons 84, the game will check to see if it does (it usually fails, and drops to a lower TC, which is why high level Elite items are so scarce) and if so will pick one item from the TC. Once the item type is picked, the game then checks to see if the item will be normal, socketed, magical, set, etc. This is where your MF comes in.
+</p><p>Runes are in different Treasure Classes than items, and so are Charms, Jewels, Gems, etc. So Magic Find doesn't have any effect on which TC is picked, just on the magical type of item that's dropped once the item to be dropped is selected. If the game picks a Rune to drop, it'll drop it, and your MF doesn't make that more or less likely, or up the chances of a higher or lower level Rune.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_for_the_whole_party.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_for_the_whole_party?">Does Magic Find work for the whole party?</span></h2><section class="section-collapsible" id="section-collapsible-15">
+<p>No, the +MF is calculated just for the character who gets the final hit in. So if you are playing with a friend and one of you has 300% MF and the other has none, be sure the one with the +MF gets the final hit in, especially on Bosses.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_with_Mercs_or_Minions.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_with_Mercs_or_Minions?">Does Magic Find work with Mercs or Minions?</span></h2><section class="section-collapsible" id="section-collapsible-16">
+<p>Not for things you kill, the Merc's gear has no benefit to your +MF. However for things that the Merc kills, the drop is calculated for their MF + your MF. So if you both have on 4 socket armor with perfect topazes, things you kill will have 96% +MF, but things the merc kills will calculate at +192%. Dress your Merc up with 4-topaz armor and 3-topaz helm and try to let them get the final hit, and it might be worth it.
+</p><p>MF does work with minions, they don't have any MF of their own, but they use yours to calculate the drop. This has been fixed from CD2, where Necromancers had it rough, since their MF wasn't checked on kills made by their minions (including monsters killing themselves with IM on).
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_.2BMF_help_finding_Exceptional_and_Elite_items.3F"></span><span class="mw-headline" id="Does_+MF_help_finding_Exceptional_and_Elite_items?">Does +MF help finding Exceptional and Elite items?</span></h2><section class="section-collapsible" id="section-collapsible-17">
+<p>No, but when an Excep or Elite does drop, the odds of it being magical or better are increased by your +MF.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_100.25_.2BMF_mean_every_item_dropped_is_Magical.3F"></span><span class="mw-headline" id="Does_100%_+MF_mean_every_item_dropped_is_Magical?">Does 100% +MF mean every item dropped is Magical?</span></h2><section class="section-collapsible" id="section-collapsible-18">
+<p>No, it means you'll get twice as many magical and better items dropping as you would normally. If a monster had a 1% chance to drop a magical item, it would now have a 2% chance.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_on_bosses.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_on_bosses?">Does Magic Find work on bosses?</span></h2><section class="section-collapsible" id="section-collapsible-19">
+<p>Oh yes. It doesn't increase the number of items they drop, and their drops are already magical or better, so the +MF increases the odds that they'll drop better than magical stuff. Rather than normally getting 5 or 6 magical items from an Act Boss, with good MF you'll expect a couple of Rares, and maybe a Set or Unique as well.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_with_Poison.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_with_Poison?">Does Magic Find work with Poison?</span></h2><section class="section-collapsible" id="section-collapsible-20">
+<p>Yes, deaths from poison over time calculate with MF now, as do merc kills, spell kills, etc. In D2C it did not, but this was fixed in v1.08.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Do_more_players_in_a_game_help.3F"></span><span class="mw-headline" id="Do_more_players_in_a_game_help?">Do more players in a game help?</span></h2><section class="section-collapsible" id="section-collapsible-21">
+<p>Yes, since more players in a game = more items dropping. And each item that drops is modified by your +MF. You want to try and combine the +MF with a big MP game for the best results. 
+</p><p>Bosses are the exception, they drop one magical or better item every time, whether there are 8 players or just you in the game. Same with SuperUniques, they always drop 2 items and 4 potions, though one or both of the items can be non-magical items, such as runes or gems. Act Bosses get a small bonus to the total number of items they drop, since their "no drop" selection is lowered by more players in the game. 
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_on_Chests.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_on_Chests?">Does Magic Find work on Chests?</span></h2><section class="section-collapsible" id="section-collapsible-22">
+<p>Yes, in the Expansion and v1.08 Diablo II it works on everything, including chests, corpses to click, barrels, Evil Urns, hidden stashes, etc.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_with_the_Barb.27s_Find_Item_Skill.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_with_the_Barb's_Find_Item_Skill?">Does Magic Find work with the Barb's Find Item Skill?</span></h2><section class="section-collapsible" id="section-collapsible-23">
+<p>Yes, it does in v1.08 D2/D2X and later. It did not in Diablo II previous to this version. This is a very good skill to use with your Barb, especially on bosses and super Uniques, which can do a full bonus drop with just one click. Just one point in Find Item is usually enough, since most Barbs have weapon switch items with +warcries on them (Echoing Swords, for example) as well as some +skills stuff, and can get Slvl 7 or 8 Find Item from that.
+</p><p>Some monsters don't leave a corpse that can be worked on, including all of the Act Bosses, some Super Uniques, and monsters that die frozen, but 95% or more of dead monsters can be "Horked", as it's called, for the sound the skill makes. You can Hork Fire Enchanted monsters as well, even though they blow up messily upon death.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_help_with_Gambling.3F"></span><span class="mw-headline" id="Does_Magic_Find_help_with_Gambling?">Does Magic Find help with Gambling?</span></h2><section class="section-collapsible" id="section-collapsible-24">
+<p>No, it has no effect on Gambling or the items you are offered by NPCs. (Well, more +MF you'll have more stuff to sell and thus more gold, so it helps with Gambling that way. ;)
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="I.27ve_heard_149.25_is_better_than_150.25.3F"></span><span class="mw-headline" id="I've_heard_149%_is_better_than_150%?">I've heard 149% is better than 150%?</span></h2><section class="section-collapsible" id="section-collapsible-25">
+<p>Not any more. After v1.08 the find item values are smoothed out to be much more uniform. Previously to this there was a rounding issue, and up to 149 was mostly a steady increase, but at 150% you suddenly would never find any normal items (just magical) and had a slightly lower chance to find Exceptional Rares. This persisted until 190% or more, when your chance for Exceptional Rares climbed higher than it was at 149%.
+</p><p>This has now been fixed.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_Magic_Find_work_in_v1.07_D2X.3F"></span><span class="mw-headline" id="Does_Magic_Find_work_in_v1.07_D2X?">Does Magic Find work in v1.07 D2X?</span></h2><section class="section-collapsible" id="section-collapsible-26">
+<p>No, it's quite screwed up there, and was during most of the beta also.  V1.08 fixes the problems. You'll need to patch to at least v1.07 when you first get the Expansion to have Magic Find work at all.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Can_I_find_only_Sets_and_Uniques_and_Rares_if_I_get_my_MF_high_enough.3F"></span><span class="mw-headline" id="Can_I_find_only_Sets_and_Uniques_and_Rares_if_I_get_my_MF_high_enough?">Can I find only Sets and Uniques and Rares if I get my MF high enough?</span></h2><section class="section-collapsible" id="section-collapsible-27">
+<p>No.  Some time ago in Diablo II it was possible to get only Sets and Uniques with high enough Magic Find, but this has been fixed now.  In addition the whole item dropping system is totally redone for the Expansion, and Hell monsters can drop normal items, socketed items, low quality items, etc.  Not just superior or magic as in Diablo II pre v1.07.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_MF_work_in_single_player.3F"></span><span class="mw-headline" id="Does_MF_work_in_single_player?">Does MF work in single player?</span></h2><section class="section-collapsible" id="section-collapsible-28">
+<p>Yes, it works just the same on and off the Realms.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span id="Does_MF_have_any_effect_when_creating_items_in_the_Horadric_Cube.3F"></span><span class="mw-headline" id="Does_MF_have_any_effect_when_creating_items_in_the_Horadric_Cube?">Does MF have any effect when creating items in the Horadric Cube?</span></h2><section class="section-collapsible" id="section-collapsible-29">
+<p>No, it only factors in to item drops by monsters and chests. See <a href="/d2wiki/Magic_Find#What_things_doesn.27t_MF_help_with.3F" title="Magic Find">this section for more details</a>.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Item_Finding_Strategy">Item Finding Strategy</span></h2><section class="section-collapsible" id="section-collapsible-30">
+<p>While it's good to have all the +MF you can any time, generally you'll be limited in how much you can use in difficult areas, especially with a Hardcore character. Equip items with an MF bonus in your weapon switch and change over to them for the last shot on a boss; only what you're wearing when the monster dies is factored into the item drop equation.
+</p><p>It can also be helpful to wear high MF gear on a powerful character while doing easier areas, when you're sure you'll survive and kill quickly. You won't find the highest top end equipment that way, but it can be a great way to stock up on quality stuff for lower level characters.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Best_Places_to_Item_Hunt">Best Places to Item Hunt</span></h2><section class="section-collapsible" id="section-collapsible-31">
+<p>Check this Magic Find Strategy Guide, it goes into much more detail on all aspects of this.
+</p><p>While playing just anywhere will get you more nice drops, you want to concentrate on bosses and SuperUniques to really up your chances of Uniques/Sets/Rares. Levels with lots of random bosses are good, and places where they aren't are bad.  The very popular (since they are so easy) Act Five areas the Bloody Foothills and Halls of Valor are easy even in your +MF gear (beware the one Evil Urn in the Halls of Valor), but are terrible for item finding, since there aren't any bosses there, other than Dac and Shenk in the Bloody Foothills.
+</p><p>However the best thing to do to find items is to kill Act Bosses.  Mephisto is the quickest to reach and relatively easy to kill one on one, so he's the most popular item run spot.  Andariel can be good but her drops are very inconsistent.  Duriel is slow to reach and usually drops very poorly. Diablo is hard to reach and hard to kill, but can drop better than Meph.  Baal is the second most popular boss to run, but he takes much longer than Meph and can only drop a few things Meph can't.
+</p><p>Many players do the easy areas over and over again to level up, never doing any of the more difficulty areas of Act Five other than one time to finish the Quests.  Then they take their higher level character and do Meph runs to find their items.  This way of playing tends to get pretty boring over time, but it's very easy and is effective.
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Highest_Possible_Magic_Find">Highest Possible Magic Find</span></h2><section class="section-collapsible" id="section-collapsible-32">
+<p>Mercs MF counts for things they kill, and adds to your own.  So if you have 300% and your merc has 200%, for merc kills you'll have 500% effective MF.  Your kills will just be your MF though, so there's no point in putting MF on your merc unless you let them kill things.
+</p><p><b>A Merc's maximum MF is</b>: The Act Three Mercs can have the highest MF.  Six socketed sword (180%), shield (75%), helm (110%), and armor (147%) on an Act Three Merc for another 512% at most, and for things the Merc killed that would add to your total.  Act Three mercs can't get enough strength to equip 4-socket shields (156 Str Monarch is the lightest) without adding Str from other equipment.  So while 100% from 4 Ists in a shield is possible, they can't equip that with the other max MF stuff.
+</p><p>A more realistic and easily-obtained total for a Merc is a 168%. This is just a 4topaz armor and 3topaz helm, with their normal weapon.
+</p><p>These items are basically impossible to get a hold of, especially the quantity of Ist Runes  (#24) needed, but it's a dream list.  Don't even consider putting an Ist into Helm or Armor.  Perfect Topazes are far far more common, and only 1% less than an Ist.  If you get an Ist, save it for a Shield or weapon, or RuneWords, where there is no other way to add MF other than jewels, which add 15% at most.
+</p><p><b>Helm (110%)</b> - All figures with a socketed item use Ist for 25%.  Substitute a perfect topaz at 24% in all cases for actual use, you'll never have so many Ist that you use one for just 1% more MF, when Ist are so valuable to trade and are the only way to add MF to shields or weapons.  MF Jewels are much harder to find than perfect topaz, and add less, so they aren't options for headgear.
+</p>
+<ul><li>110%: Magical Artisan's/Jeweler's Tiara of Luck (3 sockets + 26-35%)</li>
+<li>100%: Magical Fortuitous Circlet of Luck (50%) + 2 sockets.</li>
+<li>90%: <a href="/d2wiki/Immortal_King" title="Immortal King">Immortal King's Will</a> (20-40%, Barb only) + 2 sockets. (Item has sockets inherently.)</li>
+<li>80%: Griswold's Valor (20-30%) + two sockets. (Item has sockets inherently.)</li>
+<li>75%: Harlequin Crest (50%), or Tarnhelm (25-50%), or Stealskull (30-50%) + 1 socket.</li>
+<li>75%: 3 Socketed Helm with 3 Perfect Topaz or Ist Runes.  You can use a plain helm with 3 sockets and possibly bonus skills for a Druid or Barbarian.  Another option is to find a magical one, "Artisan's" is a prefix that gives 3 sockets, but no +MF suffixes are found on normal helms. However if you can find an Artisan's with a nice suffix (of the whale?) it would be 3 sockets with a big suffix bonus. Also, the "Jeweler's" affix adds up to 4 sockets, but helms have a maximum of 3, so it leads to 3 sockets as well.</li></ul>
+<p><b>Armor (148%</b>) - All figures with socketed armor use an Ist Rune for 25% for the maximum possible value.  Substitute a perfect topaz at 24% in all cases for actual use, you'll never have so many Ist that you use one for just 1% more MF, when Ist are so valuable to trade and are the only way to add MF to shields or weapons.  MF Jewels are much harder to find than perfect topaz, and add less, so they aren't options for armor.
+</p>
+<ul><li>148%: Skullder's Ire (52-123%, 1.25% per Clvl, 42 minimum) +1 socket, at Clvl 99.  147% for Mercs, since they max at lvl 98.</li>
+<li>113%: Tal Rasha's Guardianship (88%) +1 socket. The best bonuses of any MF armor (see also the passage about Tal's belt for further details), but extremely hard to find.</li>
+<li>100%: Wealth Rune Word Armor (Beats 4[s] armor due to other bonuses, mainly 300% gold.)</li>
+<li>100%-96%: Four-socketed Armor with 4 Ist Runes or perfect Topazes.  The best possible would be a Jeweler's Armor of the ________.  Four sockets, and pick a suffix, such as whale.</li></ul>
+<p><b>Weapon (180% x 2)</b> - Barbarians can dual wield, so count this twice in that case. Ist and jewels are the only ways to add MF to a weapon with sockets.
+</p><p>Ist is 30% in weapons, the best possible jewel is 17%, both are very hard to find.  In most cases you'll be able to find 10% or so MF jewels, and it's generally better to just use one of these rather than wait forever hoping to find an Ist, unless you are going to trade for it, or play a lot in hell.
+</p><p>The Blade of Ali Baba and the Gull aren't useful to kill with, unless you are using skills (like a Sorceress or Necromancer) since they don't do enough damage, other than saving them for just the last hit or two.  A Barbarian can dual wield with a big damage sword or blunt, using just their normal weapon until the boss is almost dead, then running away to quickly switch to dual wield.  Big MF weapons are nice to have for a Barb on the weapon switch also, for better luck when using Find Item.
+</p>
+<ul><li>180%: Six-Socketed Weapon with 6 Ist Runes.  Crystal swords can have 6 sockets, and low reqs to equip.</li>
+<li>159%: Blade of Ali Baba (99%, 1% MF per Clvl) item comes with two sockets.</li>
+<li>130%: Gull (100%) + 1 Socket.</li>
+<li>102%: Six-Socketed Weapon with 6 Emerald of Prosperity Jewels (17%) is the best possible without any Ist Runes.</li>
+<li>90%: Langer Briser (30-60%) + 1 socket.  The best MF with a bow/xbow that doesn't require 6 Ist or MF jewels. (Best used as a weapon switch, to get the killing shot after doing most of the damage with your main bow.)</li>
+<li>80%: The Oculus (50%) + 1 socket.  This is probably the best Sorceress Orb in the game, so kill the fastest and MF as well.</li></ul>
+<p><b>Shield (100%)</b> - As with other items, Ist Runes are the best, and give 25% MF in shields, but you'll have better luck finding MF jewels.  Rhyme is the easiest way to add MF on a shield, and the runes in it are much easier to find than an Ist.  The socketed shields are reasonable mix and match, you could put 2 perfect diamonds and 2 Ist into a 4 socket shield, for example, and get good resistance (especially with a Paladin shield that had resistance inherently), while still having 50% MF.
+</p>
+<ul><li>100%: Four-Socket Shield with 4 Ist Runes. (Paladin shields all have up to four sockets, other characters will need a lot of Strength to use the Elite Kite, Tower, or Gothic shields, which can have four sockets also.)</li>
+<li>75%: 3 Socket Shield with 3 Ist Runes.</li>
+<li>45%: Milabrega's Orb (20%) + 1 socket.</li>
+<li>25%: Rhyme Rune Word Shield.</li></ul>
+<p><b>Belts (30%)</b>
+</p>
+<ul><li>30%: Goldwrap, Unique Heavy Belt.</li>
+<li>10-15%: Tal Rasha's Fine-Spun Cloth.  Other items from the set are useful here, since when wearing any three items from the set you get a 65% MF bonus.  That on top of the 88% on the armor with one other item can beat out some other item combos, with nice bonuses too.  Since only the belt and armor have MF on them, you are wasting either helm, orb, or amulet with 0% MF to do this (though you can socket the helm).</li></ul>
+<p><b>Boots (50%)</b>
+</p>
+<ul><li>50%: War Traveler (30-50%) Unique Battle Boots.</li>
+<li>35%: Magic Boots of Luck</li>
+<li>34%: Magic Find Rare Boots (No longer possible, only on boots created pre v1.08.)</li></ul>
+<p><b>Gloves (40%)</b>
+</p>
+<ul><li>40%: Chance Guards, Unique Chain Gloves.  These are very nice for getting rich, with the MF and also 200% more gold.</li>
+<li>34%: Rare Magic Find Gloves (No longer possible, only from pre-v1.08 gloves.)</li>
+<li>25%: Magic/Rare Gloves</li></ul>
+<p><b>Amulets (50%)</b>
+</p>
+<ul><li>50%: Magic Fortuitous Amulet of Luck</li>
+<li>48%: Rare Amulet (No longer possible, only from pre v1.08.)</li>
+<li>40%: Rare Amulet, with good other bonuses this would be the best all around.</li>
+<li>78%: Tancred's Weird, with any other 1 item from the set (weapon, armor, helm, boots) the amulet gets a 78% MF bonus.  This isn't better than the best possible amulet with the best possible other item of those types, but two items from Tancred's Set is an option.  Consider your other equipment options carefully, but keep an eye out for this item and set. The Amulet and boots would give 78%, compared to 75% maximum possible with a v1.09 Rare amulet and Rare boots.  You can beat that with older items or unique boots, but those are hard to come by.</li></ul>
+<p><b>Ring (40%)</b> - Feel free to wear two of these.
+</p>
+<ul><li>40%: Fortuitous Ring of Luck.</li>
+<li>32%: Rare Rings (No longer possible, only from v1.08 rings.)</li>
+<li>30%: Naglering (15-30%).</li>
+<li>25%: Rare Rings.</li></ul>
+<p><b>Charms (280%)</b>
+</p>
+<ul><li>40%: Gheed's Fortune (20-40%)</li>
+<li>7%: Small Charms.  Equip up to 40 of them, but you'd be unable to pick anything up. 36 (252%) you would have room for a Cube to put things into.  35 (245%) for a cube and keys for locked chests.  30 (210%) for a Cube and space for one 3x2 item. If you are going this into +MF, probably easier to have a friend play and pick stuff up for both of you while you kill.  It's better to have a 5% mf charm with hps or resistance, etc than a 7% with no other bonus, in most cases.</li></ul>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Maximum_possible_Magic_Find">Maximum possible Magic Find</span></h2><section class="section-collapsible" id="section-collapsible-33">
+<p>As of v1.09:
+</p>
+<ul><li>180% Weapon</li>
+<li>+ 180% Weapon</li>
+<li>+ 148% Armor</li>
+<li>+ 80% Helm</li>
+<li>+ 30% Belt</li>
+<li>+ 50% Boots</li>
+<li>+ 40% Gloves</li>
+<li>+ 40% Ring</li>
+<li>+ 40% Ring</li>
+<li>+ 50% Amulet</li>
+<li>+ 280% Charms = 1118%.</li></ul>
+<p>This is Barbarian only, due to the dual wielding weapons.  The best for any other character must substitute a 100% shield for the 180% weapon, so 80% less and a total of 1038%.  When/if Constricting Rings are ever enabled by Blizzard, you could add 60% per ring for 120% more possible MF or 1238% at most.
+</p><p>In v1.11, with new uniques and charms:
+</p>
+<ul><li>180% Weapon (6 Ist Runes)</li>
+<li>+ 180% Weapon</li>
+<li>+ 148% Armor (Skullder's with an Ist on a Clvl 99)</li>
+<li>+ 110% Helm (Artificer's Tiara of Luck with 3 Ist Runes)</li>
+<li>+ 30% Belt (Goldwrap)</li>
+<li>+ 50% Boots (War Traveler)</li>
+<li>+ 40% Gloves (Chance Guards)</li>
+<li>+ 40% Ring (Magical)</li>
+<li>+ 40% Ring (Magical)</li>
+<li>+ 50% Amulet (Magical)</li>
+<li>+ 299% Charms (37 7% MF, 1 40% Gheed's Fortune)</li>
+<li>Total = 1167% Magic Find.</li></ul>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Realistic_Magic_Find_Gear">Realistic Magic Find Gear</span></h2><section class="section-collapsible" id="section-collapsible-34">
+<p>An easily-obtained, low-level MF set up. This doesn't assume any maximum possible values, these are amounts on Rares you can expect to gamble with other good mods, and doesn't require any Ist Runes, and no very hard to find Uniques or Set Items.
+</p>
+<ul><li>100% Armor (Wealth) or 96% 4T Armor</li>
+<li>+ 72% Helm (3T or good Tarnhelm + Topaz)</li>
+<li>+ 30% Belt (Goldwrap)</li>
+<li>+ 15% Ring (Rare with good mods, just one ring counted)</li>
+<li>+ 15% Amulet (Rare)</li>
+<li>+ 20% Boots (Rare)</li>
+<li>+ 30% Gloves (Chance Guards)</li>
+<li>+ 19% Charms</li>
+<li>Total = 300%</li></ul>
+<p>This can be done with just 3 or 4 small Charms, or a couple and 10% Grand, etc. Note that nothing is counted from weapon or shield, since most characters have those all for damage and resistance.  Rhyme (25% MF) is a nice shield if you are using a one-handed weapon, and with this set up you can be still nearly full killing power, with good resistances and hit points, etc.  You can easily add 10% or more per item with slightly better Rares, so do your own math.  Around 300% is a nice number, due to the steep diminishing returns you get as you move up past 200%, though the increase is still good up to 500% or so. 
+</p>
+</section><h2 class="section-heading"><span class="section-indicator citizen-ui-icon mw-ui-icon-wikimedia-collapse"></span><span class="mw-headline" id="Magic_Find_From_Low_Level_Sets">Magic Find From Low Level Sets</span></h2><section class="section-collapsible" id="section-collapsible-35">
+<p>You can also get quality MF out of the original low-level sets and partial bonuses that were introduced in v1.10.  Most of these items can be found very easily by playing or trading, which makes them easier to come by than some of the more traditional MF items listed above.
+</p>
+<ul><li>Arctic Binding (belt) + 1 other Arctic set item = 40%</li>
+<li>Sigon's Sabot (boots) + 2 other Sigon's set items = 50%</li>
+<li>Angelic Halo (ring) + 2 other Angelic set items = 50%</li>
+<li>Full Angelic Raiment set = 40%</li>
+<li>Milebraga's Orb (shield) = 20%</li>
+<li>Tancred's Weird (amulet) + 1 other Tancred's set item = 78%</li></ul>
+<p>Along with a 3 socket helm with Perfect Topaz in it (72%) this allows for some impressive MF at very low levels, which can prove useful for hunting some other MF items such as Chance Guards, Goldwrap, and Gull:
+</p>
+<ul><li>Level 2: Arctic Binding with Mitts (gloves) or temporarily with Furs (armor) = 40%</li>
+<li>Level 6: Add Sigon's Sabot with Guard and Visor (shield and helm) = 90%</li>
+<li>Level 12: Add Angelic Raiment + extra Halo = 230%</li>
+<li>Level 18: Replace Sigon's Guard and Visor with Milebraga's Orb and 3 Topaz helm = 272%</li>
+<li>Level 20: Replace Angelic amulet and Sigon's boots with Tancred's Weird and Hobnails (boots) = 310%</li></ul>
+<p><br>
+</p>
+<div class="NavTabContainer">
+	<table align="center" class="navbox" style="width:100%">
+		<tbody><tr>
+			<th>Diablo II Items<div style="float:right; margin-left: -10px;"><span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:d2_items_navbox&amp;action=edit">e</a></span>]</span></div>
+				<span class="NavHeaderBlock" title="d2" style="font-size:9px; display: block; margin: 10px 0px -7px 0px;">
+					<span class="NavTabHeader SelectedNavTabHeader" title="Items"><b>Items Basics</b>
+					</span>
+					<span class="NavTabHeader" title="Unique_armor1"><b>Unique Armor I</b>
+					</span>
+					<span class="NavTabHeader" title="Unique_armor2"><b>Unique Armor II</b>
+					</span>
+					<span class="NavTabHeader" title="Unique_weapons1"><b>Unique Weapons I</b>
+					</span>
+
+					<span class="NavTabHeader" title="Unique_weapons2"><b>Unique Weapons II</b>
+					</span>
+
+					<span class="NavTabHeader" title="Unique_weapons3"><b>Unique Weapons III</b>
+					</span>
+
+					<span class="NavTabHeader" title="Unique_class"><b>Unique Class Items</b>
+					</span>
+					<span class="NavTabHeader" title="Item_sets"><b>Item Sets</b>
+					</span>
+					<span class="NavTabHeader" title="Runewords"><b>Runewords</b>
+					</span>
+				</span>
+			</th>
+		</tr>
+	</tbody></table>
+	<div class="NavTabContentBlock" title="d2">
+		<div class="NavTabContent" title="Items">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th colspan="3">Base Armors and Weapons   <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:items_main_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th colspan="3">Runes
+</th>
+<th>Socketables
+</th>
+<th>Miscellaneous
+</th>
+<th>Items Info
+</th></tr>
+<tr>
+<td rowspan="2">
+<p><b><a href="/d2wiki/Armor" title="Armor">Armor</a></b><br>
+• <a href="/d2wiki/Belts" title="Belts">Belts</a><br>
+• <a href="/d2wiki/Body_Armor" title="Body Armor">Body Armor</a> <br>
+• <a href="/d2wiki/Boots" title="Boots">Boots</a><br>
+• <a href="/d2wiki/Gloves" title="Gloves">Gloves</a><br>
+• <a href="/d2wiki/Helms" title="Helms">Helms</a><br>
+• <a href="/d2wiki/Circlets" title="Circlets">Circlets</a><br>
+• <a href="/d2wiki/Shields" title="Shields">Shields</a><br>
+• <a href="/d2wiki/Amulets" class="mw-redirect" title="Amulets">Amulets</a><br>
+• <a href="/d2wiki/Rings" class="mw-redirect" title="Rings">Rings</a><br>
+</p><p><a href="/d2wiki/Armor_Appearance" title="Armor Appearance">Armor Looks</a>
+</p>
+</td>
+<td rowspan="2">
+<p><b><a href="/d2wiki/Weapons" class="mw-redirect" title="Weapons">Weapons</a></b> <br>
+• <a href="/d2wiki/Axes" title="Axes">Axes</a><br>
+• <a href="/d2wiki/Bows" title="Bows">Bows</a><br>
+• <a href="/d2wiki/Crossbows" title="Crossbows">Crossbows</a> <br>
+• <a href="/d2wiki/Daggers" title="Daggers">Daggers</a><br>
+• <a href="/d2wiki/Javelins" title="Javelins">Javelins</a><br>
+• <a href="/d2wiki/Maces" title="Maces">Maces</a><br>
+• <a href="/d2wiki/Polearms" title="Polearms">Polearms</a><br>
+• <a href="/d2wiki/Scepters" title="Scepters">Scepters</a> <br>
+• <a href="/d2wiki/Spears" title="Spears">Spears</a><br>
+• <a href="/d2wiki/Staves" title="Staves">Staves</a><br>
+• <a href="/d2wiki/Swords" title="Swords">Swords</a><br>
+• <a href="/d2wiki/Throwing" title="Throwing">Throwing</a><br>
+• <a href="/d2wiki/Wands" title="Wands">Wands</a>
+</p>
+</td>
+<td rowspan="2">
+<p><b><a href="/d2wiki/Category:Class_Specific_Items" title="Category:Class Specific Items">Class Items</a></b><br>
+• <a href="/d2wiki/Amazon_Items" title="Amazon Items">Ama Weapons</a><br>
+• <a href="/d2wiki/Assassin_Items" title="Assassin Items">Asn Claws</a><br>
+• <a href="/d2wiki/Barbarian_Items" title="Barbarian Items">Barb Helms</a><br>
+• <a href="/d2wiki/Druid_Items" title="Druid Items">Druid Helms</a><br>
+• <a href="/d2wiki/Necromancer_Items" title="Necromancer Items">Necro Totems</a><br>
+• <a href="/d2wiki/Paladin_Items" title="Paladin Items">Pal Shields</a><br>
+• <a href="/d2wiki/Sorceress_Items" title="Sorceress Items">Sorc Orbs</a>
+</p>
+</td>
+<td colspan="3">
+<p>• <a href="/d2wiki/Rune_list" title="Rune list">Rune list</a> <br>
+• <a href="/d2wiki/Rune_FAQ" title="Rune FAQ">Rune FAQ</a><br>
+• <a href="/d2wiki/Rune_hunting" title="Rune hunting">Rune hunting</a><br>
+• <a href="/d2wiki/Runewords" title="Runewords">Runewords</a>
+</p>
+</td>
+<td rowspan="2">
+<p><a href="/d2wiki/Jewels" title="Jewels">Jewels</a> <br>
+• <a href="/d2wiki/Jewel_Affixes" title="Jewel Affixes">Modifiers</a><br>
+• <a href="/d2wiki/Sockets" title="Sockets">Sockets</a>
+</p><p><a href="/d2wiki/Gems" title="Gems">Gems</a><br>
+• <a href="/d2wiki/Amethyst" title="Amethyst">Amethyst</a><br>
+• <a href="/d2wiki/Diamond" title="Diamond">Diamond</a><br>
+• <a href="/d2wiki/Emerald" title="Emerald">Emerald</a><br>
+• <a href="/d2wiki/Ruby" title="Ruby">Ruby</a><br>
+• <a href="/d2wiki/Sapphire" title="Sapphire">Sapphire</a><br>
+• <a href="/d2wiki/Topaz" title="Topaz">Topaz</a><br>
+• <a href="/d2wiki/Skull" class="mw-redirect" title="Skull">Skull</a>
+</p>
+</td>
+<td rowspan="2">
+<p><a href="/d2wiki/Horadric_Cube" title="Horadric Cube">Horadric Cube</a> <br>
+• <a href="/d2wiki/Horadric_Cube_Recipes" title="Horadric Cube Recipes">Cube Recipes</a>
+</p><p><a href="/d2wiki/Crafted" class="mw-redirect" title="Crafted">Crafted Items</a><br>
+• <a href="/d2wiki/Crafting_Recipes#Blood_Recipes" title="Crafting Recipes">Blood Recipes</a><br>
+• <a href="/d2wiki/Crafting_Recipes#Caster_Recipes" title="Crafting Recipes">Caster Recipes</a><br>
+• <a href="/d2wiki/Crafting_Recipes#Hitpower_Recipes" title="Crafting Recipes">Hitpower Recipes</a><br>
+• <a href="/d2wiki/Crafting_Recipes#Safety_Recipes" title="Crafting Recipes">Safety Recipes</a>
+</p><p><a href="/d2wiki/Charms" class="mw-redirect" title="Charms">Charms</a><br>
+• <a href="/d2wiki/Charms_Affixes" class="mw-redirect" title="Charms Affixes">Charms Affixes</a><br>
+• <a href="/d2wiki/Guide:Charms_v1.10,_by_Kronos" title="Guide:Charms v1.10, by Kronos">Charms Guide</a>
+</p><p><a href="/d2wiki/Ethereal" title="Ethereal">Ethereal Items</a>
+</p>
+</td>
+<td rowspan="2">
+<p><a href="/d2wiki/Category:Calculations" title="Category:Calculations">Calculations</a> <br>
+• <a href="/d2wiki/Item_Generation_Tutorial" title="Item Generation Tutorial">Item Generation Tutorial</a><br>
+• <a href="/d2wiki/Treasure_Classes" title="Treasure Classes">Treasure Classes</a><br>
+• <a class="mw-selflink selflink">Magic Find</a><br>
+• <a href="/d2wiki/Gold_Find" title="Gold Find">Gold Find</a>
+</p><p><a href="/d2wiki/Modifiers" class="mw-redirect" title="Modifiers">Modifiers</a><br>
+• <a href="/d2wiki/Prefixes" class="mw-redirect" title="Prefixes">Prefixes</a><br>
+• <a href="/d2wiki/Suffixes" class="mw-redirect" title="Suffixes">Suffixes</a><br>
+• <a href="/d2wiki/Special_Modifiers" class="mw-redirect" title="Special Modifiers">Special Modifiers</a>
+</p><p>• <a href="/d2wiki/Gambling" title="Gambling">Gambling</a><br>
+• <a href="/d2wiki/Quest_Items" title="Quest Items">Quest Items</a><br>
+• <a href="/d2wiki/Experience" title="Experience">Experience</a><br>
+• <a href="/d2wiki/Potions" title="Potions">Potions</a><br>
+• <a href="/d2wiki/Misc" title="Misc">Books &amp; Scrolls</a>
+</p>
+</td></tr>
+<tr>
+<td>
+<p>• <a href="/d2wiki/El" title="El">El</a><br>
+• <a href="/d2wiki/Eld" title="Eld">Eld</a><br>
+• <a href="/d2wiki/Tir" title="Tir">Tir</a><br>
+• <a href="/d2wiki/Nef" title="Nef">Nef</a><br>
+• <a href="/d2wiki/Eth" title="Eth">Eth</a><br>
+• <a href="/d2wiki/Ith" title="Ith">Ith</a><br>
+• <a href="/d2wiki/Tal" title="Tal">Tal</a><br>
+• <a href="/d2wiki/Ral" title="Ral">Ral</a><br>
+• <a href="/d2wiki/Ort" title="Ort">Ort</a><br>
+• <a href="/d2wiki/Thul" title="Thul">Thul</a><br>
+• <a href="/d2wiki/Amn" title="Amn">Amn</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Sol" title="Sol">Sol</a><br>
+• <a href="/d2wiki/Shael" title="Shael">Shael</a><br>
+• <a href="/d2wiki/Dol" title="Dol">Dol</a><br>
+• <a href="/d2wiki/Hel" title="Hel">Hel</a><br>
+• <a href="/d2wiki/Io" title="Io">Io</a><br>
+• <a href="/d2wiki/Lum" title="Lum">Lum</a><br>
+• <a href="/d2wiki/Ko" title="Ko">Ko</a><br>
+• <a href="/d2wiki/Fal" title="Fal">Fal</a><br>
+• <a href="/d2wiki/Lem" title="Lem">Lem</a><br>
+• <a href="/d2wiki/Pul" title="Pul">Pul</a><br>
+• <a href="/d2wiki/Um" title="Um">Um</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Mal" title="Mal">Mal</a><br>
+• <a href="/d2wiki/Ist" title="Ist">Ist</a><br>
+• <a href="/d2wiki/Gul" title="Gul">Gul</a><br>
+• <a href="/d2wiki/Vex" title="Vex">Vex</a><br>
+• <a href="/d2wiki/Ohm" title="Ohm">Ohm</a><br>
+• <a href="/d2wiki/Lo" title="Lo">Lo</a><br>
+• <a href="/d2wiki/Sur" title="Sur">Sur</a><br>
+• <a href="/d2wiki/Ber" title="Ber">Ber</a><br>
+• <a href="/d2wiki/Jah" title="Jah">Jah</a><br>
+• <a href="/d2wiki/Cham" title="Cham">Cham</a><br>
+• <a href="/d2wiki/Zod" title="Zod">Zod</a>
+</p>
+</td></tr></tbody></table>
+<p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_armor1">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th>Belts  <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_armor_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th colspan="3">Body Armor
+</th>
+<th>Gloves
+</th>
+<th colspan="2">Helms
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Belts" title="Unique Belts">All Unique Belts</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Lenymo" title="Lenymo">Lenymo</a> <br>
+• <a href="/d2wiki/Snakecord" title="Snakecord">Snakecord</a> <br>
+• <a href="/d2wiki/Nightsmoke" title="Nightsmoke">Nightsmoke</a> <br>
+• <a href="/d2wiki/Goldwrap" title="Goldwrap">Goldwrap</a> <br>
+• <a href="/d2wiki/Bladebuckle" title="Bladebuckle">Bladebuckle</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/String_of_Ears" title="String of Ears">String of Ears</a> <br>
+• <a href="/d2wiki/Razortail" title="Razortail">Razortail</a> <br>
+• <a href="/d2wiki/Gloom%27s_Trap" title="Gloom's Trap">Gloom's Trap</a> <br>
+• <a href="/d2wiki/Snowclash" title="Snowclash">Snowclash</a> <br>
+• <a href="/d2wiki/Thundergod%27s_Vigor" title="Thundergod's Vigor">Thundergod's Vigor</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Arachnid_Mesh" title="Arachnid Mesh">Arachnid Mesh</a> <br>
+• <a href="/d2wiki/Nosferatu%27s_Coil" title="Nosferatu's Coil">Nosferatu's Coil</a> <br>
+• <a href="/d2wiki/Verdungo%27s_Hearty_Cord" title="Verdungo's Hearty Cord">Verdungo's Hearty Cord</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Body_Armor" title="Unique Body Armor">All Unique Armor</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Greyform" title="Greyform">Greyform</a> <br>
+• <a href="/d2wiki/Blinkbat%27s_Form" title="Blinkbat's Form">Blinkbat's Form</a> <br>
+• <a href="/d2wiki/The_Centurion" title="The Centurion">The Centurion</a> <br>
+• <a href="/d2wiki/Twitchthroe" title="Twitchthroe">Twitchthroe</a> <br>
+• <a href="/d2wiki/Darkglow" title="Darkglow">Darkglow</a> <br>
+• <a href="/d2wiki/Hawkmail" title="Hawkmail">Hawkmail</a> <br>
+• <a href="/d2wiki/Venom_Ward" title="Venom Ward">Venom Ward</a> <br>
+• <a href="/d2wiki/Sparking_Mail" title="Sparking Mail">Sparking Mail</a> <br>
+• <a href="/d2wiki/Iceblink" title="Iceblink">Iceblink</a> <br>
+• <a href="/d2wiki/Heavenly_Garb" title="Heavenly Garb">Heavenly Garb</a> <br>
+• <a href="/d2wiki/Rockfleece" title="Rockfleece">Rockfleece</a> <br>
+• <a href="/d2wiki/Boneflesh" title="Boneflesh">Boneflesh</a> <br>
+• <a href="/d2wiki/Rattlecage" title="Rattlecage">Rattlecage</a> <br>
+• <a href="/d2wiki/Goldskin" title="Goldskin">Goldskin</a> <br>
+• <a href="/d2wiki/Silks_of_the_Victor" title="Silks of the Victor">Silks of the Victor</a>
+</p>
+</td>
+<td>
+<p><br>Exceptional:<br>
+• <a href="/d2wiki/The_Spirit_Shroud" title="The Spirit Shroud">The Spirit Shroud</a> <br>
+• <a href="/d2wiki/Skin_of_the_Vipermagi" title="Skin of the Vipermagi">Skin of the Vipermagi</a> <br>
+• <a href="/d2wiki/Skin_of_the_Flayed_One" title="Skin of the Flayed One">Skin of the Flayed One</a> <br>
+• <a href="/d2wiki/Iron_Pelt" title="Iron Pelt">Iron Pelt</a> <br>
+• <a href="/d2wiki/Crow_Caw" title="Crow Caw">Crow Caw</a> <br>
+• <a href="/d2wiki/Spirit_Forge" title="Spirit Forge">Spirit Forge</a> <br>
+• <a href="/d2wiki/Duriel%27s_Shell" title="Duriel's Shell">Duriel's Shell</a> <br>
+• <a href="/d2wiki/Shaftstop" title="Shaftstop">Shaftstop</a> <br>
+• <a href="/d2wiki/Skullder%27s_Ire" title="Skullder's Ire">Skullder's Ire</a> <br>
+• <a href="/d2wiki/Que-Hegan%27s_Wisdom" title="Que-Hegan's Wisdom">Que-Hegan's Wisdom</a> <br>
+• <a href="/d2wiki/Toothrow" title="Toothrow">Toothrow</a> <br>
+• <a href="/d2wiki/Guardian_Angel" title="Guardian Angel">Guardian Angel</a> <br>
+• <a href="/d2wiki/Atma%27s_Wail" title="Atma's Wail">Atma's Wail</a> <br>
+• <a href="/d2wiki/Black_Hades" title="Black Hades">Black Hades</a> <br>
+• <a href="/d2wiki/Corpsemourn" title="Corpsemourn">Corpsemourn</a>
+</p>
+</td>
+<td>
+<p><br>Elite:<br>
+• <a href="/d2wiki/Ormus%27_Robes" title="Ormus' Robes">Ormus' Robes</a> <br>
+• <a href="/d2wiki/The_Gladiator%27s_Bane" title="The Gladiator's Bane">The Gladiator's Bane</a> <br>
+• <a href="/d2wiki/Arkaine%27s_Valor_(Diablo_II)" title="Arkaine's Valor (Diablo II)">Arkaine's Valor</a> <br>
+• <a href="/d2wiki/Leviathan" title="Leviathan">Leviathan</a> (L)<br>
+• <a href="/d2wiki/Steel_Carapace" title="Steel Carapace">Steel Carapace</a> <br>
+• <a href="/d2wiki/Templar%27s_Might" title="Templar's Might">Templar's Might</a> (L)<br>
+• <a href="/d2wiki/Tyrael%27s_Might" title="Tyrael's Might">Tyrael's Might</a> (L) <br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Gloves" title="Unique Gloves">All Unique Gloves</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/The_Hand_of_Broc" title="The Hand of Broc">The Hand of Broc</a> <br>
+• <a href="/d2wiki/Bloodfist" title="Bloodfist">Bloodfist</a> <br>
+• <a href="/d2wiki/Chance_Guards" title="Chance Guards">Chance Guards</a> <br>
+• <a href="/d2wiki/Magefist" title="Magefist">Magefist</a> <br>
+• <a href="/d2wiki/Frostburn" title="Frostburn">Frostburn</a> <br>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Venom_Grip" title="Venom Grip">Venom Grip</a> <br>
+• <a href="/d2wiki/Gravepalm" title="Gravepalm">Gravepalm</a> <br>
+• <a href="/d2wiki/Ghoulhide" title="Ghoulhide">Ghoulhide</a> <br>
+• <a href="/d2wiki/Lava_Gout" title="Lava Gout">Lava Gout</a> <br>
+• <a href="/d2wiki/Hellmouth" title="Hellmouth">Hellmouth</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Dracul%27s_Grasp" title="Dracul's Grasp">Dracul's Grasp</a> <br>
+• <a href="/d2wiki/Soul_Drainer" title="Soul Drainer">Soul Drainer</a> <br>
+• <a href="/d2wiki/Steelrend" title="Steelrend">Steelrend</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Headgear" title="Unique Headgear">All Unique Helms</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Biggin%27s_Bonnet" title="Biggin's Bonnet">Biggin's Bonnet</a> <br>
+• <a href="/d2wiki/Tarnhelm" title="Tarnhelm">Tarnhelm</a> <br>
+• <a href="/d2wiki/Coif_of_Glory" title="Coif of Glory">Coif of Glory</a> <br>
+• <a href="/d2wiki/Duskdeep" title="Duskdeep">Duskdeep</a> <br>
+• <a href="/d2wiki/Wormskull" title="Wormskull">Wormskull</a> <br>
+• <a href="/d2wiki/Howltusk" title="Howltusk">Howltusk</a> <br>
+• <a href="/d2wiki/Undead_Crown" title="Undead Crown">Undead Crown</a> <br>
+• <a href="/d2wiki/The_Face_of_Horror" title="The Face of Horror">The Face of Horror</a> <br>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Peasant_Crown" title="Peasant Crown">Peasant Crown</a> <br>
+• <a href="/d2wiki/Rockstopper" title="Rockstopper">Rockstopper</a> <br>
+• <a href="/d2wiki/Stealskull" title="Stealskull">Stealskull</a> <br>
+• <a href="/d2wiki/Darksight_Helm" title="Darksight Helm">Darksight Helm</a> <br>
+• <a href="/d2wiki/Vampire_Gaze" title="Vampire Gaze">Vampire Gaze</a> <br>
+• <a href="/d2wiki/Valkyrie_Wing" title="Valkyrie Wing">Valkyrie Wing</a> <br>
+• <a href="/d2wiki/Crown_of_Thieves" title="Crown of Thieves">Crown of Thieves</a> <br>
+• <a href="/d2wiki/Blackhorn%27s_Face" title="Blackhorn's Face">Blackhorn's Face</a> <br>
+</p>
+</td>
+<td>
+<p><br>Elite:<br>
+• <a href="/d2wiki/Andariel%27s_Visage" title="Andariel's Visage">Andariel's Visage</a> (L)<br>
+• <a href="/d2wiki/Crown_of_Ages" title="Crown of Ages">Crown of Ages</a> <br>
+• <a href="/d2wiki/Giant_Skull" title="Giant Skull">Giant Skull</a> <br>
+• <a href="/d2wiki/Harlequin_Crest" title="Harlequin Crest">Harlequin Crest</a> <br>
+• <a href="/d2wiki/Nightwing%27s_Veil" title="Nightwing's Veil">Nightwing's Veil</a> <br>
+• <a href="/d2wiki/Steelshade" title="Steelshade">Steelshade</a> <br>
+• <a href="/d2wiki/Veil_of_Steel" title="Veil of Steel">Veil of Steel</a>
+</p><p><br>
+<b><a href="/d2wiki/Circlets" title="Circlets">Circlets</a>:</b><br>
+• <a href="/d2wiki/Kira%27s_Guardian" title="Kira's Guardian">Kira's Guardian</a> (L)<br>
+• <a href="/d2wiki/Griffon%27s_Eye" title="Griffon's Eye">Griffon's Eye</a> (L)<br>
+</p><p><br>
+<b>Class Helms:</b><br>
+• <a href="/d2wiki/Unique_Barbarian_Items" title="Unique Barbarian Items">Barb Helms</a><br>
+• <a href="/d2wiki/Unique_Druid_Items" title="Unique Druid Items">Druid Helms</a>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p><p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_armor2">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th>Boots  <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_armor2_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th>Amulets
+</th>
+<th>Rings
+</th>
+<th colspan="3">Shields
+</th>
+<th>Miscellaneous
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Boots" title="Unique Boots">All Unique Boots</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Hotspur" title="Hotspur">Hotspur</a> <br>
+• <a href="/d2wiki/Gorefoot" title="Gorefoot">Gorefoot</a> <br>
+• <a href="/d2wiki/Treads_of_Cthon" title="Treads of Cthon">Treads of Cthon</a> <br>
+• <a href="/d2wiki/Goblin_Toe" title="Goblin Toe">Goblin Toe</a> <br>
+• <a href="/d2wiki/Tearhaunch" title="Tearhaunch">Tearhaunch</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Infernostride" title="Infernostride">Infernostride</a> <br>
+• <a href="/d2wiki/Waterwalk" title="Waterwalk">Waterwalk</a> <br>
+• <a href="/d2wiki/Silkweave" title="Silkweave">Silkweave</a> <br>
+• <a href="/d2wiki/War_Traveler" title="War Traveler">War Traveler</a> <br>
+• <a href="/d2wiki/Gore_Rider" title="Gore Rider">Gore Rider</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Marrowwalk" title="Marrowwalk">Marrowwalk</a> <br>
+• <a href="/d2wiki/Merman%27s_Sprocket" title="Merman's Sprocket">Merman's Sprocket</a> <br>
+• <a href="/d2wiki/Sandstorm_Trek" title="Sandstorm Trek">Sandstorm Trek</a> <br>
+• <a href="/d2wiki/Shadow_Dancer" title="Shadow Dancer">Shadow Dancer</a> (L)<br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Amulets" title="Unique Amulets">All Unique Amulets</a></b><br>
+• <a href="/d2wiki/Nokozan_Relic" title="Nokozan Relic">Nokozan Relic</a> <br>
+• <a href="/d2wiki/The_Eye_of_Etlich" title="The Eye of Etlich">The Eye of Etlich</a> <br>
+• <a href="/d2wiki/The_Mahim-Oak_Curio" title="The Mahim-Oak Curio">The Mahim-Oak Curio</a> <br>
+• <a href="/d2wiki/Saracen%27s_Chance" title="Saracen's Chance">Saracen's Chance</a> <br>
+• <a href="/d2wiki/The_Cat%27s_Eye" title="The Cat's Eye">The Cat's Eye</a> <br>
+• <a href="/d2wiki/The_Rising_Sun" title="The Rising Sun">The Rising Sun</a> <br>
+• <a href="/d2wiki/Crescent_Moon_(Amulet)" title="Crescent Moon (Amulet)">Crescent Moon</a> <br>
+• <a href="/d2wiki/Atma%27s_Scarab" title="Atma's Scarab">Atma's Scarab</a> <br>
+• <a href="/d2wiki/Highlord%27s_Wrath" title="Highlord's Wrath">Highlord's Wrath</a> <br>
+• <a href="/d2wiki/Mara%27s_Kaleidoscope" title="Mara's Kaleidoscope">Mara's Kaleidoscope</a> <br>
+• <a href="/d2wiki/Seraph%27s_Hymn" title="Seraph's Hymn">Seraph's Hymn</a> (L)<br>
+• <a href="/d2wiki/Metalgrid" title="Metalgrid">Metalgrid</a> (L)
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Rings" title="Unique Rings">All Unique Rings</a></b><br>
+• <a href="/d2wiki/Nagelring" title="Nagelring">Nagelring</a> <br>
+• <a href="/d2wiki/Manald_Heal" title="Manald Heal">Manald Heal</a> <br>
+• <a href="/d2wiki/Stone_of_Jordan" title="Stone of Jordan">Stone of Jordan</a> <br>
+• <a href="/d2wiki/Dwarf_Star" title="Dwarf Star">Dwarf Star</a> <br>
+• <a href="/d2wiki/Raven_Frost" title="Raven Frost">Raven Frost</a> <br>
+• <a href="/d2wiki/Bul-Kathos%27_Wedding_Band" title="Bul-Kathos' Wedding Band">Bul-Kathos' Wedding Band</a> <br>
+• <a href="/d2wiki/Carrion_Wind" title="Carrion Wind">Carrion Wind</a> <br>
+• <a href="/d2wiki/Nature%27s_Peace" title="Nature's Peace">Nature's Peace</a> (L)<br>
+• <a href="/d2wiki/Wisp_Projector" title="Wisp Projector">Wisp Projector</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Shields" title="Unique Shields">All Unique Shields</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Pelta_Lunata" title="Pelta Lunata">Pelta Lunata</a> <br>
+• <a href="/d2wiki/Umbral_Disk" title="Umbral Disk">Umbral Disk</a> <br>
+• <a href="/d2wiki/Stormguild" title="Stormguild">Stormguild</a> <br>
+• <a href="/d2wiki/Swordback_Hold" title="Swordback Hold">Swordback Hold</a> <br>
+• <a href="/d2wiki/Steelclash" title="Steelclash">Steelclash</a> <br>
+• <a href="/d2wiki/Wall_of_the_Eyeless" title="Wall of the Eyeless">Wall of the Eyeless</a> <br>
+• <a href="/d2wiki/Bverrit_Keep" title="Bverrit Keep">Bverrit Keep</a> <br>
+• <a href="/d2wiki/The_Ward" title="The Ward">The Ward</a>
+</p>
+</td>
+<td>
+<p><br>Exceptional:<br>
+• <a href="/d2wiki/Viscerataunt" title="Viscerataunt">Viscerataunt</a> <br>
+• <a href="/d2wiki/Moser%27s_Blessed_Circle" title="Moser's Blessed Circle">Moser's Blessed Circle</a> <br>
+• <a href="/d2wiki/Stormchaser" title="Stormchaser">Stormchaser</a> <br>
+• <a href="/d2wiki/Lance_Guard" title="Lance Guard">Lance Guard</a> <br>
+• <a href="/d2wiki/Tiamat%27s_Rebuke" title="Tiamat's Rebuke">Tiamat's Rebuke</a> <br>
+• <a href="/d2wiki/Lidless_Wall" title="Lidless Wall">Lidless Wall</a> <br>
+• <a href="/d2wiki/Gerke%27s_Sanctuary" title="Gerke's Sanctuary">Gerke's Sanctuary</a> <br>
+• <a href="/d2wiki/Radament%27s_Sphere" title="Radament's Sphere">Radament's Sphere</a> <br>
+</p>
+</td>
+<td>
+<p><br>Elite:<br>
+• <a href="/d2wiki/Blackoak_Shield" title="Blackoak Shield">Blackoak Shield</a> <br>
+• <a href="/d2wiki/Stormshield" title="Stormshield">Stormshield</a> <br>
+• <a href="/d2wiki/Head_Hunter%27s_Glory" title="Head Hunter's Glory">Head Hunter's Glory</a> <br>
+• <a href="/d2wiki/Medusa%27s_Gaze" title="Medusa's Gaze">Medusa's Gaze</a> <br>
+• <a href="/d2wiki/Spike_Thorn" title="Spike Thorn">Spike Thorn</a> <br>
+• <a href="/d2wiki/Spirit_Ward" title="Spirit Ward">Spirit Ward</a> <br><br>
+</p><p><b>Class Shields:</b> <br>
+• <a href="/d2wiki/Unique_Paladin_Items" title="Unique Paladin Items">Unique Paladin Shields</a><br>
+• <a href="/d2wiki/Unique_Necromancer_Items" title="Unique Necromancer Items">Unique Necro Totems</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Jewels" title="Jewels">Jewels</a></b><br>
+• <a href="/d2wiki/Unique_Jewels" title="Unique Jewels">Rainbow Facets</a>
+</p><p><br>
+<b><a href="/d2wiki/Unique_Charms" title="Unique Charms">All Unique Charms</a> </b><br>
+• <a href="/d2wiki/Unique_Charms#Annihilus" title="Unique Charms">Annihilus</a> <br>
+• <a href="/d2wiki/Unique_Charms#Gheed's_Fortune" title="Unique Charms">Gheed's Fortune</a> <br>
+• <a href="/d2wiki/Unique_Charms#Hellfire_Torch" title="Unique Charms">Hellfire Torch</a> <br>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_weapons1">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th colspan="2">Axes  <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_weapons1_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th>Bows
+</th>
+<th>Crossbows
+</th>
+<th>Daggers
+</th>
+<th>Polearms
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Axes" title="Unique Axes">All Unique Axes</a></b><br>
+Normal, one-handed:<br>
+• <a href="/d2wiki/The_Gnasher" title="The Gnasher">The Gnasher</a><br>
+• <a href="/d2wiki/Deathspade" title="Deathspade">Deathspade</a> <br>
+• <a href="/d2wiki/Bladebone" title="Bladebone">Bladebone</a> <br>
+• <a href="/d2wiki/Skull_Splitter" title="Skull Splitter">Skull Splitter</a> <br>
+• <a href="/d2wiki/Rakescar" title="Rakescar">Rakescar</a>
+</p><p>Exceptional, one-handed:<br>
+• <a href="/d2wiki/Coldkill" title="Coldkill">Coldkill</a> <br>
+• <a href="/d2wiki/Butcher%27s_Pupil" title="Butcher's Pupil">Butcher's Pupil</a> <br>
+• <a href="/d2wiki/Islestrike" title="Islestrike">Islestrike</a> <br>
+• <a href="/d2wiki/Pompeii%27s_Wrath" title="Pompeii's Wrath">Pompeii's Wrath</a> <br>
+• <a href="/d2wiki/Guardian_Naga" title="Guardian Naga">Guardian Naga</a>
+</p><p>Elite, one-handed: <br>
+• <a href="/d2wiki/Cranebeak" title="Cranebeak">Cranebeak</a><br>
+• <a href="/d2wiki/Death_Cleaver" title="Death Cleaver">Death Cleaver</a> (L)<br>
+• <a href="/d2wiki/Razor%27s_Edge" title="Razor's Edge">Razor's Edge</a><br>
+• <a href="/d2wiki/Rune_Master" title="Rune Master">Rune Master</a> (L)<br>
+</p>
+</td>
+<td>
+<p><br>Normal, two-handed:<br>
+• <a href="/d2wiki/Axe_of_Fechmar" title="Axe of Fechmar">Axe of Fechmar</a> <br>
+• <a href="/d2wiki/Goreshovel" title="Goreshovel">Goreshovel</a> <br>
+• <a href="/d2wiki/The_Chieftain" title="The Chieftain">The Chieftain</a> <br>
+• <a href="/d2wiki/Brainhew" title="Brainhew">Brainhew</a> <br>
+• <a href="/d2wiki/Humongous" title="Humongous">Humongous</a><br>
+</p><p>Exceptional, two-handed:<br>
+• <a href="/d2wiki/Warlord%27s_Trust" title="Warlord's Trust">Warlord's Trust</a> <br>
+• <a href="/d2wiki/Spellsteel" title="Spellsteel">Spellsteel</a> <br>
+• <a href="/d2wiki/Stormrider" title="Stormrider">Stormrider</a> <br>
+• <a href="/d2wiki/Boneslayer_Blade" title="Boneslayer Blade">Boneslayer Blade</a> <br>
+• <a href="/d2wiki/The_Minotaur" title="The Minotaur">The Minotaur</a> <br>
+</p><p>Elite, two-handed:<br>
+• <a href="/d2wiki/Ethereal_Edge" title="Ethereal Edge">Ethereal Edge</a> <br>
+• <a href="/d2wiki/Executioner%27s_Justice" title="Executioner's Justice">Executioner's Justice</a> (L)<br>
+• <a href="/d2wiki/Frostwind_(Champion_Axe)" title="Frostwind (Champion Axe)">Frostwind</a> <br>
+• <a href="/d2wiki/Hellslayer" title="Hellslayer">Hellslayer</a> <br>
+• <a href="/d2wiki/Messerschmidt%27s_Reaver" title="Messerschmidt's Reaver">Messerschmidt's Reaver</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Bows" title="Unique Bows">All Unique Bows</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Pluckeye" title="Pluckeye">Pluckeye</a> <br>
+• <a href="/d2wiki/Witherstring" title="Witherstring">Witherstring</a> <br>
+• <a href="/d2wiki/Raven%27s_Claw" class="mw-redirect" title="Raven's Claw">Raven's Claw</a> <br>
+• <a href="/d2wiki/Rogue%27s_Bow" title="Rogue's Bow">Rogue's Bow</a> <br>
+• <a href="/d2wiki/Stormstrike" title="Stormstrike">Stormstrike</a> <br>
+• <a href="/d2wiki/Wizendraw" title="Wizendraw">Wizendraw</a> <br>
+• <a href="/d2wiki/Hellclap" title="Hellclap">Hellclap</a> <br>
+• <a href="/d2wiki/Blastbark" title="Blastbark">Blastbark</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Skystrike" title="Skystrike">Skystrike</a> <br>
+• <a href="/d2wiki/Riphook" title="Riphook">Riphook</a> <br>
+• <a href="/d2wiki/Kuko_Shakaku" title="Kuko Shakaku">Kuko Shakaku</a><br> 
+• <a href="/d2wiki/Endlesshail" title="Endlesshail">Endlesshail</a> <br>
+• <a href="/d2wiki/Witchwild_String" title="Witchwild String">Witchwild String</a> <br>
+• <a href="/d2wiki/Cliffkiller" title="Cliffkiller">Cliffkiller</a> <br>
+• <a href="/d2wiki/Magewrath" title="Magewrath">Magewrath</a> <br>
+• <a href="/d2wiki/Goldstrike_Arch" title="Goldstrike Arch">Goldstrike Arch</a>
+</p><p>Elite: <br>
+• <a href="/d2wiki/Widowmaker" title="Widowmaker">Widowmaker</a> (L)<br>
+• <a href="/d2wiki/Eaglehorn" title="Eaglehorn">Eaglehorn</a><br>
+• <a href="/d2wiki/Windforce" title="Windforce">Windforce</a>
+</p><p>• <a href="/d2wiki/Unique_Amazon_Items" title="Unique Amazon Items">Amazon Bows</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Crossbows" title="Unique Crossbows">All Unique Crossbows</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Leadcrow" title="Leadcrow">Leadcrow</a> <br>
+• <a href="/d2wiki/Ichorsting" title="Ichorsting">Ichorsting</a> <br>
+• <a href="/d2wiki/Hellcast" title="Hellcast">Hellcast</a> <br>
+• <a href="/d2wiki/Doomslinger" title="Doomslinger">Doomslinger</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Langer_Briser" title="Langer Briser">Langer Briser</a> <br>
+• <a href="/d2wiki/Pus_Spitter" title="Pus Spitter">Pus Spitter</a> <br>
+• <a href="/d2wiki/Buriza-Do_Kyanon" title="Buriza-Do Kyanon">Buriza-Do Kyanon</a> <br>
+• <a href="/d2wiki/Demon_Machine" title="Demon Machine">Demon Machine</a><br>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Gut_Siphon" title="Gut Siphon">Gut Siphon</a> <br>
+• <a href="/d2wiki/Hellrack" title="Hellrack">Hellrack</a><br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Daggers" title="Unique Daggers">All Unique Daggers</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Gull" title="Gull">Gull</a> <br>
+• <a href="/d2wiki/The_Diggler" title="The Diggler">The Diggler</a> <br>
+• <a href="/d2wiki/The_Jade_Tan_Do" title="The Jade Tan Do">The Jade Tan Do</a> <br>
+• <a href="/d2wiki/Spectral_Shard" title="Spectral Shard">Spectral Shard</a><br>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Spineripper" title="Spineripper">Spineripper</a> <br>
+• <a href="/d2wiki/Heart_Carver" title="Heart Carver">Heart Carver</a> <br>
+• <a href="/d2wiki/Blackbog%27s_Sharp" title="Blackbog's Sharp">Blackbog's Sharp</a><br>
+• <a href="/d2wiki/Stormspike" title="Stormspike">Stormspike</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Fleshripper" title="Fleshripper">Fleshripper</a> <br>
+• <a href="/d2wiki/Ghostflame" title="Ghostflame">Ghostflame</a> <br>
+• <a href="/d2wiki/Wizardspike" title="Wizardspike">Wizardspike</a><br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Polearms" title="Unique Polearms">All Unique Polearms</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Dimoak%27s_Hew" title="Dimoak's Hew">Dimoak's Hew </a> <br>
+• <a href="/d2wiki/Steelgoad" title="Steelgoad">Steelgoad </a> <br>
+• <a href="/d2wiki/Soul_Harvest" title="Soul Harvest">Soul Harvest </a> <br>
+• <a href="/d2wiki/The_Battlebranch" title="The Battlebranch">The Battlebranch </a> <br>
+• <a href="/d2wiki/Woestave" title="Woestave">Woestave </a> <br>
+• <a href="/d2wiki/The_Grim_Reaper" title="The Grim Reaper">The Grim Reaper</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/The_Meat_Scraper" title="The Meat Scraper">The Meat Scraper</a> <br>
+• <a href="/d2wiki/Blackleach_Blade" title="Blackleach Blade">Blackleach Blade </a> <br>
+• <a href="/d2wiki/Athena%27s_Wrath" title="Athena's Wrath">Athena's Wrath </a> <br>
+• <a href="/d2wiki/Pierre_Tombale_Couant" title="Pierre Tombale Couant">Pierre Tombale Couant </a> <br>
+• <a href="/d2wiki/Husoldal_Evo" title="Husoldal Evo">Husoldal Evo </a> <br>
+• <a href="/d2wiki/Grim%27s_Burning_Dead" title="Grim's Burning Dead">Grim's Burning Dead</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Bonehew" title="Bonehew">Bonehew </a> <br>
+• <a href="/d2wiki/The_Reaper%27s_Toll" title="The Reaper's Toll">The Reaper's Toll</a> (L)<br> 
+• <a href="/d2wiki/Tomb_Reaver" title="Tomb Reaver">Tomb Reaver </a> (L)<br>
+• <a href="/d2wiki/Stormspire" title="Stormspire">Stormspire</a> <br>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_weapons2">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th>Scepters  <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_weapons2_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th>Spears
+</th>
+<th>Staves
+</th>
+<th>Throwing Weapons
+</th>
+<th>Wands
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Scepters" title="Unique Scepters">All Unique Scepters</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Knell_Striker" title="Knell Striker">Knell Striker</a><br>
+• <a href="/d2wiki/Rusthandle" title="Rusthandle">Rusthandle</a><br>
+• <a href="/d2wiki/Stormeye" title="Stormeye">Stormeye</a> 
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Zakarum%27s_Hand" title="Zakarum's Hand">Zakarum's Hand</a> <br>
+• <a href="/d2wiki/The_Fetid_Sprinkler" title="The Fetid Sprinkler">The Fetid Sprinkler</a> <br>
+• <a href="/d2wiki/Hand_of_Blessed_Light" title="Hand of Blessed Light">Hand of Blessed Light</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Astreon%27s_Iron_Ward" title="Astreon's Iron Ward">Astreon's Iron Ward</a> <br>
+• <a href="/d2wiki/Heaven%27s_Light" title="Heaven's Light">Heaven's Light</a> (L)<br>
+• <a href="/d2wiki/The_Redeemer" title="The Redeemer">The Redeemer</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Spears" title="Unique Spears">All Unique Spears</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/The_Dragon_Chang" title="The Dragon Chang">The Dragon Chang</a> <br>
+• <a href="/d2wiki/Razortine" title="Razortine">Razortine</a> <br>
+• <a href="/d2wiki/Bloodthief" title="Bloodthief">Bloodthief</a> <br>
+• <a href="/d2wiki/Lance_of_Yaggai" title="Lance of Yaggai">Lance of Yaggai</a> <br>
+• <a href="/d2wiki/The_Tannr_Gorerod" title="The Tannr Gorerod">The Tannr Gorerod</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/The_Impaler" title="The Impaler">The Impaler</a> <br>
+• <a href="/d2wiki/Kelpie_Snare" title="Kelpie Snare">Kelpie Snare</a> <br>
+• <a href="/d2wiki/Soulfeast_Tine" title="Soulfeast Tine">Soulfeast Tine</a> <br>
+• <a href="/d2wiki/Hone_Sundan" title="Hone Sundan">Hone Sundan</a> <br>
+• <a href="/d2wiki/Spire_of_Honor" title="Spire of Honor">Spire of Honor</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Arioc%27s_Needle" title="Arioc's Needle">Arioc's Needle</a> <br>
+• <a href="/d2wiki/Steel_Pillar" title="Steel Pillar">Steel Pillar</a> <br>
+• <a href="/d2wiki/Viperfork" title="Viperfork">Viperfork</a>
+</p><p>• <a href="/d2wiki/Unique_Amazon_Items" title="Unique Amazon Items">Amazon Spears</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Staves" title="Unique Staves">All Unique Staves</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Bane_Ash" title="Bane Ash">Bane Ash</a> <br>
+• <a href="/d2wiki/Serpent_Lord" title="Serpent Lord">Serpent Lord</a> <br>
+• <a href="/d2wiki/Spire_of_Lazarus" title="Spire of Lazarus">Spire of Lazarus</a> <br>
+• <a href="/d2wiki/The_Salamander" title="The Salamander">The Salamander</a> <br> 
+• <a href="/d2wiki/The_Iron_Jang_Bong" title="The Iron Jang Bong">The Iron Jang Bong</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Razorswitch" title="Razorswitch">Razorswitch</a> <br>
+• <a href="/d2wiki/Ribcracker" title="Ribcracker">Ribcracker</a> <br>
+• <a href="/d2wiki/Chromatic_Ire" title="Chromatic Ire">Chromatic Ire</a> <br>
+• <a href="/d2wiki/Warpspear" title="Warpspear">Warpspear</a> <br>
+• <a href="/d2wiki/Skull_Collector" title="Skull Collector">Skull Collector</a> 
+</p><p>Elite:<br>
+• <a href="/d2wiki/Mang_Song%27s_Lesson" title="Mang Song's Lesson">Mang Song's Lesson</a> (L)<br>
+• <a href="/d2wiki/Ondal%27s_Wisdom" title="Ondal's Wisdom">Ondal's Wisdom</a> <br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Throwing" title="Unique Throwing">All Unique Throwing Weapons</a></b><br>
+Exceptional:<br>
+• <a href="/d2wiki/Deathbit" title="Deathbit">Deathbit</a> <br> 
+• <a href="/d2wiki/The_Scalper" title="The Scalper">The Scalper</a> <br> 
+</p><p>Elite:<br>
+• <a href="/d2wiki/Gimmershred" title="Gimmershred">Gimmershred</a> <br> 
+• <a href="/d2wiki/Lacerator" title="Lacerator">Lacerator</a> <br> 
+• <a href="/d2wiki/Warshrike" title="Warshrike">Warshrike</a> (L)
+</p><p><br>
+<b><a href="/d2wiki/Unique_Javelins" title="Unique Javelins">All Unique Javelins</a></b><br>
+Elite:<br>
+• <a href="/d2wiki/Demon%27s_Arch" title="Demon's Arch">Demon's Arch</a><br>
+• <a href="/d2wiki/Wraith_Flight" title="Wraith Flight">Wraith Flight</a> (L)<br>
+• <a href="/d2wiki/Gargoyle%27s_Bite" title="Gargoyle's Bite">Gargoyle's Bite</a><br>
+</p><p>• <a href="/d2wiki/Unique_Amazon_Items" title="Unique Amazon Items">Amazon Javelins</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Wands" title="Unique Wands">All Unique Wands</a></b><br>
+Normal:<br>
+• <a href="/d2wiki/Torch_of_Iro" title="Torch of Iro">Torch of Iro</a> <br> 
+• <a href="/d2wiki/Maelstrom" title="Maelstrom">Maelstrom</a> <br> 
+• <a href="/d2wiki/Gravenspine" title="Gravenspine">Gravenspine</a> <br> 
+• <a href="/d2wiki/Ume%27s_Lament" title="Ume's Lament">Ume's Lament</a>
+</p><p>Exceptional:<br>
+• <a href="/d2wiki/Suicide_Branch" title="Suicide Branch">Suicide Branch</a> <br> 
+• <a href="/d2wiki/Carin_Shard" title="Carin Shard">Carin Shard</a> <br> 
+• <a href="/d2wiki/Arm_of_King_Leoric" title="Arm of King Leoric">Arm of King Leoric</a> <br> 
+• <a href="/d2wiki/Blackhand_Key" title="Blackhand Key">Blackhand Key</a>
+</p><p>Elite:<br>
+• <a href="/d2wiki/Boneshade" title="Boneshade">Boneshade</a> <br> 
+• <a href="/d2wiki/Death%27s_Web" title="Death's Web">Death's Web</a> <br> 
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_weapons3">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th colspan="3">Maces  <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_weapons3_navbox&amp;action=edit">e</a></span>]</span>
+</th>
+<th colspan="6">Swords
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Maces" title="Unique Maces">All Unique Maces</a></b><br>
+Normal, 1H:<br>
+• <a href="/d2wiki/Felloak" title="Felloak">Felloak</a><br>
+• <a href="/d2wiki/Stoutnail" title="Stoutnail">Stoutnail</a><br>
+• <a href="/d2wiki/Crushflange" title="Crushflange">Crushflange</a><br>
+• <a href="/d2wiki/Bloodrise" title="Bloodrise">Bloodrise</a><br>
+• <a href="/d2wiki/The_General%27s_Tan_Do_Li_Ga" title="The General's Tan Do Li Ga">The General's Tan Do Li Ga</a><br>
+• <a href="/d2wiki/Ironstone" title="Ironstone">Ironstone</a><br>
+</p><p>Normal, 2H:<br>
+• <a href="/d2wiki/Bonesnap" title="Bonesnap">Bonesnap</a><br>
+• <a href="/d2wiki/Steeldriver" title="Steeldriver">Steeldriver</a>
+</p>
+</td>
+<td>
+<p><br>Exceptional, 1H:<br>
+• <a href="/d2wiki/Dark_Clan_Crusher" title="Dark Clan Crusher">Dark Clan Crusher</a><br>
+• <a href="/d2wiki/Fleshrender" title="Fleshrender">Fleshrender</a><br>
+• <a href="/d2wiki/Sureshrill_Frost" title="Sureshrill Frost">Sureshrill Frost</a><br>
+• <a href="/d2wiki/Moonfall" title="Moonfall">Moonfall</a><br>
+• <a href="/d2wiki/Baezil%27s_Vortex" title="Baezil's Vortex">Baezil's Vortex</a><br>
+• <a href="/d2wiki/Earthshaker" title="Earthshaker">Earthshaker</a><br>
+</p><p>Exceptional, 2H:<br>
+• <a href="/d2wiki/Bloodtree_Stump" title="Bloodtree Stump">Bloodtree Stump</a><br>
+• <a href="/d2wiki/The_Gavel_of_Pain" title="The Gavel of Pain">The Gavel of Pain</a>
+</p>
+</td>
+<td>
+<p><br>Elite, 1H: <br>
+• <a href="/d2wiki/Nord%27s_Tenderizer" title="Nord's Tenderizer">Nord's Tenderizer</a> <br>
+• <a href="/d2wiki/Baranar%27s_Star" title="Baranar's Star">Baranar's Star</a> <br> 
+• <a href="/d2wiki/Demon_Limb" title="Demon Limb">Demon Limb </a> <br>
+• <a href="/d2wiki/Stormlash" title="Stormlash">Stormlash </a> <br>
+• <a href="/d2wiki/Horizon%27s_Tornado" title="Horizon's Tornado">Horizon's Tornado </a> <br>
+• <a href="/d2wiki/Stone_Crusher" title="Stone Crusher">Stone Crusher </a> <br>
+• <a href="/d2wiki/Schaefer%27s_Hammer" title="Schaefer's Hammer">Schaefer's Hammer </a> <br>
+</p><p>Elite, 2H: <br>
+• <a href="/d2wiki/Windhammer" title="Windhammer">Windhammer </a> <br>
+• <a href="/d2wiki/Earth_Shifter" title="Earth Shifter">Earth Shifter </a> <br>
+• <a href="/d2wiki/The_Cranium_Basher" title="The Cranium Basher">The Cranium Basher</a> <br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Swords" title="Unique Swords">All Unique Swords</a></b><br>
+Normal, 1H:<br>
+• <a href="/d2wiki/Rixot%27s_Keen" title="Rixot's Keen">Rixot's Keen</a> <br>
+• <a href="/d2wiki/Blood_Crescent" title="Blood Crescent">Blood Crescent</a> <br>
+• <a href="/d2wiki/Skewer_of_Krintiz" title="Skewer of Krintiz">Skewer of Krintiz</a> <br>
+• <a href="/d2wiki/Gleamscythe" title="Gleamscythe">Gleamscythe</a> <br>
+• <a href="/d2wiki/Griswold%27s_Edge" title="Griswold's Edge">Griswold's Edge</a> <br>
+• <a href="/d2wiki/Hellplague" title="Hellplague">Hellplague</a> <br>
+• <a href="/d2wiki/Culwen%27s_Point" title="Culwen's Point">Culwen's Point </a> 
+</p><p>Normal, 2H:<br>
+• <a href="/d2wiki/Shadowfang" title="Shadowfang">Shadowfang</a> <br> 
+• <a href="/d2wiki/Soulflay" title="Soulflay">Soulflay</a> <br> 
+• <a href="/d2wiki/Kinemil%27s_Awl" title="Kinemil's Awl">Kinemil's Awl</a> <br> 
+• <a href="/d2wiki/Blacktongue" title="Blacktongue">Blacktongue</a> <br> 
+• <a href="/d2wiki/Ripsaw" title="Ripsaw">Ripsaw</a> <br> 
+• <a href="/d2wiki/The_Patriarch" title="The Patriarch">The Patriarch </a> <br>
+</p>
+</td>
+<td>
+<p><br>Exceptional, 1H:<br>
+• <a href="/d2wiki/Bloodletter" title="Bloodletter">Bloodletter</a> <br>
+• <a href="/d2wiki/Coldsteel_Eye" title="Coldsteel Eye">Coldsteel Eye</a> <br>
+• <a href="/d2wiki/Hexfire" title="Hexfire">Hexfire</a> <br> 
+• <a href="/d2wiki/Blade_of_Ali_Baba" title="Blade of Ali Baba">Blade of Ali Baba</a> <br> 
+• <a href="/d2wiki/Ginther%27s_Rift" title="Ginther's Rift">Ginther's Rift</a> <br> 
+• <a href="/d2wiki/Headstriker" title="Headstriker">Headstriker</a> <br> 
+• <a href="/d2wiki/Plague_Bearer" title="Plague Bearer">Plague Bearer</a> <br> 
+• <a href="/d2wiki/The_Atlantean" title="The Atlantean">The Atlantean </a> 
+</p><p>Exceptional, 2H:<br>
+• <a href="/d2wiki/Crainte_Vomir" title="Crainte Vomir">Crainte Vomir</a> <br> 
+• <a href="/d2wiki/Bing_Sz_Wang" title="Bing Sz Wang">Bing Sz Wang</a> <br> 
+• <a href="/d2wiki/The_Vile_Husk" title="The Vile Husk">The Vile Husk</a> <br> 
+• <a href="/d2wiki/Cloudcrack" title="Cloudcrack">Cloudcrack</a> <br> 
+• <a href="/d2wiki/Todesfaelle_Flamme" title="Todesfaelle Flamme">Todesfaelle Flamme</a> <br> 
+• <a href="/d2wiki/Swordguard" title="Swordguard">Swordguard</a>
+</p>
+</td>
+<td>
+<p><br>Elite, 1H:<br>
+• <a href="/d2wiki/Azurewrath" title="Azurewrath">Azurewrath</a> <br> 
+• <a href="/d2wiki/Bloodmoon" title="Bloodmoon">Bloodmoon</a> <br> 
+• <a href="/d2wiki/Djinn_Slayer" title="Djinn Slayer">Djinn Slayer</a> (L)<br> 
+• <a href="/d2wiki/Frostwind" title="Frostwind">Frostwind</a> <br> 
+• <a href="/d2wiki/Lightsabre" title="Lightsabre">Lightsabre</a>
+</p><p>Elite, 2H:<br>
+• <a href="/d2wiki/Flamebellow" title="Flamebellow">Flamebellow</a> <br> 
+• <a href="/d2wiki/Doombringer" title="Doombringer">Doombringer</a> <br> 
+• <a href="/d2wiki/The_Grandfather" title="The Grandfather">The Grandfather</a>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Unique_class">
+<table align="center" class="navbox">
+
+<tbody><tr>
+<th>Amazon <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Unique_Class_Items&amp;action=edit">e</a></span>]</span>
+</th>
+<th>Assassin
+</th>
+<th>Barbarian
+</th>
+<th>Druid
+</th>
+<th>Necromancer
+</th>
+<th>Paladin
+</th>
+<th>Sorceress
+</th></tr>
+<tr>
+<td>
+<p><b><a href="/d2wiki/Unique_Amazon_Items" title="Unique Amazon Items">Amazon Weapons</a></b><br>
+• <a href="/d2wiki/Lycander%27s_Aim" title="Lycander's Aim">Lycander's Aim</a><br>
+• <a href="/d2wiki/Titan%27s_Revenge" title="Titan's Revenge">Titan's Revenge</a><br>
+• <a href="/d2wiki/Lycander%27s_Flank" title="Lycander's Flank">Lycander's Flank</a><br>
+• <a href="/d2wiki/Bloodraven%27s_Charge" title="Bloodraven's Charge">Bloodraven's Charge</a><br>
+• <a href="/d2wiki/Thunderstroke" title="Thunderstroke">Thunderstroke</a> (L)<br>
+• <a href="/d2wiki/Stoneraven" title="Stoneraven">Stoneraven</a> (L)<br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Assassin_Items" title="Unique Assassin Items">Assassin Claws</a></b><br>
+• <a href="/d2wiki/Bartuc%27s_Cut-Throat" title="Bartuc's Cut-Throat">Bartuc's Cut-Throat</a><br>
+• <a href="/d2wiki/Firelizard%27s_Talons" title="Firelizard's Talons">Firelizard's Talons</a><br>
+• <a href="/d2wiki/Jade_Talon" title="Jade Talon">Jade Talon</a><br>
+• <a href="/d2wiki/Shadow_Killer" title="Shadow Killer">Shadow Killer</a> (L)
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Barbarian_Items" title="Unique Barbarian Items">Barbarian Helms</a></b><br>
+• <a href="/d2wiki/Arreat%27s_Face" title="Arreat's Face">Arreat's Face</a><br>
+• <a href="/d2wiki/Demonhorn%27s_Edge" title="Demonhorn's Edge">Demonhorn's Edge</a> (L)<br>
+• <a href="/d2wiki/Halaberd%27s_Reign" title="Halaberd's Reign">Halaberd's Reign</a><br>
+• <a href="/d2wiki/Wolfhowl" title="Wolfhowl">Wolfhowl</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Druid_Items" title="Unique Druid Items">Druid Helms</a></b><br>
+• <a href="/d2wiki/Jalal%27s_Mane" title="Jalal's Mane">Jalal's Mane</a><br>
+• <a href="/d2wiki/Cerebus%27_Bite" title="Cerebus' Bite">Cerebus' Bite</a> (L)<br>
+• <a href="/d2wiki/Ravenlore" title="Ravenlore">Ravenlore</a><br>
+• <a href="/d2wiki/Spirit_Keeper" title="Spirit Keeper">Spirit Keeper</a>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Necromancer_Items" title="Unique Necromancer Items">Necromancer Totems</a></b><br>
+• <a href="/d2wiki/Homunculus" title="Homunculus">Homunculus</a><br>
+• <a href="/d2wiki/Boneflame" title="Boneflame">Boneflame</a><br>
+• <a href="/d2wiki/Darkforce_Spawn" title="Darkforce Spawn">Darkforce Spawn</a> (L)<br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Paladin_Items" title="Unique Paladin Items">Paladin Shields</a></b><br>
+• <a href="/d2wiki/Herald_of_Zakarum" title="Herald of Zakarum">Herald of Zakarum</a><br>
+• <a href="/d2wiki/Alma_Negra" title="Alma Negra">Alma Negra</a><br>
+• <a href="/d2wiki/Dragonscale" title="Dragonscale">Dragonscale</a><br>
+</p>
+</td>
+<td>
+<p><b><a href="/d2wiki/Unique_Sorceress_Items" title="Unique Sorceress Items">Sorceress Orbs</a></b><br>
+• <a href="/d2wiki/The_Oculus" title="The Oculus">The Oculus</a><br>
+• <a href="/d2wiki/Death%27s_Fathom" title="Death's Fathom">Death's Fathom</a> (L)<br>
+• <a href="/d2wiki/Eschuta%27s_Temper" title="Eschuta's Temper">Eschuta's Temper</a><br>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Uniques can only be found by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. They can also be found in <a href="/d2wiki/Single_player" title="Single player">single player</a>.</center>
+</td></tr></tbody></table>
+<p><br>
+</p><p><br>
+</p>
+</div>
+		<div class="NavTabContent" title="Item_sets">
+<table align="center" style="font-size:10px;width:80%" class="navbox">
+<tbody><tr>
+<th colspan="6" width="100%" align="center" style="font-size:12px;"><a href="/d2wiki/Set_Items" class="mw-redirect" title="Set Items">Item Sets General Info</a> -- <a href="/d2wiki/Set_Items_Catalog" title="Set Items Catalog">Set Items Catalog</a> <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Item_Sets&amp;action=edit">e</a></span>]</span>
+</th></tr>
+<tr>
+<th colspan="2" width="50%" align="center" style="font-size:10px;">Diablo II Classic Item Sets
+</th>
+<th colspan="2" width="50%" align="center" style="font-size:10px;">Diablo II Expansion Item Sets
+</th></tr>
+<tr>
+<td width="25%" align="left" valign="top">
+<p>• <a href="/d2wiki/Angelic_Raiment" title="Angelic Raiment">Angelic Raiment</a><br>
+• <a href="/d2wiki/Arcanna%27s_Tricks" title="Arcanna's Tricks">Arcanna's Tricks</a><br>
+• <a href="/d2wiki/Arctic_Gear" title="Arctic Gear">Arctic Gear</a><br>
+• <a href="/d2wiki/Berserker%27s_Arsenal" title="Berserker's Arsenal">Berserker's Arsenal</a><br>
+• <a href="/d2wiki/Cathan%27s_Traps" title="Cathan's Traps">Cathan's Traps</a><br>
+• <a href="/d2wiki/Civerb%27s_Vestments" title="Civerb's Vestments">Civerb's Vestments</a><br>
+• <a href="/d2wiki/Cleglaw%27s_Brace" title="Cleglaw's Brace">Cleglaw's Brace</a><br>
+• <a href="/d2wiki/Death%27s_Disguise" title="Death's Disguise">Death's Disguise</a>
+</p>
+</td>
+<td width="25%" align="left" valign="top">
+<p>• <a href="/d2wiki/Hsaru%27s_Defense" title="Hsaru's Defense">Hsaru's Defense</a><br>
+• <a href="/d2wiki/Infernal_Tools" title="Infernal Tools">Infernal Tools</a><br>
+• <a href="/d2wiki/Iratha%27s_Finery" title="Iratha's Finery">Iratha's Finery</a><br>
+• <a href="/d2wiki/Isenhart%27s_Armory" title="Isenhart's Armory">Isenhart's Armory</a><br>
+• <a href="/d2wiki/Milabrega%27s_Regalia" title="Milabrega's Regalia">Milabrega's Regalia</a><br>
+• <a href="/d2wiki/Sigon%27s_Complete_Steel" title="Sigon's Complete Steel">Sigon's Complete Steel</a><br>
+• <a href="/d2wiki/Tancred%27s_Battlegear" title="Tancred's Battlegear">Tancred's Battlegear</a><br>
+• <a href="/d2wiki/Vidala%27s_Rig" title="Vidala's Rig">Vidala's Rig</a>
+</p>
+</td>
+<td width="25%" align="left" valign="top">
+<p>• <a href="/d2wiki/Aldur%27s_Watchtower" title="Aldur's Watchtower">Aldur's Watchtower</a><br>
+• <a href="/d2wiki/Bul-Kathos%27_Children" title="Bul-Kathos' Children">Bul-Kathos' Children</a><br>
+• <a href="/d2wiki/Cow_King%27s_Leathers" title="Cow King's Leathers">Cow King's Leathers</a><br>
+• <a href="/d2wiki/Griswold%27s_Legacy" title="Griswold's Legacy">Griswold's Legacy</a><br>
+• <a href="/d2wiki/Heaven%27s_Brethren" title="Heaven's Brethren">Heaven's Brethren</a><br>
+• <a href="/d2wiki/Hwanin%27s_Majesty" title="Hwanin's Majesty">Hwanin's Majesty</a><br>
+• <a href="/d2wiki/Immortal_King" title="Immortal King">Immortal King</a><br>
+• <a href="/d2wiki/M%27avina%27s_Battle_Hymn" title="M'avina's Battle Hymn">M'avina's Battle Hymn</a>
+</p>
+</td>
+<td width="25%" align="left" valign="top">
+<p>• <a href="/d2wiki/Naj%27s_Ancient_Vestige" title="Naj's Ancient Vestige">Naj's Ancient Vestige</a><br>
+• <a href="/d2wiki/Natalya%27s_Odium" title="Natalya's Odium">Natalya's Odium</a><br>
+• <a href="/d2wiki/Orphan%27s_Call" title="Orphan's Call">Orphan's Call</a><br>
+• <a href="/d2wiki/Sander%27s_Folly" title="Sander's Folly">Sander's Folly</a><br>
+• <a href="/d2wiki/Sazabi%27s_Grand_Tribute" title="Sazabi's Grand Tribute">Sazabi's Grand Tribute</a><br>
+• <a href="/d2wiki/Tal_Rasha%27s_Wrappings" title="Tal Rasha's Wrappings">Tal Rasha's Wrappings</a><br>
+• <a href="/d2wiki/The_Disciple" title="The Disciple">The Disciple</a><br>
+• <a href="/d2wiki/Trang-Oul%27s_Avatar" title="Trang-Oul's Avatar">Trang-Oul's Avatar</a>
+</p>
+</td></tr></tbody></table>
+</div>
+		<div class="NavTabContent" title="Runewords">
+<table align="center" style="font-size:10px" class="navbox">
+<tbody><tr>
+<th colspan="7" width="100%" align="center" style="font-size:12px;"><a href="/d2wiki/Runewords" title="Runewords">Runewords</a> - <a href="/d2wiki/Rune_list" title="Rune list">Rune list</a> - <a href="/d2wiki/Rune_FAQ" title="Rune FAQ">Rune FAQ</a> - <a href="/d2wiki/Rune_hunting" title="Rune hunting">Rune hunting</a> <span style="font-size:80%; font-weight:normal;">[<span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.purediablo.com/d2wiki/index.php?title=Template:Runewords_navbox&amp;action=edit">e</a></span>]</span>
+</th></tr>
+<tr>
+<th colspan="2"><center><b>Armor Runewords</b></center>
+</th>
+<th><center><b>Helms</b></center>
+</th>
+<th><center><b>Shields</b></center>
+</th>
+<th colspan="3"><center><b>Weapon Runewords</b></center>
+</th></tr>
+<tr>
+<td>
+<p>• <a href="/d2wiki/Bone" title="Bone">Bone</a><br>
+• <a href="/d2wiki/Bramble" title="Bramble">Bramble</a><br>
+• <a href="/d2wiki/Chains_of_Honor" title="Chains of Honor">Chains of Honor</a><br>
+• <a href="/d2wiki/Dragon" title="Dragon">Dragon</a> (L)<br>
+• <a href="/d2wiki/Duress" title="Duress">Duress</a><br> 
+• <a href="/d2wiki/Enigma" title="Enigma">Enigma</a><br> 
+• <a href="/d2wiki/Enlightenment" title="Enlightenment">Enlightenment</a><br>
+• <a href="/d2wiki/Fortitude" title="Fortitude">Fortitude</a> (L)<br>
+• <a href="/d2wiki/Gloom" title="Gloom">Gloom</a><br> 
+• <a href="/d2wiki/Lionheart" title="Lionheart">Lionheart</a><br>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Myth" title="Myth">Myth</a><br>
+• <a href="/d2wiki/Peace" title="Peace">Peace</a><br>
+• <a href="/d2wiki/Principle" title="Principle">Principle</a><br>
+• <a href="/d2wiki/Prudence" title="Prudence">Prudence</a> <br>
+• <a href="/d2wiki/Rain" title="Rain">Rain</a><br>
+• <a href="/d2wiki/Smoke" title="Smoke">Smoke</a><br> 
+• <a href="/d2wiki/Stealth" title="Stealth">Stealth</a><br> 
+• <a href="/d2wiki/Stone" title="Stone">Stone</a><br> 
+• <a href="/d2wiki/Treachery" title="Treachery">Treachery</a><br>
+• <a href="/d2wiki/Wealth" title="Wealth">Wealth</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Delirium" title="Delirium">Delirium</a><br> 
+• <a href="/d2wiki/Dream" title="Dream">Dream</a> (L)<br>
+• <a href="/d2wiki/Lore" title="Lore">Lore</a><br> 
+• <a href="/d2wiki/Nadir" title="Nadir">Nadir</a><br> 
+• <a href="/d2wiki/Radiance" title="Radiance">Radiance</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Ancient%27s_Pledge" title="Ancient's Pledge">Ancient's Pledge</a><br> 
+• <a href="/d2wiki/Dragon" title="Dragon">Dragon</a><br> 
+• <a href="/d2wiki/Dream" title="Dream">Dream</a> (L)<br>
+• <a href="/d2wiki/Exile" title="Exile">Exile</a><br> 
+• <a href="/d2wiki/Phoenix" title="Phoenix">Phoenix</a><br> 
+• <a href="/d2wiki/Rhyme" title="Rhyme">Rhyme</a><br> 
+• <a href="/d2wiki/Sanctuary_(runeword)" title="Sanctuary (runeword)">Sanctuary</a><br> 
+• <a href="/d2wiki/Spirit" title="Spirit">Spirit</a><br> 
+• <a href="/d2wiki/Splendor" title="Splendor">Splendor</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Beast" title="Beast">Beast</a><br> 
+• <a href="/d2wiki/Black" title="Black">Black</a><br> 
+• <a href="/d2wiki/Brand" title="Brand">Brand</a> (L)<br>
+• <a href="/d2wiki/Breath_of_the_Dying" title="Breath of the Dying">Breath of the Dying</a><br> 
+• <a href="/d2wiki/Call_to_Arms" title="Call to Arms">Call to Arms</a><br> 
+• <a href="/d2wiki/Chaos" title="Chaos">Chaos</a><br>
+• <a href="/d2wiki/Crescent_Moon_(Runeword)" title="Crescent Moon (Runeword)">Crescent Moon</a><br>
+• <a href="/d2wiki/Death" title="Death">Death</a> (L)<br>
+• <a href="/d2wiki/Destruction" title="Destruction">Destruction</a> (L)<br>
+• <a href="/d2wiki/Doom" title="Doom">Doom</a><br> 
+• <a href="/d2wiki/Edge" title="Edge">Edge</a> (L)<br>
+• <a href="/d2wiki/Eternity" title="Eternity">Eternity</a><br> 
+• <a href="/d2wiki/Faith" title="Faith">Faith</a> (L)<br>
+• <a href="/d2wiki/Famine" title="Famine">Famine</a><br> 
+• <a href="/d2wiki/Fortitude" title="Fortitude">Fortitude</a><br> 
+• <a href="/d2wiki/Fury_(runeword)" title="Fury (runeword)">Fury</a><br>
+• <a href="/d2wiki/Grief" title="Grief">Grief</a> (L)<br>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Hand_of_Justice" title="Hand of Justice">Hand of Justice</a><br> 
+• <a href="/d2wiki/Harmony" title="Harmony">Harmony</a> (L)<br>
+• <a href="/d2wiki/Heart_of_the_Oak" title="Heart of the Oak">Heart of the Oak</a><br> 
+• <a href="/d2wiki/Holy_Thunder" title="Holy Thunder">Holy Thunder</a><br> 
+• <a href="/d2wiki/Honor" title="Honor">Honor</a><br> 
+• <a href="/d2wiki/Ice" title="Ice">Ice</a> (L)<br>
+• <a href="/d2wiki/Infinity" title="Infinity">Infinity</a> (L)<br> 
+• <a href="/d2wiki/Insight" title="Insight">Insight</a> (L)<br>
+• <a href="/d2wiki/King%27s_Grace" title="King's Grace">King's Grace</a><br> 
+• <a href="/d2wiki/Kingslayer" title="Kingslayer">Kingslayer</a><br> 
+• <a href="/d2wiki/Last_Wish" title="Last Wish">Last Wish</a> (L)<br>
+• <a href="/d2wiki/Lawbringer" title="Lawbringer">Lawbringer</a> (L)<br>
+• <a href="/d2wiki/Leaf" title="Leaf">Leaf</a><br> 
+• <a href="/d2wiki/Malice" title="Malice">Malice</a><br> 
+• <a href="/d2wiki/Melody" title="Melody">Melody</a><br> 
+• <a href="/d2wiki/Memory" title="Memory">Memory</a>
+</p>
+</td>
+<td>
+<p>• <a href="/d2wiki/Oath" title="Oath">Oath</a> (L)<br>
+• <a href="/d2wiki/Obedience" title="Obedience">Obedience</a> (L)<br> 
+• <a href="/d2wiki/Passion" title="Passion">Passion</a><br>
+• <a href="/d2wiki/Phoenix" title="Phoenix">Phoenix</a> (L)<br> 
+• <a href="/d2wiki/Pride" title="Pride">Pride</a> (L)<br>
+• <a href="/d2wiki/Rift" title="Rift">Rift</a> (L)<br>
+• <a href="/d2wiki/Silence" title="Silence">Silence</a><br> 
+• <a href="/d2wiki/Spirit" title="Spirit">Spirit</a> (L)<br>
+• <a href="/d2wiki/Steel" title="Steel">Steel</a><br> 
+• <a href="/d2wiki/Strength_(runeword)" title="Strength (runeword)">Strength</a><br> 
+• <a href="/d2wiki/Venom_(runeword)" title="Venom (runeword)">Venom</a><br> 
+• <a href="/d2wiki/Voice_of_Reason" title="Voice of Reason">Voice of Reason</a> (L)<br>
+• <a href="/d2wiki/White" title="White">White</a><br> 
+• <a href="/d2wiki/Wind" title="Wind">Wind</a><br>
+• <a href="/d2wiki/Wrath" title="Wrath">Wrath</a> (L)<br>
+• <a href="/d2wiki/Zephyr" title="Zephyr">Zephyr</a><br>
+</p>
+</td></tr>
+<tr>
+<td colspan="7"><center>(L): These Runewords can only be created by <a href="/d2wiki/B.net" class="mw-redirect" title="B.net">B.net</a> Realm <a href="/d2wiki/Ladder" title="Ladder">Ladder</a> characters. <a href="/d2wiki/index.php?title=SP&amp;action=edit&amp;redlink=1" class="new" title="SP (page does not exist)">SP</a> chars can enable them with <a rel="nofollow" class="external text" href="http://diablo.incgamers.com/forums/showthread.php?t=760286">the RWM</a>.</center>
+</td></tr></tbody></table></div>
+	</div>
+</div>
+<p><br>
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260420034110
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.131 seconds
+Real time usage: 0.142 seconds
+Preprocessor visited node count: 603/1000000
+Post‐expand include size: 58278/2097152 bytes
+Template argument size: 390/2097152 bytes
+Highest expansion depth: 6/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 142/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   22.651      1 -total
+ 82.95%   18.789      1 Template:D2_items_navbox
+ 16.47%    3.730      1 Template:Item_navbox
+ 11.97%    2.711     11 Template:Editlink
+  8.56%    1.939      1 Template:Items_main_navbox
+  8.50%    1.926      1 Template:Unique_armor_navbox
+  8.25%    1.868      1 Template:Unique_weapons1_navbox
+  8.09%    1.833      1 Template:Runewords_navbox
+  8.00%    1.812      1 Template:Unique_armor2_navbox
+  7.95%    1.800      1 Template:Unique_weapons3_navbox
+-->
+
+<!-- Saved in parser cache with key d2wiki:pcache:idhash:1690-0!canonical and timestamp 20260420034110 and revision id 27849.
+ -->
+</section></div>
+<div class="printfooter">Retrieved from "<a dir="ltr" href="https://www.purediablo.com/d2wiki/index.php?title=Magic_Find&amp;oldid=27849">https://www.purediablo.com/d2wiki/index.php?title=Magic_Find&amp;oldid=27849</a>"</div></div>
+					
+			
+			<footer class="mw-body-footer">
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/d2wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/d2wiki/Category:Modifiers" title="Category:Modifiers">Modifiers</a></li><li><a href="/d2wiki/Category:Magic_Find" title="Category:Magic Find">Magic Find</a></li><li><a href="/d2wiki/Category:Calculations" title="Category:Calculations">Calculations</a></li><li><a href="/d2wiki/Category:FAQs" title="Category:FAQs">FAQs</a></li><li><a href="/d2wiki/Category:Item_strategy_guides_(Diablo_II)" title="Category:Item strategy guides (Diablo II)">Item strategy guides (Diablo II)</a></li></ul></div></div>
+					<div class="page-info">
+    <section id="footer-info-lastmod" class="page-info__item">
+        <div class="page-info__label">Last modified</div>
+        <div class="page-info__text"> This page was last edited on 4 October 2025, at 18:43.</div>
+    </section>
+</div>
+
+			</footer>		</div>
+
+
+		
+		
+
+
+<div class="citizen-toc mw-checkbox-hack-container">
+
+<div class="vm-placement" data-id="64c3e2b3bab7e94502ecf960"></div>
+
+
+	<input 
+		type="checkbox" 
+		id="citizen-toc__checkbox" 
+		class="mw-checkbox-hack-checkbox"
+		role="button"
+		aria-labelledby="citizen-toc__buttonCheckbox"
+		aria-haspopup="true">
+	<nav id="mw-panel-toc" class="citizen-toc__card mw-checkbox-hack-target" role="navigation" aria-labelledby="mw-panel-toc-label">
+		<a class="citizen-toc__top citizen-toc__link" title="Back to top [home]" href="#top">
+			<div class="citizen-toc__text">Back to top</div>
+		</a>
+		<div id="mw-panel-toc-label" class="citizen-toc__header">Contents</div>
+		<ul class="citizen-toc__contents" id="mw-panel-toc-list">
+			
+			
+			<li id="toc-Magic_Find_Equipment"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Magic_Find_Equipment">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">1</span>
+						Magic Find Equipment
+					</div>
+				</a>
+				<ul id="toc-Magic_Find_Equipment-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Magic_Find_Percentages"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Magic_Find_Percentages">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">2</span>
+						Magic Find Percentages
+					</div>
+				</a>
+				<ul id="toc-Magic_Find_Percentages-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Magic_Find_FAQ"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Magic_Find_FAQ">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">3</span>
+						Magic Find FAQ
+					</div>
+				</a>
+				<ul id="toc-Magic_Find_FAQ-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_exactly_does_+MF_do?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_exactly_does_+MF_do?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">4</span>
+						What exactly does +MF do?
+					</div>
+				</a>
+				<ul id="toc-What_exactly_does_+MF_do?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_are_the_&quot;Magic_Items&quot;_that_this_finds_more_of?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_are_the_&quot;Magic_Items&quot;_that_this_finds_more_of?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">5</span>
+						What are the "Magic Items" that this finds more of?
+					</div>
+				</a>
+				<ul id="toc-What_are_the_&quot;Magic_Items&quot;_that_this_finds_more_of?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_things_doesn&#039;t_MF_help_with?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_things_doesn&#039;t_MF_help_with?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">6</span>
+						What things doesn't MF help with?
+					</div>
+				</a>
+				<ul id="toc-What_things_doesn&#039;t_MF_help_with?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_are_&quot;High_Quality&quot;_items?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_are_&quot;High_Quality&quot;_items?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">7</span>
+						What are "High Quality" items?
+					</div>
+				</a>
+				<ul id="toc-What_are_&quot;High_Quality&quot;_items?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Since_Magic_Find_has_diminishing_returns,_is_110%_the_best?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Since_Magic_Find_has_diminishing_returns,_is_110%_the_best?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">8</span>
+						Since Magic Find has diminishing returns, is 110% the best?
+					</div>
+				</a>
+				<ul id="toc-Since_Magic_Find_has_diminishing_returns,_is_110%_the_best?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_order_are_items_checked_to_drop?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_order_are_items_checked_to_drop?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">9</span>
+						What order are items checked to drop?
+					</div>
+				</a>
+				<ul id="toc-What_order_are_items_checked_to_drop?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-When_is_MF_calculated?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#When_is_MF_calculated?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">10</span>
+						When is MF calculated?
+					</div>
+				</a>
+				<ul id="toc-When_is_MF_calculated?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_more_MF_help_find_more_Charms_and_Jewels?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_more_MF_help_find_more_Charms_and_Jewels?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">11</span>
+						Does more MF help find more Charms and Jewels?
+					</div>
+				</a>
+				<ul id="toc-Does_more_MF_help_find_more_Charms_and_Jewels?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-How_much_Magic_Find_do_I_need?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#How_much_Magic_Find_do_I_need?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">12</span>
+						How much Magic Find do I need?
+					</div>
+				</a>
+				<ul id="toc-How_much_Magic_Find_do_I_need?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-What_are_the_drawbacks_of_high_Magic_Find?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#What_are_the_drawbacks_of_high_Magic_Find?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">13</span>
+						What are the drawbacks of high Magic Find?
+					</div>
+				</a>
+				<ul id="toc-What_are_the_drawbacks_of_high_Magic_Find?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_help_with_Runes?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_help_with_Runes?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">14</span>
+						Does Magic Find help with Runes?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_help_with_Runes?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_for_the_whole_party?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_for_the_whole_party?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">15</span>
+						Does Magic Find work for the whole party?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_for_the_whole_party?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_with_Mercs_or_Minions?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_with_Mercs_or_Minions?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">16</span>
+						Does Magic Find work with Mercs or Minions?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_with_Mercs_or_Minions?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_+MF_help_finding_Exceptional_and_Elite_items?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_+MF_help_finding_Exceptional_and_Elite_items?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">17</span>
+						Does +MF help finding Exceptional and Elite items?
+					</div>
+				</a>
+				<ul id="toc-Does_+MF_help_finding_Exceptional_and_Elite_items?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_100%_+MF_mean_every_item_dropped_is_Magical?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_100%_+MF_mean_every_item_dropped_is_Magical?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">18</span>
+						Does 100% +MF mean every item dropped is Magical?
+					</div>
+				</a>
+				<ul id="toc-Does_100%_+MF_mean_every_item_dropped_is_Magical?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_on_bosses?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_on_bosses?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">19</span>
+						Does Magic Find work on bosses?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_on_bosses?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_with_Poison?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_with_Poison?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">20</span>
+						Does Magic Find work with Poison?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_with_Poison?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Do_more_players_in_a_game_help?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Do_more_players_in_a_game_help?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">21</span>
+						Do more players in a game help?
+					</div>
+				</a>
+				<ul id="toc-Do_more_players_in_a_game_help?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_on_Chests?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_on_Chests?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">22</span>
+						Does Magic Find work on Chests?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_on_Chests?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_with_the_Barb&#039;s_Find_Item_Skill?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_with_the_Barb&#039;s_Find_Item_Skill?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">23</span>
+						Does Magic Find work with the Barb's Find Item Skill?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_with_the_Barb&#039;s_Find_Item_Skill?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_help_with_Gambling?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_help_with_Gambling?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">24</span>
+						Does Magic Find help with Gambling?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_help_with_Gambling?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-I&#039;ve_heard_149%_is_better_than_150%?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#I&#039;ve_heard_149%_is_better_than_150%?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">25</span>
+						I've heard 149% is better than 150%?
+					</div>
+				</a>
+				<ul id="toc-I&#039;ve_heard_149%_is_better_than_150%?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_Magic_Find_work_in_v1.07_D2X?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_Magic_Find_work_in_v1.07_D2X?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">26</span>
+						Does Magic Find work in v1.07 D2X?
+					</div>
+				</a>
+				<ul id="toc-Does_Magic_Find_work_in_v1.07_D2X?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Can_I_find_only_Sets_and_Uniques_and_Rares_if_I_get_my_MF_high_enough?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Can_I_find_only_Sets_and_Uniques_and_Rares_if_I_get_my_MF_high_enough?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">27</span>
+						Can I find only Sets and Uniques and Rares if I get my MF high enough?
+					</div>
+				</a>
+				<ul id="toc-Can_I_find_only_Sets_and_Uniques_and_Rares_if_I_get_my_MF_high_enough?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_MF_work_in_single_player?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_MF_work_in_single_player?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">28</span>
+						Does MF work in single player?
+					</div>
+				</a>
+				<ul id="toc-Does_MF_work_in_single_player?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Does_MF_have_any_effect_when_creating_items_in_the_Horadric_Cube?"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Does_MF_have_any_effect_when_creating_items_in_the_Horadric_Cube?">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">29</span>
+						Does MF have any effect when creating items in the Horadric Cube?
+					</div>
+				</a>
+				<ul id="toc-Does_MF_have_any_effect_when_creating_items_in_the_Horadric_Cube?-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Item_Finding_Strategy"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Item_Finding_Strategy">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">30</span>
+						Item Finding Strategy
+					</div>
+				</a>
+				<ul id="toc-Item_Finding_Strategy-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Best_Places_to_Item_Hunt"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Best_Places_to_Item_Hunt">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">31</span>
+						Best Places to Item Hunt
+					</div>
+				</a>
+				<ul id="toc-Best_Places_to_Item_Hunt-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Highest_Possible_Magic_Find"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Highest_Possible_Magic_Find">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">32</span>
+						Highest Possible Magic Find
+					</div>
+				</a>
+				<ul id="toc-Highest_Possible_Magic_Find-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Maximum_possible_Magic_Find"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Maximum_possible_Magic_Find">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">33</span>
+						Maximum possible Magic Find
+					</div>
+				</a>
+				<ul id="toc-Maximum_possible_Magic_Find-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Realistic_Magic_Find_Gear"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Realistic_Magic_Find_Gear">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">34</span>
+						Realistic Magic Find Gear
+					</div>
+				</a>
+				<ul id="toc-Realistic_Magic_Find_Gear-sublist" class="citizen-toc__list">
+				</ul>
+			</li>			
+			
+			<li id="toc-Magic_Find_From_Low_Level_Sets"
+				class="citizen-toc__listItem citizen-toc-level--1">
+				<a class="citizen-toc__link" href="#Magic_Find_From_Low_Level_Sets">
+					<div class="citizen-toc__indicator"></div>
+					<div class="citizen-toc__text">
+						<span class="citizen-toc__numb">35</span>
+						Magic Find From Low Level Sets
+					</div>
+				</a>
+				<ul id="toc-Magic_Find_From_Low_Level_Sets-sublist" class="citizen-toc__list">
+				</ul>
+			</li>		</ul>
+	</nav>
+	<label
+		id="citizen-toc__buttonCheckbox" 
+		class="mw-checkbox-hack-button" 
+		for="citizen-toc__checkbox"
+		title="Contents"
+		aria-hidden="true">
+		<span class="citizen-ui-icon mw-ui-icon-wikimedia-listBullet"></span>
+		<span id="mw-panel-toc-label">Contents</span>
+	</label>
+	
+	
+
+	
+	
+</div>
+	
+
+
+		
+		</div>
+	</main>
+
+</div>
+	
+	 
+
+<footer class="mw-footer citizen-footer" >
+	<div class="citizen-footer__container">
+		<section class="citizen-footer__content">
+			<div class="citizen-footer__siteinfo">
+				<div id="footer-sitetitle" class="mw-wiki-title"><div class="mw-logo-wordmark">Diablo 2 Wiki</div>
+</div>
+				<p id="footer-desc">The Diablo 2 Wiki</p>
+			</div>
+			<nav id="footer-places" >
+	<ul>
+		<li id="footer-places-privacy"><a href="/d2wiki/Diablo_2_Wiki:Privacy_policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="/d2wiki/Diablo_2_Wiki:About">About Diablo 2 Wiki</a></li>
+		<li id="footer-places-disclaimer"><a href="/d2wiki/Diablo_2_Wiki:General_disclaimer">Disclaimers</a></li>
+		<li id="footer-places-mobileview"><a href="https://www.purediablo.com/d2wiki/index.php?title=Magic_Find&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+</nav>
+		</section>
+		<section class="citizen-footer__bottom">
+			<div id="footer-tagline">Copyright PureDiablo</div>
+			
+		</section>
+	</div>
+</footer><script src="https://www.googletagmanager.com/gtag/js?id=G-B6NHRQYY4J" async=""></script><script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-B6NHRQYY4J', {});
+</script>
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.131","walltime":"0.142","ppvisitednodes":{"value":603,"limit":1000000},"postexpandincludesize":{"value":58278,"limit":2097152},"templateargumentsize":{"value":390,"limit":2097152},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":142,"limit":5000000},"timingprofile":["100.00%   22.651      1 -total"," 82.95%   18.789      1 Template:D2_items_navbox"," 16.47%    3.730      1 Template:Item_navbox"," 11.97%    2.711     11 Template:Editlink","  8.56%    1.939      1 Template:Items_main_navbox","  8.50%    1.926      1 Template:Unique_armor_navbox","  8.25%    1.868      1 Template:Unique_weapons1_navbox","  8.09%    1.833      1 Template:Runewords_navbox","  8.00%    1.812      1 Template:Unique_armor2_navbox","  7.95%    1.800      1 Template:Unique_weapons3_navbox"]},"cachereport":{"timestamp":"20260420034110","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":166});});</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef1c98b3eb377a8',t:'MTc3NjY2MzM0Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6cdc4bd303ab466ea95fa5c8306aad02","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
