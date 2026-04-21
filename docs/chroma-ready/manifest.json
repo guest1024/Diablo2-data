@@ -1,0 +1,12 @@
+{
+  "documents": 455,
+  "chunks": 8652,
+  "paths": {
+    "documents": "docs/chroma-ready/documents.jsonl",
+    "chunks": "docs/chroma-ready/chunks.jsonl"
+  },
+  "notes": {
+    "vector_db": "ChromaDB",
+    "embedding_storage": "Embeddings should be stored in Chroma collections, not in the JSONL payloads"
+  }
+}

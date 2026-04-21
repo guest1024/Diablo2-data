@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index,follow">
+<META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<title>伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网</title>
+<META http-equiv="Content-type" content="text/html; charset=gb2312"> 
+<META name="keywords" content="暗黑破坏神2,怪物,自动回血,伤害,暗黑2,diablo2,影响,d2,anhei2,效果,boss,关底,bug,计算,公式,自疗,属性"/>  
+<META name="description" content="1.本文的第三部分【扩展篇】中的理论，如果不是我孤陋寡闻，应该是首次在中文暗黑界公开发表。虽然相信早已有不少人发现，不过我还是想通过本文让其变成暗黑常识为新人所熟"/>
+
+<STYLE type="text/css">
+td,li,select,input {font-size:12px;color:#F9EBD2;line-height:150%;}
+.l13{color:#F9EBD2;line-height:130%;}
+.l15{line-height:150%;color:#F9EBD2}
+.l15z{line-height:150%;color:#F9EBD2;font-size:14px;}
+.listTime1{line-height:180%;color:#8C8D93;}
+.listTitle1{line-height:180%;color:#FCA201;}
+.listLi1{line-height:180%;color:#8C8D93;}
+.img01{border:1px solid #000}
+
+A:link {color:#FADE78;text-decoration:none;}
+A:visited {color:#FADE78;text-decoration:none;}
+A:active {color:#FADE78;text-decoration:none;}
+A:hover {color:#FADE78;text-decoration:underline;}
+
+A.a01:link,A.a01:visited {color:#CBAA6D;text-decoration:none;}
+A.a01:active,A.a01:hover {color:#FADE78;text-decoration:underline;}
+
+A.a02:link,A.a02:visited {color:#FCA201;text-decoration:none;}
+A.a02:active,A.a02:hover {color:#FADE78;text-decoration:underline;}
+
+A.listTitle1:link,A.listTitle1:visited {color:#FCA201;text-decoration:none;}
+A.listTitle1:active,A.listTitle1:hover {color:#FADE78;text-decoration:underline;}
+
+.listDateTime1{font-size:12px;color:#8C8D93;}
+.listTD1{line-height:150%;color:#8C8D93}
+.bg01{background-image:url(https://www.91d2.cn/skin/91d2/anhei_24.jpg);}
+.bg02{background-image:url(https://www.91d2.cn/skin/91d2/bg1.gif);background-position:left top;background-repeat:no-repeat;}
+.bg03{background-image:url(https://www.91d2.cn/skin/91d2/ba1.jpg);}
+
+A.sinatail:link,A.sinatail:visited {color:#ffffff;text-decoration:none;}
+A.sinatail:active,A.sinatail:hover {color:#ffffff;text-decoration:underline;}
+
+</STYLE>
+ <!-- include 样式 end --> 
+<META name="GENERATOR" content="MSHTML 11.00.10586.672"></HEAD> 
+<BODY background="https://www.91d2.cn/skin/91d2/anhei_50.gif" topmargin="0" 
+leftmargin="0" marginwidth="0" marginheight="0"><!-- body code begin --> <!-- SUDA_CODE_START --> 
+ <!-- SUDA_CODE_END --> <!-- SSO_GETCOOKIE_START --> 
+ <!-- SSO_GETCOOKIE_END --> 
+
+ <!-- body code end --> 
+<CENTER>
+<STYLE type="text/css">
+form {margin: 0;padding: 0;border: 0;}
+select,input{vertical-align:middle;font-size:12px;line-height:100%;}
+/* 二级导航 */
+#level2header {border-top:1px solid #000;border-bottom:0px solid #000;width:960px;height:34px;font-size:12px; background:#fff;}
+#level2header img{border:none;}
+#level2header #logo {float:left;text-align:left; padding-top:3px;}
+#level2header #l2navlnk {float:right;text-align:center;line-height:34px;}
+#level2header #l2navlnk a:link,#level2header #l2navlnk a:visited {color:#000;text-decoration:none;}
+#level2header #l2navlnk a:hover,#level2header #l2navlnk a:active {color:#f00;text-decoration:underline;}
+#level2header #iask {float:right;width:307px;height:34px;background-color:#FFF;text-align:left;padding-left:6px; color:#000;}
+#level2header #iask a:link,#level2header #iask a:visited {color:#f00;text-decoration:none;}
+#level2header #iask a:hover,#level2header #iask a:active {color:#f00;text-decoration:underline;}
+#level2header #iask #k {width:65px;border:1px solid #7F9DB9;margin:0 0 0 7px;}
+#level2header #iask .sebtn{width:45px; height:18px;}
+#level2header .iaskRedTxt{color:#aaa; border:1px #f00 solid;}
+#level2headerborder{background:#fff; height:1px; overflow:hidden; clear:both; width:960px;}
+</STYLE>
+
+<DIV id="level2headerborder"></DIV><!-- 新浪游戏 head end --> <!-- include 专区头部内容 being --><!--[115,39,93] published at 2015-12-16 15:27:35 from #21 by 12887--> <!-- 头部开始 --> 
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR>
+    <TD><IMG width="960" height="150" src="https://www.91d2.cn/skin/91d2/anhei_02.jpg" style="display:block; vertical-align:bottom;"></TD>
+</TR></TBODY></TABLE>
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR bgcolor="#031112">
+    <TD width="147" align="center" style="
+    background-image: url(https://www.91d2.cn/skin/91d2/ba2.jpg)"><!-- 搜索begin -->	 
+      <TABLE border="0" cellspacing="0" cellpadding="0">
+
+         
+        </TBODY></TABLE><!-- 搜索end -->	 </TD>
+    <TD width="570" height="76" class="bg03"><!-- 导航开始 -->	 
+      <TABLE width="570" cellspacing="0" cellpadding="0">
+         <tbody>
+         <tr>
+          <td align="center" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/fq/" target="_top">暗黑百科</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jichuzhishi/" target="_blank">基础知识</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jiaosezhiye/" target="_blank">角色职业</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mofajineng/" target="_blank">魔法技能</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/wupinzhuangbei/" target="_blank">物品装备</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/yaomoguiguai/" target="_blank">妖魔鬼怪</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jingyanxinde/" target="_blank">经验心得</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+         <tr>
+          <td align="center" height="17" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mijixiugai/" target="_blank">秘籍修改</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/renwugonglue/" target="_blank">任务攻略</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/feichangjishu/" target="_blank">非常技术</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjingditu/" target="_blank">场景地图</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjianwenti/" target="_blank">常见问题</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/xinshouzhiyin/" target="_blank">新手指引</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/MODxiugai/" target="_blank">MOD 制作</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+        </tbody>
+			</TABLE><!-- 导航结束 -->
+    	 </TD></TR></TBODY></TABLE><!-- 头部结束 --><!-- include 专区头部内容 end --> <!-- include 2 --> 
+<TABLE width="960" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR valign="top"><!-- include 左侧td being --> 
+    <TD width="180" valign="top"><!-- include 左侧内容 begin --><!--[115,21,92] published at 2015-12-16 10:07:52 from #21 by 12887--> 
+
+       <!-- 左侧开始 -->	 <!-- 左1 begin -->	 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>暗黑2交流</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD align="center"><A href="https://bbs.91d2.cn/" 
+                  target="_blank"><IMG width="120" height="60" src="https://www.91d2.cn/skin/91d2/U88P115T62D82F1195DT20040714143639.gif" alt="暗黑2玩家论坛"
+                  border="0"></A></TD></TR></TBODY>
+		    </TABLE>
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>91D2创立于2005年，是众多喜爱暗黑破坏神2玩家们的经典聚集地。无数热爱这款游戏的忠实粉丝，在这里共同探讨游戏技巧、分享技术经验、研究装备搭配与职业玩法。无论是新手入门还是硬核玩家，这里都是你交流心得、组队冒险、重温经典的理想家园。		
+                </TD>
+				</TR>
+				</TBODY>
+			</TABLE>
+			</TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE>
+		
+		<table width="180" style="margin-bottom: 10px;" cellspacing="0" cellpadding="0">
+        <tbody>
+         <tr>
+          <td width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><b>暗黑百科</b></td>
+         </tr>
+         <tr>
+          <td class="bg01">
+           <table width="150" align="center" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td height="20"></td>
+             </tr>
+             <tr>
+              <td align="center"><a href="https://www.91d2.cn/fq" target="_blank"><img width="120" height="60" src="https://www.91d2.cn/skin/91d2/baike.jpg" alt="暗黑2游戏百科解答" border="0" /></a>
+			  </td>
+             </tr>
+			 <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>各类暗黑2游戏知识的各类问题和答案，全部源于二十多年来玩家的研究和讨论。	
+                </TD>
+				</TR>
+            </tbody>
+           </table></td>
+         </tr>
+         <tr>
+          <td width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></td>
+         </tr>
+        </tbody>
+       </table>
+		 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>经验分享</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-535189-fpage-2.html" 
+                  target="_blank">RR详尽流程经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">FZ永久无杖key制作</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-614438.html" 
+                  target="_blank">新人乘坐bus全流程注</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">战网穷人KB经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-49969.html" 
+                  target="_blank">战网mf和bus一体sor</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-879770.html" 
+                  target="_blank">如何高效轻松八开DYKB</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-7365.html" 
+                  target="_blank">有交易价值物品的Drop率</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>人物练法</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-1089051.html" 
+                  target="_blank">HOLD住全场的男人PAL</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1104898.html" 
+                  target="_blank">经典法师SOR再续前缘</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-580801.html" 
+                  target="_blank">打造最帅的狂乱者BAR</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-508575.html" 
+                  target="_blank">穷人的的暴力熊德DUR</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1434972.html" 
+                  target="_blank">暗之幽灵刹那芳华ASN</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1386412.html" 
+                  target="_blank">打造最强势信心弓AMA</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1439768.html" 
+                  target="_blank">追寻五环的炫目NEC</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>非资料片</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+             <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-500726.html" 
+                  target="_blank">非资料片KD房间注意项</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-43767.html" 
+                  target="_blank">91D2非资料技术贴合集1</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1354999.html" 
+                  target="_blank">91D2非资料技术贴合集2</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1401644.html" 
+                  target="_blank">战网FZ单人8开SOLO方法</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1348871.html" 
+                  target="_blank">战网FZ物品价值之我见</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1313826.html" 
+                  target="_blank">影像资料记录FZ KD历程 </A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+
+      <!-- 左1 end --> <!-- 左2 begin --> <!-- include 左侧内容 end --> 
+    </TD>
+    <TD width="96" valign="top"><!-- include 线性导航 begin --><!-- include 线性导航 end --> <!-- include 中间内容 begin --><!-- 中间开始 -->
+	 <!-- 内容1 开始 -->    
+      <TABLE width="780" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="780" height="30" background="https://www.91d2.cn/skin/91d2/anhei_21y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 14px; padding-left: 50px;"><a href="https://www.91d2.cn/">首页</a>&nbsp;>&nbsp;<a href="https://www.91d2.cn/yaomoguiguai/">妖魔鬼怪</a></TD></TR></TBODY></TABLE><!-- 内容1 end --> 
+         <!-- 中1 begin -->     
+      <TABLE width="755" style="margin-bottom: 15px; margin-left: 16px;" 
+      cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="752" height="67" background="https://www.91d2.cn/skin/91d2/anhei_57y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 20px; text-align:center; font-size: 14px;"><B>
+            		伤害效果对怪物自动回血的影响</B></TD></TR>
+        <TR>
+          <TD background="https://www.91d2.cn/skin/91d2/anhei_25y.jpg">
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD></TR>
+              <TR>
+                <TD style="color: rgb(203, 146, 65);"><!-- none -->			 <!-- include 编者按显示 begin --><!-- include 编者按显示 end --></TD></TR>
+				
+				
+              <TR>
+                <TD height="10"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD class="l15z"><!--[115,18,882] published at 2004-04-15 14:37:43 from #006 by 167--> 
+                  
+                
+				  <div>1.本文的第三部分【扩展篇】中的理论，如果不是我孤陋寡闻，应该是首次在中文暗黑界公开发表。虽然相信早已有不少人发现，不过我还是想通过本文让其变成暗黑常识为新人所熟悉，希望吧友们喜欢。</div>
+<div>&nbsp;</div>
+<div>2.本文中对毒素伤害的只作简单的解释，仅对通常情况下PVC时人物身上会出现的毒伤情况的伤害和持续时间的计算做了介绍以便对怪物回血情况作出判定。</div>
+<div>而暗黑世界中各毒素技能和物品毒源的叠加和作用机理十分复杂，已超出本文的讨论范围，就不再赘述，有兴趣我可能会单独开一贴做个小结。</div>
+<div>&nbsp;</div>
+<div>一、 怪物的自动恢复生命能力</div>
+<div>&nbsp;</div>
+<div>游戏中绝大部分的怪物都拥有自动恢复生命的能力，这个回血过程是根据怪物最大生命值的百分比按照每帧为时间单位进行回复的。</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>【不能自动回血的怪物】如下：</div>
+<div>&nbsp;</div>
+<div>1.&nbsp; &nbsp; &nbsp; &nbsp;所有关底BOSS：</div>
+<div>&nbsp; &nbsp; 安达里尔、督瑞尔、墨菲斯托、暗黑破坏神、巴尔</div>
+<div>2.&nbsp; &nbsp; &nbsp; &nbsp;所有普通BOSS：</div>
+<div>&nbsp; &nbsp; 血乌、格瑞斯瓦尔德、罗达门特、召唤者、衣卒尔、尼拉塞克</div>
+<div>（游戏代码中格瑞斯瓦尔德被设置回血值=2，但实际游戏中并没有回血）</div>
+<div>3.&nbsp; &nbsp; &nbsp; &nbsp;所有固定精英怪（Super Unique）：</div>
+<div>&nbsp; &nbsp;3BB也不回血</div>
+<div>4.&nbsp; &nbsp; &nbsp; &nbsp;所有建筑物：</div>
+<div>&nbsp; &nbsp; 包括：翼魔陷阱(gargoyle trap)、炮塔(a turret)、火焰之塔(fire tower)、闪电螺旋(lightning spire)、防御工事(barricade)、邪恶魔屋(evil demon hut)、封死之门、封闭之塔、投石器。</div>
+<div>5.&nbsp; &nbsp; &nbsp; &nbsp;其他特殊怪：</div>
+<div>&nbsp; &nbsp; &nbsp;议会成员</div>
+<div>6.&nbsp; &nbsp; &nbsp; &nbsp;BUG 1：</div>
+<div>&nbsp; &nbsp; 有时候随机精英怪（Random Unique）和头目怪（Champion）并不能正确的回血</div>
+<div>&nbsp; &nbsp;（出现的几率极大，不知道和什么有关）</div>
+<div>7.&nbsp; &nbsp; &nbsp; &nbsp;BUG 2：</div>
+<div>&nbsp; &nbsp; 圣骑士（Paladin）对随机精英怪（Random Unique）和头目怪（Champion）造成伤害后会导致该怪物不能正确回血</div>
+<div>&nbsp; &nbsp;（不知道是否总是如此，但我个人还没发现例外）</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>【怪物生命恢复的计算】方法如下：</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 怪物的生命恢复的参数记录在游戏软代码Monstats.txt中的DAMAGEREGEN一项。怪物的每帧恢复生命值=( DAMAGEREGEN *怪物最大生命值) / 4096。</div>
+<div>&nbsp; &nbsp; 例如，大部分怪物的DAMAGEREGEN=2，那么怪物每帧恢复2/4096&asymp;1.22%每秒。6BOSS的DAMAGEREGEN=4，即大约为2.44%每秒。怪物中回血最快的是圣甲虫=6，召唤物中回血最快的是女武神=12和诱饵=15</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>二、&nbsp; PMH、OW与毒素伤害</div>
+<div>&nbsp;</div>
+<div>1．【防止怪物自疗（Prevent Monster Heal）】属性</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 防止怪物自疗PMH属性发生作用时，会把怪物的自动回血设置为0，持续时间为120000帧=80分钟。仅角色自身使用有效，对6BOSS无效。</div>
+<div>&nbsp;</div>
+<div>防止怪物自疗PMH实际运行过程：</div>
+<div>&nbsp;</div>
+<div>1) 检测是否为武器攻击命中</div>
+<div>只有武器攻击可触发PMH，法术攻击不行。需要攻击命中才能触发。</div>
+<div>（踢击技能、刃之怒、盾击可以触发，刀刃守卫、刀刃之盾不能触发）</div>
+<div>&nbsp;</div>
+<div>2) 检测使用者是否为玩家角色</div>
+<div>只有玩家角色可以使用PMH属性，PET使用无效，铁魔、影子等召唤物使用无效。</div>
+<div>&nbsp;</div>
+<div>3) 检测目标怪物实际ID代码值</div>
+<div>怪物的实际ID代码hcIdx值是否在&gt;709且&lt;704的范围内，不在此范围内的怪物免疫PMH。hcIdx值从704到709的怪物依次为Uber墨菲斯托、Uber暗黑破坏神、Uber衣卒尔、莉莉斯、Uber督瑞尔、Uber巴尔</div>
+<div>&nbsp;</div>
+<div>4) 设置怪物Damage regeneration=0，持续80分钟</div>
+<div>&nbsp;</div>
+<div>注意：PMH并不需要对怪物造成伤害才能触发，例如一个只有物理伤害的玩家角色使用武器击中了一个物理伤害免疫的精英怪僵尸，这时无法造成伤害，但PMH已经开始产生作用。</div>
+<div>　</div>
+<div>&nbsp;</div>
+<div>2.【撕裂伤口（Open Wounds）】属性</div>
+<div>&nbsp;</div>
+<div>&nbsp;首先介绍一下D2中伤害和时间的单位：</div>
+<div>1点（Point）伤害=256比特（Bit）</div>
+<div>1秒（Second）时间=25帧（Frame）</div>
+<div>前两者是用于D2的面板显示的单位，后两者是用于D2的实际运算的单位。</div>
+<div>&nbsp;</div>
+<div>撕裂伤口OW效果的伤害计算公式为：</div>
+<div>&nbsp;</div>
+<div>使用OW的人物角色等级&nbsp; &nbsp; 1-15&nbsp; &nbsp; &nbsp; &nbsp; 16-30&nbsp; &nbsp; 31-45&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 46-60&nbsp; &nbsp; &nbsp; &gt;60&nbsp;&nbsp;</div>
+<div>每帧伤害Bit /Frame&nbsp; &nbsp; (9*lvl)+31&nbsp; &nbsp;(18*lvl)-104&nbsp; &nbsp; (27*lvl)-374&nbsp; &nbsp; (36*lvl)-779&nbsp; &nbsp;(45*lvl)-1319&nbsp;&nbsp;</div>
+<div>&nbsp;</div>
+<div>撕裂伤口OW伤害效果惩罚为：</div>
+<div>作用对象：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 伤害惩罚：</div>
+<div>头目、精英怪、BOSS：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1/2</div>
+<div>其他玩家：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1/4</div>
+<div>&nbsp;</div>
+<div>撕裂伤口OW实际运行方式：</div>
+<div>&nbsp; &nbsp;&nbsp;</div>
+<div>1) 仅当武器攻击命中时，OW才能产生作用</div>
+<div>（踢击技能、刃之怒、盾击可以触发，刀刃守卫、刀刃之盾不能触发）</div>
+<div>（多重箭Multiple Shot只有 偶数箭的中间两根 或 奇数箭的中间一根和最右边一根 能触发）</div>
+<div>&nbsp;</div>
+<div>2) 每次OW的持续时间为200帧=8秒，不会受到任何作用的影响（净化光环、能量消解也不能）。OW伤害直接作用于目标，不会受到任何作用的减免（DR或者物免也不能）。OW效果会完全地关闭怪物的自动恢复生命，不论怪物是何种类型。</div>
+<div>&nbsp;</div>
+<div>3) 当目标为其他玩家角色时，无论攻击是否造成生命值改变，OW总是能发生作用。</div>
+<div>&nbsp;</div>
+<div>4) 当目标为非玩家角色时(包括玩家的召唤物和PET)，击中时目标生命值必须发生了改变（无论是增加还是减少），OW才能发生作用。</div>
+<div>（也就是说，当你用纯物理伤害攻击一个满血的物理免疫的怪物时，无法触发OW。但由于怪物在不满血时会自动恢复生命，所以当你用纯物理伤害攻击一个不满血的物理免疫的怪物时，可以触发OW。但是如果该怪物受到了PMH作用而不再自动恢复生命时，当你对其造成0伤害，即使它不满血也不能触发OW）</div>
+<div>&nbsp;</div>
+<div>5) 当怪物正处于一次OW效果中尚未结束时，又被另一次OW效果触发，那个总是只刷新怪物身上的OW效果时间，重新开始计数到8S，但总是不改变原来的OW伤害，即使后一次OW伤害不同也不改变。</div>
+<div>（例如一个50级的人对怪物造成的OW效果未消失时，另一个70级的人对怪物造成了另一次OW，那么怪物身上的OW时间被重新计数，但伤害仍旧按照最初的50级人物造成的伤害计算，反之亦然。）</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>3.【毒素伤害（Poison damage）】</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 毒素伤害同样是以伤害点（Point）和秒（Second）来作为面板显示的单位，以比特（Bit）和帧（Frame）来作为实际计算的单位。通常我们用两个数字来描述毒素伤害：1.单位时间的伤害：Rate=X点/秒（Bit/帧）2.毒素伤害持续时间：Length=Y秒（帧）</div>
+<div>&nbsp;</div>
+<div>&nbsp;关于【中毒状态】：</div>
+<div>&nbsp;</div>
+<div>1)计算抗性后，怪物实际受到的毒素伤害Rate不小于1Bit /帧，怪物才会进入中毒状态（游戏中表现为怪物的身体变成绿色）</div>
+<div>&nbsp;</div>
+<div>2)进入中毒状态后，任何怪物的自动回血都会被完全的关闭。（DC、6BOSS也不例外）</div>
+<div>&nbsp;</div>
+<div>3)一个处于中毒状态的怪物在受到非毒素伤害时，其受到非毒素伤害的那一帧的毒素伤害将失效。但此时仍保持中毒状态不变，因此怪物也保持不回血。（OW这种无属性伤害不算，因此OW伤害和毒素伤害可以完美地相互独立的叠加）</div>
+<div>&nbsp;</div>
+<div>4)一个处于中毒状态的怪物在受到一个新的毒素伤害时，当新的毒素伤害RATE&ge;原中毒状态的RATE时，毒素的RATE和LENGTH都被刷新；当新的毒素伤害RATE＜原中毒状态的RATE时，新的毒素伤害无效，怪物将以原RATE伤害继续走完剩下的原LENGTH时间</div>
+<div>&nbsp;</div>
+<div>5)一次中毒状态可以杀死怪物和PET，但对于玩家角色，最多减少到1点生命值就会强制结束本次中毒状态。但接下来的下一次中毒的伤害则可以杀死该1HP的玩家角色。</div>
+<div>（狂犬病一次攻击即可杀死玩家，因为狂犬病的中毒者传染源会以每4F一次的频率传染，即对身旁的目标每4F尝试刷新一次中毒状态）</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>关于【毒素伤害叠加】计算：</div>
+<div>&nbsp;</div>
+<div>由于各毒素技能之间的作用和叠加较为复杂，不在本文讨论范围内，这里只简单讲解一下毒素伤害的叠加计算，以让大家能够使用上文中提到的&ldquo;毒素伤害Rate不小于1Bit /帧&rdquo;的方法来判断怪物是否会进入中毒状态而终止回血。</div>
+<div>&nbsp;</div>
+<div>1)同一物品上的不同词缀属性中的毒素伤害的叠加</div>
+<div>&nbsp; &nbsp; &nbsp;叠加后的RATE和LENGTH分别为所有词缀的RATE之和、所有词缀的LENGTH之和</div>
+<div>&nbsp;</div>
+<div>2)不同物品上的毒素伤害的叠加</div>
+<div>叠加后的RATE为所有毒源的RATE之和，叠加后的LENGTH为所有毒源的LENGTH的平均值</div>
+<div>（同一物品上的不同孔里的珠宝和物品本身的毒素伤害叠加也符合此种情况）</div>
+<div>&nbsp;</div>
+<div>3)毒牙（Venom）与物品上的毒素伤害的叠加</div>
+<div>叠加后RATE为所有物品上的毒素伤害的RATE之和，叠加后的LENGTH为毒牙的LENGTH：10F *（1 -目标PLR）%</div>
+<div>&nbsp;</div>
+<div>4)毒牙（Venom）与淬毒匕首（Poison dagger）、两个毒标枪（Poison &amp; Plague Javelins）毒素伤害的叠加</div>
+<div>以毒牙（Venom）与淬毒匕首（Poison dagger）的叠加为例：</div>
+<div>首先将身上所有物品的毒素伤害按照1、2、3步中的方法叠加到毒牙伤害上去，然后把得到的新毒素伤害的RATE和LENGRH与淬毒匕首直接相加。</div>
+<div>毒牙与毒枪、瘟疫标枪的叠加同理。</div>
+<div>&nbsp;</div>
+<div>*以上所有的数据结果被四舍五入为整数后换算为（Point/秒）在面板中显示，而实际伤害计算则总是以（Bit/帧）为单位向下取整后计算。</div>
+<div>&nbsp;</div>
+<div>5)得到的叠加后RATE根据人物身上的【+%毒素技能伤害（+% Poison Skill Damage）】+%PSD和目标的【毒素抗性（Poison Resist）】PR%进行修正</div>
+<div>&nbsp;</div>
+<div>6)得到的叠加后LENGTH根据目标的【毒素持续效果降低（Poison Length Reduced）】PLR进行修正</div>
+<div>&nbsp;</div>
+<div>*以上所有的数据结果被再次四舍五入为整数后换算为（Point/秒）在面板中显示，而实际伤害计算则再次以（Bit/帧）为单位向下取整后计算。这时得到的数据即最终在面板上的显示值和最终在实际运算中的伤害值。</div>
+<div>&nbsp;</div>
+<div>关于【PLR修正】</div>
+<div>&nbsp;</div>
+<div>人物角色和雇佣兵的PLR受到难度惩罚：噩梦初始值为-40，地狱初始值为-100，上限为75（即在地狱难度全身增加PLR属性达到175才能到上限值）</div>
+<div>&nbsp; &nbsp; &nbsp; &Oslash; 怪物的PLR初始值为0，3BB的装备上可能提供的PLR，无上限。</div>
+<div>&nbsp; &nbsp; &nbsp; &Oslash; 当物品上的【-% Enemy Poison Resistance】作用于目标时，不但会减少PR%，还会同时减少同等值的PLR。但是当怪物的PLR&ge;100时（一般情况下仅地狱3BB有可能产生这种情况），怪物变为毒素免疫，这时-%EPR将不再对其产生作用</div>
+<div>&nbsp; &nbsp; &nbsp; &Oslash; 【降低抵抗（Lower Resist）】不对目标的PLR产生影响</div>
+<div>&nbsp; &nbsp; &nbsp; &Oslash; 【净化光环（Cleansing）】的PLR和物品上的PLR是不同两种属性。</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a.&nbsp; &nbsp; 净化光环的PLR作用于经过物品PLR和难度PLR惩罚计算后的整体持续时间。这两个PLR的关系类似于武器ED和非武器ED。</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b. 净化光环的PLR不是一直存在的，而是每隔50F检测一次目标是否中毒，当目标被检测为中毒状态时才开始提供PLR整体降低持续时间直到本次中毒结束</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c. 净化光环的PLR没有75%的硬上限，但其技能的计算公式是递缩的：PLR=30+[60*[(110*slvl)/(slvl+6)]/100]，最高值无限趋近于99%</div>
+<div>&nbsp;</div>
+<div>三、扩展：任意伤害与怪物回血</div>
+<div>&nbsp;</div>
+<div>从前文中我们可以看到，除了直接将怪物的回血（DamageRegen）设置为0的PMH之外，OW和毒素伤害都没有直接作用Damage regeneration值但却在各自持续的帧数中完全地关闭了怪物的回血。我们可以发现，怪物的回血会被逐帧作用的伤害所阻止。由此，我们将上文中的结论推广一下：</div>
+<div>只要怪物受到一个任何伤害类型的按帧计算伤害值的攻击，其回血就会被伤害效果所取代。</div>
+<div>&nbsp;</div>
+<div>1.逐帧伤害技能</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; w 牺牲箭Immolation Arrow</div>
+<div>&nbsp; &nbsp; w 焰拳Fists of Fire 第3聚气</div>
+<div>&nbsp; &nbsp; w 凤凰Phoenix Strike 第1聚气</div>
+<div>&nbsp; &nbsp; w 熔浆巨岩Molten Boulder</div>
+<div>&nbsp; &nbsp; w 毁天灭地 Armageddon</div>
+<div>&nbsp; &nbsp; w 燃烧之径Blaze</div>
+<div>&nbsp; &nbsp; w 火墙Fire Wall</div>
+<div>&nbsp; &nbsp; w 陨石 Meteor</div>
+<div>&nbsp;</div>
+<div>怪物在以上技能的【燃烧伤害部分】中受到了伤害的帧里被完全地关闭回血</div>
+<div>&nbsp;</div>
+<div>2.隔帧伤害技能</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; w 地狱火Inferno</div>
+<div>&nbsp; &nbsp; w 极地风暴Arctic Blast</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 这两个技能都是从第二帧开始造成伤害，并每隔一帧造成下一次伤害（即奇数帧不造成伤害）。因此假如一个极地风暴完全打中一个非冰免怪时，该怪物只能在奇数帧回血而在偶数帧无法回血。</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; 怪物在以上技能的间隔持续伤害中【造成了伤害的帧】里被完全地关闭了回血</div>
+<div>&nbsp;</div>
+<div>3.混合伤害类型技能</div>
+<div>&nbsp;</div>
+<div>w 暗黑破坏神火风暴（DiabWall）</div>
+<div>&nbsp;</div>
+<div>地狱火炬-暗金大护身符上附带的CTC：&ldquo;5% Chance to Cast Level 10 Firestorm&rdquo;这里的火风暴实际上就是DiabWall而不是德鲁伊的火风暴。</div>
+<div>它包含了火焰和物理伤害，两者都是每帧作用。所以用地狱火炬触发的火风暴可以阻止火焰免疫的怪物的回血，只要它不是同时火焰免疫+物理免疫。</div>
+<div>&nbsp;</div>
+<div>当然，除了我列出的这几个典型而有效的技能，游戏中还有很多玩家角色可以释放的按帧计算的技能，因为NEXT DELAY（如火山爆、火焰复生）、间隔X帧产生一次伤害（复生狱火）等等原因，他们都不能有效地阻止怪物回血。</div></TD></TR></TBODY></TABLE>
+ 
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="3"></TD></TR>
+
+              <TR>
+                <TD height="7" colspan="3"></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="752" height="76" background="https://www.91d2.cn/skin/91d2/anhei_y.jpg"></TD></TR>
+	  
+		  
+		  </TBODY></TABLE><!-- 中1 end -->	  
+	 <!-- 中间结束 --><!-- include 中间内容 end --> </TD> 
+    <TD><!-- include 广告 begin --><!-- include 广告 end--> <!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+      </TD></TR>
+        </TBODY></TABLE>
+		  
+	
+	<!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+    </TD></TR></TBODY></TABLE><!-- include 横切一 begin --><!-- include 横切一 end --> <!-- include 底部内容 begin --><!-- 底部开始 --> 
+<table width="960" cellspacing="0" cellpadding="0" class="main-content">
+    <tbody>
+     <tr>
+      <td><img width="960" height="36" src="https://www.91d2.cn/skin/91d2/anhei_53y.jpg" /></td>
+     </tr>
+     <tr>
+      <td height="10"></td>
+     </tr>
+     <tr align="center">
+      <td height="100" valign="top" style="color: rgb(153, 153, 152);"> <a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备20006037号-5</a>
+       <div style="margin: 0px auto; text-align: center; font-size: 12px;">
+        <div id="ZWTrail">
+         <p><a class="sinatail" href="https://bbs.91d2.cn">暗黑2论坛</a> | <a class="sinatail" href="https://bbs.91d2.cn">anhei2</a> | <a class="sinatail" href="https://www.91d2.cn">暗黑破坏神2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2交流</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑破坏神3</a> | <a class="sinatail" href="http://down.91d2.cn">暗黑2下载</a> | | <a class="sinatail" href="https://www.91d2.cn/fq">暗黑百科</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2资料</a></p>
+         <p>Copyright &copy; 2007-2025 91D2 Corporation, All Rights Reserved</p>
+        </div>
+       </div><font color="#ffffff"> </font> </td>
+     </tr>
+    </tbody>
+   </table>
+</CENTER>
+</BODY>
+</HTML>
+

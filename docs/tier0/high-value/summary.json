@@ -1,13 +1,13 @@
 {
   "page_count": 292,
-  "chunk_count": 2793,
-  "error_count": 1,
-  "successful_page_count": 291,
+  "chunk_count": 2803,
+  "error_count": 0,
+  "successful_page_count": 292,
   "sources": {
     "diablo2-io": {
       "pages": 238,
-      "chars": 2618281,
-      "chunks": 2388
+      "chars": 2629625,
+      "chunks": 2398
     },
     "arreat-summit": {
       "pages": 54,

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-04-21T14:40:20.482782+00:00",
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "name": "verify_chroma_package",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: chroma chunks exist\nPASS: chroma README exists\nPASS: chroma document count matches manifest\nPASS: chroma chunk count matches manifest\nPASS: chroma documents stay aligned with merged normalized documents\nPASS: chroma chunks stay aligned with merged chunks\nPASS: chroma documents use unified schema\nPASS: chroma chunks use unified schema\nPASS: chroma chunks include language metadata\nPASS: chroma chunks include doc_type metadata\nPASS: chroma chunks include game_variant metadata\nPASS: chroma package verification completed",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_bilingual_term_map",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: aliases are non-empty strings: 安达利尔\nPASS: term key is valid: 毁灭\nPASS: payload is object: 毁灭\nPASS: canonical_hint exists: 毁灭\nPASS: aliases exist: 毁灭\nPASS: aliases are non-empty strings: 毁灭\nPASS: term key is valid: USC\nPASS: payload is object: USC\nPASS: canonical_hint exists: USC\nPASS: aliases exist: USC\nPASS: aliases are non-empty strings: USC\nPASS: validated 71 bilingual term mappings",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_curated_anchor_routing",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 召唤死灵是什么？ routes to curated anchor source\nPASS: 召唤死灵是什么？ top title matches curated anchor\nPASS: 橡树之心是什么？ routes to curated anchor source\nPASS: 橡树之心是什么？ top title matches curated anchor\nPASS: 死呼是什么？ routes to curated anchor source\nPASS: 死呼是什么？ top title matches curated anchor\nPASS: 荣耀之链是什么？ routes to curated anchor source\nPASS: 荣耀之链是什么？ top title matches curated anchor\nPASS: 狮鹫是什么？ routes to curated anchor source\nPASS: 狮鹫是什么？ top title matches curated anchor\nPASS: Spirit still routes to primary source\nPASS: Spirit still prefers entity_link evidence",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_routing_matrix",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 尼拉塞克是什么？ routes as expected\nPASS: 老P是什么？ routes as expected\nPASS: 泰坦是什么？ routes as expected\nPASS: 鸦霜是什么？ routes as expected\nPASS: 塔套是什么？ routes as expected\nPASS: 婚戒是什么？ routes as expected\nPASS: 虫链是什么？ routes as expected\nPASS: 弓马是什么？ routes as expected\nPASS: 狼德是什么？ routes as expected\nPASS: 陷阱刺客是什么？ routes as expected\nPASS: 新星电法是什么？ routes as expected\nPASS: 召唤死灵是什么？ routes as expected",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_curated_surface_alignment",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: routing source is curated-anchor for 陷阱刺客是什么？\nPASS: routing title exists in curated docs for 陷阱刺客是什么？\nPASS: routing source is curated-anchor for 新星电法是什么？\nPASS: routing title exists in curated docs for 新星电法是什么？\nPASS: routing source is curated-anchor for 召唤死灵是什么？\nPASS: routing title exists in curated docs for 召唤死灵是什么？\nPASS: term map contains alias SOJ\nPASS: term map contains alias CTA\nPASS: term map contains alias ULC\nPASS: term map contains alias MF\nPASS: term map contains alias DClone\nPASS: term map contains alias USC",
+      "stderr_tail": ""
+    },
+    {
+      "name": "build_surface_coverage_report",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "  \"curated_anchor_documents\": 56,\n  \"curated_anchor_chunks\": 56,\n  \"chroma_ready_documents\": 455,\n  \"chroma_ready_chunks\": 8652,\n  \"runtime_documents\": 511,\n  \"runtime_chunks\": 8708,\n  \"routing_matrix_total_queries\": 66,\n  \"routing_lanes\": {\n    \"primary\": 6,\n    \"curated\": 60\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "build_verification_index",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "    \"curated_routing_cases\": 60,\n    \"term_map_entries\": 71,\n    \"required_aliases\": [\n      \"SOJ\",\n      \"CTA\",\n      \"ULC\",\n      \"MF\",\n      \"DClone\",\n      \"USC\"\n    ]\n  }\n}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "build_curated_catalog",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "{\"curated_cards\": 56}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "build_term_map_catalog",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "{\"entries\": 71}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_strategy_docs",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: blizzhackers assessment contains marker: community strategy\nPASS: blizzhackers assessment contains marker: source-aware rerank\nPASS: community capability gap doc exists\nPASS: community capability doc contains marker: 物品与装备系统\nPASS: community capability doc contains marker: 游戏核心机制\nPASS: community capability doc contains marker: 职业与流派\nPASS: community capability doc contains marker: 赫拉迪姆方块\nPASS: community capability doc contains marker: 佣兵系统\nPASS: community capability doc contains marker: 任务、地图与隐藏关卡\nPASS: community capability doc contains marker: 问题类型路由层\nPASS: community capability doc contains marker: source-aware answer policy\nPASS: community capability doc contains marker: 失败问答回流",
+      "stderr_tail": ""
+    }
+  ]
+}

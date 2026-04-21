@@ -1,0 +1,17 @@
+{
+  "node_count": 177,
+  "edge_count": 176,
+  "claim_count": 176,
+  "node_types": {
+    "Source": 1,
+    "SourceDocument": 88,
+    "ChineseGuide": 24,
+    "ReferenceGuide": 8,
+    "BuildGuide": 8,
+    "ExperienceGuide": 8,
+    "AreaGuide": 8,
+    "FAQGuide": 16,
+    "QuestGuide": 8,
+    "ItemGuide": 8
+  }
+}

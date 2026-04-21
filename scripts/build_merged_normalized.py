@@ -16,9 +16,10 @@ def main() -> int:
     base_docs = load_jsonl(ROOT / "docs/tier0/normalized/documents.jsonl")
     high_docs = load_jsonl(ROOT / "docs/tier0/high-value/normalized/documents.jsonl")
     pure_docs = load_jsonl(ROOT / "docs/tier0/purediablo-high-value/normalized/documents.jsonl")
+    cn91_docs = load_jsonl(ROOT / "docs/tier0/91d2-high-value/normalized/documents.jsonl")
 
     merged = {}
-    for row in base_docs + high_docs + pure_docs:
+    for row in base_docs + high_docs + pure_docs + cn91_docs:
         merged[row["doc_id"]] = row
 
     out_dir = ROOT / "docs/tier0/merged/normalized"

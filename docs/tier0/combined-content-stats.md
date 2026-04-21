@@ -6,13 +6,17 @@
 - Base chunks: `4490`
 - Base chars: `5298286`
 - High-value pages: `292`
-- High-value successful pages: `291`
-- High-value chunks: `2793`
-- High-value chars: `2954258`
+- High-value successful pages: `292`
+- High-value chunks: `2803`
+- High-value chars: `2965602`
 - PureDiablo pages: `49`
-- PureDiablo successful pages: `35`
-- PureDiablo chunks: `872`
-- PureDiablo chars: `761768`
-- Combined chars: `9014312`
-- Combined chunk surfaces: `8155`
+- PureDiablo successful pages: `45`
+- PureDiablo chunks: `1061`
+- PureDiablo chars: `911338`
+- 91D2 pages: `64`
+- 91D2 successful pages: `64`
+- 91D2 chunks: `240`
+- 91D2 chars: `218836`
+- Combined chars: `9394062`
+- Combined chunk surfaces: `8594`
 

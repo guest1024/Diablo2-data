@@ -1,8 +1,8 @@
 {
   "page_count": 49,
-  "successful_pages": 43,
-  "chunk_count": 1006,
-  "char_count": 867151,
+  "successful_pages": 45,
+  "chunk_count": 1061,
+  "char_count": 911338,
   "pages": [
     {
       "url": "https://www.purediablo.com/d2wiki/Horadric_Cube",
@@ -24,7 +24,7 @@
       "chars": 0,
       "sha256": "",
       "status": "error",
-      "note": "TimeoutError('The read operation timed out')"
+      "note": "<HTTPError 404: 'Not Found'>"
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Amazon",
@@ -46,7 +46,7 @@
       "chars": 0,
       "sha256": "",
       "status": "error",
-      "note": "TimeoutError('The read operation timed out')"
+      "note": "<HTTPError 404: 'Not Found'>"
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Amazon_Passive_and_Magic",
@@ -149,11 +149,10 @@
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Paladin_Combat_Skills",
-      "title": "",
-      "chars": 0,
-      "sha256": "",
-      "status": "error",
-      "note": "TimeoutError('The read operation timed out')"
+      "title": "Paladin Combat Skills - Diablo 2 Wiki",
+      "chars": 21314,
+      "sha256": "af88c1efdfa3ab19c2ca2c05e078b0e53f21037b19efa610c6b728d408dd42d0",
+      "status": "ok"
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Paladin_Offensive_Auras",
@@ -199,11 +198,10 @@
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells",
-      "title": "",
-      "chars": 0,
-      "sha256": "",
-      "status": "error",
-      "note": "TimeoutError('The read operation timed out')"
+      "title": "Sorceress Lightning Spells - Diablo 2 Wiki",
+      "chars": 22873,
+      "sha256": "7f944a3ee891caef8864e248face4ae7b273b50b241517013aac512de12429e6",
+      "status": "ok"
     },
     {
       "url": "https://www.purediablo.com/d2wiki/Druid",

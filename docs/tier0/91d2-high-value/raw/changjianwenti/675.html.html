@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index,follow">
+<META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<title>关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网</title>
+<META http-equiv="Content-type" content="text/html; charset=gb2312"> 
+<META name="keywords" content="暗黑破坏神2,暗黑2,d2,下载,游戏,跳ping,卡"/>  
+<META name="description" content="最近不时听见有的玩家抱怨91D2战网游戏卡、网速慢、ping 100~1000云云。<br />
+<br />
+先转贴篇文章：<br />
+网速变慢的软故障分析<br />
+<br />
+一、网线问题导致网速变慢<br />
+<br />
+我们知道，双绞线是由四"/>
+
+<STYLE type="text/css">
+td,li,select,input {font-size:12px;color:#F9EBD2;line-height:150%;}
+.l13{color:#F9EBD2;line-height:130%;}
+.l15{line-height:150%;color:#F9EBD2}
+.l15z{line-height:150%;color:#F9EBD2;font-size:14px;}
+.listTime1{line-height:180%;color:#8C8D93;}
+.listTitle1{line-height:180%;color:#FCA201;}
+.listLi1{line-height:180%;color:#8C8D93;}
+.img01{border:1px solid #000}
+
+A:link {color:#FADE78;text-decoration:none;}
+A:visited {color:#FADE78;text-decoration:none;}
+A:active {color:#FADE78;text-decoration:none;}
+A:hover {color:#FADE78;text-decoration:underline;}
+
+A.a01:link,A.a01:visited {color:#CBAA6D;text-decoration:none;}
+A.a01:active,A.a01:hover {color:#FADE78;text-decoration:underline;}
+
+A.a02:link,A.a02:visited {color:#FCA201;text-decoration:none;}
+A.a02:active,A.a02:hover {color:#FADE78;text-decoration:underline;}
+
+A.listTitle1:link,A.listTitle1:visited {color:#FCA201;text-decoration:none;}
+A.listTitle1:active,A.listTitle1:hover {color:#FADE78;text-decoration:underline;}
+
+.listDateTime1{font-size:12px;color:#8C8D93;}
+.listTD1{line-height:150%;color:#8C8D93}
+.bg01{background-image:url(https://www.91d2.cn/skin/91d2/anhei_24.jpg);}
+.bg02{background-image:url(https://www.91d2.cn/skin/91d2/bg1.gif);background-position:left top;background-repeat:no-repeat;}
+.bg03{background-image:url(https://www.91d2.cn/skin/91d2/ba1.jpg);}
+
+A.sinatail:link,A.sinatail:visited {color:#ffffff;text-decoration:none;}
+A.sinatail:active,A.sinatail:hover {color:#ffffff;text-decoration:underline;}
+
+</STYLE>
+ <!-- include 样式 end --> 
+<META name="GENERATOR" content="MSHTML 11.00.10586.672"></HEAD> 
+<BODY background="https://www.91d2.cn/skin/91d2/anhei_50.gif" topmargin="0" 
+leftmargin="0" marginwidth="0" marginheight="0"><!-- body code begin --> <!-- SUDA_CODE_START --> 
+ <!-- SUDA_CODE_END --> <!-- SSO_GETCOOKIE_START --> 
+ <!-- SSO_GETCOOKIE_END --> 
+
+ <!-- body code end --> 
+<CENTER>
+<STYLE type="text/css">
+form {margin: 0;padding: 0;border: 0;}
+select,input{vertical-align:middle;font-size:12px;line-height:100%;}
+/* 二级导航 */
+#level2header {border-top:1px solid #000;border-bottom:0px solid #000;width:960px;height:34px;font-size:12px; background:#fff;}
+#level2header img{border:none;}
+#level2header #logo {float:left;text-align:left; padding-top:3px;}
+#level2header #l2navlnk {float:right;text-align:center;line-height:34px;}
+#level2header #l2navlnk a:link,#level2header #l2navlnk a:visited {color:#000;text-decoration:none;}
+#level2header #l2navlnk a:hover,#level2header #l2navlnk a:active {color:#f00;text-decoration:underline;}
+#level2header #iask {float:right;width:307px;height:34px;background-color:#FFF;text-align:left;padding-left:6px; color:#000;}
+#level2header #iask a:link,#level2header #iask a:visited {color:#f00;text-decoration:none;}
+#level2header #iask a:hover,#level2header #iask a:active {color:#f00;text-decoration:underline;}
+#level2header #iask #k {width:65px;border:1px solid #7F9DB9;margin:0 0 0 7px;}
+#level2header #iask .sebtn{width:45px; height:18px;}
+#level2header .iaskRedTxt{color:#aaa; border:1px #f00 solid;}
+#level2headerborder{background:#fff; height:1px; overflow:hidden; clear:both; width:960px;}
+</STYLE>
+
+<DIV id="level2headerborder"></DIV><!-- 新浪游戏 head end --> <!-- include 专区头部内容 being --><!--[115,39,93] published at 2015-12-16 15:27:35 from #21 by 12887--> <!-- 头部开始 --> 
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR>
+    <TD><IMG width="960" height="150" src="https://www.91d2.cn/skin/91d2/anhei_02.jpg" style="display:block; vertical-align:bottom;"></TD>
+</TR></TBODY></TABLE>
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR bgcolor="#031112">
+    <TD width="147" align="center" style="
+    background-image: url(https://www.91d2.cn/skin/91d2/ba2.jpg)"><!-- 搜索begin -->	 
+      <TABLE border="0" cellspacing="0" cellpadding="0">
+
+         
+        </TBODY></TABLE><!-- 搜索end -->	 </TD>
+    <TD width="570" height="76" class="bg03"><!-- 导航开始 -->	 
+      <TABLE width="570" cellspacing="0" cellpadding="0">
+         <tbody>
+         <tr>
+          <td align="center" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/fq/" target="_top">暗黑百科</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jichuzhishi/" target="_blank">基础知识</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jiaosezhiye/" target="_blank">角色职业</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mofajineng/" target="_blank">魔法技能</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/wupinzhuangbei/" target="_blank">物品装备</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/yaomoguiguai/" target="_blank">妖魔鬼怪</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jingyanxinde/" target="_blank">经验心得</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+         <tr>
+          <td align="center" height="17" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mijixiugai/" target="_blank">秘籍修改</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/renwugonglue/" target="_blank">任务攻略</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/feichangjishu/" target="_blank">非常技术</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjingditu/" target="_blank">场景地图</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjianwenti/" target="_blank">常见问题</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/xinshouzhiyin/" target="_blank">新手指引</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/MODxiugai/" target="_blank">MOD 制作</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+        </tbody>
+			</TABLE><!-- 导航结束 -->
+    	 </TD></TR></TBODY></TABLE><!-- 头部结束 --><!-- include 专区头部内容 end --> <!-- include 2 --> 
+<TABLE width="960" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR valign="top"><!-- include 左侧td being --> 
+    <TD width="180" valign="top"><!-- include 左侧内容 begin --><!--[115,21,92] published at 2015-12-16 10:07:52 from #21 by 12887--> 
+
+       <!-- 左侧开始 -->	 <!-- 左1 begin -->	 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>暗黑2交流</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD align="center"><A href="https://bbs.91d2.cn/" 
+                  target="_blank"><IMG width="120" height="60" src="https://www.91d2.cn/skin/91d2/U88P115T62D82F1195DT20040714143639.gif" alt="暗黑2玩家论坛"
+                  border="0"></A></TD></TR></TBODY>
+		    </TABLE>
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>91D2创立于2005年，是众多喜爱暗黑破坏神2玩家们的经典聚集地。无数热爱这款游戏的忠实粉丝，在这里共同探讨游戏技巧、分享技术经验、研究装备搭配与职业玩法。无论是新手入门还是硬核玩家，这里都是你交流心得、组队冒险、重温经典的理想家园。		
+                </TD>
+				</TR>
+				</TBODY>
+			</TABLE>
+			</TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE>
+		
+		<table width="180" style="margin-bottom: 10px;" cellspacing="0" cellpadding="0">
+        <tbody>
+         <tr>
+          <td width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><b>暗黑百科</b></td>
+         </tr>
+         <tr>
+          <td class="bg01">
+           <table width="150" align="center" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td height="20"></td>
+             </tr>
+             <tr>
+              <td align="center"><a href="https://www.91d2.cn/fq" target="_blank"><img width="120" height="60" src="https://www.91d2.cn/skin/91d2/baike.jpg" alt="暗黑2游戏百科解答" border="0" /></a>
+			  </td>
+             </tr>
+			 <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>各类暗黑2游戏知识的各类问题和答案，全部源于二十多年来玩家的研究和讨论。	
+                </TD>
+				</TR>
+            </tbody>
+           </table></td>
+         </tr>
+         <tr>
+          <td width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></td>
+         </tr>
+        </tbody>
+       </table>
+		 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>经验分享</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-535189-fpage-2.html" 
+                  target="_blank">RR详尽流程经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">FZ永久无杖key制作</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-614438.html" 
+                  target="_blank">新人乘坐bus全流程注</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">战网穷人KB经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-49969.html" 
+                  target="_blank">战网mf和bus一体sor</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-879770.html" 
+                  target="_blank">如何高效轻松八开DYKB</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-7365.html" 
+                  target="_blank">有交易价值物品的Drop率</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>人物练法</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-1089051.html" 
+                  target="_blank">HOLD住全场的男人PAL</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1104898.html" 
+                  target="_blank">经典法师SOR再续前缘</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-580801.html" 
+                  target="_blank">打造最帅的狂乱者BAR</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-508575.html" 
+                  target="_blank">穷人的的暴力熊德DUR</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1434972.html" 
+                  target="_blank">暗之幽灵刹那芳华ASN</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1386412.html" 
+                  target="_blank">打造最强势信心弓AMA</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1439768.html" 
+                  target="_blank">追寻五环的炫目NEC</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>非资料片</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+             <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-500726.html" 
+                  target="_blank">非资料片KD房间注意项</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-43767.html" 
+                  target="_blank">91D2非资料技术贴合集1</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1354999.html" 
+                  target="_blank">91D2非资料技术贴合集2</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1401644.html" 
+                  target="_blank">战网FZ单人8开SOLO方法</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1348871.html" 
+                  target="_blank">战网FZ物品价值之我见</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1313826.html" 
+                  target="_blank">影像资料记录FZ KD历程 </A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+
+      <!-- 左1 end --> <!-- 左2 begin --> <!-- include 左侧内容 end --> 
+    </TD>
+    <TD width="96" valign="top"><!-- include 线性导航 begin --><!-- include 线性导航 end --> <!-- include 中间内容 begin --><!-- 中间开始 -->
+	 <!-- 内容1 开始 -->    
+      <TABLE width="780" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="780" height="30" background="https://www.91d2.cn/skin/91d2/anhei_21y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 14px; padding-left: 50px;"><a href="https://www.91d2.cn/">首页</a>&nbsp;>&nbsp;<a href="https://www.91d2.cn/changjianwenti/">常见问题</a></TD></TR></TBODY></TABLE><!-- 内容1 end --> 
+         <!-- 中1 begin -->     
+      <TABLE width="755" style="margin-bottom: 15px; margin-left: 16px;" 
+      cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="752" height="67" background="https://www.91d2.cn/skin/91d2/anhei_57y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 20px; text-align:center; font-size: 14px;"><B>
+            		关于玩战网游戏卡,网速慢,跳ping的分析</B></TD></TR>
+        <TR>
+          <TD background="https://www.91d2.cn/skin/91d2/anhei_25y.jpg">
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD></TR>
+              <TR>
+                <TD style="color: rgb(203, 146, 65);"><!-- none -->			 <!-- include 编者按显示 begin --><!-- include 编者按显示 end --></TD></TR>
+				
+				
+              <TR>
+                <TD height="10"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD class="l15z"><!--[115,18,882] published at 2004-04-15 14:37:43 from #006 by 167--> 
+                  
+                
+				  <p>最近不时听见有的玩家抱怨91D2战网游戏卡、网速慢、ping 100~1000云云。<br />
+<br />
+先转贴篇文章：</p>
+<div><br />
+网速变慢的软故障分析<br />
+<br />
+一、网线问题导致网速变慢<br />
+<br />
+我们知道，双绞线是由四对线按严格的规定紧密地绞和在一起的，用来减少串扰和背景噪音的影响。同时，在T568A标准和T568B标准中仅使用了双绞线的1、2和3、6四条线，其中，1、2用于发送，3、6用于接收，而且1、2必须来自一个绕对，3、6必须来自一个绕对。只有这样，才能最大限度地避免串扰，保证数据传输。本人在实践中发现不按正确标准（T586A、T586B）制作的网线，存在很大的隐患。表现为：一种情况是刚开始使用时网速就很慢；另一种情况则是开始网速正常，但过了一段时间后，网速变慢。后一种情况在台式电脑上表现非常明显，但用笔记本电脑检查时网速却表现为正常。对于这一问题本人经多年实践发现，因不按正确标准制作的网线引起的网速变慢还同时与网卡的质量有关。一般台式计算机的网卡的性能不如笔记本电脑的，因此，在用交换法排除故障时，使用笔记本电脑检测网速正常并不能排除网线不按标准制作这一问题的存在。我们现在要求一律按T586A、T586B标准来压制网线，在检测故障时不能一律用笔记本电脑来代替台式电脑。<br />
+<br />
+二、网络中存在回路导致网速变慢<br />
+<br />
+当网络涉及的节点数不是很多、结构不是很复杂时，这种现象一般很少发生。但在一些比较复杂的网络中，经常有多余的备用线路，如无意间连上时会构成回路。比如网线从网络中心接到计算机一室，再从计算机一室接到计算机二室。同时从网络中心又有一条备用线路直接连到计算机二室，若这几条线同时接通，则构成回路，数据包会不断发送和校验数据，从而影响整体网速。这种情况查找比较困难。为避免这种情况发生，要求我们在铺设网线时一定养成良好的习惯：网线打上明显的标签，有备用线路的地方要做好记载。当怀疑有此类故障发生时，一般采用分区分段逐步排除的方法。<br />
+<br />
+三、网络设备硬件故障引起的广播风暴而导致网速变慢<br />
+<br />
+作为发现未知设备的主要手段，广播在网络中起着非常重要的作用。然而，随着网络中计算机数量的增多，广播包的数量会急剧增加。当广播包的数量达到30%时，网络的传输效率将会明显下降。当网卡或网络设备损坏后，会不停地发送广播包，从而导致广播风暴，使网络通信陷于瘫痪。因此，当网络设备硬件有故障时也会引起网速变慢。当怀疑有此类故障时，首先可采用置换法替换集线器或交换机来排除集线设备故障。如果这些设备没有故障，关掉集线器或交换机的电源后，DOS下用&ldquo;Ping&rdquo;命令对所涉及计算机逐一测试，找到有故障网卡的计算机，更换新的网卡即可恢复网速正常。网卡、集线器以及交换机是最容易出现故障引起网速变慢的设备。<br />
+<br />
+四、网络中某个端口形成了瓶颈导致网速变慢<br />
+<br />
+实际上，路由器广域网端口和局域网端口、交换机端口、集线器端口和服务器网卡等都可能成为网络瓶颈。当网速变慢时，我们可在网络使用高峰时段，利用网管软件查看路由器、交换机、服务器端口的数据流量；也可用Netstat命令统计各个端口的数据流量。据此确认网络数据流通瓶颈的位置，设法增加其带宽。具体方法很多，如更换服务器网卡为100M或1000M、安装多个网卡、划分多个VLAN、改变路由器配置来增加带宽等，都可以有效地缓解网络瓶颈，可以最大限度地提高数据传输速度。<br />
+<br />
+五、蠕虫病毒的影响导致网速变慢<br />
+<br />
+通过E-mail散发的蠕虫病毒对网络速度的影响越来越严重，危害性极大。这种病毒导致被感染的用户只要一上网就不停地往外发邮件，病毒选择用户个人电脑中的随机文档附加在用户机子的通讯簿的随机地址上进行邮件发送。成百上千的这种垃圾邮件有的排着队往外发送，有的又成批成批地被退回来堆在服务器上。造成个别骨干互联网出现明显拥塞，网速明显变慢，使局域网近于瘫痪。因此，我们必须及时升级所用杀毒软件；计算机也要及时升级、安装系统补丁程序，同时卸载不必要的服务、关闭不必要的端口，以提高系统的安全性和可靠性。</div>
+<p><br />
+<br />
+以上内容也许你没什么耐心看完，那么我说几个简单点的：<br />
+<br />
+线路问题：反映网速慢的玩家大部分属于这种情况。IMPK目前用的是电信的服务器，由于各网络营运商之间的线路状况存在差异，那么很可能联通、网通、长宽、教育网之类的用户，在IMPK的速度明显不如电信用户。这个状况是目前的国情决定的，不是IMPK能改变的。要抱怨的话，只能抱怨自己的ISP（网络服务商）太菜。利用代理服务器上网可以一定程度改善此情况，但是长期稳定高速的代理IP并不好找。<br />
+<br />
+带宽问题：若是在网巴或者单位的局域网（LAN）共享上网，那么问题可能还会出在带宽上。由于带宽不是你一个人独享，若该LAN内使用人数过多，或有人在用多线程下载（最可怕的就是用BT之类的软件下载），那么LAN的上网服务器分配给您的带宽将十分有限，或者响应迟缓。这种情况的解决，如果你面子够大的话，请与该LAN的网管联系协商。<br />
+<br />
+路由问题：可能有些单机电信用户的上网速度仍然不理想，比如电信2M ADSL。如果上别的地方正常，那么可能是遇到个别路由的问题。路由，简单解释可以比喻为长途汽车的中转站。连接到IMPK服务器需要经过这样很多的路由，若之间的哪个路由发生故障，就会出现网速卡的现象。在Windows系统下的DOS窗口内执行路由跟踪命令tracert -d 218.93.248.226，或许能帮你找出那个有问题的路由IP，然后就打电信10000投诉那个路由吧&mdash;&mdash;尽管解决的希望渺茫，但总比没有希望要好。<br />
+<br />
+病毒影响：若某区域内大量流行某蠕虫病毒，那么该地区的线路带宽将被病毒大量占用，自然也就网速慢了。<br />
+<br />
+PS:还有一种情况，那就是IMPK服务器遭受不法分子的大流量网络攻击。这时候，任何人都卡。</p></TD></TR></TBODY></TABLE>
+ 
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="3"></TD></TR>
+
+              <TR>
+                <TD height="7" colspan="3"></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="752" height="76" background="https://www.91d2.cn/skin/91d2/anhei_y.jpg"></TD></TR>
+	  
+		  
+		  </TBODY></TABLE><!-- 中1 end -->	  
+	 <!-- 中间结束 --><!-- include 中间内容 end --> </TD> 
+    <TD><!-- include 广告 begin --><!-- include 广告 end--> <!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+      </TD></TR>
+        </TBODY></TABLE>
+		  
+	
+	<!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+    </TD></TR></TBODY></TABLE><!-- include 横切一 begin --><!-- include 横切一 end --> <!-- include 底部内容 begin --><!-- 底部开始 --> 
+<table width="960" cellspacing="0" cellpadding="0" class="main-content">
+    <tbody>
+     <tr>
+      <td><img width="960" height="36" src="https://www.91d2.cn/skin/91d2/anhei_53y.jpg" /></td>
+     </tr>
+     <tr>
+      <td height="10"></td>
+     </tr>
+     <tr align="center">
+      <td height="100" valign="top" style="color: rgb(153, 153, 152);"> <a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备20006037号-5</a>
+       <div style="margin: 0px auto; text-align: center; font-size: 12px;">
+        <div id="ZWTrail">
+         <p><a class="sinatail" href="https://bbs.91d2.cn">暗黑2论坛</a> | <a class="sinatail" href="https://bbs.91d2.cn">anhei2</a> | <a class="sinatail" href="https://www.91d2.cn">暗黑破坏神2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2交流</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑破坏神3</a> | <a class="sinatail" href="http://down.91d2.cn">暗黑2下载</a> | | <a class="sinatail" href="https://www.91d2.cn/fq">暗黑百科</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2资料</a></p>
+         <p>Copyright &copy; 2007-2025 91D2 Corporation, All Rights Reserved</p>
+        </div>
+       </div><font color="#ffffff"> </font> </td>
+     </tr>
+    </tbody>
+   </table>
+</CENTER>
+</BODY>
+</HTML>
+

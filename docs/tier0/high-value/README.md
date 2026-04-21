@@ -1,16 +1,16 @@
 # High-Value Corpus Summary
 
 - Pages fetched: `292`
-- Successful pages: `291`
-- Error pages: `1`
-- Chunks generated: `2793`
+- Successful pages: `292`
+- Error pages: `0`
+- Chunks generated: `2803`
 
 ## By source
 
 | Source | Pages | Chars | Chunks |
 | --- | ---: | ---: | ---: |
 | arreat-summit | 54 | 335977 | 405 |
-| diablo2-io | 238 | 2618281 | 2388 |
+| diablo2-io | 238 | 2629625 | 2398 |
 
 ## Main outputs
 

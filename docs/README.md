@@ -18,10 +18,20 @@
 - 基础抓取
 - 高价值详情页抓取
 - PureDiablo 高价值补充
+- 91D2 中文高价值补充
 - merged 主知识层
 - graph / csv / export bundle / handoff / quickstart / query recipes
+- Chroma-ready 统一数据包
+- 第一版可运行问答底座（FastAPI + Chroma + local graph + OpenAI-compatible LLM）
 
 后续开发重点是：**把这些结果真正接成可问答系统**。
+
+当前第一版系统快速入口：
+
+- `docs/first-system-quickstart.md`
+- `scripts/smoke_test_first_system.py`
+- `docs/tier0/curated/`
+- `docs/tier0/verification/README.md`
 
 ---
 
@@ -45,8 +55,12 @@
 - `docs/tier0/merged/QUICKSTART.md`
 - `docs/tier0/merged/HANDOFF.md`
 - `docs/tier0/query-recipes.md`
+- `docs/tier0/bilingual-term-map.json`
 - `docs/data-spec-v1.md`
 - `docs/tier0/bilingual-graphrag-guidelines.md`
+- `docs/中英实体映射与知识图谱建设手册.md`
+- `docs/tier0/blizzhackers-d2data-source-assessment.md`
+- `docs/社区问答能力缺口与补强方案.md`
 
 ---
 
@@ -428,4 +442,3 @@ A：先接 merged 主层做原型问答，再补中文高质量内容。
 2. 再做评测
 3. 再补中文高质量源
 4. 再增强 graph 关系和版本治理
-

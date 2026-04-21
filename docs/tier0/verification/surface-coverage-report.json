@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-04-21T14:40:20.213637+00:00",
+  "term_map_entries": 71,
+  "curated_anchor_documents": 56,
+  "curated_anchor_chunks": 56,
+  "chroma_ready_documents": 455,
+  "chroma_ready_chunks": 8652,
+  "runtime_documents": 511,
+  "runtime_chunks": 8708,
+  "routing_matrix_total_queries": 66,
+  "routing_lanes": {
+    "primary": 6,
+    "curated": 60
+  }
+}

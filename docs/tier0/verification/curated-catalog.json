@@ -1,0 +1,817 @@
+{
+  "generated_at": "2026-04-21T14:40:20.341233+00:00",
+  "curated_cards": 56,
+  "cards": [
+    {
+      "title": "Ancient Tunnels / 古代通道（Curated Anchor Card）",
+      "doc_id": "curated::ancient-tunnels",
+      "source": "https://classic.battle.net/diablo2exp/maps/act2.shtml",
+      "keywords": [
+        "Ancient Tunnels",
+        "古代通道",
+        "Act II",
+        "Lost City"
+      ],
+      "queries": [
+        "古代通道是什么？"
+      ]
+    },
+    {
+      "title": "Andariel / 安达利尔（Curated Anchor Card）",
+      "doc_id": "curated::andariel",
+      "source": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "keywords": [
+        "Andariel",
+        "安达利尔",
+        "Act I Boss",
+        "Catacombs Level 4"
+      ],
+      "queries": [
+        "安达利尔是什么？"
+      ]
+    },
+    {
+      "title": "Andariel Bug / 虫子（Curated Anchor Card）",
+      "doc_id": "curated::andariel-bug",
+      "source": "https://www.91d2.cn/xinshouzhiyin/2025-08-01/1293.html",
+      "keywords": [
+        "Andariel Bug",
+        "虫子",
+        "BUG虫子",
+        "Andariel",
+        "Quest Bug"
+      ],
+      "queries": [
+        "虫子是什么？"
+      ]
+    },
+    {
+      "title": "Andariel's Visage / 安头（Curated Anchor Card）",
+      "doc_id": "curated::andariels-visage",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Andariel's Visage",
+        "安头",
+        "Unique Helm",
+        "Mercenary"
+      ],
+      "queries": [
+        "安头是什么？"
+      ]
+    },
+    {
+      "title": "Annihilus / 毁灭（Curated Anchor Card）",
+      "doc_id": "curated::annihilus",
+      "source": "https://diablo2.io/uniques/annihilus-t670.html",
+      "keywords": [
+        "Annihilus",
+        "毁灭",
+        "USC",
+        "Unique Small Charm",
+        "Diablo Clone"
+      ],
+      "queries": [
+        "毁灭是什么？",
+        "USC是什么？"
+      ]
+    },
+    {
+      "title": "Arachnid Mesh / 蛛网（Curated Anchor Card）",
+      "doc_id": "curated::arachnid-mesh",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Arachnid Mesh",
+        "蛛网",
+        "Unique Belt",
+        "Caster"
+      ],
+      "queries": [
+        "蛛网是什么？"
+      ]
+    },
+    {
+      "title": "Baal / 巴尔（Curated Anchor Card）",
+      "doc_id": "curated::baal",
+      "source": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "keywords": [
+        "Baal",
+        "巴尔",
+        "Act V Boss",
+        "Throne of Destruction",
+        "Worldstone Chamber"
+      ],
+      "queries": [
+        "巴尔是什么？"
+      ]
+    },
+    {
+      "title": "Blizzard Sorceress / 冰法（Curated Anchor Card）",
+      "doc_id": "curated::blizzard-sorceress",
+      "source": "https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells",
+      "keywords": [
+        "Blizzard Sorceress",
+        "冰法",
+        "Sorceress",
+        "Blizzard",
+        "Cold"
+      ],
+      "queries": []
+    },
+    {
+      "title": "Bowazon / 弓马（Curated Anchor Card）",
+      "doc_id": "curated::bowazon",
+      "source": "https://www.purediablo.com/d2wiki/Amazon_Bow_and_Crossbow",
+      "keywords": [
+        "Bowazon",
+        "弓马",
+        "Amazon",
+        "Bow",
+        "Crossbow"
+      ],
+      "queries": [
+        "弓马是什么？"
+      ]
+    },
+    {
+      "title": "Breath of the Dying / BOTD（Curated Anchor Card）",
+      "doc_id": "curated::botd",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Breath of the Dying",
+        "BOTD",
+        "Runeword",
+        "Weapon"
+      ],
+      "queries": [
+        "BOTD是什么？",
+        "死呼是什么？"
+      ]
+    },
+    {
+      "title": "Bul-Kathos' Wedding Band / 婚戒（Curated Anchor Card）",
+      "doc_id": "curated::bul-kathos-wedding-band",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Bul-Kathos' Wedding Band",
+        "婚戒",
+        "Unique Ring"
+      ],
+      "queries": [
+        "婚戒是什么？"
+      ]
+    },
+    {
+      "title": "Call to Arms / 战争召唤（Curated Anchor Card）",
+      "doc_id": "curated::call-to-arms",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Call to Arms",
+        "战争召唤",
+        "CTA",
+        "Runeword",
+        "Battle Orders"
+      ],
+      "queries": [
+        "战争召唤是什么？",
+        "CTA是什么？"
+      ]
+    },
+    {
+      "title": "Chains of Honor / COH（Curated Anchor Card）",
+      "doc_id": "curated::coh",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Chains of Honor",
+        "COH",
+        "荣耀之链",
+        "Runeword",
+        "Armor"
+      ],
+      "queries": [
+        "COH是什么？",
+        "荣耀之链是什么？"
+      ]
+    },
+    {
+      "title": "Chaos Sanctuary / 超市（Curated Anchor Card）",
+      "doc_id": "curated::chaos-sanctuary",
+      "source": "https://classic.battle.net/diablo2exp/maps/act4.shtml",
+      "keywords": [
+        "Chaos Sanctuary",
+        "超市",
+        "Act IV",
+        "River of Flame",
+        "Diablo"
+      ],
+      "queries": [
+        "超市是什么？"
+      ]
+    },
+    {
+      "title": "Crown of Ages / 年纪（Curated Anchor Card）",
+      "doc_id": "curated::crown-of-ages",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Crown of Ages",
+        "年纪",
+        "Unique Helm",
+        "Endgame"
+      ],
+      "queries": [
+        "年纪是什么？"
+      ]
+    },
+    {
+      "title": "Desert Mercenary / 米山（Curated Anchor Card）",
+      "doc_id": "curated::desert-mercenary",
+      "source": "https://classic.battle.net/diablo2exp/hirelings/",
+      "keywords": [
+        "Desert Mercenary",
+        "米山",
+        "Act II Mercenary",
+        "Mercenary"
+      ],
+      "queries": []
+    },
+    {
+      "title": "Diablo / 大菠萝（Curated Anchor Card）",
+      "doc_id": "curated::diablo",
+      "source": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "keywords": [
+        "Diablo",
+        "大菠萝",
+        "Lord of Terror",
+        "Act IV Boss",
+        "Chaos Sanctuary"
+      ],
+      "queries": [
+        "大菠萝是什么？"
+      ]
+    },
+    {
+      "title": "Diablo Clone / DClone / 暗黑克隆（Curated Anchor Card）",
+      "doc_id": "curated::diablo-clone",
+      "source": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "keywords": [
+        "Diablo Clone",
+        "DClone",
+        "暗黑克隆",
+        "Annihilus",
+        "毁灭"
+      ],
+      "queries": [
+        "DClone是什么？",
+        "暗黑克隆是什么？"
+      ]
+    },
+    {
+      "title": "Fortitude / 刚毅（Curated Anchor Card）",
+      "doc_id": "curated::fortitude",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Fortitude",
+        "刚毅",
+        "Runeword",
+        "Armor",
+        "Weapon"
+      ],
+      "queries": [
+        "刚毅是什么？"
+      ]
+    },
+    {
+      "title": "Fury Druid / 狼德（Curated Anchor Card）",
+      "doc_id": "curated::fury-druid",
+      "source": "https://www.purediablo.com/d2wiki/Druid_Summoning_Skills",
+      "keywords": [
+        "Fury Druid",
+        "狼德",
+        "Druid",
+        "Werewolf",
+        "Fury"
+      ],
+      "queries": [
+        "狼德是什么？"
+      ]
+    },
+    {
+      "title": "Gheed's Fortune / 基德（Curated Anchor Card）",
+      "doc_id": "curated::gheeds-fortune",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Gheed's Fortune",
+        "基德",
+        "Unique Grand Charm",
+        "Magic Find"
+      ],
+      "queries": [
+        "基德是什么？"
+      ]
+    },
+    {
+      "title": "Grief / 悔恨（Curated Anchor Card）",
+      "doc_id": "curated::grief",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Grief",
+        "悔恨",
+        "Runeword",
+        "Melee Weapon",
+        "+340-400 Damage"
+      ],
+      "queries": [
+        "悔恨是什么？"
+      ]
+    },
+    {
+      "title": "Griffon's Eye / 格里芬（Curated Anchor Card）",
+      "doc_id": "curated::griffons-eye",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Griffon's Eye",
+        "格里芬",
+        "Unique Helm",
+        "Lightning"
+      ],
+      "queries": [
+        "格里芬是什么？",
+        "狮鹫是什么？"
+      ]
+    },
+    {
+      "title": "Guillaume's Face / 吉永（Curated Anchor Card）",
+      "doc_id": "curated::guillaumes-face",
+      "source": "https://diablo2.io/sets/",
+      "keywords": [
+        "Guillaume's Face",
+        "吉永",
+        "Set Helm",
+        "Crushing Blow"
+      ],
+      "queries": [
+        "吉永是什么？"
+      ]
+    },
+    {
+      "title": "Hammerdin / 锤丁（Curated Anchor Card）",
+      "doc_id": "curated::hammerdin",
+      "source": "https://www.purediablo.com/d2wiki/Paladin_Combat_Skills",
+      "keywords": [
+        "Hammerdin",
+        "锤丁",
+        "Paladin",
+        "Blessed Hammer"
+      ],
+      "queries": []
+    },
+    {
+      "title": "Heart of the Oak / HOTO（Curated Anchor Card）",
+      "doc_id": "curated::hoto",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Heart of the Oak",
+        "HOTO",
+        "橡树之心",
+        "Runeword"
+      ],
+      "queries": [
+        "HOTO是什么？",
+        "橡树之心是什么？"
+      ]
+    },
+    {
+      "title": "Highlord's Wrath / 虫链（Curated Anchor Card）",
+      "doc_id": "curated::highlords-wrath",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Highlord's Wrath",
+        "虫链",
+        "Unique Amulet",
+        "Melee"
+      ],
+      "queries": [
+        "虫链是什么？"
+      ]
+    },
+    {
+      "title": "Infinity / 无限（Curated Anchor Card）",
+      "doc_id": "curated::infinity",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Infinity",
+        "无限",
+        "Runeword",
+        "Ber Mal Ber Ist",
+        "Polearm",
+        "Conviction Aura"
+      ],
+      "queries": [
+        "无限是什么？"
+      ]
+    },
+    {
+      "title": "Insight / 眼光（Curated Anchor Card）",
+      "doc_id": "curated::insight",
+      "source": "https://classic.battle.net/diablo2exp/items/runewords-110.shtml",
+      "keywords": [
+        "Insight",
+        "眼光",
+        "Runeword",
+        "Meditation Aura",
+        "Polearm"
+      ],
+      "queries": [
+        "眼光是什么？"
+      ]
+    },
+    {
+      "title": "Javazon / 标马（Curated Anchor Card）",
+      "doc_id": "curated::javazon",
+      "source": "https://www.purediablo.com/d2wiki/Amazon_Bow_and_Crossbow",
+      "keywords": [
+        "Javazon",
+        "标马",
+        "Amazon",
+        "Lightning Fury",
+        "Charged Strike"
+      ],
+      "queries": []
+    },
+    {
+      "title": "Lightning Sorceress / 电法（Curated Anchor Card）",
+      "doc_id": "curated::lightning-sorceress",
+      "source": "https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells",
+      "keywords": [
+        "Lightning Sorceress",
+        "电法",
+        "Sorceress",
+        "Nova",
+        "Lightning"
+      ],
+      "queries": []
+    },
+    {
+      "title": "Magefist / 法拳（Curated Anchor Card）",
+      "doc_id": "curated::magefist",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Magefist",
+        "法拳",
+        "Unique Gloves",
+        "Caster"
+      ],
+      "queries": [
+        "法拳是什么？"
+      ]
+    },
+    {
+      "title": "Magic Find / MF / 刷宝（Curated Anchor Card）",
+      "doc_id": "curated::magic-find",
+      "source": "https://www.purediablo.com/d2wiki/Magic_Find",
+      "keywords": [
+        "Magic Find",
+        "MF",
+        "刷宝",
+        "Find Magic",
+        "Drop Quality"
+      ],
+      "queries": [
+        "MF是什么？",
+        "刷宝是什么？"
+      ]
+    },
+    {
+      "title": "Mara's Kaleidoscope / 马拉（Curated Anchor Card）",
+      "doc_id": "curated::maras",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Mara's Kaleidoscope",
+        "马拉",
+        "Unique Amulet",
+        "+2 All Skills",
+        "All Resistances"
+      ],
+      "queries": [
+        "马拉是什么？"
+      ]
+    },
+    {
+      "title": "Marrowwalk / 骨髓（Curated Anchor Card）",
+      "doc_id": "curated::marrowwalk",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Marrowwalk",
+        "骨髓",
+        "Unique Boots",
+        "Necromancer"
+      ],
+      "queries": [
+        "骨髓是什么？"
+      ]
+    },
+    {
+      "title": "Mephisto / 劳模（Curated Anchor Card）",
+      "doc_id": "curated::mephisto",
+      "source": "https://classic.battle.net/diablo2exp/monsters/bosses.shtml",
+      "keywords": [
+        "Mephisto",
+        "劳模",
+        "Act 3 Boss",
+        "Durance of Hate Level 3"
+      ],
+      "queries": [
+        "劳模是什么？"
+      ]
+    },
+    {
+      "title": "Monarch / 军团圣盾（Curated Anchor Card）",
+      "doc_id": "curated::monarch",
+      "source": "https://diablo2.io/base/monarch-t36.html",
+      "keywords": [
+        "Monarch",
+        "军团圣盾",
+        "Shield Base",
+        "Spirit Shield"
+      ],
+      "queries": [
+        "军团圣盾是什么？"
+      ]
+    },
+    {
+      "title": "Nihlathak / 尼拉塞克（Curated Anchor Card）",
+      "doc_id": "curated::nihlathak",
+      "source": "https://diablo2.io/monsters/",
+      "keywords": [
+        "Nihlathak",
+        "尼拉塞克",
+        "Halls of Vaught",
+        "Boss",
+        "Key"
+      ],
+      "queries": [
+        "尼拉塞克是什么？"
+      ]
+    },
+    {
+      "title": "Nova Sorceress / 新星电法（Curated Anchor Card）",
+      "doc_id": "curated::nova-sorceress",
+      "source": "https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells",
+      "keywords": [
+        "Nova Sorceress",
+        "新星电法",
+        "Sorceress",
+        "Nova",
+        "Lightning"
+      ],
+      "queries": [
+        "新星电法是什么？"
+      ]
+    },
+    {
+      "title": "Pindleskin / 老P（Curated Anchor Card）",
+      "doc_id": "curated::pindleskin",
+      "source": "https://diablo2.io/monsters/",
+      "keywords": [
+        "Pindleskin",
+        "老P",
+        "Farming Route",
+        "Red Portal"
+      ],
+      "queries": [
+        "老P是什么？"
+      ]
+    },
+    {
+      "title": "Raven Frost / 鸦霜（Curated Anchor Card）",
+      "doc_id": "curated::raven-frost",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Raven Frost",
+        "鸦霜",
+        "Unique Ring",
+        "Cannot Be Frozen"
+      ],
+      "queries": [
+        "鸦霜是什么？"
+      ]
+    },
+    {
+      "title": "Sandstorm Trek / 沙暴（Curated Anchor Card）",
+      "doc_id": "curated::sandstorm-trek",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Sandstorm Trek",
+        "沙暴",
+        "Unique Boots",
+        "Caster"
+      ],
+      "queries": [
+        "沙暴是什么？"
+      ]
+    },
+    {
+      "title": "Secret Cow Level / 牛场（Curated Anchor Card）",
+      "doc_id": "curated::secret-cow-level",
+      "source": "https://classic.battle.net/diablo2exp/quests/cow.shtml",
+      "keywords": [
+        "Secret Cow Level",
+        "牛场",
+        "Cow Level",
+        "Hell Bovine"
+      ],
+      "queries": [
+        "牛场是什么？"
+      ]
+    },
+    {
+      "title": "Skin of the Vipermagi / 蛇皮（Curated Anchor Card）",
+      "doc_id": "curated::skin-of-the-vipermagi",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Skin of the Vipermagi",
+        "蛇皮",
+        "Unique Armor",
+        "Caster"
+      ],
+      "queries": [
+        "蛇皮是什么？"
+      ]
+    },
+    {
+      "title": "Spirit Shield / 精神盾（Curated Anchor Card）",
+      "doc_id": "curated::spirit-shield",
+      "source": "https://diablo2.io/runewords/spirit-t3.html",
+      "keywords": [
+        "Spirit Shield",
+        "精神盾",
+        "Spirit",
+        "Monarch",
+        "军团圣盾"
+      ],
+      "queries": [
+        "精神盾是什么？"
+      ]
+    },
+    {
+      "title": "Stone of Jordan / 乔丹（Curated Anchor Card）",
+      "doc_id": "curated::stone-of-jordan",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Stone of Jordan",
+        "乔丹",
+        "SOJ",
+        "Unique Ring",
+        "+1 to All Skills",
+        "Increase Maximum Mana 25%"
+      ],
+      "queries": [
+        "乔丹是什么？",
+        "SOJ是什么？"
+      ]
+    },
+    {
+      "title": "Summon Necromancer / 召唤死灵（Curated Anchor Card）",
+      "doc_id": "curated::summon-necromancer",
+      "source": "https://www.purediablo.com/d2wiki/Necromancer",
+      "keywords": [
+        "Summon Necromancer",
+        "召唤死灵",
+        "Necromancer",
+        "Summoner"
+      ],
+      "queries": [
+        "召唤死灵是什么？"
+      ]
+    },
+    {
+      "title": "Tal Rasha's Wrappings / 塔套（Curated Anchor Card）",
+      "doc_id": "curated::tal-rasha-set",
+      "source": "https://diablo2.io/sets/",
+      "keywords": [
+        "Tal Rasha's Wrappings",
+        "塔套",
+        "Set",
+        "Sorceress"
+      ],
+      "queries": [
+        "塔套是什么？"
+      ]
+    },
+    {
+      "title": "The Countess / 女伯爵（Curated Anchor Card）",
+      "doc_id": "curated::countess",
+      "source": "https://classic.battle.net/diablo2exp/quests/act1.shtml",
+      "keywords": [
+        "The Countess",
+        "女伯爵",
+        "Tower Cellar Level 5",
+        "Act I"
+      ],
+      "queries": [
+        "女伯爵是什么？"
+      ]
+    },
+    {
+      "title": "The Oculus / 眼球（Curated Anchor Card）",
+      "doc_id": "curated::oculus",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "The Oculus",
+        "眼球",
+        "Unique Sorceress Weapon",
+        "Sorceress"
+      ],
+      "queries": [
+        "眼球是什么？"
+      ]
+    },
+    {
+      "title": "The Pit / 地穴（Curated Anchor Card）",
+      "doc_id": "curated::the-pit",
+      "source": "https://classic.battle.net/diablo2exp/maps/act1.shtml",
+      "keywords": [
+        "The Pit",
+        "地穴",
+        "Tamoe Highland",
+        "Act I",
+        "Pit Level 1",
+        "Pit Level 2"
+      ],
+      "queries": [
+        "地穴是什么？"
+      ]
+    },
+    {
+      "title": "The Reaper's Toll / 丧钟（Curated Anchor Card）",
+      "doc_id": "curated::reapers-toll",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "The Reaper's Toll",
+        "丧钟",
+        "Unique Polearm",
+        "Mercenary",
+        "Decrepify"
+      ],
+      "queries": [
+        "丧钟是什么？"
+      ]
+    },
+    {
+      "title": "Thundergod's Vigor / 雷神（Curated Anchor Card）",
+      "doc_id": "curated::thundergods-vigor",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Thundergod's Vigor",
+        "雷神",
+        "Unique Belt",
+        "Lightning"
+      ],
+      "queries": [
+        "雷神是什么？"
+      ]
+    },
+    {
+      "title": "Titan's Revenge / 泰坦（Curated Anchor Card）",
+      "doc_id": "curated::titans-revenge",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "Titan's Revenge",
+        "泰坦",
+        "Unique Javelin",
+        "Amazon",
+        "Javazon"
+      ],
+      "queries": [
+        "泰坦是什么？"
+      ]
+    },
+    {
+      "title": "Trapsin / 陷阱刺客（Curated Anchor Card）",
+      "doc_id": "curated::trapsin",
+      "source": "https://www.purediablo.com/d2wiki/Assassin",
+      "keywords": [
+        "Trapsin",
+        "陷阱刺客",
+        "Assassin",
+        "Trap"
+      ],
+      "queries": [
+        "陷阱刺客是什么？"
+      ]
+    },
+    {
+      "title": "War Traveler / 战旅（Curated Anchor Card）",
+      "doc_id": "curated::war-traveler",
+      "source": "https://diablo2.io/uniques/",
+      "keywords": [
+        "War Traveler",
+        "战旅",
+        "Unique Boots",
+        "Magic Find"
+      ],
+      "queries": [
+        "战旅是什么？"
+      ]
+    }
+  ]
+}

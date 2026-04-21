@@ -7,3 +7,8 @@
 .codex/skills/.system/**
 !.codex/prompts/
 !.codex/prompts/**
+.venv/
+__pycache__/
+.pytest_cache/
+.env.local
+.data/

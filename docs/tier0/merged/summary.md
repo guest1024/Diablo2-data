@@ -1,8 +1,8 @@
 # Merged Graph Summary
 
 - Base nodes / edges / claims / chunks: `272` / `397` / `79` / `4490`
-- High-value nodes / edges / claims / chunks: `584` / `582` / `582` / `2793`
-- Merged nodes / edges / claims / chunks: `941` / `1065` / `747` / `8289`
+- High-value nodes / edges / claims / chunks: `584` / `582` / `582` / `2803`
+- Merged nodes / edges / claims / chunks: `1122` / `1245` / `927` / `8652`
 
 ## Outputs
 

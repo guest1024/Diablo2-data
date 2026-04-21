@@ -7,10 +7,10 @@
     "chunks": "docs/tier0/merged/chunks.jsonl"
   },
   "counts": {
-    "nodes": 941,
-    "edges": 1065,
-    "claims": 747,
-    "chunks": 8289
+    "nodes": 1122,
+    "edges": 1245,
+    "claims": 927,
+    "chunks": 8652
   },
   "recommended_load_order": [
     "nodes",

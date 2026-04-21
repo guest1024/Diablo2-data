@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "docs/tier0/derived"
 HIGH = ROOT / "docs/tier0/high-value/derived"
 PURE = ROOT / "docs/tier0/purediablo-high-value/derived"
+CN91 = ROOT / "docs/tier0/91d2-high-value/derived"
 OUT = ROOT / "docs/tier0/merged"
 
 
@@ -44,10 +45,15 @@ def main() -> int:
     pure_claims = load_jsonl(PURE / "claims.jsonl")
     pure_chunks = load_jsonl(ROOT / "docs/tier0/purediablo-high-value/derived/chunks.jsonl")
 
-    merged_nodes = dedupe(base_nodes + hv_nodes + pure_nodes, "node_id")
-    merged_edges = dedupe(base_edges + hv_edges + pure_edges, "edge_id")
-    merged_claims = dedupe(base_claims + hv_claims + pure_claims, "claim_id")
-    merged_chunks = dedupe(base_chunks + hv_chunks + pure_chunks, "chunk_id")
+    cn91_nodes = load_jsonl(CN91 / "nodes.jsonl")
+    cn91_edges = load_jsonl(CN91 / "edges.jsonl")
+    cn91_claims = load_jsonl(CN91 / "claims.jsonl")
+    cn91_chunks = load_jsonl(ROOT / "docs/tier0/91d2-high-value/derived/chunks.jsonl")
+
+    merged_nodes = dedupe(base_nodes + hv_nodes + pure_nodes + cn91_nodes, "node_id")
+    merged_edges = dedupe(base_edges + hv_edges + pure_edges + cn91_edges, "edge_id")
+    merged_claims = dedupe(base_claims + hv_claims + pure_claims + cn91_claims, "claim_id")
+    merged_chunks = dedupe(base_chunks + hv_chunks + pure_chunks + cn91_chunks, "chunk_id")
 
     write_jsonl(OUT / "nodes.jsonl", merged_nodes)
     write_jsonl(OUT / "edges.jsonl", merged_edges)
@@ -73,6 +79,12 @@ def main() -> int:
             "claims": len(pure_claims),
             "chunks": len(pure_chunks),
         },
+        "cn91_counts": {
+            "nodes": len(cn91_nodes),
+            "edges": len(cn91_edges),
+            "claims": len(cn91_claims),
+            "chunks": len(cn91_chunks),
+        },
         "merged_counts": {
             "nodes": len(merged_nodes),
             "edges": len(merged_edges),
@@ -92,6 +104,7 @@ def main() -> int:
         f"- Base nodes / edges / claims / chunks: `{len(base_nodes)}` / `{len(base_edges)}` / `{len(base_claims)}` / `{len(base_chunks)}`\n"
         f"- High-value nodes / edges / claims / chunks: `{len(hv_nodes)}` / `{len(hv_edges)}` / `{len(hv_claims)}` / `{len(hv_chunks)}`\n"
         f"- PureDiablo nodes / edges / claims / chunks: `{len(pure_nodes)}` / `{len(pure_edges)}` / `{len(pure_claims)}` / `{len(pure_chunks)}`\n"
+        f"- 91D2 nodes / edges / claims / chunks: `{len(cn91_nodes)}` / `{len(cn91_edges)}` / `{len(cn91_claims)}` / `{len(cn91_chunks)}`\n"
         f"- Merged nodes / edges / claims / chunks: `{len(merged_nodes)}` / `{len(merged_edges)}` / `{len(merged_claims)}` / `{len(merged_chunks)}`\n",
         encoding="utf-8",
     )

@@ -1,0 +1,771 @@
+{
+  "page_count": 88,
+  "successful_pages": 88,
+  "chunk_count": 298,
+  "char_count": 267784,
+  "pages": [
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-03/1311.html",
+      "category": "fq",
+      "title": "求推荐个8开自动kb的配置-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 689,
+      "sha256": "f03c0de52da560884a0e1e57e2f13f3c2719046f9bc54dfc5f8c7d815ba1f393",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-03/1310.html",
+      "category": "fq",
+      "title": "fhr和格挡率分别是什么意思？-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 672,
+      "sha256": "b7a10ca32f0d8838a4461b472788fa1053d5d34a8bafcb348034cc8f7e23f48c",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-03/1309.html",
+      "category": "fq",
+      "title": "请教一下pp数和nodrop的问题-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 695,
+      "sha256": "436431be4b017548ecbcac250451e331bccedfbf3d330f20400f39a6d4dcbbb2",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-02/1307.html",
+      "category": "fq",
+      "title": "两个PAL开同样光环是叠加还是取最大等级的？-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 560,
+      "sha256": "f519030e9d8f59cb91bca9c145cab600ec266832427f28421817c504830d1377",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-02/1304.html",
+      "category": "fq",
+      "title": "关于bugkb装备掉率的一些疑问-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 606,
+      "sha256": "b4b7693cb8720c3df1fe7481c78a9e7eae08998be9ad2266a32e4462ef3ab743",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-02/1303.html",
+      "category": "fq",
+      "title": "lsor在有无限的情况下，电法减抗到多少合适？-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 625,
+      "sha256": "c5af99b5667ead99b8421a389deb31cabe1839b94545a8823beafcd0273300cc",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-02/1302.html",
+      "category": "fq",
+      "title": "oak wmd的格挡电法，续航能力弱，有什么解决方法-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 668,
+      "sha256": "4c36d46867cf415640d1f419230f59d5e2c218999c79db98db83777222c81888",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/fq/2025-08-02/1301.html",
+      "category": "fq",
+      "title": "精算一下似乎暴力毒狼双修在1.11还是可行的？-游戏问题解答-91D2暗黑破坏神2资料百科",
+      "chars": 1084,
+      "sha256": "aafc835948c282b723f6dc3f4e7ca141f67b82e58f64b3936e7a4c019e7c240e",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-08-02/1306.html",
+      "category": "jichuzhishi",
+      "title": "讨论一下mf值对fz物品成色的影响 - 91D2暗黑破坏神2资料网",
+      "chars": 8195,
+      "sha256": "0b32c638524439134a3aa65c6a3154c40a6147320748e4e4b6eb555b9ed9504d",
+      "chunk_count": 8
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-08-02/1305.html",
+      "category": "jichuzhishi",
+      "title": "MF值的拐点曲线,多少mf值最佳（数据验证结论） - 91D2暗黑破坏神2资料网",
+      "chars": 1834,
+      "sha256": "53d0883c4330ee6ca4956c6d0c84bdd7ed12638a674f9185b935ace69a4f01a5",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-08-01/1291.html",
+      "category": "jichuzhishi",
+      "title": "打击恢复fhr与格挡测试，附结论 - 91D2暗黑破坏神2资料网",
+      "chars": 2467,
+      "sha256": "fbec57b917853e18d8441346c19001096f2a3b38cee00d9a61dd796155a7743a",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-08-01/1285.html",
+      "category": "jichuzhishi",
+      "title": "吸收技能生效顺序测试报告（能量护盾、飓风装甲、白骨装甲） - 91D2暗黑破坏神2资料网",
+      "chars": 1937,
+      "sha256": "7e02ff521cd5215a5dc4c06038f092eada1b45c93df158e10653c194487e0331",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-06-29/1125.html",
+      "category": "jichuzhishi",
+      "title": "D2各个章节任务详解，以及有价值任务的总结 - 91D2暗黑破坏神2资料网",
+      "chars": 6995,
+      "sha256": "7f2e79693b5928dd3a9bad1a3dd88493d043772e055818d6a096736ec98083b4",
+      "chunk_count": 7
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2025-03-27/1115.html",
+      "category": "jichuzhishi",
+      "title": "关于格挡和物免的意义 - 91D2暗黑破坏神2资料网",
+      "chars": 1154,
+      "sha256": "c585a517cc848a661b9f722984c235160ddf0b5bb667ebed199a7322329cea55",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2024-12-09/1109.html",
+      "category": "jichuzhishi",
+      "title": "对暗黑2中def防御值的详细解读和说明 - 91D2暗黑破坏神2资料网",
+      "chars": 1542,
+      "sha256": "51c09980fed38bd9d865bdbdc6f652ec12a5c71341a6ed8e3bb47d5a7260ce25",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jichuzhishi/2024-12-06/1108.html",
+      "category": "jichuzhishi",
+      "title": "8pp牛场炸牛KC符文rune掉率数据分析 - 91D2暗黑破坏神2资料网",
+      "chars": 2171,
+      "sha256": "e0afe21e024ea03fe02f3cc3f6b97b80d2cbfb98e37c561059cf18843c898fb9",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-08-03/1308.html",
+      "category": "jiaosezhiye",
+      "title": "KN打钥匙的新选择-拳击野蛮人 - 91D2暗黑破坏神2资料网",
+      "chars": 1272,
+      "sha256": "d2f157cd3c6ea0bd01a71dcef6ab61f694073d3df152c0bc0560869466acbcfb",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-08-01/1286.html",
+      "category": "jiaosezhiye",
+      "title": "拳击BUG近战野蛮人玩法省心攻略 - 91D2暗黑破坏神2资料网",
+      "chars": 3905,
+      "sha256": "caf46a1477af93ab301c1b208fbc46ec441d8cdaf077edbd3cf63566af8b10ac",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-08-01/1280.html",
+      "category": "jiaosezhiye",
+      "title": "死灵法师nec毒召新思路build - 91D2暗黑破坏神2资料网",
+      "chars": 1635,
+      "sha256": "7bfc4029450fafdb747eba3c8f789adbe046b345fbd6426b7941ac7e05cbab12",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-07-31/1250.html",
+      "category": "jiaosezhiye",
+      "title": "请问1～20级的升级问题 - 91D2暗黑破坏神2资料网",
+      "chars": 951,
+      "sha256": "c354d257f81230402be9f0769788ab6758e3557462341729504555af27a2e8c5",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-07-31/1249.html",
+      "category": "jiaosezhiye",
+      "title": "另类玩法之塔拉夏tlx德鲁伊dru - 91D2暗黑破坏神2资料网",
+      "chars": 1779,
+      "sha256": "97fa36cf3bec29314a491951d78b431ddbad11c45cb8846f478a559035737281",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-07-31/1242.html",
+      "category": "jiaosezhiye",
+      "title": "解释手抓镰刀无限法师lsor - 91D2暗黑破坏神2资料网",
+      "chars": 1578,
+      "sha256": "cb2b8d765d6008f2ea5dab31af216353e4601126c8fd96e3d20980f6a0eb5e74",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-07-31/1241.html",
+      "category": "jiaosezhiye",
+      "title": "关于NEC，打造、杀牛、以及些许技术性操作 - 91D2暗黑破坏神2资料网",
+      "chars": 6642,
+      "sha256": "b0e70562084130dc65602bc4d8100b80d72e083f8e25ac069b46dea64273043b",
+      "chunk_count": 6
+    },
+    {
+      "url": "https://www.91d2.cn/jiaosezhiye/2025-07-02/1129.html",
+      "category": "jiaosezhiye",
+      "title": "闪电火墙双修法师，速刷bug超市完全攻略 - 91D2暗黑破坏神2资料网",
+      "chars": 3893,
+      "sha256": "94f51c826fed8377606624f376c6cec745a1c5210668b89d07ba1aec96c87b7e",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2024-12-05/1102.html",
+      "category": "mofajineng",
+      "title": "炸牛NEC死灵KC时骨牢加迷乱到底比骨墙聚牛好在哪里 - 91D2暗黑破坏神2资料网",
+      "chars": 1291,
+      "sha256": "da7c68e01a03416ce1fa02bb77d0fc7e63a46a13cda24c4df9d7b07bcbe1fd10",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-08-27/810.html",
+      "category": "mofajineng",
+      "title": "压碎性打击，致命打击，撕裂目标伤口，三个属性的区别 - 91D2暗黑破坏神2资料网",
+      "chars": 1041,
+      "sha256": "cd3c4d10ce95494964addc151001ed0ec02e4187b311fefef94e5a2ba7e16c2f",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-08-24/763.html",
+      "category": "mofajineng",
+      "title": "5pp自动kb，ama冲天梯组合推荐 - 91D2暗黑破坏神2资料网",
+      "chars": 1284,
+      "sha256": "d99cf60f63dd6ea2c3eedfc260a7c145fa23cb33e6e7661a549584c396753068",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-08-17/708.html",
+      "category": "mofajineng",
+      "title": "亚马逊职业ama穿刺技能作用表 - 91D2暗黑破坏神2资料网",
+      "chars": 8828,
+      "sha256": "5e2b04f3527bbe6a4856f391a6e8675d8b97a9ab66ded5b74f70dec21f1378f3",
+      "chunk_count": 10
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-07-29/670.html",
+      "category": "mofajineng",
+      "title": "暗黑破坏神2角色人物技能加成全说明 - 91D2暗黑破坏神2资料网",
+      "chars": 2619,
+      "sha256": "83c85b71354e6e18c050ce87d07d29f14359ae35b28731e8f6d2876bf6fe90b5",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-07-19/646.html",
+      "category": "mofajineng",
+      "title": "装备属性闪电吸收的简单解释 - 91D2暗黑破坏神2资料网",
+      "chars": 1103,
+      "sha256": "1316ec72e5c2dc3b3095dcae5d51c646946d2a0c7409bc7abf9cc03bb05ec63d",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-07-16/644.html",
+      "category": "mofajineng",
+      "title": "D2技能释放准确率和伤害之间的关系 - 91D2暗黑破坏神2资料网",
+      "chars": 1006,
+      "sha256": "63824f2dfba00ed1b3df221d97a731af0ffc7463ed6fca179775487c5147922b",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/mofajineng/2021-07-14/640.html",
+      "category": "mofajineng",
+      "title": "Hit Blinds Target(使目标失明)的相关几率计算 - 91D2暗黑破坏神2资料网",
+      "chars": 1137,
+      "sha256": "46b2904faa6dc94e07066cfefaf454d258bd89c0f6bc1f9479775b383b1102fc",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-11-09/987.html",
+      "category": "yaomoguiguai",
+      "title": "名词解释：何谓BUG蛇。极其恐怖的攻击力，以及如何对付它。 - 91D2暗黑破坏神2资料网",
+      "chars": 1035,
+      "sha256": "54cfdbbe9f8faea3ec80667031b0ebfc74abae52a2c49fbbf196a308ad1da470",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-11-05/979.html",
+      "category": "yaomoguiguai",
+      "title": "暗黑2中有关电鬼与自爆娃娃的伤害和抗性测试 - 91D2暗黑破坏神2资料网",
+      "chars": 1314,
+      "sha256": "b7426652e00019474363bf6ff00a6c612b9a1d3b34f0726b14644430f05902cc",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-08-18/712.html",
+      "category": "yaomoguiguai",
+      "title": "伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网",
+      "chars": 6801,
+      "sha256": "a73e33adb73115a95ef58daf98f0b542853b92de839dbc992203d6212deb9727",
+      "chunk_count": 7
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-08-18/711.html",
+      "category": "yaomoguiguai",
+      "title": "关于冥河娃娃的自爆伤害详解 - 91D2暗黑破坏神2资料网",
+      "chars": 1464,
+      "sha256": "f24b15633a85a9e1c30b1565c6e28f07304a988b5bd496648d20414b074570fd",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-07-12/635.html",
+      "category": "yaomoguiguai",
+      "title": "实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网",
+      "chars": 3991,
+      "sha256": "09b4b224663662a7c77797a28ab0f0b6c723a3db3cbbbe0615401da10da52ec9",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2021-07-08/627.html",
+      "category": "yaomoguiguai",
+      "title": "超级暗黑破坏神DC在地狱难度下的游戏数据 - 91D2暗黑破坏神2资料网",
+      "chars": 4810,
+      "sha256": "b50358e356f126929a1d8d1d7fde4b1fa686c833a9ea6b378c85eeb606669d57",
+      "chunk_count": 7
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2018-10-03/447.html",
+      "category": "yaomoguiguai",
+      "title": "暗黑2雷神和鬼火谁的吸收闪电效果更好？KB的时候需要准备什么来防备电鬼？ - 91D2暗黑破坏神2资料网",
+      "chars": 3163,
+      "sha256": "1cd432a0a6e3fb03a84722d4b9dd27dd1ff476b03b5145b5cdacb03efd4d33ac",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/yaomoguiguai/2018-09-27/408.html",
+      "category": "yaomoguiguai",
+      "title": "暗黑破坏神2非资料片怪物各个属性的计算方式 - 91D2暗黑破坏神2资料网",
+      "chars": 2462,
+      "sha256": "7aa6b913a58fdc19350abf5ee858e320063fb4c2a75d61d6e63fdb2d3ae066ac",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-08-01/1292.html",
+      "category": "jingyanxinde",
+      "title": "“杰海因消失之谜”与“水井KEY”的神秘关系 - 91D2暗黑破坏神2资料网",
+      "chars": 3967,
+      "sha256": "d405359f30d208bf77e4470ccaaf9b456ee8dd8d70b0242d2bca29802663e1d6",
+      "chunk_count": 5
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-08-01/1290.html",
+      "category": "jingyanxinde",
+      "title": "天堂基础盾击丁3%残血阶段盾击与热诚DPS分析 - 91D2暗黑破坏神2资料网",
+      "chars": 11767,
+      "sha256": "15d4ab7da19d34c14a0e0234531f99dac488a5d22b15eefdd32ee87877d11b60",
+      "chunk_count": 14
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-08-01/1288.html",
+      "category": "jingyanxinde",
+      "title": "低PP通用型格挡顶球新星电法lsor（牛场+地穴+古代通道） - 91D2暗黑破坏神2资料网",
+      "chars": 4943,
+      "sha256": "5d23527bc725ac6b1cc02b85977211f1c3ac78f07cc20f7a08b74c1ca271b25d",
+      "chunk_count": 5
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-08-01/1284.html",
+      "category": "jingyanxinde",
+      "title": "8PP开箱子的另类休闲玩法 - 91D2暗黑破坏神2资料网",
+      "chars": 1330,
+      "sha256": "c9d4d922e210c1b1d04526eb976a68cd0f938cabf6e1344698e26b502af1c0ce",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-07-04/1130.html",
+      "category": "jingyanxinde",
+      "title": "玩家分享的战网多开BUG炸超市的心得体会 - 91D2暗黑破坏神2资料网",
+      "chars": 2236,
+      "sha256": "ddcef7d8f518eca4f8e31c05ebad353ecfb85e16006aa41e5b6ddf739099ed69",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-06-29/1123.html",
+      "category": "jingyanxinde",
+      "title": "关于nec的传统误区和全新玩法 - 91D2暗黑破坏神2资料网",
+      "chars": 5203,
+      "sha256": "3901617a19d4c25f11a1fed0d393ef497bb8f261d8787e665376b4bc3d071ff4",
+      "chunk_count": 6
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-04-25/1120.html",
+      "category": "jingyanxinde",
+      "title": "暗黑2角色天梯冲榜98升级99lv的经验之谈 - 91D2暗黑破坏神2资料网",
+      "chars": 1610,
+      "sha256": "61b855baee0b808c5573b845861ecb5a7a11bab14e8932d9138bd7c00861d34f",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/jingyanxinde/2025-03-27/1118.html",
+      "category": "jingyanxinde",
+      "title": "对比多开MF两开和三开打钱的效率数据参考 - 91D2暗黑破坏神2资料网",
+      "chars": 1054,
+      "sha256": "d9fdcede9f0a9b12167350fa3fedb11749881ed5c041573e0ad4b30bbe1ebab4",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2021-09-22/895.html",
+      "category": "changjingditu",
+      "title": "暗黑2法师SOR或者穿TP+情况下ACT5翻箱子攻略 - 91D2暗黑破坏神2资料网",
+      "chars": 2394,
+      "sha256": "a00688305ca31db5530943f37b3c43058489c5f1754a18f5ee6752861025fc1f",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2021-08-05/686.html",
+      "category": "changjingditu",
+      "title": "85场景怪物神殿可以让87/88lv怪物掉落出90lv/91lv物品 - 91D2暗黑破坏神2资料网",
+      "chars": 1671,
+      "sha256": "356e367cd83cec54f28756c4256b2783db6865d99d453fb99c7cab770f44ac56",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-10-14/520.html",
+      "category": "changjingditu",
+      "title": "暗黑游戏背景资料介绍 - 91D2暗黑破坏神2资料网",
+      "chars": 9280,
+      "sha256": "cd07aee2e6ec2021064e2b80e8a22775bf4c18b6f3db4fcb716bebacd68a065f",
+      "chunk_count": 12
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-10-03/446.html",
+      "category": "changjingditu",
+      "title": "MF在什么地方起作用？做什么事情不需要MF？游戏人越多对MF是好还是不好？打钱属性对于MF有影响吗？BUG KB跟MF有关系吗？ - 91D2暗黑破坏神2资料网",
+      "chars": 12761,
+      "sha256": "fae621854536cad777f529072e4d328f185a189ddaddc44d8cbe26121b35e580",
+      "chunk_count": 13
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-09-24/387.html",
+      "category": "changjingditu",
+      "title": "暗黑2战网新人吸引KC的正确操作和装备选择 - 91D2暗黑破坏神2资料网",
+      "chars": 2786,
+      "sha256": "d06a46c36580bdf312ecf12fe8cf3a645891167bcfa7c9dfbc28003cadf67ec6",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-09-22/380.html",
+      "category": "changjingditu",
+      "title": "暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网",
+      "chars": 3181,
+      "sha256": "d50c115c3d58883518fad30b7031338380d09e99a475bdf865e6b24edae9d488",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-09-19/357.html",
+      "category": "changjingditu",
+      "title": "暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网",
+      "chars": 3938,
+      "sha256": "796d2ebd7ab5cd497ddfd51fac3b047c540e5a5808e62a918b7473e0d724e02f",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/changjingditu/2018-09-17/344.html",
+      "category": "changjingditu",
+      "title": "暗黑2物价表中有交易价值物品的Drop率 - 91D2暗黑破坏神2资料网",
+      "chars": 30732,
+      "sha256": "d2aeb1310b9b7a6d51eaee341378a60c1e281ee77c07272ee8a83a036b0e4c56",
+      "chunk_count": 27
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html",
+      "category": "xinshouzhiyin",
+      "title": "开荒时没有元素BUG武器时使用强化BUFF解决 - 91D2暗黑破坏神2资料网",
+      "chars": 2220,
+      "sha256": "f47e62d93c677aac4006d4f227a592b441252f114fa097646440b169c42b0052",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2025-08-01/1293.html",
+      "category": "xinshouzhiyin",
+      "title": "资料片一帖通（任务tips、小号PASS、牛场防破处、BUG击杀、元素BUG） - 91D2暗黑破坏神2资料网",
+      "chars": 7101,
+      "sha256": "4933474ce6d31f5d67252e8412f815e455a009de50d98c76c510290ea22203a6",
+      "chunk_count": 7
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2025-08-01/1275.html",
+      "category": "xinshouzhiyin",
+      "title": "战网新人的各种快速升级方式介绍 - 91D2暗黑破坏神2资料网",
+      "chars": 1513,
+      "sha256": "a4c623976f869b15796fa833c3bf1315231b8cae4ec79f4df42da0c4d570547c",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2025-07-04/1131.html",
+      "category": "xinshouzhiyin",
+      "title": "RR指导手册-包括RR流程，水井key制作，BUS加点等全方面讲解 - 91D2暗黑破坏神2资料网",
+      "chars": 3868,
+      "sha256": "78db8e131a4fbb5c38dbd4e71f3331ea11dcc8902273ed06b104e07d7e0b2c3c",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2025-06-29/1124.html",
+      "category": "xinshouzhiyin",
+      "title": "介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网",
+      "chars": 7099,
+      "sha256": "5afd888b82d5f1164c72c04fdf4daac81348d81968c7d0c9d775dca2fe5a1890",
+      "chunk_count": 7
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2023-02-06/1047.html",
+      "category": "xinshouzhiyin",
+      "title": "新人开荒巧用坦克雷套装，教你肉搏装MF轻松上500 - 91D2暗黑破坏神2资料网",
+      "chars": 1653,
+      "sha256": "7dad6a075d1eed4f281fb2a22caf7fa933b84c7645b245b5829509a4c6891855",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2023-02-06/1046.html",
+      "category": "xinshouzhiyin",
+      "title": "新人冰法mfsor打宝mf指南 - 91D2暗黑破坏神2资料网",
+      "chars": 2110,
+      "sha256": "794b6ddabd5c382ceb4b088ddea7ae2be9bdef47aa9313785b2e70b389da4e32",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/xinshouzhiyin/2022-02-14/1025.html",
+      "category": "xinshouzhiyin",
+      "title": "关于BUG蛇的科普介绍以及解决方法 - 91D2暗黑破坏神2资料网",
+      "chars": 1875,
+      "sha256": "a10f08bacdca2720e390fa79b0acea23a12e7f5e5fd15914d325a2207fb6fd2b",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2025-07-01/1126.html",
+      "category": "changjianwenti",
+      "title": "添加了管理员兼容模式后，运行d2loader还是没反应的解决办法 - 91D2暗黑破坏神2资料网",
+      "chars": 1039,
+      "sha256": "18b4d6dfd20c4f87853aa20c444580d31082a610401a36a6d0744b66237091fc",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2024-12-04/1100.html",
+      "category": "changjianwenti",
+      "title": "关于WIN7以上系统无法游戏或者出现弹窗big error问题的解决办法 - 91D2暗黑破坏神2资料网",
+      "chars": 3425,
+      "sha256": "0a54ac3f7ced8fa2f2ef993b9660f2e1d53210717ec766e1f1ea79950e135850",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2021-09-25/917.html",
+      "category": "changjianwenti",
+      "title": "为什么死灵NEC的佣兵PET使用符文之语无限最好 - 91D2暗黑破坏神2资料网",
+      "chars": 1066,
+      "sha256": "486cb08c6ea9cb4150fe2d2ab4496a56a6a035ce18ca04105b8f393e757f3c07",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2021-08-14/706.html",
+      "category": "changjianwenti",
+      "title": "玩暗黑战网时忘记账号了怎么办 - 91D2暗黑破坏神2资料网",
+      "chars": 937,
+      "sha256": "8828dd5d8641a51d21c8df512f745faa0726d6b7ad605ccdd0af3aa6c4425bca",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2021-08-01/677.html",
+      "category": "changjianwenti",
+      "title": "遇到多开卡顿以及TP卡顿的解决方案 - 91D2暗黑破坏神2资料网",
+      "chars": 1364,
+      "sha256": "179cfdb732f728ef9b32834207365fe7bdb8e4d2c2ecf18ce3992620f3e1da49",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2021-07-31/675.html",
+      "category": "changjianwenti",
+      "title": "关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网",
+      "chars": 3247,
+      "sha256": "e2f1d87d7eea45dd3a784bd4a08e411596739f1ee09bf944bb72a55333f3092a",
+      "chunk_count": 4
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2018-10-26/550.html",
+      "category": "changjianwenti",
+      "title": "如何解决RR时候最后3个CHAR卡住加入不了房间 - 91D2暗黑破坏神2资料网",
+      "chars": 995,
+      "sha256": "e2b1999edbfe00d4f237017abc2aab7e11f96b16c5c14d3700f5781a42b9fe4d",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/changjianwenti/2018-10-26/549.html",
+      "category": "changjianwenti",
+      "title": "防止游戏自动升级导致的各种未知错误 - 91D2暗黑破坏神2资料网",
+      "chars": 1086,
+      "sha256": "c73cb8700a1a8dbab7a6c6f85fd5fdf3d230f4ec4af7fd92a70c1c3fb3a33582",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2025-08-01/1274.html",
+      "category": "renwugonglue",
+      "title": "开荒期资料片、非资料片pass流程 - 91D2暗黑破坏神2资料网",
+      "chars": 1484,
+      "sha256": "e9e0b272e21b646c79af88be1e71c3d20006ea4c4b6a5ac6f5deb3762b235c0e",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2024-12-05/1103.html",
+      "category": "renwugonglue",
+      "title": "玩暗黑2战网新人的快速入门开荒攻略 - 91D2暗黑破坏神2资料网",
+      "chars": 4793,
+      "sha256": "b4b76ab59f46b91234580fbf3f804ed9c91fd4da55fcc42594abe3003ed492af",
+      "chunk_count": 6
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-28/920.html",
+      "category": "renwugonglue",
+      "title": "如何bug虫子和在没maphack情况下速刷地狱虫子 - 91D2暗黑破坏神2资料网",
+      "chars": 1857,
+      "sha256": "455d8dca71345171c9953fd636bbba3a1f9a0f6da5cc430b2716ac5c58ecc86d",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-13/860.html",
+      "category": "renwugonglue",
+      "title": "刷85场景地穴（泰摩高地）的新人攻略指南 - 91D2暗黑破坏神2资料网",
+      "chars": 1249,
+      "sha256": "a90c5aa91528cca92f4f551af29d7a0252fdf07d06b2fbee1b32784de9b77af1",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-13/857.html",
+      "category": "renwugonglue",
+      "title": "资料片砸石头(ZLP RR)的资源及原理说明 - 91D2暗黑破坏神2资料网",
+      "chars": 1290,
+      "sha256": "ac8ebc9d4771d34e74ea822bf3f5fbbbd74b89691d2b79fcc7e2664acc6f9fe5",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-10/851.html",
+      "category": "renwugonglue",
+      "title": "RR党和CUBE党福音,利用石头人拿7#8#9#任务洗货 - 91D2暗黑破坏神2资料网",
+      "chars": 1913,
+      "sha256": "1386ede396721337a4f1b5c00d9970b17d12f4c0452cc56d2d3ce547e1aaeea1",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-09/842.html",
+      "category": "renwugonglue",
+      "title": "剥削RR号的剩余价值，简单快速完成7#8#9#符文任务 - 91D2暗黑破坏神2资料网",
+      "chars": 1151,
+      "sha256": "24c7ec2cd733dffb4438b6a1d8f4175adc13bfcb7d1b70a0de8ced17615a879c",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/renwugonglue/2021-09-09/841.html",
+      "category": "renwugonglue",
+      "title": "暗黑2牛场KC,用数据计算每场牛的数量是多少 - 91D2暗黑破坏神2资料网",
+      "chars": 1241,
+      "sha256": "140acccac4efc929649d5f344bfa952849259145c95ffe318c0ca631f66da0cc",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2025-08-01/1289.html",
+      "category": "wupinzhuangbei",
+      "title": "贫民格挡电法lsor配装选材与格挡配置指南 - 91D2暗黑破坏神2资料网",
+      "chars": 4805,
+      "sha256": "66d650923d3ef6fce5c269ec9482c976479ec5cbccf279510a58d45462b7a189",
+      "chunk_count": 5
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2025-07-02/1128.html",
+      "category": "wupinzhuangbei",
+      "title": "关于lsor电法盾牌选择的一些想法 - 91D2暗黑破坏神2资料网",
+      "chars": 1280,
+      "sha256": "780b8da42f9dba1882c5231d9ceb6d6fcd58f4c047650d10e917375eb5f53a5c",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2025-07-01/1127.html",
+      "category": "wupinzhuangbei",
+      "title": "合成的橙色手工项链所有词缀组成和价值详解 - 91D2暗黑破坏神2资料网",
+      "chars": 2688,
+      "sha256": "aaff909ac35461542fc79ab257a3a0164746d0e86c8b464e680f24603cd10d0a",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2025-04-25/1122.html",
+      "category": "wupinzhuangbei",
+      "title": "镰刀无限法师life上限=mana上限的加点计算 - 91D2暗黑破坏神2资料网",
+      "chars": 2429,
+      "sha256": "0891af3668d1802107f8fe99473a41d7d47a135474d243e636d765da51ba16ba",
+      "chunk_count": 3
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2025-04-25/1119.html",
+      "category": "wupinzhuangbei",
+      "title": "STR DEX属性相对LF MANA数值对物品价格的影响 - 91D2暗黑破坏神2资料网",
+      "chars": 1604,
+      "sha256": "5d0c31004a516bcb494fe9054b8859e2c8eb6746c48dd3cc6a5c37f7591154b6",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2024-12-03/1093.html",
+      "category": "wupinzhuangbei",
+      "title": "基数效应和边际效应：让装备属性实际效果差距，比看上去的小很多 - 91D2暗黑破坏神2资料网",
+      "chars": 1560,
+      "sha256": "99b4f8b458f04e73dc2d6285dfec76a8b52e0dc44616cdaeee2796f0659204ce",
+      "chunk_count": 2
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2024-12-03/1092.html",
+      "category": "wupinzhuangbei",
+      "title": "关于bug jew(BUG珠)ed/min(max) 镶嵌的验证 - 91D2暗黑破坏神2资料网",
+      "chars": 1068,
+      "sha256": "f2f2d1779d015e9374f3717b146a236e36b46db58ac9cd22220a4665baab889c",
+      "chunk_count": 1
+    },
+    {
+      "url": "https://www.91d2.cn/wupinzhuangbei/2024-11-28/1087.html",
+      "category": "wupinzhuangbei",
+      "title": "史恰弗之锤 SF铁魔之王，8开KC利器，保护手指的神器 - 91D2暗黑破坏神2资料网",
+      "chars": 1023,
+      "sha256": "21edf22844e73fc6d3ff3bfd9090c5efaff0abd83d9ad8373a8ef005fbd0bcff",
+      "chunk_count": 1
+    }
+  ],
+  "by_category": {
+    "fq": {
+      "pages": 8,
+      "chars": 5599,
+      "chunks": 8
+    },
+    "jichuzhishi": {
+      "pages": 8,
+      "chars": 26295,
+      "chunks": 28
+    },
+    "jiaosezhiye": {
+      "pages": 8,
+      "chars": 21655,
+      "chunks": 24
+    },
+    "mofajineng": {
+      "pages": 8,
+      "chars": 18309,
+      "chunks": 21
+    },
+    "yaomoguiguai": {
+      "pages": 8,
+      "chars": 25040,
+      "chunks": 29
+    },
+    "jingyanxinde": {
+      "pages": 8,
+      "chars": 32110,
+      "chunks": 38
+    },
+    "changjingditu": {
+      "pages": 8,
+      "chars": 66743,
+      "chunks": 67
+    },
+    "xinshouzhiyin": {
+      "pages": 8,
+      "chars": 27439,
+      "chunks": 29
+    },
+    "changjianwenti": {
+      "pages": 8,
+      "chars": 13159,
+      "chunks": 15
+    },
+    "renwugonglue": {
+      "pages": 8,
+      "chars": 14978,
+      "chunks": 20
+    },
+    "wupinzhuangbei": {
+      "pages": 8,
+      "chars": 16457,
+      "chunks": 19
+    }
+  },
+  "documents_path": "docs/tier0/91d2-high-value/normalized/documents.jsonl",
+  "chunks_path": "docs/tier0/91d2-high-value/derived/chunks.jsonl"
+}

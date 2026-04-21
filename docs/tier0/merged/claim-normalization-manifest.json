@@ -1,9 +1,9 @@
 {
-  "canonical_claim_count": 719,
+  "canonical_claim_count": 899,
   "predicate_family_counts": {
-    "provenance": 350,
+    "provenance": 440,
+    "other": 424,
     "classification": 32,
-    "other": 334,
     "availability": 3
   },
   "paths": {

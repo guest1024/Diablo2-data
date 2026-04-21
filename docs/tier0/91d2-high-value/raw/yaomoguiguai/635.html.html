@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index,follow">
+<META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<title>实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网</title>
+<META http-equiv="Content-type" content="text/html; charset=gb2312"> 
+<META name="keywords" content="ACT5,3bb,古代野蛮人,火焰强化bug"/>  
+<META name="description" content="准备工作<br />
+1. 修改暗金怪物的随机赋予属性仅仅有火焰强化，其他属性几率设为0<br />
+2. 3bb的基础生命值修改为10000，空手伤害修改为0，临界一击百分比修改为0. <br />
+3. Flying Axe"/>
+
+<STYLE type="text/css">
+td,li,select,input {font-size:12px;color:#F9EBD2;line-height:150%;}
+.l13{color:#F9EBD2;line-height:130%;}
+.l15{line-height:150%;color:#F9EBD2}
+.l15z{line-height:150%;color:#F9EBD2;font-size:14px;}
+.listTime1{line-height:180%;color:#8C8D93;}
+.listTitle1{line-height:180%;color:#FCA201;}
+.listLi1{line-height:180%;color:#8C8D93;}
+.img01{border:1px solid #000}
+
+A:link {color:#FADE78;text-decoration:none;}
+A:visited {color:#FADE78;text-decoration:none;}
+A:active {color:#FADE78;text-decoration:none;}
+A:hover {color:#FADE78;text-decoration:underline;}
+
+A.a01:link,A.a01:visited {color:#CBAA6D;text-decoration:none;}
+A.a01:active,A.a01:hover {color:#FADE78;text-decoration:underline;}
+
+A.a02:link,A.a02:visited {color:#FCA201;text-decoration:none;}
+A.a02:active,A.a02:hover {color:#FADE78;text-decoration:underline;}
+
+A.listTitle1:link,A.listTitle1:visited {color:#FCA201;text-decoration:none;}
+A.listTitle1:active,A.listTitle1:hover {color:#FADE78;text-decoration:underline;}
+
+.listDateTime1{font-size:12px;color:#8C8D93;}
+.listTD1{line-height:150%;color:#8C8D93}
+.bg01{background-image:url(https://www.91d2.cn/skin/91d2/anhei_24.jpg);}
+.bg02{background-image:url(https://www.91d2.cn/skin/91d2/bg1.gif);background-position:left top;background-repeat:no-repeat;}
+.bg03{background-image:url(https://www.91d2.cn/skin/91d2/ba1.jpg);}
+
+A.sinatail:link,A.sinatail:visited {color:#ffffff;text-decoration:none;}
+A.sinatail:active,A.sinatail:hover {color:#ffffff;text-decoration:underline;}
+
+</STYLE>
+ <!-- include 样式 end --> 
+<META name="GENERATOR" content="MSHTML 11.00.10586.672"></HEAD> 
+<BODY background="https://www.91d2.cn/skin/91d2/anhei_50.gif" topmargin="0" 
+leftmargin="0" marginwidth="0" marginheight="0"><!-- body code begin --> <!-- SUDA_CODE_START --> 
+ <!-- SUDA_CODE_END --> <!-- SSO_GETCOOKIE_START --> 
+ <!-- SSO_GETCOOKIE_END --> 
+
+ <!-- body code end --> 
+<CENTER>
+<STYLE type="text/css">
+form {margin: 0;padding: 0;border: 0;}
+select,input{vertical-align:middle;font-size:12px;line-height:100%;}
+/* 二级导航 */
+#level2header {border-top:1px solid #000;border-bottom:0px solid #000;width:960px;height:34px;font-size:12px; background:#fff;}
+#level2header img{border:none;}
+#level2header #logo {float:left;text-align:left; padding-top:3px;}
+#level2header #l2navlnk {float:right;text-align:center;line-height:34px;}
+#level2header #l2navlnk a:link,#level2header #l2navlnk a:visited {color:#000;text-decoration:none;}
+#level2header #l2navlnk a:hover,#level2header #l2navlnk a:active {color:#f00;text-decoration:underline;}
+#level2header #iask {float:right;width:307px;height:34px;background-color:#FFF;text-align:left;padding-left:6px; color:#000;}
+#level2header #iask a:link,#level2header #iask a:visited {color:#f00;text-decoration:none;}
+#level2header #iask a:hover,#level2header #iask a:active {color:#f00;text-decoration:underline;}
+#level2header #iask #k {width:65px;border:1px solid #7F9DB9;margin:0 0 0 7px;}
+#level2header #iask .sebtn{width:45px; height:18px;}
+#level2header .iaskRedTxt{color:#aaa; border:1px #f00 solid;}
+#level2headerborder{background:#fff; height:1px; overflow:hidden; clear:both; width:960px;}
+</STYLE>
+
+<DIV id="level2headerborder"></DIV><!-- 新浪游戏 head end --> <!-- include 专区头部内容 being --><!--[115,39,93] published at 2015-12-16 15:27:35 from #21 by 12887--> <!-- 头部开始 --> 
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR>
+    <TD><IMG width="960" height="150" src="https://www.91d2.cn/skin/91d2/anhei_02.jpg" style="display:block; vertical-align:bottom;"></TD>
+</TR></TBODY></TABLE>
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR bgcolor="#031112">
+    <TD width="147" align="center" style="
+    background-image: url(https://www.91d2.cn/skin/91d2/ba2.jpg)"><!-- 搜索begin -->	 
+      <TABLE border="0" cellspacing="0" cellpadding="0">
+
+         
+        </TBODY></TABLE><!-- 搜索end -->	 </TD>
+    <TD width="570" height="76" class="bg03"><!-- 导航开始 -->	 
+      <TABLE width="570" cellspacing="0" cellpadding="0">
+         <tbody>
+         <tr>
+          <td align="center" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/fq/" target="_top">暗黑百科</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jichuzhishi/" target="_blank">基础知识</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jiaosezhiye/" target="_blank">角色职业</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mofajineng/" target="_blank">魔法技能</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/wupinzhuangbei/" target="_blank">物品装备</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/yaomoguiguai/" target="_blank">妖魔鬼怪</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jingyanxinde/" target="_blank">经验心得</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+         <tr>
+          <td align="center" height="17" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mijixiugai/" target="_blank">秘籍修改</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/renwugonglue/" target="_blank">任务攻略</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/feichangjishu/" target="_blank">非常技术</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjingditu/" target="_blank">场景地图</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjianwenti/" target="_blank">常见问题</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/xinshouzhiyin/" target="_blank">新手指引</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/MODxiugai/" target="_blank">MOD 制作</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+        </tbody>
+			</TABLE><!-- 导航结束 -->
+    	 </TD></TR></TBODY></TABLE><!-- 头部结束 --><!-- include 专区头部内容 end --> <!-- include 2 --> 
+<TABLE width="960" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR valign="top"><!-- include 左侧td being --> 
+    <TD width="180" valign="top"><!-- include 左侧内容 begin --><!--[115,21,92] published at 2015-12-16 10:07:52 from #21 by 12887--> 
+
+       <!-- 左侧开始 -->	 <!-- 左1 begin -->	 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>暗黑2交流</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD align="center"><A href="https://bbs.91d2.cn/" 
+                  target="_blank"><IMG width="120" height="60" src="https://www.91d2.cn/skin/91d2/U88P115T62D82F1195DT20040714143639.gif" alt="暗黑2玩家论坛"
+                  border="0"></A></TD></TR></TBODY>
+		    </TABLE>
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>91D2创立于2005年，是众多喜爱暗黑破坏神2玩家们的经典聚集地。无数热爱这款游戏的忠实粉丝，在这里共同探讨游戏技巧、分享技术经验、研究装备搭配与职业玩法。无论是新手入门还是硬核玩家，这里都是你交流心得、组队冒险、重温经典的理想家园。		
+                </TD>
+				</TR>
+				</TBODY>
+			</TABLE>
+			</TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE>
+		
+		<table width="180" style="margin-bottom: 10px;" cellspacing="0" cellpadding="0">
+        <tbody>
+         <tr>
+          <td width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><b>暗黑百科</b></td>
+         </tr>
+         <tr>
+          <td class="bg01">
+           <table width="150" align="center" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td height="20"></td>
+             </tr>
+             <tr>
+              <td align="center"><a href="https://www.91d2.cn/fq" target="_blank"><img width="120" height="60" src="https://www.91d2.cn/skin/91d2/baike.jpg" alt="暗黑2游戏百科解答" border="0" /></a>
+			  </td>
+             </tr>
+			 <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>各类暗黑2游戏知识的各类问题和答案，全部源于二十多年来玩家的研究和讨论。	
+                </TD>
+				</TR>
+            </tbody>
+           </table></td>
+         </tr>
+         <tr>
+          <td width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></td>
+         </tr>
+        </tbody>
+       </table>
+		 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>经验分享</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-535189-fpage-2.html" 
+                  target="_blank">RR详尽流程经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">FZ永久无杖key制作</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-614438.html" 
+                  target="_blank">新人乘坐bus全流程注</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">战网穷人KB经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-49969.html" 
+                  target="_blank">战网mf和bus一体sor</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-879770.html" 
+                  target="_blank">如何高效轻松八开DYKB</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-7365.html" 
+                  target="_blank">有交易价值物品的Drop率</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>人物练法</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-1089051.html" 
+                  target="_blank">HOLD住全场的男人PAL</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1104898.html" 
+                  target="_blank">经典法师SOR再续前缘</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-580801.html" 
+                  target="_blank">打造最帅的狂乱者BAR</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-508575.html" 
+                  target="_blank">穷人的的暴力熊德DUR</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1434972.html" 
+                  target="_blank">暗之幽灵刹那芳华ASN</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1386412.html" 
+                  target="_blank">打造最强势信心弓AMA</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1439768.html" 
+                  target="_blank">追寻五环的炫目NEC</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>非资料片</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+             <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-500726.html" 
+                  target="_blank">非资料片KD房间注意项</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-43767.html" 
+                  target="_blank">91D2非资料技术贴合集1</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1354999.html" 
+                  target="_blank">91D2非资料技术贴合集2</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1401644.html" 
+                  target="_blank">战网FZ单人8开SOLO方法</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1348871.html" 
+                  target="_blank">战网FZ物品价值之我见</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1313826.html" 
+                  target="_blank">影像资料记录FZ KD历程 </A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+
+      <!-- 左1 end --> <!-- 左2 begin --> <!-- include 左侧内容 end --> 
+    </TD>
+    <TD width="96" valign="top"><!-- include 线性导航 begin --><!-- include 线性导航 end --> <!-- include 中间内容 begin --><!-- 中间开始 -->
+	 <!-- 内容1 开始 -->    
+      <TABLE width="780" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="780" height="30" background="https://www.91d2.cn/skin/91d2/anhei_21y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 14px; padding-left: 50px;"><a href="https://www.91d2.cn/">首页</a>&nbsp;>&nbsp;<a href="https://www.91d2.cn/yaomoguiguai/">妖魔鬼怪</a></TD></TR></TBODY></TABLE><!-- 内容1 end --> 
+         <!-- 中1 begin -->     
+      <TABLE width="755" style="margin-bottom: 15px; margin-left: 16px;" 
+      cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="752" height="67" background="https://www.91d2.cn/skin/91d2/anhei_57y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 20px; text-align:center; font-size: 14px;"><B>
+            		实测ACT5古代野蛮人3BB的火焰强化bug</B></TD></TR>
+        <TR>
+          <TD background="https://www.91d2.cn/skin/91d2/anhei_25y.jpg">
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD></TR>
+              <TR>
+                <TD style="color: rgb(203, 146, 65);"><!-- none -->			 <!-- include 编者按显示 begin --><!-- include 编者按显示 end --></TD></TR>
+				
+				
+              <TR>
+                <TD height="10"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD class="l15z"><!--[115,18,882] published at 2004-04-15 14:37:43 from #006 by 167--> 
+                  
+                
+				  <p>准备工作<br />
+1. 修改暗金怪物的随机赋予属性仅仅有火焰强化，其他属性几率设为0<br />
+2. 3bb的基础生命值修改为10000，空手伤害修改为0，临界一击百分比修改为0.&nbsp;<br />
+3. Flying Axe(马道克的武器)和Colossus Voulge(科力克的武器)的伤害修改为固定100.<br />
+4. 所有词缀的属性修改为空。目的是使得几位bb的武器不会附加额外的伤害。<br />
+5. 修改一个测试存档。火焰抗性上限修改为100. 并拥有三种元素伤害手段来对付三位bb。存档通过换装备可以有0DR/100FR、0DR/90FR、50DR/100FR等不同状态，通过切换正副手，还有30000防御&amp;75%格挡和200防御0格挡的区别。<br />
+<br />
+测试一<br />
+单人难度。100FR/50DR状态。杀掉其他两位bb，只留马道克一位(飞斧投掷). 副手无盾状态接受攻击数十次，每次伤害均为100，并无额外伤害。符合攻击伤害理论值。<br />
+此测试说明，火焰强化属性bb的攻击伤害正常，并无额外伤害。<br />
+<br />
+测试二<br />
+单人难度。100FR/50DR状态。杀掉其他两位bb，只留科力克一位(跳跃攻击). 正手高防御75%格挡状态接受攻击数十次。科力克频繁击空，但生命值在减少，减少时bb身上伴有火焰伤害击中的那种效果，而此时并非科力克发起攻击的时候，而是固定的一个频率，个人的感觉为2秒一次。而且，bb身上出现火焰效果时并不一定会减少生命。<br />
+此测试同测试一作比较，说明，火焰强化bb在近身时会有固定频率的脉冲伤害，而并非攻击时附加额外伤害，也并非在被打出HR打击恢复状态时出现伤害。同时也说明，此伤害可以被格挡。<br />
+科力克自身普通攻击伤害为100，vs 50DR时为50. 自身基础生命值为10000，按照公式计算，死后尸体爆炸后的伤害为10000*20%*50%=1000(单机公式，战网要除以4). 60-100%的随机伤害，一半物理一半火焰。100FR/50DR状态时，实际伤害为150-250<br />
+伤害数据<br />
+5000<br />
+4849 &nbsp; &rarr; 151&mdash;&mdash;额外伤害<br />
+4637 &nbsp; &rarr; 212&mdash;&mdash;额外伤害<br />
+4586 &nbsp; &rarr; 51 &mdash;&mdash;普通攻击伤害<br />
+4414 &nbsp; &rarr; 172&mdash;&mdash;额外伤害<br />
+3958 &nbsp; &rarr; 456&mdash;&mdash;额外伤害<br />
+3907 &nbsp; &rarr; 51 &mdash;&mdash;普通攻击伤害<br />
+3727 &nbsp; &rarr; 180&mdash;&mdash;额外伤害<br />
+3560 &nbsp; &rarr; 167&mdash;&mdash;额外伤害<br />
+3201 &nbsp; &rarr; 359&mdash;&mdash;额外伤害<br />
+2748 &nbsp; &rarr; 453&mdash;&mdash;额外伤害<br />
+<br />
+测试三<br />
+单人难度。100FR/50DR状态。杀掉其他两位bb，只留科力克一位(跳跃攻击). 副手无盾低防御状态接受攻击数十次。科力克基本每击必中，同时生命也迅速下降。<br />
+伤害数据<br />
+5000<br />
+4657 &nbsp; &rarr; 343&mdash;&mdash;额外伤害<br />
+4280 &nbsp; &rarr; 377&mdash;&mdash;额外伤害<br />
+4230 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+4180 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+3805 &nbsp; &rarr; 375&mdash;&mdash;额外伤害<br />
+3755 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+3319 &nbsp; &rarr; 436&mdash;&mdash;额外伤害<br />
+3269 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+3219 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+2823 &nbsp; &rarr; 396&mdash;&mdash;额外伤害<br />
+2773 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+2365 &nbsp; &rarr; 408&mdash;&mdash;额外伤害<br />
+2314 &nbsp; &rarr; 51 &mdash;&mdash;普通攻击伤害<br />
+1845 &nbsp; &rarr; 469&mdash;&mdash;额外伤害<br />
+1795 &nbsp; &rarr; 50 &mdash;&mdash;普通攻击伤害<br />
+可以看出，同测试二相比，额外伤害数值均超出了尸爆伤害的范围，而测试二中，也有少量超出范围的伤害。这些超出范围的伤害，大致都在尸爆伤害的二倍。对比测试二跟测试三，唯一的区别就是格挡。那么可以得出结论，额外伤害每次作用两次。而在测试二中，两次连续伤害都没有被格挡掉的几率很小，所以伤害翻倍很少出现。(注：事先已经屏蔽掉了临界一击)<br />
+<br />
+测试四<br />
+输入命令/players 8，重复测试三的测试。数据不再给出，结论是：人数并不影响这个额外伤害的数值。<br />
+<br />
+测试五<br />
+将3bb的基础生命值修改为100000，结果测试人物被科力克近身后瞬间只剩下108HP..........<br />
+此测试说明，额外伤害取决于bb的基础生命值。比较符合&ldquo;额外伤害数值等于死后的尸爆伤害&rdquo;的结论。<br />
+<br />
+测试六<br />
+将bb打至仅剩一点血，然后近身杀死。角色生命值接连减少两次，生命减少总值约为理论值的二倍。<br />
+重复数次，结论相同。<br />
+此测试说明，3bb死后的爆炸伤害会连续作用两次。<br />
+<br />
+测试七<br />
+75%格挡，贴身杀死科力克，无损血，说明&ldquo;3bb死时的尸爆不可格挡&rdquo;纯属无稽之谈<br />
+<br />
+测试八<br />
+修改鲜血荒地的僵尸攻击力为0，并赋予火焰强化属性，100FR/50DR状态去近身挨打，最大伤害为1.<br />
+此测试说明，普通金怪没有这个bug<br />
+<br />
+测试九<br />
+1.11b版本重复测试二的步骤，数十次攻击，仅仅有普通攻击伤害，没有额外伤害的出现。<br />
+此测试说明，1.11b版本已经修复FE bug</p>
+<p>结论已经很明显了<br />
+1. 具有火焰强化属性的3bb在近身时会有额外的伤害。<br />
+2. 此bug表现为伤害超高。此伤害近身才会有效，同攻击伤害分离，可以格挡。<br />
+3. 初步认为此伤害类似于光环的脉冲伤害，每两秒冲击一次，数值等同死后的尸爆伤害。<br />
+4. 此伤害会连续作用两次。<br />
+5. 多人难度下这个伤害不会增加。<br />
+6. 3bb死后尸爆伤害也会作用两次。<br />
+7. 1.11版本此bug修正。<br />
+<br />
+那么，究竟在91D2暗黑战网，此bug的伤害是多少呢？<br />
+3bb的基础生命值为51296-64120. 按最坏的情况来看，尸爆伤害为64120*5%*50%=1603. 接连两次伤害，那就是3206. 如果是普通的vit角色，格挡率很低，按照75FR/10DR来计算，最终伤害就是3206/2*(1-75%)+3206/2*(1-10%)=1843<br />
+如果你中了伤害加深诅咒，DR-100，这个数值还要增加3206/2=1603<br />
+如果发动了临界一击，这个数值还要翻倍。<br />
+<br />
+总之呢，战网上这个伤害没有那么可怕，但也不可掉以轻心，不小心的话即使没被秒也所剩无几。<br />
+<br />
+最后给大家的建议:<br />
+1.硬撑生命的效果并不佳，可以看出，因为伤害是接连两次，再高的生命也经不起折腾。对付这个bug，还是75%格挡更佳，接连两次的伤害都格挡失败的几率非常小。<br />
+2.噩梦难度生命因子为35%，地狱难度为5%，也就是说噩梦的伤害更高，千万不要掉以轻心。<br />
+3.跑步模式block 25%，def=0，极其容易被击中，所以bh在瞄准过程中千万不要跑动，开封印前切换为走路模式。<br />
+4.分辨火焰强化的方法：记事本打开d2hackmap.cfg文件，找到&ldquo;Fire Enchanted Desc:&rdquo;这一行，后边字母改为&quot;%1FFFFFFFFFFFFF&quot;，这样游戏里看去，火焰强化怪物头上顶着一长串字母F，一目了然。<br />
+5.最安全的方法当然还是遇到该属性就开回城重新刷属性，尤其是对装备相对不好的新人来说。</p></TD></TR></TBODY></TABLE>
+ 
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="3"></TD></TR>
+
+              <TR>
+                <TD height="7" colspan="3"></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="752" height="76" background="https://www.91d2.cn/skin/91d2/anhei_y.jpg"></TD></TR>
+	  
+		  
+		  </TBODY></TABLE><!-- 中1 end -->	  
+	 <!-- 中间结束 --><!-- include 中间内容 end --> </TD> 
+    <TD><!-- include 广告 begin --><!-- include 广告 end--> <!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+      </TD></TR>
+        </TBODY></TABLE>
+		  
+	
+	<!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+    </TD></TR></TBODY></TABLE><!-- include 横切一 begin --><!-- include 横切一 end --> <!-- include 底部内容 begin --><!-- 底部开始 --> 
+<table width="960" cellspacing="0" cellpadding="0" class="main-content">
+    <tbody>
+     <tr>
+      <td><img width="960" height="36" src="https://www.91d2.cn/skin/91d2/anhei_53y.jpg" /></td>
+     </tr>
+     <tr>
+      <td height="10"></td>
+     </tr>
+     <tr align="center">
+      <td height="100" valign="top" style="color: rgb(153, 153, 152);"> <a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备20006037号-5</a>
+       <div style="margin: 0px auto; text-align: center; font-size: 12px;">
+        <div id="ZWTrail">
+         <p><a class="sinatail" href="https://bbs.91d2.cn">暗黑2论坛</a> | <a class="sinatail" href="https://bbs.91d2.cn">anhei2</a> | <a class="sinatail" href="https://www.91d2.cn">暗黑破坏神2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2交流</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑破坏神3</a> | <a class="sinatail" href="http://down.91d2.cn">暗黑2下载</a> | | <a class="sinatail" href="https://www.91d2.cn/fq">暗黑百科</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2资料</a></p>
+         <p>Copyright &copy; 2007-2025 91D2 Corporation, All Rights Reserved</p>
+        </div>
+       </div><font color="#ffffff"> </font> </td>
+     </tr>
+    </tbody>
+   </table>
+</CENTER>
+</BODY>
+</HTML>
+

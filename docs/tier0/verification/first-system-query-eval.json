@@ -1,0 +1,466 @@
+{
+  "generated_at": "2026-04-21T03:09:27.377452+00:00",
+  "required_summary": {
+    "passed": 7,
+    "total": 7
+  },
+  "exploratory_summary": {
+    "passed": 4,
+    "total": 7
+  },
+  "required_cases": [
+    {
+      "query": "Spirit 是什么？",
+      "matched_keywords": [
+        "spirit"
+      ],
+      "passed": true,
+      "resolved_entities": 4,
+      "confident_entity_ids": [
+        "96d0566a-c3f7-518d-b49e-cb8e57328591"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Spirit\n\n• Diablo 2 Resurrected Runeword\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n Change Act \n",
+      "query_context": {
+        "original_query": "Spirit 是什么？",
+        "normalized_query": "Spirit 是什么？",
+        "expanded_query": "Spirit 是什么？",
+        "matched_terms": [],
+        "expansions": [],
+        "preferred_terms": [],
+        "canonical_hints": []
+      }
+    },
+    {
+      "query": "军帽是什么？",
+      "matched_keywords": [
+        "harlequin crest"
+      ],
+      "passed": true,
+      "resolved_entities": 2,
+      "confident_entity_ids": [
+        "de301e9e-1681-5237-901f-81904fedd8c8",
+        "a9829c2d-7bd5-5baf-91d0-eeb5d9391a83"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Harlequin Crest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Harlequin Crest\n\n• Diablo 2 Resurrected Unique Item\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n ",
+      "query_context": {
+        "original_query": "军帽是什么？",
+        "normalized_query": "军帽是什么？",
+        "expanded_query": "军帽是什么？ harlequin crest shako 谐角之冠",
+        "matched_terms": [
+          "军帽"
+        ],
+        "expansions": [
+          "harlequin crest",
+          "shako",
+          "谐角之冠"
+        ],
+        "preferred_terms": [
+          "Harlequin Crest",
+          "harlequin crest",
+          "shako",
+          "谐角之冠"
+        ],
+        "canonical_hints": [
+          "Harlequin Crest"
+        ]
+      }
+    },
+    {
+      "query": "精神符文之语是什么？",
+      "matched_keywords": [
+        "spirit"
+      ],
+      "passed": true,
+      "resolved_entities": 10,
+      "confident_entity_ids": [
+        "96d0566a-c3f7-518d-b49e-cb8e57328591",
+        "a0d8679b-e7d7-584a-aac1-0cb384fa61d6",
+        "fc907e86-b31b-54c2-98ba-387643644d97"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Spirit\n\n• Diablo 2 Resurrected Runeword\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n Change Act \n",
+      "query_context": {
+        "original_query": "精神符文之语是什么？",
+        "normalized_query": "精神符文之语是什么？",
+        "expanded_query": "精神符文之语是什么？ spirit spirit runeword",
+        "matched_terms": [
+          "精神符文之语"
+        ],
+        "expansions": [
+          "spirit",
+          "spirit runeword"
+        ],
+        "preferred_terms": [
+          "Spirit",
+          "spirit",
+          "spirit runeword",
+          "精神"
+        ],
+        "canonical_hints": [
+          "Spirit"
+        ]
+      }
+    },
+    {
+      "query": "What is Hellfire Torch?",
+      "matched_keywords": [
+        "hellfire torch"
+      ],
+      "passed": true,
+      "resolved_entities": 10,
+      "confident_entity_ids": [
+        "b9697845-0d90-50a3-ae0b-01299bbbb00c"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Hellfire Torch\n\n• Diablo 2 Resurrected Unique Item\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n C",
+      "query_context": {
+        "original_query": "What is Hellfire Torch?",
+        "normalized_query": "What is Hellfire Torch?",
+        "expanded_query": "What is Hellfire Torch?",
+        "matched_terms": [],
+        "expansions": [],
+        "preferred_terms": [],
+        "canonical_hints": []
+      }
+    },
+    {
+      "query": "火炬是什么？",
+      "matched_keywords": [
+        "hellfire torch"
+      ],
+      "passed": true,
+      "resolved_entities": 1,
+      "confident_entity_ids": [
+        "b9697845-0d90-50a3-ae0b-01299bbbb00c"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Hellfire Torch\n\n• Diablo 2 Resurrected Unique Item\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n C",
+      "query_context": {
+        "original_query": "火炬是什么？",
+        "normalized_query": "火炬是什么？",
+        "expanded_query": "火炬是什么？ hellfire torch 地狱火炬",
+        "matched_terms": [
+          "火炬"
+        ],
+        "expansions": [
+          "hellfire torch",
+          "地狱火炬"
+        ],
+        "preferred_terms": [
+          "Hellfire Torch",
+          "hellfire torch",
+          "地狱火炬"
+        ],
+        "canonical_hints": [
+          "Hellfire Torch"
+        ]
+      }
+    },
+    {
+      "query": "地狱火炬是什么？",
+      "matched_keywords": [
+        "hellfire torch"
+      ],
+      "passed": true,
+      "resolved_entities": 1,
+      "confident_entity_ids": [
+        "b9697845-0d90-50a3-ae0b-01299bbbb00c"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Hellfire Torch\n\n• Diablo 2 Resurrected Unique Item\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n C",
+      "query_context": {
+        "original_query": "地狱火炬是什么？",
+        "normalized_query": "地狱火炬是什么？",
+        "expanded_query": "地狱火炬是什么？ hellfire torch",
+        "matched_terms": [
+          "火炬",
+          "地狱火炬"
+        ],
+        "expansions": [
+          "hellfire torch"
+        ],
+        "preferred_terms": [
+          "Hellfire Torch",
+          "hellfire torch",
+          "地狱火炬",
+          "火炬"
+        ],
+        "canonical_hints": [
+          "Hellfire Torch"
+        ]
+      }
+    },
+    {
+      "query": "谜团是什么？",
+      "matched_keywords": [
+        "enigma"
+      ],
+      "passed": true,
+      "resolved_entities": 10,
+      "confident_entity_ids": [
+        "e0577cf7-ef8f-507c-8f63-a48cc8b004ef"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Enigma \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Enigma\n\n• Diablo 2 Resurrected Runeword\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n Change Act \n",
+      "query_context": {
+        "original_query": "谜团是什么？",
+        "normalized_query": "谜团是什么？",
+        "expanded_query": "谜团是什么？ enigma enigma runeword",
+        "matched_terms": [
+          "谜团"
+        ],
+        "expansions": [
+          "enigma",
+          "enigma runeword"
+        ],
+        "preferred_terms": [
+          "Enigma",
+          "enigma",
+          "enigma runeword"
+        ],
+        "canonical_hints": [
+          "Enigma"
+        ]
+      }
+    }
+  ],
+  "exploratory_cases": [
+    {
+      "query": "超市是什么？",
+      "matched_keywords": [],
+      "passed": false,
+      "resolved_entities": 10,
+      "confident_entity_ids": [
+        "6b10e4e9-654e-566b-9d6d-3a3fa70750f9",
+        "bb76362f-ef5a-59ac-8539-3776a78e2992",
+        "b2fcdf62-a432-5410-870f-8cb1d008cd42"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网",
+      "top_chunk_preview": "介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网 \n \n | 暗黑百科 | 基础知识 | 角色职业 | 魔法技能 | 物品装备 | 妖魔鬼怪 | 经验心得 | | 秘籍修改 | 任务攻略 | 非常技术 | 场景地图 | 常见问题 | 新手指引 | MOD 制作 | 暗黑2交流 91D2创立于2005年，是众多喜爱暗黑破坏神2玩家们的经典聚集地。无数热爱这款游戏的忠实粉丝，在这里共同探讨游戏技巧、分享技术经验、研究装备搭配与职业玩法。无",
+      "query_context": {
+        "original_query": "超市是什么？",
+        "normalized_query": "超市是什么？",
+        "expanded_query": "超市是什么？ chaos sanctuary cs",
+        "matched_terms": [
+          "超市"
+        ],
+        "expansions": [
+          "chaos sanctuary",
+          "cs"
+        ],
+        "preferred_terms": [
+          "Chaos Sanctuary",
+          "chaos sanctuary",
+          "cs"
+        ],
+        "canonical_hints": [
+          "Chaos Sanctuary"
+        ]
+      }
+    },
+    {
+      "query": "古代通道是什么？",
+      "matched_keywords": [
+        "ancient tunnels"
+      ],
+      "passed": true,
+      "resolved_entities": 4,
+      "confident_entity_ids": [],
+      "top_chunk_source": "lexical",
+      "top_chunk_title": "Ancient Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Base Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Ancient Shield\n\nLast post by\n\nTeebling\n\n« 4 years ago \n \n Posted in Base \n \n by\n\nTeebling\n\n» 4 years ago » in Base\n\n0 Replies 14923 Views Last post by\n\nTeebling\n\n4 years ago\n\nAncient Axe\n\nLast post by\n\nTeebling\n\n« 4 years ago \n \n Posted in ",
+      "query_context": {
+        "original_query": "古代通道是什么？",
+        "normalized_query": "古代通道是什么？",
+        "expanded_query": "古代通道是什么？ ancient tunnels ancient tunnel",
+        "matched_terms": [
+          "古代通道"
+        ],
+        "expansions": [
+          "ancient tunnels",
+          "ancient tunnel"
+        ],
+        "preferred_terms": [
+          "Ancient Tunnels",
+          "ancient tunnels",
+          "ancient tunnel"
+        ],
+        "canonical_hints": [
+          "Ancient Tunnels"
+        ]
+      }
+    },
+    {
+      "query": "劳模是什么？",
+      "matched_keywords": [
+        "mephisto"
+      ],
+      "passed": true,
+      "resolved_entities": 5,
+      "confident_entity_ids": [
+        "fc4c51be-c95d-5561-929a-6a5285f7e6af"
+      ],
+      "top_chunk_source": "lexical",
+      "top_chunk_title": "Arm of King Leoric \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Some potential spots to farm for \n \n Arm of King Leoric in Hell include: \n \n No MF \n 1:5209 \n \n Andariel (Q-Bug) \n 1:5511 \n \n Mephisto \n 1:5660 Diablo \n 1:5709 \n \n Baal \n \n 200% MF \n 1:2472 \n \n Andariel (Q-Bug) \n 1:2612 \n \n Mephisto \n 1:268",
+      "query_context": {
+        "original_query": "劳模是什么？",
+        "normalized_query": "劳模是什么？",
+        "expanded_query": "劳模是什么？ mephisto hell mephisto",
+        "matched_terms": [
+          "劳模"
+        ],
+        "expansions": [
+          "mephisto",
+          "hell mephisto"
+        ],
+        "preferred_terms": [
+          "Mephisto",
+          "mephisto",
+          "hell mephisto"
+        ],
+        "canonical_hints": [
+          "Mephisto"
+        ]
+      }
+    },
+    {
+      "query": "女伯爵是什么？",
+      "matched_keywords": [
+        "countess"
+      ],
+      "passed": true,
+      "resolved_entities": 10,
+      "confident_entity_ids": [],
+      "top_chunk_source": "lexical",
+      "top_chunk_title": "Tower Cellar Level 5 \n        \n        \n        \n                                  • Diablo 2 Resurrected Area\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "2 \n Description\n\nTower Cellar Level 5 is the last level of the Black Tower and you'll find \n \n The Countess here. \n \n She will use \n \n Fire Wall on the entrances to her room, but is a fairly easy kill otherwise and drops a bunch of runes. F",
+      "query_context": {
+        "original_query": "女伯爵是什么？",
+        "normalized_query": "女伯爵是什么？",
+        "expanded_query": "女伯爵是什么？ the countess countess",
+        "matched_terms": [
+          "女伯爵"
+        ],
+        "expansions": [
+          "the countess",
+          "countess"
+        ],
+        "preferred_terms": [
+          "The Countess",
+          "the countess",
+          "countess"
+        ],
+        "canonical_hints": [
+          "The Countess"
+        ]
+      }
+    },
+    {
+      "query": "乔丹是什么？",
+      "matched_keywords": [],
+      "passed": false,
+      "resolved_entities": 10,
+      "confident_entity_ids": [],
+      "top_chunk_source": "lexical",
+      "top_chunk_title": "暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网",
+      "top_chunk_preview": "Monster Chance Relation \n \n Coldcrow  0.3426835% 1:292 \n \n The Cow King  0.2661712% 1:376 \n \n The Smith  0.1232687% 1:811 \n \n Griswold  0.1223234% 1:818 \n \n Andariel (Quest)  0.1201089% 1:833 \n \n Pitspawn Fouldog  0.1061061% 1:942 \n \n Rakan",
+      "query_context": {
+        "original_query": "乔丹是什么？",
+        "normalized_query": "乔丹是什么？",
+        "expanded_query": "乔丹是什么？ stone of jordan soj",
+        "matched_terms": [
+          "乔丹"
+        ],
+        "expansions": [
+          "stone of jordan",
+          "soj"
+        ],
+        "preferred_terms": [
+          "Stone of Jordan",
+          "stone of jordan",
+          "soj"
+        ],
+        "canonical_hints": [
+          "Stone of Jordan"
+        ]
+      }
+    },
+    {
+      "query": "无限是什么？",
+      "matched_keywords": [],
+      "passed": false,
+      "resolved_entities": 10,
+      "confident_entity_ids": [],
+      "top_chunk_source": "lexical",
+      "top_chunk_title": "Sorceress Lightning Spells - Diablo 2 Wiki",
+      "top_chunk_preview": "Charged Bolt \n \n Required Level: 1 \n \n Prerequisites: None \n Synergies: \n \n Lightning: +6% Lightning Damage Per Level \n \n Description: \n Charged bolt is one of the first skills a sorceress can learn, and is one of the few level 1 skills tha",
+      "query_context": {
+        "original_query": "无限是什么？",
+        "normalized_query": "无限是什么？",
+        "expanded_query": "无限是什么？ infinity infinity runeword",
+        "matched_terms": [
+          "无限"
+        ],
+        "expansions": [
+          "infinity",
+          "infinity runeword"
+        ],
+        "preferred_terms": [
+          "Infinity",
+          "infinity",
+          "infinity runeword"
+        ],
+        "canonical_hints": [
+          "Infinity"
+        ]
+      }
+    },
+    {
+      "query": "大菠萝是什么？",
+      "matched_keywords": [
+        "diablo"
+      ],
+      "passed": true,
+      "resolved_entities": 10,
+      "confident_entity_ids": [
+        "f95e12ce-d745-5d3c-b936-6be6952199a8",
+        "050157a4-4473-5c2b-85c1-8c812f246619",
+        "40a8508a-89ab-58f1-9ffe-6f4da0d06f4c"
+      ],
+      "top_chunk_source": "entity_link",
+      "top_chunk_title": "Zombie \n        \n        \n        \n                                  • Diablo 2 Resurrected Monster\n                          \n        \n         • diablo2.io",
+      "top_chunk_preview": "Zombie\n\n• Diablo 2 Resurrected Monster\n\n• diablo2.io\n\ndiablo2 .io\n\nDatabase \n \n Trade \n \n Forums \n \n Dclone \n \n Tzone \n \n Tools \n \n About\n\nLog in \n \n Register\n\nTooltips off \n \n Tooltips on \n \n Show Sidebar \n \n Hide Sidebar \n \n Change Act \n ",
+      "query_context": {
+        "original_query": "大菠萝是什么？",
+        "normalized_query": "大菠萝是什么？",
+        "expanded_query": "大菠萝是什么？ diablo diablo boss",
+        "matched_terms": [
+          "大菠萝"
+        ],
+        "expansions": [
+          "diablo",
+          "diablo boss"
+        ],
+        "preferred_terms": [
+          "Diablo",
+          "diablo",
+          "diablo boss"
+        ],
+        "canonical_hints": [
+          "Diablo"
+        ]
+      }
+    }
+  ]
+}

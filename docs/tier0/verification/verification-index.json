@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-21T14:40:20.293898+00:00",
+  "verification_suite": {
+    "passed": 10,
+    "total": 10
+  },
+  "routing_matrix": {
+    "queries": 66,
+    "curated": 60,
+    "primary": 6
+  },
+  "surface_coverage": {
+    "generated_at": "2026-04-21T14:40:20.213637+00:00",
+    "term_map_entries": 71,
+    "curated_anchor_documents": 56,
+    "curated_anchor_chunks": 56,
+    "chroma_ready_documents": 455,
+    "chroma_ready_chunks": 8652,
+    "runtime_documents": 511,
+    "runtime_chunks": 8708,
+    "routing_matrix_total_queries": 66,
+    "routing_lanes": {
+      "primary": 6,
+      "curated": 60
+    }
+  },
+  "curated_surface_alignment": {
+    "curated_documents": 56,
+    "curated_chunks": 56,
+    "curated_routing_cases": 60,
+    "term_map_entries": 71,
+    "required_aliases": [
+      "SOJ",
+      "CTA",
+      "ULC",
+      "MF",
+      "DClone",
+      "USC"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "alias_count": 2071,
-  "provenance_count": 747,
+  "alias_count": 2434,
+  "provenance_count": 927,
   "paths": {
     "aliases": "docs/tier0/merged/aliases.jsonl",
     "provenance": "docs/tier0/merged/provenance.jsonl"

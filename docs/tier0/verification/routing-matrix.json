@@ -1,0 +1,471 @@
+{
+  "generated_at": "2026-04-21T14:40:19.998562+00:00",
+  "runtime_ingest": {
+    "documents": 511,
+    "chunks": 8708
+  },
+  "cases": [
+    {
+      "query": "Spirit 是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "军帽是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Harlequin Crest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "精神符文之语是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "火炬是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "地狱火炬是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "谜团是什么？",
+      "lane": "primary",
+      "source_id": "diablo2-io",
+      "retrieval_source": "entity_link",
+      "title": "Enigma \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io"
+    },
+    {
+      "query": "超市是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Chaos Sanctuary / 超市（Curated Anchor Card）"
+    },
+    {
+      "query": "乔丹是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Stone of Jordan / 乔丹（Curated Anchor Card）"
+    },
+    {
+      "query": "无限是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Infinity / 无限（Curated Anchor Card）"
+    },
+    {
+      "query": "劳模是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Mephisto / 劳模（Curated Anchor Card）"
+    },
+    {
+      "query": "女伯爵是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "The Countess / 女伯爵（Curated Anchor Card）"
+    },
+    {
+      "query": "古代通道是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Ancient Tunnels / 古代通道（Curated Anchor Card）"
+    },
+    {
+      "query": "牛场是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Secret Cow Level / 牛场（Curated Anchor Card）"
+    },
+    {
+      "query": "大菠萝是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Diablo / 大菠萝（Curated Anchor Card）"
+    },
+    {
+      "query": "眼光是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Insight / 眼光（Curated Anchor Card）"
+    },
+    {
+      "query": "悔恨是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Grief / 悔恨（Curated Anchor Card）"
+    },
+    {
+      "query": "刚毅是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Fortitude / 刚毅（Curated Anchor Card）"
+    },
+    {
+      "query": "战争召唤是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Call to Arms / 战争召唤（Curated Anchor Card）"
+    },
+    {
+      "query": "地穴是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "The Pit / 地穴（Curated Anchor Card）"
+    },
+    {
+      "query": "军团圣盾是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Monarch / 军团圣盾（Curated Anchor Card）"
+    },
+    {
+      "query": "精神盾是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Spirit Shield / 精神盾（Curated Anchor Card）"
+    },
+    {
+      "query": "虫子是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Andariel Bug / 虫子（Curated Anchor Card）"
+    },
+    {
+      "query": "SOJ是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Stone of Jordan / 乔丹（Curated Anchor Card）"
+    },
+    {
+      "query": "CTA是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Call to Arms / 战争召唤（Curated Anchor Card）"
+    },
+    {
+      "query": "毁灭是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Annihilus / 毁灭（Curated Anchor Card）"
+    },
+    {
+      "query": "USC是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Annihilus / 毁灭（Curated Anchor Card）"
+    },
+    {
+      "query": "MF是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Magic Find / MF / 刷宝（Curated Anchor Card）"
+    },
+    {
+      "query": "刷宝是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Magic Find / MF / 刷宝（Curated Anchor Card）"
+    },
+    {
+      "query": "DClone是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Diablo Clone / DClone / 暗黑克隆（Curated Anchor Card）"
+    },
+    {
+      "query": "暗黑克隆是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Diablo Clone / DClone / 暗黑克隆（Curated Anchor Card）"
+    },
+    {
+      "query": "巴尔是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Baal / 巴尔（Curated Anchor Card）"
+    },
+    {
+      "query": "安达利尔是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Andariel / 安达利尔（Curated Anchor Card）"
+    },
+    {
+      "query": "HOTO是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Heart of the Oak / HOTO（Curated Anchor Card）"
+    },
+    {
+      "query": "橡树之心是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Heart of the Oak / HOTO（Curated Anchor Card）"
+    },
+    {
+      "query": "BOTD是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Breath of the Dying / BOTD（Curated Anchor Card）"
+    },
+    {
+      "query": "死呼是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Breath of the Dying / BOTD（Curated Anchor Card）"
+    },
+    {
+      "query": "COH是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Chains of Honor / COH（Curated Anchor Card）"
+    },
+    {
+      "query": "荣耀之链是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Chains of Honor / COH（Curated Anchor Card）"
+    },
+    {
+      "query": "马拉是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Mara's Kaleidoscope / 马拉（Curated Anchor Card）"
+    },
+    {
+      "query": "眼球是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "The Oculus / 眼球（Curated Anchor Card）"
+    },
+    {
+      "query": "格里芬是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Griffon's Eye / 格里芬（Curated Anchor Card）"
+    },
+    {
+      "query": "狮鹫是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Griffon's Eye / 格里芬（Curated Anchor Card）"
+    },
+    {
+      "query": "法拳是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Magefist / 法拳（Curated Anchor Card）"
+    },
+    {
+      "query": "蛇皮是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Skin of the Vipermagi / 蛇皮（Curated Anchor Card）"
+    },
+    {
+      "query": "战旅是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "War Traveler / 战旅（Curated Anchor Card）"
+    },
+    {
+      "query": "基德是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Gheed's Fortune / 基德（Curated Anchor Card）"
+    },
+    {
+      "query": "安头是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Andariel's Visage / 安头（Curated Anchor Card）"
+    },
+    {
+      "query": "蛛网是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Arachnid Mesh / 蛛网（Curated Anchor Card）"
+    },
+    {
+      "query": "年纪是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Crown of Ages / 年纪（Curated Anchor Card）"
+    },
+    {
+      "query": "骨髓是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Marrowwalk / 骨髓（Curated Anchor Card）"
+    },
+    {
+      "query": "吉永是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Guillaume's Face / 吉永（Curated Anchor Card）"
+    },
+    {
+      "query": "丧钟是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "The Reaper's Toll / 丧钟（Curated Anchor Card）"
+    },
+    {
+      "query": "沙暴是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Sandstorm Trek / 沙暴（Curated Anchor Card）"
+    },
+    {
+      "query": "雷神是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Thundergod's Vigor / 雷神（Curated Anchor Card）"
+    },
+    {
+      "query": "尼拉塞克是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Nihlathak / 尼拉塞克（Curated Anchor Card）"
+    },
+    {
+      "query": "老P是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Pindleskin / 老P（Curated Anchor Card）"
+    },
+    {
+      "query": "泰坦是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Titan's Revenge / 泰坦（Curated Anchor Card）"
+    },
+    {
+      "query": "鸦霜是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Raven Frost / 鸦霜（Curated Anchor Card）"
+    },
+    {
+      "query": "塔套是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Tal Rasha's Wrappings / 塔套（Curated Anchor Card）"
+    },
+    {
+      "query": "婚戒是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Bul-Kathos' Wedding Band / 婚戒（Curated Anchor Card）"
+    },
+    {
+      "query": "虫链是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Highlord's Wrath / 虫链（Curated Anchor Card）"
+    },
+    {
+      "query": "弓马是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Bowazon / 弓马（Curated Anchor Card）"
+    },
+    {
+      "query": "狼德是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Fury Druid / 狼德（Curated Anchor Card）"
+    },
+    {
+      "query": "陷阱刺客是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Trapsin / 陷阱刺客（Curated Anchor Card）"
+    },
+    {
+      "query": "新星电法是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Nova Sorceress / 新星电法（Curated Anchor Card）"
+    },
+    {
+      "query": "召唤死灵是什么？",
+      "lane": "curated",
+      "source_id": "curated-anchor",
+      "retrieval_source": "lexical",
+      "title": "Summon Necromancer / 召唤死灵（Curated Anchor Card）"
+    }
+  ]
+}

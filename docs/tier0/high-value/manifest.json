@@ -2,8 +2,8 @@
   "sources": {
     "diablo2-io": {
       "pages": 238,
-      "chars": 2618281,
-      "chunks": 2388
+      "chars": 2629625,
+      "chunks": 2398
     },
     "arreat-summit": {
       "pages": 54,
@@ -12,7 +12,7 @@
     }
   },
   "page_count": 292,
-  "chunk_count": 2793,
+  "chunk_count": 2803,
   "documents_path": "docs/tier0/high-value/normalized/documents.jsonl",
   "chunks_path": "docs/tier0/high-value/derived/chunks.jsonl",
   "pages": [
@@ -1400,11 +1400,11 @@
       "source_id": "diablo2-io",
       "url": "https://diablo2.io/skills/bone-armor-t4009.html",
       "local_path": "docs/tier0/high-value/raw/diablo2-io/skills__bone-armor-t4009.html.html",
-      "title": "",
-      "chars": 0,
-      "sha256": "",
-      "status": "error",
-      "note": "TimeoutError('The read operation timed out')"
+      "title": "Bone Armor \n        \n        \n        \n                                  • Diablo 2 Resurrected Skill\n                          \n        \n         • diablo2.io",
+      "chars": 11344,
+      "sha256": "814369b5da616c29f3fa396f5150d36fc56f4e583aee6237a37100182ed0e974",
+      "status": "ok",
+      "note": null
     },
     {
       "source_id": "diablo2-io",

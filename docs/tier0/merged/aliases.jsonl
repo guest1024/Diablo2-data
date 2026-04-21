@@ -1944,6 +1944,11 @@
 {"alias_id": "d02243c8-6a8c-5bb8-8e06-6cd317751e25", "canonical_id": "e9447d6a-6415-58df-8d22-bc38957cdac1", "alias": "Paladin Skills - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
 {"alias_id": "0019bcd4-dda8-5e87-ae30-e9c0a8948a10", "canonical_id": "e9447d6a-6415-58df-8d22-bc38957cdac1", "alias": "Paladin_Skills", "alias_type": "key", "node_type": "WikiPage"}
 {"alias_id": "6eed3346-6184-5f90-abb8-3072c5033cc6", "canonical_id": "e9447d6a-6415-58df-8d22-bc38957cdac1", "alias": "Paladin Skills", "alias_type": "slug", "node_type": "WikiPage"}
+{"alias_id": "6fa12e78-ce75-56c8-bd0a-4cd7449786ba", "canonical_id": "d8f2f76d-6b88-50af-9286-491461d539f9", "alias": "Paladin Combat Skills - Diablo 2 Wiki", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ffdf6e2a-8036-5ce9-8952-7130255eddc3", "canonical_id": "d8f2f76d-6b88-50af-9286-491461d539f9", "alias": "28fe29963125cc7c81afec83", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "01eaeb71-dfbc-53ae-8eec-964cf7ea3a27", "canonical_id": "0c53b828-c204-5d32-8b83-05dd4fdb6afb", "alias": "Paladin Combat Skills - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
+{"alias_id": "75745211-dae8-5a29-a286-892a4efeda27", "canonical_id": "0c53b828-c204-5d32-8b83-05dd4fdb6afb", "alias": "Paladin_Combat_Skills", "alias_type": "key", "node_type": "WikiPage"}
+{"alias_id": "33f68adb-eeab-5ac1-b585-b10db5c0a34b", "canonical_id": "0c53b828-c204-5d32-8b83-05dd4fdb6afb", "alias": "Paladin Combat Skills", "alias_type": "slug", "node_type": "WikiPage"}
 {"alias_id": "8a3f6da7-b72a-5558-bb96-30c55991fe0e", "canonical_id": "02789265-ee70-5a6b-9c62-806fd81829d4", "alias": "Paladin Offensive Auras - Diablo 2 Wiki", "alias_type": "title", "node_type": "SourceDocument"}
 {"alias_id": "4beab735-ca35-5667-89c9-c837ff336ad1", "canonical_id": "02789265-ee70-5a6b-9c62-806fd81829d4", "alias": "534ff726035f4fb25f9d7a96", "alias_type": "key", "node_type": "SourceDocument"}
 {"alias_id": "92e2089f-6526-5e2d-981d-5b9dff18b2b3", "canonical_id": "2d76289d-a73a-5bda-bac6-0fee237e94ba", "alias": "Paladin Offensive Auras - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
@@ -1973,6 +1978,11 @@
 {"alias_id": "c1b7aff2-c0f4-55b9-8772-ec85529b3739", "canonical_id": "ebc7f357-6012-52cf-9705-41db3d221ed2", "alias": "Sorceress Fire Spells - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
 {"alias_id": "f1319e95-c4a3-54ec-abef-8dcbf99f8083", "canonical_id": "ebc7f357-6012-52cf-9705-41db3d221ed2", "alias": "Sorceress_Fire_Spells", "alias_type": "key", "node_type": "WikiPage"}
 {"alias_id": "513c6be3-9e44-517b-98c9-ad4e90120785", "canonical_id": "ebc7f357-6012-52cf-9705-41db3d221ed2", "alias": "Sorceress Fire Spells", "alias_type": "slug", "node_type": "WikiPage"}
+{"alias_id": "83e3a571-47cd-58e0-87e0-930bf484dbb7", "canonical_id": "8c83598d-29e5-505d-b553-99215d2fae3a", "alias": "Sorceress Lightning Spells - Diablo 2 Wiki", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "bc8ca099-a440-524e-8192-6b521ff9732a", "canonical_id": "8c83598d-29e5-505d-b553-99215d2fae3a", "alias": "b607a9ab8a1c924ff60495eb", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "9357d00a-a774-5d88-9e2b-efcd309adbdf", "canonical_id": "101eb663-f1ba-52ba-b200-dd8ce6c73d2a", "alias": "Sorceress Lightning Spells - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
+{"alias_id": "397c6990-d066-5af4-a09d-e8269daf0d1b", "canonical_id": "101eb663-f1ba-52ba-b200-dd8ce6c73d2a", "alias": "Sorceress_Lightning_Spells", "alias_type": "key", "node_type": "WikiPage"}
+{"alias_id": "9b24f336-5b25-5eb7-8911-b666344142aa", "canonical_id": "101eb663-f1ba-52ba-b200-dd8ce6c73d2a", "alias": "Sorceress Lightning Spells", "alias_type": "slug", "node_type": "WikiPage"}
 {"alias_id": "27f2ea2d-d0f5-584e-99f3-77224d71b2f6", "canonical_id": "b36687be-17b3-5676-8ffa-93f3558845ad", "alias": "Druid - Diablo 2 Wiki", "alias_type": "title", "node_type": "SourceDocument"}
 {"alias_id": "6f061e58-3253-5c97-b68c-89d94e6ea6e2", "canonical_id": "b36687be-17b3-5676-8ffa-93f3558845ad", "alias": "658bf648dbc86098e72b7472", "alias_type": "key", "node_type": "SourceDocument"}
 {"alias_id": "cfdca82b-b657-5ab1-bb4b-257852d48d53", "canonical_id": "662083bd-853d-5444-9ccc-dd041b93a896", "alias": "Druid - Diablo 2 Wiki", "alias_type": "title", "node_type": "WikiPage"}
@@ -2069,3 +2079,356 @@
 {"alias_id": "8c9f7012-6cf7-5860-a622-faa62bb9677b", "canonical_id": "5a131645-f8ba-58b2-a7e4-59ec9c35d08e", "alias": "V1.10 FAQ - Diablo 2 Wiki", "alias_type": "title", "node_type": "ReferenceFAQ"}
 {"alias_id": "41d43c16-93f5-5efe-9b01-2d907c193b17", "canonical_id": "5a131645-f8ba-58b2-a7e4-59ec9c35d08e", "alias": "V1.10_FAQ", "alias_type": "key", "node_type": "ReferenceFAQ"}
 {"alias_id": "621aa683-f509-5798-a313-adff578932be", "canonical_id": "5a131645-f8ba-58b2-a7e4-59ec9c35d08e", "alias": "V1.10 FAQ", "alias_type": "slug", "node_type": "ReferenceFAQ"}
+{"alias_id": "712d3732-8f1f-5046-804a-bdc783a77eb4", "canonical_id": "fd807202-4f7e-535e-9af6-7c97459f79a1", "alias": "91D2", "alias_type": "title", "node_type": "Source"}
+{"alias_id": "e5011d41-303a-5788-9e52-5f6320c62340", "canonical_id": "f077f5e9-9336-5003-ba93-b25d740f2518", "alias": "求推荐个8开自动kb的配置-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5ec97170-f4b4-513a-b9f6-bac70382ac8f", "canonical_id": "f077f5e9-9336-5003-ba93-b25d740f2518", "alias": "ca2b3976aa53ffacf0ca517a", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "648197b5-8ee1-51d1-bc6d-9e5cfd663b75", "canonical_id": "321b44a0-1fc8-515b-996b-517761cd2af9", "alias": "求推荐个8开自动kb的配置-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "4e90a390-9721-5898-a467-986b18ed1654", "canonical_id": "321b44a0-1fc8-515b-996b-517761cd2af9", "alias": "1311", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "b0eaabd6-595a-5caa-911a-9847463fcc40", "canonical_id": "84a108d2-7cef-5f0f-8d55-42d1afbbcada", "alias": "fhr和格挡率分别是什么意思？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "f2e6f1a4-5dd4-54e1-bb1f-17f6471a2ecb", "canonical_id": "84a108d2-7cef-5f0f-8d55-42d1afbbcada", "alias": "f5b72ca612be7de91d13b7f3", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4b061e70-9070-5357-9028-e74203c08316", "canonical_id": "93dc89ce-54bb-5d50-bc35-8a387ab6dd33", "alias": "fhr和格挡率分别是什么意思？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "75cca1b8-9476-5b33-b4dc-246b558041b2", "canonical_id": "93dc89ce-54bb-5d50-bc35-8a387ab6dd33", "alias": "1310", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "f10e4707-4789-5c24-9dff-628432c36d6a", "canonical_id": "1088b770-62f3-53a2-9ba7-0ce3aba95585", "alias": "请教一下pp数和nodrop的问题-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "3853cac5-df19-5af5-9e0a-096fd61421d2", "canonical_id": "1088b770-62f3-53a2-9ba7-0ce3aba95585", "alias": "9f48a970caee5091755564f4", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "f6e037a2-e750-5ce7-9972-58c870fc2f58", "canonical_id": "f46a1523-7971-5ad5-87cd-01f2210a41b1", "alias": "请教一下pp数和nodrop的问题-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "438c015f-19a5-5b2a-8d4e-9d98568bd1d5", "canonical_id": "f46a1523-7971-5ad5-87cd-01f2210a41b1", "alias": "1309", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "3d63d56b-ce03-57c1-849c-f72c5f0e2767", "canonical_id": "96615120-5a95-5a5b-b73d-dcb318c14943", "alias": "两个PAL开同样光环是叠加还是取最大等级的？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ef881c3e-06a5-5438-b0b5-f8481331c7a3", "canonical_id": "96615120-5a95-5a5b-b73d-dcb318c14943", "alias": "aefa416fb083a8fbaa768544", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "520f57cf-b4c6-57b8-8f12-84bf72bc9506", "canonical_id": "6820f1e2-535a-5eb4-a3f6-a6e5ab663b01", "alias": "两个PAL开同样光环是叠加还是取最大等级的？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "1551ead9-ffae-5824-a5af-d4ade0166a66", "canonical_id": "6820f1e2-535a-5eb4-a3f6-a6e5ab663b01", "alias": "1307", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "cdc7c41f-6f4e-53da-88be-7e604d066c55", "canonical_id": "3bef75e9-6691-5a24-87c9-587f9f388543", "alias": "关于bugkb装备掉率的一些疑问-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "c1d11eab-8dfb-5433-9285-176fc98f85bd", "canonical_id": "3bef75e9-6691-5a24-87c9-587f9f388543", "alias": "c33620e21028418d09688e00", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "0ed2988c-c531-538a-a263-d59db3b7677a", "canonical_id": "fad96b0c-de7c-5404-bbd3-c1cfdda7224b", "alias": "关于bugkb装备掉率的一些疑问-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "ef04beff-4fbd-5447-819f-75c607cbe7fd", "canonical_id": "fad96b0c-de7c-5404-bbd3-c1cfdda7224b", "alias": "1304", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "dbeef1bc-b103-57ed-bd4a-856510deee11", "canonical_id": "912395f6-8d3c-5f1b-85cf-7579ca4e4362", "alias": "lsor在有无限的情况下，电法减抗到多少合适？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "e23758ee-9535-5c1f-b4df-6c9271330a03", "canonical_id": "912395f6-8d3c-5f1b-85cf-7579ca4e4362", "alias": "7c73eda2b275ca4175add0ce", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "efbc657f-cd7e-5294-98e8-15a13d99841b", "canonical_id": "daad429b-5aad-521e-816e-0de33484af07", "alias": "lsor在有无限的情况下，电法减抗到多少合适？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "e0709b7d-b5e6-5c5b-9b12-ff19b6e57ebb", "canonical_id": "daad429b-5aad-521e-816e-0de33484af07", "alias": "1303", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "7e02c5d7-db36-582f-8492-6bf65802ee22", "canonical_id": "3d801f12-aecc-579d-a04e-19a4d89d3645", "alias": "oak wmd的格挡电法，续航能力弱，有什么解决方法-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "15f47dd0-31b8-50a4-86e0-89496e5525a6", "canonical_id": "3d801f12-aecc-579d-a04e-19a4d89d3645", "alias": "1cf1fb75db23d57c09af598b", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "d21fe494-d720-5e56-afaf-59af6009e36c", "canonical_id": "7f8f6a71-1851-573a-8c87-37fba82a6e0c", "alias": "oak wmd的格挡电法，续航能力弱，有什么解决方法-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "6ce6c42d-cb91-5f75-8db4-edc156974340", "canonical_id": "7f8f6a71-1851-573a-8c87-37fba82a6e0c", "alias": "1302", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "6af4594e-c410-5649-b3de-0ace9d994295", "canonical_id": "f540fccd-1649-5877-be1e-313a60390473", "alias": "精算一下似乎暴力毒狼双修在1.11还是可行的？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "2264528d-819c-593a-a36f-294a93e55d32", "canonical_id": "f540fccd-1649-5877-be1e-313a60390473", "alias": "4249a03b0ac929ce54755116", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "bfcee3ac-278d-5c45-8b0d-4c1ba01b57b0", "canonical_id": "6c73e384-bc37-5d92-a5f8-d1f66bf4e523", "alias": "精算一下似乎暴力毒狼双修在1.11还是可行的？-游戏问题解答-91D2暗黑破坏神2资料百科", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "1fbd1653-64eb-5c1e-9b24-98d75786c98b", "canonical_id": "6c73e384-bc37-5d92-a5f8-d1f66bf4e523", "alias": "1301", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "f3cb9dd9-f4da-5f71-9796-79cb825ff449", "canonical_id": "4e58ffdb-0fa4-5a88-bb48-2777ca401be1", "alias": "讨论一下mf值对fz物品成色的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "eb52ee76-4502-5618-bdc9-38210f676236", "canonical_id": "4e58ffdb-0fa4-5a88-bb48-2777ca401be1", "alias": "2e3e8d5f827efc20172c403b", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "c1a83517-9a12-5c5c-92f1-7cf54dbb8525", "canonical_id": "362c70e8-b682-50ab-a522-4a92cdb46706", "alias": "讨论一下mf值对fz物品成色的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "931eaff3-a785-596b-8032-0d0b20bab0cd", "canonical_id": "362c70e8-b682-50ab-a522-4a92cdb46706", "alias": "1306", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "6ef6b1b1-1eeb-5275-b759-e074fedc8b44", "canonical_id": "5402f217-50b1-5017-8fc0-2c06c1f9ee48", "alias": "MF值的拐点曲线,多少mf值最佳（数据验证结论） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d48097c5-3625-5859-a9cf-94fd17db4df2", "canonical_id": "5402f217-50b1-5017-8fc0-2c06c1f9ee48", "alias": "5a44497cba202f9c43acb1af", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "878bd5c3-df74-5a87-b69e-d7b8ea0423ac", "canonical_id": "65720623-acbe-5209-8939-427d9e0e4c99", "alias": "MF值的拐点曲线,多少mf值最佳（数据验证结论） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "32d86473-596b-59d3-bf30-cd160e2f52e8", "canonical_id": "65720623-acbe-5209-8939-427d9e0e4c99", "alias": "1305", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "fcca8d61-7bb2-5fd8-ae5c-1cc520237b99", "canonical_id": "24ea1b51-5f6e-5647-b2fa-b23fd0919718", "alias": "打击恢复fhr与格挡测试，附结论 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "daa4951a-c321-5f72-a39a-1f72a26478c7", "canonical_id": "24ea1b51-5f6e-5647-b2fa-b23fd0919718", "alias": "d5c9a7c503787546d902794a", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "51383f7b-a076-5c3a-a8a3-8ab9cd5702d0", "canonical_id": "ba870508-6be8-5474-96f0-d9114fea906f", "alias": "打击恢复fhr与格挡测试，附结论 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "f0be7bd1-455a-5ef0-81db-8d526cbef7e2", "canonical_id": "ba870508-6be8-5474-96f0-d9114fea906f", "alias": "1291", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "8d0263c6-52c9-527e-9205-d71f2f427ad2", "canonical_id": "3212bbd9-80c4-55d1-b274-451486009151", "alias": "吸收技能生效顺序测试报告（能量护盾、飓风装甲、白骨装甲） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d465fc74-af53-5105-b0d8-20be621af6f0", "canonical_id": "3212bbd9-80c4-55d1-b274-451486009151", "alias": "2df8d2fb15e6458d712cc512", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7008a1de-049e-57e1-ae60-a6d810681451", "canonical_id": "4105fc1b-7c39-5d4e-82df-1605cf332c0a", "alias": "吸收技能生效顺序测试报告（能量护盾、飓风装甲、白骨装甲） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "002e2bd6-7c9a-5e6d-888f-bb47c8ef74c2", "canonical_id": "4105fc1b-7c39-5d4e-82df-1605cf332c0a", "alias": "1285", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "87fff611-5d5c-5ee6-8f2f-b518b67d7e50", "canonical_id": "eb2b155d-825e-592d-82b4-bfdeadd51df7", "alias": "D2各个章节任务详解，以及有价值任务的总结 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d190cbc6-099f-5f84-a37e-0f6c44840811", "canonical_id": "eb2b155d-825e-592d-82b4-bfdeadd51df7", "alias": "865d06dc6b9a4423cb54acfb", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "2b43688c-7454-5b9a-b7b9-7584d8436cb8", "canonical_id": "74285653-c25c-5e76-8502-1b871940f851", "alias": "D2各个章节任务详解，以及有价值任务的总结 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "9d64770f-d848-5d26-b34e-d60f6303a429", "canonical_id": "74285653-c25c-5e76-8502-1b871940f851", "alias": "1125", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "100725ac-681c-5994-81ab-f97f02bba390", "canonical_id": "c394395e-8113-5673-aa53-1f4ab0f884db", "alias": "关于格挡和物免的意义 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "b3c3333d-fb3b-553f-a4b8-b49083858d21", "canonical_id": "c394395e-8113-5673-aa53-1f4ab0f884db", "alias": "cfff3a9b42e7f163fe0acc16", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "ff11cf6d-ff64-5c63-959e-88ba59b4cf1d", "canonical_id": "91994069-b71b-5b79-879f-ad8d8dd88b09", "alias": "关于格挡和物免的意义 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "935164e9-7d32-59d3-b29f-50132e596a52", "canonical_id": "91994069-b71b-5b79-879f-ad8d8dd88b09", "alias": "1115", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "b615a2ed-cb44-5550-870a-bb9a52b80818", "canonical_id": "c54a167d-3cd9-5c09-8664-e5e3cbf8c34c", "alias": "对暗黑2中def防御值的详细解读和说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "c0842ebb-d0ab-5c64-8d07-431093947918", "canonical_id": "c54a167d-3cd9-5c09-8664-e5e3cbf8c34c", "alias": "fd9f45e36ff9ae4d8edbe214", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "a88c7c78-0b1a-5619-8ce4-87092a874c50", "canonical_id": "8ae46b56-303e-5d93-8bc7-802c088e55f9", "alias": "对暗黑2中def防御值的详细解读和说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "34f056a0-5a3b-5d87-9029-a244fa7955f3", "canonical_id": "8ae46b56-303e-5d93-8bc7-802c088e55f9", "alias": "1109", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "de66d69b-cf83-5e8c-8de8-157667feb072", "canonical_id": "d5572987-2917-5174-8fe6-b314f4fe4822", "alias": "8pp牛场炸牛KC符文rune掉率数据分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "14e2a172-dec2-5a11-8320-327bafea31af", "canonical_id": "d5572987-2917-5174-8fe6-b314f4fe4822", "alias": "3915da405a8612ba4d842a16", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "2fb2e622-a95a-585e-8289-5ba039c94055", "canonical_id": "f5d2ac00-59dc-59e6-9cdb-a26a00affad2", "alias": "8pp牛场炸牛KC符文rune掉率数据分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ReferenceGuide"}
+{"alias_id": "4ded2729-f54c-596c-89c4-e97d14de5ba1", "canonical_id": "f5d2ac00-59dc-59e6-9cdb-a26a00affad2", "alias": "1108", "alias_type": "key", "node_type": "ReferenceGuide"}
+{"alias_id": "fa493993-2732-5022-b52b-21061cfc0ea5", "canonical_id": "ed238dfe-da21-5613-acb1-016dab0b594f", "alias": "KN打钥匙的新选择-拳击野蛮人 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "63dd2bfa-120a-5338-85a5-fdce61644f0c", "canonical_id": "ed238dfe-da21-5613-acb1-016dab0b594f", "alias": "2a73523ab98adafbd03f9916", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "c378231d-e03f-5dd9-8e11-732e246524b1", "canonical_id": "c34393e1-a85c-5a8b-92e8-6866d84529e2", "alias": "KN打钥匙的新选择-拳击野蛮人 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "c05e1364-1940-5e4f-96d0-765129c13290", "canonical_id": "c34393e1-a85c-5a8b-92e8-6866d84529e2", "alias": "1308", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "8684147f-6eff-50a9-93a3-298bc935c994", "canonical_id": "eda204ba-cf4a-5c5f-b51b-264f5ff644f7", "alias": "拳击BUG近战野蛮人玩法省心攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "0a865142-d2f1-5047-a705-d33eec97994a", "canonical_id": "eda204ba-cf4a-5c5f-b51b-264f5ff644f7", "alias": "0947f01eac7a36f8a08f76dd", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "f071f2cc-9739-513b-a6aa-7d9c90edd8ec", "canonical_id": "5900feed-7018-55b5-b572-4c4e6d3ef4fe", "alias": "拳击BUG近战野蛮人玩法省心攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "ecffb8ab-5e77-59a5-9757-0cc660d0f8e0", "canonical_id": "5900feed-7018-55b5-b572-4c4e6d3ef4fe", "alias": "1286", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "5eb21e34-54db-50ff-9b54-67908c3b4bf2", "canonical_id": "ee911102-9371-507e-8980-d308aff84841", "alias": "死灵法师nec毒召新思路build - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "2657f219-89fc-5180-80ac-845f6262ce5e", "canonical_id": "ee911102-9371-507e-8980-d308aff84841", "alias": "abf371a07e11345bce1e895e", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "8dd29002-ca15-5ed2-bbf8-34c1cb0ef282", "canonical_id": "a47a0059-036c-5a0c-94a9-8b3095e7ae30", "alias": "死灵法师nec毒召新思路build - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "c4c5cb9e-a589-58d7-bfc0-7bb071c917f5", "canonical_id": "a47a0059-036c-5a0c-94a9-8b3095e7ae30", "alias": "1280", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "923aa1f3-b4d8-5cc2-afd8-5364884e1810", "canonical_id": "0b7b7bc6-3c1a-5a82-b26f-d14f3bc5fe83", "alias": "请问1～20级的升级问题 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "78daaba4-f05e-503c-b205-a64b01c9cbd4", "canonical_id": "0b7b7bc6-3c1a-5a82-b26f-d14f3bc5fe83", "alias": "6253493cd80721ee709922b6", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "45d29ea9-fda2-5887-9d96-d47317501b33", "canonical_id": "c96884cf-f824-546c-bd98-547f92a52be1", "alias": "请问1～20级的升级问题 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "513cc7f5-989d-54c5-9d7f-9cbc34cc82e8", "canonical_id": "c96884cf-f824-546c-bd98-547f92a52be1", "alias": "1250", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "051fe46f-4778-5fd5-aefe-ab38b2f625a9", "canonical_id": "5473d8a9-96b9-5a0d-ac46-53b1e5752af6", "alias": "另类玩法之塔拉夏tlx德鲁伊dru - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "24922418-ed16-5f12-9725-f5b272492834", "canonical_id": "5473d8a9-96b9-5a0d-ac46-53b1e5752af6", "alias": "b1a9043c25b4fabaf2a17ff5", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6105bcfe-fb44-53bd-9385-5dfa3871e7af", "canonical_id": "694fcf9c-3069-5648-a6e7-ff0b068ea51d", "alias": "另类玩法之塔拉夏tlx德鲁伊dru - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "c7fccfde-5de3-5283-9ca2-7ab376799662", "canonical_id": "694fcf9c-3069-5648-a6e7-ff0b068ea51d", "alias": "1249", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "2b857aeb-e18f-5d65-b73a-69b70e0fb0c7", "canonical_id": "08d9b840-1452-5267-a595-f49c69eb518e", "alias": "解释手抓镰刀无限法师lsor - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "47d42153-7534-51f1-bb70-14745d1358ba", "canonical_id": "08d9b840-1452-5267-a595-f49c69eb518e", "alias": "b328c6429bac8c7a46972fca", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "b2a23b12-0822-542a-a5de-7a22c6a92b92", "canonical_id": "ab2e8cae-dc3b-5261-8e51-5f9ee47c36c0", "alias": "解释手抓镰刀无限法师lsor - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "2ef8c860-8294-503a-95ec-361e5fe74758", "canonical_id": "ab2e8cae-dc3b-5261-8e51-5f9ee47c36c0", "alias": "1242", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "23d544ab-3bd9-5df0-80c5-60763b11d2dc", "canonical_id": "bdb8038e-043d-5be0-97ab-874e24c2d9d0", "alias": "关于NEC，打造、杀牛、以及些许技术性操作 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "36fe49f2-1f65-5123-864b-96eae94e265f", "canonical_id": "bdb8038e-043d-5be0-97ab-874e24c2d9d0", "alias": "976701b00d06984a63989584", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "f7bd7751-30f6-5ee4-9b35-ccaca31825be", "canonical_id": "e8f28989-4ce3-5fab-8360-2d7469d3b924", "alias": "关于NEC，打造、杀牛、以及些许技术性操作 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "c84f3beb-0e04-5c10-bf47-016fe195536d", "canonical_id": "e8f28989-4ce3-5fab-8360-2d7469d3b924", "alias": "1241", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "1e474bd2-c13d-55fb-ba50-847f3c9f564d", "canonical_id": "20511760-19db-5324-9651-bd5bd547d062", "alias": "闪电火墙双修法师，速刷bug超市完全攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "68f0c0a9-2b58-525d-92d2-91d09263a8d5", "canonical_id": "20511760-19db-5324-9651-bd5bd547d062", "alias": "eac39ebd4fe239da486e183b", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "22298154-fbaa-5c0b-b4e3-abf7a07f2659", "canonical_id": "1555113e-277c-5689-a68a-0d4de6bb3e21", "alias": "闪电火墙双修法师，速刷bug超市完全攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "BuildGuide"}
+{"alias_id": "c2c49f8d-2432-58cb-8e4e-6d43517612ab", "canonical_id": "1555113e-277c-5689-a68a-0d4de6bb3e21", "alias": "1129", "alias_type": "key", "node_type": "BuildGuide"}
+{"alias_id": "e0c320c3-d321-5c52-8615-31346f1a846e", "canonical_id": "179b3950-d70d-5277-b096-ef8a3993be69", "alias": "炸牛NEC死灵KC时骨牢加迷乱到底比骨墙聚牛好在哪里 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "95987011-67af-578e-96bd-10e92697e97f", "canonical_id": "179b3950-d70d-5277-b096-ef8a3993be69", "alias": "077adb02f3dec9888452beae", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "572bdb2a-2883-51ed-907c-95dd40692f7f", "canonical_id": "b169645e-ea38-5ae8-b520-1582216a45e4", "alias": "炸牛NEC死灵KC时骨牢加迷乱到底比骨墙聚牛好在哪里 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "2547cb6a-fea3-5695-b0e1-8288d868d8ed", "canonical_id": "b169645e-ea38-5ae8-b520-1582216a45e4", "alias": "1102", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "c6cb3ba9-8f3d-5f02-9f05-c2ce063de1d8", "canonical_id": "5f30b282-8bcc-5582-a906-938445c452a8", "alias": "压碎性打击，致命打击，撕裂目标伤口，三个属性的区别 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "6e391fc6-167c-51e6-a6d7-349da9d03739", "canonical_id": "5f30b282-8bcc-5582-a906-938445c452a8", "alias": "3aed84905f219716c56fc73d", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "d1764400-a9c6-55ee-b0fe-fe1c268c355d", "canonical_id": "32de8a8b-7f73-53ec-9fcb-3cee5220de60", "alias": "压碎性打击，致命打击，撕裂目标伤口，三个属性的区别 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "02b67783-5af4-507f-8267-aecdedaa0a3d", "canonical_id": "32de8a8b-7f73-53ec-9fcb-3cee5220de60", "alias": "810", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "e4be2004-45d2-5ae5-ac3a-e8d738ace2f3", "canonical_id": "7ae9ec98-b7f6-5a9d-8a56-4c8ad9c5e120", "alias": "5pp自动kb，ama冲天梯组合推荐 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "04661692-1013-5315-a516-c8b197068d9d", "canonical_id": "7ae9ec98-b7f6-5a9d-8a56-4c8ad9c5e120", "alias": "362bf1e26f135aeb851a7a55", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4dd87022-6431-58e7-96e8-efaa39431738", "canonical_id": "2758434f-cfb4-5903-8a58-21d638f6e133", "alias": "5pp自动kb，ama冲天梯组合推荐 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "e9a3dc35-b1db-5f05-85f2-6c9da69f5f0a", "canonical_id": "2758434f-cfb4-5903-8a58-21d638f6e133", "alias": "763", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "cb630065-b9ea-57f7-a6cf-a7cc3b6a61dd", "canonical_id": "99394114-b02c-5a22-a853-2822bc14dfcf", "alias": "亚马逊职业ama穿刺技能作用表 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "1717417d-1bdc-5db0-9fc1-6e35797f565f", "canonical_id": "99394114-b02c-5a22-a853-2822bc14dfcf", "alias": "de425b8b8dab901f98876f46", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "9ff048e0-24eb-5ed6-8727-b3cce399f168", "canonical_id": "142327b0-ab67-54d7-9b5f-45714eba8e5c", "alias": "亚马逊职业ama穿刺技能作用表 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "235b0e1d-b24b-5d8d-adac-384ff4eb6b19", "canonical_id": "142327b0-ab67-54d7-9b5f-45714eba8e5c", "alias": "708", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "75695939-3f34-5837-a4b1-af51fec4b4f8", "canonical_id": "03234fb3-8640-5b90-be94-71ab6dba144a", "alias": "暗黑破坏神2角色人物技能加成全说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "c673357d-41ee-5a6e-a545-5e20a9b97f80", "canonical_id": "03234fb3-8640-5b90-be94-71ab6dba144a", "alias": "36d6b4a9e524f1f1ca2b06a2", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "a3177981-2333-5877-86b6-83b23484cf5a", "canonical_id": "e2e4a1ba-5f78-55b3-8ad4-35bd6082f656", "alias": "暗黑破坏神2角色人物技能加成全说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "20eeaa3b-874e-5db3-ba95-de168c5084d0", "canonical_id": "e2e4a1ba-5f78-55b3-8ad4-35bd6082f656", "alias": "670", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "f29ed0d7-e240-5789-ba8f-a319af87e492", "canonical_id": "89a8fab4-cbde-548c-a827-d8459bd60e57", "alias": "装备属性闪电吸收的简单解释 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "bd422e46-dcde-5bed-b0b3-0851f9f23505", "canonical_id": "89a8fab4-cbde-548c-a827-d8459bd60e57", "alias": "cc6db909249ce17b108f09f6", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "45e2f7d3-e5b2-5f5d-b103-b0b4778e681b", "canonical_id": "eab3fbde-0223-5168-820f-c39501e118f5", "alias": "装备属性闪电吸收的简单解释 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "c319476f-7bb5-5185-a6b6-621b77e8de9a", "canonical_id": "eab3fbde-0223-5168-820f-c39501e118f5", "alias": "646", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "63b2b139-d0dd-5d58-bccd-3e0199867eaa", "canonical_id": "9b50b791-1d45-51a2-9e2b-4b12baeca918", "alias": "D2技能释放准确率和伤害之间的关系 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "4c50f35f-cc8b-5c15-83bb-9c7129b747f7", "canonical_id": "9b50b791-1d45-51a2-9e2b-4b12baeca918", "alias": "32efff80e4dae6fa3095fbca", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7c1c38eb-7006-5b14-a101-735cdccb600b", "canonical_id": "021857cf-a131-5c07-91fa-00e5c394c33b", "alias": "D2技能释放准确率和伤害之间的关系 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "436f6779-2de4-51e4-8797-335775ca406b", "canonical_id": "021857cf-a131-5c07-91fa-00e5c394c33b", "alias": "644", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "77f4743d-ab8d-5ed5-a0c4-530b0a74528f", "canonical_id": "805452be-7b44-581e-a19b-adc10ed109d4", "alias": "Hit Blinds Target(使目标失明)的相关几率计算 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d0e7dac9-d111-5706-9d3c-49c9ef193493", "canonical_id": "805452be-7b44-581e-a19b-adc10ed109d4", "alias": "56c08ddf4ca231efc50b1068", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "dedc607e-1d19-5e07-8cb3-154b14d7846b", "canonical_id": "d30e9a3d-1b2c-5320-8899-922a34762294", "alias": "Hit Blinds Target(使目标失明)的相关几率计算 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "b5ab5c1c-9dd0-521d-869d-fc51c78c5803", "canonical_id": "d30e9a3d-1b2c-5320-8899-922a34762294", "alias": "640", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "07a67f5f-b6db-515b-a966-329ff1f316f1", "canonical_id": "a853fe2f-ef28-50f9-ad97-787036f6c3ed", "alias": "名词解释：何谓BUG蛇。极其恐怖的攻击力，以及如何对付它。 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "66442c86-1cf0-572a-ae15-f1e4160b2148", "canonical_id": "a853fe2f-ef28-50f9-ad97-787036f6c3ed", "alias": "0bfe7943f5080bc2c7bad2de", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "c1a9ce57-6ef2-541b-86c2-d1197155bc9f", "canonical_id": "c87c8215-4932-53bd-a622-08f825f704cb", "alias": "名词解释：何谓BUG蛇。极其恐怖的攻击力，以及如何对付它。 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "0b9d063d-a932-5191-aaf9-c40aae1d43cb", "canonical_id": "c87c8215-4932-53bd-a622-08f825f704cb", "alias": "987", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "f032ce3a-80f4-5b03-82e3-1dd0cc2b80be", "canonical_id": "2f66ccbb-d5d6-50a2-9b09-c555025643ab", "alias": "暗黑2中有关电鬼与自爆娃娃的伤害和抗性测试 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "4b25a5dd-1f45-5c25-9f52-73828a1e86b1", "canonical_id": "2f66ccbb-d5d6-50a2-9b09-c555025643ab", "alias": "a2f0ac00de79ce3149e8734f", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "e49e2527-aedc-53ee-b17c-0e5c76812dda", "canonical_id": "e43f6d6d-702a-5f7e-b4b0-b9faa1793609", "alias": "暗黑2中有关电鬼与自爆娃娃的伤害和抗性测试 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "670f8435-c8a6-5f64-9fbb-e2f94c4620f9", "canonical_id": "e43f6d6d-702a-5f7e-b4b0-b9faa1793609", "alias": "979", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "f914c76f-660f-5b00-9351-3750d40bb7e2", "canonical_id": "e9317caf-7c73-51dd-bb68-10557c6e1e23", "alias": "伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "e7384cfe-6a5c-57b5-ba8e-7b322a190f97", "canonical_id": "e9317caf-7c73-51dd-bb68-10557c6e1e23", "alias": "1fc7e14b9b446dfe3b311cae", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "5bba1683-1f9a-5d78-8f62-512382bf6f15", "canonical_id": "0b446498-7a3c-53e4-9477-58887b97c68f", "alias": "伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "67f3fa73-20ab-5d2a-b880-0087ec8b4134", "canonical_id": "0b446498-7a3c-53e4-9477-58887b97c68f", "alias": "712", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "9b06e510-2e37-59b7-ab21-b5e581ba229d", "canonical_id": "c19eb9c3-d367-5b68-b1c4-ae475b176d58", "alias": "关于冥河娃娃的自爆伤害详解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "54b64fb9-e8b5-51da-bef1-d784cf08c699", "canonical_id": "c19eb9c3-d367-5b68-b1c4-ae475b176d58", "alias": "bd5076cb051ec268c7579051", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "53429f64-144f-5ff5-9803-8efd6e4bd892", "canonical_id": "bcd74d23-6c76-5792-8c12-b0c4a98f4fed", "alias": "关于冥河娃娃的自爆伤害详解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "ecc325d3-e268-56d5-bb29-197da14cdaac", "canonical_id": "bcd74d23-6c76-5792-8c12-b0c4a98f4fed", "alias": "711", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "d8870739-cbc1-5f89-a9c6-2a0934c7a2bf", "canonical_id": "98bdbd74-ccf4-5708-b803-5a13bbd3113d", "alias": "实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d78f80c9-6a2f-5961-927c-ec01e1a55cae", "canonical_id": "98bdbd74-ccf4-5708-b803-5a13bbd3113d", "alias": "c7e960545ce7e54765d6df92", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "1ef2c645-524e-5906-8b72-e3c6fb1d90ff", "canonical_id": "1b0992e2-a9b0-5cdb-a8f2-db0bd16c31e0", "alias": "实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "d111d1cb-18e1-5bbb-b939-4b2916733fb0", "canonical_id": "1b0992e2-a9b0-5cdb-a8f2-db0bd16c31e0", "alias": "635", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "bb54f722-f097-53ad-8a2a-0ca0d8a152a6", "canonical_id": "3ca975de-874d-5e78-beca-ec6852899dfe", "alias": "超级暗黑破坏神DC在地狱难度下的游戏数据 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ae49fddb-bfa7-5754-9272-a06afb9a95f4", "canonical_id": "3ca975de-874d-5e78-beca-ec6852899dfe", "alias": "eba9817d75b2058a45a21155", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7c4d8b8f-0a88-5508-8309-f7758f8c2da1", "canonical_id": "2391c863-d2a4-5b83-93b4-26b3e1a3a8dd", "alias": "超级暗黑破坏神DC在地狱难度下的游戏数据 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "a4e99bd3-9cd2-5053-afb2-0a929276ed83", "canonical_id": "2391c863-d2a4-5b83-93b4-26b3e1a3a8dd", "alias": "627", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "7c0647b5-bce5-53fc-958d-d0e2f71ac41b", "canonical_id": "c93b06f3-8111-59b8-b308-300f7be226ec", "alias": "暗黑2雷神和鬼火谁的吸收闪电效果更好？KB的时候需要准备什么来防备电鬼？ - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "01166966-6761-5008-ae88-ae036c9a50dd", "canonical_id": "c93b06f3-8111-59b8-b308-300f7be226ec", "alias": "79befdef0a7127937bce9b31", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "d01b05ff-6b5d-546f-88d1-483a1847f08f", "canonical_id": "04ecfdaf-4fe4-58b0-9420-ff0ddfea563b", "alias": "暗黑2雷神和鬼火谁的吸收闪电效果更好？KB的时候需要准备什么来防备电鬼？ - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "a2c28d6f-4158-5b96-a36d-63aa7e5c06e8", "canonical_id": "04ecfdaf-4fe4-58b0-9420-ff0ddfea563b", "alias": "447", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "e89ce3ab-cfa4-5ede-a2f8-6e741ecc24cb", "canonical_id": "163aaa1d-8091-5232-8169-282ee2d8d51d", "alias": "暗黑破坏神2非资料片怪物各个属性的计算方式 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "79648828-10a8-511c-af3c-9526ff5a37ba", "canonical_id": "163aaa1d-8091-5232-8169-282ee2d8d51d", "alias": "e0d840db00c1ec89f5bafd9b", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "06c2e2d8-b203-52e6-b0a1-f53b839f29b0", "canonical_id": "0a44464c-127a-58c0-90ab-275cd9351474", "alias": "暗黑破坏神2非资料片怪物各个属性的计算方式 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ChineseGuide"}
+{"alias_id": "7e4b769a-c674-5392-aabd-2b867bef8631", "canonical_id": "0a44464c-127a-58c0-90ab-275cd9351474", "alias": "408", "alias_type": "key", "node_type": "ChineseGuide"}
+{"alias_id": "8f998104-fd5c-54ad-8aba-1684f2996515", "canonical_id": "cabbea8e-7649-5370-8fd0-99430fca7018", "alias": "“杰海因消失之谜”与“水井KEY”的神秘关系 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "64031e96-26d2-51fb-b076-0861e5b9c83c", "canonical_id": "cabbea8e-7649-5370-8fd0-99430fca7018", "alias": "eb90115a0a249cb493b454e0", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "f4a942d7-33f7-55d5-8ab3-8dca12760f73", "canonical_id": "f3fe9b1a-2614-59ba-8a6a-8433850cd0b0", "alias": "“杰海因消失之谜”与“水井KEY”的神秘关系 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "7dada43f-b9bb-52b5-82f2-759f3eefd984", "canonical_id": "f3fe9b1a-2614-59ba-8a6a-8433850cd0b0", "alias": "1292", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "d412e231-94c5-5e30-b4ef-84b8fadad267", "canonical_id": "7bbc3151-3fcd-5544-aa98-fb2bacc96531", "alias": "天堂基础盾击丁3%残血阶段盾击与热诚DPS分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "d4efc7c6-b1c6-5d10-869a-46869a1d3299", "canonical_id": "7bbc3151-3fcd-5544-aa98-fb2bacc96531", "alias": "0dc6aba537aba790de300b43", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "cb89bdb6-2270-5dd1-8033-28724507fa19", "canonical_id": "e49246c9-82c2-5698-8176-4f7697b5c88a", "alias": "天堂基础盾击丁3%残血阶段盾击与热诚DPS分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "6c042f6d-0091-5bb5-8b00-1989f3593674", "canonical_id": "e49246c9-82c2-5698-8176-4f7697b5c88a", "alias": "1290", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "39a992ef-55fc-5232-9510-48b96fdf95c9", "canonical_id": "412768e8-b5ba-5b47-83b6-2f071ad372ec", "alias": "低PP通用型格挡顶球新星电法lsor（牛场+地穴+古代通道） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "12ef0a69-3de1-54a3-81be-b3bf5590607f", "canonical_id": "412768e8-b5ba-5b47-83b6-2f071ad372ec", "alias": "a5fce14fa943ee59950c35aa", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "2267f2a4-d9c2-5e1f-b50d-266a4eee29ae", "canonical_id": "bd3c6321-b750-50be-aca1-739a1beda2df", "alias": "低PP通用型格挡顶球新星电法lsor（牛场+地穴+古代通道） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "a540056f-da2c-5a3b-825d-cde9d2945b7d", "canonical_id": "bd3c6321-b750-50be-aca1-739a1beda2df", "alias": "1288", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "60e556ae-c796-573f-acd1-246dee4cb09b", "canonical_id": "1a1487d8-434d-504a-8706-607a49a8bcf0", "alias": "8PP开箱子的另类休闲玩法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "abc3ccb2-9700-577b-9c2a-9db14727267c", "canonical_id": "1a1487d8-434d-504a-8706-607a49a8bcf0", "alias": "f6b141145f2de733b50845bd", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "a9cc1b9f-ca6d-5b43-9dcb-320e3ee788cf", "canonical_id": "00d72030-a81d-50b3-819f-a133bc447f66", "alias": "8PP开箱子的另类休闲玩法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "394ac082-f1fb-5c59-8985-79678fbe8489", "canonical_id": "00d72030-a81d-50b3-819f-a133bc447f66", "alias": "1284", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "c8626d73-9e98-5117-a220-27bcf020164d", "canonical_id": "4c91cc29-3887-5fea-880b-59d291e37f9c", "alias": "玩家分享的战网多开BUG炸超市的心得体会 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "7278ad1d-3c7b-59da-969d-d596f663fa2e", "canonical_id": "4c91cc29-3887-5fea-880b-59d291e37f9c", "alias": "dae597982635e6c2ba3a1d88", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "38614224-6f22-5909-8738-6a5adeab9bc5", "canonical_id": "108e9326-b2ab-54f2-9398-5b82ef81fd62", "alias": "玩家分享的战网多开BUG炸超市的心得体会 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "bff6ee6d-0681-5dde-8774-fa276cebbf55", "canonical_id": "108e9326-b2ab-54f2-9398-5b82ef81fd62", "alias": "1130", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "808f4a66-3d7d-5be0-9a4f-b0cedfd39ee7", "canonical_id": "f9c54e4c-2416-580f-aba4-16f5b26c35f9", "alias": "关于nec的传统误区和全新玩法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "4ddac5c8-fd75-54ee-85fc-533787a9b9db", "canonical_id": "f9c54e4c-2416-580f-aba4-16f5b26c35f9", "alias": "0165d523ed6ca168f1ca1b19", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "2bb9db9e-08f6-588f-82d6-964e4fcbff0e", "canonical_id": "93638ecd-5361-508b-a1fe-d372f8e6b255", "alias": "关于nec的传统误区和全新玩法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "7e7d0807-01d7-558d-9354-525c2d220898", "canonical_id": "93638ecd-5361-508b-a1fe-d372f8e6b255", "alias": "1123", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "71af6334-63d2-5daf-b3a4-b3fd1eb5f005", "canonical_id": "145300ed-e315-580e-84c6-44724d9d6b18", "alias": "暗黑2角色天梯冲榜98升级99lv的经验之谈 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "fbeb7c4f-d7bd-5211-ae5a-d17fc731485f", "canonical_id": "145300ed-e315-580e-84c6-44724d9d6b18", "alias": "2785b4003437b0de45d118eb", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "888cd49a-3cf9-5928-9339-ffbcca939355", "canonical_id": "308127e3-63bd-5bf2-a5c3-e2da9cc052bf", "alias": "暗黑2角色天梯冲榜98升级99lv的经验之谈 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "d404b79d-4b73-5624-b036-f5c928c0aa73", "canonical_id": "308127e3-63bd-5bf2-a5c3-e2da9cc052bf", "alias": "1120", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "d4d93ce7-a86d-57a2-ba89-66314fd044b8", "canonical_id": "f7b7ab5c-ab2d-59fc-af3f-bf5dca718aea", "alias": "对比多开MF两开和三开打钱的效率数据参考 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "98c3fe5e-d2e2-51ad-aac8-4671417ec3a9", "canonical_id": "f7b7ab5c-ab2d-59fc-af3f-bf5dca718aea", "alias": "4fc1353ccf70138ec827d0e5", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "1b6effbd-8032-5afa-aa2a-b48ac63993b7", "canonical_id": "47c90142-2f4f-5b6d-aaab-01c34332615d", "alias": "对比多开MF两开和三开打钱的效率数据参考 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ExperienceGuide"}
+{"alias_id": "cc96dc1c-a42e-5c53-801a-34e2d4def7f1", "canonical_id": "47c90142-2f4f-5b6d-aaab-01c34332615d", "alias": "1118", "alias_type": "key", "node_type": "ExperienceGuide"}
+{"alias_id": "bc83d9fa-d005-5ace-944c-a676e540c56c", "canonical_id": "f020ee7e-7da6-5889-a343-7453c011de4d", "alias": "暗黑2法师SOR或者穿TP+情况下ACT5翻箱子攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "0e0bad7a-9cbc-5f21-94f2-ce272cc46357", "canonical_id": "f020ee7e-7da6-5889-a343-7453c011de4d", "alias": "adeac76a25822a44e1bd3512", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4e8807e2-d551-591d-8af4-c94d8059a97d", "canonical_id": "88ad79f1-1f93-5ce8-b18b-ac33dbb40930", "alias": "暗黑2法师SOR或者穿TP+情况下ACT5翻箱子攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "b4ce8215-75b8-5bbe-8827-87b7ab1e90ed", "canonical_id": "88ad79f1-1f93-5ce8-b18b-ac33dbb40930", "alias": "895", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "597ab615-15bb-5fc5-bf14-a68171d5bf84", "canonical_id": "66a6e558-2f86-5057-a54e-06d0aa23e5e4", "alias": "85场景怪物神殿可以让87/88lv怪物掉落出90lv/91lv物品 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "3e90bdb3-3ab6-52e7-89db-0f89c516782d", "canonical_id": "66a6e558-2f86-5057-a54e-06d0aa23e5e4", "alias": "5cecc9c8b39a4feda30af04d", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "58d8c2e3-a428-53d5-ab87-1d416a35f9db", "canonical_id": "acdd4eaf-c172-5a91-8db4-e8143e39f289", "alias": "85场景怪物神殿可以让87/88lv怪物掉落出90lv/91lv物品 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "bbfc8c89-457f-506f-8cc0-03ae2148439d", "canonical_id": "acdd4eaf-c172-5a91-8db4-e8143e39f289", "alias": "686", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "8dd5b9e8-2e15-5781-8890-f238e16a1e38", "canonical_id": "2efc4513-bbad-5712-b601-3c20291ec5f8", "alias": "暗黑游戏背景资料介绍 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ee65a47d-f270-5db5-bacd-c7aaf03f127b", "canonical_id": "2efc4513-bbad-5712-b601-3c20291ec5f8", "alias": "854d47652a9c2ee9814070f6", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "d2879d24-ab0a-5092-8b1a-c28ec1373039", "canonical_id": "4aa576bb-b1e0-5405-b795-9c421aa02afd", "alias": "暗黑游戏背景资料介绍 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "58e1a0bb-bdec-5825-9a7a-65b869249a1d", "canonical_id": "4aa576bb-b1e0-5405-b795-9c421aa02afd", "alias": "520", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "ac3e848e-2225-597e-bec0-d0e74b21970f", "canonical_id": "80d26a37-3a57-5495-8e61-a4e0c73cd992", "alias": "MF在什么地方起作用？做什么事情不需要MF？游戏人越多对MF是好还是不好？打钱属性对于MF有影响吗？BUG KB跟MF有关系吗？ - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a9e85022-25b8-5380-8c79-8a8db88399b2", "canonical_id": "80d26a37-3a57-5495-8e61-a4e0c73cd992", "alias": "d2b9ac565c1d36926e95bf0f", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6839e6a4-825b-58be-884e-c7aa8d1c56a7", "canonical_id": "ec9293b2-2a3d-5edf-a258-e655edb3e0d3", "alias": "MF在什么地方起作用？做什么事情不需要MF？游戏人越多对MF是好还是不好？打钱属性对于MF有影响吗？BUG KB跟MF有关系吗？ - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "e1b0bd0d-3b8f-5a33-b1a5-bdda29703dca", "canonical_id": "ec9293b2-2a3d-5edf-a258-e655edb3e0d3", "alias": "446", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "8fafb18b-1163-5595-88c2-85744bb38da4", "canonical_id": "e4eba226-44e6-5cdb-9375-163462e2780d", "alias": "暗黑2战网新人吸引KC的正确操作和装备选择 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "43081097-ab69-5c94-abca-94bbce46dfd7", "canonical_id": "e4eba226-44e6-5cdb-9375-163462e2780d", "alias": "2af7fc39f41f6f1504e72dd5", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "c1b86e1b-8a92-5e4b-8524-006fa65ab8e6", "canonical_id": "68880dbe-b977-5abe-af82-9ceada0d4089", "alias": "暗黑2战网新人吸引KC的正确操作和装备选择 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "a10a6fe3-8012-5c32-bef5-da30015155af", "canonical_id": "68880dbe-b977-5abe-af82-9ceada0d4089", "alias": "387", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "0df02cae-138c-57d5-9dc9-66b163f46d2b", "canonical_id": "02263ff6-b6ba-50c6-8bc8-6fb1eea600b4", "alias": "暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ebdc44a3-d749-598e-a6b3-fb6bf3e3d1ab", "canonical_id": "02263ff6-b6ba-50c6-8bc8-6fb1eea600b4", "alias": "4ab8ca8ef9d828430b31becb", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "581e846e-d891-5274-acc9-29f45875c60c", "canonical_id": "dbf23ccf-00e7-5f55-adde-1b5c62a8b002", "alias": "暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "6d9b7f68-0f18-54ee-b72f-b7510dd204d7", "canonical_id": "dbf23ccf-00e7-5f55-adde-1b5c62a8b002", "alias": "380", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "4885ba58-d971-586a-bc52-05db0f04a558", "canonical_id": "9ddc3cb1-035c-5b7a-a9ec-87a12c2d6936", "alias": "暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "2ce20863-a6f5-545e-b249-3491e1a747ea", "canonical_id": "9ddc3cb1-035c-5b7a-a9ec-87a12c2d6936", "alias": "cc4164ed20e637bc6ec0e4e9", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6d26d115-a765-5b0e-a587-26ea2a3ac5fc", "canonical_id": "2e3ff684-a0f1-5c06-b078-d2aba5dcb5ad", "alias": "暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "2239a98d-6580-58b6-9f6c-84218dc5cb13", "canonical_id": "2e3ff684-a0f1-5c06-b078-d2aba5dcb5ad", "alias": "357", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "bde987d7-5650-5af5-adab-d369a33a6918", "canonical_id": "d47b29f2-373b-5eaf-85f4-757693770283", "alias": "暗黑2物价表中有交易价值物品的Drop率 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "f0f0a5b1-619a-5d56-92fe-fa25a1270ad3", "canonical_id": "d47b29f2-373b-5eaf-85f4-757693770283", "alias": "0522e258eabe3852ee9f0efd", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7f50ee7d-f74f-5456-8091-423be21ae4a1", "canonical_id": "a60c3eb5-dcbd-5e76-ae14-0229a5fbaafd", "alias": "暗黑2物价表中有交易价值物品的Drop率 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "AreaGuide"}
+{"alias_id": "da7ae201-b9bd-50aa-9af1-d9b20ad1e6f6", "canonical_id": "a60c3eb5-dcbd-5e76-ae14-0229a5fbaafd", "alias": "344", "alias_type": "key", "node_type": "AreaGuide"}
+{"alias_id": "0f626f38-d307-5720-938d-d6003b0163cb", "canonical_id": "4333ed22-e940-5776-98d6-1c333049440b", "alias": "开荒时没有元素BUG武器时使用强化BUFF解决 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "e9314a82-ed79-5900-af3a-8e4ad9ba19cb", "canonical_id": "4333ed22-e940-5776-98d6-1c333049440b", "alias": "ac8369e1ffa07e1895a29682", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "8048d9e9-a4d8-570a-8ab6-61307d48fcfc", "canonical_id": "0672979d-3106-5e84-8292-497b6952d5db", "alias": "开荒时没有元素BUG武器时使用强化BUFF解决 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "d31139ae-aaf0-57fc-848b-02dae71ab675", "canonical_id": "0672979d-3106-5e84-8292-497b6952d5db", "alias": "1294", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "03eb7d5e-da81-5aaf-80c0-ee2722929b2d", "canonical_id": "79c3043f-9db4-53fe-85aa-07ba83017e45", "alias": "资料片一帖通（任务tips、小号PASS、牛场防破处、BUG击杀、元素BUG） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "e6a56b70-8a5b-5c23-b5eb-888370504295", "canonical_id": "79c3043f-9db4-53fe-85aa-07ba83017e45", "alias": "ec2f008f53de018e723d7276", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4df1c881-4a70-5b80-8b88-d0c3cfb51edb", "canonical_id": "a0a85d63-8516-591a-b450-1bc37fe63c8b", "alias": "资料片一帖通（任务tips、小号PASS、牛场防破处、BUG击杀、元素BUG） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "69a0e4b9-98e2-5831-be9f-d2e55e8eecaa", "canonical_id": "a0a85d63-8516-591a-b450-1bc37fe63c8b", "alias": "1293", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "a5550308-b28c-5173-b8f3-85a78cb7f6a1", "canonical_id": "e96a305c-28e7-5a55-9159-f6165c13103a", "alias": "战网新人的各种快速升级方式介绍 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "9ef0cc9d-c30c-57dd-b82c-18ef420bb8fa", "canonical_id": "e96a305c-28e7-5a55-9159-f6165c13103a", "alias": "1f64809ae77d033cb045eb43", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "b8f70767-cf70-5a11-8328-11a69b6579c7", "canonical_id": "98c503bf-48b0-5cf6-842a-a4610af6038b", "alias": "战网新人的各种快速升级方式介绍 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "ac98a45b-5e0d-5129-ba9b-fbefe8e3cbaa", "canonical_id": "98c503bf-48b0-5cf6-842a-a4610af6038b", "alias": "1275", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "51dfa309-b3f8-5024-b2e8-d215e79e7ed4", "canonical_id": "11fa5e6a-08bf-5e7a-a5e9-9480ef417ae0", "alias": "RR指导手册-包括RR流程，水井key制作，BUS加点等全方面讲解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "40c8aa8f-0fcc-5341-bf31-f4b650324249", "canonical_id": "11fa5e6a-08bf-5e7a-a5e9-9480ef417ae0", "alias": "9645735ad37608d9485bcdd1", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "46f79833-920c-5e77-93d9-c285bb969744", "canonical_id": "c6f6d3b9-b52b-5d68-adc7-caaef23bb89a", "alias": "RR指导手册-包括RR流程，水井key制作，BUS加点等全方面讲解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "d853ba95-ba0a-5010-ba5e-873a83acd57a", "canonical_id": "c6f6d3b9-b52b-5d68-adc7-caaef23bb89a", "alias": "1131", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "dd409def-7c13-5090-ac02-ffb26d8aea4b", "canonical_id": "f5c042ed-2b2d-5a9c-be99-f764fd6bed0f", "alias": "介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "4a86b49c-3792-5227-b14f-d8e7bf9451ec", "canonical_id": "f5c042ed-2b2d-5a9c-be99-f764fd6bed0f", "alias": "354abb24f24abcb1971f5e10", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "cf0de6b8-d9a1-5d89-a64f-26d663204e86", "canonical_id": "6b10e4e9-654e-566b-9d6d-3a3fa70750f9", "alias": "介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "de1a4290-5aac-519e-a7ca-6caa03e28738", "canonical_id": "6b10e4e9-654e-566b-9d6d-3a3fa70750f9", "alias": "1124", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "d45bbb7a-ad7b-5d2e-bde8-1d84aa84b733", "canonical_id": "2064e240-a0cd-5397-8d8b-0bcdcba4623b", "alias": "新人开荒巧用坦克雷套装，教你肉搏装MF轻松上500 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "1cac639c-bb95-52cf-8526-efd347f2f0ef", "canonical_id": "2064e240-a0cd-5397-8d8b-0bcdcba4623b", "alias": "cdcb3e8a74c8d0011b84dce3", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "bf8568c1-938f-5037-ba43-cdc3d3e6e0d4", "canonical_id": "e80f0a6d-ba5a-57ec-9054-f74216c351c4", "alias": "新人开荒巧用坦克雷套装，教你肉搏装MF轻松上500 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "ce664bd0-31c5-5bbb-a2a7-7e90bddf0dee", "canonical_id": "e80f0a6d-ba5a-57ec-9054-f74216c351c4", "alias": "1047", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "1569da3f-416c-5973-a0a1-026b76615344", "canonical_id": "48f2d180-af07-556a-bcb5-bfcfea2fd1d4", "alias": "新人冰法mfsor打宝mf指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "5ca758e4-be73-5d46-80b2-4ca6d06db8e0", "canonical_id": "48f2d180-af07-556a-bcb5-bfcfea2fd1d4", "alias": "d3c759c90469a34a9b8cccf2", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "a971154c-50d7-5346-81e6-1a0b4cd2efa1", "canonical_id": "c6653e02-07c3-5458-a8c2-b2727df678a3", "alias": "新人冰法mfsor打宝mf指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "6cf8cfac-493f-5836-be60-ddcf24f6d9a0", "canonical_id": "c6653e02-07c3-5458-a8c2-b2727df678a3", "alias": "1046", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "8f0352a9-6523-5cef-baea-3d383f1d5480", "canonical_id": "cf1d51b2-9210-59fb-929f-695555d29d87", "alias": "关于BUG蛇的科普介绍以及解决方法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "1cf06baf-45b3-566e-8430-0771f9dd65a4", "canonical_id": "cf1d51b2-9210-59fb-929f-695555d29d87", "alias": "69a5a80a39097dd7d1b3cad3", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "45a93c29-aa19-5f1b-bc3a-43a9329da7aa", "canonical_id": "5bf56abc-8d6c-5817-86d6-da0fef9c9fcc", "alias": "关于BUG蛇的科普介绍以及解决方法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "1398acdb-884d-573b-8d58-2f8cf4b2a9da", "canonical_id": "5bf56abc-8d6c-5817-86d6-da0fef9c9fcc", "alias": "1025", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "d44cce14-035c-50c4-9d7d-2f2409123856", "canonical_id": "f8312b07-0963-552a-a434-0ab8eced4f76", "alias": "添加了管理员兼容模式后，运行d2loader还是没反应的解决办法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "eab93bde-b75a-5041-a80e-0db9935b8338", "canonical_id": "f8312b07-0963-552a-a434-0ab8eced4f76", "alias": "4846798ebb7dafe666ac3f22", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "8b366adb-373f-5885-9206-3014d8e15644", "canonical_id": "a1e3f825-dad9-51d2-b395-3d97bd143d23", "alias": "添加了管理员兼容模式后，运行d2loader还是没反应的解决办法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "ecfd56f0-87f7-5b82-9496-f8fd9a60607b", "canonical_id": "a1e3f825-dad9-51d2-b395-3d97bd143d23", "alias": "1126", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "ae679135-236d-56a6-af90-ed4a036757a2", "canonical_id": "773b5a7e-5c90-5d76-952b-f1b02400c04d", "alias": "关于WIN7以上系统无法游戏或者出现弹窗big error问题的解决办法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "899dfea8-8f6e-5717-8b7a-4434c2e2557b", "canonical_id": "773b5a7e-5c90-5d76-952b-f1b02400c04d", "alias": "b00d02ef2efaf2891241ee55", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6a3b3600-7f02-5f83-b775-42732d395637", "canonical_id": "aaffb04a-8b6e-5978-bcbe-687ea74cf949", "alias": "关于WIN7以上系统无法游戏或者出现弹窗big error问题的解决办法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "1380403d-5ad9-5177-88a4-47876c19cb97", "canonical_id": "aaffb04a-8b6e-5978-bcbe-687ea74cf949", "alias": "1100", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "eeeccf5c-a7a5-5101-9b02-8ffd9148cabd", "canonical_id": "76f50020-5dc5-5edd-b7cd-4179bdedbd47", "alias": "为什么死灵NEC的佣兵PET使用符文之语无限最好 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a8ef511e-783e-5379-b5ed-1f50f830a018", "canonical_id": "76f50020-5dc5-5edd-b7cd-4179bdedbd47", "alias": "962ddc17451a384cd36ebf51", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "038840f5-b24d-5f3a-9960-0723018c7faf", "canonical_id": "dcc7d67e-5b33-5de3-9943-c381fe07e402", "alias": "为什么死灵NEC的佣兵PET使用符文之语无限最好 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "71357ea5-972c-5664-b386-661e6bbebe0e", "canonical_id": "dcc7d67e-5b33-5de3-9943-c381fe07e402", "alias": "917", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "bc0fed76-7172-53b5-b616-9cd1bf9ec6f5", "canonical_id": "efbc66c1-dd6c-5d91-99ca-d2d8fb9be05a", "alias": "玩暗黑战网时忘记账号了怎么办 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "852b189c-c3d6-5b76-ab51-65ce83d0c9c3", "canonical_id": "efbc66c1-dd6c-5d91-99ca-d2d8fb9be05a", "alias": "bbaec89548e6ee3b0d21ed94", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "971cc06f-f02a-578e-8b9b-aaf7e784c227", "canonical_id": "68d7fc34-5305-50f2-a1e0-10dd81ee38ab", "alias": "玩暗黑战网时忘记账号了怎么办 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "d1cd1f3c-d0a7-5d1c-bc9d-88a0b08fe620", "canonical_id": "68d7fc34-5305-50f2-a1e0-10dd81ee38ab", "alias": "706", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "7d3ef6c2-7926-5a8a-8d89-c2cc41630248", "canonical_id": "750ede0d-c44a-5a83-a072-16a3ada88659", "alias": "遇到多开卡顿以及TP卡顿的解决方案 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "f2b848b5-338a-5fb7-8b74-33cf92673a30", "canonical_id": "750ede0d-c44a-5a83-a072-16a3ada88659", "alias": "d9ebeaaac49d868b539083c5", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "60330142-f42d-51f9-ae73-5f68ecbe728c", "canonical_id": "3d244630-b3ee-5714-88e3-c598f5faca17", "alias": "遇到多开卡顿以及TP卡顿的解决方案 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "6af25c62-cda1-5545-a6d9-c7af75c24b99", "canonical_id": "3d244630-b3ee-5714-88e3-c598f5faca17", "alias": "677", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "9b6ba6d3-0273-52ca-9ddc-5acce4c850ab", "canonical_id": "0f22c038-92c5-5ace-9010-3b95c58a8c1f", "alias": "关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a0a5f8fd-8e15-5fee-aed1-21cd1a20c73b", "canonical_id": "0f22c038-92c5-5ace-9010-3b95c58a8c1f", "alias": "6ba5e6eb464e8dc9f57a39ca", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "99d80bf6-bdf1-5b8b-80d7-aeed5eec1207", "canonical_id": "0a311462-f995-59dc-a996-60b9c6648185", "alias": "关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "eb525a83-ab0e-563d-af42-a1b498822ee8", "canonical_id": "0a311462-f995-59dc-a996-60b9c6648185", "alias": "675", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "311f0add-abde-566c-b94e-c316f11881dd", "canonical_id": "b91b0ac4-684d-5f4f-8311-911db1637980", "alias": "如何解决RR时候最后3个CHAR卡住加入不了房间 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "89bb7911-98f4-5edd-86e0-25b6f5080204", "canonical_id": "b91b0ac4-684d-5f4f-8311-911db1637980", "alias": "b1eaf4489973c0a2d69bc74e", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "6fdf259d-92ff-5035-becf-445122229899", "canonical_id": "21f7fc37-487b-56cb-af8e-dea4559b1c7f", "alias": "如何解决RR时候最后3个CHAR卡住加入不了房间 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "8005901d-11e0-5c15-a327-65489338e16e", "canonical_id": "21f7fc37-487b-56cb-af8e-dea4559b1c7f", "alias": "550", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "40ee2063-88fc-579d-a295-81535b871c51", "canonical_id": "7e668eb5-4c83-577f-9fcc-3dbbf238f2d5", "alias": "防止游戏自动升级导致的各种未知错误 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "8b19bda0-b276-57f9-a238-44fc5d3367e6", "canonical_id": "7e668eb5-4c83-577f-9fcc-3dbbf238f2d5", "alias": "0dbdfa72843a62c5fecdf437", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "fefb0dc7-9d68-5304-aa89-b93a31209233", "canonical_id": "65865e41-a21e-5479-80a5-711481dcf6a4", "alias": "防止游戏自动升级导致的各种未知错误 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "FAQGuide"}
+{"alias_id": "302996da-84ab-531d-9707-d19b3ffb9ed5", "canonical_id": "65865e41-a21e-5479-80a5-711481dcf6a4", "alias": "549", "alias_type": "key", "node_type": "FAQGuide"}
+{"alias_id": "fb109eb2-a218-59b5-ba43-099337ff4bac", "canonical_id": "08d54542-a0c9-59fb-831a-725649f6a790", "alias": "开荒期资料片、非资料片pass流程 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "0c1bc84d-3fab-57da-bcb6-7e61c9f7ad48", "canonical_id": "08d54542-a0c9-59fb-831a-725649f6a790", "alias": "30ac1e5ef0a15337f48b0eb0", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "1eb4542c-b7ae-5530-b89e-72bf9f36fe67", "canonical_id": "1c1c1ec1-bc46-5a73-be4a-51e0847a9f46", "alias": "开荒期资料片、非资料片pass流程 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "70e10e23-a679-590a-9fe2-5e517b00614b", "canonical_id": "1c1c1ec1-bc46-5a73-be4a-51e0847a9f46", "alias": "1274", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "26f74a93-89b9-578a-bb84-57344be9aabf", "canonical_id": "d6f5308b-fb44-5527-a00a-bfcd3f4c4c61", "alias": "玩暗黑2战网新人的快速入门开荒攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "018c8f01-71f2-5ee8-bfac-43c427765d26", "canonical_id": "d6f5308b-fb44-5527-a00a-bfcd3f4c4c61", "alias": "30715b729971e7749e08d96f", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "fe49ff5e-298f-5dbd-9a57-7e45811fefde", "canonical_id": "e55dd350-7f66-5867-b049-330330423119", "alias": "玩暗黑2战网新人的快速入门开荒攻略 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "1b4aa22e-2bda-5b34-a92a-a8e861fb9875", "canonical_id": "e55dd350-7f66-5867-b049-330330423119", "alias": "1103", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "90f6d7a7-a591-56f3-9f4e-4745db0b2af6", "canonical_id": "ca04b7d0-e3af-5be9-a17a-3904e8660cba", "alias": "如何bug虫子和在没maphack情况下速刷地狱虫子 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "8c5b7281-2dfa-5bd8-b123-c18509d285af", "canonical_id": "ca04b7d0-e3af-5be9-a17a-3904e8660cba", "alias": "921580474bd3eb42ca9b9118", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "b2f36fee-8706-5891-9ffd-6a81128af79c", "canonical_id": "8ce15e0d-8da3-5932-b210-db6136b40cdc", "alias": "如何bug虫子和在没maphack情况下速刷地狱虫子 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "8b2ca7cc-3a2b-5a1f-a985-5515306b9130", "canonical_id": "8ce15e0d-8da3-5932-b210-db6136b40cdc", "alias": "920", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "cbc16c33-23c9-5eb9-99ee-c778f3a91647", "canonical_id": "0d4b4edc-e52f-5330-bec3-80b1df8352b5", "alias": "刷85场景地穴（泰摩高地）的新人攻略指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "abfa31ca-996c-56c0-87e4-b722bfcb5b15", "canonical_id": "0d4b4edc-e52f-5330-bec3-80b1df8352b5", "alias": "2013944ec9334b13e093c5ad", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "56a92bf0-1a5e-519b-b07e-3e933beb84f9", "canonical_id": "a909e41e-4009-5644-adf0-4e9b2ea1c0d4", "alias": "刷85场景地穴（泰摩高地）的新人攻略指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "6040ab50-b2c6-5318-8913-0520d29e73c9", "canonical_id": "a909e41e-4009-5644-adf0-4e9b2ea1c0d4", "alias": "860", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "d3d5d070-1236-5c69-921e-1951b5f4c7aa", "canonical_id": "f0254ae8-6bf5-5059-acc8-e6a9a511c811", "alias": "资料片砸石头(ZLP RR)的资源及原理说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "1b859c72-4efe-54b6-b613-744e8c2e1590", "canonical_id": "f0254ae8-6bf5-5059-acc8-e6a9a511c811", "alias": "8701bf6847d57c824b9064f8", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "575781f0-2c30-5312-a48d-2febaebd5149", "canonical_id": "955ef8b4-01fc-566b-8e0f-889c43481079", "alias": "资料片砸石头(ZLP RR)的资源及原理说明 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "5bff1625-3cdf-5bd1-be6c-5ff5c87213e7", "canonical_id": "955ef8b4-01fc-566b-8e0f-889c43481079", "alias": "857", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "32633d20-a5fe-5ff2-b0e2-25fee08b1f92", "canonical_id": "06a3e9be-4909-59f4-a0dc-919e3ac8946d", "alias": "RR党和CUBE党福音,利用石头人拿7#8#9#任务洗货 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "6e703540-e438-59fb-9a43-e0c700b268ce", "canonical_id": "06a3e9be-4909-59f4-a0dc-919e3ac8946d", "alias": "b20ce10544b156e470b18a86", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "69fbc3c2-296f-5bed-9e40-6dfe19090f61", "canonical_id": "84c42808-9ea5-5075-84b1-8cf274678d53", "alias": "RR党和CUBE党福音,利用石头人拿7#8#9#任务洗货 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "b3f906db-6d98-52e5-af94-e0d6e0de11d8", "canonical_id": "84c42808-9ea5-5075-84b1-8cf274678d53", "alias": "851", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "35881f7e-e521-53c1-94ea-b54569993fbd", "canonical_id": "07650348-dcc0-507f-8930-3e830b36ea8a", "alias": "剥削RR号的剩余价值，简单快速完成7#8#9#符文任务 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "379f114d-5fe2-543a-9ac5-e8f8066d2d3f", "canonical_id": "07650348-dcc0-507f-8930-3e830b36ea8a", "alias": "b56eacc3ab96aeeb1dc6f4b8", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "bfe0be7d-552a-5f1d-b178-ebb7f5a2ca67", "canonical_id": "0753ab07-6577-58d6-9d06-549368b8f924", "alias": "剥削RR号的剩余价值，简单快速完成7#8#9#符文任务 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "f0c9216e-12b0-59b5-89b0-daac79fabd98", "canonical_id": "0753ab07-6577-58d6-9d06-549368b8f924", "alias": "842", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "031b4fb2-066f-5148-91cf-6dd6d1527aa9", "canonical_id": "8b88dc4f-edd3-5141-a936-00e90b0bd2f0", "alias": "暗黑2牛场KC,用数据计算每场牛的数量是多少 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "7aa9de82-5f50-51d3-8bc7-eb94f82848aa", "canonical_id": "8b88dc4f-edd3-5141-a936-00e90b0bd2f0", "alias": "22ef3f08153846606756144c", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "1e9bdf36-bb01-5b80-b6a6-1b63d89a1bdb", "canonical_id": "c76c4ef5-fbe4-52c8-9cd8-14f02edda8da", "alias": "暗黑2牛场KC,用数据计算每场牛的数量是多少 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "QuestGuide"}
+{"alias_id": "09f93427-1ef4-5c28-8dd5-d4b9e3f0c926", "canonical_id": "c76c4ef5-fbe4-52c8-9cd8-14f02edda8da", "alias": "841", "alias_type": "key", "node_type": "QuestGuide"}
+{"alias_id": "1e413a22-5024-5e96-801b-5c2659e94839", "canonical_id": "456c46f3-c217-5fb4-92c5-d288a51da06d", "alias": "贫民格挡电法lsor配装选材与格挡配置指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "b9d5f643-c556-5077-86ff-8bb4c534a094", "canonical_id": "456c46f3-c217-5fb4-92c5-d288a51da06d", "alias": "99795d93486cbd8d51291a77", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7dfbaeff-3c90-509c-9389-4d30eaf8f6fd", "canonical_id": "8b783dca-77f7-5d49-b288-caf7be51692d", "alias": "贫民格挡电法lsor配装选材与格挡配置指南 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "febf9ae5-baae-5d3f-a7fc-f12497b2bd8d", "canonical_id": "8b783dca-77f7-5d49-b288-caf7be51692d", "alias": "1289", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "b9f99031-5fb1-5e63-865e-6e1ad29ae9d4", "canonical_id": "2ae26546-98fc-5b35-891a-d312c6231821", "alias": "关于lsor电法盾牌选择的一些想法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "729f26b7-8b5a-58fc-b760-210cef45e289", "canonical_id": "2ae26546-98fc-5b35-891a-d312c6231821", "alias": "9d05ff0fb33d6decea05f4ef", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "13ccdfd5-0d91-5079-9c69-dfb327aaba95", "canonical_id": "585380f8-d6fe-5631-b7e7-d12d83d17e1b", "alias": "关于lsor电法盾牌选择的一些想法 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "e28daa43-8fe2-5202-a1ea-60ccc225d7be", "canonical_id": "585380f8-d6fe-5631-b7e7-d12d83d17e1b", "alias": "1128", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "e15fb3a5-4f56-5073-9701-846a3ff6bf55", "canonical_id": "5b874a12-e7cf-5b6a-b199-f5126e7194ea", "alias": "合成的橙色手工项链所有词缀组成和价值详解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "ff25c93b-df89-5f2a-bf59-bf5fe1164204", "canonical_id": "5b874a12-e7cf-5b6a-b199-f5126e7194ea", "alias": "7f339259669c29f82b2665aa", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "b4c100ba-ae14-5f56-8ba9-42efa3bdc3b5", "canonical_id": "939b765c-a7f1-52dd-b501-981dcc325c57", "alias": "合成的橙色手工项链所有词缀组成和价值详解 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "8eb64c48-cb64-538f-a15c-7690f14a9cb7", "canonical_id": "939b765c-a7f1-52dd-b501-981dcc325c57", "alias": "1127", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "fa95fc98-db5f-5f02-bbb6-8009db6374bd", "canonical_id": "e70b1f8d-00aa-5518-9a1f-19b624c57504", "alias": "镰刀无限法师life上限=mana上限的加点计算 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "9486f636-0e57-592c-9629-355672333127", "canonical_id": "e70b1f8d-00aa-5518-9a1f-19b624c57504", "alias": "433822cde12bc893ae715bba", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "7ccacecb-1b88-5db9-b3f1-52876c840193", "canonical_id": "135fa0b8-8d6c-5252-b5a2-db1c832d62aa", "alias": "镰刀无限法师life上限=mana上限的加点计算 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "89d6c23f-66ce-5544-9538-006f4ba4794d", "canonical_id": "135fa0b8-8d6c-5252-b5a2-db1c832d62aa", "alias": "1122", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "6213be5e-151b-55b0-819c-581bcc6b33cf", "canonical_id": "4a6b3371-c325-59b5-9d15-1a8810799e71", "alias": "STR DEX属性相对LF MANA数值对物品价格的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "02dd10ca-7517-5a70-8c70-d3daadd48b72", "canonical_id": "4a6b3371-c325-59b5-9d15-1a8810799e71", "alias": "ba5a73831d329f81be8f572b", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "4da28333-9c35-5a92-91aa-673c4df5a2c0", "canonical_id": "1b582dda-d08f-5123-a194-8e7445ee6254", "alias": "STR DEX属性相对LF MANA数值对物品价格的影响 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "0cba9a8b-0a08-57c7-83f3-4efeb5a2c014", "canonical_id": "1b582dda-d08f-5123-a194-8e7445ee6254", "alias": "1119", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "1bc0b6c3-3a85-5964-b766-dea291c5f5b4", "canonical_id": "4bcad205-0f36-51b2-80f8-2edf2ba0f626", "alias": "基数效应和边际效应：让装备属性实际效果差距，比看上去的小很多 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "a7f463cb-c4ef-5b97-8565-8de0886d8fd6", "canonical_id": "4bcad205-0f36-51b2-80f8-2edf2ba0f626", "alias": "a5a0691a17bd155148007efa", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "561808a2-ee7f-5cbf-8dd1-8a0ccc153808", "canonical_id": "97fe210b-0137-5adf-9b8a-59a402351099", "alias": "基数效应和边际效应：让装备属性实际效果差距，比看上去的小很多 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "37951a1d-0b9d-58d5-991a-3cc478679617", "canonical_id": "97fe210b-0137-5adf-9b8a-59a402351099", "alias": "1093", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "c8ea7568-a7c2-5ca4-a96a-6ea0ef059a76", "canonical_id": "4ad8062f-d973-580a-9d20-a99696eac7a3", "alias": "关于bug jew(BUG珠)ed/min(max) 镶嵌的验证 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "f4140c7a-7244-596d-8dc3-c4be5924a7f7", "canonical_id": "4ad8062f-d973-580a-9d20-a99696eac7a3", "alias": "401dcdd115692049ecef6d80", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "55b7c61e-7d20-58a6-9493-a866c36038ff", "canonical_id": "6776833b-6d97-5e39-ac25-684f3944f708", "alias": "关于bug jew(BUG珠)ed/min(max) 镶嵌的验证 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "6f288982-77fa-5d90-8b4a-117c3f394072", "canonical_id": "6776833b-6d97-5e39-ac25-684f3944f708", "alias": "1092", "alias_type": "key", "node_type": "ItemGuide"}
+{"alias_id": "2e67427a-a913-5027-aa28-63b2262ccf91", "canonical_id": "37817c1a-1dff-5998-9dc6-fb77ef7ee0c9", "alias": "史恰弗之锤 SF铁魔之王，8开KC利器，保护手指的神器 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "SourceDocument"}
+{"alias_id": "932684f7-108a-59d6-b6ce-f1d6e81331dc", "canonical_id": "37817c1a-1dff-5998-9dc6-fb77ef7ee0c9", "alias": "4128ad2ad0ecc79704f5f9dd", "alias_type": "key", "node_type": "SourceDocument"}
+{"alias_id": "ce1c1dd7-a166-55de-9d3b-4b7ab6a1f6b1", "canonical_id": "da283fac-9c6d-52ea-9981-0c056235a745", "alias": "史恰弗之锤 SF铁魔之王，8开KC利器，保护手指的神器 - 91D2暗黑破坏神2资料网", "alias_type": "title", "node_type": "ItemGuide"}
+{"alias_id": "200c8c69-0fb5-5b2e-a98e-38068569d931", "canonical_id": "da283fac-9c6d-52ea-9981-0c056235a745", "alias": "1087", "alias_type": "key", "node_type": "ItemGuide"}

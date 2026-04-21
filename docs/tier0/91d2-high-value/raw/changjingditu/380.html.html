@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="index,follow">
+<META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<title>暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网</title>
+<META http-equiv="Content-type" content="text/html; charset=gb2312"> 
+<META name="keywords" content="母牛关,牛场,kc,数据,测试,报告,暗黑2"/>  
+<META name="description" content="1.理论支持     如果大家想看懂本文的分析,必须先简单的了解 nodrop的参数计算 以及 Bug mf 的原理.想详细了解的朋友可以直接点击进入,在此偶简单引用对本文有用的两段. A."/>
+
+<STYLE type="text/css">
+td,li,select,input {font-size:12px;color:#F9EBD2;line-height:150%;}
+.l13{color:#F9EBD2;line-height:130%;}
+.l15{line-height:150%;color:#F9EBD2}
+.l15z{line-height:150%;color:#F9EBD2;font-size:14px;}
+.listTime1{line-height:180%;color:#8C8D93;}
+.listTitle1{line-height:180%;color:#FCA201;}
+.listLi1{line-height:180%;color:#8C8D93;}
+.img01{border:1px solid #000}
+
+A:link {color:#FADE78;text-decoration:none;}
+A:visited {color:#FADE78;text-decoration:none;}
+A:active {color:#FADE78;text-decoration:none;}
+A:hover {color:#FADE78;text-decoration:underline;}
+
+A.a01:link,A.a01:visited {color:#CBAA6D;text-decoration:none;}
+A.a01:active,A.a01:hover {color:#FADE78;text-decoration:underline;}
+
+A.a02:link,A.a02:visited {color:#FCA201;text-decoration:none;}
+A.a02:active,A.a02:hover {color:#FADE78;text-decoration:underline;}
+
+A.listTitle1:link,A.listTitle1:visited {color:#FCA201;text-decoration:none;}
+A.listTitle1:active,A.listTitle1:hover {color:#FADE78;text-decoration:underline;}
+
+.listDateTime1{font-size:12px;color:#8C8D93;}
+.listTD1{line-height:150%;color:#8C8D93}
+.bg01{background-image:url(https://www.91d2.cn/skin/91d2/anhei_24.jpg);}
+.bg02{background-image:url(https://www.91d2.cn/skin/91d2/bg1.gif);background-position:left top;background-repeat:no-repeat;}
+.bg03{background-image:url(https://www.91d2.cn/skin/91d2/ba1.jpg);}
+
+A.sinatail:link,A.sinatail:visited {color:#ffffff;text-decoration:none;}
+A.sinatail:active,A.sinatail:hover {color:#ffffff;text-decoration:underline;}
+
+</STYLE>
+ <!-- include 样式 end --> 
+<META name="GENERATOR" content="MSHTML 11.00.10586.672"></HEAD> 
+<BODY background="https://www.91d2.cn/skin/91d2/anhei_50.gif" topmargin="0" 
+leftmargin="0" marginwidth="0" marginheight="0"><!-- body code begin --> <!-- SUDA_CODE_START --> 
+ <!-- SUDA_CODE_END --> <!-- SSO_GETCOOKIE_START --> 
+ <!-- SSO_GETCOOKIE_END --> 
+
+ <!-- body code end --> 
+<CENTER>
+<STYLE type="text/css">
+form {margin: 0;padding: 0;border: 0;}
+select,input{vertical-align:middle;font-size:12px;line-height:100%;}
+/* 二级导航 */
+#level2header {border-top:1px solid #000;border-bottom:0px solid #000;width:960px;height:34px;font-size:12px; background:#fff;}
+#level2header img{border:none;}
+#level2header #logo {float:left;text-align:left; padding-top:3px;}
+#level2header #l2navlnk {float:right;text-align:center;line-height:34px;}
+#level2header #l2navlnk a:link,#level2header #l2navlnk a:visited {color:#000;text-decoration:none;}
+#level2header #l2navlnk a:hover,#level2header #l2navlnk a:active {color:#f00;text-decoration:underline;}
+#level2header #iask {float:right;width:307px;height:34px;background-color:#FFF;text-align:left;padding-left:6px; color:#000;}
+#level2header #iask a:link,#level2header #iask a:visited {color:#f00;text-decoration:none;}
+#level2header #iask a:hover,#level2header #iask a:active {color:#f00;text-decoration:underline;}
+#level2header #iask #k {width:65px;border:1px solid #7F9DB9;margin:0 0 0 7px;}
+#level2header #iask .sebtn{width:45px; height:18px;}
+#level2header .iaskRedTxt{color:#aaa; border:1px #f00 solid;}
+#level2headerborder{background:#fff; height:1px; overflow:hidden; clear:both; width:960px;}
+</STYLE>
+
+<DIV id="level2headerborder"></DIV><!-- 新浪游戏 head end --> <!-- include 专区头部内容 being --><!--[115,39,93] published at 2015-12-16 15:27:35 from #21 by 12887--> <!-- 头部开始 --> 
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR>
+    <TD><IMG width="960" height="150" src="https://www.91d2.cn/skin/91d2/anhei_02.jpg" style="display:block; vertical-align:bottom;"></TD>
+</TR></TBODY></TABLE>
+<TABLE width="960" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+  <TBODY>
+  <TR bgcolor="#031112">
+    <TD width="147" align="center" style="
+    background-image: url(https://www.91d2.cn/skin/91d2/ba2.jpg)"><!-- 搜索begin -->	 
+      <TABLE border="0" cellspacing="0" cellpadding="0">
+
+         
+        </TBODY></TABLE><!-- 搜索end -->	 </TD>
+    <TD width="570" height="76" class="bg03"><!-- 导航开始 -->	 
+      <TABLE width="570" cellspacing="0" cellpadding="0">
+         <tbody>
+         <tr>
+          <td align="center" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/fq/" target="_top">暗黑百科</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jichuzhishi/" target="_blank">基础知识</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jiaosezhiye/" target="_blank">角色职业</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mofajineng/" target="_blank">魔法技能</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/wupinzhuangbei/" target="_blank">物品装备</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/yaomoguiguai/" target="_blank">妖魔鬼怪</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/jingyanxinde/" target="_blank">经验心得</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+         <tr>
+          <td align="center" height="17" style="color: rgb(203, 170, 109);">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/mijixiugai/" target="_blank">秘籍修改</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/renwugonglue/" target="_blank">任务攻略</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/feichangjishu/" target="_blank">非常技术</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjingditu/" target="_blank">场景地图</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/changjianwenti/" target="_blank">常见问题</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/xinshouzhiyin/" target="_blank">新手指引</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a class="a01" href="https://www.91d2.cn/MODxiugai/" target="_blank">MOD 制作</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+        </tbody>
+			</TABLE><!-- 导航结束 -->
+    	 </TD></TR></TBODY></TABLE><!-- 头部结束 --><!-- include 专区头部内容 end --> <!-- include 2 --> 
+<TABLE width="960" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR valign="top"><!-- include 左侧td being --> 
+    <TD width="180" valign="top"><!-- include 左侧内容 begin --><!--[115,21,92] published at 2015-12-16 10:07:52 from #21 by 12887--> 
+
+       <!-- 左侧开始 -->	 <!-- 左1 begin -->	 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>暗黑2交流</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD align="center"><A href="https://bbs.91d2.cn/" 
+                  target="_blank"><IMG width="120" height="60" src="https://www.91d2.cn/skin/91d2/U88P115T62D82F1195DT20040714143639.gif" alt="暗黑2玩家论坛"
+                  border="0"></A></TD></TR></TBODY>
+		    </TABLE>
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>91D2创立于2005年，是众多喜爱暗黑破坏神2玩家们的经典聚集地。无数热爱这款游戏的忠实粉丝，在这里共同探讨游戏技巧、分享技术经验、研究装备搭配与职业玩法。无论是新手入门还是硬核玩家，这里都是你交流心得、组队冒险、重温经典的理想家园。		
+                </TD>
+				</TR>
+				</TBODY>
+			</TABLE>
+			</TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE>
+		
+		<table width="180" style="margin-bottom: 10px;" cellspacing="0" cellpadding="0">
+        <tbody>
+         <tr>
+          <td width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><b>暗黑百科</b></td>
+         </tr>
+         <tr>
+          <td class="bg01">
+           <table width="150" align="center" cellspacing="0" cellpadding="0">
+            <tbody>
+             <tr>
+              <td height="20"></td>
+             </tr>
+             <tr>
+              <td align="center"><a href="https://www.91d2.cn/fq" target="_blank"><img width="120" height="60" src="https://www.91d2.cn/skin/91d2/baike.jpg" alt="暗黑2游戏百科解答" border="0" /></a>
+			  </td>
+             </tr>
+			 <TR>
+                <TD height="10"></TD>
+				</TR>
+              <TR>
+                <TD>各类暗黑2游戏知识的各类问题和答案，全部源于二十多年来玩家的研究和讨论。	
+                </TD>
+				</TR>
+            </tbody>
+           </table></td>
+         </tr>
+         <tr>
+          <td width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></td>
+         </tr>
+        </tbody>
+       </table>
+		 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>经验分享</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-535189-fpage-2.html" 
+                  target="_blank">RR详尽流程经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">FZ永久无杖key制作</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-614438.html" 
+                  target="_blank">新人乘坐bus全流程注</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1325484.html" 
+                  target="_blank">战网穷人KB经验分享</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-49969.html" 
+                  target="_blank">战网mf和bus一体sor</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-879770.html" 
+                  target="_blank">如何高效轻松八开DYKB</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-7365.html" 
+                  target="_blank">有交易价值物品的Drop率</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>人物练法</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-1089051.html" 
+                  target="_blank">HOLD住全场的男人PAL</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1104898.html" 
+                  target="_blank">经典法师SOR再续前缘</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-580801.html" 
+                  target="_blank">打造最帅的狂乱者BAR</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-508575.html" 
+                  target="_blank">穷人的的暴力熊德DUR</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1434972.html" 
+                  target="_blank">暗之幽灵刹那芳华ASN</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1386412.html" 
+                  target="_blank">打造最强势信心弓AMA</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1439768.html" 
+                  target="_blank">追寻五环的炫目NEC</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+      <TABLE width="180" style="margin-bottom: 10px;" cellspacing="0" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="180" height="53" background="https://www.91d2.cn/skin/91d2/anhei_20.jpg" 
+          style="color: rgb(203, 170, 109); padding-left: 60px; font-size: 14px;"><B>非资料片</B></TD></TR>
+        <TR>
+          <TD class="bg01">
+            <TABLE width="150" align="center" cellspacing="0" cellpadding="0">
+             <TBODY>
+              <TR>
+                <TD height="20"></TD></TR>
+              <TR>
+                <TD height="57">・<A href="http://bbs.91d2.cn/read-htm-tid-500726.html" 
+                  target="_blank">非资料片KD房间注意项</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-43767.html" 
+                  target="_blank">91D2非资料技术贴合集1</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1354999.html" 
+                  target="_blank">91D2非资料技术贴合集2</A>             <BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1401644.html" 
+                  target="_blank">战网FZ单人8开SOLO方法</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1348871.html" 
+                  target="_blank">战网FZ物品价值之我见</A><BR>・<A href="http://bbs.91d2.cn/read-htm-tid-1313826.html" 
+                  target="_blank">影像资料记录FZ KD历程 </A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="180" height="28" background="https://www.91d2.cn/skin/91d2/anhei_28.jpg"></TD></TR></TBODY></TABLE><!-- 左1 end --> <!-- 左2 begin --> 
+
+      <!-- 左1 end --> <!-- 左2 begin --> <!-- include 左侧内容 end --> 
+    </TD>
+    <TD width="96" valign="top"><!-- include 线性导航 begin --><!-- include 线性导航 end --> <!-- include 中间内容 begin --><!-- 中间开始 -->
+	 <!-- 内容1 开始 -->    
+      <TABLE width="780" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="780" height="30" background="https://www.91d2.cn/skin/91d2/anhei_21y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 14px; padding-left: 50px;"><a href="https://www.91d2.cn/">首页</a>&nbsp;>&nbsp;<a href="https://www.91d2.cn/changjingditu/">场景地图</a></TD></TR></TBODY></TABLE><!-- 内容1 end --> 
+         <!-- 中1 begin -->     
+      <TABLE width="755" style="margin-bottom: 15px; margin-left: 16px;" 
+      cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="752" height="67" background="https://www.91d2.cn/skin/91d2/anhei_57y.jpg" 
+          style="color: rgb(203, 170, 109); padding-top: 20px; text-align:center; font-size: 14px;"><B>
+            		暗黑2母牛关之牛场kc数据测试报告</B></TD></TR>
+        <TR>
+          <TD background="https://www.91d2.cn/skin/91d2/anhei_25y.jpg">
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR>
+              <TR>
+                <TD height="7" colspan="4"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="10"></TD></TR>
+              <TR>
+                <TD style="color: rgb(203, 146, 65);"><!-- none -->			 <!-- include 编者按显示 begin --><!-- include 编者按显示 end --></TD></TR>
+				
+				
+              <TR>
+                <TD height="10"></TD></TR></TBODY></TABLE>
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD class="l15z"><!--[115,18,882] published at 2004-04-15 14:37:43 from #006 by 167--> 
+                  
+                
+				  <p>1.理论支持</p>
+<div>&nbsp; &nbsp; &nbsp;如果大家想看懂本文的分析,必须先简单的了解 nodrop的参数计算 以及 Bug mf 的原理.想详细了解的朋友可以直接点击进入,在此偶简单引用对本文有用的两段.</div>
+<div>&nbsp;</div>
+<div>A.关于nodrop:&nbsp;</div>
+<div>&nbsp;引用:</div>
+<div>假设, 在单人游戏里, 某怪物不掉物品的几率为 NoDrop% .</div>
+<div>在多人游戏里, 先要进行人数记数, 方法如下: 杀死怪物者记 1,&nbsp;</div>
+<div>与杀怪者结盟并在同一场景的人, 每人记 1, 其余的人每人记 0.5 .</div>
+<div>将这些数相加, 总和要向下取整数. 设记数的结果为 p, 则怪物不</div>
+<div>掉物品的几率为 NoDrop% 的 p 次方.</div>
+<div>&nbsp;</div>
+<div>&nbsp; 举个例子来说明. 在单人游戏里, 某怪物不掉物品的几率为&nbsp;</div>
+<div>50%. 现在, 有三个盟友与杀死此怪物者在同一场景, 另一个盟友</div>
+<div>在其它场景, 还有两个人未结盟. 则:</div>
+<div>&nbsp; p = 1 + 3*1 + 0.5 + 2*0.5 = [5.5] = 5 (向下取整数)</div>
+<div>被修饰后的不掉物品几率为: 50% 的 5 次方, 即 3.125%</div>
+<div>&nbsp;</div>
+<div>B.关于bug mf boss&nbsp;</div>
+<div>&nbsp;引用:</div>
+<div>结论是：任务杀巴尔，3pp及其以上，巴尔必定掉落6件物品。</div>
+<div>&nbsp;</div>
+<div>由于老莫和baal的TC(HELL 1st KILL)nodrop几率一样,因此 任务杀老莫，3pp及其以上，老莫必定掉落6件物品。</div>
+<div>&nbsp;</div>
+<div>2.结论以及分析</div>
+<div>&nbsp;代码:</div>
+<div>结论1.怪物的生成有bug，N+1个人进游戏，其中N个人都被怪物杀死，并且不要按esc，那么，剩下的一个人新找的怪物的血量按1pp生成,由此推论其nodrop选择同样按1pp</div>
+<div>&nbsp;</div>
+<div>测试1:</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试人物:NEC</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;基础状态: 总减毒抗138, 毒圈伤害7481-7721</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试过程:</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a.1pp难度K老莫,4下KO</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b.3pp难度下K老莫,9-10下KO</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c.3人进游戏,挂掉2人不按esc,nec去生成老莫,然后杀死,4下KO</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;分析:明显可见,在c情况的3人游戏中,生成的老莫生成的血量是1人难度的</div>
+<div>&nbsp;</div>
+<div>测试2:</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试人物: BUG KM sor</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试过程:在3人游戏中,组队,其中两人到老莫所在场景自杀,然后bug sor去生成老莫,然后杀死.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;分析:根据 nodrop 理论以及bug mf 理论,如果此时按照3pp难度计算,老莫必定掉6件装备.但是本人测试中出现数次老莫掉落不足6件,由此可以断定,该种情况下,nodrop难度选择&lt;3.结合测试1推论,该nodrop难度选择为1.</div>
+<div>&nbsp;</div>
+<div>&nbsp;代码:</div>
+<div>结论2:N人进入游戏,组队并全部进入同一场景,在该场景得到N人难度的怪物.然后N-1在该场景自杀不按esc或退出,剩下一人把这些N人难度的怪物杀死,nodrop的选择并不是按N个人计算.从严谨的角度,我无法证明该nodrop选择是按1人难度,但从实际情况考虑,我个人认为其选择为1.</div>
+<div>&nbsp;</div>
+<div>测试3:</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试人物: BUG KM sor</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试过程:在3人游戏中,组队进入老莫所在场景,与测试2不同的地方是,本测试中,先生成老莫,2人才自杀后不按esc或者更直接的退出2人,然后bug sor 杀死老莫.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;分析:根据 nodrop 理论以及bug mf 理论,如果此时按照3pp难度计算,老莫必定掉6件装备.同样本人测试中也出现过掉落不足6件的情况.因此断定,此时老莫nodrop选择难度数&lt;3.结合测试1推论,该nodrop难度选择为1.</div>
+<div>&nbsp;</div>
+<div>&nbsp;代码:</div>
+<div>结论3:怪物血量决定于生成时的游戏总人数(结论1的bug除外,BLZ貌似在生成怪物时不把死人当人- -#),而nodrop的参数选择为 怪物生成时的难度选择数和怪物死亡时的难度选择数 两个中小的一个.</div>
+<div>&nbsp;</div>
+<div>测试4:</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试人物:BUG KM sor</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;测试过程:在1人难度下,生成老莫,然后进2个人,组队全部拖到老莫所在场景后,bug sor 砍死老莫.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;分析:本次测试中,怪物血量难度选择为1,而老莫死亡时在场人数为3. 如果此时nodrop 按照3人来计算,那么每次必掉6件物品,遗憾的是,测试中也出现过不足6件的情况,显然,该情况下nodrop的选择为3与1中的较小者: 1. 因此,本文之前提出的 1人的难度,N人难度的掉落 的方法是不可行的.</div>
+<div>&nbsp;</div>
+<div>3.以上理论在牛场的直接应用</div>
+<div>&nbsp;代码:</div>
+<div>&quot;牛迷&quot;们在KC时,尽量多开几个人物;既然多开了,就不要怕麻烦,得全部组上并且进入牛场;进入了牛场,还必须要保证人物的存活!</div>
+<div>&nbsp;</div>
+<div>举个具体的例子:</div>
+<div>假设你8开kc</div>
+<div>a.不组队BB不进牛场:&nbsp; 4人难度</div>
+<div>b.全组队但BB不进场:同样为4人难度</div>
+<div>c.全组队BB进场并都存活:只有这样才能达到8人难度!</div>
+<div>d.全组队BB进场,但是都挂了没按esc,这时分2种情况:</div>
+<div>&nbsp; &nbsp; 1)在所有BB活着的时候生成的牛血量是按8人难度,但掉落却按1人难度</div>
+<div>&nbsp; &nbsp;2)在所有BB死亡以后再生成的牛,其血量按1人难度算,掉落也只按1人难度算!&nbsp;</div>
+<div>&nbsp; 这个就是传说中的&nbsp; 8开KC ,1开的效果!</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>4附录</div>
+<div>ps：这个我慢慢更新，放上一些牛场相关的东西</div>
+<div>&nbsp;</div>
+<div>1）牛的难度与Nodrop 率（四舍五入取小数点后2位）</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp;<span style="white-space:pre">	</span>&nbsp; &nbsp; &nbsp;1pp<span style="white-space:pre">	</span>&nbsp; 2pp<span style="white-space:pre">	</span> 3pp<span style="white-space:pre">	</span>&nbsp; 4pp<span style="white-space:pre">	</span>5pp<span style="white-space:pre">	</span>6pp<span style="white-space:pre">	</span>7pp<span style="white-space:pre">	</span>8pp</div>
+<div>Nodrop<span style="white-space:pre">	</span>63%<span style="white-space:pre">	</span>40%<span style="white-space:pre">	</span>25%<span style="white-space:pre">	</span>16%<span style="white-space:pre">	</span>10%<span style="white-space:pre">	</span>6%<span style="white-space:pre">	</span>4%<span style="white-space:pre">	</span>2.5%</div></TD></TR></TBODY></TABLE>
+ 
+            <TABLE width="700" align="center" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD height="7" colspan="3"></TD></TR>
+
+              <TR>
+                <TD height="7" colspan="3"></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD width="752" height="76" background="https://www.91d2.cn/skin/91d2/anhei_y.jpg"></TD></TR>
+	  
+		  
+		  </TBODY></TABLE><!-- 中1 end -->	  
+	 <!-- 中间结束 --><!-- include 中间内容 end --> </TD> 
+    <TD><!-- include 广告 begin --><!-- include 广告 end--> <!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+      </TD></TR>
+        </TBODY></TABLE>
+		  
+	
+	<!-- include 右侧内容 begin --><!-- include 右侧内容 end --> 
+    </TD></TR></TBODY></TABLE><!-- include 横切一 begin --><!-- include 横切一 end --> <!-- include 底部内容 begin --><!-- 底部开始 --> 
+<table width="960" cellspacing="0" cellpadding="0" class="main-content">
+    <tbody>
+     <tr>
+      <td><img width="960" height="36" src="https://www.91d2.cn/skin/91d2/anhei_53y.jpg" /></td>
+     </tr>
+     <tr>
+      <td height="10"></td>
+     </tr>
+     <tr align="center">
+      <td height="100" valign="top" style="color: rgb(153, 153, 152);"> <a href="http://beian.miit.gov.cn/" target="_blank">皖ICP备20006037号-5</a>
+       <div style="margin: 0px auto; text-align: center; font-size: 12px;">
+        <div id="ZWTrail">
+         <p><a class="sinatail" href="https://bbs.91d2.cn">暗黑2论坛</a> | <a class="sinatail" href="https://bbs.91d2.cn">anhei2</a> | <a class="sinatail" href="https://www.91d2.cn">暗黑破坏神2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2交流</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑破坏神3</a> | <a class="sinatail" href="http://down.91d2.cn">暗黑2下载</a> | | <a class="sinatail" href="https://www.91d2.cn/fq">暗黑百科</a> | <a class="sinatail" href="http://bbs.91d2.cn">暗黑2资料</a></p>
+         <p>Copyright &copy; 2007-2025 91D2 Corporation, All Rights Reserved</p>
+        </div>
+       </div><font color="#ffffff"> </font> </td>
+     </tr>
+    </tbody>
+   </table>
+</CENTER>
+</BODY>
+</HTML>
+

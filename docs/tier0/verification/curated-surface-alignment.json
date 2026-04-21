@@ -1,0 +1,14 @@
+{
+  "curated_documents": 56,
+  "curated_chunks": 56,
+  "curated_routing_cases": 60,
+  "term_map_entries": 71,
+  "required_aliases": [
+    "SOJ",
+    "CTA",
+    "ULC",
+    "MF",
+    "DClone",
+    "USC"
+  ]
+}

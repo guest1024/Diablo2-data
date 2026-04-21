@@ -33,6 +33,8 @@
 {"node_id": "fcebc41c-f50e-55e9-93e1-37b801f0cdb4", "node_type": "Class", "key": "Paladin", "name": "Paladin - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "46370b86-9cc6-5782-81a0-dc48ba570a36", "node_type": "SourceDocument", "key": "8e344582841e1ca3eb0dd5a1", "name": "Paladin Skills - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 6627}
 {"node_id": "e9447d6a-6415-58df-8d22-bc38957cdac1", "node_type": "WikiPage", "key": "Paladin_Skills", "name": "Paladin Skills - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
+{"node_id": "d8f2f76d-6b88-50af-9286-491461d539f9", "node_type": "SourceDocument", "key": "28fe29963125cc7c81afec83", "name": "Paladin Combat Skills - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 21314}
+{"node_id": "0c53b828-c204-5d32-8b83-05dd4fdb6afb", "node_type": "WikiPage", "key": "Paladin_Combat_Skills", "name": "Paladin Combat Skills - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "02789265-ee70-5a6b-9c62-806fd81829d4", "node_type": "SourceDocument", "key": "534ff726035f4fb25f9d7a96", "name": "Paladin Offensive Auras - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 19760}
 {"node_id": "2d76289d-a73a-5bda-bac6-0fee237e94ba", "node_type": "WikiPage", "key": "Paladin_Offensive_Auras", "name": "Paladin Offensive Auras - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "b2138669-1d8b-54d9-8e77-8fe7a940d221", "node_type": "SourceDocument", "key": "7b44cfdc9f7fb7025d2d7c79", "name": "Paladin Defensive Auras - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 19238}
@@ -45,6 +47,8 @@
 {"node_id": "3a42c5f2-3181-552c-911e-2e0336b43404", "node_type": "WikiPage", "key": "Sorceress_Cold_Spells", "name": "Sorceress Cold Spells - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "44f7f018-1ba7-5248-81af-3f74c0845f93", "node_type": "SourceDocument", "key": "c8e97c57754e876bbd045a0e", "name": "Sorceress Fire Spells - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 18233}
 {"node_id": "ebc7f357-6012-52cf-9705-41db3d221ed2", "node_type": "WikiPage", "key": "Sorceress_Fire_Spells", "name": "Sorceress Fire Spells - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
+{"node_id": "8c83598d-29e5-505d-b553-99215d2fae3a", "node_type": "SourceDocument", "key": "b607a9ab8a1c924ff60495eb", "name": "Sorceress Lightning Spells - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 22873}
+{"node_id": "101eb663-f1ba-52ba-b200-dd8ce6c73d2a", "node_type": "WikiPage", "key": "Sorceress_Lightning_Spells", "name": "Sorceress Lightning Spells - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "b36687be-17b3-5676-8ffa-93f3558845ad", "node_type": "SourceDocument", "key": "658bf648dbc86098e72b7472", "name": "Druid - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 19859}
 {"node_id": "662083bd-853d-5444-9ccc-dd041b93a896", "node_type": "WikiPage", "key": "Druid", "name": "Druid - Diablo 2 Wiki", "source_id": "purediablo-d2wiki"}
 {"node_id": "d55b1774-4fd1-5b56-af04-4c923c066e80", "node_type": "SourceDocument", "key": "0a7ed4cae48fc0517ffcdae7", "name": "Druid Skills - Diablo 2 Wiki", "source_id": "purediablo-d2wiki", "char_count": 6889}
