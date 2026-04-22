@@ -24,6 +24,22 @@ CHECKS = [
         "cmd": [sys.executable, "scripts/verify_curated_anchor_routing.py"],
     },
     {
+        "name": "verify_grounding_contract",
+        "cmd": [sys.executable, "scripts/verify_grounding_contract.py"],
+    },
+    {
+        "name": "verify_query_analysis_contract",
+        "cmd": [sys.executable, "scripts/verify_query_analysis_contract.py"],
+    },
+    {
+        "name": "verify_llm_execution_path",
+        "cmd": [sys.executable, "scripts/verify_llm_execution_path.py"],
+    },
+    {
+        "name": "verify_llm_eval_dataset_grounding",
+        "cmd": [sys.executable, "scripts/verify_llm_eval_dataset_grounding.py"],
+    },
+    {
         "name": "verify_routing_matrix",
         "cmd": [sys.executable, "scripts/verify_routing_matrix.py"],
     },

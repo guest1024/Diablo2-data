@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-21T14:40:20.482782+00:00",
-  "passed": 10,
-  "total": 10,
+  "generated_at": "2026-04-22T05:38:34.822027+00:00",
+  "passed": 14,
+  "total": 14,
   "results": [
     {
       "name": "verify_chroma_package",
@@ -22,6 +22,34 @@
       "returncode": 0,
       "passed": true,
       "stdout_tail": "PASS: 召唤死灵是什么？ routes to curated anchor source\nPASS: 召唤死灵是什么？ top title matches curated anchor\nPASS: 橡树之心是什么？ routes to curated anchor source\nPASS: 橡树之心是什么？ top title matches curated anchor\nPASS: 死呼是什么？ routes to curated anchor source\nPASS: 死呼是什么？ top title matches curated anchor\nPASS: 荣耀之链是什么？ routes to curated anchor source\nPASS: 荣耀之链是什么？ top title matches curated anchor\nPASS: 狮鹫是什么？ routes to curated anchor source\nPASS: 狮鹫是什么？ top title matches curated anchor\nPASS: Spirit still routes to primary source\nPASS: Spirit still prefers entity_link evidence",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_grounding_contract",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 无限是什么？ falls back to curated evidence grounding\nPASS: 无限是什么？ does not expose noisy graph grounding ids\nPASS: 无限是什么？ suppresses unrelated graph claims\nPASS: 无限是什么？ suppresses unrelated graph provenance\nPASS: 无限是什么？ still returns source URLs\nPASS: 无限是什么？ top evidence chunk is the curated anchor\nPASS: 橡树之心是什么？ falls back to curated evidence grounding\nPASS: 橡树之心是什么？ does not expose noisy graph grounding ids\nPASS: 橡树之心是什么？ suppresses unrelated graph claims\nPASS: 橡树之心是什么？ suppresses unrelated graph provenance\nPASS: 橡树之心是什么？ still returns source URLs\nPASS: 橡树之心是什么？ top evidence chunk is the curated anchor",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_query_analysis_contract",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 新星电法是什么 keeps precise matched terms\nPASS: 新星电法是什么 deterministic analysis avoids external LLM in contract test\nPASS: 新星电法是什么 keeps simple queries undecomposed\nPASS: 无限符文之语底材 intent classified as crafting_base\nPASS: 无限符文之语底材 has rewritten queries\nPASS: 无限符文之语底材 has enough retrieval queries\nPASS: 无限符文之语底材 has entity query\nPASS: 无限符文之语底材 deterministic analysis avoids external LLM in contract test\nPASS: 无限符文之语底材 emits stable subquestions\nPASS: QA payload exposes query analysis\nPASS: QA payload exposes retrieval plan\nPASS: QA evidence chunks keep route contributions",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_llm_execution_path",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: LLM execution path returns an answer payload\nPASS: LLM execution path preserves query analysis\nPASS: LLM answer still cites sources",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_llm_eval_dataset_grounding",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: analysis_nova_build source_context[3] dataset is valid\nPASS: analysis_nova_build source_context[3] keeps chunk_id\nPASS: analysis_nova_build source_context[3] keeps source_id\nPASS: analysis_nova_build source_context[3] keeps title\nPASS: analysis_nova_build source_context[3] keeps reference_excerpt\nPASS: all registered seeds are present in dataset\nPASS: llm-generated-query-eval-report-retrieval-only.json exists\nPASS: llm-generated-query-eval-report-retrieval-only.json total matches dataset size\nPASS: llm-generated-query-eval-report-retrieval-only.json is fully green\nPASS: llm-generated-query-eval-report-llm-assisted.json exists\nPASS: llm-generated-query-eval-report-llm-assisted.json total matches dataset size\nPASS: llm-generated-query-eval-report-llm-assisted.json is fully green",
       "stderr_tail": ""
     },
     {

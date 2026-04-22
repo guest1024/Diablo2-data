@@ -1,6 +1,6 @@
 # Surface Coverage Report
 
-- Generated at: `2026-04-21T14:40:20.213637+00:00`
+- Generated at: `2026-04-22T05:38:34.711071+00:00`
 - bilingual term map entries: `71`
 - curated anchor documents: `56`
 - curated anchor chunks: `56`

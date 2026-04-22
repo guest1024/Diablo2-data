@@ -1,0 +1,900 @@
+{
+  "generated_at": "2026-04-22T13:03:12.310593+00:00",
+  "dataset_path": "docs/tier0/evals/llm-generated-query-eval-dataset.json",
+  "use_llm": true,
+  "summary": {
+    "passed": 25,
+    "total": 25,
+    "by_type": {
+      "routing": {
+        "passed": 14,
+        "total": 14
+      },
+      "analysis": {
+        "passed": 11,
+        "total": 11
+      }
+    },
+    "by_expected_intent": {
+      "definition": {
+        "passed": 14,
+        "total": 14
+      },
+      "crafting_base": {
+        "passed": 2,
+        "total": 2
+      },
+      "farming": {
+        "passed": 2,
+        "total": 2
+      },
+      "location": {
+        "passed": 2,
+        "total": 2
+      },
+      "usage": {
+        "passed": 4,
+        "total": 4
+      },
+      "build": {
+        "passed": 1,
+        "total": 1
+      }
+    },
+    "by_grounding_mode": {
+      "graph+evidence": {
+        "passed": 4,
+        "total": 4
+      },
+      "curated-evidence": {
+        "passed": 21,
+        "total": 21
+      }
+    },
+    "metrics": {
+      "entity_query": {
+        "passed": 25,
+        "total": 25
+      },
+      "grounding_mode": {
+        "passed": 14,
+        "total": 14
+      },
+      "intent": {
+        "passed": 25,
+        "total": 25
+      },
+      "needs_decomposition": {
+        "passed": 25,
+        "total": 25
+      },
+      "top_source_id": {
+        "passed": 14,
+        "total": 14
+      },
+      "top_title": {
+        "passed": 14,
+        "total": 14
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "route_spirit",
+      "seed_id": "route_spirit",
+      "query": "暗黑2里的 Spirit 是什么？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "暗黑2里的 Spirit 是什么？",
+        "top_source_id": "diablo2-io",
+        "top_title": "Spirit \n        \n        \n        \n                                  • Diablo 2 Resurrected Runeword\n                          \n        \n         • diablo2.io",
+        "grounding_mode": "graph+evidence",
+        "top_retrieval_source": "entity_link"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Spirit",
+        "top_source_id": "diablo2-io",
+        "top_title_contains": "Spirit",
+        "grounding_mode": "graph+evidence"
+      }
+    },
+    {
+      "id": "route_shako",
+      "seed_id": "route_shako",
+      "query": "军帽是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Harlequin Crest",
+        "top_source_id": "diablo2-io",
+        "top_title": "Harlequin Crest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+        "grounding_mode": "graph+evidence",
+        "top_retrieval_source": "entity_link"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Harlequin",
+        "top_source_id": "diablo2-io",
+        "top_title_contains": "Harlequin Crest",
+        "grounding_mode": "graph+evidence"
+      }
+    },
+    {
+      "id": "route_torch",
+      "seed_id": "route_torch",
+      "query": "暗黑2里火炬是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Hellfire Torch",
+        "top_source_id": "diablo2-io",
+        "top_title": "Hellfire Torch \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+        "grounding_mode": "graph+evidence",
+        "top_retrieval_source": "entity_link"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Hellfire Torch",
+        "top_source_id": "diablo2-io",
+        "top_title_contains": "Hellfire Torch",
+        "grounding_mode": "graph+evidence"
+      }
+    },
+    {
+      "id": "route_soj",
+      "seed_id": "route_soj",
+      "query": "乔丹是啥戒指？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "The Stone of Jordan Unique Ring",
+        "top_source_id": "curated-anchor",
+        "top_title": "Stone of Jordan / 乔丹（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Stone of Jordan",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Stone of Jordan",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_infinity",
+      "seed_id": "route_infinity",
+      "query": "暗黑2里无限是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Infinity",
+        "top_source_id": "curated-anchor",
+        "top_title": "Infinity / 无限（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Infinity",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Infinity",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_chaos_sanctuary",
+      "seed_id": "route_chaos_sanctuary",
+      "query": "超市是啥",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Chaos Sanctuary",
+        "top_source_id": "curated-anchor",
+        "top_title": "Chaos Sanctuary / 超市（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Chaos",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Chaos Sanctuary",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_nova_sorc",
+      "seed_id": "route_nova_sorc",
+      "query": "新星电法是什么？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Nova Sorceress",
+        "top_source_id": "curated-anchor",
+        "top_title": "Nova Sorceress / 新星电法（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Nova Sorceress",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Nova Sorceress",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_countess",
+      "seed_id": "route_countess",
+      "query": "暗黑2里女伯爵是什么怪？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "The Countess",
+        "top_source_id": "curated-anchor",
+        "top_title": "The Countess / 女伯爵（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Countess",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "The Countess",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_hoto",
+      "seed_id": "route_hoto",
+      "query": "HOTO 是什么？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Heart of the Oak",
+        "top_source_id": "curated-anchor",
+        "top_title": "Heart of the Oak / HOTO（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Heart of the Oak",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Heart of the Oak",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_cta",
+      "seed_id": "route_cta",
+      "query": "CTA 是什么？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Call to Arms",
+        "top_source_id": "curated-anchor",
+        "top_title": "Call to Arms / 战争召唤（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Call to Arms",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Call to Arms",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_mephisto",
+      "seed_id": "route_mephisto",
+      "query": "劳模是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Mephisto",
+        "top_source_id": "curated-anchor",
+        "top_title": "Mephisto / 劳模（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Mephisto",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Mephisto",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_cow_level",
+      "seed_id": "route_cow_level",
+      "query": "牛场是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Secret Cow Level",
+        "top_source_id": "curated-anchor",
+        "top_title": "Secret Cow Level / 牛场（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Cow",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Secret Cow Level",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_ancient_tunnels",
+      "seed_id": "route_ancient_tunnels",
+      "query": "古代通道是什么？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Ancient Tunnels",
+        "top_source_id": "curated-anchor",
+        "top_title": "Ancient Tunnels / 古代通道（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Ancient Tunnels",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Ancient Tunnels",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "route_andariel_bug",
+      "seed_id": "route_andariel_bug",
+      "query": "暗黑2里说的虫子是啥？",
+      "case_type": "routing",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true,
+        "top_source_id": true,
+        "top_title": true,
+        "grounding_mode": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query": "Andariel Bug",
+        "top_source_id": "curated-anchor",
+        "top_title": "Andariel Bug / 虫子（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "definition",
+        "needs_decomposition": false,
+        "entity_query_contains": "Andariel Bug",
+        "top_source_id": "curated-anchor",
+        "top_title_contains": "Andariel Bug",
+        "grounding_mode": "curated-evidence"
+      }
+    },
+    {
+      "id": "analysis_spirit_shield_base",
+      "seed_id": "analysis_spirit_shield_base",
+      "query": "精神盾底材一般是不是 Monarach，做 Spirit 盾要几孔？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "crafting_base",
+        "needs_decomposition": true,
+        "entity_query": "Spirit Shield",
+        "top_source_id": "curated-anchor",
+        "top_title": "Spirit Shield / 精神盾（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "crafting_base",
+        "needs_decomposition": true,
+        "entity_query_contains": "Spirit",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_shako_farm",
+      "seed_id": "analysis_shako_farm",
+      "query": "军帽 Shako 哪里刷？想问 Hell Mephisto 掉落 farm 是否靠谱。",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "farming",
+        "needs_decomposition": true,
+        "entity_query": "Harlequin Crest",
+        "top_source_id": "diablo2-io",
+        "top_title": "Harlequin Crest \n        \n        \n        \n                                  • Diablo 2 Resurrected Unique Item\n                          \n        \n         • diablo2.io",
+        "grounding_mode": "graph+evidence",
+        "top_retrieval_source": "entity_link"
+      },
+      "expected": {
+        "intent": "farming",
+        "needs_decomposition": true,
+        "entity_query_contains": "Harlequin",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_chaos_path",
+      "seed_id": "analysis_chaos_path",
+      "query": "从 River of Flame 进超市怎么走，Chaos Sanctuary 里面五个封印的路线一般怎么跑？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "location",
+        "needs_decomposition": true,
+        "entity_query": "Chaos Sanctuary",
+        "top_source_id": "curated-anchor",
+        "top_title": "Chaos Sanctuary / 超市（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "location",
+        "needs_decomposition": true,
+        "entity_query_contains": "Chaos",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_pit_usage",
+      "seed_id": "analysis_pit_usage",
+      "query": "地穴（The Pit）有啥用，适合拿来做 MF 和刷 85 场景吗？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query": "The Pit",
+        "top_source_id": "curated-anchor",
+        "top_title": "The Pit / 地穴（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query_contains": "Pit",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_infinity_base",
+      "seed_id": "analysis_infinity_base",
+      "query": "无限底材用几孔 Polearm，Scythe 能不能做？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "crafting_base",
+        "needs_decomposition": true,
+        "entity_query": "Infinity",
+        "top_source_id": "curated-anchor",
+        "top_title": "Infinity / 无限（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "crafting_base",
+        "needs_decomposition": true,
+        "entity_query_contains": "Infinity",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_nova_build",
+      "seed_id": "analysis_nova_build",
+      "query": "新星电法配装怎么玩，ES 用 Memory 预buff、自持 Infinity Scythe 这套练法怎么搭？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "build",
+        "needs_decomposition": true,
+        "entity_query": "Nova Sorceress",
+        "top_source_id": "curated-anchor",
+        "top_title": "Nova Sorceress / 新星电法（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "build",
+        "needs_decomposition": true,
+        "entity_query_contains": "Nova",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_hoto_usage",
+      "seed_id": "analysis_hoto_usage",
+      "query": "HOTO 有啥用，适合哪些 caster 职业？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query": "Heart of the Oak",
+        "top_source_id": "curated-anchor",
+        "top_title": "Heart of the Oak / HOTO（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query_contains": "Heart of the Oak",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_cta_usage",
+      "seed_id": "analysis_cta_usage",
+      "query": "CTA 有啥用，除了 BO 以外适合拿来做辅助吗？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query": "Call to Arms",
+        "top_source_id": "curated-anchor",
+        "top_title": "Call to Arms / 战争召唤（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query_contains": "Call to Arms",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_mephisto_farm",
+      "seed_id": "analysis_mephisto_farm",
+      "query": "劳模在 Durance of Hate Level 3 farm 的话主要掉落怎么样，Hell 难度的 treasure class 值不值得刷？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "farming",
+        "needs_decomposition": true,
+        "entity_query": "Mephisto",
+        "top_source_id": "curated-anchor",
+        "top_title": "Mephisto / 劳模（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "farming",
+        "needs_decomposition": true,
+        "entity_query_contains": "Mephisto",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_ancient_tunnels_location",
+      "seed_id": "analysis_ancient_tunnels_location",
+      "query": "A2 Lost City 的古代通道入口在哪里，怎么走？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "location",
+        "needs_decomposition": true,
+        "entity_query": "Ancient Tunnels",
+        "top_source_id": "curated-anchor",
+        "top_title": "Ancient Tunnels / 古代通道（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "location",
+        "needs_decomposition": true,
+        "entity_query_contains": "Ancient Tunnels",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    },
+    {
+      "id": "analysis_cow_usage",
+      "seed_id": "analysis_cow_usage",
+      "query": "牛场有啥用，适合刷底材和刷符文吗？",
+      "case_type": "analysis",
+      "use_llm": true,
+      "checks": {
+        "intent": true,
+        "needs_decomposition": true,
+        "entity_query": true
+      },
+      "passed": true,
+      "score": 1.0,
+      "actual": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query": "Secret Cow Level",
+        "top_source_id": "curated-anchor",
+        "top_title": "Secret Cow Level / 牛场（Curated Anchor Card）",
+        "grounding_mode": "curated-evidence",
+        "top_retrieval_source": "lexical"
+      },
+      "expected": {
+        "intent": "usage",
+        "needs_decomposition": true,
+        "entity_query_contains": "Cow",
+        "top_source_id": null,
+        "top_title_contains": null,
+        "grounding_mode": null
+      }
+    }
+  ]
+}

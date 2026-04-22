@@ -15,6 +15,11 @@ class QARequest(BaseModel):
     use_llm: bool = True
 
 
+class AnalyzeRequest(BaseModel):
+    query: str
+    use_llm: bool = False
+
+
 @app.get("/health")
 def health() -> dict[str, object]:
     return {"ok": True, "graph_stats": service.graph.stats()}
@@ -23,6 +28,11 @@ def health() -> dict[str, object]:
 @app.post("/ingest")
 def ingest() -> dict[str, int]:
     return service.ingest()
+
+
+@app.post("/analyze-query")
+def analyze_query(req: AnalyzeRequest) -> dict[str, object]:
+    return service.analyze_query(req.query, use_llm=req.use_llm)
 
 
 @app.post("/qa")

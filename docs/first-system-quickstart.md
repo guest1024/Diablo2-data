@@ -154,17 +154,22 @@ python scripts/smoke_test_first_system.py --with-llm
 
 ## 8. LLM 配置说明
 
-`.env.local` 已接入你提供的 OpenAI-compatible 配置。
+当前代码同时兼容两套环境变量命名：
 
-当前代码会自动把：
+- `LLM_API_KEY / LLM_BASE_URL / LLM_MODEL`
+- `OPENAI_API_KEY / BASE_URL / MODEL`
 
-- `https://.../api`
+例如：
 
-规范化为：
+```bash
+export OPENAI_API_KEY="<your-key>"
+export BASE_URL="https://vibediary.app/api/v1"
+export MODEL="gpt-5.4"
+```
 
-- `https://.../api/v1`
+项目会自动把 base URL 规范化到 `/v1` 形式，因此你可以直接给兼容 OpenAI 的 endpoint。
 
-因此不需要你手工再改 base_url。
+如果你使用本地 `.env.local`，也可以同时写入 `LLM_*` 与 OpenAI 风格变量，方便脚本和服务共享。
 
 ---
 
@@ -215,3 +220,38 @@ python scripts/smoke_test_first_system.py --with-llm
 
 - `docs/tier0/verification/first-system-query-eval.md`
 - `docs/tier0/verification/manual-gap-check-2026-04-21.md`
+- `docs/first-system-flow-and-code.md`
+- `docs/ralph-handoff-2026-04-22.md`
+- `docs/tier0/evals/llm-generated-query-eval-dataset.json`
+
+### 11. 生成 LLM Eval Dataset 并跑评测
+
+```bash
+python scripts/generate_llm_eval_dataset.py
+python scripts/evaluate_llm_generated_dataset.py
+python scripts/evaluate_llm_generated_dataset.py --use-llm
+python scripts/verify_llm_eval_dataset_grounding.py
+```
+
+说明：
+
+- 第一步：用当前配置的大模型，**基于仓库内 Diablo2 语料证据** 生成一组小型评测 query dataset
+- 第二步：评估规则/检索链路
+- 第三步：评估启用 LLM 的完整问答链路
+
+当前 dataset 不再是通用问答 prompt 随机出题，而是会显式引用：
+
+- `docs/tier0/curated/chunks.jsonl`
+- `docs/chroma-ready/chunks.jsonl`
+
+因此它更适合验证：
+
+- Diablo2 俗称 / 黑话路由
+- facet-aware 的多路召回 query rewrite
+- 子问题分解是否和真实语料对齐
+
+当前默认覆盖 **25 条 source-grounded case**，包含：
+
+- 物品 / 符文之语简称：`Spirit / HOTO / CTA / SOJ / Infinity`
+- 黑话 / 区域：`超市 / 劳模 / 牛场 / 古代通道 / 地穴`
+- build / 玩法：`新星电法 / ES / Memory / Infinity Scythe`

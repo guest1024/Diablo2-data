@@ -22,14 +22,29 @@ def load_env_file(path: Path) -> None:
 load_env_file(ROOT / ".env.local")
 
 
+def env_first(*keys: str, default: str = "") -> str:
+    for key in keys:
+        value = os.environ.get(key)
+        if value is not None and str(value).strip() != "":
+            return str(value).strip()
+    return default
+
+
 @dataclass(frozen=True)
 class Settings:
-    llm_base_url: str = os.environ.get("LLM_BASE_URL", "")
-    llm_model: str = os.environ.get("LLM_MODEL", "gpt-5.4")
-    llm_api_key: str = os.environ.get("LLM_API_KEY", "")
-    chroma_persist_dir: str = os.environ.get("CHROMA_PERSIST_DIR", ".data/chroma")
-    graph_data_dir: str = os.environ.get("GRAPH_DATA_DIR", "docs/tier0/merged")
-    bilingual_term_map_path: str = os.environ.get("BILINGUAL_TERM_MAP_PATH", "docs/tier0/bilingual-term-map.json")
+    llm_base_url: str = env_first("LLM_BASE_URL", "BASE_URL")
+    llm_model: str = env_first("LLM_MODEL", "MODEL", default="gpt-5.4")
+    llm_api_key: str = env_first("LLM_API_KEY", "OPENAI_API_KEY")
+    llm_timeout_seconds: float = float(env_first("LLM_TIMEOUT_SECONDS", default="45"))
+    query_analyzer_llm_enabled: bool = env_first("QUERY_ANALYZER_LLM_ENABLED", default="false").lower() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
+    chroma_persist_dir: str = env_first("CHROMA_PERSIST_DIR", default=".data/chroma")
+    graph_data_dir: str = env_first("GRAPH_DATA_DIR", default="docs/tier0/merged")
+    bilingual_term_map_path: str = env_first("BILINGUAL_TERM_MAP_PATH", default="docs/tier0/bilingual-term-map.json")
 
 
 settings = Settings()

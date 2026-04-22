@@ -1,6 +1,6 @@
 # Routing Matrix Verification
 
-- Generated at: `2026-04-21T14:40:19.998562+00:00`
+- Generated at: `2026-04-22T05:38:34.595266+00:00`
 - Runtime ingest: `511 documents / 8708 chunks`
 
 | Query | Lane | Retrieval | Source | Top title |

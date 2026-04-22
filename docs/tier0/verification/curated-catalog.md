@@ -1,6 +1,6 @@
 # Curated Catalog
 
-- Generated at: `2026-04-21T14:40:20.341233+00:00`
+- Generated at: `2026-04-22T05:38:34.761366+00:00`
 - Curated cards: `56`
 
 ## Ancient Tunnels / 古代通道（Curated Anchor Card）

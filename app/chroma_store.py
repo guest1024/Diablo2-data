@@ -135,6 +135,36 @@ class ChromaStore:
             )
         return rows[:top_k]
 
+    def _vector_search(self, query: str, top_k: int = 8) -> list[dict[str, Any]]:
+        collection = self.client.get_or_create_collection(
+            name="evidence_chunks",
+            embedding_function=self.embedding_function,
+            metadata={"hnsw:space": "cosine"},
+        )
+        rows: list[dict[str, Any]] = []
+        if collection.count() <= 0:
+            return rows
+        result = collection.query(query_texts=[query], n_results=top_k)
+        documents = result.get("documents", [[]])[0]
+        metadatas = result.get("metadatas", [[]])[0]
+        ids = result.get("ids", [[]])[0]
+        distances = result.get("distances", [[]])[0] or [None] * len(ids)
+        for idx, chunk_id in enumerate(ids):
+            title = str(metadatas[idx].get("title", "")) if idx < len(metadatas) else ""
+            text = documents[idx] if idx < len(documents) else ""
+            if self._is_low_quality_row(title, text):
+                continue
+            rows.append(
+                {
+                    "chunk_id": chunk_id,
+                    "text": text,
+                    "metadata": metadatas[idx],
+                    "distance": distances[idx],
+                    "retrieval_source": "vector",
+                }
+            )
+        return rows
+
     def _lexical_search(
         self,
         query: str,
@@ -268,65 +298,162 @@ class ChromaStore:
         preferred_source_ids: list[str] | None = None,
         discouraged_source_ids: list[str] | None = None,
     ) -> list[dict[str, Any]]:
-        collection = self.client.get_or_create_collection(
-            name="evidence_chunks",
-            embedding_function=self.embedding_function,
-            metadata={"hnsw:space": "cosine"},
-        )
-        rows: dict[str, dict[str, Any]] = {}
-        for row in self._entity_linked_search(entity_ids or [], top_k=top_k):
-            rows[row["chunk_id"]] = row
-        try:
-            if collection.count() > 0:
-                result = collection.query(query_texts=[query], n_results=top_k)
-                documents = result.get("documents", [[]])[0]
-                metadatas = result.get("metadatas", [[]])[0]
-                ids = result.get("ids", [[]])[0]
-                distances = result.get("distances", [[]])[0] or [None] * len(ids)
-                for idx, chunk_id in enumerate(ids):
-                    title = str(metadatas[idx].get("title", "")) if idx < len(metadatas) else ""
-                    text = documents[idx] if idx < len(documents) else ""
-                    if self._is_low_quality_row(title, text):
-                        continue
-                    rows[chunk_id] = {
-                        "chunk_id": chunk_id,
-                        "text": documents[idx],
-                        "metadata": metadatas[idx],
-                        "distance": distances[idx],
-                        "retrieval_source": "vector",
-                    }
-        except Exception:
-            rows = {}
-
-        for row in self._lexical_search(
-            query,
+        return self.query_chunks_multi(
+            [{"label": "primary", "query": query, "weight": 1.0}],
             top_k=top_k,
+            entity_ids=entity_ids,
             preferred_terms=preferred_terms,
             preferred_title_contains=preferred_title_contains,
             preferred_text_contains=preferred_text_contains,
             preferred_source_ids=preferred_source_ids,
             discouraged_source_ids=discouraged_source_ids,
-        ):
-            existing = rows.get(row["chunk_id"])
-            if existing is None or existing.get("retrieval_source") == "vector":
-                rows[row["chunk_id"]] = row
+        )
+
+    @staticmethod
+    def _vector_contribution(distance: Any, weight: float) -> float:
+        if distance is None:
+            return 0.0
+        try:
+            numeric = float(distance)
+        except (TypeError, ValueError):
+            return 0.0
+        return max(0.0, 1.2 - numeric) * 8.0 * weight
+
+    @staticmethod
+    def _route_priority(route: str) -> int:
+        if route == "entity_link":
+            return 0
+        if route == "lexical":
+            return 1
+        if route == "vector":
+            return 2
+        return 3
+
+    def _merge_candidate(
+        self,
+        rows: dict[str, dict[str, Any]],
+        candidate: dict[str, Any],
+        *,
+        contribution: float,
+        route_label: str,
+        query_label: str,
+        query_text: str,
+    ) -> None:
+        chunk_id = str(candidate["chunk_id"])
+        existing = rows.get(chunk_id)
+        route_entry = {
+            "route": route_label,
+            "query_label": query_label,
+            "query": query_text,
+            "score": round(contribution, 4),
+        }
+        if existing is None:
+            rows[chunk_id] = {
+                **candidate,
+                "score": round(contribution, 4),
+                "aggregate_score": round(contribution, 4),
+                "route_contributions": [route_entry],
+                "retrieval_source": route_label,
+            }
+            return
+
+        existing["aggregate_score"] = round(float(existing.get("aggregate_score", 0.0)) + contribution, 4)
+        existing["route_contributions"].append(route_entry)
+        if contribution > float(existing.get("score", 0.0)):
+            existing.update(candidate)
+            existing["score"] = round(contribution, 4)
+            existing["retrieval_source"] = route_label
+
+    def query_chunks_multi(
+        self,
+        query_specs: list[dict[str, Any]],
+        top_k: int = 8,
+        entity_ids: list[str] | None = None,
+        preferred_terms: list[str] | None = None,
+        preferred_title_contains: list[str] | None = None,
+        preferred_text_contains: list[str] | None = None,
+        preferred_source_ids: list[str] | None = None,
+        discouraged_source_ids: list[str] | None = None,
+    ) -> list[dict[str, Any]]:
+        rows: dict[str, dict[str, Any]] = {}
+        preferred_title_contains = [term.lower() for term in (preferred_title_contains or []) if term]
+        preferred_source_ids = [term for term in (preferred_source_ids or []) if term]
+
+        for row in self._entity_linked_search(entity_ids or [], top_k=top_k):
+            self._merge_candidate(
+                rows,
+                row,
+                contribution=100.0,
+                route_label="entity_link",
+                query_label="entity_link",
+                query_text="entity_link",
+            )
+
+        for spec in query_specs[:6]:
+            query = " ".join(str(spec.get("query", "")).split()).strip()
+            if not query:
+                continue
+            weight = float(spec.get("weight", 1.0))
+            label = str(spec.get("label", "query")).strip() or "query"
+
+            try:
+                vector_rows = self._vector_search(query, top_k=top_k)
+            except Exception:
+                vector_rows = []
+            for row in vector_rows:
+                contribution = self._vector_contribution(row.get("distance"), weight)
+                if contribution <= 0:
+                    continue
+                self._merge_candidate(
+                    rows,
+                    row,
+                    contribution=contribution,
+                    route_label="vector",
+                    query_label=label,
+                    query_text=query,
+                )
+
+            lexical_rows = self._lexical_search(
+                query,
+                top_k=top_k,
+                preferred_terms=preferred_terms,
+                preferred_title_contains=preferred_title_contains,
+                preferred_text_contains=preferred_text_contains,
+                preferred_source_ids=preferred_source_ids,
+                discouraged_source_ids=discouraged_source_ids,
+            )
+            for row in lexical_rows:
+                contribution = min(float(row.get("score", 0.0)), 60.0) * weight
+                if contribution <= 0:
+                    continue
+                self._merge_candidate(
+                    rows,
+                    row,
+                    contribution=contribution,
+                    route_label="lexical",
+                    query_label=label,
+                    query_text=query,
+                )
+
+        for row in rows.values():
+            metadata = dict(row.get("metadata", {}))
+            title_lower = str(metadata.get("title", "")).lower()
+            source_id = str(metadata.get("source_id", ""))
+            bonus = 0.0
+            if preferred_title_contains and any(term in title_lower for term in preferred_title_contains):
+                bonus += 25.0
+            if preferred_source_ids and source_id in preferred_source_ids:
+                bonus += 18.0
+            if source_id == "curated-anchor" and preferred_source_ids:
+                bonus += 6.0
+            row["aggregate_score"] = round(float(row.get("aggregate_score", 0.0)) + bonus, 4)
 
         combined = list(rows.values())
-        def priority(row: dict[str, Any]) -> int:
-            if row.get("retrieval_source") == "entity_link":
-                return 0
-            if row.get("retrieval_source") == "lexical" and row.get("score", 0.0) >= 3.0:
-                return 1
-            if row.get("retrieval_source") == "vector":
-                return 2
-            return 3
-
         combined.sort(
             key=lambda row: (
-                priority(row),
-                row.get("distance") is None,
+                self._route_priority(str(row.get("retrieval_source", ""))),
+                -float(row.get("aggregate_score", 0.0)),
                 row.get("distance") if row.get("distance") is not None else 999999,
-                -row.get("score", 0.0),
             )
         )
         return combined[:top_k]

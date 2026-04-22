@@ -31,6 +31,23 @@ def main() -> int:
     ingest.raise_for_status()
     print("INGEST", json.dumps(ingest.json(), ensure_ascii=False))
 
+    analysis = client.post("/analyze-query", json={"query": "精神盾底材是什么", "use_llm": False})
+    analysis.raise_for_status()
+    analysis_body = analysis.json()
+    print(
+        "ANALYZE",
+        json.dumps(
+            {
+                "query": analysis_body.get("original_query"),
+                "intent": analysis_body.get("intent"),
+                "complexity": analysis_body.get("complexity"),
+                "retrieval_queries": analysis_body.get("retrieval_queries"),
+                "subquestions": analysis_body.get("subquestions"),
+            },
+            ensure_ascii=False,
+        ),
+    )
+
     queries = [
         "Spirit 是什么？",
         "军帽是什么？",
