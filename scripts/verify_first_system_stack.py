@@ -16,6 +16,14 @@ CHECKS = [
         "cmd": [sys.executable, "scripts/verify_chroma_package.py"],
     },
     {
+        "name": "build_graph_support_assets",
+        "cmd": [sys.executable, "scripts/build_graph_support_assets.py"],
+    },
+    {
+        "name": "verify_graph_support_assets",
+        "cmd": [sys.executable, "scripts/verify_graph_support_assets.py"],
+    },
+    {
         "name": "verify_bilingual_term_map",
         "cmd": [sys.executable, "scripts/verify_bilingual_term_map.py"],
     },
@@ -50,6 +58,10 @@ CHECKS = [
     {
         "name": "verify_strategy_docs",
         "cmd": [sys.executable, "scripts/verify_strategy_docs.py"],
+    },
+    {
+        "name": "verify_doc_handbooks",
+        "cmd": [sys.executable, "scripts/verify_doc_handbooks.py"],
     },
 ]
 

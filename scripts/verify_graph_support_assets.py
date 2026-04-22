@@ -34,6 +34,10 @@ def main() -> int:
     expect(len(aliases) > 100, "alias registry has substantial coverage")
     expect(len(equivalences) > 50, "term equivalence registry has substantial coverage")
     expect(len(builds) >= 5, "build archetype registry has starter coverage")
+    expect(all(row.get("alias_id") for row in aliases), "alias registry rows all have alias_id")
+    expect(all(row.get("edge_id") for row in equivalences), "term equivalence rows all have edge_id")
+    expect(all(":::" not in row["alias_id"] for row in aliases), "alias ids do not contain malformed separators")
+    expect(all(":::" not in row["edge_id"] for row in equivalences), "term equivalence ids do not contain malformed separators")
 
     required_aliases = {"SOJ", "CTA", "HOTO", "MF", "DClone", "安头", "米山", "锤丁"}
     present_aliases = {row["alias"] for row in aliases}

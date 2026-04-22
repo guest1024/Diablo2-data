@@ -1,11 +1,13 @@
 # Verification Suite
 
-- Generated at: `2026-04-21T14:40:20.482782+00:00`
-- Passed: `10/10`
+- Generated at: `2026-04-21T15:43:44.431516+00:00`
+- Passed: `13/13`
 
 | Check | Status |
 |---|---|
 | verify_chroma_package | PASS |
+| build_graph_support_assets | PASS |
+| verify_graph_support_assets | PASS |
 | verify_bilingual_term_map | PASS |
 | verify_curated_anchor_routing | PASS |
 | verify_routing_matrix | PASS |
@@ -15,6 +17,7 @@
 | build_curated_catalog | PASS |
 | build_term_map_catalog | PASS |
 | verify_strategy_docs | PASS |
+| verify_doc_handbooks | PASS |
 
 ## Check tails
 
@@ -35,6 +38,33 @@ PASS: chroma chunks include language metadata
 PASS: chroma chunks include doc_type metadata
 PASS: chroma chunks include game_variant metadata
 PASS: chroma package verification completed
+```
+
+### build_graph_support_assets
+
+- status: `PASS`
+- stdout tail:
+```text
+{"aliases": 243, "equivalences": 243, "build_archetypes": 9}
+```
+
+### verify_graph_support_assets
+
+- status: `PASS`
+- stdout tail:
+```text
+PASS: alias registry contains MF
+PASS: alias registry contains 锤丁
+PASS: alias registry contains HOTO
+PASS: alias registry contains CTA
+PASS: alias registry contains 安头
+PASS: alias registry contains 米山
+PASS: alias registry contains DClone
+PASS: build registry contains build::blizzard-sorceress
+PASS: build registry contains build::summon-necromancer
+PASS: build registry contains build::hammerdin
+PASS: build registry contains build::lightning-sorceress
+PASS: build registry contains build::javazon
 ```
 
 ### verify_bilingual_term_map
@@ -184,5 +214,24 @@ PASS: community capability doc contains marker: 任务、地图与隐藏关卡
 PASS: community capability doc contains marker: 问题类型路由层
 PASS: community capability doc contains marker: source-aware answer policy
 PASS: community capability doc contains marker: 失败问答回流
+```
+
+### verify_doc_handbooks
+
+- status: `PASS`
+- stdout tail:
+```text
+PASS: docs/RAG开发手册.md contains marker: 当前数据层总览
+PASS: docs/RAG开发手册.md contains marker: merged 主知识层
+PASS: docs/RAG开发手册.md contains marker: chroma-ready 包
+PASS: docs/RAG开发手册.md contains marker: curated anchor 层
+PASS: docs/RAG开发手册.md contains marker: 当前已经能解决哪些问题
+PASS: docs/RAG开发手册.md contains marker: 当前还不够强的地方
+PASS: docs/用户使用手册.md exists
+PASS: docs/用户使用手册.md contains marker: 快速启动
+PASS: docs/用户使用手册.md contains marker: 可以怎么问
+PASS: docs/用户使用手册.md contains marker: 回答结果怎么理解
+PASS: docs/用户使用手册.md contains marker: 当前系统擅长什么
+PASS: docs/用户使用手册.md contains marker: 当前能力边界
 ```
 

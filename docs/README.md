@@ -29,6 +29,9 @@
 当前第一版系统快速入口：
 
 - `docs/first-system-quickstart.md`
+- `docs/知识文档管理手册.md`
+- `docs/RAG开发手册.md`
+- `docs/用户使用手册.md`
 - `scripts/smoke_test_first_system.py`
 - `docs/tier0/curated/`
 - `docs/tier0/verification/README.md`

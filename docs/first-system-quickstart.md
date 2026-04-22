@@ -105,6 +105,8 @@ curl -X POST http://127.0.0.1:8000/qa \
 
 ```bash
 source .venv/bin/activate
+python scripts/build_graph_support_assets.py
+python scripts/verify_graph_support_assets.py
 python scripts/verify_bilingual_term_map.py
 python scripts/verify_curated_anchor_routing.py
 python scripts/verify_routing_matrix.py

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -67,7 +68,11 @@ BUILD_TITLES = {
 def slugify(text: str) -> str:
     lowered = text.lower()
     lowered = re.sub(r"[^a-z0-9]+", "-", lowered)
-    return lowered.strip("-")
+    normalized = lowered.strip("-")
+    if normalized:
+        return normalized
+    digest = hashlib.sha1(text.encode("utf-8")).hexdigest()[:12]
+    return f"u-{digest}"
 
 
 def load_curated_docs() -> list[dict]:
