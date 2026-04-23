@@ -1,0 +1,15 @@
+{
+  "id": "d2_blizzard_cn",
+  "label": "暴雪国服暗黑2中文站",
+  "weight": 0.99,
+  "transport": "direct",
+  "authority_tier": "official",
+  "lane": "official",
+  "seed_count": 3,
+  "candidate_count": 4,
+  "new_count": 0,
+  "updated_count": 0,
+  "frozen_count": 1,
+  "ignored_count": 0,
+  "status": "captured"
+}

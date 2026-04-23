@@ -1,0 +1,15 @@
+{
+  "id": "diablo2_com_cn",
+  "label": "CNBN 主站资料区",
+  "weight": 0.96,
+  "transport": "direct-http",
+  "authority_tier": "guide",
+  "lane": "guide",
+  "seed_count": 2,
+  "candidate_count": 4,
+  "new_count": 0,
+  "updated_count": 0,
+  "frozen_count": 1,
+  "ignored_count": 0,
+  "status": "captured"
+}

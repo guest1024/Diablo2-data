@@ -1,0 +1,15 @@
+{
+  "id": "rogue_camp_163",
+  "label": "网易罗格营地论坛",
+  "weight": 0.9,
+  "transport": "direct",
+  "authority_tier": "forum",
+  "lane": "forum",
+  "seed_count": 1,
+  "candidate_count": 0,
+  "new_count": 0,
+  "updated_count": 0,
+  "frozen_count": 0,
+  "ignored_count": 0,
+  "status": "seed-only"
+}

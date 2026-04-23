@@ -33,6 +33,7 @@ class DataBranchPublishTests(unittest.TestCase):
     def test_build_effective_include_latest_only(self) -> None:
         include = build_effective_include(True, None, 'run-1')
         self.assertIn('crawler/runs/run-1', include)
+        self.assertIn('crawler/manual_curated_urls.json', include)
         self.assertIn('crawler/state/page-records', include)
         self.assertNotIn('crawler/runs', include)
 

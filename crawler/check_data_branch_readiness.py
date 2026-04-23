@@ -3,17 +3,14 @@ from __future__ import annotations
 
 import json
 import subprocess
-import sys
 from pathlib import Path
 
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
 PUBLISH_AUDIT = CURRENT_DIR / 'state/publish-audit.json'
 MANUAL_BACKLOG = CURRENT_DIR / 'state/manual-curated-backlog.md'
 WORKFLOW = PROJECT_ROOT / '.github/workflows/scheduler.yml'
+REMOTE_PROBE = CURRENT_DIR / 'state/data-branch-remote-probe.json'
 OUT_PATH = CURRENT_DIR / 'state/data-branch-readiness.json'
 
 
@@ -67,12 +64,30 @@ def build_readiness() -> dict:
         checks['workflow_publish_step'] = False
         warnings.append('crawler workflow file is missing')
 
+    checks['remote_probe_exists'] = REMOTE_PROBE.is_file()
+    first_push_will_create_branch = None
+    if REMOTE_PROBE.is_file():
+        remote_probe = json.loads(REMOTE_PROBE.read_text(encoding='utf-8'))
+        details['remote_probe'] = remote_probe
+        checks['remote_accessible'] = bool(remote_probe.get('remote_accessible'))
+        checks['remote_exists'] = bool(remote_probe.get('remote_exists'))
+        branch_exists = bool(remote_probe.get('branch_exists'))
+        first_push_will_create_branch = not branch_exists and checks['remote_accessible'] and checks['remote_exists']
+        if first_push_will_create_branch:
+            warnings.append('remote data branch does not exist yet; first real push will create it')
+    else:
+        checks['remote_accessible'] = False
+        checks['remote_exists'] = False
+        warnings.append('remote probe missing; run crawler/probe_data_branch_remote.py first')
+
+    ready = all(checks.values())
     details['warnings'] = warnings
+    details['first_push_will_create_branch'] = first_push_will_create_branch
     return {
         'checks': checks,
         'warnings': warnings,
         'details': details,
-        'ready': all(checks.values()),
+        'ready': ready,
     }
 
 

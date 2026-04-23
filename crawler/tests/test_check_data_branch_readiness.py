@@ -11,6 +11,7 @@ class CheckDataBranchReadinessTests(unittest.TestCase):
         self.assertIn('checks', readiness)
         self.assertIn('ready', readiness)
         self.assertIn('warnings', readiness)
+        self.assertIn('first_push_will_create_branch', readiness['details'])
 
 
 if __name__ == '__main__':

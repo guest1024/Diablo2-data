@@ -1,0 +1,15 @@
+{
+  "id": "3dm_d2r",
+  "label": "3DM D2R 攻略页",
+  "weight": 0.8,
+  "transport": "direct",
+  "authority_tier": "guide",
+  "lane": "portal",
+  "seed_count": 5,
+  "candidate_count": 4,
+  "new_count": 0,
+  "updated_count": 0,
+  "frozen_count": 1,
+  "ignored_count": 0,
+  "status": "captured"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bbs_diablo2_com_cn",
+  "label": "CNBN 论坛精华白名单",
+  "weight": 0.94,
+  "transport": "direct-http",
+  "authority_tier": "forum",
+  "lane": "forum",
+  "seed_count": 4,
+  "candidate_count": 4,
+  "new_count": 0,
+  "updated_count": 0,
+  "frozen_count": 1,
+  "ignored_count": 0,
+  "status": "captured"
+}

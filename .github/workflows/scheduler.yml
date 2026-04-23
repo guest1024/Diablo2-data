@@ -131,6 +131,7 @@ jobs:
           python3 crawler/export_snapshot_relations.py
           python3 crawler/export_page_catalog_partitions.py
           python3 crawler/export_source_health_partitions.py
+          python3 crawler/export_latest_run_partitions.py
           python3 crawler/export_page_records.py
           python3 crawler/audit_publish_bundle.py
           python3 crawler/build_data_branch_manifest.py
@@ -156,6 +157,10 @@ jobs:
           fi
           python3 crawler/prune_snapshots.py "${EXTRA_ARGS[@]}"
           python3 scripts/build_crawler_reports.py
+          python3 crawler/build_state_index.py
+          python3 crawler/build_final_push_summary.py
+          python3 crawler/build_state_index.py
+          python3 crawler/build_final_push_summary.py
 
       - name: Upload crawler artifacts
         uses: actions/upload-artifact@v4

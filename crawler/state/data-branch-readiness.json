@@ -8,10 +8,14 @@
     "manual_backlog_exists": true,
     "workflow_exists": true,
     "workflow_latest_only": true,
-    "workflow_publish_step": true
+    "workflow_publish_step": true,
+    "remote_probe_exists": true,
+    "remote_accessible": true,
+    "remote_exists": true
   },
   "warnings": [
-    "rogue_camp_163 still needs manual curated URLs"
+    "rogue_camp_163 still needs manual curated URLs",
+    "remote data branch does not exist yet; first real push will create it"
   ],
   "details": {
     "git_remote": "origin\tgit@github.com:guest1024/Diablo2-data.git (fetch)\norigin\tgit@github.com:guest1024/Diablo2-data.git (push)",
@@ -24,6 +28,10 @@
         "crawler/OPERATIONS.md",
         "crawler/SOURCE_OPTIONS.md",
         "crawler/VERIFIED_SNAPSHOT_TARGETS.md",
+        "crawler/MANUAL_CURATED_PLAYBOOK.md",
+        "crawler/manual_curated_urls.json",
+        "crawler/manual_curated_urls.example.json",
+        "crawler/manual_curated_rogue_camp_template.md",
         "crawler/state/catalog-report.md",
         "crawler/state/latest-run.json",
         "crawler/state/page_catalog.json",
@@ -43,13 +51,17 @@
         "crawler/state/data-branch-readiness.json",
         "crawler/runs/20260423T071556Z"
       ],
-      "preview_count": 88,
+      "preview_count": 92,
       "preview_head": [
         "crawler/CRAWL_POLICY.md",
+        "crawler/MANUAL_CURATED_PLAYBOOK.md",
         "crawler/OPERATIONS.md",
         "crawler/README.md",
         "crawler/SOURCE_OPTIONS.md",
         "crawler/VERIFIED_SNAPSHOT_TARGETS.md",
+        "crawler/manual_curated_rogue_camp_template.md",
+        "crawler/manual_curated_urls.example.json",
+        "crawler/manual_curated_urls.json",
         "crawler/runs/20260423T071556Z/17173_d2r/manifest.json",
         "crawler/runs/20260423T071556Z/3dm_d2r/manifest.json",
         "crawler/runs/20260423T071556Z/91d2/manifest.json",
@@ -90,11 +102,7 @@
         "crawler/state/page-records/3dm_d2r/www.3dmgame.com/gl/3837288.html.json",
         "crawler/state/page-records/3dm_d2r/www.3dmgame.com/gl/3837440.html.json",
         "crawler/state/page-records/3dm_d2r/www.3dmgame.com/gl/3838021.html.json",
-        "crawler/state/page-records/91d2/www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html.json",
-        "crawler/state/page-records/ali213_d2r/gl.ali213.net/html/2021-4/603861.html.json",
-        "crawler/state/page-records/bbs_diablo2_com_cn/bbs.diablo2.com.cn/read.php__tid-12676.json",
-        "crawler/state/page-records/bbs_diablo2_com_cn/bbs.diablo2.com.cn/read.php__tid-239897.json",
-        "crawler/state/page-records/d2_blizzard_cn/d2.blizzard.cn/news/20260203/42929_1285202.html.json"
+        "crawler/state/page-records/91d2/www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html.json"
       ],
       "required_files_present": {
         "latest_run": true,
@@ -106,9 +114,22 @@
       }
     },
     "manual_backlog_excerpt": "# Manual Curated Backlog\n\nWeak / blocked sources that likely need manual curated URL seeding are listed below.\n\n| Source | Enabled | Transport | Saved snapshots | Manual curated count | Why it needs help | Suggested action |\n| --- | --- | --- | ---: | ---: | --- | --- |\n| rogue_camp_163 | True | direct | 0 | 0 | no saved snapshots yet; forum entry page still returns prompt/seed-only in current environment | 优先人工收集 1~3 条凯恩之角/罗格营地静态攻略帖 URL，再用 validate/probe 校验后写入 manual_curated_urls.json。 |\n| news_blizzard_zh_tw | True | direct | 0 | 0 | no saved snapshots yet | 若需要补繁中官方故事/专题页，可直接手工加入 article URL。 |\n| ttbn_cn | False | probe-only | 0 | 0 | no saved snapshots yet; transport=probe-only | 当前连接重置，建议先人工确认可访问页面，再补静态资料页 URL。 |\n| bahamut_d2r | False | requires-proxy | 0 | 0 | no saved snapshots yet; transport=requires-proxy | 通过代理打开哈啦板后，挑选置顶/精华攻略帖 URL 手工录入。 |\n| ptt_diablo | False | requires-proxy | 0 | 0 | no saved snapshots yet; transport=requires-proxy | 人工筛选高质量 M.*.A.html 文章，再加入 manual_curated_urls.json。 |\n| tieba_d2r | False | manual-403 | 0 | 0 | no saved snapshots yet; transport=manual-403 | 人工从贴吧帖子页复制 /p/<id> 形式 URL，避免列表页 403。 |\n| tieba_d2 | False | manual-403 | 0 | 0 | no saved snapshots yet; transport=manual-403 | 人工从贴吧帖子页复制 /p/<id> 形式 URL，避免列表页 403。 |\n\n## Summary\n\n- Sources currently needing manual curated attention: `7`\n- Manual curated override file: `manual_curated_urls.json`\n",
+    "remote_probe": {
+      "remote": "origin",
+      "branch": "data",
+      "remote_exists": true,
+      "remote_url": "git@github.com:guest1024/Diablo2-data.git",
+      "remote_accessible": true,
+      "branch_exists": false,
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
     "warnings": [
-      "rogue_camp_163 still needs manual curated URLs"
-    ]
+      "rogue_camp_163 still needs manual curated URLs",
+      "remote data branch does not exist yet; first real push will create it"
+    ],
+    "first_push_will_create_branch": true
   },
   "ready": true
 }

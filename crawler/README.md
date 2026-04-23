@@ -331,3 +331,55 @@ python3 crawler/probe_data_branch_remote.py
 ```
 
 用于检查 `origin` 是否可访问，以及远端 `data` 分支是否已存在。首次真实推送前建议执行。
+
+## State Index
+
+```bash
+python3 crawler/build_state_index.py
+```
+
+生成 `crawler/state/index.json`，汇总所有报告、单文件状态和分片目录路径，方便下游按目录索引消费。
+
+## Latest Run 分片导出
+
+```bash
+python3 crawler/export_latest_run_partitions.py
+```
+
+将 `crawler/state/latest-run.json` 拆成 `crawler/state/latest-run/summary.json` 与每来源一个 JSON 文件，继续降低集中式状态文件依赖。
+
+## 首次真实推送模拟
+
+```bash
+python3 scripts/simulate_first_data_branch_push.py
+```
+
+默认只做到 preview；如果确认要真正执行最终推送，则使用：
+
+```bash
+python3 scripts/simulate_first_data_branch_push.py --real-push
+```
+
+## 首次创建 data 分支说明
+
+如果 `crawler/state/data-branch-remote-probe.json` 显示 `branch_exists=false`，但 `remote_accessible=true`，说明首次真实推送会**自动创建**远端 `data` 分支。
+
+## Manual Curated 发布
+
+latest-only 发布现在也会包含 manual curated 相关文件（override json / example / playbook / rogue template），便于 data 分支保留弱来源补种子上下文。
+
+## 最终推送摘要
+
+```bash
+python3 crawler/build_final_push_summary.py
+```
+
+输出当前是否 ready、warning、推荐命令和下一步动作，方便在首次真实推送前快速确认。
+
+## Release Note
+
+```bash
+python3 crawler/build_release_note.py
+```
+
+生成首次真实 data 分支推送前的简洁发布说明，输出到 `crawler/state/release-note.md`。

@@ -1,0 +1,113 @@
+{
+  "state_root": "state",
+  "latest_run": "state/latest-run.json",
+  "reports": {
+    "catalog_report": "state/catalog-report.md",
+    "source_status_report": "state/source-status-report.md",
+    "manual_curated_backlog": "state/manual-curated-backlog.md",
+    "publish_audit": "state/publish-audit.json",
+    "data_branch_manifest": "state/data-branch-manifest.json",
+    "data_branch_readiness": "state/data-branch-readiness.json",
+    "preflight_report": "state/preflight-report.json",
+    "remote_probe": "state/data-branch-remote-probe.json",
+    "final_push_summary": "state/final-push-summary.md",
+    "release_note": "state/release-note.md"
+  },
+  "partitions": {
+    "snapshot_relations": [
+      "state/snapshot-relations/17173_d2r.jsonl",
+      "state/snapshot-relations/3dm_d2r.jsonl",
+      "state/snapshot-relations/91d2.jsonl",
+      "state/snapshot-relations/ali213_d2r.jsonl",
+      "state/snapshot-relations/bbs_diablo2_com_cn.jsonl",
+      "state/snapshot-relations/d2_blizzard_cn.jsonl",
+      "state/snapshot-relations/diablo2_com_cn.jsonl",
+      "state/snapshot-relations/gamersky_d2r.jsonl",
+      "state/snapshot-relations/index.json"
+    ],
+    "page_catalog": [
+      "state/page-catalog/17173_d2r.jsonl",
+      "state/page-catalog/3dm_d2r.jsonl",
+      "state/page-catalog/91d2.jsonl",
+      "state/page-catalog/ali213_d2r.jsonl",
+      "state/page-catalog/bbs_diablo2_com_cn.jsonl",
+      "state/page-catalog/d2_blizzard_cn.jsonl",
+      "state/page-catalog/diablo2_com_cn.jsonl",
+      "state/page-catalog/gamersky_d2r.jsonl",
+      "state/page-catalog/index.json",
+      "state/page-catalog/news_blizzard_zh_tw.jsonl"
+    ],
+    "source_health": [
+      "state/source-health/17173_d2r.jsonl",
+      "state/source-health/3dm_d2r.jsonl",
+      "state/source-health/91d2.jsonl",
+      "state/source-health/ali213_d2r.jsonl",
+      "state/source-health/bbs_diablo2_com_cn.jsonl",
+      "state/source-health/d2_blizzard_cn.jsonl",
+      "state/source-health/diablo2_com_cn.jsonl",
+      "state/source-health/gamersky_d2r.jsonl",
+      "state/source-health/index.json",
+      "state/source-health/news_blizzard_zh_tw.jsonl",
+      "state/source-health/rogue_camp_163.jsonl"
+    ],
+    "source_status": [
+      "state/source-status/17173_d2r.json",
+      "state/source-status/3dm_d2r.json",
+      "state/source-status/91d2.json",
+      "state/source-status/ali213_d2r.json",
+      "state/source-status/bahamut_d2r.json",
+      "state/source-status/bbs_diablo2_com_cn.json",
+      "state/source-status/d2_blizzard_cn.json",
+      "state/source-status/diablo2_com_cn.json",
+      "state/source-status/gamersky_d2r.json",
+      "state/source-status/news_blizzard_zh_tw.json",
+      "state/source-status/ptt_diablo.json",
+      "state/source-status/rogue_camp_163.json",
+      "state/source-status/tieba_d2.json",
+      "state/source-status/tieba_d2r.json",
+      "state/source-status/ttbn_cn.json"
+    ],
+    "latest_run": [
+      "state/latest-run/17173_d2r.json",
+      "state/latest-run/3dm_d2r.json",
+      "state/latest-run/91d2.json",
+      "state/latest-run/ali213_d2r.json",
+      "state/latest-run/bbs_diablo2_com_cn.json",
+      "state/latest-run/d2_blizzard_cn.json",
+      "state/latest-run/diablo2_com_cn.json",
+      "state/latest-run/gamersky_d2r.json",
+      "state/latest-run/index.json",
+      "state/latest-run/news_blizzard_zh_tw.json",
+      "state/latest-run/rogue_camp_163.json",
+      "state/latest-run/summary.json"
+    ],
+    "page_records": [
+      "state/page-records/17173_d2r/news.17173.com/z/ah2/content/03152022/102426979.shtml.json",
+      "state/page-records/17173_d2r/news.17173.com/z/ah2/content/03182022/104849514.shtml.json",
+      "state/page-records/17173_d2r/news.17173.com/z/ah2/content/09242021/125701105.shtml.json",
+      "state/page-records/17173_d2r/news.17173.com/z/ah2/content/10262021/160454018.shtml.json",
+      "state/page-records/3dm_d2r/www.3dmgame.com/gl/3836959.html.json",
+      "state/page-records/3dm_d2r/www.3dmgame.com/gl/3837288.html.json",
+      "state/page-records/3dm_d2r/www.3dmgame.com/gl/3837440.html.json",
+      "state/page-records/3dm_d2r/www.3dmgame.com/gl/3838021.html.json",
+      "state/page-records/91d2/www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html.json",
+      "state/page-records/ali213_d2r/gl.ali213.net/html/2021-4/603861.html.json",
+      "state/page-records/bbs_diablo2_com_cn/bbs.diablo2.com.cn/read.php__tid-12676.json",
+      "state/page-records/bbs_diablo2_com_cn/bbs.diablo2.com.cn/read.php__tid-239897.json",
+      "state/page-records/d2_blizzard_cn/d2.blizzard.cn/news/20260203/42929_1285202.html.json",
+      "state/page-records/d2_blizzard_cn/d2.blizzard.cn/news/24271875/index.html.json",
+      "state/page-records/diablo2_com_cn/www.diablo2.com.cn/diabloii/ShowArticle.asp__ArticleID-1810.json",
+      "state/page-records/gamersky_d2r/www.gamersky.com/handbook/202109/1426152.shtml.json",
+      "state/page-records/gamersky_d2r/www.gamersky.com/handbook/202109/1426247.shtml.json",
+      "state/page-records/gamersky_d2r/www.gamersky.com/handbook/202109/1426363.shtml.json",
+      "state/page-records/gamersky_d2r/www.gamersky.com/handbook/202109/1426363_2.shtml.json",
+      "state/page-records/index.json",
+      "state/page-records/news_blizzard_zh_tw/news.blizzard.com/zh-tw/article/23725427/index.json"
+    ]
+  },
+  "single_files": {
+    "page_catalog": "state/page_catalog.json",
+    "source_health": "state/source-health.json",
+    "snapshot_relations": "state/snapshot-relations.jsonl"
+  }
+}

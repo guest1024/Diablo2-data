@@ -10,6 +10,7 @@ class BuildCrawlerReportsTests(unittest.TestCase):
         flattened = [" ".join(command) for command in COMMANDS]
         self.assertTrue(any("export_snapshot_relations.py" in command for command in flattened))
         self.assertTrue(any("build_data_branch_manifest.py" in command for command in flattened))
+        self.assertTrue(any("build_release_note.py" in command for command in flattened))
 
 
 if __name__ == "__main__":

@@ -12,12 +12,16 @@ COMMANDS = [
     ["python3", "crawler/export_snapshot_relations.py"],
     ["python3", "crawler/export_page_catalog_partitions.py"],
     ["python3", "crawler/export_source_health_partitions.py"],
+    ["python3", "crawler/export_latest_run_partitions.py"],
     ["python3", "crawler/export_page_records.py"],
     ["python3", "crawler/audit_publish_bundle.py"],
     ["python3", "crawler/build_data_branch_manifest.py"],
     ["python3", "crawler/probe_data_branch_remote.py"],
     ["python3", "crawler/check_data_branch_readiness.py"],
     ["python3", "crawler/build_preflight_report.py"],
+    ["python3", "crawler/build_state_index.py"],
+    ["python3", "crawler/build_final_push_summary.py"],
+    ["python3", "crawler/build_release_note.py"],
 ]
 OUTPUT_REDIRECTS = {
     ("python3", "crawler/report_snapshots.py", "--limit", "50"): REPO_ROOT / "crawler/state/catalog-report.md",

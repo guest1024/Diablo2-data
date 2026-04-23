@@ -1,0 +1,16 @@
+{
+  "summary": "state/latest-run/summary.json",
+  "partitions": [
+    "state/latest-run/91d2.json",
+    "state/latest-run/d2_blizzard_cn.json",
+    "state/latest-run/diablo2_com_cn.json",
+    "state/latest-run/bbs_diablo2_com_cn.json",
+    "state/latest-run/rogue_camp_163.json",
+    "state/latest-run/ali213_d2r.json",
+    "state/latest-run/gamersky_d2r.json",
+    "state/latest-run/3dm_d2r.json",
+    "state/latest-run/17173_d2r.json",
+    "state/latest-run/news_blizzard_zh_tw.json"
+  ],
+  "source_count": 10
+}
