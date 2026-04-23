@@ -35,6 +35,7 @@ LATEST_ONLY_STATE_PATHS = [
     'crawler/state/snapshot-relations.jsonl',
     'crawler/state/snapshot-relations',
     'crawler/state/page-catalog',
+    'crawler/state/page-records',
     'crawler/state/publish-audit.json',
     'crawler/state/data-branch-manifest.json',
     'crawler/state/data-branch-readiness.json',

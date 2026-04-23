@@ -44,3 +44,19 @@ python3 scripts/push_crawler_to_data_branch.py --branch data --remote origin --l
 - `data-branch-readiness.json` 中 `ready` 应为 `true`
 - `preview_count` 不应为 0
 - `required_files_present` 必须全部为 `true`
+
+## Preflight Report
+
+```bash
+python3 crawler/build_preflight_report.py
+```
+
+用于把最新 run、snapshot relation 数量、manual curated probe 状态以及 readiness 结果汇总为 `crawler/state/preflight-report.json`。
+
+## Data Branch Remote Probe
+
+```bash
+python3 crawler/probe_data_branch_remote.py
+```
+
+用于检查 `origin` 是否可访问，以及远端 `data` 分支是否已存在。首次真实推送前建议执行。

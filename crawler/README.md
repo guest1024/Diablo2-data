@@ -303,3 +303,31 @@ python3 scripts/build_crawler_reports.py
 ```
 
 一条命令生成 catalog report、source status、manual backlog、snapshot relations、page catalog partitions、publish audit、data branch manifest 与 readiness。
+
+## Rogue Camp 模板
+
+详见 `crawler/manual_curated_rogue_camp_template.md`，用于给 `rogue_camp_163` 补 1~3 条手工静态帖子 URL。
+
+## Source Health 分片导出
+
+```bash
+python3 crawler/export_source_health_partitions.py
+```
+
+将 `crawler/state/source-health.json` 拆成 `crawler/state/source-health/<source_id>.jsonl`，进一步减少集中式状态文件依赖。
+
+## Preflight Report
+
+```bash
+python3 crawler/build_preflight_report.py
+```
+
+用于把最新 run、snapshot relation 数量、manual curated probe 状态以及 readiness 结果汇总为 `crawler/state/preflight-report.json`。
+
+## Data Branch Remote Probe
+
+```bash
+python3 crawler/probe_data_branch_remote.py
+```
+
+用于检查 `origin` 是否可访问，以及远端 `data` 分支是否已存在。首次真实推送前建议执行。

@@ -1,0 +1,16 @@
+{
+  "rows": 10,
+  "partitions": [
+    "state/source-health/17173_d2r.jsonl",
+    "state/source-health/3dm_d2r.jsonl",
+    "state/source-health/91d2.jsonl",
+    "state/source-health/ali213_d2r.jsonl",
+    "state/source-health/bbs_diablo2_com_cn.jsonl",
+    "state/source-health/d2_blizzard_cn.jsonl",
+    "state/source-health/diablo2_com_cn.jsonl",
+    "state/source-health/gamersky_d2r.jsonl",
+    "state/source-health/news_blizzard_zh_tw.jsonl",
+    "state/source-health/rogue_camp_163.jsonl"
+  ],
+  "source_health": "state/source-health.json"
+}

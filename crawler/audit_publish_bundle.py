@@ -32,6 +32,7 @@ def build_audit(latest_only: bool = True) -> dict:
             'snapshot_relations': (CURRENT_DIR / 'state/snapshot-relations.jsonl').is_file(),
             'source_status': (CURRENT_DIR / 'state/source-status-report.md').is_file(),
             'manual_backlog': (CURRENT_DIR / 'state/manual-curated-backlog.md').is_file(),
+            'page_records_index': (CURRENT_DIR / 'state/page-records/index.json').is_file(),
         },
     }
     return audit

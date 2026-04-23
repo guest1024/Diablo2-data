@@ -11,6 +11,7 @@ class AuditPublishBundleTests(unittest.TestCase):
         self.assertIn('latest_only', audit)
         self.assertIn('preview_count', audit)
         self.assertIn('required_files_present', audit)
+        self.assertIn('page_records_index', audit['required_files_present'])
 
 
 if __name__ == '__main__':

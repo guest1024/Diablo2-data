@@ -19,12 +19,16 @@ MANUAL_BACKLOG = ROOT / "build_manual_curated_backlog.py"
 MANUAL_MANAGER = ROOT / "manage_manual_curated_urls.py"
 RELATION_EXPORTER = ROOT / "export_snapshot_relations.py"
 CATALOG_PARTITION_EXPORTER = ROOT / "export_page_catalog_partitions.py"
+HEALTH_PARTITION_EXPORTER = ROOT / "export_source_health_partitions.py"
 PAGE_RECORD_EXPORTER = ROOT / "export_page_records.py"
 PUBLISH_AUDITOR = ROOT / "audit_publish_bundle.py"
 DATA_BRANCH_MANIFEST = ROOT / "build_data_branch_manifest.py"
+PREFLIGHT_REPORT = ROOT / "build_preflight_report.py"
+REMOTE_PROBER = ROOT / "probe_data_branch_remote.py"
 READINESS_CHECKER = ROOT / "check_data_branch_readiness.py"
 MANUAL_PROBER = ROOT / "probe_manual_curated_urls.py"
 MANUAL_CURATED_FILE = ROOT / "manual_curated_urls.json"
+ROGUE_TEMPLATE = ROOT / "manual_curated_rogue_camp_template.md"
 DATA_BRANCH_CHECKLIST = ROOT / "DATA_BRANCH_PUSH_CHECKLIST.md"
 COMMIT_METADATA_SCRIPT = REPO_ROOT / "scripts/commit_crawler_metadata.py"
 LATEST_RUN_ID_SCRIPT = REPO_ROOT / "scripts/print_latest_run_id.py"
@@ -58,12 +62,16 @@ def main() -> int:
     expect(MANUAL_MANAGER.is_file(), "manage_manual_curated_urls.py exists")
     expect(RELATION_EXPORTER.is_file(), "export_snapshot_relations.py exists")
     expect(CATALOG_PARTITION_EXPORTER.is_file(), "export_page_catalog_partitions.py exists")
+    expect(HEALTH_PARTITION_EXPORTER.is_file(), "export_source_health_partitions.py exists")
     expect(PAGE_RECORD_EXPORTER.is_file(), "export_page_records.py exists")
     expect(PUBLISH_AUDITOR.is_file(), "audit_publish_bundle.py exists")
     expect(DATA_BRANCH_MANIFEST.is_file(), "build_data_branch_manifest.py exists")
+    expect(PREFLIGHT_REPORT.is_file(), "build_preflight_report.py exists")
+    expect(REMOTE_PROBER.is_file(), "probe_data_branch_remote.py exists")
     expect(READINESS_CHECKER.is_file(), "check_data_branch_readiness.py exists")
     expect(MANUAL_PROBER.is_file(), "probe_manual_curated_urls.py exists")
     expect(MANUAL_CURATED_FILE.is_file(), "manual_curated_urls.json exists")
+    expect(ROGUE_TEMPLATE.is_file(), "manual_curated_rogue_camp_template.md exists")
     expect(DATA_BRANCH_CHECKLIST.is_file(), "DATA_BRANCH_PUSH_CHECKLIST.md exists")
     expect(COMMIT_METADATA_SCRIPT.is_file(), "commit_crawler_metadata.py exists")
     expect(LATEST_RUN_ID_SCRIPT.is_file(), "print_latest_run_id.py exists")
@@ -104,9 +112,11 @@ def main() -> int:
     expect("python3 crawler/build_manual_curated_backlog.py" in workflow_text, "workflow writes manual curated backlog report")
     expect("python3 crawler/export_snapshot_relations.py" in workflow_text, "workflow exports snapshot relations")
     expect("python3 crawler/export_page_catalog_partitions.py" in workflow_text, "workflow exports page catalog partitions")
+    expect("python3 crawler/export_source_health_partitions.py" in workflow_text, "workflow exports source health partitions")
     expect("python3 crawler/export_page_records.py" in workflow_text, "workflow exports page record files")
     expect("python3 crawler/audit_publish_bundle.py" in workflow_text, "workflow audits publish bundle")
     expect("python3 crawler/build_data_branch_manifest.py" in workflow_text, "workflow writes data branch manifest")
+    expect("python3 crawler/build_preflight_report.py" in workflow_text, "workflow writes preflight report")
     expect("python3 crawler/prune_snapshots.py" in workflow_text, "workflow prunes old runs/snapshots")
     expect("prune_catalog_without_snapshots" in workflow_text, "workflow exposes catalog pruning input")
     expect("python3 scripts/push_crawler_to_data_branch.py" in workflow_text, "workflow publishes to data branch")

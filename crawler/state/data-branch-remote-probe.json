@@ -1,0 +1,11 @@
+{
+  "remote": "origin",
+  "branch": "data",
+  "remote_exists": true,
+  "remote_url": "git@github.com:guest1024/Diablo2-data.git",
+  "remote_accessible": true,
+  "branch_exists": false,
+  "stdout": "",
+  "stderr": "",
+  "returncode": 0
+}

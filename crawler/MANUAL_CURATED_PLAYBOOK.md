@@ -44,3 +44,7 @@
 ### news_blizzard_zh_tw
 - 目标：繁中官方故事背景页、专题页
 - 建议：优先录入 `article/<id>` 形式静态页面
+
+## Rogue Camp 模板
+
+详见 `crawler/manual_curated_rogue_camp_template.md`，用于给 `rogue_camp_163` 补 1~3 条手工静态帖子 URL。

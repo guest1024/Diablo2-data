@@ -11,26 +11,33 @@ COMMANDS = [
     ["python3", "crawler/build_manual_curated_backlog.py"],
     ["python3", "crawler/export_snapshot_relations.py"],
     ["python3", "crawler/export_page_catalog_partitions.py"],
+    ["python3", "crawler/export_source_health_partitions.py"],
     ["python3", "crawler/export_page_records.py"],
     ["python3", "crawler/audit_publish_bundle.py"],
     ["python3", "crawler/build_data_branch_manifest.py"],
+    ["python3", "crawler/probe_data_branch_remote.py"],
     ["python3", "crawler/check_data_branch_readiness.py"],
+    ["python3", "crawler/build_preflight_report.py"],
 ]
 OUTPUT_REDIRECTS = {
     ("python3", "crawler/report_snapshots.py", "--limit", "50"): REPO_ROOT / "crawler/state/catalog-report.md",
     ("python3", "crawler/build_source_status_report.py"): REPO_ROOT / "crawler/state/source-status-report.md",
     ("python3", "crawler/build_manual_curated_backlog.py"): REPO_ROOT / "crawler/state/manual-curated-backlog.md",
 }
+NON_FATAL = {
+    ("python3", "crawler/check_data_branch_readiness.py"),
+}
 
 
 def run_command(cmd: list[str]) -> None:
     key = tuple(cmd)
     output_path = OUTPUT_REDIRECTS.get(key)
+    check = key not in NON_FATAL
     if output_path:
-        completed = subprocess.run(cmd, cwd=REPO_ROOT, text=True, capture_output=True, check=True)
-        output_path.write_text(completed.stdout, encoding="utf-8")
+        completed = subprocess.run(cmd, cwd=REPO_ROOT, text=True, capture_output=True, check=check)
+        output_path.write_text((completed.stdout or completed.stderr or ""), encoding="utf-8")
         return
-    subprocess.run(cmd, cwd=REPO_ROOT, text=True, check=True)
+    subprocess.run(cmd, cwd=REPO_ROOT, text=True, check=check)
 
 
 def main() -> int:

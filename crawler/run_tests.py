@@ -27,9 +27,12 @@ TEST_MODULES = [
     "crawler.tests.test_check_data_branch_readiness",
     "crawler.tests.test_probe_manual_curated_urls",
     "crawler.tests.test_build_data_branch_manifest",
+    "crawler.tests.test_probe_data_branch_remote",
+    "crawler.tests.test_build_preflight_report",
     "crawler.tests.test_build_crawler_reports",
     "crawler.tests.test_preflight_data_branch_push",
     "crawler.tests.test_export_page_catalog_partitions",
+    "crawler.tests.test_export_source_health_partitions",
     "crawler.tests.test_export_page_records",
     "crawler.tests.test_runner",
 ]
