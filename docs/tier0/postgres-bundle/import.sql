@@ -19,10 +19,16 @@ TRUNCATE TABLE d2.base_items CASCADE;
 TRUNCATE TABLE d2.build_core_skills CASCADE;
 TRUNCATE TABLE d2.build_archetypes CASCADE;
 TRUNCATE TABLE d2.search_aliases CASCADE;
+TRUNCATE TABLE d2.provenance CASCADE;
+TRUNCATE TABLE d2.canonical_claims CASCADE;
+TRUNCATE TABLE d2.canonical_entities CASCADE;
 TRUNCATE TABLE d2.chunks CASCADE;
 TRUNCATE TABLE d2.documents CASCADE;
 \copy d2.documents (doc_id, source_id, source_name, label, source_url, local_path, content_type, authority_tier, lane, title, text_content, char_count, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/documents.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
 \copy d2.chunks (chunk_id, doc_id, source_id, source_name, source_url, label, title, lane, authority_tier, chunk_index, text_content, char_count, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/chunks.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
+\copy d2.canonical_entities (canonical_id, node_type, entity_key, name, aliases, document_count, supporting_source_count, supporting_sources, claim_count, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/canonical_entities.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
+\copy d2.canonical_claims (canonical_claim_id, subject_id, subject_type, subject_name, subject_aliases, predicate, predicate_family, object_value, supporting_sources, supporting_source_count, claim_variant_count, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/canonical_claims.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
+\copy d2.provenance (provenance_id, claim_id, subject_id, predicate, source_id, evidence_doc_id, evidence_url, authority_tier, lane, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/provenance.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
 \copy d2.search_aliases (alias_id, canonical_id, canonical_name, alias, alias_type, node_type, language, confidence, source, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/search_aliases.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
 \copy d2.build_archetypes (build_id, canonical_name, title, class_name, source, source_id, aliases, metadata) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/build_archetypes.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')
 \copy d2.build_core_skills (build_id, skill_name, skill_order) FROM '/home/user/diablo2-data/docs/tier0/postgres-bundle/data/build_core_skills.tsv' WITH (FORMAT csv, DELIMITER E'\t', QUOTE '"', NULL '\N')

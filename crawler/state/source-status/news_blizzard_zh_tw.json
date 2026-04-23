@@ -1,0 +1,17 @@
+{
+  "source_id": "news_blizzard_zh_tw",
+  "enabled": true,
+  "region": "Overseas-ZH",
+  "transport": "direct",
+  "observed_status": "direct-ok",
+  "saved_snapshots": 0,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "ignored": 1
+  },
+  "lifecycle_summary": {
+    "ignored": 1
+  },
+  "last_run_status": "captured",
+  "notes": "繁中官方新闻与背景故事页面。"
+}

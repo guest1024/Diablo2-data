@@ -10,6 +10,10 @@ ROOT = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable
 
 COMMAND_GROUPS: dict[str, list[list[str]]] = {
+    'deploy-pg17': [
+        ['bash', 'deploy/pgsql17-ubuntu24/build-and-up.sh'],
+        ['bash', 'deploy/pgsql17-ubuntu24/verify-running.sh'],
+    ],
     'fetch-tier0': [
         [PYTHON, 'scripts/fetch_tier0.py', '--timeout', '8'],
         [PYTHON, 'scripts/verify_tier0_fetch.py'],
@@ -36,15 +40,42 @@ COMMAND_GROUPS: dict[str, list[list[str]]] = {
         [PYTHON, 'scripts/build_pg_dict_bundle.py'],
         [PYTHON, 'scripts/verify_pg_dict_bundle.py'],
     ],
+    'pg-embedding-bundle': [
+        [PYTHON, 'scripts/build_pg_embedding_bundle.py'],
+        [PYTHON, 'scripts/verify_pg_embedding_bundle.py'],
+    ],
+    'pg-strategy-bundle': [
+        [PYTHON, 'scripts/build_pg_strategy_bundle.py'],
+        [PYTHON, 'scripts/verify_pg_strategy_bundle.py'],
+    ],
     'runtime-verify': [
         [PYTHON, 'scripts/verify_query_execution_chain.py'],
+        [PYTHON, 'scripts/verify_postgres_runtime_ready.py'],
+        [PYTHON, 'scripts/verify_api_pg_runtime.py'],
+        [PYTHON, 'scripts/verify_llm_reasoned_answers.py'],
+    ],
+    'smoke-verify': [
+        [PYTHON, 'scripts/verify_query_execution_chain.py'],
+        [PYTHON, 'scripts/verify_postgres_runtime_ready.py'],
+        [PYTHON, 'scripts/verify_api_pg_runtime.py'],
+    ],
+    'full-stack-verify': [
+        [PYTHON, 'scripts/verify_full_pg_qa_stack.py'],
+    ],
+    'effect-eval': [
+        [PYTHON, 'scripts/evaluate_current_pg_effect.py'],
+    ],
+    'load-all-pg': [
+        [PYTHON, 'scripts/load_all_pg_assets.py', '--with-vector'],
     ],
 }
 
 PIPELINES: dict[str, list[str]] = {
     'site-to-chunks': ['fetch-tier0', 'normalize-tier0', 'merge-production'],
-    'site-to-pg-assets': ['fetch-tier0', 'normalize-tier0', 'merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle'],
-    'refresh-pg-search': ['merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle', 'runtime-verify'],
+    'site-to-pg-assets': ['fetch-tier0', 'normalize-tier0', 'merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle', 'pg-embedding-bundle', 'pg-strategy-bundle'],
+    'site-to-live-pg': ['fetch-tier0', 'normalize-tier0', 'merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle', 'pg-embedding-bundle', 'pg-strategy-bundle', 'load-all-pg', 'smoke-verify'],
+    'refresh-live-pg': ['merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle', 'pg-embedding-bundle', 'pg-strategy-bundle', 'load-all-pg', 'smoke-verify'],
+    'refresh-pg-search': ['merge-production', 'structured-support', 'pg-bundle', 'pg-dict-bundle', 'pg-embedding-bundle', 'pg-strategy-bundle', 'smoke-verify'],
 }
 
 
@@ -89,6 +120,19 @@ def main() -> int:
     load_dict_parser.add_argument('--database-url', default=None)
     load_dict_parser.add_argument('--skip-build', action='store_true')
 
+    load_embed_parser = subparsers.add_parser('load-embeddings', help='Load PostgreSQL embedding bundle into d2.chunks.embedding using psql.')
+    load_embed_parser.add_argument('--database-url', default=None)
+    load_embed_parser.add_argument('--skip-build', action='store_true')
+
+    load_strategy_parser = subparsers.add_parser('load-strategy', help='Load PostgreSQL strategy-edge bundle into strategy_edge_facts using psql.')
+    load_strategy_parser.add_argument('--database-url', default=None)
+    load_strategy_parser.add_argument('--skip-build', action='store_true')
+
+    load_all_parser = subparsers.add_parser('load-all', help='Load all PostgreSQL assets in order.')
+    load_all_parser.add_argument('--database-url', default=None)
+    load_all_parser.add_argument('--with-vector', action='store_true')
+    load_all_parser.add_argument('--skip-build', action='store_true')
+
     subparsers.add_parser('show-plan', help='Show available stages and pipelines.')
 
     args = parser.parse_args()
@@ -112,6 +156,29 @@ def main() -> int:
             command.extend(['--database-url', args.database_url])
         if args.skip_build:
             command.append('--skip-bundle-build')
+        return run_commands([command])
+    if args.command == 'load-embeddings':
+        command = [PYTHON, 'scripts/load_pg_embedding_bundle.py']
+        if args.database_url:
+            command.extend(['--database-url', args.database_url])
+        if args.skip_build:
+            command.append('--skip-build')
+        return run_commands([command])
+    if args.command == 'load-strategy':
+        command = [PYTHON, 'scripts/load_pg_strategy_bundle.py']
+        if args.database_url:
+            command.extend(['--database-url', args.database_url])
+        if args.skip_build:
+            command.append('--skip-build')
+        return run_commands([command])
+    if args.command == 'load-all':
+        command = [PYTHON, 'scripts/load_all_pg_assets.py']
+        if args.database_url:
+            command.extend(['--database-url', args.database_url])
+        if args.with_vector:
+            command.append('--with-vector')
+        if args.skip_build:
+            command.append('--skip-build')
         return run_commands([command])
     if args.command == 'show-plan':
         print('Available stages:')

@@ -1,0 +1,13 @@
+{
+  "run_id": "20260423T055744Z",
+  "documents": 5,
+  "chunks": 21,
+  "changed_only": false,
+  "paths": {
+    "documents_jsonl": "artifacts/20260423T055744Z/normalized/documents.jsonl",
+    "chunks_jsonl": "artifacts/20260423T055744Z/derived/chunks.jsonl",
+    "documents_tsv": "artifacts/20260423T055744Z/postgres/data/documents.tsv",
+    "chunks_tsv": "artifacts/20260423T055744Z/postgres/data/chunks.tsv",
+    "import_sql": "artifacts/20260423T055744Z/postgres/import.sql"
+  }
+}

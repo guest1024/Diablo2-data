@@ -1,0 +1,19 @@
+{
+  "source_id": "3dm_d2r",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct",
+  "observed_status": "direct-ok-js-heavy",
+  "saved_snapshots": 4,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "frozen": 1,
+    "saved": 3
+  },
+  "lifecycle_summary": {
+    "frozen": 1,
+    "new": 3
+  },
+  "last_run_status": "captured",
+  "notes": "JS heavy guide hub; curated static攻略页已补齐。"
+}

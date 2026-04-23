@@ -16,8 +16,12 @@ IMPORT_SQL_PATH = BUNDLE_DIR / "import.sql"
 
 MERGED_DOCS = ROOT / "docs/tier0/merged/normalized/documents.jsonl"
 MERGED_CHUNKS = ROOT / "docs/tier0/merged/chunks.jsonl"
+CURATED_DOCS = ROOT / "docs/tier0/curated/documents.jsonl"
+CURATED_CHUNKS = ROOT / "docs/tier0/curated/chunks.jsonl"
 MERGED_ALIASES = ROOT / "docs/tier0/merged/aliases.jsonl"
 MERGED_ENTITIES = ROOT / "docs/tier0/merged/canonical-entities.jsonl"
+MERGED_CANONICAL_CLAIMS = ROOT / "docs/tier0/merged/canonical-claims.jsonl"
+MERGED_PROVENANCE = ROOT / "docs/tier0/merged/provenance.jsonl"
 ALIAS_REGISTRY = ROOT / "docs/tier0/alias-registry.jsonl"
 BUILD_ARCHETYPES = ROOT / "docs/tier0/build-archetypes.jsonl"
 STRUCTURED_DIR = ROOT / "docs/tier0/structured"
@@ -67,6 +71,24 @@ def build_documents() -> tuple[list[dict[str, Any]], list[str]]:
                 "metadata": ordered_metadata(row, known),
             }
         )
+    if CURATED_DOCS.exists():
+        for row in load_jsonl(CURATED_DOCS):
+            metadata = dict(row.get('metadata', {}))
+            rows.append({
+                'doc_id': metadata.get('doc_id'),
+                'source_id': metadata.get('source_id'),
+                'source_name': metadata.get('source_id'),
+                'label': metadata.get('section') or metadata.get('doc_type'),
+                'source_url': metadata.get('source'),
+                'local_path': None,
+                'content_type': metadata.get('doc_type'),
+                'authority_tier': metadata.get('authority_tier'),
+                'lane': metadata.get('authority_tier'),
+                'title': metadata.get('title'),
+                'text_content': row.get('content', ''),
+                'char_count': len(str(row.get('content', ''))),
+                'metadata': json_dumps(metadata),
+            })
     columns = [
         "doc_id", "source_id", "source_name", "label", "source_url", "local_path", "content_type",
         "authority_tier", "lane", "title", "text_content", "char_count", "metadata",
@@ -98,10 +120,92 @@ def build_chunks() -> tuple[list[dict[str, Any]], list[str]]:
                 "metadata": ordered_metadata(row, known),
             }
         )
+    if CURATED_CHUNKS.exists():
+        for row in load_jsonl(CURATED_CHUNKS):
+            metadata = dict(row.get('metadata', {}))
+            rows.append({
+                'chunk_id': row.get('id'),
+                'doc_id': metadata.get('doc_id'),
+                'source_id': metadata.get('source_id'),
+                'source_name': metadata.get('source_id'),
+                'source_url': metadata.get('source'),
+                'label': metadata.get('section') or metadata.get('chunk_type'),
+                'title': metadata.get('title'),
+                'lane': metadata.get('authority_tier'),
+                'authority_tier': metadata.get('authority_tier'),
+                'chunk_index': metadata.get('chunk_index'),
+                'text_content': row.get('content', ''),
+                'char_count': metadata.get('char_count') or len(str(row.get('content', ''))),
+                'metadata': json_dumps(metadata),
+            })
     columns = [
         "chunk_id", "doc_id", "source_id", "source_name", "source_url", "label", "title", "lane",
         "authority_tier", "chunk_index", "text_content", "char_count", "metadata",
     ]
+    return rows, columns
+
+
+
+
+def build_canonical_entities() -> tuple[list[dict[str, Any]], list[str]]:
+    rows = []
+    for row in load_jsonl(MERGED_ENTITIES):
+        known = {"canonical_id", "node_type", "key", "name", "aliases", "document_count", "supporting_source_count", "supporting_sources", "claim_count"}
+        rows.append({
+            "canonical_id": row["canonical_id"],
+            "node_type": row["node_type"],
+            "entity_key": row.get("key"),
+            "name": row["name"],
+            "aliases": json_dumps(row.get("aliases", [])),
+            "document_count": row.get("document_count"),
+            "supporting_source_count": row.get("supporting_source_count"),
+            "supporting_sources": json_dumps(row.get("supporting_sources", [])),
+            "claim_count": row.get("claim_count"),
+            "metadata": ordered_metadata(row, known),
+        })
+    columns = ["canonical_id","node_type","entity_key","name","aliases","document_count","supporting_source_count","supporting_sources","claim_count","metadata"]
+    return rows, columns
+
+
+def build_canonical_claims() -> tuple[list[dict[str, Any]], list[str]]:
+    rows = []
+    for row in load_jsonl(MERGED_CANONICAL_CLAIMS):
+        known = {"canonical_claim_id","subject_id","subject_type","subject_name","subject_aliases","predicate","predicate_family","object","supporting_sources","supporting_source_count","claim_variant_count"}
+        rows.append({
+            "canonical_claim_id": row["canonical_claim_id"],
+            "subject_id": row["subject_id"],
+            "subject_type": row.get("subject_type"),
+            "subject_name": row.get("subject_name"),
+            "subject_aliases": json_dumps(row.get("subject_aliases", [])),
+            "predicate": row["predicate"],
+            "predicate_family": row.get("predicate_family"),
+            "object_value": row.get("object"),
+            "supporting_sources": json_dumps(row.get("supporting_sources", [])),
+            "supporting_source_count": row.get("supporting_source_count"),
+            "claim_variant_count": row.get("claim_variant_count"),
+            "metadata": ordered_metadata(row, known),
+        })
+    columns = ["canonical_claim_id","subject_id","subject_type","subject_name","subject_aliases","predicate","predicate_family","object_value","supporting_sources","supporting_source_count","claim_variant_count","metadata"]
+    return rows, columns
+
+
+def build_provenance() -> tuple[list[dict[str, Any]], list[str]]:
+    rows = []
+    for row in load_jsonl(MERGED_PROVENANCE):
+        known = {"provenance_id","claim_id","subject_id","predicate","source_id","evidence_doc_id","evidence_url","authority_tier","lane"}
+        rows.append({
+            "provenance_id": row["provenance_id"],
+            "claim_id": row["claim_id"],
+            "subject_id": row["subject_id"],
+            "predicate": row["predicate"],
+            "source_id": row["source_id"],
+            "evidence_doc_id": row.get("evidence_doc_id"),
+            "evidence_url": row["evidence_url"],
+            "authority_tier": row.get("authority_tier"),
+            "lane": row.get("lane"),
+            "metadata": ordered_metadata(row, known),
+        })
+    columns = ["provenance_id","claim_id","subject_id","predicate","source_id","evidence_doc_id","evidence_url","authority_tier","lane","metadata"]
     return rows, columns
 
 
@@ -399,29 +503,31 @@ def build_areas() -> tuple[list[dict[str, Any]], list[str]]:
 
 
 def build_unique_items() -> tuple[list[dict[str, Any]], list[str]]:
-    rows = []
+    dedup: OrderedDict[str, dict[str, Any]] = OrderedDict()
     for row in load_jsonl(STRUCTURED_DIR / "unique-items.jsonl"):
         known = {"unique_item_id", "key", "name", "name_zh", "base_code", "base_name", "base_name_zh", "rarity", "level", "level_required", "enabled", "cost_multiplier", "cost_add", "source", "source_file"}
-        rows.append(
-            {
-                "unique_item_id": row["unique_item_id"],
-                "unique_key": row.get("key"),
-                "name": row["name"],
-                "name_zh": row.get("name_zh"),
-                "base_code": row.get("base_code"),
-                "base_name": row.get("base_name"),
-                "base_name_zh": row.get("base_name_zh"),
-                "rarity": row.get("rarity"),
-                "level": row.get("level"),
-                "level_required": row.get("level_required"),
-                "enabled": row.get("enabled"),
-                "cost_multiplier": row.get("cost_multiplier"),
-                "cost_add": row.get("cost_add"),
-                "source": row.get("source"),
-                "source_file": row.get("source_file"),
-                "metadata": ordered_metadata(row, known),
-            }
-        )
+        candidate = {
+            "unique_item_id": row["unique_item_id"],
+            "unique_key": row.get("key"),
+            "name": row["name"],
+            "name_zh": row.get("name_zh"),
+            "base_code": row.get("base_code"),
+            "base_name": row.get("base_name"),
+            "base_name_zh": row.get("base_name_zh"),
+            "rarity": row.get("rarity"),
+            "level": row.get("level"),
+            "level_required": row.get("level_required"),
+            "enabled": row.get("enabled"),
+            "cost_multiplier": row.get("cost_multiplier"),
+            "cost_add": row.get("cost_add"),
+            "source": row.get("source"),
+            "source_file": row.get("source_file"),
+            "metadata": ordered_metadata(row, known),
+        }
+        current = dedup.get(candidate["unique_item_id"])
+        if current is None or int(candidate.get("level", 0) or 0) >= int(current.get("level", 0) or 0):
+            dedup[candidate["unique_item_id"]] = candidate
+    rows = list(dedup.values())
     columns = ["unique_item_id", "unique_key", "name", "name_zh", "base_code", "base_name", "base_name_zh", "rarity", "level", "level_required", "enabled", "cost_multiplier", "cost_add", "source", "source_file", "metadata"]
     return rows, columns
 
@@ -495,6 +601,9 @@ def build_import_sql(table_specs: dict[str, tuple[list[dict[str, Any]], list[str
     load_order = [
         "documents",
         "chunks",
+        "canonical_entities",
+        "canonical_claims",
+        "provenance",
         "search_aliases",
         "build_archetypes",
         "build_core_skills",
@@ -537,6 +646,9 @@ def main() -> int:
     table_specs: dict[str, tuple[list[dict[str, Any]], list[str]]] = {}
     table_specs["documents"] = build_documents()
     table_specs["chunks"] = build_chunks()
+    table_specs["canonical_entities"] = build_canonical_entities()
+    table_specs["canonical_claims"] = build_canonical_claims()
+    table_specs["provenance"] = build_provenance()
     table_specs["search_aliases"] = build_search_aliases()
     table_specs.update(build_builds())
     table_specs["base_items"] = build_base_items()

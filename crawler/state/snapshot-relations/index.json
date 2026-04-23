@@ -1,0 +1,14 @@
+{
+  "rows": 17,
+  "partitions": [
+    "state/snapshot-relations/17173_d2r.jsonl",
+    "state/snapshot-relations/3dm_d2r.jsonl",
+    "state/snapshot-relations/91d2.jsonl",
+    "state/snapshot-relations/ali213_d2r.jsonl",
+    "state/snapshot-relations/bbs_diablo2_com_cn.jsonl",
+    "state/snapshot-relations/d2_blizzard_cn.jsonl",
+    "state/snapshot-relations/diablo2_com_cn.jsonl",
+    "state/snapshot-relations/gamersky_d2r.jsonl"
+  ],
+  "monolithic": "state/snapshot-relations.jsonl"
+}

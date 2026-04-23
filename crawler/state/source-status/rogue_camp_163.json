@@ -1,0 +1,13 @@
+{
+  "source_id": "rogue_camp_163",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct",
+  "observed_status": "direct-ok",
+  "saved_snapshots": 0,
+  "manual_curated_count": 0,
+  "capture_summary": {},
+  "lifecycle_summary": {},
+  "last_run_status": "seed-only",
+  "notes": "社区论坛入口，可后续补 curated 白名单。"
+}

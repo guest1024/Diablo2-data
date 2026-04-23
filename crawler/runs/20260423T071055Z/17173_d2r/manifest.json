@@ -1,0 +1,252 @@
+{
+  "source": {
+    "id": "17173_d2r",
+    "label": "17173 暗黑2重制版专区",
+    "enabled": true,
+    "weight": 0.82,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://news.17173.com/z/ah2/",
+    "robots_url": "https://news.17173.com/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://news.17173.com/z/ah2/",
+      "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml"
+    ],
+    "curated_urls": [
+      "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+      "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+      "http://news.17173.com/z/ah2/content/09242021/125701105.shtml"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https?://news\\.17173\\.com/z/ah2/content/.+\\.shtml$",
+        "https?://news\\.17173\\.com/content/.+\\.shtml$",
+        "https?://news\\.17173\\.com/z/ah2/morelist/.+\\.shtml$"
+      ],
+      "exclude": [
+        "/video/",
+        "/mip_"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "/z/ah2/content/",
+        "重制版",
+        "玩法",
+        "配装"
+      ],
+      "denied_keywords": [
+        "/morelist/",
+        "2026"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "新闻资讯",
+        "视频",
+        "官网"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "中文新闻/攻略专区，可发现较多历史页面。"
+  },
+  "generated_at": "2026-04-23T07:10:55+00:00",
+  "seed_count": 5,
+  "candidate_count": 16,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 60286,
+      "discovered_candidates": [
+        "http://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160149955.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160018890.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/154633535.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/153905263.shtml"
+      ]
+    },
+    {
+      "url": "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 58154,
+      "discovered_candidates": [
+        "http://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160149955.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160018890.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/154633535.shtml"
+      ]
+    },
+    {
+      "url": "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 60109,
+      "discovered_candidates": [
+        "http://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "http://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160149955.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160018890.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/154633535.shtml"
+      ]
+    },
+    {
+      "url": "https://news.17173.com/z/ah2/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 54510,
+      "discovered_candidates": [
+        "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/123929688.shtml",
+        "https://news.17173.com/content/04172026/155935875.shtml",
+        "https://news.17173.com/content/04162026/020323083.shtml"
+      ]
+    },
+    {
+      "url": "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 55989,
+      "discovered_candidates": [
+        "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/175518037.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/105725829.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/095610440.shtml",
+        "http://news.17173.com/z/ah2/content/10132025/175343101.shtml",
+        "http://news.17173.com/z/ah2/content/10132025/175238511.shtml",
+        "http://news.17173.com/z/ah2/content/10132025/175053703.shtml"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "17173_d2r",
+      "source_label": "17173 暗黑2重制版专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+      "title": "《暗黑破坏神2重制版》野蛮人怎么玩？可汗野蛮人配装推荐_暗黑2重制版_17173.com中国游戏门户站",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "675e9496874ae89b8bbfe1daf6472959c50632e49181c467e6fedd43fc2e6bdb",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "updated",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::17173_d2r::8c56ac882481606f2a34",
+      "snapshot_path": "snapshots/17173_d2r/17173_d2r--8c56ac882481606f2a34.html",
+      "seen_at": "2026-04-23T07:10:55+00:00",
+      "run_id": "20260423T071055Z"
+    },
+    {
+      "source_id": "17173_d2r",
+      "source_label": "17173 暗黑2重制版专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+      "title": "《暗黑破坏神2重制版》任务道具没捡怎么办？任务道具没捡到解决方法分享_暗黑2重制版_17173.com中国游戏门户站",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "8422f23a8bec83ed36a4b3201bd7864fb60dfc45e854be0bf4311dadbef3e2c3",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "new",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::17173_d2r::00996333e89e1ac612dc",
+      "snapshot_path": "snapshots/17173_d2r/17173_d2r--00996333e89e1ac612dc.html",
+      "seen_at": "2026-04-23T07:10:55+00:00",
+      "run_id": "20260423T071055Z"
+    },
+    {
+      "source_id": "17173_d2r",
+      "source_label": "17173 暗黑2重制版专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+      "title": "《暗黑破坏神2重制版》地狱难度怎么过 野蛮人地狱难度通关攻略_暗黑2重制版_17173.com中国游戏门户站",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "aa26564d43cdb1497c32b1272e02b4cd8f5c5bb2908846e8874bf6e49ba4a69b",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "new",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::17173_d2r::8246b8a6ad12e7fa023f",
+      "snapshot_path": "snapshots/17173_d2r/17173_d2r--8246b8a6ad12e7fa023f.html",
+      "seen_at": "2026-04-23T07:10:55+00:00",
+      "run_id": "20260423T071055Z"
+    },
+    {
+      "source_id": "17173_d2r",
+      "source_label": "17173 暗黑2重制版专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+      "title": "《暗黑破坏神2重制版》防御力有什么用 防御属性机制详解_暗黑2重制版_17173.com中国游戏门户站",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "71dbda02241d96c81e01aa23fc2122b2ab96874ea7ff91261e2f5040eacdc08b",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "new",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::17173_d2r::f10ad81bd1934aa097e9",
+      "snapshot_path": "snapshots/17173_d2r/17173_d2r--f10ad81bd1934aa097e9.html",
+      "seen_at": "2026-04-23T07:10:55+00:00",
+      "run_id": "20260423T071055Z"
+    }
+  ]
+}

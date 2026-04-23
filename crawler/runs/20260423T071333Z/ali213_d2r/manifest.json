@@ -1,0 +1,134 @@
+{
+  "source": {
+    "id": "ali213_d2r",
+    "label": "游侠网 D2R 攻略站",
+    "enabled": true,
+    "weight": 0.84,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://gl.ali213.net/z/42565/",
+    "robots_url": "https://gl.ali213.net/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://gl.ali213.net/z/42565/"
+    ],
+    "curated_urls": [
+      "https://gl.ali213.net/html/2021-4/603861.html"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://gl\\.ali213\\.net/html/.+\\.html$"
+      ],
+      "exclude": [
+        "/css/",
+        "/js/",
+        "/z/42565/?$",
+        "/app/",
+        "/news/zl/"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "/html/2021-",
+        "图文攻略",
+        "技能推荐",
+        "属性加点"
+      ],
+      "denied_keywords": [
+        "clslist",
+        "wenda",
+        "process"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [
+        "clslist",
+        "process",
+        "wenda"
+      ],
+      "exclude_title_keywords": [
+        "视频攻略",
+        "下载",
+        "补丁"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "中文攻略聚合入口，适合补新手和流程向页面。"
+  },
+  "generated_at": "2026-04-23T07:13:33+00:00",
+  "seed_count": 2,
+  "candidate_count": 4,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://gl.ali213.net/html/2021-4/603861.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 34720,
+      "discovered_candidates": [
+        "https://gl.ali213.net/html/2021-4/603861.html",
+        "https://gl.ali213.net/html/2021-4/603861_2.html",
+        "https://gl.ali213.net/html/2021-4/603861_3.html",
+        "https://gl.ali213.net/html/2021-4/603861_4.html",
+        "https://gl.ali213.net/html/2021-4/603861_5.html",
+        "https://gl.ali213.net/html/2021-4/603861_6.html",
+        "https://gl.ali213.net/html/2021-4/603861_7.html",
+        "https://gl.ali213.net/html/2021-4/603861_8.html"
+      ]
+    },
+    {
+      "url": "https://gl.ali213.net/z/42565/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 51712,
+      "discovered_candidates": [
+        "https://gl.ali213.net/html/2021-4/603861.html",
+        "https://gl.ali213.net/html/2021-4/603861_2.html",
+        "https://gl.ali213.net/html/2021-4/603861_3.html",
+        "https://gl.ali213.net/html/2021-4/603861_4.html",
+        "https://gl.ali213.net/html/2021-4/603861_5.html",
+        "https://gl.ali213.net/html/2021-4/603861_6.html",
+        "https://gl.ali213.net/html/2021-4/603861_7.html",
+        "https://gl.ali213.net/html/2021-4/603861_8.html"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "ali213_d2r",
+      "source_label": "游侠网 D2R 攻略站",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "https://gl.ali213.net/html/2021-4/603861.html",
+      "title": "暗黑破坏神2重制版图文攻略 剧情流程+Boss打法+职业介绍+技能推荐+属性加点+装备搭配 游戏界面-游侠网",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "e26612e0741c7cf556de4daa64a40d2ed35f95e2c5bd31e6021d0cb4a1eb6e3e",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "unchanged",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::ali213_d2r::ba8aac5b184f52bb45c2",
+      "snapshot_path": "snapshots/ali213_d2r/ali213_d2r--ba8aac5b184f52bb45c2.html",
+      "seen_at": "2026-04-23T07:13:33+00:00",
+      "run_id": "20260423T071333Z"
+    }
+  ]
+}

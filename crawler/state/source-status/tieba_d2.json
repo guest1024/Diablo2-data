@@ -1,0 +1,13 @@
+{
+  "source_id": "tieba_d2",
+  "enabled": false,
+  "region": "CN",
+  "transport": "manual-403",
+  "observed_status": "403-forbidden",
+  "saved_snapshots": 0,
+  "manual_curated_count": 0,
+  "capture_summary": {},
+  "lifecycle_summary": {},
+  "last_run_status": "n/a",
+  "notes": "直抓 403，可改为人工导出链接白名单。"
+}

@@ -1,7 +1,7 @@
 # Verification Index
 
-- Generated at: `2026-04-21T15:43:43.431590+00:00`
-- Verification suite: `12/12` PASS
+- Generated at: `2026-04-23T08:04:28.356148+00:00`
+- Verification suite: `11/13` PASS
 - Routing matrix: `66` queries
 - Curated lane: `60`
 - Primary lane: `6`

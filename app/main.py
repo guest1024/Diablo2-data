@@ -17,7 +17,7 @@ class QARequest(BaseModel):
 
 @app.get("/health")
 def health() -> dict[str, object]:
-    return {"ok": True, "graph_stats": service.graph.stats()}
+    return {"ok": True, **service.runtime_status()}
 
 
 @app.post("/ingest")

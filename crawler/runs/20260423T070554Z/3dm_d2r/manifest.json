@@ -1,0 +1,176 @@
+{
+  "source": {
+    "id": "3dm_d2r",
+    "label": "3DM D2R 攻略页",
+    "enabled": true,
+    "weight": 0.8,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok-js-heavy",
+    "home_url": "https://www.3dmgame.com/games/diablo2re/gl/",
+    "robots_url": "https://www.3dmgame.com/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://www.3dmgame.com/games/diablo2re/gl/"
+    ],
+    "curated_urls": [
+      "https://www.3dmgame.com/gl/3836959.html",
+      "https://www.3dmgame.com/gl/3837288.html",
+      "https://www.3dmgame.com/gl/3838021.html",
+      "https://www.3dmgame.com/gl/3837440.html"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://www\\.3dmgame\\.com/(gl|news)/\\d+\\.html$"
+      ],
+      "exclude": [
+        "/games/diablo2re/gl/?$"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "/gl/383",
+        "攻略",
+        "加点",
+        "装备",
+        "boss"
+      ],
+      "denied_keywords": [
+        "news",
+        "download",
+        "修改器"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "下载",
+        "修改器",
+        "补丁",
+        "新闻"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "JS heavy guide hub; curated static攻略页已补齐。"
+  },
+  "generated_at": "2026-04-23T07:05:54+00:00",
+  "seed_count": 5,
+  "candidate_count": 4,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://www.3dmgame.com/gl/3836959.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 156677,
+      "discovered_candidates": [
+        "https://www.3dmgame.com/gl/3836959.html",
+        "https://www.3dmgame.com/gl/3979674.html",
+        "https://www.3dmgame.com/gl/3979675.html",
+        "https://www.3dmgame.com/gl/3979676.html",
+        "https://www.3dmgame.com/gl/3979624.html",
+        "https://www.3dmgame.com/gl/3979758.html",
+        "https://www.3dmgame.com/gl/3979759.html",
+        "https://www.3dmgame.com/gl/3979819.html"
+      ]
+    },
+    {
+      "url": "https://www.3dmgame.com/gl/3837288.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 71486,
+      "discovered_candidates": [
+        "https://www.3dmgame.com/gl/3837288.html",
+        "https://www.3dmgame.com/gl/3979674.html",
+        "https://www.3dmgame.com/gl/3979675.html",
+        "https://www.3dmgame.com/gl/3979676.html",
+        "https://www.3dmgame.com/gl/3979624.html",
+        "https://www.3dmgame.com/gl/3979758.html",
+        "https://www.3dmgame.com/gl/3979759.html",
+        "https://www.3dmgame.com/gl/3979819.html"
+      ]
+    },
+    {
+      "url": "https://www.3dmgame.com/gl/3838021.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 64810,
+      "discovered_candidates": [
+        "https://www.3dmgame.com/gl/3838021.html",
+        "https://www.3dmgame.com/gl/3979674.html",
+        "https://www.3dmgame.com/gl/3979675.html",
+        "https://www.3dmgame.com/gl/3979676.html",
+        "https://www.3dmgame.com/gl/3979624.html",
+        "https://www.3dmgame.com/gl/3979758.html",
+        "https://www.3dmgame.com/gl/3979759.html",
+        "https://www.3dmgame.com/gl/3979819.html"
+      ]
+    },
+    {
+      "url": "https://www.3dmgame.com/gl/3837440.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 58014,
+      "discovered_candidates": [
+        "https://www.3dmgame.com/gl/3837440.html",
+        "https://www.3dmgame.com/gl/3979674.html",
+        "https://www.3dmgame.com/gl/3979675.html",
+        "https://www.3dmgame.com/gl/3979676.html",
+        "https://www.3dmgame.com/gl/3979624.html",
+        "https://www.3dmgame.com/gl/3979758.html",
+        "https://www.3dmgame.com/gl/3979759.html",
+        "https://www.3dmgame.com/gl/3979819.html"
+      ]
+    },
+    {
+      "url": "https://www.3dmgame.com/games/diablo2re/gl/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 14308,
+      "discovered_candidates": []
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "3dm_d2r",
+      "source_label": "3DM D2R 攻略页",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "https://www.3dmgame.com/gl/3836959.html",
+      "title": "暗黑破坏神2重制版攻略_图文攻略百科攻略_3DM单机",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "9d2e74f23ec90a03f146f7bf802994f5b4e45f71dcbb443cfa02d3c0a387fe24",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "new",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::3dm_d2r::d7119f6d3d26161f68d3",
+      "snapshot_path": "snapshots/3dm_d2r/3dm_d2r--d7119f6d3d26161f68d3.html",
+      "seen_at": "2026-04-23T07:05:54+00:00",
+      "run_id": "20260423T070554Z"
+    }
+  ]
+}

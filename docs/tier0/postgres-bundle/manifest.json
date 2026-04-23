@@ -7,7 +7,7 @@
   ],
   "tables": {
     "documents": {
-      "rows": 455,
+      "rows": 511,
       "columns": [
         "doc_id",
         "source_id",
@@ -26,7 +26,7 @@
       "path": "docs/tier0/postgres-bundle/data/documents.tsv"
     },
     "chunks": {
-      "rows": 8652,
+      "rows": 8708,
       "columns": [
         "chunk_id",
         "doc_id",
@@ -43,6 +43,56 @@
         "metadata"
       ],
       "path": "docs/tier0/postgres-bundle/data/chunks.tsv"
+    },
+    "canonical_entities": {
+      "rows": 661,
+      "columns": [
+        "canonical_id",
+        "node_type",
+        "entity_key",
+        "name",
+        "aliases",
+        "document_count",
+        "supporting_source_count",
+        "supporting_sources",
+        "claim_count",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/canonical_entities.tsv"
+    },
+    "canonical_claims": {
+      "rows": 899,
+      "columns": [
+        "canonical_claim_id",
+        "subject_id",
+        "subject_type",
+        "subject_name",
+        "subject_aliases",
+        "predicate",
+        "predicate_family",
+        "object_value",
+        "supporting_sources",
+        "supporting_source_count",
+        "claim_variant_count",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/canonical_claims.tsv"
+    },
+    "provenance": {
+      "rows": 927,
+      "columns": [
+        "provenance_id",
+        "claim_id",
+        "subject_id",
+        "predicate",
+        "source_id",
+        "evidence_doc_id",
+        "evidence_url",
+        "authority_tier",
+        "lane",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/provenance.tsv"
     },
     "search_aliases": {
       "rows": 2662,
@@ -257,7 +307,7 @@
       "path": "docs/tier0/postgres-bundle/data/areas.tsv"
     },
     "unique_items": {
-      "rows": 433,
+      "rows": 425,
       "columns": [
         "unique_item_id",
         "unique_key",

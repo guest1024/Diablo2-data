@@ -1,4 +1,8 @@
 CREATE OR REPLACE VIEW d2.entity_catalog AS
+SELECT node_type::TEXT AS entity_type, canonical_id AS entity_id, name, NULL::TEXT AS name_zh,
+       jsonb_build_object('entity_key', entity_key, 'document_count', document_count, 'supporting_source_count', supporting_source_count) AS metadata
+FROM d2.canonical_entities
+UNION ALL
 SELECT 'Runeword'::TEXT AS entity_type, runeword_id AS entity_id, name, NULL::TEXT AS name_zh, jsonb_build_object('socket_count', socket_count, 'patch_release', patch_release) AS metadata
 FROM d2.runewords
 UNION ALL
@@ -57,3 +61,26 @@ FROM d2.runewords rw
 JOIN d2.runeword_runes rr ON rr.runeword_id = rw.runeword_id
 JOIN d2.runes r ON r.code = rr.rune_code
 GROUP BY rw.runeword_id, rw.name, r.rune_id, r.code, r.name;
+
+CREATE OR REPLACE VIEW d2.grounded_claims AS
+SELECT
+    cc.canonical_claim_id,
+    cc.subject_id,
+    cc.subject_type,
+    cc.subject_name,
+    cc.predicate,
+    cc.predicate_family,
+    cc.object_value,
+    cc.supporting_sources,
+    cc.supporting_source_count,
+    p.provenance_id,
+    p.claim_id,
+    p.source_id,
+    p.evidence_doc_id,
+    p.evidence_url,
+    p.authority_tier,
+    p.lane
+FROM d2.canonical_claims cc
+LEFT JOIN d2.provenance p
+  ON p.subject_id = cc.subject_id
+ AND p.predicate = cc.predicate;

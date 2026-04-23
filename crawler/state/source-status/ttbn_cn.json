@@ -1,0 +1,13 @@
+{
+  "source_id": "ttbn_cn",
+  "enabled": false,
+  "region": "CN",
+  "transport": "probe-only",
+  "observed_status": "connection-reset",
+  "saved_snapshots": 0,
+  "manual_curated_count": 0,
+  "capture_summary": {},
+  "lifecycle_summary": {},
+  "last_run_status": "n/a",
+  "notes": "候选优质资料站，但当前连接被重置。"
+}

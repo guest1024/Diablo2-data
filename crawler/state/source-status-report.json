@@ -1,0 +1,254 @@
+{
+  "version": "2026-04-23",
+  "sources": [
+    {
+      "source_id": "91d2",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 1,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "国内高价值资料站，适合作为长期主源之一。"
+    },
+    {
+      "source_id": "d2_blizzard_cn",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 1,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "filtered": 1,
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "ignored": 1,
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "官方中文入口，适合新闻、公告、术语层快照。"
+    },
+    {
+      "source_id": "diablo2_com_cn",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct-http",
+      "observed_status": "http-ok-https-timeout",
+      "saved_snapshots": 1,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "老牌中文资料库，HTTP 可达。"
+    },
+    {
+      "source_id": "bbs_diablo2_com_cn",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct-http",
+      "observed_status": "http-ok-https-timeout",
+      "saved_snapshots": 1,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "filtered": 1,
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "ignored": 1,
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "论坛只建议保留白名单精华帖。"
+    },
+    {
+      "source_id": "rogue_camp_163",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "seed-only",
+      "notes": "社区论坛入口，可后续补 curated 白名单。"
+    },
+    {
+      "source_id": "ali213_d2r",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 1,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "中文攻略聚合入口，适合补新手和流程向页面。"
+    },
+    {
+      "source_id": "gamersky_d2r",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 4,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "saved": 3,
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "unchanged": 1,
+        "new": 2,
+        "frozen": 1
+      },
+      "last_run_status": "captured",
+      "notes": "攻略、新闻入口较稳定。"
+    },
+    {
+      "source_id": "3dm_d2r",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok-js-heavy",
+      "saved_snapshots": 4,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "frozen": 1,
+        "saved": 3
+      },
+      "lifecycle_summary": {
+        "frozen": 1,
+        "new": 3
+      },
+      "last_run_status": "captured",
+      "notes": "JS heavy guide hub; curated static攻略页已补齐。"
+    },
+    {
+      "source_id": "17173_d2r",
+      "enabled": true,
+      "region": "CN",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 4,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "saved": 3,
+        "frozen": 1
+      },
+      "lifecycle_summary": {
+        "unchanged": 1,
+        "frozen": 1,
+        "new": 2
+      },
+      "last_run_status": "captured",
+      "notes": "中文新闻/攻略专区，可发现较多历史页面。"
+    },
+    {
+      "source_id": "news_blizzard_zh_tw",
+      "enabled": true,
+      "region": "Overseas-ZH",
+      "transport": "direct",
+      "observed_status": "direct-ok",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {
+        "ignored": 1
+      },
+      "lifecycle_summary": {
+        "ignored": 1
+      },
+      "last_run_status": "captured",
+      "notes": "繁中官方新闻与背景故事页面。"
+    },
+    {
+      "source_id": "ttbn_cn",
+      "enabled": false,
+      "region": "CN",
+      "transport": "probe-only",
+      "observed_status": "connection-reset",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "n/a",
+      "notes": "候选优质资料站，但当前连接被重置。"
+    },
+    {
+      "source_id": "bahamut_d2r",
+      "enabled": false,
+      "region": "Overseas-ZH",
+      "transport": "requires-proxy",
+      "observed_status": "outbound-blocked",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "n/a",
+      "notes": "当前环境出海不可达，建议代理后启用。"
+    },
+    {
+      "source_id": "ptt_diablo",
+      "enabled": false,
+      "region": "Overseas-ZH",
+      "transport": "requires-proxy",
+      "observed_status": "outbound-blocked",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "n/a",
+      "notes": "当前环境出海不可达，建议代理后启用。"
+    },
+    {
+      "source_id": "tieba_d2r",
+      "enabled": false,
+      "region": "CN",
+      "transport": "manual-403",
+      "observed_status": "403-forbidden",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "n/a",
+      "notes": "直抓 403，可改为人工导出链接白名单。"
+    },
+    {
+      "source_id": "tieba_d2",
+      "enabled": false,
+      "region": "CN",
+      "transport": "manual-403",
+      "observed_status": "403-forbidden",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "capture_summary": {},
+      "lifecycle_summary": {},
+      "last_run_status": "n/a",
+      "notes": "直抓 403，可改为人工导出链接白名单。"
+    }
+  ],
+  "summary": {
+    "configured_sources": 15,
+    "sources_with_saved_snapshots": 8,
+    "total_saved_snapshots": 17,
+    "sources_with_manual_curated": 0
+  }
+}

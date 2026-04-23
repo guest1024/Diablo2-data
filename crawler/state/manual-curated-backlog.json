@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "source_id": "rogue_camp_163",
+      "enabled": true,
+      "transport": "direct",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; forum entry page still returns prompt/seed-only in current environment",
+      "suggested_action": "优先人工收集 1~3 条凯恩之角/罗格营地静态攻略帖 URL，再用 validate/probe 校验后写入 manual_curated_urls.json。"
+    },
+    {
+      "source_id": "news_blizzard_zh_tw",
+      "enabled": true,
+      "transport": "direct",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet",
+      "suggested_action": "若需要补繁中官方故事/专题页，可直接手工加入 article URL。"
+    },
+    {
+      "source_id": "ttbn_cn",
+      "enabled": false,
+      "transport": "probe-only",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; transport=probe-only",
+      "suggested_action": "当前连接重置，建议先人工确认可访问页面，再补静态资料页 URL。"
+    },
+    {
+      "source_id": "bahamut_d2r",
+      "enabled": false,
+      "transport": "requires-proxy",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; transport=requires-proxy",
+      "suggested_action": "通过代理打开哈啦板后，挑选置顶/精华攻略帖 URL 手工录入。"
+    },
+    {
+      "source_id": "ptt_diablo",
+      "enabled": false,
+      "transport": "requires-proxy",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; transport=requires-proxy",
+      "suggested_action": "人工筛选高质量 M.*.A.html 文章，再加入 manual_curated_urls.json。"
+    },
+    {
+      "source_id": "tieba_d2r",
+      "enabled": false,
+      "transport": "manual-403",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; transport=manual-403",
+      "suggested_action": "人工从贴吧帖子页复制 /p/<id> 形式 URL，避免列表页 403。"
+    },
+    {
+      "source_id": "tieba_d2",
+      "enabled": false,
+      "transport": "manual-403",
+      "saved_snapshots": 0,
+      "manual_curated_count": 0,
+      "reason": "no saved snapshots yet; transport=manual-403",
+      "suggested_action": "人工从贴吧帖子页复制 /p/<id> 形式 URL，避免列表页 403。"
+    }
+  ],
+  "summary": {
+    "sources_needing_manual_curated": 7,
+    "manual_curated_file": "manual_curated_urls.json"
+  }
+}

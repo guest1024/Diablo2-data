@@ -1,7 +1,7 @@
 # Verification Suite
 
-- Generated at: `2026-04-21T15:43:44.431516+00:00`
-- Passed: `13/13`
+- Generated at: `2026-04-23T08:04:28.491220+00:00`
+- Passed: `11/13`
 
 | Check | Status |
 |---|---|
@@ -9,8 +9,8 @@
 | build_graph_support_assets | PASS |
 | verify_graph_support_assets | PASS |
 | verify_bilingual_term_map | PASS |
-| verify_curated_anchor_routing | PASS |
-| verify_routing_matrix | PASS |
+| verify_curated_anchor_routing | FAIL |
+| verify_routing_matrix | FAIL |
 | verify_curated_surface_alignment | PASS |
 | build_surface_coverage_report | PASS |
 | build_verification_index | PASS |
@@ -53,18 +53,18 @@ PASS: chroma package verification completed
 - status: `PASS`
 - stdout tail:
 ```text
-PASS: alias registry contains MF
-PASS: alias registry contains 锤丁
-PASS: alias registry contains HOTO
-PASS: alias registry contains CTA
-PASS: alias registry contains 安头
 PASS: alias registry contains 米山
+PASS: alias registry contains SOJ
+PASS: alias registry contains 锤丁
+PASS: alias registry contains CTA
+PASS: alias registry contains MF
 PASS: alias registry contains DClone
-PASS: build registry contains build::blizzard-sorceress
-PASS: build registry contains build::summon-necromancer
+PASS: alias registry contains 安头
 PASS: build registry contains build::hammerdin
-PASS: build registry contains build::lightning-sorceress
+PASS: build registry contains build::summon-necromancer
 PASS: build registry contains build::javazon
+PASS: build registry contains build::blizzard-sorceress
+PASS: build registry contains build::lightning-sorceress
 ```
 
 ### verify_bilingual_term_map
@@ -88,40 +88,33 @@ PASS: validated 71 bilingual term mappings
 
 ### verify_curated_anchor_routing
 
-- status: `PASS`
+- status: `FAIL`
 - stdout tail:
 ```text
-PASS: 召唤死灵是什么？ routes to curated anchor source
-PASS: 召唤死灵是什么？ top title matches curated anchor
-PASS: 橡树之心是什么？ routes to curated anchor source
-PASS: 橡树之心是什么？ top title matches curated anchor
-PASS: 死呼是什么？ routes to curated anchor source
-PASS: 死呼是什么？ top title matches curated anchor
-PASS: 荣耀之链是什么？ routes to curated anchor source
-PASS: 荣耀之链是什么？ top title matches curated anchor
-PASS: 狮鹫是什么？ routes to curated anchor source
-PASS: 狮鹫是什么？ top title matches curated anchor
-PASS: Spirit still routes to primary source
-PASS: Spirit still prefers entity_link evidence
+PASS: 无限是什么？ top3 contains expected hybrid anchor
+PASS: 劳模是什么？ top3 contains expected hybrid anchor
+PASS: 女伯爵是什么？ top3 contains expected hybrid anchor
+PASS: 古代通道是什么？ top3 contains expected hybrid anchor
+PASS: 牛场是什么？ top3 contains expected hybrid anchor
+PASS: 大菠萝是什么？ top3 contains expected hybrid anchor
+PASS: 眼光是什么？ top3 contains expected hybrid anchor
+PASS: 悔恨是什么？ top3 contains expected hybrid anchor
+PASS: 刚毅是什么？ top3 contains expected hybrid anchor
+PASS: 战争召唤是什么？ top3 contains expected hybrid anchor
+PASS: 地穴是什么？ top3 contains expected hybrid anchor
+PASS: 军团圣盾是什么？ top3 contains expected hybrid anchor
+```
+- stderr tail:
+```text
+FAIL: 精神盾是什么？ top3 contains expected hybrid anchor
 ```
 
 ### verify_routing_matrix
 
-- status: `PASS`
-- stdout tail:
+- status: `FAIL`
+- stderr tail:
 ```text
-PASS: 尼拉塞克是什么？ routes as expected
-PASS: 老P是什么？ routes as expected
-PASS: 泰坦是什么？ routes as expected
-PASS: 鸦霜是什么？ routes as expected
-PASS: 塔套是什么？ routes as expected
-PASS: 婚戒是什么？ routes as expected
-PASS: 虫链是什么？ routes as expected
-PASS: 弓马是什么？ routes as expected
-PASS: 狼德是什么？ routes as expected
-PASS: 陷阱刺客是什么？ routes as expected
-PASS: 新星电法是什么？ routes as expected
-PASS: 召唤死灵是什么？ routes as expected
+FAIL: Spirit 是什么？ routes as expected
 ```
 
 ### verify_curated_surface_alignment

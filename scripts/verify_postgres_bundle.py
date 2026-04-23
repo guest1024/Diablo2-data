@@ -31,6 +31,9 @@ def main() -> int:
     required_tables = {
         "documents",
         "chunks",
+        "canonical_entities",
+        "canonical_claims",
+        "provenance",
         "search_aliases",
         "build_archetypes",
         "build_core_skills",
@@ -63,6 +66,9 @@ def main() -> int:
         expect(f"\\copy d2.{table_name}" in import_sql, f"import.sql loads {table_name}")
 
     expect(manifest["tables"]["search_aliases"]["rows"] > 2500, "search aliases bundle is substantial")
+    expect(manifest["tables"]["canonical_entities"]["rows"] >= 600, "canonical entities bundle is substantial")
+    expect(manifest["tables"]["canonical_claims"]["rows"] >= 800, "canonical claims bundle is substantial")
+    expect(manifest["tables"]["provenance"]["rows"] >= 900, "provenance bundle is substantial")
     expect(manifest["tables"]["documents"]["rows"] >= 400, "documents bundle is substantial")
     expect(manifest["tables"]["chunks"]["rows"] >= 8000, "chunks bundle is substantial")
     expect(manifest["tables"]["runewords"]["rows"] >= 90, "runewords bundle is substantial")

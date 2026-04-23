@@ -1,0 +1,13 @@
+{
+  "source_id": "bahamut_d2r",
+  "enabled": false,
+  "region": "Overseas-ZH",
+  "transport": "requires-proxy",
+  "observed_status": "outbound-blocked",
+  "saved_snapshots": 0,
+  "manual_curated_count": 0,
+  "capture_summary": {},
+  "lifecycle_summary": {},
+  "last_run_status": "n/a",
+  "notes": "当前环境出海不可达，建议代理后启用。"
+}

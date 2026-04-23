@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T15:43:44.431516+00:00",
-  "passed": 13,
+  "generated_at": "2026-04-23T08:04:28.491220+00:00",
+  "passed": 11,
   "total": 13,
   "results": [
     {
@@ -21,7 +21,7 @@
       "name": "verify_graph_support_assets",
       "returncode": 0,
       "passed": true,
-      "stdout_tail": "PASS: alias registry contains MF\nPASS: alias registry contains 锤丁\nPASS: alias registry contains HOTO\nPASS: alias registry contains CTA\nPASS: alias registry contains 安头\nPASS: alias registry contains 米山\nPASS: alias registry contains DClone\nPASS: build registry contains build::blizzard-sorceress\nPASS: build registry contains build::summon-necromancer\nPASS: build registry contains build::hammerdin\nPASS: build registry contains build::lightning-sorceress\nPASS: build registry contains build::javazon",
+      "stdout_tail": "PASS: alias registry contains 米山\nPASS: alias registry contains SOJ\nPASS: alias registry contains 锤丁\nPASS: alias registry contains CTA\nPASS: alias registry contains MF\nPASS: alias registry contains DClone\nPASS: alias registry contains 安头\nPASS: build registry contains build::hammerdin\nPASS: build registry contains build::summon-necromancer\nPASS: build registry contains build::javazon\nPASS: build registry contains build::blizzard-sorceress\nPASS: build registry contains build::lightning-sorceress",
       "stderr_tail": ""
     },
     {
@@ -33,17 +33,17 @@
     },
     {
       "name": "verify_curated_anchor_routing",
-      "returncode": 0,
-      "passed": true,
-      "stdout_tail": "PASS: 召唤死灵是什么？ routes to curated anchor source\nPASS: 召唤死灵是什么？ top title matches curated anchor\nPASS: 橡树之心是什么？ routes to curated anchor source\nPASS: 橡树之心是什么？ top title matches curated anchor\nPASS: 死呼是什么？ routes to curated anchor source\nPASS: 死呼是什么？ top title matches curated anchor\nPASS: 荣耀之链是什么？ routes to curated anchor source\nPASS: 荣耀之链是什么？ top title matches curated anchor\nPASS: 狮鹫是什么？ routes to curated anchor source\nPASS: 狮鹫是什么？ top title matches curated anchor\nPASS: Spirit still routes to primary source\nPASS: Spirit still prefers entity_link evidence",
-      "stderr_tail": ""
+      "returncode": 1,
+      "passed": false,
+      "stdout_tail": "PASS: 无限是什么？ top3 contains expected hybrid anchor\nPASS: 劳模是什么？ top3 contains expected hybrid anchor\nPASS: 女伯爵是什么？ top3 contains expected hybrid anchor\nPASS: 古代通道是什么？ top3 contains expected hybrid anchor\nPASS: 牛场是什么？ top3 contains expected hybrid anchor\nPASS: 大菠萝是什么？ top3 contains expected hybrid anchor\nPASS: 眼光是什么？ top3 contains expected hybrid anchor\nPASS: 悔恨是什么？ top3 contains expected hybrid anchor\nPASS: 刚毅是什么？ top3 contains expected hybrid anchor\nPASS: 战争召唤是什么？ top3 contains expected hybrid anchor\nPASS: 地穴是什么？ top3 contains expected hybrid anchor\nPASS: 军团圣盾是什么？ top3 contains expected hybrid anchor",
+      "stderr_tail": "FAIL: 精神盾是什么？ top3 contains expected hybrid anchor"
     },
     {
       "name": "verify_routing_matrix",
-      "returncode": 0,
-      "passed": true,
-      "stdout_tail": "PASS: 尼拉塞克是什么？ routes as expected\nPASS: 老P是什么？ routes as expected\nPASS: 泰坦是什么？ routes as expected\nPASS: 鸦霜是什么？ routes as expected\nPASS: 塔套是什么？ routes as expected\nPASS: 婚戒是什么？ routes as expected\nPASS: 虫链是什么？ routes as expected\nPASS: 弓马是什么？ routes as expected\nPASS: 狼德是什么？ routes as expected\nPASS: 陷阱刺客是什么？ routes as expected\nPASS: 新星电法是什么？ routes as expected\nPASS: 召唤死灵是什么？ routes as expected",
-      "stderr_tail": ""
+      "returncode": 1,
+      "passed": false,
+      "stdout_tail": "",
+      "stderr_tail": "FAIL: Spirit 是什么？ routes as expected"
     },
     {
       "name": "verify_curated_surface_alignment",

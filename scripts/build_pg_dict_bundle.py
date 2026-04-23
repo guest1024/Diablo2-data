@@ -183,7 +183,7 @@ def build_build_dict() -> dict[str, tuple[list[dict[str, Any]], list[str]]]:
 
 
 def build_item_dict() -> tuple[list[dict[str, Any]], list[str]]:
-    rows=[]
+    dedup: dict[str, dict[str, Any]] = {}
     for path, family, rarity in [
         (STRUCTURED / 'base-items.jsonl', 'base_item', None),
         (STRUCTURED / 'runes.jsonl', 'rune', 'rune'),
@@ -201,7 +201,7 @@ def build_item_dict() -> tuple[list[dict[str, Any]], list[str]]:
                 keywords.extend(filter(None, [row.get('bucket'), row.get('item_type'), row.get('item_type_2')]))
             elif family == 'runeword':
                 keywords.extend(row.get('allowed_item_types', []))
-            rows.append({
+            candidate = {
                 'item_id': item_id,
                 'canonical_name': name,
                 'canonical_name_zh': name_zh,
@@ -212,7 +212,11 @@ def build_item_dict() -> tuple[list[dict[str, Any]], list[str]]:
                 'source': row.get('source'),
                 'active': True,
                 'metadata': dump_json({'source_file': row.get('source_file')}),
-            })
+            }
+            current = dedup.get(str(item_id))
+            if current is None or len(str(candidate.get('canonical_name') or '')) >= len(str(current.get('canonical_name') or '')):
+                dedup[str(item_id)] = candidate
+    rows = list(dedup.values())
     return rows, ['item_id','canonical_name','canonical_name_zh','item_family','rarity','base_code','normalized_keywords','source','active','metadata']
 
 
@@ -295,6 +299,32 @@ def build_rule_dict() -> tuple[list[dict[str, Any]], list[str]]:
             'active': True,
             'metadata': dump_json({'source_file': row.get('source_file')}),
         })
+    for row in load_jsonl(STRUCTURED / 'runewords.jsonl'):
+        for modifier in row.get('modifiers', []):
+            min_v = modifier.get('min')
+            max_v = modifier.get('max')
+            if min_v is None and max_v is None:
+                continue
+            if min_v == max_v and modifier.get('param') in (None, ''):
+                continue
+            desc = f"{row['name']} modifier {modifier.get('code')}"
+            if modifier.get('param'):
+                desc += f" ({modifier.get('param')})"
+            desc += f": {min_v}..{max_v}"
+            rows.append({
+                'rule_id': stable_id('rule', 'runeword_modifier', row['name'], str(modifier.get('code')), str(modifier.get('param'))),
+                'rule_type': 'runeword_modifier',
+                'subject_type': 'Runeword',
+                'canonical_subject': row['name'],
+                'description': desc,
+                'rule_jsonb': dump_json({'runeword': row['name'], 'modifier': modifier}),
+                'source': row.get('source'),
+                'confidence': 0.92,
+                'active': True,
+                'metadata': dump_json({'source_file': row.get('source_file')}),
+            })
+    dedup = {row['rule_id']: row for row in rows}
+    rows = list(dedup.values())
     return rows, ['rule_id','rule_type','subject_type','canonical_subject','description','rule_jsonb','source','confidence','active','metadata']
 
 

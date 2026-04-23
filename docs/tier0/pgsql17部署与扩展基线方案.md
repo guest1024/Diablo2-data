@@ -559,3 +559,157 @@ SELECT similarity('laomo', '劳模');
 ```bash
 .venv/bin/python scripts/d2_pg_cli.py pipeline refresh-pg-search
 ```
+
+## 15. 运行时接入建议
+
+当前代码已补入 PostgreSQL 运行时适配层：
+
+- `app/postgres_store.py`
+
+建议环境变量：
+
+```conf
+DATABASE_URL=postgresql://user:pass@host:5432/dbname
+RETRIEVAL_BACKEND=auto
+```
+
+推荐默认值：
+
+- `RETRIEVAL_BACKEND=auto`
+  - PostgreSQL 可用时优先用 PG 做检索
+  - 不可用时回退本地 Chroma/JSONL
+
+如果你要强制只走 PG 运行时验证，可设置：
+
+```conf
+RETRIEVAL_BACKEND=postgres
+```
+
+如果要保留当前本地回归基线，可设置：
+
+```conf
+RETRIEVAL_BACKEND=local
+```
+
+## 16. PostgreSQL 向量导入补充
+
+在 `pgvector` 已安装、`d2.chunks.embedding` 列已创建的前提下，当前仓库还提供了向量资产包：
+
+- `docs/tier0/postgres-embedding-bundle/`
+
+可直接执行：
+
+```bash
+.venv/bin/python scripts/build_pg_embedding_bundle.py
+.venv/bin/python scripts/verify_pg_embedding_bundle.py
+.venv/bin/python scripts/load_pg_embedding_bundle.py --database-url <DATABASE_URL>
+```
+
+## 17. pg_textsearch 运行时接入补充
+
+当前仓库已新增：
+
+- `sql/postgres/006_pg_textsearch_indexes.sql`
+
+用于给 `d2.chunks` 建立 BM25 索引。
+
+当 `pg_textsearch` 已安装、索引已建立时，运行时 `app/postgres_store.py` 会自动尝试：
+
+- `postgres_bm25` lane
+
+否则回退到：
+
+- PostgreSQL lexical/trigram lane
+
+因此当前代码已经兼容“扩展已装”和“扩展暂未装”两种状态。
+
+
+补充：当前仓库已新增 `sql/postgres/007_strategy_views.sql`，用于把 build -> runeword -> base -> farm area 这类启发式 support 固化成 PostgreSQL 可查询的 strategy edges。
+
+## 18. 当前仓库的实际部署实现
+
+虽然前文给了通用基线，但当前仓库已经落成一套**可直接运行**的 Ubuntu 24.04 + PG17 制品镜像方案：
+
+- 目录：`deploy/pgsql17-ubuntu24/`
+- 基底：`ubuntu:24.04`
+- apt mirror：`mirrors.tencent.com`
+- PostgreSQL：`17.5`（源码编译）
+- 扩展：
+  - `pgvector`
+  - `pg_textsearch`
+  - `pg_trgm`
+  - `unaccent`
+  - `ltree`
+  - `hstore`
+  - `pg_stat_statements`
+
+关键入口：
+
+```bash
+bash deploy/pgsql17-ubuntu24/build-and-up.sh
+bash deploy/pgsql17-ubuntu24/verify-running.sh
+```
+
+当前部署资产已经包含：
+
+- `Dockerfile`
+- `docker-compose.yml`
+- `conf/postgresql.conf`
+- `init/001_extensions.sql`
+- `scripts/entrypoint.sh`
+- `scripts/process-init-files.sh`
+
+## 19. 当前实测部署结果
+
+本仓库最新实测结果：
+
+- 容器：`d2-pg17`
+- 状态：`healthy`
+- 镜像：`pgsql17-ubuntu24_pg17:latest`
+- bundle 已加载：
+  - 主 bundle
+  - dict bundle
+  - embedding bundle
+  - strategy bundle
+
+最新已验证计数：
+
+- `d2.documents = 511`
+- `d2.chunks = 8708`
+- `d2.canonical_entities = 661`
+- `d2.canonical_claims = 899`
+- `d2.provenance = 927`
+- `dict.item_dictionary = 1080`
+- `dict.term_dictionary = 59`
+- `d2.strategy_edge_facts = 57`
+- `d2.chunks where embedding is not null = 8708`
+
+## 20. 推荐的部署后验收
+
+部署完成后，建议依次执行：
+
+```bash
+bash deploy/pgsql17-ubuntu24/verify-running.sh
+.venv/bin/python scripts/verify_postgres_runtime_ready.py
+.venv/bin/python scripts/verify_api_pg_runtime.py
+.venv/bin/python scripts/verify_llm_reasoned_answers.py
+.venv/bin/python scripts/verify_full_pg_qa_stack.py
+```
+
+## 21. 预研路径补记
+
+本轮预研不是“先选一个最酷的扩展”，而是按下面顺序做的：
+
+1. 先确认目标能力是 **BM25 + embedding + graph expansion**
+2. 再确认并不强依赖 Cypher/AGE
+3. 再选 PG17 作为版本基线
+4. 再确认扩展组合：
+   - `pgvector`
+   - `pg_textsearch`
+   - `pg_trgm`
+   - `unaccent`
+   - `ltree`
+   - `pg_stat_statements`
+5. 再把部署收敛成 Ubuntu 24.04 + Docker + source build + bundle auto load
+
+这个顺序很重要，因为它保证了方案是**从能力需求推到实现**，而不是先被某个扩展绑架。

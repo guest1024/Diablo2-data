@@ -61,6 +61,72 @@ CREATE INDEX IF NOT EXISTS d2_search_aliases_canonical_idx ON d2.search_aliases 
 CREATE INDEX IF NOT EXISTS d2_search_aliases_alias_trgm_idx ON d2.search_aliases USING GIN (alias gin_trgm_ops);
 CREATE INDEX IF NOT EXISTS d2_search_aliases_metadata_gin_idx ON d2.search_aliases USING GIN (metadata jsonb_path_ops);
 
+
+CREATE TABLE IF NOT EXISTS d2.canonical_entities (
+    canonical_id TEXT PRIMARY KEY,
+    node_type TEXT NOT NULL,
+    entity_key TEXT,
+    name TEXT NOT NULL,
+    aliases JSONB NOT NULL DEFAULT '[]'::jsonb,
+    document_count INTEGER,
+    supporting_source_count INTEGER,
+    supporting_sources JSONB NOT NULL DEFAULT '[]'::jsonb,
+    claim_count INTEGER,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb
+);
+
+CREATE INDEX IF NOT EXISTS d2_canonical_entities_name_trgm_idx ON d2.canonical_entities USING GIN (name gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS d2_canonical_entities_aliases_gin_idx ON d2.canonical_entities USING GIN (aliases jsonb_path_ops);
+CREATE INDEX IF NOT EXISTS d2_canonical_entities_type_idx ON d2.canonical_entities (node_type);
+
+CREATE TABLE IF NOT EXISTS d2.canonical_claims (
+    canonical_claim_id TEXT PRIMARY KEY,
+    subject_id TEXT NOT NULL,
+    subject_type TEXT,
+    subject_name TEXT,
+    subject_aliases JSONB NOT NULL DEFAULT '[]'::jsonb,
+    predicate TEXT NOT NULL,
+    predicate_family TEXT,
+    object_value TEXT,
+    supporting_sources JSONB NOT NULL DEFAULT '[]'::jsonb,
+    supporting_source_count INTEGER,
+    claim_variant_count INTEGER,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb
+);
+
+CREATE INDEX IF NOT EXISTS d2_canonical_claims_subject_idx ON d2.canonical_claims (subject_id, predicate);
+CREATE INDEX IF NOT EXISTS d2_canonical_claims_predicate_idx ON d2.canonical_claims (predicate, predicate_family);
+CREATE INDEX IF NOT EXISTS d2_canonical_claims_object_trgm_idx ON d2.canonical_claims USING GIN (object_value gin_trgm_ops);
+
+CREATE TABLE IF NOT EXISTS d2.provenance (
+    provenance_id TEXT PRIMARY KEY,
+    claim_id TEXT NOT NULL,
+    subject_id TEXT NOT NULL,
+    predicate TEXT NOT NULL,
+    source_id TEXT NOT NULL,
+    evidence_doc_id TEXT,
+    evidence_url TEXT,
+    authority_tier TEXT,
+    lane TEXT,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb
+);
+
+CREATE INDEX IF NOT EXISTS d2_provenance_subject_idx ON d2.provenance (subject_id, predicate);
+CREATE INDEX IF NOT EXISTS d2_provenance_claim_idx ON d2.provenance (claim_id);
+CREATE INDEX IF NOT EXISTS d2_provenance_source_idx ON d2.provenance (source_id, authority_tier);
+
+CREATE TABLE IF NOT EXISTS d2.strategy_edge_facts (
+    subject_id TEXT NOT NULL,
+    predicate TEXT NOT NULL,
+    object_id TEXT NOT NULL,
+    priority INTEGER,
+    metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
+    PRIMARY KEY (subject_id, predicate, object_id)
+);
+
+CREATE INDEX IF NOT EXISTS d2_strategy_edge_facts_subject_idx ON d2.strategy_edge_facts (subject_id, predicate, priority DESC);
+CREATE INDEX IF NOT EXISTS d2_strategy_edge_facts_object_idx ON d2.strategy_edge_facts (object_id, predicate);
+
 CREATE TABLE IF NOT EXISTS d2.build_archetypes (
     build_id TEXT PRIMARY KEY,
     canonical_name TEXT NOT NULL,

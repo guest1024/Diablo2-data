@@ -1,0 +1,98 @@
+{
+  "source": {
+    "id": "news_blizzard_zh_tw",
+    "label": "暴雪新闻 zh-TW Diablo II",
+    "enabled": true,
+    "weight": 0.79,
+    "region": "Overseas-ZH",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://news.blizzard.com/zh-tw/diablo2",
+    "robots_url": "https://news.blizzard.com/robots.txt",
+    "authority_tier": "official",
+    "lane": "official",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://news.blizzard.com/zh-tw/diablo2"
+    ],
+    "curated_urls": [
+      "https://news.blizzard.com/zh-tw/article/23725427"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://news\\.blizzard\\.com/zh-tw/article/\\d+"
+      ],
+      "exclude": []
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "article",
+        "diablo2"
+      ],
+      "denied_keywords": []
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "消息"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "繁中官方新闻与背景故事页面。"
+  },
+  "generated_at": "2026-04-23T06:26:57+00:00",
+  "seed_count": 2,
+  "candidate_count": 1,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://news.blizzard.com/zh-tw/article/23725427",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "note": null,
+      "robots_note": "robots-best-effort:HTTP Error 404: Not Found",
+      "bytes": 23133,
+      "discovered_candidates": []
+    },
+    {
+      "url": "https://news.blizzard.com/zh-tw/diablo2",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "note": null,
+      "robots_note": "robots-best-effort:HTTP Error 404: Not Found",
+      "bytes": 10135,
+      "discovered_candidates": []
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "news_blizzard_zh_tw",
+      "source_label": "暴雪新闻 zh-TW Diablo II",
+      "authority_tier": "official",
+      "lane": "official",
+      "url": "https://news.blizzard.com/zh-tw/article/23725427",
+      "title": "《暗黑破壞神 II》：截至目前為止的故事 — 《暗黑破壞神 II：獄火重生》 — 暴雪消息",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": null,
+      "robots_note": "robots-best-effort:HTTP Error 404: Not Found",
+      "note": "excluded-by-title-keyword",
+      "lifecycle_status": "ignored",
+      "capture_status": "filtered",
+      "snapshot_id": null,
+      "snapshot_path": null,
+      "seen_at": "2026-04-23T06:26:57+00:00",
+      "run_id": "20260423T062657Z"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source": {
+    "id": "3dm_d2r",
+    "label": "3DM D2R 攻略页",
+    "enabled": true,
+    "weight": 0.8,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok-js-heavy",
+    "home_url": "https://www.3dmgame.com/games/diablo2re/gl/",
+    "robots_url": "https://www.3dmgame.com/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://www.3dmgame.com/games/diablo2re/gl/"
+    ],
+    "curated_urls": [],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://www\\.3dmgame\\.com/(gl|news)/\\d+\\.html$"
+      ],
+      "exclude": [
+        "/games/diablo2re/gl/?$"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "diablo2re",
+        "gl"
+      ],
+      "denied_keywords": [
+        "download"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "下载",
+        "修改器"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "JS 较重，当前可作为 seed-only / 候选补充源。"
+  },
+  "generated_at": "2026-04-23T06:26:57+00:00",
+  "seed_count": 1,
+  "candidate_count": 0,
+  "status": "seed-only",
+  "seeds": [
+    {
+      "url": "https://www.3dmgame.com/games/diablo2re/gl/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 14308,
+      "discovered_candidates": []
+    }
+  ],
+  "pages": []
+}

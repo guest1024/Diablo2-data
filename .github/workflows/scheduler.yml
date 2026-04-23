@@ -1,0 +1,215 @@
+name: crawler-snapshot
+run-name: >-
+  crawler-snapshot | ${{ github.event_name }} | limit=${{ github.event.inputs.limit_per_source || '2' }}
+
+on:
+  schedule:
+    # 01:23 UTC = 09:23 Asia/Shanghai
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+    inputs:
+      limit_per_source:
+        description: 'Max candidate pages per source'
+        required: false
+        default: '2'
+      include_disabled:
+        description: 'Include disabled fallback sources'
+        required: false
+        default: 'false'
+      refresh_existing:
+        description: 'Re-fetch already frozen pages'
+        required: false
+        default: 'false'
+      probe_only:
+        description: 'Probe only without saving new snapshots'
+        required: false
+        default: 'false'
+      source_ids:
+        description: 'Comma-separated source ids, empty means all enabled sources'
+        required: false
+        default: ''
+      keep_runs:
+        description: 'How many recent run directories to keep after the workflow finishes'
+        required: false
+        default: '10'
+      prune_unreferenced_snapshots:
+        description: 'Delete snapshot files not referenced by page_catalog.json'
+        required: false
+        default: 'true'
+      prune_catalog_without_snapshots:
+        description: 'Drop filtered/no-snapshot rows from page_catalog.json'
+        required: false
+        default: 'true'
+      commit_changes:
+        description: 'Commit crawler metadata and publish data-branch artifacts'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawler-snapshot-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: '1'
+  TZ: UTC
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Show workflow inputs
+        shell: bash
+        run: |
+          echo "event_name=${{ github.event_name }}"
+          echo "limit_per_source=${{ github.event.inputs.limit_per_source || '2' }}"
+          echo "include_disabled=${{ github.event.inputs.include_disabled || 'false' }}"
+          echo "refresh_existing=${{ github.event.inputs.refresh_existing || 'false' }}"
+          echo "probe_only=${{ github.event.inputs.probe_only || 'false' }}"
+          echo "source_ids=${{ github.event.inputs.source_ids || '' }}"
+          echo "keep_runs=${{ github.event.inputs.keep_runs || '10' }}"
+          echo "prune_unreferenced_snapshots=${{ github.event.inputs.prune_unreferenced_snapshots || 'true' }}"
+          echo "prune_catalog_without_snapshots=${{ github.event.inputs.prune_catalog_without_snapshots || 'true' }}"
+          echo "commit_changes=${{ github.event.inputs.commit_changes || 'true' }}"
+
+      - name: Run crawler tests
+        run: |
+          python3 crawler/run_tests.py
+          python3 crawler/validate_manual_curated_urls.py
+          python3 crawler/probe_manual_curated_urls.py
+
+      - name: Run snapshot crawler
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          LIMIT="${{ github.event.inputs.limit_per_source || '2' }}"
+          INCLUDE_DISABLED="${{ github.event.inputs.include_disabled || 'false' }}"
+          REFRESH_EXISTING="${{ github.event.inputs.refresh_existing || 'false' }}"
+          PROBE_ONLY="${{ github.event.inputs.probe_only || 'false' }}"
+          SOURCE_IDS_RAW="${{ github.event.inputs.source_ids || '' }}"
+
+          EXTRA_ARGS=(--limit-per-source "$LIMIT")
+
+          if [[ "$INCLUDE_DISABLED" == "true" ]]; then
+            EXTRA_ARGS+=(--include-disabled)
+          fi
+          if [[ "$REFRESH_EXISTING" == "true" ]]; then
+            EXTRA_ARGS+=(--refresh-existing)
+          fi
+          if [[ "$PROBE_ONLY" == "true" ]]; then
+            EXTRA_ARGS+=(--probe-only)
+          fi
+          if [[ -n "$SOURCE_IDS_RAW" ]]; then
+            IFS=',' read -ra SOURCE_IDS <<< "$SOURCE_IDS_RAW"
+            for source_id in "${SOURCE_IDS[@]}"; do
+              trimmed="$(echo "$source_id" | xargs)"
+              if [[ -n "$trimmed" ]]; then
+                EXTRA_ARGS+=(--source "$trimmed")
+              fi
+            done
+          fi
+
+          python3 crawler/run_snapshot.py "${EXTRA_ARGS[@]}"
+          python3 crawler/report_snapshots.py --limit 50 > crawler/state/catalog-report.md
+          python3 crawler/build_source_status_report.py > crawler/state/source-status-report.md
+          python3 crawler/build_manual_curated_backlog.py > crawler/state/manual-curated-backlog.md
+          python3 crawler/export_snapshot_relations.py
+          python3 crawler/audit_publish_bundle.py
+          python3 crawler/build_data_branch_manifest.py
+          python3 crawler/check_data_branch_readiness.py || true
+          python3 crawler/verify_framework.py
+
+      - name: Prune old runs and orphan snapshots
+        if: ${{ github.event.inputs.probe_only != 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          KEEP_RUNS="${{ github.event.inputs.keep_runs || '10' }}"
+          PRUNE_SNAPSHOTS="${{ github.event.inputs.prune_unreferenced_snapshots || 'true' }}"
+          PRUNE_CATALOG="${{ github.event.inputs.prune_catalog_without_snapshots || 'true' }}"
+          EXTRA_ARGS=(--keep-runs "$KEEP_RUNS")
+          if [[ "$PRUNE_SNAPSHOTS" == "true" ]]; then
+            EXTRA_ARGS+=(--prune-snapshots)
+          fi
+          if [[ "$PRUNE_CATALOG" == "true" ]]; then
+            EXTRA_ARGS+=(--prune-catalog-without-snapshots)
+          fi
+          python3 crawler/prune_snapshots.py "${EXTRA_ARGS[@]}"
+          python3 crawler/report_snapshots.py --limit 50 > crawler/state/catalog-report.md
+          python3 crawler/build_source_status_report.py > crawler/state/source-status-report.md
+          python3 crawler/build_manual_curated_backlog.py > crawler/state/manual-curated-backlog.md
+          python3 crawler/export_snapshot_relations.py
+          python3 crawler/audit_publish_bundle.py
+          python3 crawler/build_data_branch_manifest.py
+          python3 crawler/check_data_branch_readiness.py || true
+
+      - name: Upload crawler artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawler-snapshot-${{ github.run_id }}
+          retention-days: 14
+          path: |
+            crawler/state/
+            crawler/runs/
+            crawler/snapshots/
+          if-no-files-found: warn
+
+      - name: Commit crawler metadata back to the current branch
+        if: ${{ github.event.inputs.commit_changes != 'false' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain -- crawler .github/workflows/scheduler.yml scripts/push_crawler_to_data_branch.py)" ]]; then
+            echo "No crawler metadata changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add crawler .github/workflows/scheduler.yml scripts/push_crawler_to_data_branch.py
+
+          git commit -F - <<'EOF'
+Keep crawler workflow metadata aligned with scheduled snapshot execution
+
+The scheduled workflow updates crawler-maintained metadata files and the
+workflow/reporting surfaces that describe recent snapshot activity.
+
+Constraint: Source branch commits should stay limited to workflow and crawler metadata
+Rejected: Skip source-branch metadata commits entirely | loses operational traceability in the main branch
+Confidence: high
+Scope-risk: narrow
+Reversibility: clean
+Directive: Keep source-branch commits focused on crawler code/docs/workflow, and publish raw snapshot artifacts to the data branch separately
+Tested: crawler/run_tests.py; crawler/verify_framework.py
+Not-tested: live GitHub Actions execution in this local session
+EOF
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Publish crawler artifacts to data branch
+        if: ${{ github.event.inputs.commit_changes != 'false' && github.event.inputs.probe_only != 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          RUN_ID="$(python3 - <<'PY'
+import json
+from pathlib import Path
+print(json.loads(Path('crawler/state/latest-run.json').read_text(encoding='utf-8'))['run_id'])
+PY
+)"
+          python3 scripts/push_crawler_to_data_branch.py --branch data --remote origin --run-id "$RUN_ID" --latest-only

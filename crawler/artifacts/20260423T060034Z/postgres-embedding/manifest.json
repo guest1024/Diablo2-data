@@ -1,0 +1,10 @@
+{
+  "run_id": "20260423T060034Z",
+  "rows": 7,
+  "dimensions": 384,
+  "embedding_function": "local-hashing-v1",
+  "paths": {
+    "chunk_embeddings": "artifacts/20260423T060034Z/postgres-embedding/data/chunk_embeddings.tsv",
+    "import_sql": "artifacts/20260423T060034Z/postgres-embedding/import.sql"
+  }
+}

@@ -1,0 +1,910 @@
+{
+  "version": "2026-04-23",
+  "user_agent": "Mozilla/5.0 (compatible; Diablo2SnapshotBot/0.2; +local-crawler)",
+  "policy": {
+    "goal": "只保存高质量网页路径快照与页面元数据，不保存正文全文。",
+    "domestic_bias": "CN 站点优先，其次是海外中文/繁中站点。",
+    "selection_rules": [
+      "优先官方、资料站、FAQ、职业/build、地图/掉落/机制页面",
+      "论坛只保留白名单或高价值候选路径，不做交易灌水递归",
+      "允许保留无法直连站点作为后续代理/人工补数选项"
+    ]
+  },
+  "sources": [
+    {
+      "id": "91d2",
+      "label": "91D2 中文资料站",
+      "enabled": true,
+      "weight": 1.0,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://www.91d2.cn/",
+      "robots_url": "https://www.91d2.cn/robots.txt",
+      "authority_tier": "guide",
+      "lane": "guide",
+      "language": "zh",
+      "encoding_hints": [
+        "gb2312",
+        "gbk"
+      ],
+      "seed_urls": [
+        "https://www.91d2.cn/xinshouzhiyin/",
+        "https://www.91d2.cn/jingyanxinde/",
+        "https://www.91d2.cn/changjianwenti/",
+        "https://www.91d2.cn/changjingditu/",
+        "https://www.91d2.cn/renwugonglue/"
+      ],
+      "curated_urls": [
+        "https://www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://www\\.91d2\\.cn/.+/\\d{4}-\\d{2}-\\d{2}/\\d+\\.html$"
+        ],
+        "exclude": [
+          "/tag/",
+          "/author/",
+          "/page/"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "xinshou",
+          "jingyan",
+          "wenti",
+          "changjing",
+          "renwu"
+        ],
+        "denied_keywords": [
+          "tag",
+          "author"
+        ]
+      },
+      "notes": "国内高价值资料站，适合作为长期主源之一。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "交易",
+          "卖号",
+          "估价",
+          "拍卖"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "d2_blizzard_cn",
+      "label": "暴雪国服暗黑2中文站",
+      "enabled": true,
+      "weight": 0.99,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://d2.blizzard.cn/",
+      "robots_url": "https://d2.blizzard.cn/robots.txt",
+      "authority_tier": "official",
+      "lane": "official",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://d2.blizzard.cn/sitemap.txt",
+        "https://d2.blizzard.cn/news/"
+      ],
+      "curated_urls": [
+        "https://d2.blizzard.cn/news/24271875/index.html"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://d2\\.blizzard\\.cn/news/.+\\.html$",
+          "https://d2\\.blizzard\\.cn/news/.+/index\\.html$"
+        ],
+        "exclude": []
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "news",
+          "24271875",
+          "patch",
+          "补丁",
+          "update"
+        ],
+        "denied_keywords": []
+      },
+      "notes": "官方中文入口，适合新闻、公告、术语层快照。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "处罚公告"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "diablo2_com_cn",
+      "label": "CNBN 主站资料区",
+      "enabled": true,
+      "weight": 0.96,
+      "region": "CN",
+      "transport": "direct-http",
+      "observed_on": "2026-04-23",
+      "observed_status": "http-ok-https-timeout",
+      "home_url": "http://www.diablo2.com.cn/",
+      "robots_url": "http://www.diablo2.com.cn/robots.txt",
+      "authority_tier": "guide",
+      "lane": "guide",
+      "language": "zh",
+      "encoding_hints": [
+        "gb2312",
+        "gbk"
+      ],
+      "seed_urls": [
+        "http://www.diablo2.com.cn/"
+      ],
+      "curated_urls": [
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "http://www\\.diablo2\\.com\\.cn/diabloii/ShowArticle\\.asp\\?ArticleID=\\d+$"
+        ],
+        "exclude": [
+          "/Soft/",
+          "/photo/"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "articleid"
+        ],
+        "denied_keywords": [
+          "soft",
+          "photo"
+        ]
+      },
+      "notes": "老牌中文资料库，HTTP 可达。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "下载",
+          "视频"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "bbs_diablo2_com_cn",
+      "label": "CNBN 论坛精华白名单",
+      "enabled": true,
+      "weight": 0.94,
+      "region": "CN",
+      "transport": "direct-http",
+      "observed_on": "2026-04-23",
+      "observed_status": "http-ok-https-timeout",
+      "home_url": "http://bbs.diablo2.com.cn/",
+      "robots_url": "http://bbs.diablo2.com.cn/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "gbk"
+      ],
+      "seed_urls": [
+        "http://bbs.diablo2.com.cn/"
+      ],
+      "curated_urls": [
+        "http://bbs.diablo2.com.cn/read.php?tid=239897",
+        "http://bbs.diablo2.com.cn/read.php?tid=12676",
+        "http://bbs.diablo2.com.cn/read.php?tid=23536"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "http://bbs\\.diablo2\\.com\\.cn/read\\.php\\?tid=\\d+$"
+        ],
+        "exclude": [
+          "login",
+          "search",
+          "sort\\.php"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "tid=12676",
+          "faq",
+          "xinren",
+          "联机",
+          "教程"
+        ],
+        "denied_keywords": [
+          "trade",
+          "jiaoyi"
+        ]
+      },
+      "notes": "论坛只建议保留白名单精华帖。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "交易",
+          "估价",
+          "拍卖",
+          "交友",
+          "卖号"
+        ],
+        "exclude_text_keywords": [
+          "现金交易",
+          "RMB交易资讯"
+        ]
+      }
+    },
+    {
+      "id": "rogue_camp_163",
+      "label": "网易罗格营地论坛",
+      "enabled": true,
+      "weight": 0.9,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://bbs.d.163.com/forum-458-1.html",
+      "robots_url": "https://bbs.d.163.com/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "gbk",
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://bbs.d.163.com/forum-458-1.html"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://bbs\\.d\\.163\\.com/thread-\\d+-1-1\\.html$",
+          "https://bbs\\.d\\.163\\.com/forum\\.php\\?mod=viewthread&tid=\\d+.*"
+        ],
+        "exclude": [
+          "member\\.php",
+          "search\\.php",
+          "forum-458-\\d+\\.html"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "thread",
+          "攻略",
+          "配装"
+        ],
+        "denied_keywords": [
+          "trade",
+          "交易"
+        ]
+      },
+      "notes": "社区论坛入口，可后续补 curated 白名单。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "交易",
+          "交友",
+          "卖号",
+          "估价"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "ali213_d2r",
+      "label": "游侠网 D2R 攻略站",
+      "enabled": true,
+      "weight": 0.84,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://gl.ali213.net/z/42565/",
+      "robots_url": "https://gl.ali213.net/robots.txt",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://gl.ali213.net/z/42565/"
+      ],
+      "curated_urls": [
+        "https://gl.ali213.net/html/2021-4/603861.html"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://gl\\.ali213\\.net/html/.+\\.html$"
+        ],
+        "exclude": [
+          "/css/",
+          "/js/",
+          "/z/42565/?$",
+          "/app/",
+          "/news/zl/"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "/html/2021-",
+          "图文攻略",
+          "技能推荐",
+          "属性加点"
+        ],
+        "denied_keywords": [
+          "clslist",
+          "wenda",
+          "process"
+        ]
+      },
+      "notes": "中文攻略聚合入口，适合补新手和流程向页面。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [
+          "clslist",
+          "process",
+          "wenda"
+        ],
+        "exclude_title_keywords": [
+          "视频攻略",
+          "下载",
+          "补丁"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "gamersky_d2r",
+      "label": "游民星空 D2R 专区",
+      "enabled": true,
+      "weight": 0.83,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://www.gamersky.com/z/dresurrected/",
+      "robots_url": "https://www.gamersky.com/robots.txt",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://www.gamersky.com/z/dresurrected/",
+        "https://www.gamersky.com/z/dresurrected/handbook/"
+      ],
+      "curated_urls": [
+        "https://www.gamersky.com/handbook/202109/1426152.shtml",
+        "https://www.gamersky.com/handbook/202109/1426247.shtml",
+        "https://www.gamersky.com/handbook/202109/1426363.shtml",
+        "https://www.gamersky.com/handbook/202109/1426363_2.shtml"
+      ],
+      "discovery": {
+        "same_host": false,
+        "include": [
+          "https?://www\\.gamersky\\.com/(handbook|news)/\\d+/.+\\.shtml$"
+        ],
+        "exclude": [
+          "/down/",
+          "/wap"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "handbook",
+          "202109",
+          "1426",
+          "1427",
+          "dresurrected"
+        ],
+        "denied_keywords": [
+          "202602",
+          "202508",
+          "down",
+          "dlc",
+          "purchase"
+        ]
+      },
+      "notes": "攻略、新闻入口较稳定。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [
+          "down"
+        ],
+        "exclude_title_keywords": [
+          "下载",
+          "视频",
+          "DLC购买指南",
+          "购买指南",
+          "术士君临"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "3dm_d2r",
+      "label": "3DM D2R 攻略页",
+      "enabled": true,
+      "weight": 0.8,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok-js-heavy",
+      "home_url": "https://www.3dmgame.com/games/diablo2re/gl/",
+      "robots_url": "https://www.3dmgame.com/robots.txt",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://www.3dmgame.com/games/diablo2re/gl/"
+      ],
+      "curated_urls": [
+        "https://www.3dmgame.com/gl/3836959.html",
+        "https://www.3dmgame.com/gl/3837288.html",
+        "https://www.3dmgame.com/gl/3837440.html",
+        "https://www.3dmgame.com/gl/3838021.html"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://www\\.3dmgame\\.com/(gl|news)/\\d+\\.html$"
+        ],
+        "exclude": [
+          "/games/diablo2re/gl/?$"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "/gl/383",
+          "攻略",
+          "加点",
+          "装备",
+          "boss"
+        ],
+        "denied_keywords": [
+          "news",
+          "download",
+          "修改器"
+        ]
+      },
+      "notes": "JS heavy guide hub; curated static攻略页已补齐。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "下载",
+          "修改器",
+          "补丁",
+          "新闻"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "17173_d2r",
+      "label": "17173 暗黑2重制版专区",
+      "enabled": true,
+      "weight": 0.82,
+      "region": "CN",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://news.17173.com/z/ah2/",
+      "robots_url": "https://news.17173.com/robots.txt",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://news.17173.com/z/ah2/",
+        "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml"
+      ],
+      "curated_urls": [
+        "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+        "http://news.17173.com/z/ah2/content/10262021/160454018.shtml"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https?://news\\.17173\\.com/z/ah2/content/.+\\.shtml$",
+          "https?://news\\.17173\\.com/content/.+\\.shtml$",
+          "https?://news\\.17173\\.com/z/ah2/morelist/.+\\.shtml$"
+        ],
+        "exclude": [
+          "/video/",
+          "/mip_"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "/z/ah2/content/",
+          "重制版",
+          "玩法",
+          "配装"
+        ],
+        "denied_keywords": [
+          "/morelist/",
+          "2026"
+        ]
+      },
+      "notes": "中文新闻/攻略专区，可发现较多历史页面。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "新闻资讯",
+          "视频",
+          "官网"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "news_blizzard_zh_tw",
+      "label": "暴雪新闻 zh-TW Diablo II",
+      "enabled": true,
+      "weight": 0.79,
+      "region": "Overseas-ZH",
+      "transport": "direct",
+      "observed_on": "2026-04-23",
+      "observed_status": "direct-ok",
+      "home_url": "https://news.blizzard.com/zh-tw/diablo2",
+      "robots_url": "https://news.blizzard.com/robots.txt",
+      "authority_tier": "official",
+      "lane": "official",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://news.blizzard.com/zh-tw/diablo2"
+      ],
+      "curated_urls": [
+        "https://news.blizzard.com/zh-tw/article/23725427"
+      ],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://news\\.blizzard\\.com/zh-tw/article/\\d+"
+        ],
+        "exclude": []
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "article",
+          "diablo2"
+        ],
+        "denied_keywords": []
+      },
+      "notes": "繁中官方新闻与背景故事页面。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "消息"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "ttbn_cn",
+      "label": "TTBN 资料站",
+      "enabled": false,
+      "weight": 0.76,
+      "region": "CN",
+      "transport": "probe-only",
+      "observed_on": "2026-04-23",
+      "observed_status": "connection-reset",
+      "home_url": "https://www.ttbn.cn/",
+      "robots_url": "https://www.ttbn.cn/robots.txt",
+      "authority_tier": "guide",
+      "lane": "guide",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8",
+        "gbk"
+      ],
+      "seed_urls": [
+        "https://www.ttbn.cn/"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [],
+        "exclude": []
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "guide",
+          "faq"
+        ],
+        "denied_keywords": []
+      },
+      "notes": "候选优质资料站，但当前连接被重置。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "bahamut_d2r",
+      "label": "巴哈姆特 D2R 哈啦板",
+      "enabled": false,
+      "weight": 0.74,
+      "region": "Overseas-ZH",
+      "transport": "requires-proxy",
+      "observed_on": "2026-04-23",
+      "observed_status": "outbound-blocked",
+      "home_url": "https://forum.gamer.com.tw/B.php?bsn=742",
+      "robots_url": "https://forum.gamer.com.tw/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://forum.gamer.com.tw/B.php?bsn=742"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://forum\\.gamer\\.com\\.tw/C\\.php\\?bsn=742&snA=\\d+"
+        ],
+        "exclude": []
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "snA"
+        ],
+        "denied_keywords": []
+      },
+      "notes": "当前环境出海不可达，建议代理后启用。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "ptt_diablo",
+      "label": "PTT DIABLO 板",
+      "enabled": false,
+      "weight": 0.71,
+      "region": "Overseas-ZH",
+      "transport": "requires-proxy",
+      "observed_on": "2026-04-23",
+      "observed_status": "outbound-blocked",
+      "home_url": "https://www.ptt.cc/bbs/DIABLO/index.html",
+      "robots_url": "https://www.ptt.cc/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://www.ptt.cc/bbs/DIABLO/index.html"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://www\\.ptt\\.cc/bbs/DIABLO/M\\.\\d+\\.A\\.html"
+        ],
+        "exclude": [
+          "/search"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "M."
+        ],
+        "denied_keywords": [
+          "search"
+        ]
+      },
+      "notes": "当前环境出海不可达，建议代理后启用。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "tieba_d2r",
+      "label": "百度贴吧 暗黑2重制版吧",
+      "enabled": false,
+      "weight": 0.7,
+      "region": "CN",
+      "transport": "manual-403",
+      "observed_on": "2026-04-23",
+      "observed_status": "403-forbidden",
+      "home_url": "https://tieba.baidu.com/f?kw=%E6%9A%97%E9%BB%912%E9%87%8D%E5%88%B6%E7%89%88",
+      "robots_url": "https://tieba.baidu.com/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://tieba.baidu.com/f?kw=%E6%9A%97%E9%BB%912%E9%87%8D%E5%88%B6%E7%89%88"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://tieba\\.baidu\\.com/p/\\d+"
+        ],
+        "exclude": [
+          "/f\\?kw=",
+          "/home/main"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "/p/"
+        ],
+        "denied_keywords": [
+          "search"
+        ]
+      },
+      "notes": "直抓 403，可改为人工导出链接白名单。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "交友",
+          "出号",
+          "卖号",
+          "交易"
+        ],
+        "exclude_text_keywords": []
+      }
+    },
+    {
+      "id": "tieba_d2",
+      "label": "百度贴吧 暗黑破坏神2吧",
+      "enabled": false,
+      "weight": 0.69,
+      "region": "CN",
+      "transport": "manual-403",
+      "observed_on": "2026-04-23",
+      "observed_status": "403-forbidden",
+      "home_url": "https://tieba.baidu.com/f?kw=%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E2",
+      "robots_url": "https://tieba.baidu.com/robots.txt",
+      "authority_tier": "forum",
+      "lane": "forum",
+      "language": "zh",
+      "encoding_hints": [
+        "utf-8"
+      ],
+      "seed_urls": [
+        "https://tieba.baidu.com/f?kw=%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E2"
+      ],
+      "curated_urls": [],
+      "discovery": {
+        "same_host": true,
+        "include": [
+          "https://tieba\\.baidu\\.com/p/\\d+"
+        ],
+        "exclude": [
+          "/f\\?kw=",
+          "/home/main"
+        ]
+      },
+      "selection": {
+        "prefer_curated": true,
+        "preferred_keywords": [
+          "/p/"
+        ],
+        "denied_keywords": [
+          "search"
+        ]
+      },
+      "notes": "直抓 403，可改为人工导出链接白名单。",
+      "snapshot": {
+        "immutable_after_capture": true,
+        "store_raw_content": true
+      },
+      "relevance": {
+        "exclude_url_keywords": [],
+        "exclude_title_keywords": [
+          "交友",
+          "出号",
+          "卖号",
+          "交易"
+        ],
+        "exclude_text_keywords": []
+      }
+    }
+  ]
+}

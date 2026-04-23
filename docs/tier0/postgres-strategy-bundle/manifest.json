@@ -1,0 +1,8 @@
+{
+  "rows": 57,
+  "paths": {
+    "strategy_edges": "docs/tier0/postgres-strategy-bundle/data/strategy_edges.tsv",
+    "import_sql": "docs/tier0/postgres-strategy-bundle/import.sql"
+  },
+  "source": "d2.strategy_edges live export"
+}

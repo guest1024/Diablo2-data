@@ -1,0 +1,17 @@
+{
+  "source_id": "91d2",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct",
+  "observed_status": "direct-ok",
+  "saved_snapshots": 1,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "frozen": 1
+  },
+  "lifecycle_summary": {
+    "frozen": 1
+  },
+  "last_run_status": "captured",
+  "notes": "国内高价值资料站，适合作为长期主源之一。"
+}

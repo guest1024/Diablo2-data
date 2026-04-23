@@ -65,7 +65,7 @@
       "path": "docs/tier0/postgres-dict-bundle/data/build_dictionary_skills.tsv"
     },
     "item_dictionary": {
-      "rows": 1088,
+      "rows": 1080,
       "columns": [
         "item_id",
         "canonical_name",
@@ -110,7 +110,7 @@
       "path": "docs/tier0/postgres-dict-bundle/data/monster_dictionary.tsv"
     },
     "rule_dictionary": {
-      "rows": 259,
+      "rows": 554,
       "columns": [
         "rule_id",
         "rule_type",

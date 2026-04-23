@@ -1,0 +1,10 @@
+{
+  "source": "docs/tier0/merged/chunks.jsonl",
+  "rows": 8708,
+  "dimensions": 384,
+  "embedding_function": "local-hashing-v1",
+  "paths": {
+    "chunk_embeddings": "docs/tier0/postgres-embedding-bundle/data/chunk_embeddings.tsv",
+    "import_sql": "docs/tier0/postgres-embedding-bundle/import.sql"
+  }
+}

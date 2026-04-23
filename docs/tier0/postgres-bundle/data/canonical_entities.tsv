@@ -1,0 +1,2338 @@
+b65d2e30-ca3d-5893-b71e-2145685aafdb	ApiEndpoint	api	Diablo 2 API | Diablo-2.net	"[""Diablo 2 API | Diablo-2.net"", ""api""]"	1	1	"[""diablo2-net-api""]"	1	{}
+b2f93ffd-8dd3-54f0-9786-dd0003c030b2	ApiEndpoint	api	api	"[""api""]"	0	0	[]	0	{}
+c1cf31d7-6098-565a-91c6-3d36c49fbeeb	ApiEndpoint	example.html	example.html	"[""example"", ""example.html""]"	0	0	[]	0	{}
+b99e5ef3-31bb-5f60-ad9b-203d6ba0c57d	ApiEndpoint	items	items-endpoint	"[""items"", ""items-endpoint""]"	1	1	"[""diablo2-net-api""]"	1	{}
+2402d9b1-2fce-59fc-b5fe-9d821fc91d5d	ApiEndpoint	items-list	items-list	"[""items list"", ""items-list""]"	0	0	[]	0	{}
+1e12fd92-f131-58ca-94b8-18b4749586c0	ApiEndpoint	runes	runes-endpoint	"[""runes"", ""runes-endpoint""]"	1	1	"[""diablo2-net-api""]"	1	{}
+f0d16ac2-db89-5e7d-a2a8-4373d7d7853f	ApiEndpoint	runes-list	runes-list	"[""runes list"", ""runes-list""]"	0	0	[]	0	{}
+c9eb4129-4857-5618-bac7-05f6ce74a559	ApiEndpoint	unique-items	unique-items-endpoint	"[""unique items"", ""unique-items"", ""unique-items-endpoint""]"	1	1	"[""diablo2-net-api""]"	1	{}
+8b0abf54-a640-5fb7-8869-bc5071bbe3b6	Area	blood-moor-t3711	"Blood Moor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Blood Moor • Diablo 2 Resurrected Area • diablo2.io"", ""blood moor t3711"", ""blood-moor-t3711""]"	1	1	"[""diablo2-io""]"	1	{}
+21b8cf94-5cad-56aa-96d5-687a64d2a2b4	Area	burial-grounds-t3713	"Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Burial Grounds • Diablo 2 Resurrected Area • diablo2.io"", ""burial grounds t3713"", ""burial-grounds-t3713""]"	1	1	"[""diablo2-io""]"	1	{}
+8f191003-53ab-5f43-ac88-5c3b64af3a71	Area	cave-level-1-t3697	"Cave Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Cave Level 1 • Diablo 2 Resurrected Area • diablo2.io"", ""cave level 1 t3697"", ""cave-level-1-t3697""]"	1	1	"[""diablo2-io""]"	1	{}
+b7882e89-9d37-5756-884b-62f381f9e287	Area	cave-level-2-t3698	"Cave Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Cave Level 2 • Diablo 2 Resurrected Area • diablo2.io"", ""cave level 2 t3698"", ""cave-level-2-t3698""]"	1	1	"[""diablo2-io""]"	1	{}
+fc3ddf5f-f1fb-5a12-8c91-3ef7dcc60f17	Area	cold-plains-t3712	"Cold Plains 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Cold Plains • Diablo 2 Resurrected Area • diablo2.io"", ""cold plains t3712"", ""cold-plains-t3712""]"	1	1	"[""diablo2-io""]"	1	{}
+d2c19df1-768b-5d1c-b5d1-cf283f30b40f	Area	crypt-t3703	"Crypt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Crypt • Diablo 2 Resurrected Area • diablo2.io"", ""crypt t3703"", ""crypt-t3703""]"	1	1	"[""diablo2-io""]"	1	{}
+af4a9501-18c6-5ebb-9b20-c5dec7212107	Area	den-of-evil-t3696	"Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Den of Evil • Diablo 2 Resurrected Area • diablo2.io"", ""den of evil t3696"", ""den-of-evil-t3696""]"	1	1	"[""diablo2-io""]"	1	{}
+cc6f9d18-5821-50f1-a771-3f0bc57dc1ca	Area	hole-level-1-t3699	"Hole Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Hole Level 1 • Diablo 2 Resurrected Area • diablo2.io"", ""hole level 1 t3699"", ""hole-level-1-t3699""]"	1	1	"[""diablo2-io""]"	1	{}
+4e4282bc-1bdb-5074-a39a-e02dd65b1223	Area	hole-level-2-t3700	"Hole level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Hole level 2 • Diablo 2 Resurrected Area • diablo2.io"", ""hole level 2 t3700"", ""hole-level-2-t3700""]"	1	1	"[""diablo2-io""]"	1	{}
+43a7cb37-47c6-5bff-be1d-70181bfe0a6f	Area	mausoleum-t3704	"Mausoleum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Mausoleum • Diablo 2 Resurrected Area • diablo2.io"", ""mausoleum t3704"", ""mausoleum-t3704""]"	1	1	"[""diablo2-io""]"	1	{}
+9287ca7a-cf17-5abf-9500-466d9a90d2bc	Area	pit-level-1-t3701	"Pit Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Pit Level 1 • Diablo 2 Resurrected Area • diablo2.io"", ""pit level 1 t3701"", ""pit-level-1-t3701""]"	1	1	"[""diablo2-io""]"	1	{}
+7f2ca9d2-ef88-560a-91b6-63aa82bf841e	Area	pit-level-2-t3702	"Pit Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Pit Level 2 • Diablo 2 Resurrected Area • diablo2.io"", ""pit level 2 t3702"", ""pit-level-2-t3702""]"	1	1	"[""diablo2-io""]"	1	{}
+e9dd42b1-f58f-598d-8f1c-8f4fa1a656f2	Area	rogue-encampment-t3710	"Rogue Encampment 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Rogue Encampment • Diablo 2 Resurrected Area • diablo2.io"", ""rogue encampment t3710"", ""rogue-encampment-t3710""]"	1	1	"[""diablo2-io""]"	1	{}
+da593f4a-1c8f-58fb-91ec-58cd3cd9dbf8	Area	tower-cellar-level-1-t3705	"Tower Cellar Level 1 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Tower Cellar Level 1 • Diablo 2 Resurrected Area • diablo2.io"", ""tower cellar level 1 t3705"", ""tower-cellar-level-1-t3705""]"	1	1	"[""diablo2-io""]"	1	{}
+cdb03562-b031-52d7-a5e3-ff6ffd50e5b1	Area	tower-cellar-level-2-t3706	"Tower Cellar Level 2 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Tower Cellar Level 2 • Diablo 2 Resurrected Area • diablo2.io"", ""tower cellar level 2 t3706"", ""tower-cellar-level-2-t3706""]"	1	1	"[""diablo2-io""]"	1	{}
+10ff715a-fc48-515c-b51e-ee8892e1d518	Area	tower-cellar-level-3-t3707	"Tower Cellar Level 3 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Tower Cellar Level 3 • Diablo 2 Resurrected Area • diablo2.io"", ""tower cellar level 3 t3707"", ""tower-cellar-level-3-t3707""]"	1	1	"[""diablo2-io""]"	1	{}
+0a1a9e9a-4b6f-587d-996c-6b97acd985a3	Area	tower-cellar-level-4-t3708	"Tower Cellar Level 4 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Tower Cellar Level 4 • Diablo 2 Resurrected Area • diablo2.io"", ""tower cellar level 4 t3708"", ""tower-cellar-level-4-t3708""]"	1	1	"[""diablo2-io""]"	1	{}
+15a689cc-9801-5fb5-a778-698d2ea86697	Area	tower-cellar-level-5-t3709	"Tower Cellar Level 5 
+        
+        
+        
+                                  • Diablo 2 Resurrected Area
+                          
+        
+         • diablo2.io"	"[""Tower Cellar Level 5 • Diablo 2 Resurrected Area • diablo2.io"", ""tower cellar level 5 t3709"", ""tower-cellar-level-5-t3709""]"	1	1	"[""diablo2-io""]"	1	{}
+74f319dd-4e46-5267-884f-a494310e67f7	Area	barracks-t3723.html	barracks-t3723.html	"[""barracks t3723"", ""barracks-t3723.html""]"	0	0	[]	0	{}
+5b78eaad-8593-5702-b7c6-12072e5c1fec	Area	blood-moor-t3711.html	blood-moor-t3711.html	"[""blood moor t3711"", ""blood-moor-t3711.html""]"	0	0	[]	0	{}
+5e35d282-c0fc-5442-9cad-6f90a9e57f0a	Area	cold-plains-t3712.html	cold-plains-t3712.html	"[""cold plains t3712"", ""cold-plains-t3712.html""]"	0	0	[]	0	{}
+17612f18-ebb7-5884-ba09-f4851a075bfa	Area	colossal-summit-t1674854.html	colossal-summit-t1674854.html	"[""colossal summit t1674854"", ""colossal-summit-t1674854.html""]"	0	0	[]	0	{}
+b14f52b8-5102-58b2-87ef-287a37ac7082	Area	crystalline-passage-t3802.html	crystalline-passage-t3802.html	"[""crystalline passage t3802"", ""crystalline-passage-t3802.html""]"	0	0	[]	0	{}
+b33d080d-2a08-5f11-8cbd-6c9ed6b45089	Area	den-of-evil-t3696.html	den-of-evil-t3696.html	"[""den of evil t3696"", ""den-of-evil-t3696.html""]"	0	0	[]	0	{}
+b6ddd948-55f3-51cf-a6d5-17a7d5930d70	Area	drifter-cavern-t3809.html	drifter-cavern-t3809.html	"[""drifter cavern t3809"", ""drifter-cavern-t3809.html""]"	0	0	[]	0	{}
+d30712d5-cb64-5aed-9427-0d49c1cef7e4	Area	frozen-tundra-t3810.html	frozen-tundra-t3810.html	"[""frozen tundra t3810"", ""frozen-tundra-t3810.html""]"	0	0	[]	0	{}
+ba0c078a-3da7-535a-aadf-6a84a2c5aad0	Area	glacial-trail-t3808.html	glacial-trail-t3808.html	"[""glacial trail t3808"", ""glacial-trail-t3808.html""]"	0	0	[]	0	{}
+846c3260-f0b2-5c48-b960-a9e7db54869c	Area	harrogath-t3796.html	harrogath-t3796.html	"[""harrogath t3796"", ""harrogath-t3796.html""]"	0	0	[]	0	{}
+e46f29aa-2ca7-5229-938a-2cc196b764e5	Area	kurast-docks-t3762.html	kurast-docks-t3762.html	"[""kurast docks t3762"", ""kurast-docks-t3762.html""]"	0	0	[]	0	{}
+28d62221-034a-5906-87a0-6b1f64fdc88a	Area	lut-gholein-t3733.html	lut-gholein-t3733.html	"[""lut gholein t3733"", ""lut-gholein-t3733.html""]"	0	0	[]	0	{}
+22fe1585-3e9a-5ef0-9860-52bf99a5bf3b	Area	plains-of-despair-t3792.html	plains-of-despair-t3792.html	"[""plains of despair t3792"", ""plains-of-despair-t3792.html""]"	0	0	[]	0	{}
+abc34785-5925-508e-96d6-0fffb222f8d3	Area	rogue-encampment-t3710.html	rogue-encampment-t3710.html	"[""rogue encampment t3710"", ""rogue-encampment-t3710.html""]"	0	0	[]	0	{}
+593e40e1-ff27-538c-951f-c42896cf4d17	Area	throne-of-destruction-t3818.html	throne-of-destruction-t3818.html	"[""throne of destruction t3818"", ""throne-of-destruction-t3818.html""]"	0	0	[]	0	{}
+ab2f861f-7d8d-5e74-8d63-b8fa4900764f	Area	worldstone-chamber-t3819.html	worldstone-chamber-t3819.html	"[""worldstone chamber t3819"", ""worldstone-chamber-t3819.html""]"	0	0	[]	0	{}
+5b60c3dc-c361-505f-aabf-68cc09573a6b	Area	worldstone-keep-level-3-t3817.html	worldstone-keep-level-3-t3817.html	"[""worldstone keep level 3 t3817"", ""worldstone-keep-level-3-t3817.html""]"	0	0	[]	0	{}
+acdd4eaf-c172-5a91-8db4-e8143e39f289	AreaGuide	686	85场景怪物神殿可以让87/88lv怪物掉落出90lv/91lv物品 - 91D2暗黑破坏神2资料网	"[""686"", ""85场景怪物神殿可以让87/88lv怪物掉落出90lv/91lv物品 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+ec9293b2-2a3d-5edf-a258-e655edb3e0d3	AreaGuide	446	MF在什么地方起作用？做什么事情不需要MF？游戏人越多对MF是好还是不好？打钱属性对于MF有影响吗？BUG KB跟MF有关系吗？ - 91D2暗黑破坏神2资料网	"[""446"", ""MF在什么地方起作用？做什么事情不需要MF？游戏人越多对MF是好还是不好？打钱属性对于MF有影响吗？BUG KB跟MF有关系吗？ - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+68880dbe-b977-5abe-af82-9ceada0d4089	AreaGuide	387	暗黑2战网新人吸引KC的正确操作和装备选择 - 91D2暗黑破坏神2资料网	"[""387"", ""暗黑2战网新人吸引KC的正确操作和装备选择 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+dbf23ccf-00e7-5f55-adde-1b5c62a8b002	AreaGuide	380	暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网	"[""380"", ""暗黑2母牛关之牛场kc数据测试报告 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+88ad79f1-1f93-5ce8-b18b-ac33dbb40930	AreaGuide	895	暗黑2法师SOR或者穿TP+情况下ACT5翻箱子攻略 - 91D2暗黑破坏神2资料网	"[""895"", ""暗黑2法师SOR或者穿TP+情况下ACT5翻箱子攻略 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+a60c3eb5-dcbd-5e76-ae14-0229a5fbaafd	AreaGuide	344	暗黑2物价表中有交易价值物品的Drop率 - 91D2暗黑破坏神2资料网	"[""344"", ""暗黑2物价表中有交易价值物品的Drop率 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+2e3ff684-a0f1-5c06-b078-d2aba5dcb5ad	AreaGuide	357	暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网	"[""357"", ""暗黑HC专家模式FZ MF热刺专用对象应该是PT冰冷乌鸦 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+4aa576bb-b1e0-5405-b795-9c421aa02afd	AreaGuide	520	暗黑游戏背景资料介绍 - 91D2暗黑破坏神2资料网	"[""520"", ""暗黑游戏背景资料介绍 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0db90844-98ad-569a-9bc0-0239f51ae66c	AreaPage	act1	The Arreat Summit - Maps: Act I	"[""The Arreat Summit - Maps: Act I"", ""act1""]"	1	1	"[""arreat-summit""]"	1	{}
+f6deeb42-b3e4-54f6-a053-fbca05d5bafd	AreaPage	act2	The Arreat Summit - Maps: Act II	"[""The Arreat Summit - Maps: Act II"", ""act2""]"	1	1	"[""arreat-summit""]"	1	{}
+7257478e-aeba-54d3-b161-c27b494e1eb2	AreaPage	act3	The Arreat Summit - Maps: Act III	"[""The Arreat Summit - Maps: Act III"", ""act3""]"	1	1	"[""arreat-summit""]"	1	{}
+f6b9d327-7727-5123-b3b6-e3fd30f54b71	AreaPage	act4	The Arreat Summit - Maps: Act IV	"[""The Arreat Summit - Maps: Act IV"", ""act4""]"	1	1	"[""arreat-summit""]"	1	{}
+a2af295c-05c4-55f5-b82d-8736b3574ef5	AreaPage	act5	The Arreat Summit - Maps: Act V	"[""The Arreat Summit - Maps: Act V"", ""act5""]"	1	1	"[""arreat-summit""]"	1	{}
+8e9285b2-d55f-59a9-a3a9-a8b61635af94	AreaPage	act1	act1	"[""act1""]"	0	0	[]	0	{}
+3ef8b6d3-bf5b-541c-9c64-fdca2e3cf1b6	AreaPage	act2	act2	"[""act2""]"	0	0	[]	0	{}
+b9767f8b-39fd-524e-9acf-3683642b2e19	BaseItem	ancient-armor-t5	"Ancient Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Ancient Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""ancient armor t5"", ""ancient-armor-t5""]"	1	1	"[""diablo2-io""]"	1	{}
+44a66e26-7a94-5000-a435-ea51ab2af1b9	BaseItem	archon-plate-t1405	"Archon Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Archon Plate • Diablo 2 Resurrected Base Item • diablo2.io"", ""archon plate t1405"", ""archon-plate-t1405""]"	1	1	"[""diablo2-io""]"	1	{}
+8acb3407-1fe6-5be2-9693-7e1cb9c3e38d	BaseItem	breast-plate-t1400	"Breast Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Breast Plate • Diablo 2 Resurrected Base Item • diablo2.io"", ""breast plate t1400"", ""breast-plate-t1400""]"	1	1	"[""diablo2-io""]"	1	{}
+4143b605-c7da-5d51-84b2-4f6f4740b31c	BaseItem	demonhide-armor-t1395	"Demonhide Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Demonhide Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""demonhide armor t1395"", ""demonhide-armor-t1395""]"	1	1	"[""diablo2-io""]"	1	{}
+a1d5ca2c-0098-5108-b53b-f87d071880ce	BaseItem	dusk-shroud-t1390	"Dusk Shroud 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Dusk Shroud • Diablo 2 Resurrected Base Item • diablo2.io"", ""dusk shroud t1390"", ""dusk-shroud-t1390""]"	1	1	"[""diablo2-io""]"	1	{}
+563797e5-3b14-5dfc-be11-3c689fcf75d4	BaseItem	ghost-armor-t1389	"Ghost Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Ghost Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""ghost armor t1389"", ""ghost-armor-t1389""]"	1	1	"[""diablo2-io""]"	1	{}
+1b0fda11-0098-5bbb-9d1f-25d326d6b840	BaseItem	great-hauberk-t1402	"Great Hauberk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Great Hauberk • Diablo 2 Resurrected Base Item • diablo2.io"", ""great hauberk t1402"", ""great-hauberk-t1402""]"	1	1	"[""diablo2-io""]"	1	{}
+20355a54-8942-52e3-a46c-736a5809e633	BaseItem	hard-leather-armor-t1394	"Hard Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Hard Leather Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""hard leather armor t1394"", ""hard-leather-armor-t1394""]"	1	1	"[""diablo2-io""]"	1	{}
+59ce20df-5196-5829-8fed-0ce467063882	BaseItem	leather-armor-t1391	"Leather Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Leather Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""leather armor t1391"", ""leather-armor-t1391""]"	1	1	"[""diablo2-io""]"	1	{}
+37bc7579-1a6f-5238-a5c6-784beb42383a	BaseItem	light-plate-t1403	"Light Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Light Plate • Diablo 2 Resurrected Base Item • diablo2.io"", ""light plate t1403"", ""light-plate-t1403""]"	1	1	"[""diablo2-io""]"	1	{}
+7c9619da-1837-528a-8d7b-49d01ab53870	BaseItem	mage-plate-t1404	"Mage Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Mage Plate • Diablo 2 Resurrected Base Item • diablo2.io"", ""mage plate t1404"", ""mage-plate-t1404""]"	1	1	"[""diablo2-io""]"	1	{}
+eb8a0ade-117a-5f0e-9fc1-53d0cad5cda5	BaseItem	mask-t256	"Mask 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Mask • Diablo 2 Resurrected Base Item • diablo2.io"", ""mask t256"", ""mask-t256""]"	1	1	"[""diablo2-io""]"	1	{}
+92a4bfd1-42f7-5e45-88dd-ae38a435d589	BaseItem	ornate-plate-t136	"Ornate Plate 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Ornate Plate • Diablo 2 Resurrected Base Item • diablo2.io"", ""ornate plate t136"", ""ornate-plate-t136""]"	1	1	"[""diablo2-io""]"	1	{}
+4dcf7114-269f-519b-b1fc-545b3a39a553	BaseItem	quilted-armor-t1388	"Quilted Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Quilted Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""quilted armor t1388"", ""quilted-armor-t1388""]"	1	1	"[""diablo2-io""]"	1	{}
+521b8972-5c63-585e-91d1-41ea5a7652d5	BaseItem	sacred-armor-t80	"Sacred Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Sacred Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""sacred armor t80"", ""sacred-armor-t80""]"	1	1	"[""diablo2-io""]"	1	{}
+8bfb3a83-a5a6-5af9-8357-605581d5039d	BaseItem	scarab-husk-t1396	"Scarab Husk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Scarab Husk • Diablo 2 Resurrected Base Item • diablo2.io"", ""scarab husk t1396"", ""scarab-husk-t1396""]"	1	1	"[""diablo2-io""]"	1	{}
+3ef1ac4a-accf-597c-aae3-1ddc7ee3ec78	BaseItem	scythe-t61	"Scythe 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Scythe • Diablo 2 Resurrected Base Item • diablo2.io"", ""scythe t61"", ""scythe-t61""]"	1	1	"[""diablo2-io""]"	1	{}
+16484802-1ae5-5f2f-a109-25a0aa498f81	BaseItem	serpentskin-armor-t1392	"Serpentskin Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Serpentskin Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""serpentskin armor t1392"", ""serpentskin-armor-t1392""]"	1	1	"[""diablo2-io""]"	1	{}
+a9829c2d-7bd5-5baf-91d0-eeb5d9391a83	BaseItem	shako-t62	"Shako 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Shako • Diablo 2 Resurrected Base Item • diablo2.io"", ""shako t62"", ""shako-t62""]"	1	1	"[""diablo2-io""]"	1	{}
+233e9cea-4a43-581e-8667-d1ab9751e863	BaseItem	studded-leather-t1397	"Studded Leather 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Studded Leather • Diablo 2 Resurrected Base Item • diablo2.io"", ""studded leather t1397"", ""studded-leather-t1397""]"	1	1	"[""diablo2-io""]"	1	{}
+b1500d4d-e8ac-5438-a3dd-f614892d0b35	BaseItem	trellised-armor-t1398	"Trellised Armor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Trellised Armor • Diablo 2 Resurrected Base Item • diablo2.io"", ""trellised armor t1398"", ""trellised-armor-t1398""]"	1	1	"[""diablo2-io""]"	1	{}
+4f8e508c-5d1d-516d-b1f4-993097f3f051	BaseItem	war-belt-t254	"War Belt 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""War Belt • Diablo 2 Resurrected Base Item • diablo2.io"", ""war belt t254"", ""war-belt-t254""]"	1	1	"[""diablo2-io""]"	1	{}
+8fb3a842-1386-5125-b743-f0f83ca8f1bf	BaseItem	wire-fleece-t1399	"Wire Fleece 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Wire Fleece • Diablo 2 Resurrected Base Item • diablo2.io"", ""wire fleece t1399"", ""wire-fleece-t1399""]"	1	1	"[""diablo2-io""]"	1	{}
+050157a4-4473-5c2b-85c1-8c812f246619	BaseItem	wyrmhide-t1393	"Wyrmhide 
+        
+        
+        
+                                  • Diablo 2 Resurrected Base Item
+                          
+        
+         • diablo2.io"	"[""Wyrmhide • Diablo 2 Resurrected Base Item • diablo2.io"", ""wyrmhide t1393"", ""wyrmhide-t1393""]"	1	1	"[""diablo2-io""]"	1	{}
+bd0c0cf8-70bf-537f-a144-c19f165b74c8	BaseItem	ancient-armor-t5.html	ancient-armor-t5.html	"[""ancient armor t5"", ""ancient-armor-t5.html""]"	0	0	[]	0	{}
+35ee5ee9-a45d-5f39-b612-5a8a6790aa80	BaseItem	battle-scythe-t1793.html	battle-scythe-t1793.html	"[""battle scythe t1793"", ""battle-scythe-t1793.html""]"	0	0	[]	0	{}
+a579dad1-766e-5dcd-9fb6-dc28a0c41557	BaseItem	chaos-armor-t1428.html	chaos-armor-t1428.html	"[""chaos armor t1428"", ""chaos-armor-t1428.html""]"	0	0	[]	0	{}
+4624543f-1f33-578a-ba3a-ea1458498bc2	BaseItem	death-mask-t1496.html	death-mask-t1496.html	"[""death mask t1496"", ""death-mask-t1496.html""]"	0	0	[]	0	{}
+c24e6c92-1801-5761-b647-ceb2e60aa661	BaseItem	decapitator-t1612.html	decapitator-t1612.html	"[""decapitator t1612"", ""decapitator-t1612.html""]"	0	0	[]	0	{}
+1117bc68-daca-5a32-893b-2f246702f0a4	BaseItem	demonhead-t1497.html	demonhead-t1497.html	"[""demonhead t1497"", ""demonhead-t1497.html""]"	0	0	[]	0	{}
+3bda6563-225d-5312-bb79-30aff9a03191	BaseItem	dimensional-shard-t1785.html	dimensional-shard-t1785.html	"[""dimensional shard t1785"", ""dimensional-shard-t1785.html""]"	0	0	[]	0	{}
+d291bffa-63a0-5b97-9b8e-1ed08eeb58f1	BaseItem	full-plate-mail-t1427.html	full-plate-mail-t1427.html	"[""full plate mail t1427"", ""full-plate-mail-t1427.html""]"	0	0	[]	0	{}
+6e2ef9ac-5b45-579e-a045-4338b5661cf7	BaseItem	jared-s-stone-t1775.html	jared-s-stone-t1775.html	"[""jared s stone t1775"", ""jared-s-stone-t1775.html""]"	0	0	[]	0	{}
+c94a1f92-1d1a-5502-be2e-0f4b578d5958	BaseItem	mask-t256.html	mask-t256.html	"[""mask t256"", ""mask-t256.html""]"	0	0	[]	0	{}
+22040793-ac70-558f-b2bc-efd47bf29ed6	BaseItem	occult-tome-t1673950.html	occult-tome-t1673950.html	"[""occult tome t1673950"", ""occult-tome-t1673950.html""]"	0	0	[]	0	{}
+d1727c6e-2ccf-56fa-9bae-673cf59157a3	BaseItem	scythe-t61.html	scythe-t61.html	"[""scythe t61"", ""scythe-t61.html""]"	0	0	[]	0	{}
+ff6df691-9617-59c9-968e-0aea2dd37709	BaseItem	shadow-plate-t1429.html	shadow-plate-t1429.html	"[""shadow plate t1429"", ""shadow-plate-t1429.html""]"	0	0	[]	0	{}
+f0ad4a24-0e5d-5cda-a63e-8c6536bfbfb7	BaseItem	short-bow-t1615.html	short-bow-t1615.html	"[""short bow t1615"", ""short-bow-t1615.html""]"	0	0	[]	0	{}
+71de7dfb-0a76-5426-a418-525cacbf3e24	BaseItem	short-staff-t1744.html	short-staff-t1744.html	"[""short staff t1744"", ""short-staff-t1744.html""]"	0	0	[]	0	{}
+c1512182-4d31-50ae-9f6d-05b2d697b15e	BaseItem	swirling-crystal-t1780.html	swirling-crystal-t1780.html	"[""swirling crystal t1780"", ""swirling-crystal-t1780.html""]"	0	0	[]	0	{}
+45d1fef9-aa23-57e0-9305-e203f48b98cc	BaseItem	thresher-t1799.html	thresher-t1799.html	"[""thresher t1799"", ""thresher-t1799.html""]"	0	0	[]	0	{}
+6965a18e-f3f3-5ee1-9655-1ba04a438c51	BaseItem	war-spike-t1598.html	war-spike-t1598.html	"[""war spike t1598"", ""war-spike-t1598.html""]"	0	0	[]	0	{}
+31498949-a5b7-5243-ad71-4dcbb8ede14f	BaseItem	winged-helm-t1505.html	winged-helm-t1505.html	"[""winged helm t1505"", ""winged-helm-t1505.html""]"	0	0	[]	0	{}
+c34393e1-a85c-5a8b-92e8-6866d84529e2	BuildGuide	1308	KN打钥匙的新选择-拳击野蛮人 - 91D2暗黑破坏神2资料网	"[""1308"", ""KN打钥匙的新选择-拳击野蛮人 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e8f28989-4ce3-5fab-8360-2d7469d3b924	BuildGuide	1241	关于NEC，打造、杀牛、以及些许技术性操作 - 91D2暗黑破坏神2资料网	"[""1241"", ""关于NEC，打造、杀牛、以及些许技术性操作 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+694fcf9c-3069-5648-a6e7-ff0b068ea51d	BuildGuide	1249	另类玩法之塔拉夏tlx德鲁伊dru - 91D2暗黑破坏神2资料网	"[""1249"", ""另类玩法之塔拉夏tlx德鲁伊dru - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+5900feed-7018-55b5-b572-4c4e6d3ef4fe	BuildGuide	1286	拳击BUG近战野蛮人玩法省心攻略 - 91D2暗黑破坏神2资料网	"[""1286"", ""拳击BUG近战野蛮人玩法省心攻略 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+a47a0059-036c-5a0c-94a9-8b3095e7ae30	BuildGuide	1280	死灵法师nec毒召新思路build - 91D2暗黑破坏神2资料网	"[""1280"", ""死灵法师nec毒召新思路build - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+ab2e8cae-dc3b-5261-8e51-5f9ee47c36c0	BuildGuide	1242	解释手抓镰刀无限法师lsor - 91D2暗黑破坏神2资料网	"[""1242"", ""解释手抓镰刀无限法师lsor - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+c96884cf-f824-546c-bd98-547f92a52be1	BuildGuide	1250	请问1～20级的升级问题 - 91D2暗黑破坏神2资料网	"[""1250"", ""请问1～20级的升级问题 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+1555113e-277c-5689-a68a-0d4de6bb3e21	BuildGuide	1129	闪电火墙双修法师，速刷bug超市完全攻略 - 91D2暗黑破坏神2资料网	"[""1129"", ""闪电火墙双修法师，速刷bug超市完全攻略 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+2758434f-cfb4-5903-8a58-21d638f6e133	ChineseGuide	763	5pp自动kb，ama冲天梯组合推荐 - 91D2暗黑破坏神2资料网	"[""5pp自动kb，ama冲天梯组合推荐 - 91D2暗黑破坏神2资料网"", ""763""]"	1	1	"[""91d2""]"	1	{}
+021857cf-a131-5c07-91fa-00e5c394c33b	ChineseGuide	644	D2技能释放准确率和伤害之间的关系 - 91D2暗黑破坏神2资料网	"[""644"", ""D2技能释放准确率和伤害之间的关系 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+d30e9a3d-1b2c-5320-8899-922a34762294	ChineseGuide	640	Hit Blinds Target(使目标失明)的相关几率计算 - 91D2暗黑破坏神2资料网	"[""640"", ""Hit Blinds Target(使目标失明)的相关几率计算 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+93dc89ce-54bb-5d50-bc35-8a387ab6dd33	ChineseGuide	1310	fhr和格挡率分别是什么意思？-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1310"", ""fhr和格挡率分别是什么意思？-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+daad429b-5aad-521e-816e-0de33484af07	ChineseGuide	1303	lsor在有无限的情况下，电法减抗到多少合适？-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1303"", ""lsor在有无限的情况下，电法减抗到多少合适？-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+7f8f6a71-1851-573a-8c87-37fba82a6e0c	ChineseGuide	1302	oak wmd的格挡电法，续航能力弱，有什么解决方法-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1302"", ""oak wmd的格挡电法，续航能力弱，有什么解决方法-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+6820f1e2-535a-5eb4-a3f6-a6e5ab663b01	ChineseGuide	1307	两个PAL开同样光环是叠加还是取最大等级的？-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1307"", ""两个PAL开同样光环是叠加还是取最大等级的？-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+142327b0-ab67-54d7-9b5f-45714eba8e5c	ChineseGuide	708	亚马逊职业ama穿刺技能作用表 - 91D2暗黑破坏神2资料网	"[""708"", ""亚马逊职业ama穿刺技能作用表 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0b446498-7a3c-53e4-9477-58887b97c68f	ChineseGuide	712	伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网	"[""712"", ""伤害效果对怪物自动回血的影响 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+fad96b0c-de7c-5404-bbd3-c1cfdda7224b	ChineseGuide	1304	关于bugkb装备掉率的一些疑问-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1304"", ""关于bugkb装备掉率的一些疑问-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+bcd74d23-6c76-5792-8c12-b0c4a98f4fed	ChineseGuide	711	关于冥河娃娃的自爆伤害详解 - 91D2暗黑破坏神2资料网	"[""711"", ""关于冥河娃娃的自爆伤害详解 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+32de8a8b-7f73-53ec-9fcb-3cee5220de60	ChineseGuide	810	压碎性打击，致命打击，撕裂目标伤口，三个属性的区别 - 91D2暗黑破坏神2资料网	"[""810"", ""压碎性打击，致命打击，撕裂目标伤口，三个属性的区别 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+c87c8215-4932-53bd-a622-08f825f704cb	ChineseGuide	987	名词解释：何谓BUG蛇。极其恐怖的攻击力，以及如何对付它。 - 91D2暗黑破坏神2资料网	"[""987"", ""名词解释：何谓BUG蛇。极其恐怖的攻击力，以及如何对付它。 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+1b0992e2-a9b0-5cdb-a8f2-db0bd16c31e0	ChineseGuide	635	实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网	"[""635"", ""实测ACT5古代野蛮人3BB的火焰强化bug - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e43f6d6d-702a-5f7e-b4b0-b9faa1793609	ChineseGuide	979	暗黑2中有关电鬼与自爆娃娃的伤害和抗性测试 - 91D2暗黑破坏神2资料网	"[""979"", ""暗黑2中有关电鬼与自爆娃娃的伤害和抗性测试 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+04ecfdaf-4fe4-58b0-9420-ff0ddfea563b	ChineseGuide	447	暗黑2雷神和鬼火谁的吸收闪电效果更好？KB的时候需要准备什么来防备电鬼？ - 91D2暗黑破坏神2资料网	"[""447"", ""暗黑2雷神和鬼火谁的吸收闪电效果更好？KB的时候需要准备什么来防备电鬼？ - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e2e4a1ba-5f78-55b3-8ad4-35bd6082f656	ChineseGuide	670	暗黑破坏神2角色人物技能加成全说明 - 91D2暗黑破坏神2资料网	"[""670"", ""暗黑破坏神2角色人物技能加成全说明 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0a44464c-127a-58c0-90ab-275cd9351474	ChineseGuide	408	暗黑破坏神2非资料片怪物各个属性的计算方式 - 91D2暗黑破坏神2资料网	"[""408"", ""暗黑破坏神2非资料片怪物各个属性的计算方式 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+321b44a0-1fc8-515b-996b-517761cd2af9	ChineseGuide	1311	求推荐个8开自动kb的配置-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1311"", ""求推荐个8开自动kb的配置-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+b169645e-ea38-5ae8-b520-1582216a45e4	ChineseGuide	1102	炸牛NEC死灵KC时骨牢加迷乱到底比骨墙聚牛好在哪里 - 91D2暗黑破坏神2资料网	"[""1102"", ""炸牛NEC死灵KC时骨牢加迷乱到底比骨墙聚牛好在哪里 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+6c73e384-bc37-5d92-a5f8-d1f66bf4e523	ChineseGuide	1301	精算一下似乎暴力毒狼双修在1.11还是可行的？-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1301"", ""精算一下似乎暴力毒狼双修在1.11还是可行的？-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+eab3fbde-0223-5168-820f-c39501e118f5	ChineseGuide	646	装备属性闪电吸收的简单解释 - 91D2暗黑破坏神2资料网	"[""646"", ""装备属性闪电吸收的简单解释 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+f46a1523-7971-5ad5-87cd-01f2210a41b1	ChineseGuide	1309	请教一下pp数和nodrop的问题-游戏问题解答-91D2暗黑破坏神2资料百科	"[""1309"", ""请教一下pp数和nodrop的问题-游戏问题解答-91D2暗黑破坏神2资料百科""]"	1	1	"[""91d2""]"	1	{}
+2391c863-d2a4-5b83-93b4-26b3e1a3a8dd	ChineseGuide	627	超级暗黑破坏神DC在地狱难度下的游戏数据 - 91D2暗黑破坏神2资料网	"[""627"", ""超级暗黑破坏神DC在地狱难度下的游戏数据 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+776ed47b-bb90-5837-87f8-11e2fefc67eb	Class	Amazon	Amazon - Diablo 2 Wiki	"[""Amazon"", ""Amazon - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+64ce8943-b18a-536f-baf2-a4c9c5991cef	Class	Necromancer	Necromancer - Diablo 2 Wiki	"[""Necromancer"", ""Necromancer - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+fcebc41c-f50e-55e9-93e1-37b801f0cdb4	Class	Paladin	Paladin - Diablo 2 Wiki	"[""Paladin"", ""Paladin - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+38a29003-6d17-58db-9af1-c4c0c62fd063	Class	amazon	The Arreat Summit - Classes: Amazon	"[""The Arreat Summit - Classes: Amazon"", ""amazon""]"	1	1	"[""arreat-summit""]"	1	{}
+161e34cc-64da-5475-bbb5-f30ca4f714ee	Class	assassin	The Arreat Summit - Classes: Assassin	"[""The Arreat Summit - Classes: Assassin"", ""assassin""]"	1	1	"[""arreat-summit""]"	1	{}
+7cd2d6ee-0c92-5c52-aff5-4a2c52c0ecf9	Class	barbarian	The Arreat Summit - Classes: Barbarian	"[""The Arreat Summit - Classes: Barbarian"", ""barbarian""]"	1	1	"[""arreat-summit""]"	1	{}
+0ac796fe-b823-50e9-b22d-1921c5a1138c	Class	druid	The Arreat Summit - Classes: Druid	"[""The Arreat Summit - Classes: Druid"", ""druid""]"	1	1	"[""arreat-summit""]"	1	{}
+877bdfe6-b82e-56d1-81d4-a9296cd51517	Class	necromancer	The Arreat Summit - Classes: Necromancer	"[""The Arreat Summit - Classes: Necromancer"", ""necromancer""]"	1	1	"[""arreat-summit""]"	1	{}
+5f3cbd40-d402-543c-96c8-23d970681c30	Class	paladin	The Arreat Summit - Classes: Paladin	"[""The Arreat Summit - Classes: Paladin"", ""paladin""]"	1	1	"[""arreat-summit""]"	1	{}
+6d3f26c9-3cfe-554b-b36a-074a1f983511	Class	sorceress	The Arreat Summit - Classes: Sorceress	"[""The Arreat Summit - Classes: Sorceress"", ""sorceress""]"	1	1	"[""arreat-summit""]"	1	{}
+d2b18d60-e588-507d-9c2f-466819e3812e	Class	amazon	amazon	"[""amazon""]"	0	0	[]	0	{}
+79163e2a-9037-55a3-a66e-c361e3f01411	Class	assassin	assassin	"[""assassin""]"	0	0	[]	0	{}
+00d72030-a81d-50b3-819f-a133bc447f66	ExperienceGuide	1284	8PP开箱子的另类休闲玩法 - 91D2暗黑破坏神2资料网	"[""1284"", ""8PP开箱子的另类休闲玩法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+f3fe9b1a-2614-59ba-8a6a-8433850cd0b0	ExperienceGuide	1292	“杰海因消失之谜”与“水井KEY”的神秘关系 - 91D2暗黑破坏神2资料网	"[""1292"", ""“杰海因消失之谜”与“水井KEY”的神秘关系 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+bd3c6321-b750-50be-aca1-739a1beda2df	ExperienceGuide	1288	低PP通用型格挡顶球新星电法lsor（牛场+地穴+古代通道） - 91D2暗黑破坏神2资料网	"[""1288"", ""低PP通用型格挡顶球新星电法lsor（牛场+地穴+古代通道） - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+93638ecd-5361-508b-a1fe-d372f8e6b255	ExperienceGuide	1123	关于nec的传统误区和全新玩法 - 91D2暗黑破坏神2资料网	"[""1123"", ""关于nec的传统误区和全新玩法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e49246c9-82c2-5698-8176-4f7697b5c88a	ExperienceGuide	1290	天堂基础盾击丁3%残血阶段盾击与热诚DPS分析 - 91D2暗黑破坏神2资料网	"[""1290"", ""天堂基础盾击丁3%残血阶段盾击与热诚DPS分析 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+47c90142-2f4f-5b6d-aaab-01c34332615d	ExperienceGuide	1118	对比多开MF两开和三开打钱的效率数据参考 - 91D2暗黑破坏神2资料网	"[""1118"", ""对比多开MF两开和三开打钱的效率数据参考 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+308127e3-63bd-5bf2-a5c3-e2da9cc052bf	ExperienceGuide	1120	暗黑2角色天梯冲榜98升级99lv的经验之谈 - 91D2暗黑破坏神2资料网	"[""1120"", ""暗黑2角色天梯冲榜98升级99lv的经验之谈 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+108e9326-b2ab-54f2-9398-5b82ef81fd62	ExperienceGuide	1130	玩家分享的战网多开BUG炸超市的心得体会 - 91D2暗黑破坏神2资料网	"[""1130"", ""玩家分享的战网多开BUG炸超市的心得体会 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+c6f6d3b9-b52b-5d68-adc7-caaef23bb89a	FAQGuide	1131	RR指导手册-包括RR流程，水井key制作，BUS加点等全方面讲解 - 91D2暗黑破坏神2资料网	"[""1131"", ""RR指导手册-包括RR流程，水井key制作，BUS加点等全方面讲解 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+dcc7d67e-5b33-5de3-9943-c381fe07e402	FAQGuide	917	为什么死灵NEC的佣兵PET使用符文之语无限最好 - 91D2暗黑破坏神2资料网	"[""917"", ""为什么死灵NEC的佣兵PET使用符文之语无限最好 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+6b10e4e9-654e-566b-9d6d-3a3fa70750f9	FAQGuide	1124	介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网	"[""1124"", ""介绍非资料片单人8开solo方法（fz csor 1拖7） - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+5bf56abc-8d6c-5817-86d6-da0fef9c9fcc	FAQGuide	1025	关于BUG蛇的科普介绍以及解决方法 - 91D2暗黑破坏神2资料网	"[""1025"", ""关于BUG蛇的科普介绍以及解决方法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+aaffb04a-8b6e-5978-bcbe-687ea74cf949	FAQGuide	1100	关于WIN7以上系统无法游戏或者出现弹窗big error问题的解决办法 - 91D2暗黑破坏神2资料网	"[""1100"", ""关于WIN7以上系统无法游戏或者出现弹窗big error问题的解决办法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0a311462-f995-59dc-a996-60b9c6648185	FAQGuide	675	关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网	"[""675"", ""关于玩战网游戏卡,网速慢,跳ping的分析 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+21f7fc37-487b-56cb-af8e-dea4559b1c7f	FAQGuide	550	如何解决RR时候最后3个CHAR卡住加入不了房间 - 91D2暗黑破坏神2资料网	"[""550"", ""如何解决RR时候最后3个CHAR卡住加入不了房间 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0672979d-3106-5e84-8292-497b6952d5db	FAQGuide	1294	开荒时没有元素BUG武器时使用强化BUFF解决 - 91D2暗黑破坏神2资料网	"[""1294"", ""开荒时没有元素BUG武器时使用强化BUFF解决 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+98c503bf-48b0-5cf6-842a-a4610af6038b	FAQGuide	1275	战网新人的各种快速升级方式介绍 - 91D2暗黑破坏神2资料网	"[""1275"", ""战网新人的各种快速升级方式介绍 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+c6653e02-07c3-5458-a8c2-b2727df678a3	FAQGuide	1046	新人冰法mfsor打宝mf指南 - 91D2暗黑破坏神2资料网	"[""1046"", ""新人冰法mfsor打宝mf指南 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e80f0a6d-ba5a-57ec-9054-f74216c351c4	FAQGuide	1047	新人开荒巧用坦克雷套装，教你肉搏装MF轻松上500 - 91D2暗黑破坏神2资料网	"[""1047"", ""新人开荒巧用坦克雷套装，教你肉搏装MF轻松上500 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+a1e3f825-dad9-51d2-b395-3d97bd143d23	FAQGuide	1126	添加了管理员兼容模式后，运行d2loader还是没反应的解决办法 - 91D2暗黑破坏神2资料网	"[""1126"", ""添加了管理员兼容模式后，运行d2loader还是没反应的解决办法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+68d7fc34-5305-50f2-a1e0-10dd81ee38ab	FAQGuide	706	玩暗黑战网时忘记账号了怎么办 - 91D2暗黑破坏神2资料网	"[""706"", ""玩暗黑战网时忘记账号了怎么办 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+a0a85d63-8516-591a-b450-1bc37fe63c8b	FAQGuide	1293	资料片一帖通（任务tips、小号PASS、牛场防破处、BUG击杀、元素BUG） - 91D2暗黑破坏神2资料网	"[""1293"", ""资料片一帖通（任务tips、小号PASS、牛场防破处、BUG击杀、元素BUG） - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+3d244630-b3ee-5714-88e3-c598f5faca17	FAQGuide	677	遇到多开卡顿以及TP卡顿的解决方案 - 91D2暗黑破坏神2资料网	"[""677"", ""遇到多开卡顿以及TP卡顿的解决方案 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+65865e41-a21e-5479-80a5-711481dcf6a4	FAQGuide	549	防止游戏自动升级导致的各种未知错误 - 91D2暗黑破坏神2资料网	"[""549"", ""防止游戏自动升级导致的各种未知错误 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+1b582dda-d08f-5123-a194-8e7445ee6254	ItemGuide	1119	STR DEX属性相对LF MANA数值对物品价格的影响 - 91D2暗黑破坏神2资料网	"[""1119"", ""STR DEX属性相对LF MANA数值对物品价格的影响 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+6776833b-6d97-5e39-ac25-684f3944f708	ItemGuide	1092	关于bug jew(BUG珠)ed/min(max) 镶嵌的验证 - 91D2暗黑破坏神2资料网	"[""1092"", ""关于bug jew(BUG珠)ed/min(max) 镶嵌的验证 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+585380f8-d6fe-5631-b7e7-d12d83d17e1b	ItemGuide	1128	关于lsor电法盾牌选择的一些想法 - 91D2暗黑破坏神2资料网	"[""1128"", ""关于lsor电法盾牌选择的一些想法 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+da283fac-9c6d-52ea-9981-0c056235a745	ItemGuide	1087	史恰弗之锤 SF铁魔之王，8开KC利器，保护手指的神器 - 91D2暗黑破坏神2资料网	"[""1087"", ""史恰弗之锤 SF铁魔之王，8开KC利器，保护手指的神器 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+939b765c-a7f1-52dd-b501-981dcc325c57	ItemGuide	1127	合成的橙色手工项链所有词缀组成和价值详解 - 91D2暗黑破坏神2资料网	"[""1127"", ""合成的橙色手工项链所有词缀组成和价值详解 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+97fe210b-0137-5adf-9b8a-59a402351099	ItemGuide	1093	基数效应和边际效应：让装备属性实际效果差距，比看上去的小很多 - 91D2暗黑破坏神2资料网	"[""1093"", ""基数效应和边际效应：让装备属性实际效果差距，比看上去的小很多 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+8b783dca-77f7-5d49-b288-caf7be51692d	ItemGuide	1289	贫民格挡电法lsor配装选材与格挡配置指南 - 91D2暗黑破坏神2资料网	"[""1289"", ""贫民格挡电法lsor配装选材与格挡配置指南 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+135fa0b8-8d6c-5252-b5a2-db1c832d62aa	ItemGuide	1122	镰刀无限法师life上限=mana上限的加点计算 - 91D2暗黑破坏神2资料网	"[""1122"", ""镰刀无限法师life上限=mana上限的加点计算 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+b189cff6-8620-5986-b66a-7112bcb2de97	ItemGuidePage	Necromancer_Items	Necromancer Items - Diablo 2 Wiki	"[""Necromancer Items"", ""Necromancer Items - Diablo 2 Wiki"", ""Necromancer_Items""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+fd26efb5-e350-531a-8949-07075d0b9938	ItemPage	basics	The Arreat Summit - Items: Basic Item Information	"[""The Arreat Summit - Items: Basic Item Information"", ""basics""]"	1	1	"[""arreat-summit""]"	1	{}
+0588771b-f671-528b-9a03-f2aa9bae7d6a	ItemPage	charms	The Arreat Summit - Items: Charms	"[""The Arreat Summit - Items: Charms"", ""charms""]"	1	1	"[""arreat-summit""]"	1	{}
+7cafe7f6-0ab6-5a4b-9ad2-1fde3d73b748	ItemPage	crafteditems	The Arreat Summit - Items: Crafted Items	"[""The Arreat Summit - Items: Crafted Items"", ""crafteditems""]"	1	1	"[""arreat-summit""]"	1	{}
+0783a5e7-ad76-5fa6-87b2-9d827789a81a	ItemPage	jewels	The Arreat Summit - Items: Jewels	"[""The Arreat Summit - Items: Jewels"", ""jewels""]"	1	1	"[""arreat-summit""]"	1	{}
+28dc6468-c2ff-5ae0-9ec6-b28a463bb23c	ItemPage	magic	The Arreat Summit - Items: Magic	"[""The Arreat Summit - Items: Magic"", ""magic""]"	1	1	"[""arreat-summit""]"	1	{}
+33289473-627a-5e20-bba7-4326d5a14d5e	ItemPage	ringsnamulets	The Arreat Summit - Items: Rings and Amulets	"[""The Arreat Summit - Items: Rings and Amulets"", ""ringsnamulets""]"	1	1	"[""arreat-summit""]"	1	{}
+9e3b1073-8eaa-5533-ac41-49b930a49783	ItemPage	runewords	The Arreat Summit - Items: Rune Words	"[""The Arreat Summit - Items: Rune Words"", ""runewords""]"	1	1	"[""arreat-summit""]"	1	{}
+88651f44-17fb-5d71-8cdf-3891b14e3e02	ItemPage	runewords-110	The Arreat Summit - Items: Rune Words: 1.10 Rune Words	"[""The Arreat Summit - Items: Rune Words: 1.10 Rune Words"", ""runewords 110"", ""runewords-110""]"	1	1	"[""arreat-summit""]"	1	{}
+2c197acf-012e-56fb-b172-db5006256401	ItemPage	runes	The Arreat Summit - Items: Runes	"[""The Arreat Summit - Items: Runes"", ""runes""]"	1	1	"[""arreat-summit""]"	1	{}
+1221dbda-0fa0-5df0-854a-bfb56f88ccde	ItemPage	socketeditems	The Arreat Summit - Items: Socketed Items	"[""The Arreat Summit - Items: Socketed Items"", ""socketeditems""]"	1	1	"[""arreat-summit""]"	1	{}
+99901a06-66d0-59ce-8c6b-b21aa4b3592a	ItemPage	gems	The Arreat Summit - Items: Socketed Items and Gems	"[""The Arreat Summit - Items: Socketed Items and Gems"", ""gems""]"	1	1	"[""arreat-summit""]"	1	{}
+cf4a0185-6c51-56f6-bc57-f074e1e883ac	ItemPage	cube	The Arreat Summit - Items: The Horadric Cube	"[""The Arreat Summit - Items: The Horadric Cube"", ""cube""]"	1	1	"[""arreat-summit""]"	1	{}
+705d753c-247b-5546-b7a2-9992068a60b0	ItemPage	uniques	The Arreat Summit - Items: Unique Items	"[""The Arreat Summit - Items: Unique Items"", ""uniques""]"	1	1	"[""arreat-summit""]"	1	{}
+900ad94b-88f1-57ee-af45-95eae9e1a006	ItemPage	weaponsandarmor	The Arreat Summit - Items: Weapons and Armor	"[""The Arreat Summit - Items: Weapons and Armor"", ""weaponsandarmor""]"	1	1	"[""arreat-summit""]"	1	{}
+201245bd-551a-5457-a891-5e58b332f337	ItemPage	potions	The Arreat Summit - Potions	"[""The Arreat Summit - Potions"", ""potions""]"	1	1	"[""arreat-summit""]"	1	{}
+5132a217-02a5-5b5b-bfa7-ad9d8e431e68	ItemPage	basics	basics	"[""basics""]"	0	0	[]	0	{}
+9c8b77e8-b5e5-52e5-9872-cf748833c035	ItemPage	runewords	runewords	"[""runewords""]"	0	0	[]	0	{}
+55c64761-7784-5e1e-b54c-6eae62f58653	ItemPage	runewords-110	runewords-110	"[""runewords 110"", ""runewords-110""]"	0	0	[]	0	{}
+9b0640a6-61ae-522e-9532-8bf4b2ac04f5	ItemPage	weaponsandarmor	weaponsandarmor	"[""weaponsandarmor""]"	0	0	[]	0	{}
+f4b81583-a556-59d2-9371-d39b8e655a14	LegacyReferencePage	diablo2exp	A Strategy Guide for Diablo II	"[""A Strategy Guide for Diablo II"", ""diablo2exp""]"	1	1	"[""arreat-summit""]"	1	{}
+d7386d56-60ab-5c6f-a8b6-e1f4c3d07090	LegacyReferencePage	basics	Basics	"[""Basics""]"	1	1	"[""arreat-summit""]"	1	{}
+37ab3d63-41a1-50b8-9540-ad4926b8f4e2	LegacyReferencePage	classes	Classes	"[""Classes""]"	1	1	"[""arreat-summit""]"	1	{}
+c5984ff1-fca2-5a78-825b-503fe21bef75	LegacyReferencePage	items	Items	"[""Items""]"	1	1	"[""arreat-summit""]"	1	{}
+12dc5ddf-fc29-5c25-a335-4bc0dafc30a3	LegacyReferencePage	maps	Maps	"[""Maps""]"	1	1	"[""arreat-summit""]"	1	{}
+eb0420e5-150c-5552-9be7-0cd3a9c05b69	LegacyReferencePage	monsters	Monsters	"[""Monsters""]"	1	1	"[""arreat-summit""]"	1	{}
+6c3756c9-8856-5751-a036-ae2129279f8b	LegacyReferencePage	quests	Quests	"[""Quests""]"	1	1	"[""arreat-summit""]"	1	{}
+cde5f873-722e-502b-9b8f-2bb53865d558	LegacyReferencePage	skills	Skills	"[""Skills""]"	1	1	"[""arreat-summit""]"	1	{}
+0b6496e4-b2b1-575f-9384-6ee2eae9f05e	LegacyReferencePage	basics	basics	"[""basics""]"	0	0	[]	0	{}
+4d5036c1-5370-597f-b7f1-834923c8ce35	LegacyReferencePage	characters	characters	"[""characters""]"	0	0	[]	0	{}
+53ffa92a-9c43-57cd-9039-38282af1da80	LegacyReferencePage	charactertypes	charactertypes	"[""charactertypes""]"	0	0	[]	0	{}
+474d5dc7-51ed-5b8a-9090-0e08c3718bdb	LegacyReferencePage	classes	classes	"[""classes""]"	0	0	[]	0	{}
+8f14379c-2d92-5f55-b8e9-760936a94049	LegacyReferencePage	diablo2exp	diablo2exp	"[""diablo2exp""]"	0	0	[]	0	{}
+6e093e9d-f98b-5922-850b-547a2791291f	LegacyReferencePage	faq	faq	"[""faq""]"	0	0	[]	0	{}
+77f3a0cb-d8b9-5f6d-b90a-f9643414ff69	LegacyReferencePage	files	files	"[""files""]"	0	0	[]	0	{}
+7c534f9d-853b-517e-8840-b9aedb8814ba	LegacyReferencePage	items	items	"[""items""]"	0	0	[]	0	{}
+3c958292-f4e5-5a50-97ab-c9b9eb6a256e	LegacyReferencePage	ladder	ladder	"[""ladder""]"	0	0	[]	0	{}
+548cb263-0af2-5be4-a3fb-70f00cb4739d	LegacyReferencePage	maps	maps	"[""maps""]"	0	0	[]	0	{}
+e8d29f60-4baf-56ae-a688-9608c16a528e	LegacyReferencePage	monsters	monsters	"[""monsters""]"	0	0	[]	0	{}
+b2fcdf62-a432-5410-870f-8cb1d008cd42	LegacyReferencePage	npcs	npcs	"[""npcs""]"	0	0	[]	0	{}
+ffd373bd-b5df-523f-b350-fad460f2a6f6	LegacyReferencePage	quests	quests	"[""quests""]"	0	0	[]	0	{}
+1606c15f-2d6f-5655-821b-e48f1986c7ec	LegacyReferencePage	shrines	shrines	"[""shrines""]"	0	0	[]	0	{}
+7d75c3a5-069e-5df7-aaba-3a1a6918f5ef	LegacyReferencePage	skills	skills	"[""skills""]"	0	0	[]	0	{}
+10afc63b-7605-522f-bc30-7084082a5d91	MiscEntity	amn-t23.html	amn-t23.html	"[""amn t23"", ""amn-t23.html""]"	0	0	[]	0	{}
+766b178e-9717-5af7-a8b8-c6777198271e	MiscEntity	eld-t50.html	eld-t50.html	"[""eld t50"", ""eld-t50.html""]"	0	0	[]	0	{}
+15ca4f5b-e9a3-5dd5-99d4-d33748162763	MiscEntity	gul-t1326.html	gul-t1326.html	"[""gul t1326"", ""gul-t1326.html""]"	0	0	[]	0	{}
+f2de6133-e8f7-5385-b830-2d26cc52dd07	MiscEntity	hel-t51.html	hel-t51.html	"[""hel t51"", ""hel-t51.html""]"	0	0	[]	0	{}
+aa980ee5-6005-53e7-aa00-fb3054e66142	MiscEntity	ko-t1320.html	ko-t1320.html	"[""ko t1320"", ""ko-t1320.html""]"	0	0	[]	0	{}
+08b41076-30a4-5bca-8399-9ed015c9f4d9	MiscEntity	lem-t1322.html	lem-t1322.html	"[""lem t1322"", ""lem-t1322.html""]"	0	0	[]	0	{}
+29c22491-f47b-5be0-8fb2-6e44c89e20f7	MiscEntity	ohm-t1327.html	ohm-t1327.html	"[""ohm t1327"", ""ohm-t1327.html""]"	0	0	[]	0	{}
+f47c4834-c88d-5fb3-9ebd-cc79ee7b08d4	MiscEntity	perfect-amethyst-t1358.html	perfect-amethyst-t1358.html	"[""perfect amethyst t1358"", ""perfect-amethyst-t1358.html""]"	0	0	[]	0	{}
+8e363041-f0e4-5f60-a393-68e3f0fa396a	MiscEntity	portal-to-the-secret-cow-level-t68.html	portal-to-the-secret-cow-level-t68.html	"[""portal to the secret cow level t68"", ""portal-to-the-secret-cow-level-t68.html""]"	0	0	[]	0	{}
+10d98329-e450-5510-a3c9-3ebc7d413c42	MiscEntity	ral-t48.html	ral-t48.html	"[""ral t48"", ""ral-t48.html""]"	0	0	[]	0	{}
+0af8b38e-ed72-5272-9415-c6016c212401	MiscEntity	shael-t1319.html	shael-t1319.html	"[""shael t1319"", ""shael-t1319.html""]"	0	0	[]	0	{}
+0911543d-3463-58e2-80ca-928811ae0087	MiscEntity	talic-s-anguish-t1674833.html	talic-s-anguish-t1674833.html	"[""talic s anguish t1674833"", ""talic-s-anguish-t1674833.html""]"	0	0	[]	0	{}
+c56cc244-98b7-5fb6-894f-65545467629c	MiscEntity	tome-of-town-portal-t12.html	tome-of-town-portal-t12.html	"[""tome of town portal t12"", ""tome-of-town-portal-t12.html""]"	0	0	[]	0	{}
+c81f2c15-d76d-5347-bc20-90ce98e7471c	MiscEntity	wirt-s-leg-t67.html	wirt-s-leg-t67.html	"[""wirt s leg t67"", ""wirt-s-leg-t67.html""]"	0	0	[]	0	{}
+cd442d16-d149-50fd-b3c9-88637acf40b9	Monster	blood-hawk-t4211	"Blood Hawk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Blood Hawk • Diablo 2 Resurrected Monster • diablo2.io"", ""blood hawk t4211"", ""blood-hawk-t4211""]"	1	1	"[""diablo2-io""]"	1	{}
+b166ad36-84fd-51b4-a8f9-d19298c7e6fa	Monster	corrupt-rogue-t4204	"Corrupt Rogue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Corrupt Rogue • Diablo 2 Resurrected Monster • diablo2.io"", ""corrupt rogue t4204"", ""corrupt-rogue-t4204""]"	1	1	"[""diablo2-io""]"	1	{}
+9c8790a9-ad5e-5b4f-a869-eb858d661024	Monster	corrupt-rogue-archer-t4205	"Corrupt Rogue Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Corrupt Rogue Archer • Diablo 2 Resurrected Monster • diablo2.io"", ""corrupt rogue archer t4205"", ""corrupt-rogue-archer-t4205""]"	1	1	"[""diablo2-io""]"	1	{}
+c4a8f86e-da36-5d0e-9972-4284676424d1	Monster	corrupt-rogue-spearwoman-t4206	"Corrupt Rogue Spearwoman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Corrupt Rogue Spearwoman • Diablo 2 Resurrected Monster • diablo2.io"", ""corrupt rogue spearwoman t4206"", ""corrupt-rogue-spearwoman-t4206""]"	1	1	"[""diablo2-io""]"	1	{}
+5b93dd30-0487-5f8c-a2fa-5e34ce3c78a6	Monster	fallen-t4199	"Fallen 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Fallen • Diablo 2 Resurrected Monster • diablo2.io"", ""fallen t4199"", ""fallen-t4199""]"	1	1	"[""diablo2-io""]"	1	{}
+87b7f266-9f55-5ed0-bbd2-7cac662c4771	Monster	fallen-shaman-t4200	"Fallen Shaman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Fallen Shaman • Diablo 2 Resurrected Monster • diablo2.io"", ""fallen shaman t4200"", ""fallen-shaman-t4200""]"	1	1	"[""diablo2-io""]"	1	{}
+2e8d8149-17d4-5ddb-af1b-7b5a5eaa3bbc	Monster	fetish-t4215	"Fetish 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Fetish • Diablo 2 Resurrected Monster • diablo2.io"", ""fetish t4215"", ""fetish-t4215""]"	1	1	"[""diablo2-io""]"	1	{}
+2ab1c3b8-57ea-567e-96fd-2b3e6dcd9c46	Monster	flying-scimitar-t4217	"Flying Scimitar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Flying Scimitar • Diablo 2 Resurrected Monster • diablo2.io"", ""flying scimitar t4217"", ""flying-scimitar-t4217""]"	1	1	"[""diablo2-io""]"	1	{}
+246c3d2e-09ff-5979-ab5e-f09fea64be1c	Monster	giant-spider-t4213	"Giant Spider 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Giant Spider • Diablo 2 Resurrected Monster • diablo2.io"", ""giant spider t4213"", ""giant-spider-t4213""]"	1	1	"[""diablo2-io""]"	1	{}
+994ec117-c8fc-594d-8f0d-5f2bbb44adad	Monster	goatman-t4210	"Goatman 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Goatman • Diablo 2 Resurrected Monster • diablo2.io"", ""goatman t4210"", ""goatman-t4210""]"	1	1	"[""diablo2-io""]"	1	{}
+8f5954af-02d5-5536-961d-8a5d555f79e5	Monster	rakanishu-t7	"Rakanishu 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Rakanishu • Diablo 2 Resurrected Monster • diablo2.io"", ""rakanishu t7"", ""rakanishu-t7""]"	1	1	"[""diablo2-io""]"	1	{}
+35198aa9-9ff9-52af-a718-f9238a364726	Monster	skeleton-t4207	"Skeleton 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Skeleton • Diablo 2 Resurrected Monster • diablo2.io"", ""skeleton t4207"", ""skeleton-t4207""]"	1	1	"[""diablo2-io""]"	1	{}
+5272755e-4359-59bf-9f56-0ee8a2d65ab7	Monster	skeleton-archer-t4208	"Skeleton Archer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Skeleton Archer • Diablo 2 Resurrected Monster • diablo2.io"", ""skeleton archer t4208"", ""skeleton-archer-t4208""]"	1	1	"[""diablo2-io""]"	1	{}
+e2bb7f13-c2fc-5098-8d40-ef133eea2491	Monster	skeleton-mage-t4209	"Skeleton Mage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Skeleton Mage • Diablo 2 Resurrected Monster • diablo2.io"", ""skeleton mage t4209"", ""skeleton-mage-t4209""]"	1	1	"[""diablo2-io""]"	1	{}
+c910861a-fc6d-50df-9a39-ec0054adf4ef	Monster	spike-fiend-t4201	"Spike Fiend 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Spike Fiend • Diablo 2 Resurrected Monster • diablo2.io"", ""spike fiend t4201"", ""spike-fiend-t4201""]"	1	1	"[""diablo2-io""]"	1	{}
+c253bde0-5130-5fcb-9a11-88cd2882ccf1	Monster	tainted-t4212	"Tainted 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Tainted • Diablo 2 Resurrected Monster • diablo2.io"", ""tainted t4212"", ""tainted-t4212""]"	1	1	"[""diablo2-io""]"	1	{}
+db4fdda5-3839-5a07-8693-c5aa0adfb914	Monster	vampire-t4216	"Vampire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Vampire • Diablo 2 Resurrected Monster • diablo2.io"", ""vampire t4216"", ""vampire-t4216""]"	1	1	"[""diablo2-io""]"	1	{}
+96571307-9c9d-52d9-a713-0bad1ad187d8	Monster	wendigo-t4203	"Wendigo 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Wendigo • Diablo 2 Resurrected Monster • diablo2.io"", ""wendigo t4203"", ""wendigo-t4203""]"	1	1	"[""diablo2-io""]"	1	{}
+40a8508a-89ab-58f1-9ffe-6f4da0d06f4c	Monster	wraith-t4214	"Wraith 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Wraith • Diablo 2 Resurrected Monster • diablo2.io"", ""wraith t4214"", ""wraith-t4214""]"	1	1	"[""diablo2-io""]"	1	{}
+f95e12ce-d745-5d3c-b936-6be6952199a8	Monster	zombie-t4202	"Zombie 
+        
+        
+        
+                                  • Diablo 2 Resurrected Monster
+                          
+        
+         • diablo2.io"	"[""Zombie • Diablo 2 Resurrected Monster • diablo2.io"", ""zombie t4202"", ""zombie-t4202""]"	1	1	"[""diablo2-io""]"	1	{}
+634ea781-c764-58d6-8c69-dad33b4fc680	Monster	achmel-the-cursed-t4328.html	achmel-the-cursed-t4328.html	"[""achmel the cursed t4328"", ""achmel-the-cursed-t4328.html""]"	0	0	[]	0	{}
+ce02de99-c734-54ad-b480-04e7ac47967b	Monster	greater-mummy-t4230.html	greater-mummy-t4230.html	"[""greater mummy t4230"", ""greater-mummy-t4230.html""]"	0	0	[]	0	{}
+bd028c9b-c5c2-503b-b7bc-21d29a942d2f	Monster	herald-t1674889.html	herald-t1674889.html	"[""herald t1674889"", ""herald-t1674889.html""]"	0	0	[]	0	{}
+8267003a-0b71-575d-8093-c5ed73cf89f0	Monster	overseer-t4259.html	overseer-t4259.html	"[""overseer t4259"", ""overseer-t4259.html""]"	0	0	[]	0	{}
+56fd5a9b-494b-5068-ac17-729855f03d0b	Monster	shenk-the-overseer-t4314.html	shenk-the-overseer-t4314.html	"[""shenk the overseer t4314"", ""shenk-the-overseer-t4314.html""]"	0	0	[]	0	{}
+8c135fa3-d9d5-53fc-80de-5b3b2a1ed922	Monster	the-smith-t4281.html	the-smith-t4281.html	"[""the smith t4281"", ""the-smith-t4281.html""]"	0	0	[]	0	{}
+a9fc400a-d479-5259-bf30-495d225995bd	Monster	uber-korlic-t1674867.html	uber-korlic-t1674867.html	"[""uber korlic t1674867"", ""uber-korlic-t1674867.html""]"	0	0	[]	0	{}
+4d5b09b3-45f9-59e7-946c-885e3ff9abf7	Monster	uber-madawc-t1674869.html	uber-madawc-t1674869.html	"[""uber madawc t1674869"", ""uber-madawc-t1674869.html""]"	0	0	[]	0	{}
+47d13501-dffc-544a-bd8c-524dd62ebc50	Monster	uber-talic-t1674866.html	uber-talic-t1674866.html	"[""uber talic t1674866"", ""uber-talic-t1674866.html""]"	0	0	[]	0	{}
+f4cda960-b42d-5e07-ab62-a310462d9ca2	MonsterPage	act1	The Arreat Summit - Monsters: Act I Bestiary	"[""The Arreat Summit - Monsters: Act I Bestiary"", ""act1""]"	1	1	"[""arreat-summit""]"	1	{}
+69e55b6d-af2e-53c2-8b18-07082eb68e02	MonsterPage	act2	The Arreat Summit - Monsters: Act II Bestiary	"[""The Arreat Summit - Monsters: Act II Bestiary"", ""act2""]"	1	1	"[""arreat-summit""]"	1	{}
+63be9ebf-88ff-5aa3-a35b-855a8722b7d7	MonsterPage	act3	The Arreat Summit - Monsters: Act III Bestiary	"[""The Arreat Summit - Monsters: Act III Bestiary"", ""act3""]"	1	1	"[""arreat-summit""]"	1	{}
+3d6dbe11-0f80-54c9-b00c-a9310fc214fd	MonsterPage	act4	The Arreat Summit - Monsters: Act IV Bestiary	"[""The Arreat Summit - Monsters: Act IV Bestiary"", ""act4""]"	1	1	"[""arreat-summit""]"	1	{}
+9fa8459c-e80d-525c-b40f-ffa80fd71ec9	MonsterPage	act5	The Arreat Summit - Monsters: Act V Bestiary	"[""The Arreat Summit - Monsters: Act V Bestiary"", ""act5""]"	1	1	"[""arreat-summit""]"	1	{}
+5349cf83-17b3-508c-8bcf-4af6f1b20936	MonsterPage	basics	The Arreat Summit - Monsters: Basic Monster Information	"[""The Arreat Summit - Monsters: Basic Monster Information"", ""basics""]"	1	1	"[""arreat-summit""]"	1	{}
+a52ee7d5-4b7b-5730-8390-58212fd65943	MonsterPage	bosses	The Arreat Summit - Monsters: Bosses	"[""The Arreat Summit - Monsters: Bosses"", ""bosses""]"	1	1	"[""arreat-summit""]"	1	{}
+927b3623-c8e1-5f74-8c7d-08f0f960df83	MonsterPage	bonus	The Arreat Summit - Monsters: Monster Bonuses	"[""The Arreat Summit - Monsters: Monster Bonuses"", ""bonus""]"	1	1	"[""arreat-summit""]"	1	{}
+7a40b3d1-a784-5a65-9da3-4fae0abd952e	MonsterPage	super	The Arreat Summit - Monsters: Super Unique Monsters	"[""The Arreat Summit - Monsters: Super Unique Monsters"", ""super""]"	1	1	"[""arreat-summit""]"	1	{}
+18f3d97f-463f-5b0d-91d7-a59f293c0767	MonsterPage	basics	basics	"[""basics""]"	0	0	[]	0	{}
+09a1ddf9-0555-5a0e-bc21-83621d313fed	MonsterPage	bonus	bonus	"[""bonus""]"	0	0	[]	0	{}
+afbc20d0-0365-553b-aaaa-dc8c247bac5e	NPC	akara-t3931	"Akara 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Akara • diablo2.io"", ""akara t3931"", ""akara-t3931""]"	1	1	"[""diablo2-io""]"	1	{}
+021d6b52-5926-564d-9dfe-5cab9bcae1d7	NPC	charsi-t3930	"Charsi 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Charsi • diablo2.io"", ""charsi t3930"", ""charsi-t3930""]"	1	1	"[""diablo2-io""]"	1	{}
+208d436c-f82f-50ec-8621-fae6f17c956b	NPC	deckard-cain-t8	"Deckard Cain 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Deckard Cain • diablo2.io"", ""deckard cain t8"", ""deckard-cain-t8""]"	1	1	"[""diablo2-io""]"	1	{}
+826910bb-97b2-5be0-a6b0-40864ef1296f	NPC	flavie-t3932	"Flavie 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Flavie • diablo2.io"", ""flavie t3932"", ""flavie-t3932""]"	1	1	"[""diablo2-io""]"	1	{}
+b15db2c3-171a-57c3-a7c8-f0f315aaa72a	NPC	gheed-t3929	"Gheed 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Gheed • diablo2.io"", ""gheed t3929"", ""gheed-t3929""]"	1	1	"[""diablo2-io""]"	1	{}
+963395c3-afc5-50a7-83da-550febf1e436	NPC	kashya-t3933	"Kashya 
+        
+        
+        
+                                  
+        
+         • diablo2.io"	"[""Kashya • diablo2.io"", ""kashya t3933"", ""kashya-t3933""]"	1	1	"[""diablo2-io""]"	1	{}
+5be9c2e6-e33d-5354-8013-9e961c37b02c	NPC	akara-t3931.html	akara-t3931.html	"[""akara t3931"", ""akara-t3931.html""]"	0	0	[]	0	{}
+e1cd372e-691f-5d68-adeb-f3152b9981f0	NPC	atma-t3935.html	atma-t3935.html	"[""atma t3935"", ""atma-t3935.html""]"	0	0	[]	0	{}
+48465709-56e0-5f48-93a2-bf795a28b6e5	NPC	deckard-cain-t8.html	deckard-cain-t8.html	"[""deckard cain t8"", ""deckard-cain-t8.html""]"	0	0	[]	0	{}
+7dad8b32-3b2b-5702-a8f7-a93506aa06ca	NPC	flavie-t3932.html	flavie-t3932.html	"[""flavie t3932"", ""flavie-t3932.html""]"	0	0	[]	0	{}
+2d3a04ea-24f9-5467-9b4c-131b8a32e8b2	NPC	geglash-t3940.html	geglash-t3940.html	"[""geglash t3940"", ""geglash-t3940.html""]"	0	0	[]	0	{}
+09bacfc0-c91b-5e5b-8fcc-ff48209c6062	NPC	hratli-t3946.html	hratli-t3946.html	"[""hratli t3946"", ""hratli-t3946.html""]"	0	0	[]	0	{}
+fc907e86-b31b-54c2-98ba-387643644d97	NPC	izual-spirit-t3954.html	izual-spirit-t3954.html	"[""izual spirit t3954"", ""izual-spirit-t3954.html""]"	0	0	[]	0	{}
+1f41ff3a-94a9-5566-b815-b0da98c9bdf0	NPC	malah-t3955.html	malah-t3955.html	"[""malah t3955"", ""malah-t3955.html""]"	0	0	[]	0	{}
+906ede50-6197-5698-8ce8-aacefc3eb0bb	NPC	ormus-t3948.html	ormus-t3948.html	"[""ormus t3948"", ""ormus-t3948.html""]"	0	0	[]	0	{}
+dd7520c4-b2c8-549b-8bbd-64e900cc4b6f	NPC	qual-kehk-t3959.html	qual-kehk-t3959.html	"[""qual kehk t3959"", ""qual-kehk-t3959.html""]"	0	0	[]	0	{}
+1c05ba16-aa1d-5931-af18-f29780692b5a	NPC	tal-rasha-t3962.html	tal-rasha-t3962.html	"[""tal rasha t3962"", ""tal-rasha-t3962.html""]"	0	0	[]	0	{}
+0d82a132-6aca-5a77-bf6a-b4dbd5552631	OpenDataResource	.eslintrc.js	.eslintrc.js	"["".eslintrc.js""]"	0	0	[]	0	{}
+dcf7c5e7-23ea-5a18-8252-81159da76558	OpenDataResource	.eslintrc.js	.eslintrc.js	"["".eslintrc.js""]"	0	0	[]	0	{}
+7de5670a-4397-5c06-b652-fe522e56f3b1	OpenDataResource	.eslintrc.js	.eslintrc.js	"["".eslintrc.js""]"	0	0	[]	0	{}
+3985e425-c9a4-546f-a138-cfc54823c17c	OpenDataResource	.gitignore	.gitignore	"["".gitignore""]"	0	0	[]	0	{}
+8c8d151a-061b-55e8-a816-ccdd818da033	OpenDataResource	.gitignore	.gitignore	"["".gitignore""]"	0	0	[]	0	{}
+bbb981bc-942c-5b88-ad1e-f90d22fbdd1c	OpenDataResource	.gitignore	.gitignore	"["".gitignore""]"	0	0	[]	0	{}
+7b6eb153-09be-5d1d-8ce9-d4d44aaac3db	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+dcb76a7a-1640-51f0-84f1-e35eabb776c6	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+013825d4-0f79-538b-95d9-bcec1334895d	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+d46cb5a2-c828-568d-9c74-01e06fe676d6	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+6931c0ab-f1bf-5121-aa80-b6400232abb7	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+7425d0cb-e70d-55f8-a185-a4bd9d9861ba	OpenDataResource	.gitkeep	.gitkeep	"["".gitkeep""]"	0	0	[]	0	{}
+8168fef3-2655-5533-ad6a-ef5f257b3a3c	OpenDataResource	LICENSE	LICENSE	"[""LICENSE""]"	0	0	[]	0	{}
+e9cdb7db-5ec4-5594-8910-ac0aed55cf9f	OpenDataResource	LICENSE	LICENSE	"[""LICENSE""]"	0	0	[]	0	{}
+5ae24f81-7bf6-5baf-9dea-84a43a3cf494	OpenDataResource	LICENSE	LICENSE	"[""LICENSE""]"	0	0	[]	0	{}
+19d24304-b055-5bf8-a081-84290a25b27b	OpenDataResource	README.md	README	"[""README"", ""README.md""]"	1	1	"[""blizzhackers-d2data""]"	1	{}
+1f1499dc-db6f-55b4-a0b8-6f33ceb990df	OpenDataResource	README.md	README.md	"[""README.md""]"	0	0	[]	0	{}
+6f1746af-e5b8-526f-980f-8de419849192	OpenDataResource	README.md	README.md	"[""README.md""]"	0	0	[]	0	{}
+74614258-0ae8-5e79-9b5c-4026ad37d6fd	OpenDataResource	README.md	README.md	"[""README.md""]"	0	0	[]	0	{}
+b10abbbb-943d-5ce3-9084-53ea45f00591	OpenDataResource	_config.yml	_config.yml	"[""config.yml""]"	0	0	[]	0	{}
+d5687989-81a2-5bec-bde9-42d19e386ec9	OpenDataResource	_config.yml	_config.yml	"[""config.yml""]"	0	0	[]	0	{}
+d665a962-bf14-5f30-97ba-92d6c5393795	OpenDataResource	_config.yml	_config.yml	"[""config.yml""]"	0	0	[]	0	{}
+9d1f45f4-2145-5adc-abc0-eac7869d40c7	OpenDataResource	actinfo.json	actinfo.json	"[""actinfo.json""]"	0	0	[]	0	{}
+e2e63350-8987-5d2d-9594-5d91d03411d3	OpenDataResource	actinfo.json	actinfo.json	"[""actinfo.json""]"	0	0	[]	0	{}
+15ad159b-7d09-5032-87e8-d0cc68024865	OpenDataResource	actinfo.json	actinfo.json	"[""actinfo.json""]"	0	0	[]	0	{}
+ff911db0-b92f-53db-9b11-194526aa8be5	OpenDataResource	actprofile.json	actprofile.json	"[""actprofile.json""]"	0	0	[]	0	{}
+48212312-a17d-59e0-a82a-ad5590405826	OpenDataResource	actprofile.json	actprofile.json	"[""actprofile.json""]"	0	0	[]	0	{}
+d1154396-998d-532b-a5f9-4e3ce0e94d43	OpenDataResource	actprofile.json	actprofile.json	"[""actprofile.json""]"	0	0	[]	0	{}
+11cd236a-e34f-5036-bfd1-7d4737fb3b14	OpenDataResource	allstrings-eng.json	allstrings-eng.json	"[""allstrings eng.json"", ""allstrings-eng.json""]"	0	0	[]	0	{}
+a405614e-46e2-5658-95c1-fb2a03173b1a	OpenDataResource	allstrings-eng.json	allstrings-eng.json	"[""allstrings eng.json"", ""allstrings-eng.json""]"	0	0	[]	0	{}
+84662a51-417f-56a8-bc9f-561e194acef3	OpenDataResource	allstrings-eng.json	allstrings-eng.json	"[""allstrings eng.json"", ""allstrings-eng.json""]"	0	0	[]	0	{}
+11d1e1d5-0a06-58df-8fc5-aa314079b092	OpenDataResource	armor.json	armor.json	"[""armor.json""]"	0	0	[]	0	{}
+aa99fbf1-1228-5594-94e4-6b3d3029eeac	OpenDataResource	armor.json	armor.json	"[""armor.json""]"	0	0	[]	0	{}
+1988f746-781d-5114-8cb3-a294b58dd499	OpenDataResource	armor.json	armor.json	"[""armor.json""]"	0	0	[]	0	{}
+68fa4efe-8237-5e36-a353-4ab882288df2	OpenDataResource	base	base	"[""base""]"	0	0	[]	0	{}
+9c2af37d-bea8-5b6b-8c80-5c19d69a6609	OpenDataResource	base	base	"[""base""]"	0	0	[]	0	{}
+7fc1d921-774e-5152-a265-f094a4e410cd	OpenDataResource	json	json-contents	"[""json"", ""json-contents""]"	1	1	"[""blizzhackers-d2data""]"	1	{}
+628d09b8-dd86-5ff9-91bf-d58b0b6891e8	OpenDataResource	contents	root-contents	"[""contents"", ""root-contents""]"	1	1	"[""blizzhackers-d2data""]"	1	{}
+491de5f6-1869-5911-88a7-481f727403d6	OpenDataResource	txt	txt-contents	"[""txt"", ""txt-contents""]"	1	1	"[""blizzhackers-d2data""]"	1	{}
+89f5588f-cb00-5c0a-8574-7abd33acc530	Quest	radament-s-lair-t3968	"Radament's Lair 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""Radament's Lair • Diablo 2 Resurrected Quest • diablo2.io"", ""radament s lair t3968"", ""radament-s-lair-t3968""]"	1	1	"[""diablo2-io""]"	1	{}
+3eef26e7-256a-5469-a179-8e490ce31dd5	Quest	sisters-to-the-slaughter-t3967	"Sisters to the Slaughter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""Sisters to the Slaughter • Diablo 2 Resurrected Quest • diablo2.io"", ""sisters to the slaughter t3967"", ""sisters-to-the-slaughter-t3967""]"	1	1	"[""diablo2-io""]"	1	{}
+7bcc5735-e619-5315-a4e4-f4483e155485	Quest	sisters-burial-grounds-t3964	"Sisters' Burial Grounds 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""Sisters' Burial Grounds • Diablo 2 Resurrected Quest • diablo2.io"", ""sisters burial grounds t3964"", ""sisters-burial-grounds-t3964""]"	1	1	"[""diablo2-io""]"	1	{}
+b365ba71-d644-5bfe-93cb-5a02d3a03e4e	Quest	the-den-of-evil-t3963	"The Den of Evil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""The Den of Evil • Diablo 2 Resurrected Quest • diablo2.io"", ""the den of evil t3963"", ""the-den-of-evil-t3963""]"	1	1	"[""diablo2-io""]"	1	{}
+6e925783-ad2d-5f2e-847a-f101b6b05617	Quest	the-forgotten-tower-t3965	"The Forgotten Tower 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""The Forgotten Tower • Diablo 2 Resurrected Quest • diablo2.io"", ""the forgotten tower t3965"", ""the-forgotten-tower-t3965""]"	1	1	"[""diablo2-io""]"	1	{}
+e7852279-398a-5d3f-9ec9-f7381d79be11	Quest	the-horadric-staff-t3969	"The Horadric Staff 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""The Horadric Staff • Diablo 2 Resurrected Quest • diablo2.io"", ""the horadric staff t3969"", ""the-horadric-staff-t3969""]"	1	1	"[""diablo2-io""]"	1	{}
+b7b8f2bc-54d1-5946-9449-d4a29a3da7dd	Quest	the-search-for-cain-t11	"The Search for Cain 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""The Search for Cain • Diablo 2 Resurrected Quest • diablo2.io"", ""the search for cain t11"", ""the-search-for-cain-t11""]"	1	1	"[""diablo2-io""]"	1	{}
+241e4853-8b1b-5ecd-ab36-3e595bee6999	Quest	the-tainted-sun-t3970	"The Tainted Sun 
+        
+        
+        
+                                  • Diablo 2 Resurrected Quest
+                          
+        
+         • diablo2.io"	"[""The Tainted Sun • Diablo 2 Resurrected Quest • diablo2.io"", ""the tainted sun t3970"", ""the-tainted-sun-t3970""]"	1	1	"[""diablo2-io""]"	1	{}
+92c81ef2-c0d3-5719-a2fd-078fd90b8df1	Quest	blade-of-the-old-religion-t3975.html	blade-of-the-old-religion-t3975.html	"[""blade of the old religion t3975"", ""blade-of-the-old-religion-t3975.html""]"	0	0	[]	0	{}
+92233c1e-0515-5cd3-b99e-909310ab783f	Quest	eve-of-destruction-t3988.html	eve-of-destruction-t3988.html	"[""eve of destruction t3988"", ""eve-of-destruction-t3988.html""]"	0	0	[]	0	{}
+b39cfb44-102a-5f99-8e83-3231d1761c62	Quest	lam-esen-s-tome-quest-t3977.html	lam-esen-s-tome-quest-t3977.html	"[""lam esen s tome quest t3977"", ""lam-esen-s-tome-quest-t3977.html""]"	0	0	[]	0	{}
+aabd8a44-a3b8-58e1-b83c-b7e3bd5b9831	Quest	radament-s-lair-t3968.html	radament-s-lair-t3968.html	"[""radament s lair t3968"", ""radament-s-lair-t3968.html""]"	0	0	[]	0	{}
+c7356a10-e5a5-5548-9745-8c2033313e52	Quest	rescue-on-mount-arreat-t3984.html	rescue-on-mount-arreat-t3984.html	"[""rescue on mount arreat t3984"", ""rescue-on-mount-arreat-t3984.html""]"	0	0	[]	0	{}
+f0a20ec3-33f1-558a-bd81-fd1bba23c2e3	Quest	the-hellforge-t3981.html	the-hellforge-t3981.html	"[""the hellforge t3981"", ""the-hellforge-t3981.html""]"	0	0	[]	0	{}
+95cf92f4-bffc-5632-a39b-98a0c664aec0	Quest	the-search-for-cain-t11.html	the-search-for-cain-t11.html	"[""the search for cain t11"", ""the-search-for-cain-t11.html""]"	0	0	[]	0	{}
+84c42808-9ea5-5075-84b1-8cf274678d53	QuestGuide	851	RR党和CUBE党福音,利用石头人拿7#8#9#任务洗货 - 91D2暗黑破坏神2资料网	"[""851"", ""RR党和CUBE党福音,利用石头人拿7#8#9#任务洗货 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+a909e41e-4009-5644-adf0-4e9b2ea1c0d4	QuestGuide	860	刷85场景地穴（泰摩高地）的新人攻略指南 - 91D2暗黑破坏神2资料网	"[""860"", ""刷85场景地穴（泰摩高地）的新人攻略指南 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0753ab07-6577-58d6-9d06-549368b8f924	QuestGuide	842	剥削RR号的剩余价值，简单快速完成7#8#9#符文任务 - 91D2暗黑破坏神2资料网	"[""842"", ""剥削RR号的剩余价值，简单快速完成7#8#9#符文任务 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+8ce15e0d-8da3-5932-b210-db6136b40cdc	QuestGuide	920	如何bug虫子和在没maphack情况下速刷地狱虫子 - 91D2暗黑破坏神2资料网	"[""920"", ""如何bug虫子和在没maphack情况下速刷地狱虫子 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+1c1c1ec1-bc46-5a73-be4a-51e0847a9f46	QuestGuide	1274	开荒期资料片、非资料片pass流程 - 91D2暗黑破坏神2资料网	"[""1274"", ""开荒期资料片、非资料片pass流程 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+c76c4ef5-fbe4-52c8-9cd8-14f02edda8da	QuestGuide	841	暗黑2牛场KC,用数据计算每场牛的数量是多少 - 91D2暗黑破坏神2资料网	"[""841"", ""暗黑2牛场KC,用数据计算每场牛的数量是多少 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+e55dd350-7f66-5867-b049-330330423119	QuestGuide	1103	玩暗黑2战网新人的快速入门开荒攻略 - 91D2暗黑破坏神2资料网	"[""1103"", ""玩暗黑2战网新人的快速入门开荒攻略 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+955ef8b4-01fc-566b-8e0f-889c43481079	QuestGuide	857	资料片砸石头(ZLP RR)的资源及原理说明 - 91D2暗黑破坏神2资料网	"[""857"", ""资料片砸石头(ZLP RR)的资源及原理说明 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+767f3105-064d-5cb0-b803-117fdba43b6b	QuestPage	act1	The Arreat Summit - Quests: Act I	"[""The Arreat Summit - Quests: Act I"", ""act1""]"	1	1	"[""arreat-summit""]"	1	{}
+06e4b431-d8b4-5505-a3f7-b6909c77aa73	QuestPage	act2	The Arreat Summit - Quests: Act II	"[""The Arreat Summit - Quests: Act II"", ""act2""]"	1	1	"[""arreat-summit""]"	1	{}
+bdfc026c-0a49-5cd2-9f87-79f2f9f12436	QuestPage	act3	The Arreat Summit - Quests: Act III	"[""The Arreat Summit - Quests: Act III"", ""act3""]"	1	1	"[""arreat-summit""]"	1	{}
+3ec9ca4d-4b14-50a6-9eff-0079e52fda72	QuestPage	act4	The Arreat Summit - Quests: Act IV	"[""The Arreat Summit - Quests: Act IV"", ""act4""]"	1	1	"[""arreat-summit""]"	1	{}
+1498bceb-4bd6-5e7d-bd32-7a06ddf91cdf	QuestPage	act5	The Arreat Summit - Quests: Act V	"[""The Arreat Summit - Quests: Act V"", ""act5""]"	1	1	"[""arreat-summit""]"	1	{}
+9a7c432c-788e-5220-a59f-517473f42bca	QuestPage	basic	The Arreat Summit - Quests: Basic Quest Information	"[""The Arreat Summit - Quests: Basic Quest Information"", ""basic""]"	1	1	"[""arreat-summit""]"	1	{}
+5056fdc0-9820-5c44-a84e-2170f1a6f0b5	QuestPage	rewards	The Arreat Summit - Quests: Rewards	"[""The Arreat Summit - Quests: Rewards"", ""rewards""]"	1	1	"[""arreat-summit""]"	1	{}
+b1bc1e3d-bb41-551b-b1aa-a197f79240d9	QuestPage	cow	The Arreat Summit - The Secret Cow Level	"[""The Arreat Summit - The Secret Cow Level"", ""cow""]"	1	1	"[""arreat-summit""]"	1	{}
+f5faf7a2-6ecb-533c-aa71-81dbb45a5dbe	QuestPage	act1	act1	"[""act1""]"	0	0	[]	0	{}
+8b446213-58a0-57fd-944b-b597b7ee332c	QuestPage	act2	act2	"[""act2""]"	0	0	[]	0	{}
+ee07ba02-87e0-5da2-b6fe-251f010154d4	Recipe	recipe-amn-t28	"Recipe: Amn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Amn • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe amn t28"", ""recipe-amn-t28""]"	1	1	"[""diablo2-io""]"	1	{}
+1f088c60-e6a3-517c-ad51-0d84c32a642b	Recipe	recipe-flawed-amethyst-t1255	"Recipe: Flawed Amethyst 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Amethyst • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed amethyst t1255"", ""recipe-flawed-amethyst-t1255""]"	1	1	"[""diablo2-io""]"	1	{}
+b5a184f4-51a2-5d48-9877-a07474d63698	Recipe	recipe-flawed-diamond-t1259	"Recipe: Flawed Diamond 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Diamond • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed diamond t1259"", ""recipe-flawed-diamond-t1259""]"	1	1	"[""diablo2-io""]"	1	{}
+dc02240a-ceca-570a-a148-823dceb45b8d	Recipe	recipe-flawed-emerald-t1257	"Recipe: Flawed Emerald 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Emerald • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed emerald t1257"", ""recipe-flawed-emerald-t1257""]"	1	1	"[""diablo2-io""]"	1	{}
+a0e0525f-f21f-51c6-943d-bc3ddc0221c6	Recipe	recipe-flawed-ruby-t1258	"Recipe: Flawed Ruby 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Ruby • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed ruby t1258"", ""recipe-flawed-ruby-t1258""]"	1	1	"[""diablo2-io""]"	1	{}
+a4c28f81-b43f-542a-bc54-943d09f4233e	Recipe	recipe-flawed-sapphire-t1256	"Recipe: Flawed Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Sapphire • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed sapphire t1256"", ""recipe-flawed-sapphire-t1256""]"	1	1	"[""diablo2-io""]"	1	{}
+28b8105f-07d2-57e0-8196-d29db4d15b09	Recipe	recipe-flawed-skull-t1254	"Recipe: Flawed Skull 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Skull • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed skull t1254"", ""recipe-flawed-skull-t1254""]"	1	1	"[""diablo2-io""]"	1	{}
+0c232cd6-d874-5ec7-8d85-dbd8e25e28c1	Recipe	recipe-flawed-topaz-t66	"Recipe: Flawed Topaz 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Flawed Topaz • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe flawed topaz t66"", ""recipe-flawed-topaz-t66""]"	1	1	"[""diablo2-io""]"	1	{}
+3baea3b5-bbf3-57a9-bc21-97636b051389	Recipe	recipe-full-rejuvenation-potion-t73	"Recipe: Full Rejuvenation Potion 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Full Rejuvenation Potion • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe full rejuvenation potion t73"", ""recipe-full-rejuvenation-potion-t73""]"	1	1	"[""diablo2-io""]"	1	{}
+6a3839cd-351f-584c-a3b8-6c5e4d2ba5d3	Recipe	recipe-fully-repaired-weapon-t85	"Recipe: Fully repaired weapon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Fully repaired weapon • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe fully repaired weapon t85"", ""recipe-fully-repaired-weapon-t85""]"	1	1	"[""diablo2-io""]"	1	{}
+d3edb2b2-2ae5-5b39-8d21-4560e262d3e1	Recipe	recipe-lum-t75	"Recipe: Lum 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Lum • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe lum t75"", ""recipe-lum-t75""]"	1	1	"[""diablo2-io""]"	1	{}
+893cf254-8ef6-5ddf-bd73-c7b11689b309	Recipe	recipe-ort-t27	"Recipe: Ort 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Ort • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe ort t27"", ""recipe-ort-t27""]"	1	1	"[""diablo2-io""]"	1	{}
+fcdeacd5-51a4-5257-b224-cf3347757910	Recipe	recipe-perfect-sapphire-t70	"Recipe: Perfect Sapphire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Perfect Sapphire • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe perfect sapphire t70"", ""recipe-perfect-sapphire-t70""]"	1	1	"[""diablo2-io""]"	1	{}
+5ee8b7b9-d664-5ef2-8948-13460cee4390	Recipe	recipe-portal-to-the-secret-cow-level-t6	"Recipe: Portal to the Secret Cow Level 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Portal to the Secret Cow Level • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe portal to the secret cow level t6"", ""recipe-portal-to-the-secret-cow-level-t6""]"	1	1	"[""diablo2-io""]"	1	{}
+53520d21-8460-5bb8-bc42-bafa5b3ef043	Recipe	recipe-tal-t25	"Recipe: Tal 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Tal • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe tal t25"", ""recipe-tal-t25""]"	1	1	"[""diablo2-io""]"	1	{}
+9cdf4805-2a9d-531a-b949-f223d564fd94	Recipe	recipe-thul-t26	"Recipe: Thul 
+        
+        
+        
+                                  • Diablo 2 Resurrected Cube Recipe
+                          
+        
+         • diablo2.io"	"[""Recipe: Thul • Diablo 2 Resurrected Cube Recipe • diablo2.io"", ""recipe thul t26"", ""recipe-thul-t26""]"	1	1	"[""diablo2-io""]"	1	{}
+f77730b1-4cf4-526a-8896-7a54f29014e0	Recipe	recipe-add-sockets-to-normal-weapon-t3314.html	recipe-add-sockets-to-normal-weapon-t3314.html	"[""recipe add sockets to normal weapon t3314"", ""recipe-add-sockets-to-normal-weapon-t3314.html""]"	0	0	[]	0	{}
+aa2561fb-4e32-5eee-99a0-b69bc57a2678	Recipe	recipe-fully-repaired-armor-t3303.html	recipe-fully-repaired-armor-t3303.html	"[""recipe fully repaired armor t3303"", ""recipe-fully-repaired-armor-t3303.html""]"	0	0	[]	0	{}
+b61a49ff-acab-5683-9ffd-b9eefd264dbe	Recipe	recipe-portal-to-colossal-summit-t1674861.html	recipe-portal-to-colossal-summit-t1674861.html	"[""recipe portal to colossal summit t1674861"", ""recipe-portal-to-colossal-summit-t1674861.html""]"	0	0	[]	0	{}
+eb03eb7f-099e-5130-ae71-91bd118695b3	Recipe	recipe-portal-to-the-secret-cow-level-t6.html	recipe-portal-to-the-secret-cow-level-t6.html	"[""recipe portal to the secret cow level t6"", ""recipe-portal-to-the-secret-cow-level-t6.html""]"	0	0	[]	0	{}
+e29178f1-2ef6-5e9d-8d7a-a566cde8928c	RecipePage	Horadric_Cube	Horadric Cube - Diablo 2 Wiki	"[""Horadric Cube"", ""Horadric Cube - Diablo 2 Wiki"", ""Horadric_Cube""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+5a131645-f8ba-58b2-a7e4-59ec9c35d08e	ReferenceFAQ	V1.10_FAQ	V1.10 FAQ - Diablo 2 Wiki	"[""V1.10 FAQ"", ""V1.10 FAQ - Diablo 2 Wiki"", ""V1.10_FAQ""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+f5d2ac00-59dc-59e6-9cdb-a26a00affad2	ReferenceGuide	1108	8pp牛场炸牛KC符文rune掉率数据分析 - 91D2暗黑破坏神2资料网	"[""1108"", ""8pp牛场炸牛KC符文rune掉率数据分析 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+74285653-c25c-5e76-8502-1b871940f851	ReferenceGuide	1125	D2各个章节任务详解，以及有价值任务的总结 - 91D2暗黑破坏神2资料网	"[""1125"", ""D2各个章节任务详解，以及有价值任务的总结 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+65720623-acbe-5209-8939-427d9e0e4c99	ReferenceGuide	1305	MF值的拐点曲线,多少mf值最佳（数据验证结论） - 91D2暗黑破坏神2资料网	"[""1305"", ""MF值的拐点曲线,多少mf值最佳（数据验证结论） - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+91994069-b71b-5b79-879f-ad8d8dd88b09	ReferenceGuide	1115	关于格挡和物免的意义 - 91D2暗黑破坏神2资料网	"[""1115"", ""关于格挡和物免的意义 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+4105fc1b-7c39-5d4e-82df-1605cf332c0a	ReferenceGuide	1285	吸收技能生效顺序测试报告（能量护盾、飓风装甲、白骨装甲） - 91D2暗黑破坏神2资料网	"[""1285"", ""吸收技能生效顺序测试报告（能量护盾、飓风装甲、白骨装甲） - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+8ae46b56-303e-5d93-8bc7-802c088e55f9	ReferenceGuide	1109	对暗黑2中def防御值的详细解读和说明 - 91D2暗黑破坏神2资料网	"[""1109"", ""对暗黑2中def防御值的详细解读和说明 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+ba870508-6be8-5474-96f0-d9114fea906f	ReferenceGuide	1291	打击恢复fhr与格挡测试，附结论 - 91D2暗黑破坏神2资料网	"[""1291"", ""打击恢复fhr与格挡测试，附结论 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+362c70e8-b682-50ab-a522-4a92cdb46706	ReferenceGuide	1306	讨论一下mf值对fz物品成色的影响 - 91D2暗黑破坏神2资料网	"[""1306"", ""讨论一下mf值对fz物品成色的影响 - 91D2暗黑破坏神2资料网""]"	1	1	"[""91d2""]"	1	{}
+0f045d71-7b02-5416-a213-98a37644bd5a	ReferenceManual	Diablo_II_Manual	Diablo II Manual - Diablo 2 Wiki	"[""Diablo II Manual"", ""Diablo II Manual - Diablo 2 Wiki"", ""Diablo_II_Manual""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+2f3531e8-0788-59c5-9511-edc190d4dc14	Runeword	ancients-pledge-t46	"Ancients' Pledge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Ancients' Pledge • Diablo 2 Resurrected Runeword • diablo2.io"", ""ancients pledge t46"", ""ancients-pledge-t46""]"	1	1	"[""diablo2-io""]"	1	{}
+e75989d5-5161-565d-827b-6d07463fd6b0	Runeword	black-t1182	"Black 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Black • Diablo 2 Resurrected Runeword • diablo2.io"", ""black t1182"", ""black-t1182""]"	1	1	"[""diablo2-io""]"	1	{}
+e0577cf7-ef8f-507c-8f63-a48cc8b004ef	Runeword	enigma-t42	"Enigma 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Enigma • Diablo 2 Resurrected Runeword • diablo2.io"", ""enigma t42"", ""enigma-t42""]"	1	1	"[""diablo2-io""]"	1	{}
+140d42c8-1a4c-5f71-bc9c-8a54579b21a3	Runeword	fury-t1183	"Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Fury • Diablo 2 Resurrected Runeword • diablo2.io"", ""fury t1183"", ""fury-t1183""]"	1	1	"[""diablo2-io""]"	1	{}
+78ca7f3a-15c5-58cc-844d-20af50d3c84c	Runeword	holy-thunder-t1184	"Holy Thunder 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Holy Thunder • Diablo 2 Resurrected Runeword • diablo2.io"", ""holy thunder t1184"", ""holy-thunder-t1184""]"	1	1	"[""diablo2-io""]"	1	{}
+62f40959-51d6-58a7-8454-3dd10b6e5417	Runeword	honor-t1185	"Honor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Honor • Diablo 2 Resurrected Runeword • diablo2.io"", ""honor t1185"", ""honor-t1185""]"	1	1	"[""diablo2-io""]"	1	{}
+0404c949-8ca8-5085-a95f-7a6f56df88e2	Runeword	king-s-grace-t1186	"King's Grace 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""King's Grace • Diablo 2 Resurrected Runeword • diablo2.io"", ""king s grace t1186"", ""king-s-grace-t1186""]"	1	1	"[""diablo2-io""]"	1	{}
+d7996653-c55a-5a8c-9d88-ebc91591bd18	Runeword	leaf-t57	"Leaf 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Leaf • Diablo 2 Resurrected Runeword • diablo2.io"", ""leaf t57"", ""leaf-t57""]"	1	1	"[""diablo2-io""]"	1	{}
+a65245b3-583b-5f53-a01d-79a48ffa4f3f	Runeword	lionheart-t1187	"Lionheart 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Lionheart • Diablo 2 Resurrected Runeword • diablo2.io"", ""lionheart t1187"", ""lionheart-t1187""]"	1	1	"[""diablo2-io""]"	1	{}
+5e824175-10ab-5306-a02f-99b9220a3190	Runeword	lore-t1188	"Lore 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Lore • Diablo 2 Resurrected Runeword • diablo2.io"", ""lore t1188"", ""lore-t1188""]"	1	1	"[""diablo2-io""]"	1	{}
+ca796944-a1ea-5ccc-b651-99efe38e733d	Runeword	malice-t1189	"Malice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Malice • Diablo 2 Resurrected Runeword • diablo2.io"", ""malice t1189"", ""malice-t1189""]"	1	1	"[""diablo2-io""]"	1	{}
+84138d6c-be66-5d57-bc80-56288fd173d7	Runeword	melody-t1190	"Melody 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Melody • Diablo 2 Resurrected Runeword • diablo2.io"", ""melody t1190"", ""melody-t1190""]"	1	1	"[""diablo2-io""]"	1	{}
+bd936382-3c19-529b-bd4f-ca6be323b0a1	Runeword	memory-t1191	"Memory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Memory • Diablo 2 Resurrected Runeword • diablo2.io"", ""memory t1191"", ""memory-t1191""]"	1	1	"[""diablo2-io""]"	1	{}
+4147a071-91b1-55a4-96a8-dbfaaaad0946	Runeword	nadir-t1192	"Nadir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Nadir • Diablo 2 Resurrected Runeword • diablo2.io"", ""nadir t1192"", ""nadir-t1192""]"	1	1	"[""diablo2-io""]"	1	{}
+3969ba9a-419a-53fa-9231-d6d4ba33d201	Runeword	radiance-t1193	"Radiance 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Radiance • Diablo 2 Resurrected Runeword • diablo2.io"", ""radiance t1193"", ""radiance-t1193""]"	1	1	"[""diablo2-io""]"	1	{}
+054f7d51-a6fe-5d05-8ee4-d93642c5c8f8	Runeword	rhyme-t1194	"Rhyme 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Rhyme • Diablo 2 Resurrected Runeword • diablo2.io"", ""rhyme t1194"", ""rhyme-t1194""]"	1	1	"[""diablo2-io""]"	1	{}
+52557100-aa5f-55b2-97ed-36321fbeb01f	Runeword	silence-t55	"Silence 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Silence • Diablo 2 Resurrected Runeword • diablo2.io"", ""silence t55"", ""silence-t55""]"	1	1	"[""diablo2-io""]"	1	{}
+7ad787eb-9e16-5617-a8dc-d4e79b22d0f5	Runeword	smoke-t1195	"Smoke 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Smoke • Diablo 2 Resurrected Runeword • diablo2.io"", ""smoke t1195"", ""smoke-t1195""]"	1	1	"[""diablo2-io""]"	1	{}
+96d0566a-c3f7-518d-b49e-cb8e57328591	Runeword	spirit-t3	"Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Spirit • Diablo 2 Resurrected Runeword • diablo2.io"", ""spirit t3"", ""spirit-t3""]"	1	1	"[""diablo2-io""]"	1	{}
+813fdd12-6b66-583f-a8b2-e55379c52a2f	Runeword	stealth-t1196	"Stealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Stealth • Diablo 2 Resurrected Runeword • diablo2.io"", ""stealth t1196"", ""stealth-t1196""]"	1	1	"[""diablo2-io""]"	1	{}
+ddab279a-ee71-5688-8be0-423c47d54aab	Runeword	steel-t1197	"Steel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Steel • Diablo 2 Resurrected Runeword • diablo2.io"", ""steel t1197"", ""steel-t1197""]"	1	1	"[""diablo2-io""]"	1	{}
+78b7fa9f-bd8d-5425-84b4-74ba660bec26	Runeword	strength-t56	"Strength 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Strength • Diablo 2 Resurrected Runeword • diablo2.io"", ""strength t56"", ""strength-t56""]"	1	1	"[""diablo2-io""]"	1	{}
+c957ea04-5ad7-5cd4-b35c-98b38e74feb0	Runeword	venom-t1198	"Venom 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Venom • Diablo 2 Resurrected Runeword • diablo2.io"", ""venom t1198"", ""venom-t1198""]"	1	1	"[""diablo2-io""]"	1	{}
+135d9f23-41ea-5863-8f36-82c5b90f26b7	Runeword	wealth-t1199	"Wealth 
+        
+        
+        
+                                  • Diablo 2 Resurrected Runeword
+                          
+        
+         • diablo2.io"	"[""Wealth • Diablo 2 Resurrected Runeword • diablo2.io"", ""wealth t1199"", ""wealth-t1199""]"	1	1	"[""diablo2-io""]"	1	{}
+ffdc3618-36d4-5465-977a-f89280ad7f65	Runeword	harmony-t1234.html	harmony-t1234.html	"[""harmony t1234"", ""harmony-t1234.html""]"	0	0	[]	0	{}
+2c351183-b897-527b-83af-7a143586fa72	Runeword	mania-t1674022.html	mania-t1674022.html	"[""mania t1674022"", ""mania-t1674022.html""]"	0	0	[]	0	{}
+045140d7-60fa-534d-8f9b-650804693d10	Runeword	rift-t1244.html	rift-t1244.html	"[""rift t1244"", ""rift-t1244.html""]"	0	0	[]	0	{}
+e8e7966c-ce62-5d6f-9035-a95305c27b0d	Runeword	ritual-t1673938.html	ritual-t1673938.html	"[""ritual t1673938"", ""ritual-t1673938.html""]"	0	0	[]	0	{}
+a0d8679b-e7d7-584a-aac1-0cb384fa61d6	Runeword	spirit-t3.html	spirit-t3.html	"[""spirit t3"", ""spirit-t3.html""]"	0	0	[]	0	{}
+63cd158f-46ff-5f05-85c7-6da500b5e400	RunewordIndex	Runewords	Runewords - Diablo 2 Wiki	"[""Runewords"", ""Runewords - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+467aa0e8-2576-5ac6-8b73-3993a2df9fce	SetItem	aldur-s-advance-t1037	"Aldur's Advance 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Aldur's Advance • Diablo 2 Resurrected Set Item • diablo2.io"", ""aldur s advance t1037"", ""aldur-s-advance-t1037""]"	1	1	"[""diablo2-io""]"	1	{}
+294bd3bd-c42b-5fbb-ba34-f6fc4921765e	SetItem	aldur-s-deception-t1036	"Aldur's Deception 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Aldur's Deception • Diablo 2 Resurrected Set Item • diablo2.io"", ""aldur s deception t1036"", ""aldur-s-deception-t1036""]"	1	1	"[""diablo2-io""]"	1	{}
+c7999e4b-ffa3-5dec-a751-da1ab29f8619	SetItem	aldur-s-rhythm-t1034	"Aldur's Rhythm 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Aldur's Rhythm • Diablo 2 Resurrected Set Item • diablo2.io"", ""aldur s rhythm t1034"", ""aldur-s-rhythm-t1034""]"	1	1	"[""diablo2-io""]"	1	{}
+149c4029-ef89-5d96-af1e-c75f7f3f7f76	SetItem	aldur-s-stony-gaze-t1035	"Aldur's Stony Gaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Aldur's Stony Gaze • Diablo 2 Resurrected Set Item • diablo2.io"", ""aldur s stony gaze t1035"", ""aldur-s-stony-gaze-t1035""]"	1	1	"[""diablo2-io""]"	1	{}
+6295482b-af64-595b-a94d-8794546816e7	SetItem	aldur-s-watchtower-t1033	"Aldur's Watchtower 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io"	"[""Aldur's Watchtower • Diablo 2 Resurrected Full Set • diablo2.io"", ""aldur s watchtower t1033"", ""aldur-s-watchtower-t1033""]"	1	1	"[""diablo2-io""]"	1	{}
+55a3af85-1105-5bba-99f8-91a22a6c11cf	SetItem	angelic-halo-t1040	"Angelic Halo 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Angelic Halo • Diablo 2 Resurrected Set Item • diablo2.io"", ""angelic halo t1040"", ""angelic-halo-t1040""]"	1	1	"[""diablo2-io""]"	1	{}
+9e1e1e2d-fd69-55d2-aa19-52d617e591dd	SetItem	angelic-mantle-t1041	"Angelic Mantle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Angelic Mantle • Diablo 2 Resurrected Set Item • diablo2.io"", ""angelic mantle t1041"", ""angelic-mantle-t1041""]"	1	1	"[""diablo2-io""]"	1	{}
+5b397da9-4bd7-56c1-9e95-2c33df5fdb8e	SetItem	angelic-raiment-t1038	"Angelic Raiment 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io"	"[""Angelic Raiment • Diablo 2 Resurrected Full Set • diablo2.io"", ""angelic raiment t1038"", ""angelic-raiment-t1038""]"	1	1	"[""diablo2-io""]"	1	{}
+b6a74b73-8d10-5bf9-86e7-ed5762e749a5	SetItem	angelic-sickle-t1042	"Angelic Sickle 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Angelic Sickle • Diablo 2 Resurrected Set Item • diablo2.io"", ""angelic sickle t1042"", ""angelic-sickle-t1042""]"	1	1	"[""diablo2-io""]"	1	{}
+5c1b57e7-ebff-5667-97f2-13c0543ac1ad	SetItem	angelic-wings-t1039	"Angelic Wings 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Angelic Wings • Diablo 2 Resurrected Set Item • diablo2.io"", ""angelic wings t1039"", ""angelic-wings-t1039""]"	1	1	"[""diablo2-io""]"	1	{}
+aba675c4-9135-5da4-9233-4f5b69b3b030	SetItem	arcanna-s-flesh-t1046	"Arcanna's Flesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Arcanna's Flesh • Diablo 2 Resurrected Set Item • diablo2.io"", ""arcanna s flesh t1046"", ""arcanna-s-flesh-t1046""]"	1	1	"[""diablo2-io""]"	1	{}
+ee429a8a-0d95-5535-b3ea-82d40ad160a2	SetItem	arcanna-s-head-t1045	"Arcanna's Head 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Arcanna's Head • Diablo 2 Resurrected Set Item • diablo2.io"", ""arcanna s head t1045"", ""arcanna-s-head-t1045""]"	1	1	"[""diablo2-io""]"	1	{}
+5f493c1a-7f87-596a-81fc-94c1ad21d604	SetItem	arcanna-s-sign-t1044	"Arcanna's Sign 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Arcanna's Sign • Diablo 2 Resurrected Set Item • diablo2.io"", ""arcanna s sign t1044"", ""arcanna-s-sign-t1044""]"	1	1	"[""diablo2-io""]"	1	{}
+af96d368-4d50-5a6b-9d78-937578837fc6	SetItem	arcanna-s-tricks-t1043	"Arcanna's Tricks 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io"	"[""Arcanna's Tricks • Diablo 2 Resurrected Full Set • diablo2.io"", ""arcanna s tricks t1043"", ""arcanna-s-tricks-t1043""]"	1	1	"[""diablo2-io""]"	1	{}
+1e66e68c-ab62-596f-a361-8101415b378c	SetItem	cathan-s-mesh-t33	"Cathan's Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Cathan's Mesh • Diablo 2 Resurrected Set Item • diablo2.io"", ""cathan s mesh t33"", ""cathan-s-mesh-t33""]"	1	1	"[""diablo2-io""]"	1	{}
+7dcdd374-e0d3-544c-9431-7f9f91f4bee2	SetItem	cathan-s-rule-t30	"Cathan's Rule 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Cathan's Rule • Diablo 2 Resurrected Set Item • diablo2.io"", ""cathan s rule t30"", ""cathan-s-rule-t30""]"	1	1	"[""diablo2-io""]"	1	{}
+d5ea2c0c-368b-5927-9443-a5a109fa3517	SetItem	cathan-s-seal-t31	"Cathan's Seal 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Cathan's Seal • Diablo 2 Resurrected Set Item • diablo2.io"", ""cathan s seal t31"", ""cathan-s-seal-t31""]"	1	1	"[""diablo2-io""]"	1	{}
+47f76a15-c81d-52a0-a8bb-2f72e4d71693	SetItem	cathan-s-sigil-t32	"Cathan's Sigil 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Cathan's Sigil • Diablo 2 Resurrected Set Item • diablo2.io"", ""cathan s sigil t32"", ""cathan-s-sigil-t32""]"	1	1	"[""diablo2-io""]"	1	{}
+2e5286dc-f75b-5cb6-8d1e-1571ccfd8e6b	SetItem	cathan-s-traps-t29	"Cathan's Traps 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io"	"[""Cathan's Traps • Diablo 2 Resurrected Full Set • diablo2.io"", ""cathan s traps t29"", ""cathan-s-traps-t29""]"	1	1	"[""diablo2-io""]"	1	{}
+c03d72d9-08f1-595d-8d53-47d2aa703e68	SetItem	cathan-s-visage-t4	"Cathan's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Cathan's Visage • Diablo 2 Resurrected Set Item • diablo2.io"", ""cathan s visage t4"", ""cathan-s-visage-t4""]"	1	1	"[""diablo2-io""]"	1	{}
+d8aab8cb-a3a6-514a-84d5-eb6dfed0e9fa	SetItem	immortal-king-t91	"Immortal King 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Full Set
+                                          
+        
+         • diablo2.io"	"[""Immortal King • Diablo 2 Resurrected Full Set • diablo2.io"", ""immortal king t91"", ""immortal-king-t91""]"	1	1	"[""diablo2-io""]"	1	{}
+667fd876-9094-5146-8095-bd2f591df81b	SetItem	immortal-king-s-detail-t59	"Immortal King's Detail 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Immortal King's Detail • Diablo 2 Resurrected Set Item • diablo2.io"", ""immortal king s detail t59"", ""immortal-king-s-detail-t59""]"	1	1	"[""diablo2-io""]"	1	{}
+17dfefdf-12a7-553e-a173-c5390d7c9342	SetItem	immortal-king-s-stone-crusher-t58	"Immortal King's Stone Crusher 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Immortal King's Stone Crusher • Diablo 2 Resurrected Set Item • diablo2.io"", ""immortal king s stone crusher t58"", ""immortal-king-s-stone-crusher-t58""]"	1	1	"[""diablo2-io""]"	1	{}
+3883ebf1-7be3-5dc5-9915-cdb15e52c7c2	SetItem	sander-s-superstition-t60	"Sander's Superstition 
+        
+        
+        
+                                  • Diablo 2 Resurrected 
+                                  Set Item
+                                          
+        
+         • diablo2.io"	"[""Sander's Superstition • Diablo 2 Resurrected Set Item • diablo2.io"", ""sander s superstition t60"", ""sander-s-superstition-t60""]"	1	1	"[""diablo2-io""]"	1	{}
+4bdca866-9d03-56e1-89a8-45adfe181460	SetItem	bane-s-authority-t1673916.html	bane-s-authority-t1673916.html	"[""bane s authority t1673916"", ""bane-s-authority-t1673916.html""]"	0	0	[]	0	{}
+41072d18-8ddc-5fb5-b4d9-fae32f194cf8	SetItem	bane-s-garments-t1673910.html	bane-s-garments-t1673910.html	"[""bane s garments t1673910"", ""bane-s-garments-t1673910.html""]"	0	0	[]	0	{}
+1c51abdd-8053-5858-b8e9-55d833945969	SetItem	bane-s-wraithskin-t1673915.html	bane-s-wraithskin-t1673915.html	"[""bane s wraithskin t1673915"", ""bane-s-wraithskin-t1673915.html""]"	0	0	[]	0	{}
+aa0a0b9f-6f68-5f24-b272-4b82d4dadfda	SetItem	cathan-s-visage-t4.html	cathan-s-visage-t4.html	"[""cathan s visage t4"", ""cathan-s-visage-t4.html""]"	0	0	[]	0	{}
+d75cccbf-3bf4-5699-a584-bad30dc6a467	SetItem	guillaume-s-face-t1135.html	guillaume-s-face-t1135.html	"[""guillaume s face t1135"", ""guillaume-s-face-t1135.html""]"	0	0	[]	0	{}
+7eb8396d-9ee5-5c59-9a8d-6bb0d2cf10ca	SetItem	horazon-s-countenance-t1673917.html	horazon-s-countenance-t1673917.html	"[""horazon s countenance t1673917"", ""horazon-s-countenance-t1673917.html""]"	0	0	[]	0	{}
+2dce9e61-d871-574e-b5d2-baf852cd1b91	SetItem	horazon-s-dominion-t1673918.html	horazon-s-dominion-t1673918.html	"[""horazon s dominion t1673918"", ""horazon-s-dominion-t1673918.html""]"	0	0	[]	0	{}
+1d95a323-4a7c-5dcf-9db4-d8548b6c6239	SetItem	horazon-s-hold-t1673919.html	horazon-s-hold-t1673919.html	"[""horazon s hold t1673919"", ""horazon-s-hold-t1673919.html""]"	0	0	[]	0	{}
+9c91a8a5-5dee-5110-ac1a-d79642f1572b	SetItem	horazon-s-legacy-t1673920.html	horazon-s-legacy-t1673920.html	"[""horazon s legacy t1673920"", ""horazon-s-legacy-t1673920.html""]"	0	0	[]	0	{}
+dcce649f-d66f-5381-b1ff-d89903bab0c9	SetItem	horazon-s-secrets-t1673921.html	horazon-s-secrets-t1673921.html	"[""horazon s secrets t1673921"", ""horazon-s-secrets-t1673921.html""]"	0	0	[]	0	{}
+b3cdc5ea-b0c9-5d4b-98a3-1384b5c9bcd1	SetItem	horazon-s-splendor-t1673911.html	horazon-s-splendor-t1673911.html	"[""horazon s splendor t1673911"", ""horazon-s-splendor-t1673911.html""]"	0	0	[]	0	{}
+88463e65-7e24-5a0f-b152-d6420ea18cd9	SetItem	orphan-s-call-t1133.html	orphan-s-call-t1133.html	"[""orphan s call t1133"", ""orphan-s-call-t1133.html""]"	0	0	[]	0	{}
+be20d1c4-8223-5b53-8a3a-1764fbc3a17f	Skill	amplify-damage-t3990	"Amplify Damage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Amplify Damage • Diablo 2 Resurrected Skill • diablo2.io"", ""amplify damage t3990"", ""amplify-damage-t3990""]"	1	1	"[""diablo2-io""]"	1	{}
+aa73b59e-a6e3-53da-ab85-9e93464e2ac1	Skill	arctic-blast-t3991	"Arctic Blast 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Arctic Blast • Diablo 2 Resurrected Skill • diablo2.io"", ""arctic blast t3991"", ""arctic-blast-t3991""]"	1	1	"[""diablo2-io""]"	1	{}
+39b8d52c-0639-596b-a4e7-7445d8dd09b2	Skill	armageddon-t3992	"Armageddon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Armageddon • Diablo 2 Resurrected Skill • diablo2.io"", ""armageddon t3992"", ""armageddon-t3992""]"	1	1	"[""diablo2-io""]"	1	{}
+043d6d63-051d-5b88-9790-b40db64d8438	Skill	attract-t3993	"Attract 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Attract • Diablo 2 Resurrected Skill • diablo2.io"", ""attract t3993"", ""attract-t3993""]"	1	1	"[""diablo2-io""]"	1	{}
+e2e11bfa-c881-52d0-b850-520ab0920d09	Skill	avoid-t3994	"Avoid 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Avoid • Diablo 2 Resurrected Skill • diablo2.io"", ""avoid t3994"", ""avoid-t3994""]"	1	1	"[""diablo2-io""]"	1	{}
+101738c1-9538-5d1a-853c-88b0c19bd962	Skill	axe-mastery-t3995	"Axe Mastery 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Axe Mastery • Diablo 2 Resurrected Skill • diablo2.io"", ""axe mastery t3995"", ""axe-mastery-t3995""]"	1	1	"[""diablo2-io""]"	1	{}
+205e6a1b-fa60-57f2-be64-90142b4372fe	Skill	bash-t3996	"Bash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Bash • Diablo 2 Resurrected Skill • diablo2.io"", ""bash t3996"", ""bash-t3996""]"	1	1	"[""diablo2-io""]"	1	{}
+ceba455e-cb6c-5ed5-9578-fa2b6cbefed1	Skill	battle-command-t3997	"Battle Command 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Battle Command • Diablo 2 Resurrected Skill • diablo2.io"", ""battle command t3997"", ""battle-command-t3997""]"	1	1	"[""diablo2-io""]"	1	{}
+697ad3da-65f1-5d1e-a156-4df7602fdacf	Skill	battle-cry-t3998	"Battle Cry 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Battle Cry • Diablo 2 Resurrected Skill • diablo2.io"", ""battle cry t3998"", ""battle-cry-t3998""]"	1	1	"[""diablo2-io""]"	1	{}
+a4fd2f31-1f4e-54ce-8106-f7686cddd08c	Skill	battle-orders-t3999	"Battle Orders 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Battle Orders • Diablo 2 Resurrected Skill • diablo2.io"", ""battle orders t3999"", ""battle-orders-t3999""]"	1	1	"[""diablo2-io""]"	1	{}
+49f5823f-afc4-5202-b8a3-8c2754743c93	Skill	berserk-t4000	"Berserk 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Berserk • Diablo 2 Resurrected Skill • diablo2.io"", ""berserk t4000"", ""berserk-t4000""]"	1	1	"[""diablo2-io""]"	1	{}
+b8bb28e8-841e-5a5b-a74e-387d76e25cb2	Skill	blade-fury-t4001	"Blade Fury 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blade Fury • Diablo 2 Resurrected Skill • diablo2.io"", ""blade fury t4001"", ""blade-fury-t4001""]"	1	1	"[""diablo2-io""]"	1	{}
+ab22ecfd-cfbf-5713-a721-881055c6e8d3	Skill	blade-sentinel-t4002	"Blade Sentinel 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blade Sentinel • Diablo 2 Resurrected Skill • diablo2.io"", ""blade sentinel t4002"", ""blade-sentinel-t4002""]"	1	1	"[""diablo2-io""]"	1	{}
+5e72fd65-77bc-5d4d-ab86-6360b014fe01	Skill	blade-shield-t4003	"Blade Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blade Shield • Diablo 2 Resurrected Skill • diablo2.io"", ""blade shield t4003"", ""blade-shield-t4003""]"	1	1	"[""diablo2-io""]"	1	{}
+37478065-4b3d-5231-86cd-03b478a5772b	Skill	blades-of-ice-t4004	"Blades of Ice 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blades of Ice • Diablo 2 Resurrected Skill • diablo2.io"", ""blades of ice t4004"", ""blades-of-ice-t4004""]"	1	1	"[""diablo2-io""]"	1	{}
+fcc5a42f-cc9a-5420-97e1-98f229256dde	Skill	blaze-t4005	"Blaze 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blaze • Diablo 2 Resurrected Skill • diablo2.io"", ""blaze t4005"", ""blaze-t4005""]"	1	1	"[""diablo2-io""]"	1	{}
+79b1b2a1-b3f9-5f0d-a9c1-d2a33c8e8f6e	Skill	blessed-aim-t4006	"Blessed Aim 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blessed Aim • Diablo 2 Resurrected Skill • diablo2.io"", ""blessed aim t4006"", ""blessed-aim-t4006""]"	1	1	"[""diablo2-io""]"	1	{}
+784a62f9-00d8-5f3c-8072-e06a52fa23bf	Skill	blessed-hammer-t4007	"Blessed Hammer 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blessed Hammer • Diablo 2 Resurrected Skill • diablo2.io"", ""blessed hammer t4007"", ""blessed-hammer-t4007""]"	1	1	"[""diablo2-io""]"	1	{}
+bff1e5f0-5093-5175-b789-efa91c07f682	Skill	blizzard-t9	"Blizzard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blizzard • Diablo 2 Resurrected Skill • diablo2.io"", ""blizzard t9"", ""blizzard-t9""]"	1	1	"[""diablo2-io""]"	1	{}
+b7353180-bb6f-50ed-b21f-bf8d985e05ce	Skill	blood-golem-t4008	"Blood Golem 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Blood Golem • Diablo 2 Resurrected Skill • diablo2.io"", ""blood golem t4008"", ""blood-golem-t4008""]"	1	1	"[""diablo2-io""]"	1	{}
+0133ee17-ea01-5890-b24d-03a0fa889053	Skill	bone-prison-t4010	"Bone Prison 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Bone Prison • Diablo 2 Resurrected Skill • diablo2.io"", ""bone prison t4010"", ""bone-prison-t4010""]"	1	1	"[""diablo2-io""]"	1	{}
+0fa24911-5c3d-5aad-b7ca-5ec5014b43bc	Skill	bone-spear-t4011	"Bone Spear 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Bone Spear • Diablo 2 Resurrected Skill • diablo2.io"", ""bone spear t4011"", ""bone-spear-t4011""]"	1	1	"[""diablo2-io""]"	1	{}
+6c2ecd3a-c39d-5f98-9346-eefcb7e45590	Skill	bone-spirit-t4012	"Bone Spirit 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Bone Spirit • Diablo 2 Resurrected Skill • diablo2.io"", ""bone spirit t4012"", ""bone-spirit-t4012""]"	1	1	"[""diablo2-io""]"	1	{}
+a61cee5d-bd79-579b-8c80-f585ff4bdd4c	Skill	bone-wall-t4013	"Bone Wall 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Bone Wall • Diablo 2 Resurrected Skill • diablo2.io"", ""bone wall t4013"", ""bone-wall-t4013""]"	1	1	"[""diablo2-io""]"	1	{}
+08408a82-fa8e-5936-be77-7ced53479d6d	Skill	burst-of-speed-t4014	"Burst of Speed 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Burst of Speed • Diablo 2 Resurrected Skill • diablo2.io"", ""burst of speed t4014"", ""burst-of-speed-t4014""]"	1	1	"[""diablo2-io""]"	1	{}
+01c8cf8e-5ece-5c5a-8b42-b4797fee3777	Skill	carrion-vine-t4015	"Carrion Vine 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Carrion Vine • Diablo 2 Resurrected Skill • diablo2.io"", ""carrion vine t4015"", ""carrion-vine-t4015""]"	1	1	"[""diablo2-io""]"	1	{}
+89f8260e-442d-588e-91e1-369ea45dd61b	Skill	chain-lightning-t4016	"Chain Lightning 
+        
+        
+        
+                                  • Diablo 2 Resurrected Skill
+                          
+        
+         • diablo2.io"	"[""Chain Lightning • Diablo 2 Resurrected Skill • diablo2.io"", ""chain lightning t4016"", ""chain-lightning-t4016""]"	1	1	"[""diablo2-io""]"	1	{}
+b5103b69-d69e-5315-a718-86a339c1cc98	Skill	blade-warp-t1676822.html	blade-warp-t1676822.html	"[""blade warp t1676822"", ""blade-warp-t1676822.html""]"	0	0	[]	0	{}
+b16b43e9-eb39-508a-b0d9-881d9b39d128	Skill	blood-oath-t1674064.html	blood-oath-t1674064.html	"[""blood oath t1674064"", ""blood-oath-t1674064.html""]"	0	0	[]	0	{}
+cdc1c984-b512-56ff-888e-fc7b944dadeb	Skill	echoing-strike-t1676820.html	echoing-strike-t1676820.html	"[""echoing strike t1676820"", ""echoing-strike-t1676820.html""]"	0	0	[]	0	{}
+fb3c4e1f-4632-542b-bf1c-88d320b1454e	Skill	eldritch-blast-t1676824.html	eldritch-blast-t1676824.html	"[""eldritch blast t1676824"", ""eldritch-blast-t1676824.html""]"	0	0	[]	0	{}
+90461832-3d5a-5aa6-a10e-e022eb5a8dcd	Skill	enhanced-entropy-t1676856.html	enhanced-entropy-t1676856.html	"[""enhanced entropy t1676856"", ""enhanced-entropy-t1676856.html""]"	0	0	[]	0	{}
+130975ca-de2a-59b9-b561-00ab45dd7f24	Skill	hex-purge-t1676821.html	hex-purge-t1676821.html	"[""hex purge t1676821"", ""hex-purge-t1676821.html""]"	0	0	[]	0	{}
+a0596a2f-9b68-5ecc-b4f5-8bfe2a879fdd	Skill	levitation-mastery-t1676818.html	levitation-mastery-t1676818.html	"[""levitation mastery t1676818"", ""levitation-mastery-t1676818.html""]"	0	0	[]	0	{}
+e77020ab-7d66-58ac-8126-363c37866a61	Skill	miasma-chain-t1676851.html	miasma-chain-t1676851.html	"[""miasma chain t1676851"", ""miasma-chain-t1676851.html""]"	0	0	[]	0	{}
+8eac9292-4004-5f92-a315-8a6e53bbbdb2	Skill	mirrored-blades-t1676826.html	mirrored-blades-t1676826.html	"[""mirrored blades t1676826"", ""mirrored-blades-t1676826.html""]"	0	0	[]	0	{}
+d70fdc6a-b3df-5dfd-b96d-39a7ddb7d08f	Skill	psychic-ward-t1676823.html	psychic-ward-t1676823.html	"[""psychic ward t1676823"", ""psychic-ward-t1676823.html""]"	0	0	[]	0	{}
+c844a8dd-7e57-5cba-991d-3207a9c2c3bc	Skill	summon-goatman-t1674063.html	summon-goatman-t1674063.html	"[""summon goatman t1674063"", ""summon-goatman-t1674063.html""]"	0	0	[]	0	{}
+bf5476f9-f49d-591f-8885-1ea73ab0f9e2	Skill	summon-tainted-t1674066.html	summon-tainted-t1674066.html	"[""summon tainted t1674066"", ""summon-tainted-t1674066.html""]"	0	0	[]	0	{}
+f94d7e81-0bf2-52fc-9d30-b66f52477996	SkillPage	Necromancer_Poison_and_Bone	Necromancer Poison and Bone - Diablo 2 Wiki	"[""Necromancer Poison and Bone"", ""Necromancer Poison and Bone - Diablo 2 Wiki"", ""Necromancer_Poison_and_Bone""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+a81a530f-8bb5-5b21-a031-1e3c565f3f32	SkillPage	Necromancer_Skills	Necromancer Skills - Diablo 2 Wiki	"[""Necromancer Skills"", ""Necromancer Skills - Diablo 2 Wiki"", ""Necromancer_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+ce403805-babb-5ca2-a1de-95db5e5224c3	SkillPage	assassin-martialarts	The Arreat Summit - Assassin Martial Arts Skills	"[""The Arreat Summit - Assassin Martial Arts Skills"", ""assassin martialarts"", ""assassin-martialarts""]"	1	1	"[""arreat-summit""]"	1	{}
+4e664d4a-9d90-5dca-8d13-c40ea9e3696d	SkillPage	druid-elemental	The Arreat Summit - Druid: Elemental Skills	"[""The Arreat Summit - Druid: Elemental Skills"", ""druid elemental"", ""druid-elemental""]"	1	1	"[""arreat-summit""]"	1	{}
+cdfc66d4-86b9-576f-a845-3db9685bd107	SkillPage	alphaskills	The Arreat Summit - Skills: Alphabetical Skill Listing	"[""The Arreat Summit - Skills: Alphabetical Skill Listing"", ""alphaskills""]"	1	1	"[""arreat-summit""]"	1	{}
+9269fbdc-6e27-5641-b39c-785d148683d1	SkillPage	amazon-javelin	The Arreat Summit - Skills: Amazon Javelin and Spear Skills	"[""The Arreat Summit - Skills: Amazon Javelin and Spear Skills"", ""amazon javelin"", ""amazon-javelin""]"	1	1	"[""arreat-summit""]"	1	{}
+96ed25a4-14b6-5915-8d13-971723856b5c	SkillPage	barbarian-warcries	The Arreat Summit - Skills: Barbarian Warcries	"[""The Arreat Summit - Skills: Barbarian Warcries"", ""barbarian warcries"", ""barbarian-warcries""]"	1	1	"[""arreat-summit""]"	1	{}
+400a3f8c-0019-59a0-b947-4cb88ae00dac	SkillPage	basics	The Arreat Summit - Skills: Basic Skill Information	"[""The Arreat Summit - Skills: Basic Skill Information"", ""basics""]"	1	1	"[""arreat-summit""]"	1	{}
+8b7c2786-8fb6-5da9-bb60-f8c4861da281	SkillPage	castingdelays	The Arreat Summit - Skills: Basic Skill Information	"[""The Arreat Summit - Skills: Basic Skill Information"", ""castingdelays""]"	1	1	"[""arreat-summit""]"	1	{}
+40ceeb06-32dd-531c-9e8e-643700505f30	SkillPage	necromancer-summoning	The Arreat Summit - Skills: Necromancer Summoning Spells	"[""The Arreat Summit - Skills: Necromancer Summoning Spells"", ""necromancer summoning"", ""necromancer-summoning""]"	1	1	"[""arreat-summit""]"	1	{}
+0bedebad-320c-543f-bd9f-0154d622068d	SkillPage	paladin-defense	The Arreat Summit - Skills: Paladin Defensive Auras	"[""The Arreat Summit - Skills: Paladin Defensive Auras"", ""paladin defense"", ""paladin-defense""]"	1	1	"[""arreat-summit""]"	1	{}
+db8f9f80-a4dc-536d-80ab-a664a24af3b8	SkillPage	sorceress-cold	The Arreat Summit - Skills: Sorceress Cold Spells	"[""The Arreat Summit - Skills: Sorceress Cold Spells"", ""sorceress cold"", ""sorceress-cold""]"	1	1	"[""arreat-summit""]"	1	{}
+931dbe12-fe0e-572b-b117-f570160c0de0	SkillPage	amazon-javelin	amazon-javelin	"[""amazon javelin"", ""amazon-javelin""]"	0	0	[]	0	{}
+8e726b65-74e4-5f6e-8a82-ac70eda6f712	SkillPage	assassin-martialarts	assassin-martialarts	"[""assassin martialarts"", ""assassin-martialarts""]"	0	0	[]	0	{}
+5cc460ae-e757-51dc-922f-e58e39dda311	UniqueItem	alma-negra-t668	"Alma Negra 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Alma Negra • Diablo 2 Resurrected Unique Item • diablo2.io"", ""alma negra t668"", ""alma-negra-t668""]"	1	1	"[""diablo2-io""]"	1	{}
+9db7d94e-a1d6-59e1-95d9-0cda1d3f91e1	UniqueItem	andariel-s-visage-t669	"Andariel's Visage 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Andariel's Visage • Diablo 2 Resurrected Unique Item • diablo2.io"", ""andariel s visage t669"", ""andariel-s-visage-t669""]"	1	1	"[""diablo2-io""]"	1	{}
+9069051f-61c5-5685-8e5d-343423ad6c67	UniqueItem	annihilus-t670	"Annihilus 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Annihilus • Diablo 2 Resurrected Unique Item • diablo2.io"", ""annihilus t670"", ""annihilus-t670""]"	1	1	"[""diablo2-io""]"	1	{}
+5fe3ba4b-c673-5bf6-8bbb-a0bdf80ed17c	UniqueItem	arachnid-mesh-t671	"Arachnid Mesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Arachnid Mesh • Diablo 2 Resurrected Unique Item • diablo2.io"", ""arachnid mesh t671"", ""arachnid-mesh-t671""]"	1	1	"[""diablo2-io""]"	1	{}
+d6acccca-4f14-5b56-9902-7fee3ee05787	UniqueItem	arioc-s-needle-t672	"Arioc's Needle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Arioc's Needle • Diablo 2 Resurrected Unique Item • diablo2.io"", ""arioc s needle t672"", ""arioc-s-needle-t672""]"	1	1	"[""diablo2-io""]"	1	{}
+5c1e2f81-da0e-5910-8979-cba5b3066f68	UniqueItem	arkaine-s-valor-t673	"Arkaine's Valor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Arkaine's Valor • Diablo 2 Resurrected Unique Item • diablo2.io"", ""arkaine s valor t673"", ""arkaine-s-valor-t673""]"	1	1	"[""diablo2-io""]"	1	{}
+2c2274c2-8e9f-5594-980b-b2b72a9b778a	UniqueItem	arm-of-king-leoric-t674	"Arm of King Leoric 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Arm of King Leoric • Diablo 2 Resurrected Unique Item • diablo2.io"", ""arm of king leoric t674"", ""arm-of-king-leoric-t674""]"	1	1	"[""diablo2-io""]"	1	{}
+971588d9-2867-569a-b504-7b2f660bc2f1	UniqueItem	arreat-s-face-t675	"Arreat's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Arreat's Face • Diablo 2 Resurrected Unique Item • diablo2.io"", ""arreat s face t675"", ""arreat-s-face-t675""]"	1	1	"[""diablo2-io""]"	1	{}
+201f3cbb-7657-51a9-b532-44a2aaff7e0a	UniqueItem	astreon-s-iron-ward-t676	"Astreon's Iron Ward 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Astreon's Iron Ward • Diablo 2 Resurrected Unique Item • diablo2.io"", ""astreon s iron ward t676"", ""astreon-s-iron-ward-t676""]"	1	1	"[""diablo2-io""]"	1	{}
+8484bf0e-a3d2-5d6c-8914-82a74b354c1f	UniqueItem	athena-s-wrath-t677	"Athena's Wrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Athena's Wrath • Diablo 2 Resurrected Unique Item • diablo2.io"", ""athena s wrath t677"", ""athena-s-wrath-t677""]"	1	1	"[""diablo2-io""]"	1	{}
+8954917a-1d0a-5fc1-8681-4f185cd4a6d3	UniqueItem	atma-s-scarab-t678	"Atma's Scarab 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Atma's Scarab • Diablo 2 Resurrected Unique Item • diablo2.io"", ""atma s scarab t678"", ""atma-s-scarab-t678""]"	1	1	"[""diablo2-io""]"	1	{}
+698e4086-7c4f-5e30-8567-4ba18215240b	UniqueItem	atma-s-wail-t679	"Atma's Wail 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Atma's Wail • Diablo 2 Resurrected Unique Item • diablo2.io"", ""atma s wail t679"", ""atma-s-wail-t679""]"	1	1	"[""diablo2-io""]"	1	{}
+943bae91-019a-5fda-8be8-f34c8e10a9a4	UniqueItem	axe-of-fechmar-t680	"Axe of Fechmar 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Axe of Fechmar • Diablo 2 Resurrected Unique Item • diablo2.io"", ""axe of fechmar t680"", ""axe-of-fechmar-t680""]"	1	1	"[""diablo2-io""]"	1	{}
+4c413feb-c0c1-5991-b20f-f4748a294022	UniqueItem	azurewrath-t681	"Azurewrath 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Azurewrath • Diablo 2 Resurrected Unique Item • diablo2.io"", ""azurewrath t681"", ""azurewrath-t681""]"	1	1	"[""diablo2-io""]"	1	{}
+b6979d4b-c206-576b-a1be-ba10bdfd61d8	UniqueItem	baezil-s-vortex-t682	"Baezil's Vortex 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Baezil's Vortex • Diablo 2 Resurrected Unique Item • diablo2.io"", ""baezil s vortex t682"", ""baezil-s-vortex-t682""]"	1	1	"[""diablo2-io""]"	1	{}
+d0c3b8ba-2eac-54e7-8489-8b658f500b61	UniqueItem	bane-ash-t683	"Bane Ash 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bane Ash • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bane ash t683"", ""bane-ash-t683""]"	1	1	"[""diablo2-io""]"	1	{}
+67344eae-d8c5-5760-80ab-1429521f0274	UniqueItem	baranar-s-star-t684	"Baranar's Star 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Baranar's Star • Diablo 2 Resurrected Unique Item • diablo2.io"", ""baranar s star t684"", ""baranar-s-star-t684""]"	1	1	"[""diablo2-io""]"	1	{}
+d4d8ba63-70fb-5d58-bc5a-076fdd0ef02d	UniqueItem	bartuc-s-cut-throat-t685	"Bartuc's Cut-Throat 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bartuc's Cut-Throat • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bartuc s cut throat t685"", ""bartuc-s-cut-throat-t685""]"	1	1	"[""diablo2-io""]"	1	{}
+338a0ec4-8900-5481-80a4-38ef74f7e106	UniqueItem	biggin-s-bonnet-t686	"Biggin's Bonnet 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Biggin's Bonnet • Diablo 2 Resurrected Unique Item • diablo2.io"", ""biggin s bonnet t686"", ""biggin-s-bonnet-t686""]"	1	1	"[""diablo2-io""]"	1	{}
+f387fc56-570c-5846-9752-800f1faf8d1c	UniqueItem	bing-sz-wang-t687	"Bing Sz Wang 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bing Sz Wang • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bing sz wang t687"", ""bing-sz-wang-t687""]"	1	1	"[""diablo2-io""]"	1	{}
+075fc88e-2509-5add-a4c4-06d878a371a1	UniqueItem	black-hades-t688	"Black Hades 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Black Hades • Diablo 2 Resurrected Unique Item • diablo2.io"", ""black hades t688"", ""black-hades-t688""]"	1	1	"[""diablo2-io""]"	1	{}
+e1dec5ec-bb12-5354-86b2-0f393fe8fa1e	UniqueItem	blackbog-s-sharp-t689	"Blackbog's Sharp 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blackbog's Sharp • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blackbog s sharp t689"", ""blackbog-s-sharp-t689""]"	1	1	"[""diablo2-io""]"	1	{}
+bc959372-ee56-5b47-b25d-d1665baa8bf6	UniqueItem	blackhand-key-t690	"Blackhand Key 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blackhand Key • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blackhand key t690"", ""blackhand-key-t690""]"	1	1	"[""diablo2-io""]"	1	{}
+5f8c49dc-a07c-5dcf-bc09-c80632a8471c	UniqueItem	blackhorn-s-face-t691	"Blackhorn's Face 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blackhorn's Face • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blackhorn s face t691"", ""blackhorn-s-face-t691""]"	1	1	"[""diablo2-io""]"	1	{}
+f798fc25-67ee-5258-9c3b-4a89c30daaeb	UniqueItem	blackleach-blade-t692	"Blackleach Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blackleach Blade • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blackleach blade t692"", ""blackleach-blade-t692""]"	1	1	"[""diablo2-io""]"	1	{}
+be65c216-6cb3-587c-b2c4-4c4992217585	UniqueItem	blackoak-shield-t693	"Blackoak Shield 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blackoak Shield • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blackoak shield t693"", ""blackoak-shield-t693""]"	1	1	"[""diablo2-io""]"	1	{}
+f19e78d3-09da-534c-82df-3f0e36d88712	UniqueItem	blacktongue-t694	"Blacktongue 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blacktongue • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blacktongue t694"", ""blacktongue-t694""]"	1	1	"[""diablo2-io""]"	1	{}
+6b7b2104-fd12-5efe-b670-0d6056965609	UniqueItem	blade-of-ali-baba-t695	"Blade Of Ali Baba 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blade Of Ali Baba • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blade of ali baba t695"", ""blade-of-ali-baba-t695""]"	1	1	"[""diablo2-io""]"	1	{}
+c1144bb5-6c5e-5ad1-92f1-37136f1f34ef	UniqueItem	bladebone-t696	"Bladebone 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bladebone • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bladebone t696"", ""bladebone-t696""]"	1	1	"[""diablo2-io""]"	1	{}
+7729f48d-bd0b-5384-ac44-1e9f877a8c1c	UniqueItem	bladebuckle-t697	"Bladebuckle 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bladebuckle • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bladebuckle t697"", ""bladebuckle-t697""]"	1	1	"[""diablo2-io""]"	1	{}
+d87dd275-bc1d-5415-ad33-6fb7a6d89083	UniqueItem	blastbark-t698	"Blastbark 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blastbark • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blastbark t698"", ""blastbark-t698""]"	1	1	"[""diablo2-io""]"	1	{}
+dd85ea8b-c884-5cd9-8017-553b22e677ef	UniqueItem	blinkbat-s-form-t699	"Blinkbat's Form 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blinkbat's Form • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blinkbat s form t699"", ""blinkbat-s-form-t699""]"	1	1	"[""diablo2-io""]"	1	{}
+116da8d0-3275-5751-97b4-c97159e96e59	UniqueItem	blood-crescent-t700	"Blood Crescent 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blood Crescent • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blood crescent t700"", ""blood-crescent-t700""]"	1	1	"[""diablo2-io""]"	1	{}
+340f7abf-c940-5c1b-893f-7e6088d2110e	UniqueItem	blood-raven-s-charge-t701	"Blood Raven's Charge 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Blood Raven's Charge • Diablo 2 Resurrected Unique Item • diablo2.io"", ""blood raven s charge t701"", ""blood-raven-s-charge-t701""]"	1	1	"[""diablo2-io""]"	1	{}
+353faf6c-7330-5510-908f-f556b3edbfe4	UniqueItem	bloodfist-t702	"Bloodfist 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodfist • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodfist t702"", ""bloodfist-t702""]"	1	1	"[""diablo2-io""]"	1	{}
+8c023d98-b616-5e9a-b800-a1559031c1c4	UniqueItem	bloodletter-t703	"Bloodletter 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodletter • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodletter t703"", ""bloodletter-t703""]"	1	1	"[""diablo2-io""]"	1	{}
+e4b83c51-0531-5b1b-a072-e692545bad2d	UniqueItem	bloodmoon-t704	"Bloodmoon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodmoon • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodmoon t704"", ""bloodmoon-t704""]"	1	1	"[""diablo2-io""]"	1	{}
+ba1bffb5-441d-542a-b74b-11b8ae3cc286	UniqueItem	bloodrise-t705	"Bloodrise 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodrise • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodrise t705"", ""bloodrise-t705""]"	1	1	"[""diablo2-io""]"	1	{}
+739f6e49-1a53-5226-a5d0-898ed7df2292	UniqueItem	bloodthief-t706	"Bloodthief 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodthief • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodthief t706"", ""bloodthief-t706""]"	1	1	"[""diablo2-io""]"	1	{}
+173eee69-f4f9-56b7-9457-5d4a91150fc5	UniqueItem	bloodtree-stump-t707	"Bloodtree Stump 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bloodtree Stump • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bloodtree stump t707"", ""bloodtree-stump-t707""]"	1	1	"[""diablo2-io""]"	1	{}
+8e0db5b9-77c4-5472-8e6c-b09e23075ea8	UniqueItem	boneflame-t708	"Boneflame 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Boneflame • Diablo 2 Resurrected Unique Item • diablo2.io"", ""boneflame t708"", ""boneflame-t708""]"	1	1	"[""diablo2-io""]"	1	{}
+f28b0ee0-6e4a-5329-9ee4-b8e75c2a97d3	UniqueItem	boneflesh-t709	"Boneflesh 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Boneflesh • Diablo 2 Resurrected Unique Item • diablo2.io"", ""boneflesh t709"", ""boneflesh-t709""]"	1	1	"[""diablo2-io""]"	1	{}
+87252170-92f6-5921-a433-ec25c4d8a3db	UniqueItem	bonehew-t710	"Bonehew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bonehew • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bonehew t710"", ""bonehew-t710""]"	1	1	"[""diablo2-io""]"	1	{}
+5e66d675-be2b-5369-afff-6aa6dc938363	UniqueItem	boneshade-t711	"Boneshade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Boneshade • Diablo 2 Resurrected Unique Item • diablo2.io"", ""boneshade t711"", ""boneshade-t711""]"	1	1	"[""diablo2-io""]"	1	{}
+cda92b7b-67d3-5424-b396-8e428462586f	UniqueItem	boneslayer-blade-t712	"Boneslayer Blade 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Boneslayer Blade • Diablo 2 Resurrected Unique Item • diablo2.io"", ""boneslayer blade t712"", ""boneslayer-blade-t712""]"	1	1	"[""diablo2-io""]"	1	{}
+3f81ede4-3885-5570-9f54-7a7ce5c34ca1	UniqueItem	bonesnap-t713	"Bonesnap 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bonesnap • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bonesnap t713"", ""bonesnap-t713""]"	1	1	"[""diablo2-io""]"	1	{}
+a3de8108-0da9-5868-b49b-5108c906a3a8	UniqueItem	brainhew-t714	"Brainhew 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Brainhew • Diablo 2 Resurrected Unique Item • diablo2.io"", ""brainhew t714"", ""brainhew-t714""]"	1	1	"[""diablo2-io""]"	1	{}
+eef1319b-8d18-5741-883b-cb39d2163e30	UniqueItem	bul-kathos-wedding-band-t715	"Bul-Kathos' Wedding Band 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bul-Kathos' Wedding Band • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bul kathos wedding band t715"", ""bul-kathos-wedding-band-t715""]"	1	1	"[""diablo2-io""]"	1	{}
+af61d362-fb3c-5bc0-b9ef-1c13053c64bd	UniqueItem	buriza-do-kyanon-t716	"Buriza-Do Kyanon 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Buriza-Do Kyanon • Diablo 2 Resurrected Unique Item • diablo2.io"", ""buriza do kyanon t716"", ""buriza-do-kyanon-t716""]"	1	1	"[""diablo2-io""]"	1	{}
+0701d0ae-578c-58f9-9732-473c46bf773b	UniqueItem	butcher-s-pupil-t717	"Butcher's Pupil 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Butcher's Pupil • Diablo 2 Resurrected Unique Item • diablo2.io"", ""butcher s pupil t717"", ""butcher-s-pupil-t717""]"	1	1	"[""diablo2-io""]"	1	{}
+e2cea283-2568-51ec-ac9b-e2ca52c75a03	UniqueItem	bverrit-keep-t718	"Bverrit Keep 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Bverrit Keep • Diablo 2 Resurrected Unique Item • diablo2.io"", ""bverrit keep t718"", ""bverrit-keep-t718""]"	1	1	"[""diablo2-io""]"	1	{}
+2ba33843-d7bc-51e1-88e8-73e4590963e3	UniqueItem	carin-shard-t719	"Carin Shard 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Carin Shard • Diablo 2 Resurrected Unique Item • diablo2.io"", ""carin shard t719"", ""carin-shard-t719""]"	1	1	"[""diablo2-io""]"	1	{}
+00821710-cd43-5583-87db-eb7de3b60dbd	UniqueItem	carrion-wind-t720	"Carrion Wind 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Carrion Wind • Diablo 2 Resurrected Unique Item • diablo2.io"", ""carrion wind t720"", ""carrion-wind-t720""]"	1	1	"[""diablo2-io""]"	1	{}
+722890a4-9570-5c94-8933-509399abc58c	UniqueItem	cerebus-bite-t721	"Cerebus' Bite 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Cerebus' Bite • Diablo 2 Resurrected Unique Item • diablo2.io"", ""cerebus bite t721"", ""cerebus-bite-t721""]"	1	1	"[""diablo2-io""]"	1	{}
+fc5dd44f-14f9-5521-bde5-df5290dd51d3	UniqueItem	chance-guards-t722	"Chance Guards 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Chance Guards • Diablo 2 Resurrected Unique Item • diablo2.io"", ""chance guards t722"", ""chance-guards-t722""]"	1	1	"[""diablo2-io""]"	1	{}
+6240b500-bd53-517a-a40a-bedaa4193717	UniqueItem	chromatic-ire-t723	"Chromatic Ire 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Chromatic Ire • Diablo 2 Resurrected Unique Item • diablo2.io"", ""chromatic ire t723"", ""chromatic-ire-t723""]"	1	1	"[""diablo2-io""]"	1	{}
+030e9a4d-5890-51a2-9344-257f3de04d45	UniqueItem	cliffkiller-t724	"Cliffkiller 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Cliffkiller • Diablo 2 Resurrected Unique Item • diablo2.io"", ""cliffkiller t724"", ""cliffkiller-t724""]"	1	1	"[""diablo2-io""]"	1	{}
+ca9df261-69a9-5bb6-9852-bd9eb9ac2dce	UniqueItem	cloudcrack-t725	"Cloudcrack 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Cloudcrack • Diablo 2 Resurrected Unique Item • diablo2.io"", ""cloudcrack t725"", ""cloudcrack-t725""]"	1	1	"[""diablo2-io""]"	1	{}
+cb0e22b5-5465-5b45-be1d-df322b85bcd4	UniqueItem	coif-of-glory-t726	"Coif of Glory 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Coif of Glory • Diablo 2 Resurrected Unique Item • diablo2.io"", ""coif of glory t726"", ""coif-of-glory-t726""]"	1	1	"[""diablo2-io""]"	1	{}
+6e0a3e0d-70b6-542b-a4f8-afa51d7f3d7a	UniqueItem	coldkill-t727	"Coldkill 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Coldkill • Diablo 2 Resurrected Unique Item • diablo2.io"", ""coldkill t727"", ""coldkill-t727""]"	1	1	"[""diablo2-io""]"	1	{}
+fa548fbb-4308-5ee5-b4c7-55aeccd5980c	UniqueItem	coldsteel-eye-t728	"Coldsteel Eye 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Coldsteel Eye • Diablo 2 Resurrected Unique Item • diablo2.io"", ""coldsteel eye t728"", ""coldsteel-eye-t728""]"	1	1	"[""diablo2-io""]"	1	{}
+f6bfdb4c-4ad1-57f2-8732-0621eec11a06	UniqueItem	corpsemourn-t729	"Corpsemourn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Corpsemourn • Diablo 2 Resurrected Unique Item • diablo2.io"", ""corpsemourn t729"", ""corpsemourn-t729""]"	1	1	"[""diablo2-io""]"	1	{}
+f598498a-9800-5ee6-bf62-1d9acdd8581b	UniqueItem	crainte-vomir-t730	"Crainte Vomir 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Crainte Vomir • Diablo 2 Resurrected Unique Item • diablo2.io"", ""crainte vomir t730"", ""crainte-vomir-t730""]"	1	1	"[""diablo2-io""]"	1	{}
+de301e9e-1681-5237-901f-81904fedd8c8	UniqueItem	harlequin-crest-t37	"Harlequin Crest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Harlequin Crest • Diablo 2 Resurrected Unique Item • diablo2.io"", ""harlequin crest t37"", ""harlequin-crest-t37""]"	1	1	"[""diablo2-io""]"	1	{}
+b9697845-0d90-50a3-ae0b-01299bbbb00c	UniqueItem	hellfire-torch-t39	"Hellfire Torch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Hellfire Torch • Diablo 2 Resurrected Unique Item • diablo2.io"", ""hellfire torch t39"", ""hellfire-torch-t39""]"	1	1	"[""diablo2-io""]"	1	{}
+b74febdc-3897-5d60-8977-257451c5deed	UniqueItem	razorswitch-t257	"Razorswitch 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Razorswitch • Diablo 2 Resurrected Unique Item • diablo2.io"", ""razorswitch t257"", ""razorswitch-t257""]"	1	1	"[""diablo2-io""]"	1	{}
+5fc4f348-74e1-5d6b-b49c-b7f3ac0313cd	UniqueItem	seraph-s-hymn-t41	"Seraph's Hymn 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Seraph's Hymn • Diablo 2 Resurrected Unique Item • diablo2.io"", ""seraph s hymn t41"", ""seraph-s-hymn-t41""]"	1	1	"[""diablo2-io""]"	1	{}
+7943113d-0876-5ef3-ad24-cd0641e92c04	UniqueItem	silks-of-the-victor-t2	"Silks of the Victor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Silks of the Victor • Diablo 2 Resurrected Unique Item • diablo2.io"", ""silks of the victor t2"", ""silks-of-the-victor-t2""]"	1	1	"[""diablo2-io""]"	1	{}
+3cd0053a-f2b2-55ac-9541-a3aa0c79d147	UniqueItem	soul-harvest-t36	"Soul Harvest 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Soul Harvest • Diablo 2 Resurrected Unique Item • diablo2.io"", ""soul harvest t36"", ""soul-harvest-t36""]"	1	1	"[""diablo2-io""]"	1	{}
+5911ab44-c4b1-5c9e-b6fb-8900ec946b87	UniqueItem	thundergod-s-vigor-t38	"Thundergod's Vigor 
+        
+        
+        
+                                  • Diablo 2 Resurrected Unique Item
+                          
+        
+         • diablo2.io"	"[""Thundergod's Vigor • Diablo 2 Resurrected Unique Item • diablo2.io"", ""thundergod s vigor t38"", ""thundergod-s-vigor-t38""]"	1	1	"[""diablo2-io""]"	1	{}
+fc4c51be-c95d-5561-929a-6a5285f7e6af	UniqueItem	ars-dul-mephistos-t1673924.html	ars-dul-mephistos-t1673924.html	"[""ars dul mephistos t1673924"", ""ars-dul-mephistos-t1673924.html""]"	0	0	[]	0	{}
+49f78d58-6425-52ef-a7bd-9e4d0f3a0c95	UniqueItem	bane-ash-t683.html	bane-ash-t683.html	"[""bane ash t683"", ""bane-ash-t683.html""]"	0	0	[]	0	{}
+28251f60-4639-590e-9ca5-5da706fb709f	UniqueItem	cranebeak-t731.html	cranebeak-t731.html	"[""cranebeak t731"", ""cranebeak-t731.html""]"	0	0	[]	0	{}
+babc2b44-4976-52eb-bf45-c220c7ed53d1	UniqueItem	hellslayer-t814.html	hellslayer-t814.html	"[""hellslayer t814"", ""hellslayer-t814.html""]"	0	0	[]	0	{}
+fa07e538-1fcf-51b3-b75f-b1509e041dba	UniqueItem	hellwarden-s-will-t1673933.html	hellwarden-s-will-t1673933.html	"[""hellwarden s will t1673933"", ""hellwarden-s-will-t1673933.html""]"	0	0	[]	0	{}
+92ddc2c4-8f54-5b81-ab90-12689a1d7bae	UniqueItem	pluckeye-t875.html	pluckeye-t875.html	"[""pluckeye t875"", ""pluckeye-t875.html""]"	0	0	[]	0	{}
+2fe45f1a-a162-5076-87e4-32ac8fc0333b	UniqueItem	silks-of-the-victor-t2.html	silks-of-the-victor-t2.html	"[""silks of the victor t2"", ""silks-of-the-victor-t2.html""]"	0	0	[]	0	{}
+606ae1ea-cf37-5073-b6ba-5eaed94cb885	WebPage	42929_1260699.html	42929_1260699.html	"[""42929 1260699"", ""42929_1260699.html""]"	0	0	[]	0	{}
+6330659f-8a8f-56f9-9d85-caa4717e7ad3	WebPage	42929_1262557.html	42929_1262557.html	"[""42929 1262557"", ""42929_1262557.html""]"	0	0	[]	0	{}
+a337470f-d664-52ec-b214-056b55f97792	WebPage	42929_1267024.html	42929_1267024.html	"[""42929 1267024"", ""42929_1267024.html""]"	0	0	[]	0	{}
+a29c9d10-a627-5c68-88c4-ffcf5c60b3c8	WebPage	42929_1267224.html	42929_1267224.html	"[""42929 1267224"", ""42929_1267224.html""]"	0	0	[]	0	{}
+1702b467-844b-56c1-8a42-e903ba08548f	WebPage	42929_1272408.html	42929_1272408.html	"[""42929 1272408"", ""42929_1272408.html""]"	0	0	[]	0	{}
+851e24da-88f5-5c86-a077-731cf7f440ce	WebPage	42929_1277898.html	42929_1277898.html	"[""42929 1277898"", ""42929_1277898.html""]"	0	0	[]	0	{}
+a4c3a1f8-a35d-5f86-a5ae-c9fc35a7b8d9	WebPage	42929_1285202.html	42929_1285202.html	"[""42929 1285202"", ""42929_1285202.html""]"	0	0	[]	0	{}
+176daa6f-dce8-5807-8296-b7aad464ec1a	WebPage	areas	areas	"[""areas""]"	0	0	[]	0	{}
+9eceb76d-59b8-5c24-b71e-13d6654d7464	WebPage	areas	areas	"[""areas""]"	0	0	[]	0	{}
+7de2bd05-e524-51db-a624-762301039129	WebPage	base	base	"[""base""]"	0	0	[]	0	{}
+298addff-05cf-5b5e-9cda-f5c5860559e9	WebPage	base	base	"[""base""]"	0	0	[]	0	{}
+f9c4b45e-b9cf-5881-93b1-92316db8719d	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+b653c515-a797-5b8b-9c72-02f2b1a974ac	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+79c79320-6134-5a7e-8c07-0f97437a837f	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+00428748-f3b1-5456-b412-ce65409ce93f	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+717ff4fe-cb97-506c-8359-b8fba3787e3a	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+7b309c73-87a4-571e-a43c-243770fc93ce	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+532e6d29-faab-5e00-a6c6-80ed4a8c06c6	WebPage	index.html	index.html	"[""index"", ""index.html""]"	0	0	[]	0	{}
+704729f6-a4bd-5c1c-9a18-2a81c5c19632	WebPage	misc	misc	"[""misc""]"	0	0	[]	0	{}
+f790114d-8325-587d-9043-4e4b3fac7986	WebPage	monsters	monsters	"[""monsters""]"	0	0	[]	0	{}
+21ab9c69-0d6f-54d5-9b8b-13c209bb0e51	WebPage	monsters	monsters	"[""monsters""]"	0	0	[]	0	{}
+fd717288-c851-5ddc-9a60-b33b01ba1f00	WebPage	news	news	"[""news""]"	0	0	[]	0	{}
+bb76362f-ef5a-59ac-8539-3776a78e2992	WebPage	npcs	npcs	"[""npcs""]"	0	0	[]	0	{}
+780881ec-9ff7-5c63-a28b-d3cdcbd6d34b	WebPage	npcs	npcs	"[""npcs""]"	0	0	[]	0	{}
+5314fb1e-4587-588d-8d60-37b12243a480	WebPage	quests	quests	"[""quests""]"	0	0	[]	0	{}
+68b74867-f46d-5989-84c3-8c12674dd36e	WebPage	quests	quests	"[""quests""]"	0	0	[]	0	{}
+d1a1a737-1aca-5de8-8aca-7345a9b9a13c	WebPage	recipes	recipes	"[""recipes""]"	0	0	[]	0	{}
+e26d4eb0-9523-5f1b-afff-780df4c65b29	WebPage	recipes	recipes	"[""recipes""]"	0	0	[]	0	{}
+e3f9f519-e4bf-52f0-8a4a-66229f42d8ec	WebPage	runewords	runewords	"[""runewords""]"	0	0	[]	0	{}
+a6d418f2-81a9-5d95-aaae-56b1e0bee263	WebPage	runewords	runewords	"[""runewords""]"	0	0	[]	0	{}
+dc6344e0-dd9e-5648-b71d-f8b782bf1ee8	WebPage	sets	sets	"[""sets""]"	0	0	[]	0	{}
+5c38d109-8a28-54d7-bb12-a3b628c0c07e	WebPage	sets	sets	"[""sets""]"	0	0	[]	0	{}
+b8fd8403-008f-5d7e-ab74-7186ebe579ce	WebPage	skills	skills	"[""skills""]"	0	0	[]	0	{}
+56d36595-9cf1-5704-b986-721258a669f9	WebPage	skills	skills	"[""skills""]"	0	0	[]	0	{}
+f58f8150-b8f4-5501-a1a0-9dd3186e7fc0	WebPage	uniques	uniques	"[""uniques""]"	0	0	[]	0	{}
+939ad719-0090-5681-8239-cba625faf289	WebPage	uniques	uniques	"[""uniques""]"	0	0	[]	0	{}
+af1c9c4a-cffe-542c-8b1c-d6a8424a62ea	WikiPage	Act_I	Act I - Diablo 2 Wiki	"[""Act I"", ""Act I - Diablo 2 Wiki"", ""Act_I""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+ec3a6da9-7e2e-502f-9e66-6a133e2bf1ea	WikiPage	Act_II	Act II - Diablo 2 Wiki	"[""Act II"", ""Act II - Diablo 2 Wiki"", ""Act_II""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+6b68311f-5bd7-511a-b5bb-f7bed09079c5	WikiPage	Act_III	Act III - Diablo 2 Wiki	"[""Act III"", ""Act III - Diablo 2 Wiki"", ""Act_III""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+c8b381c4-d3ba-5e37-b158-300f492d4f97	WikiPage	Act_IV	Act IV - Diablo 2 Wiki	"[""Act IV"", ""Act IV - Diablo 2 Wiki"", ""Act_IV""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+124ee1b0-3b84-5c91-886b-fd13ba5dcfc0	WikiPage	Act_V	Act V - Diablo 2 Wiki	"[""Act V"", ""Act V - Diablo 2 Wiki"", ""Act_V""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+b3fb60c2-4de8-5992-a519-0cc9b79c2e5b	WikiPage	Amazon_Skills	Amazon Skills - Diablo 2 Wiki	"[""Amazon Skills"", ""Amazon Skills - Diablo 2 Wiki"", ""Amazon_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+ce042b22-8c91-5ccb-94ad-389440b2f742	WikiPage	Amazon_Javelin_and_Spear		"[""Amazon Javelin and Spear"", ""Amazon_Javelin_and_Spear""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+c1190e40-0ba7-5d39-abd9-a8bf609dc0f1	WikiPage	Assassin	Assassin - Diablo 2 Wiki	"[""Assassin"", ""Assassin - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+a346e1f2-fce3-555b-9e80-3f7ccf325a94	WikiPage	Assassin_Martial_Arts	Assassin Martial Arts - Diablo 2 Wiki	"[""Assassin Martial Arts"", ""Assassin Martial Arts - Diablo 2 Wiki"", ""Assassin_Martial_Arts""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+3214b01b-d724-55dd-84ea-d8a91d1bd6b5	WikiPage	Assassin_Shadow_Disciplines	Assassin Shadow Disciplines - Diablo 2 Wiki	"[""Assassin Shadow Disciplines"", ""Assassin Shadow Disciplines - Diablo 2 Wiki"", ""Assassin_Shadow_Disciplines""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+6b095ae2-ccdd-53ae-b2fb-470dfcaff0a4	WikiPage	Assassin_Traps	Assassin Traps - Diablo 2 Wiki	"[""Assassin Traps"", ""Assassin Traps - Diablo 2 Wiki"", ""Assassin_Traps""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+422e1be1-4bc3-5845-81e7-61cecd984b2b	WikiPage	Assassin_Skills		"[""Assassin Skills"", ""Assassin_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+b34469f7-617c-542b-9fe4-194ae7ea1847	WikiPage	Barbarian	Barbarian - Diablo 2 Wiki	"[""Barbarian"", ""Barbarian - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+376a5930-2475-5726-80de-2965a8226a85	WikiPage	Barbarian_Combat_Masteries	Barbarian Combat Masteries - Diablo 2 Wiki	"[""Barbarian Combat Masteries"", ""Barbarian Combat Masteries - Diablo 2 Wiki"", ""Barbarian_Combat_Masteries""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+8b6685ee-7810-5d99-a63f-25dad9238d2c	WikiPage	Barbarian_Combat_Skills	Barbarian Combat Skills - Diablo 2 Wiki	"[""Barbarian Combat Skills"", ""Barbarian Combat Skills - Diablo 2 Wiki"", ""Barbarian_Combat_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+fb00886d-184f-5f06-a46a-9ce9eda176c1	WikiPage	Barbarian_Skills	Barbarian Skills - Diablo 2 Wiki	"[""Barbarian Skills"", ""Barbarian Skills - Diablo 2 Wiki"", ""Barbarian_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+152d8639-a853-5539-8222-c0e10e198792	WikiPage	Barbarian_Warcries	Barbarian Warcries - Diablo 2 Wiki	"[""Barbarian Warcries"", ""Barbarian Warcries - Diablo 2 Wiki"", ""Barbarian_Warcries""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+662083bd-853d-5444-9ccc-dd041b93a896	WikiPage	Druid	Druid - Diablo 2 Wiki	"[""Druid"", ""Druid - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+777bbd68-05a4-542a-901c-a02d8c533a6e	WikiPage	Druid_Elemental_Skills	Druid Elemental Skills - Diablo 2 Wiki	"[""Druid Elemental Skills"", ""Druid Elemental Skills - Diablo 2 Wiki"", ""Druid_Elemental_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+104c2b31-8e71-5b84-a2f9-d05cb93a6ad4	WikiPage	Druid_Skills	Druid Skills - Diablo 2 Wiki	"[""Druid Skills"", ""Druid Skills - Diablo 2 Wiki"", ""Druid_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+7d840fe4-d70e-59cd-b614-ac90c89eff12	WikiPage	Druid_Summoning_Skills	Druid Summoning Skills - Diablo 2 Wiki	"[""Druid Summoning Skills"", ""Druid Summoning Skills - Diablo 2 Wiki"", ""Druid_Summoning_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+9103f6e0-5c76-5707-83e6-6b74432e512b	WikiPage	Set_Items	Item Set - Diablo 2 Wiki	"[""Item Set - Diablo 2 Wiki"", ""Set Items"", ""Set_Items""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+002c6a4d-18ed-57f4-89d4-ba3a09e86665	WikiPage	Magic_Find	Magic Find - Diablo 2 Wiki	"[""Magic Find"", ""Magic Find - Diablo 2 Wiki"", ""Magic_Find""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+6f70776c-f8d5-5e66-a465-db91150d0748	WikiPage	Mercenaries	Mercenaries - Diablo 2 Wiki	"[""Mercenaries"", ""Mercenaries - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+0c53b828-c204-5d32-8b83-05dd4fdb6afb	WikiPage	Paladin_Combat_Skills	Paladin Combat Skills - Diablo 2 Wiki	"[""Paladin Combat Skills"", ""Paladin Combat Skills - Diablo 2 Wiki"", ""Paladin_Combat_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+516542ac-e147-51a9-89e1-52975fda95b8	WikiPage	Paladin_Defensive_Auras	Paladin Defensive Auras - Diablo 2 Wiki	"[""Paladin Defensive Auras"", ""Paladin Defensive Auras - Diablo 2 Wiki"", ""Paladin_Defensive_Auras""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+2d76289d-a73a-5bda-bac6-0fee237e94ba	WikiPage	Paladin_Offensive_Auras	Paladin Offensive Auras - Diablo 2 Wiki	"[""Paladin Offensive Auras"", ""Paladin Offensive Auras - Diablo 2 Wiki"", ""Paladin_Offensive_Auras""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+e9447d6a-6415-58df-8d22-bc38957cdac1	WikiPage	Paladin_Skills	Paladin Skills - Diablo 2 Wiki	"[""Paladin Skills"", ""Paladin Skills - Diablo 2 Wiki"", ""Paladin_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+7d91a438-58e8-55ae-9375-b5b5808b2caa	WikiPage	Runes	Rune - Diablo 2 Wiki	"[""Rune - Diablo 2 Wiki"", ""Runes""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+0ba81323-4aff-5c8b-81eb-5cb503dae2dc	WikiPage	Sorceress	Sorceress - Diablo 2 Wiki	"[""Sorceress"", ""Sorceress - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+3a42c5f2-3181-552c-911e-2e0336b43404	WikiPage	Sorceress_Cold_Spells	Sorceress Cold Spells - Diablo 2 Wiki	"[""Sorceress Cold Spells"", ""Sorceress Cold Spells - Diablo 2 Wiki"", ""Sorceress_Cold_Spells""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+ebc7f357-6012-52cf-9705-41db3d221ed2	WikiPage	Sorceress_Fire_Spells	Sorceress Fire Spells - Diablo 2 Wiki	"[""Sorceress Fire Spells"", ""Sorceress Fire Spells - Diablo 2 Wiki"", ""Sorceress_Fire_Spells""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+101eb663-f1ba-52ba-b200-dd8ce6c73d2a	WikiPage	Sorceress_Lightning_Spells	Sorceress Lightning Spells - Diablo 2 Wiki	"[""Sorceress Lightning Spells"", ""Sorceress Lightning Spells - Diablo 2 Wiki"", ""Sorceress_Lightning_Spells""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+915f2256-950d-533b-af14-cedcf69c204b	WikiPage	Sorceress_Skills	Sorceress Skills - Diablo 2 Wiki	"[""Sorceress Skills"", ""Sorceress Skills - Diablo 2 Wiki"", ""Sorceress_Skills""]"	1	1	"[""purediablo-d2wiki""]"	1	{}
+bbd9ae61-5825-5021-953a-6376c127ac62	WikiPage	Trang-Oul%27s_Avatar	Trang-Oul's Avatar - Diablo 2 Wiki	"[""Trang Oul%27s Avatar"", ""Trang-Oul%27s_Avatar"", ""Trang-Oul's Avatar - Diablo 2 Wiki""]"	1	1	"[""purediablo-d2wiki""]"	1	{}

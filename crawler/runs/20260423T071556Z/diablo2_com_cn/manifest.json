@@ -1,0 +1,123 @@
+{
+  "source": {
+    "id": "diablo2_com_cn",
+    "label": "CNBN 主站资料区",
+    "enabled": true,
+    "weight": 0.96,
+    "region": "CN",
+    "transport": "direct-http",
+    "observed_on": "2026-04-23",
+    "observed_status": "http-ok-https-timeout",
+    "home_url": "http://www.diablo2.com.cn/",
+    "robots_url": "http://www.diablo2.com.cn/robots.txt",
+    "authority_tier": "guide",
+    "lane": "guide",
+    "language": "zh",
+    "encoding_hints": [
+      "gb2312",
+      "gbk"
+    ],
+    "seed_urls": [
+      "http://www.diablo2.com.cn/"
+    ],
+    "curated_urls": [
+      "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "http://www\\.diablo2\\.com\\.cn/diabloii/ShowArticle\\.asp\\?ArticleID=\\d+$"
+      ],
+      "exclude": [
+        "/Soft/",
+        "/photo/"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "articleid"
+      ],
+      "denied_keywords": [
+        "soft",
+        "photo"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "下载",
+        "视频"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "老牌中文资料库，HTTP 可达。"
+  },
+  "generated_at": "2026-04-23T07:15:56+00:00",
+  "seed_count": 2,
+  "candidate_count": 4,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 42153,
+      "discovered_candidates": [
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1858",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1819",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1976",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=959",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=966",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=952",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=954"
+      ]
+    },
+    {
+      "url": "http://www.diablo2.com.cn/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 75154,
+      "discovered_candidates": [
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1858",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1819",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1976",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=959",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=966",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=952",
+        "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=954"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "diablo2_com_cn",
+      "source_label": "CNBN 主站资料区",
+      "authority_tier": "guide",
+      "lane": "guide",
+      "url": "http://www.diablo2.com.cn/diabloii/ShowArticle.asp?ArticleID=1810",
+      "title": "地狱火专题 _地狱火_暗黑破坏神2_暗黑破坏神2中文网",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "e986b551e382c4e14ca6f9bd4bdcb1c9f64f9b712baea21142fc230259d3e93f",
+      "robots_note": "",
+      "note": "skipped-existing-catalog-entry",
+      "lifecycle_status": "frozen",
+      "capture_status": "frozen",
+      "snapshot_id": "snapshot::diablo2_com_cn::38d223283174e8441e26",
+      "snapshot_path": "snapshots/diablo2_com_cn/diablo2_com_cn--38d223283174e8441e26.html",
+      "seen_at": "2026-04-23T07:15:56+00:00",
+      "run_id": "20260423T071556Z"
+    }
+  ]
+}

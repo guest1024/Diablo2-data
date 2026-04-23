@@ -1,0 +1,19 @@
+{
+  "source_id": "bbs_diablo2_com_cn",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct-http",
+  "observed_status": "http-ok-https-timeout",
+  "saved_snapshots": 1,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "filtered": 1,
+    "frozen": 1
+  },
+  "lifecycle_summary": {
+    "ignored": 1,
+    "frozen": 1
+  },
+  "last_run_status": "captured",
+  "notes": "论坛只建议保留白名单精华帖。"
+}

@@ -826,3 +826,203 @@ build 字典。
 > “把 PostgreSQL 设计成一个统一检索数据库：同时承载 alias、BM25、embedding、结构化事实、关系扩展和数据字典。”
 
 这也是当前仓库后续最值得继续推进的路线。
+
+## 13. PostgreSQL 运行时适配
+
+当前运行时已新增：
+
+- `app/postgres_store.py`
+
+设计原则：
+
+1. 优先 PostgreSQL，多路召回仍保持 alias / lexical / graph / structured support 的组合思路
+2. PostgreSQL 不可用时，允许回退到当前本地 Chroma + JSONL graph，保证开发期连续性
+3. 后续真正切换到 PG-only 时，只需要把 `RETRIEVAL_BACKEND=postgres` 固定化，并逐步减少本地 fallback 的职责
+
+当前 PostgreSQL 运行时查询重点：
+
+- `dict.searchable_aliases`
+- `d2.entity_catalog`
+- `d2.gameplay_edges`
+- `d2.chunks`
+- `dict.rule_dictionary`
+
+因此它已经具备“从 PG 做 alias + lexical + graph term expansion”的主路径能力，只是向量 lane 仍待后续真正接入 PostgreSQL embedding 列。
+
+## 14. PostgreSQL 向量资产包
+
+为了让 PostgreSQL 最终承担 embedding lane，当前仓库已新增：
+
+- `docs/tier0/postgres-embedding-bundle/`
+- `scripts/build_pg_embedding_bundle.py`
+- `scripts/load_pg_embedding_bundle.py`
+- `scripts/verify_pg_embedding_bundle.py`
+
+当前设计采用与本地运行时一致的 `local-hashing-v1` 向量基线，先保证：
+
+1. chunk schema 可以稳定生成向量
+2. PostgreSQL `d2.chunks.embedding` 可以被批量回填
+3. 后续可以再替换为正式多语言 embedding 模型，而不需要改数据库链路
+
+## 15. PostgreSQL BM25 运行时适配
+
+当前运行时已在 `app/postgres_store.py` 中补入：
+
+- `supports_bm25_runtime()`
+- `_bm25_query()`
+
+运行原则：
+
+1. PostgreSQL 安装了 `pg_textsearch` 且建立了 BM25 索引时，优先尝试 `postgres_bm25` lane。
+2. 如果 BM25 扩展不可用，则回退到 PostgreSQL lexical/trigram lane。
+3. 最后仍可回退到本地检索基线，确保开发期连续性。
+
+这使得 PostgreSQL 主路径已经开始覆盖：
+
+- alias lane
+- lexical/trigram lane
+- BM25 lane（条件开启）
+- vector lane（条件开启）
+- grounding lane（已接 canonical claims / provenance）
+
+
+补充：当前应用端在 PostgreSQL 运行时里会根据实际参与的 lane，把 `actual_backend` 区分为 `postgres-lexical` / `postgres-bm25` / `postgres-vector` / `postgres-hybrid`。
+
+
+补充：当前 PostgreSQL 主 bundle 已纳入 `curated anchor` 层，最新实测计数为 `documents=511`、`chunks=8708`、`chunks_with_embedding=8708`。`超市`、`乔丹` 等 query 已能在 PG 主路径下把 curated anchor 顶到前列。
+
+
+最新 fresh evidence（2026-04-23，本机实测）：
+
+- `劳模掉不掉军帽？` -> `postgres-hybrid`，Top1 = `Mephisto / 劳模（Curated Anchor Card）`
+- `超市是什么？` -> `postgres-hybrid`，Top1 = `Chaos Sanctuary / 超市（Curated Anchor Card）`
+- `乔丹是什么？` -> `postgres-hybrid`，Top1 = `Stone of Jordan / 乔丹（Curated Anchor Card）`
+- `我的法师现在 FCR 是 90，带上精神盾能上一个档位吗？` -> `postgres-hybrid`，Top1 = `Spirit Shield / 精神盾（Curated Anchor Card）`
+
+说明当前 PostgreSQL 主路径的加权融合，已经能把 curated anchor 在关键 query type 下稳定推到前列。
+
+
+补充：当前仓库已新增 `sql/postgres/007_strategy_views.sql`，用于把 build -> runeword -> base -> farm area 这类启发式 support 固化成 PostgreSQL 可查询的 strategy edges。
+
+
+补充：当前仓库已新增 `docs/tier0/postgres-strategy-bundle/` 与 `scripts/build_pg_strategy_bundle.py`，用于把 `d2.strategy_edges` 导出成可版本化、可导入、可校验的正式资产。
+
+
+补充：当前 `strategy bundle` 不再只是导出文件，已对应到 PostgreSQL 持久表 `d2.strategy_edge_facts`，运行时 graph expansion 会优先消费它。
+
+
+补充：当前应用返回已新增 `ranking_reasons`，用于解释为什么某个 chunk/结构化证据排在前面，包括 lane 原因与 strategy reason。
+
+
+补充：当前应用返回已新增 `reason_summary`，用于把 `ranking_reasons` 压缩成可直接供回答阶段消费的解释摘要。
+
+
+补充：当前仓库已新增 `scripts/verify_api_pg_runtime.py`，用于在 HTTP 层验证 `/health`、`/qa`、`ranking_reasons`、`reason_summary` 与 PostgreSQL-backed runtime。
+
+
+补充：当前仓库已新增 `scripts/verify_llm_reasoned_answers.py`，用于验证 `use_llm=true` 时最终回答能够消费 `reason_summary` 与 `ranking_reasons`。
+
+## 16. 问答链路的 `qu / qa` 实际落地建议
+
+为了让“输入 -> 召回 -> 回答 -> 校验”是可审计的，建议把 `dict / qu / qa` 三层区分清楚：
+
+### `dict`
+
+负责“静态知识字典”：
+
+- alias / canonical / item / build / area / monster / rule
+
+### `qu`
+
+负责“单次 query understanding 过程”：
+
+- 原始 query
+- rewrite
+- entity resolution candidates
+- subquestion plan
+- retrieval plan lanes
+- answer constraints
+
+### `qa`
+
+负责“单次 answer release 过程”：
+
+- retrieval run
+- lane hits
+- evidence claims
+- answer draft
+- answer citations
+- citation verification
+- final answer audit
+
+这种拆法的意义是：
+
+1. 字典可以持续迭代
+2. query understanding 可以复盘
+3. answer gate 可以审计
+
+## 17. Prompt Rewrite / Query Understanding 的 schema 约束
+
+为了保证召回率强、同时结果要准，建议坚持以下约束：
+
+1. **identity rewrite 永远保留**
+2. alias rewrite 与 canonical rewrite 分开记
+3. 约束词（constraint term）要单独入 `qu.query_rewrite_terms`
+4. 子问题计划必须和主 rewrite 绑定
+5. retrieval policy 与 answer constraints 必须表驱动
+
+当前仓库已基本按这个思路实现：
+
+- `dict.query_pattern_dictionary`
+- `qu.query_rewrites`
+- `qu.query_rewrite_terms`
+- `qu.subquestion_plans`
+- `qu.subquestion_steps`
+- `qu.retrieval_policies`
+- `qu.answer_constraints`
+
+## 18. 数据格式化规范
+
+建议把“站点内容 -> 可检索资产”明确分成四类：
+
+1. **document**
+2. **chunk**
+3. **structured support**
+4. **strategy facts**
+
+推荐原则：
+
+- narrative 文本进入 `documents/chunks`
+- 高风险表格进入 `structured support`
+- build -> runeword -> base -> area 进入 `strategy facts`
+- alias / 黑话 / 错拼进入 `dict bundle`
+
+## 19. 可扩展的数据更新策略
+
+后续数据更新，不要直接改 PG 表；优先走：
+
+```text
+source update
+  -> normalized assets
+  -> postgres bundles
+  -> verify bundles
+  -> load bundles
+  -> full stack verify
+```
+
+推荐命令：
+
+```bash
+.venv/bin/python scripts/d2_pg_cli.py pipeline site-to-pg-assets
+.venv/bin/python scripts/d2_pg_cli.py load-pg --database-url "$DATABASE_URL"
+.venv/bin/python scripts/d2_pg_cli.py load-dict --database-url "$DATABASE_URL"
+.venv/bin/python scripts/d2_pg_cli.py load-embeddings --database-url "$DATABASE_URL"
+.venv/bin/python scripts/d2_pg_cli.py load-strategy --database-url "$DATABASE_URL"
+.venv/bin/python scripts/d2_pg_cli.py stage full-stack-verify
+```
+
+## 20. 当前数据库设计的一句话结论
+
+当前最值得坚持的方向是：
+
+> PostgreSQL 不是只做“存 chunk 的向量库”，而是同时承担 dict / qu / qa / multi-lane retrieval / release gate 的统一检索数据库。

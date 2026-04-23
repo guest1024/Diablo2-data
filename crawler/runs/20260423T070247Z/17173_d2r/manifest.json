@@ -1,0 +1,127 @@
+{
+  "source": {
+    "id": "17173_d2r",
+    "label": "17173 暗黑2重制版专区",
+    "enabled": true,
+    "weight": 0.82,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://news.17173.com/z/ah2/",
+    "robots_url": "https://news.17173.com/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://news.17173.com/z/ah2/",
+      "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml"
+    ],
+    "curated_urls": [],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https?://news\\.17173\\.com/z/ah2/content/.+\\.shtml$",
+        "https?://news\\.17173\\.com/content/.+\\.shtml$",
+        "https?://news\\.17173\\.com/z/ah2/morelist/.+\\.shtml$"
+      ],
+      "exclude": [
+        "/video/",
+        "/mip_"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "/z/ah2/content/",
+        "重制版",
+        "玩法",
+        "配装"
+      ],
+      "denied_keywords": [
+        "/morelist/",
+        "2026"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "新闻资讯",
+        "视频",
+        "官网"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "中文新闻/攻略专区，可发现较多历史页面。"
+  },
+  "generated_at": "2026-04-23T07:02:47+00:00",
+  "seed_count": 2,
+  "candidate_count": 4,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://news.17173.com/z/ah2/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 54510,
+      "discovered_candidates": [
+        "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+        "http://news.17173.com/z/ah2/content/03152022/102426979.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+        "http://news.17173.com/z/ah2/content/09242021/123929688.shtml"
+      ]
+    },
+    {
+      "url": "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 55989,
+      "discovered_candidates": [
+        "https://news.17173.com/z/ah2/morelist/09232021/154436881.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154438901.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154440329.shtml",
+        "https://news.17173.com/z/ah2/morelist/09232021/154441323.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/175518037.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/105725829.shtml",
+        "http://news.17173.com/z/ah2/content/10202025/095610440.shtml",
+        "http://news.17173.com/z/ah2/content/10132025/175343101.shtml"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "17173_d2r",
+      "source_label": "17173 暗黑2重制版专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+      "title": "《暗黑破坏神2重制版》野蛮人怎么玩？可汗野蛮人配装推荐_暗黑2重制版_17173.com中国游戏门户站",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "279e59b51ff62291e82065b0738133c91572fd0940285b651ddaa3471509e409",
+      "robots_note": "ok",
+      "note": null,
+      "lifecycle_status": "updated",
+      "capture_status": "saved",
+      "snapshot_id": "snapshot::17173_d2r::8c56ac882481606f2a34",
+      "snapshot_path": "snapshots/17173_d2r/17173_d2r--8c56ac882481606f2a34.html",
+      "seen_at": "2026-04-23T07:02:47+00:00",
+      "run_id": "20260423T070247Z"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "generated_at": "2026-04-23T07:08:00.438123+00:00",
+  "retrieval_summary": {
+    "passed": 6,
+    "total": 6
+  },
+  "llm_summary": {
+    "passed": 2,
+    "total": 2
+  },
+  "retrieval_cases": [
+    {
+      "category": "alias_fact",
+      "query": "劳模掉不掉军帽？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "fact_lookup",
+      "top_title": "monster_resistances::Mephisto",
+      "top_source_id": "structured-support",
+      "top_retrieval_source": "structured_support",
+      "matched_keywords": [
+        "mephisto",
+        "劳模"
+      ],
+      "expected_keywords": [
+        "mephisto",
+        "劳模",
+        "军帽",
+        "harlequin"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "structured::monster_resistances::1::Mephisto",
+          "title": "monster_resistances::Mephisto",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.0,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。"
+        },
+        {
+          "chunk_id": "structured::monster_resistances::2::Mephisto",
+          "title": "monster_resistances::Mephisto",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.0,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。"
+        },
+        {
+          "chunk_id": "curated::mephisto::chunk-1",
+          "title": "Mephisto / 劳模（Curated Anchor Card）",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres",
+            "postgres_bm25"
+          ],
+          "fused_score": 6.58410096,
+          "lane_reason": [
+            "BM25 命中强",
+            "词面/约束命中",
+            "社区锚点卡优先"
+          ],
+          "strategy_reason": null
+        }
+      ],
+      "reason_summary": "本题是事实查询题，优先依据结构化事实、锚点卡和高权重文本证据。\n- monster_resistances::Mephisto: 结构化证据优先；抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。\n- Mephisto / 劳模（Curated Anchor Card）: BM25 命中强；词面/约束命中；社区锚点卡优先\n- unique_items::Ars Dul'Mephistos: 结构化证据优先\n- unique_items::Harlequin Crest: 结构化证据优先"
+    },
+    {
+      "category": "alias_fact",
+      "query": "SOJ是什么？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "fact_lookup",
+      "top_title": "Stone of Jordan / 乔丹（Curated Anchor Card）",
+      "top_source_id": "curated-anchor",
+      "top_retrieval_source": "postgres_bm25",
+      "matched_keywords": [
+        "stone of jordan",
+        "乔丹"
+      ],
+      "expected_keywords": [
+        "stone of jordan",
+        "乔丹"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "curated::stone-of-jordan::chunk-1",
+          "title": "Stone of Jordan / 乔丹（Curated Anchor Card）",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres",
+            "postgres_bm25"
+          ],
+          "fused_score": 6.5852459,
+          "lane_reason": [
+            "BM25 命中强",
+            "词面/约束命中",
+            "社区锚点卡优先"
+          ],
+          "strategy_reason": null
+        },
+        {
+          "chunk_id": "structured::unique_items::1::The Stone of Jordan",
+          "title": "unique_items::The Stone of Jordan",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 6.5,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": null
+        },
+        {
+          "chunk_id": "f8ba2b6e-c9c5-5a8b-af64-8d6b9d56ff87::chunk-15",
+          "title": "All Diablo 2 Resurrected Cube Recipes\n        \n                                  \n        \n         • diablo2.io",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres_bm25"
+          ],
+          "fused_score": 1.04109589,
+          "lane_reason": [
+            "BM25 命中强"
+          ],
+          "strategy_reason": null
+        }
+      ],
+      "reason_summary": "本题是事实查询题，优先依据结构化事实、锚点卡和高权重文本证据。\n- Stone of Jordan / 乔丹（Curated Anchor Card）: BM25 命中强；词面/约束命中；社区锚点卡优先\n- unique_items::The Stone of Jordan: 结构化证据优先\n- All Diablo 2 Resurrected Cube Recipes\n        \n                                  \n        \n         • diablo2.io: BM25 命中强\n- All Diablo 2 Resurrected Runewords\n        \n                                  \n        \n         • diablo2.io: 词面/约束命中"
+    },
+    {
+      "category": "alias_fact",
+      "query": "超市是什么？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "fact_lookup",
+      "top_title": "Chaos Sanctuary / 超市（Curated Anchor Card）",
+      "top_source_id": "curated-anchor",
+      "top_retrieval_source": "postgres_bm25",
+      "matched_keywords": [
+        "chaos sanctuary",
+        "超市"
+      ],
+      "expected_keywords": [
+        "chaos sanctuary",
+        "超市"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "curated::chaos-sanctuary::chunk-1",
+          "title": "Chaos Sanctuary / 超市（Curated Anchor Card）",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres",
+            "postgres_bm25",
+            "postgres_vector"
+          ],
+          "fused_score": 6.59836066,
+          "lane_reason": [
+            "BM25 命中强",
+            "向量语义相近",
+            "词面/约束命中",
+            "社区锚点卡优先"
+          ],
+          "strategy_reason": null
+        },
+        {
+          "chunk_id": "curated::diablo::chunk-1",
+          "title": "Diablo / 大菠萝（Curated Anchor Card）",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres_bm25"
+          ],
+          "fused_score": 6.54761905,
+          "lane_reason": [
+            "BM25 命中强",
+            "社区锚点卡优先"
+          ],
+          "strategy_reason": null
+        },
+        {
+          "chunk_id": "structured::areas::1::The Chaos Sanctuary",
+          "title": "areas::The Chaos Sanctuary",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 6.2,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": null
+        }
+      ],
+      "reason_summary": "本题是事实查询题，优先依据结构化事实、锚点卡和高权重文本证据。\n- Chaos Sanctuary / 超市（Curated Anchor Card）: BM25 命中强；向量语义相近；词面/约束命中；社区锚点卡优先\n- Diablo / 大菠萝（Curated Anchor Card）: BM25 命中强；社区锚点卡优先\n- areas::The Chaos Sanctuary: 结构化证据优先\n- The Arreat Summit - Basics: BM25 命中强\n- All Diablo 2 Resurrected Monsters\n        \n                                  \n        \n         • diablo2.io: BM25 命中强；词面/约束命中"
+    },
+    {
+      "category": "numeric",
+      "query": "我的法师现在 FCR 是 90，带上精神盾能上一个档位吗？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "numeric_reasoning",
+      "top_title": "breakpoints::Sorceress",
+      "top_source_id": "structured-support",
+      "top_retrieval_source": "structured_support",
+      "matched_keywords": [
+        "sorceress",
+        "breakpoint",
+        "fcr"
+      ],
+      "expected_keywords": [
+        "sorceress",
+        "spirit",
+        "breakpoint",
+        "fcr"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "structured::breakpoints::1::Sorceress",
+          "title": "breakpoints::Sorceress",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 8.5,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "断点关系：法师 FCR 档位表是该数值问题的核心依据。"
+        },
+        {
+          "chunk_id": "structured::breakpoints::2::Sorceress (Lightning / Chain Lightning)",
+          "title": "breakpoints::Sorceress (Lightning / Chain Lightning)",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 8.5,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "断点关系：法师 FCR 档位表是该数值问题的核心依据。"
+        },
+        {
+          "chunk_id": "structured::breakpoints::3::Sorceress",
+          "title": "breakpoints::Sorceress",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 8.5,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "断点关系：法师 FCR 档位表是该数值问题的核心依据。"
+        }
+      ],
+      "reason_summary": "本题是数值判断题，优先依据断点表、规则约束和变量来源。\n- breakpoints::Sorceress: 结构化证据优先；断点关系：法师 FCR 档位表是该数值问题的核心依据。\n- breakpoints::Sorceress (Lightning / Chain Lightning): 结构化证据优先；断点关系：法师 FCR 档位表是该数值问题的核心依据。\n- rules::rules: 结构化证据优先；规则关系：数值问题必须优先受规则表约束，避免幻觉插值。\n- runewords::Spirit: 结构化证据优先"
+    },
+    {
+      "category": "numeric",
+      "query": "地狱劳模火抗多少？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "fact_lookup",
+      "top_title": "monster_resistances::Mephisto",
+      "top_source_id": "structured-support",
+      "top_retrieval_source": "structured_support",
+      "matched_keywords": [
+        "mephisto",
+        "75",
+        "fire"
+      ],
+      "expected_keywords": [
+        "mephisto",
+        "75",
+        "fire"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "structured::monster_resistances::1::Mephisto",
+          "title": "monster_resistances::Mephisto",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.0,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。"
+        },
+        {
+          "chunk_id": "structured::monster_resistances::2::Mephisto",
+          "title": "monster_resistances::Mephisto",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.0,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。"
+        },
+        {
+          "chunk_id": "curated::mephisto::chunk-1",
+          "title": "Mephisto / 劳模（Curated Anchor Card）",
+          "retrieval_source": "postgres_bm25",
+          "source_set": [
+            "postgres",
+            "postgres_bm25"
+          ],
+          "fused_score": 6.5852459,
+          "lane_reason": [
+            "BM25 命中强",
+            "词面/约束命中",
+            "社区锚点卡优先"
+          ],
+          "strategy_reason": null
+        }
+      ],
+      "reason_summary": "本题是事实查询题，优先依据结构化事实、锚点卡和高权重文本证据。\n- monster_resistances::Mephisto: 结构化证据优先；抗性关系：该问题直接询问劳模/墨菲斯托的抗性数据。\n- Mephisto / 劳模（Curated Anchor Card）: BM25 命中强；词面/约束命中；社区锚点卡优先\n- unique_items::Ars Dul'Mephistos: 结构化证据优先\n- skills::MephistoMissile: 结构化证据优先"
+    },
+    {
+      "category": "strategy",
+      "query": "我想玩锤丁，谜团底材去哪里刷最高效？",
+      "retrieval_backend": "postgres-hybrid",
+      "query_type": "multi_hop_strategy",
+      "top_title": "runewords::Enigma",
+      "top_source_id": "structured-support",
+      "top_retrieval_source": "structured_support",
+      "matched_keywords": [
+        "enigma",
+        "cow",
+        "ancient tunnels"
+      ],
+      "expected_keywords": [
+        "enigma",
+        "mage plate",
+        "cow",
+        "pit",
+        "ancient tunnels"
+      ],
+      "pass_top3_keyword": true,
+      "ranking_reasons": [
+        {
+          "chunk_id": "structured::runewords::1::Enigma",
+          "title": "runewords::Enigma",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.6,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "核心装备关系：该问题涉及谜团，优先展示符文之语本体。"
+        },
+        {
+          "chunk_id": "structured::areas::1::The Secret Cow Level",
+          "title": "areas::The Secret Cow Level",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.2,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "刷图场景关系：牛场常作为高密度刷底材区域。"
+        },
+        {
+          "chunk_id": "structured::areas::2::Ancient Tunnels",
+          "title": "areas::Ancient Tunnels",
+          "retrieval_source": "structured_support",
+          "source_set": [
+            "structured_support"
+          ],
+          "fused_score": 7.2,
+          "lane_reason": [
+            "结构化证据优先"
+          ],
+          "strategy_reason": "刷图场景关系：古代通道是高价值场景候选之一。"
+        }
+      ],
+      "reason_summary": "本题是多跳策略题，优先依据构筑、核心装备、底材候选与刷图场景关系。\n- runewords::Enigma: 结构化证据优先；核心装备关系：该问题涉及谜团，优先展示符文之语本体。\n- areas::The Secret Cow Level: 结构化证据优先；刷图场景关系：牛场常作为高密度刷底材区域。\n- areas::Ancient Tunnels: 结构化证据优先；刷图场景关系：古代通道是高价值场景候选之一。\n- areas::Pit Level 1: 结构化证据优先；刷图场景关系：地穴是常见高价值刷图路线。\n- base_items::Mage Plate: 结构化证据优先；底材关系：Mage Plate 是谜团的低力量需求热门底材。"
+    }
+  ],
+  "llm_cases": [
+    {
+      "category": "numeric_answer",
+      "query": "我的法师现在 FCR 是 90，带上精神盾能上一个档位吗？",
+      "retrieval_backend": "postgres-hybrid",
+      "answer_release_ready": true,
+      "answer_verification": {
+        "release_ready": true,
+        "citation_gate_passed": true,
+        "numeric_gate_passed": true,
+        "grounding_gate_passed": true,
+        "verifier_used": true,
+        "unsupported_claims": [],
+        "invalid_citations": [],
+        "missing_citation_issues": [],
+        "summary": "answer 严格基于证据。其关键数值判断均可由断点表与 Spirit 的 FCR 词缀范围直接查表得出：[S4] 给出 Spirit 的 Faster Cast Rate 为 +25% 至 +35%，因此 90 FCR 装备后为 115 至 125；[S1] 普通 Sorceress FCR 下一个高于 90 的断点是 105，所以必定上档；[S2] Lightning/Chain Lightning 下一个高于 90 的断点是 117，所以只有 Spirit 至少 27 FCR 时才上档。answer 还引用了 [S3] 的“必须精确查表、不得插值”规则，且实际推理未使用线性插值。术语“精神盾=Spirit Shield”也有 [S5] 支持。",
+        "repair_instruction": ""
+      },
+      "matched_markers": [
+        "105",
+        "117",
+        "Spirit"
+      ],
+      "expected_markers": [
+        "105",
+        "117",
+        "Spirit"
+      ],
+      "pass_answer_markers": true,
+      "answer_preview": "【结论】\n能，但要分技能类型来看。你现在 FCR 为 90，精神盾（Spirit Shield）提供的 FCR 范围是 +25% 到 +35%，所以带上后总 FCR 会变成 115 到 125。普通法师施法档位下一个阈值是 105，因此一定能上到下一档；如果你问的是闪电/连锁闪电专用施法档位，下一个阈值是 117，那么只有精神盾洗到 27% 以上时才能上档，25% 或 26% 不够。[S1][S2][S4][S5]\n\n【依据】\n- “精神盾”指的是把 Spirit 做在盾牌上，即 Spirit Shield。[S5]\n- Spirit 符文之语有 “+25-35% Faster Cast Rate”。[S4]\n- 你当前 FCR = 90，所以装备后总 FCR = 90 + 25~35 = 115~125。[S4]\n- 普通法师 FCR 档位表包含 63、105、200；从 90 往上看的下一个阈值是 105。[S1]\n- 因为最差情况也是 115，已经 ≥ 105，所以普通法术一定能上一个档位。[S1][S4]\n- 法师的闪电 / 连锁闪电专用 FCR 档位表包含 78、117、194；从 90 往上看的下一个阈值是 117。[S2]\n- 在这个专用表下，精神盾后总 FCR 范围是 115~125；因此只有当 Spirit 的 FCR 至少为 27 时，才满足 117 阈值并上档。[S2][S4]\n- 本题应按断点表精确查表比较，不应做插值或模糊估算。[S3]\n\n【关键来源】\n- [S1] breakpoints::Sorceress | https://diablo2.io/forums/character-info-t850955.html\n- [S2] breakpoints::Sorceress (Lightning / Chain Lightning) | ht",
+      "answer_sources": [
+        {
+          "label": "S1",
+          "title": "breakpoints::Sorceress",
+          "url": "https://diablo2.io/forums/character-info-t850955.html",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::breakpoints::1::Sorceress"
+        },
+        {
+          "label": "S2",
+          "title": "breakpoints::Sorceress (Lightning / Chain Lightning)",
+          "url": "https://diablo2.io/forums/character-info-t850955.html",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::breakpoints::2::Sorceress (Lightning / Chain Lightning)"
+        },
+        {
+          "label": "S3",
+          "title": "rules::rules",
+          "url": "docs/tier0/structured",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::rules::1::rules"
+        },
+        {
+          "label": "S4",
+          "title": "runewords::Spirit",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::runewords::1::Spirit"
+        },
+        {
+          "label": "S5",
+          "title": "Spirit Shield / 精神盾（Curated Anchor Card）",
+          "url": "https://diablo2.io/runewords/spirit-t3.html",
+          "source_id": "curated-anchor",
+          "authority_tier": "curated",
+          "locator": "curated::spirit-shield::chunk-1"
+        }
+      ]
+    },
+    {
+      "category": "strategy_answer",
+      "query": "我想玩锤丁，谜团底材去哪里刷最高效？",
+      "retrieval_backend": "postgres-hybrid",
+      "answer_release_ready": true,
+      "answer_verification": {
+        "release_ready": true,
+        "citation_gate_passed": true,
+        "numeric_gate_passed": true,
+        "grounding_gate_passed": true,
+        "verifier_used": true,
+        "unsupported_claims": [],
+        "invalid_citations": [],
+        "missing_citation_issues": [],
+        "summary": "answer 严格受限于已给证据：没有声称“最高效”具体是哪张图，而是明确说明证据不足，只列出被结构化标记为 high_value_base_farm_area 的候选区域，并正确引用了对应怪物密度与区域等级。[S2][S3][S4] 对谜团底材的判断也基于 Enigma 的 3 孔胸甲限制以及 Mage Plate / Dusk Shroud 的结构化字段。[S1][S5][S6] 未发现越证据推断、缺失关键引用或数值插值问题。",
+        "repair_instruction": "无需修复。若要进一步提升严谨性，可把“最直接支持的底材是 Mage Plate”改成“当前证据中，Mage Plate 与 Enigma 的 3 孔需求直接匹配”，以减少“最佳底材”语气。"
+      },
+      "matched_markers": [
+        "Mage Plate",
+        "Enigma",
+        "The Secret Cow Level"
+      ],
+      "expected_markers": [
+        "Mage Plate",
+        "Enigma",
+        "The Secret Cow Level"
+      ],
+      "pass_answer_markers": true,
+      "answer_preview": "【结论】\n按当前证据，无法严格证明锤丁刷哪张图做“谜团”底材是“最高效”的。只能确认：秘密母牛关卡、古代通道、地穴第一层这三个区域都被结构化标记为 high_value_base_farm_area，且它们在地狱难度的怪物密度分别为 800、680、600，可作为底材刷取的候选区域。[S2][S3][S4]\n\n如果从“谜团”底材本身来反推，当前证据最直接支持的底材是 Mage Plate（法师铠甲）：因为“谜团”需要 3 孔、且只能做在胸甲类物品上，而 Mage Plate 的 max_sockets=3，并被直接标记为 enigma_base_candidate。[S1][S5]\n\n另外，Dusk Shroud（灰暮寿衣）在当前证据中也被标记为 enigma_base_candidate，但其 max_sockets=4；现有证据只支持它属于候选，不能据此进一步下结论说它比 Mage Plate 更适合。[S6]\n\n【依据】\n- “谜团”符文之语的 socket_count=3，allowed_item_types 为 tors，因此现有证据只支持“谜团”需要做在 3 孔胸甲类底材上。[S1]\n- Mage Plate（法师铠甲）的 item_type 为 tors，max_sockets=3，且 heuristic_reason 为 enigma_base_candidate，因此它是当前证据最直接支持的谜团底材候选。[S5]\n- Dusk Shroud（灰暮寿衣）的 item_type 也是 tors，heuristic_reason 为 enigma_base_candidate，但其 max_sockets=4；证据只支持它是候选之一。[S6]\n- The Secret Cow Level（秘密母牛关卡）在结构化数据中 heuristic_reason 为 hig",
+      "answer_sources": [
+        {
+          "label": "S1",
+          "title": "runewords::Enigma",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::runewords::1::Enigma"
+        },
+        {
+          "label": "S2",
+          "title": "areas::The Secret Cow Level",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::areas::1::The Secret Cow Level"
+        },
+        {
+          "label": "S3",
+          "title": "areas::Ancient Tunnels",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::areas::2::Ancient Tunnels"
+        },
+        {
+          "label": "S4",
+          "title": "areas::Pit Level 1",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::areas::3::Pit Level 1"
+        },
+        {
+          "label": "S5",
+          "title": "base_items::Mage Plate",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::base_items::1::Mage Plate"
+        },
+        {
+          "label": "S6",
+          "title": "base_items::Dusk Shroud",
+          "url": "blizzhackers/d2data",
+          "source_id": "structured-support",
+          "authority_tier": "structured_db",
+          "locator": "structured::base_items::2::Dusk Shroud"
+        }
+      ]
+    }
+  ]
+}

@@ -575,6 +575,24 @@ class QueryUnderstandingEngine:
             "metadata": {},
         }
 
+    @staticmethod
+    def _class_hints_from_query(query: str) -> list[str]:
+        lowered = query.lower()
+        hints = []
+        mapping = {
+            'sorceress': ['法师', 'sorceress', 'sorc'],
+            'paladin': ['圣骑士', 'paladin', '锤丁', 'hammerdin'],
+            'amazon': ['亚马逊', 'amazon', '标马', '弓马', 'javazon', 'bowazon'],
+            'necromancer': ['死灵', 'necromancer', '召唤死灵'],
+            'assassin': ['刺客', 'assassin', '陷阱刺客', 'trapsin'],
+            'druid': ['德鲁伊', 'druid', '狼德'],
+            'barbarian': ['野蛮人', 'barbarian', 'barb'],
+        }
+        for label, terms in mapping.items():
+            if any(term in lowered or term in query for term in terms):
+                hints.append(label)
+        return hints
+
     def _lookup_structured_support(self, query: str, query_type: str, alias_matches: list[dict[str, Any]]) -> dict[str, Any]:
         canonical_terms = [str(row.get("canonical_term") or "") for row in alias_matches if row.get("canonical_term")]
         lowered = query.lower()
@@ -594,9 +612,19 @@ class QueryUnderstandingEngine:
             return name_lower in lowered or any(term.lower() == name_lower or term.lower() in name_lower for term in canonical_terms)
 
         if query_type == "numeric_reasoning":
+            class_hints = self._class_hints_from_query(query)
             for row in self.structured.get("breakpoints", []):
-                if name_matches(str(row.get("entity", ""))) or any(token in lowered for token in [str(row.get("category", "")).lower(), "fcr", "fhr", "fbr"]):
+                entity_name = str(row.get("entity", ""))
+                entity_lower = entity_name.lower()
+                category_lower = str(row.get("category", "")).lower()
+                class_match = not class_hints or any(hint in entity_lower for hint in class_hints)
+                if class_match and (name_matches(entity_name) or any(token in lowered for token in [category_lower, "fcr", "fhr", "fbr", "档位"])):
                     support["breakpoints"].append(row)
+            if class_hints and not support["breakpoints"]:
+                for row in self.structured.get("breakpoints", []):
+                    entity_lower = str(row.get("entity", "")).lower()
+                    if any(hint in entity_lower for hint in class_hints):
+                        support["breakpoints"].append(row)
             for row in self.structured.get("runewords", []):
                 if name_matches(str(row.get("name", ""))):
                     support["runewords"].append(row)
@@ -606,6 +634,47 @@ class QueryUnderstandingEngine:
                     name = str(row.get("name") or row.get("entity") or "")
                     if name and name_matches(name):
                         support[key].append(row)
+
+            # Heuristic: derive likely Enigma body-armor bases and common farm areas.
+            runeword_names = {str(row.get("name", "")) for row in support.get("runewords", [])}
+            if 'Enigma' in runeword_names or any('谜团' in term for term in canonical_terms):
+                base_candidates = []
+                for row in self.structured.get('base_items', []):
+                    if row.get('item_type') != 'tors':
+                        continue
+                    sockets = int(row.get('max_sockets') or 0)
+                    req_str = int(row.get('required_strength') or 9999)
+                    if sockets < 3:
+                        continue
+                    if int(row.get('level') or 0) < 55:
+                        continue
+                    priority_name = str(row.get('name', ''))
+                    priority_bonus = 0
+                    if priority_name == 'Mage Plate':
+                        priority_bonus = 100
+                    elif priority_name == 'Dusk Shroud':
+                        priority_bonus = 80
+                    elif priority_name == 'Archon Plate':
+                        priority_bonus = 60
+                    score = priority_bonus - req_str - abs(sockets - 3) * 20
+                    enriched = dict(row)
+                    enriched['heuristic_reason'] = 'enigma_base_candidate'
+                    enriched['heuristic_score'] = score
+                    base_candidates.append(enriched)
+                base_candidates.sort(key=lambda r: (-int(r.get('heuristic_score', 0)), int(r.get('required_strength') or 9999), str(r.get('name', ''))))
+                support['base_items'].extend(base_candidates[:4])
+
+                area_candidates = []
+                preferred_names = {'Pit Level 1', 'Pit Level 2', 'Ancient Tunnels', 'The Secret Cow Level'}
+                for row in self.structured.get('areas', []):
+                    name = str(row.get('name', ''))
+                    if name not in preferred_names:
+                        continue
+                    enriched = dict(row)
+                    enriched['heuristic_reason'] = 'high_value_base_farm_area'
+                    area_candidates.append(enriched)
+                area_candidates.sort(key=lambda r: (-int(r.get('monster_density_hell') or 0), -int(r.get('level_hell') or 0), str(r.get('name', ''))))
+                support['areas'].extend(area_candidates[:4])
         if query_type == "fact_lookup":
             for key in ("unique_items", "runewords", "areas", "monster_resistances", "skills"):
                 for row in self.structured.get(key, []):

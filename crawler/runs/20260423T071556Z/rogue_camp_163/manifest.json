@@ -1,0 +1,80 @@
+{
+  "source": {
+    "id": "rogue_camp_163",
+    "label": "网易罗格营地论坛",
+    "enabled": true,
+    "weight": 0.9,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://bbs.d.163.com/forum-458-1.html",
+    "robots_url": "https://bbs.d.163.com/robots.txt",
+    "authority_tier": "forum",
+    "lane": "forum",
+    "language": "zh",
+    "encoding_hints": [
+      "gbk",
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://bbs.d.163.com/forum-458-1.html"
+    ],
+    "curated_urls": [],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://bbs\\.d\\.163\\.com/thread-\\d+-1-1\\.html$",
+        "https://bbs\\.d\\.163\\.com/forum\\.php\\?mod=viewthread&tid=\\d+.*"
+      ],
+      "exclude": [
+        "member\\.php",
+        "search\\.php",
+        "forum-458-\\d+\\.html"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "thread",
+        "攻略",
+        "配装"
+      ],
+      "denied_keywords": [
+        "trade",
+        "交易"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "交易",
+        "交友",
+        "卖号",
+        "估价"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "社区论坛入口，可后续补 curated 白名单。"
+  },
+  "generated_at": "2026-04-23T07:15:56+00:00",
+  "seed_count": 1,
+  "candidate_count": 0,
+  "status": "seed-only",
+  "seeds": [
+    {
+      "url": "https://bbs.d.163.com/forum-458-1.html",
+      "status": 200,
+      "content_type": "text/html; charset=gbk",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 11821,
+      "discovered_candidates": []
+    }
+  ],
+  "pages": []
+}

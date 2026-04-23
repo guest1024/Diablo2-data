@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  pg17:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        UBUNTU_MIRROR: mirrors.tencent.com
+        PG_MAJOR: 17
+        PG_VERSION: 17.5
+        PGVECTOR_VERSION: v0.8.2
+        PG_TEXTSEARCH_REF: v1.1.0
+    container_name: d2-pg17
+    environment:
+      POSTGRES_USER: d2
+      POSTGRES_PASSWORD: d2pass
+      POSTGRES_DB: d2
+      PGPORT: 5432
+      AUTO_LOAD_APP_SCHEMA: 'true'
+      AUTO_LOAD_BUNDLES: 'true'
+      TZ: Asia/Shanghai
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ../../sql/postgres:/bootstrap/sql/postgres:ro
+      - ../../:/home/user/diablo2-data:ro
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/postgresql/bin/pg_isready -h 127.0.0.1 -p 5432 -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    restart: unless-stopped
+    shm_size: '1gb'

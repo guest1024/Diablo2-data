@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-21T15:43:43.431590+00:00",
+  "generated_at": "2026-04-23T08:04:28.356148+00:00",
   "verification_suite": {
-    "passed": 12,
-    "total": 12
+    "passed": 11,
+    "total": 13
   },
   "routing_matrix": {
     "queries": 66,
@@ -10,7 +10,7 @@
     "primary": 6
   },
   "surface_coverage": {
-    "generated_at": "2026-04-21T15:43:43.265547+00:00",
+    "generated_at": "2026-04-23T08:04:28.324540+00:00",
     "term_map_entries": 71,
     "curated_anchor_documents": 56,
     "curated_anchor_chunks": 56,

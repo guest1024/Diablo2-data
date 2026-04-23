@@ -1,0 +1,20 @@
+{
+  "source_id": "17173_d2r",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct",
+  "observed_status": "direct-ok",
+  "saved_snapshots": 4,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "saved": 3,
+    "frozen": 1
+  },
+  "lifecycle_summary": {
+    "unchanged": 1,
+    "frozen": 1,
+    "new": 2
+  },
+  "last_run_status": "captured",
+  "notes": "中文新闻/攻略专区，可发现较多历史页面。"
+}

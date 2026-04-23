@@ -1,0 +1,124 @@
+{
+  "source": {
+    "id": "gamersky_d2r",
+    "label": "游民星空 D2R 专区",
+    "enabled": true,
+    "weight": 0.83,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://www.gamersky.com/z/dresurrected/",
+    "robots_url": "https://www.gamersky.com/robots.txt",
+    "authority_tier": "guide",
+    "lane": "portal",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://www.gamersky.com/z/dresurrected/",
+      "https://www.gamersky.com/z/dresurrected/handbook/"
+    ],
+    "curated_urls": [],
+    "discovery": {
+      "same_host": false,
+      "include": [
+        "https?://www\\.gamersky\\.com/(handbook|news)/\\d+/.+\\.shtml$"
+      ],
+      "exclude": [
+        "/down/",
+        "/wap"
+      ]
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "handbook",
+        "dresurrected"
+      ],
+      "denied_keywords": [
+        "down"
+      ]
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [
+        "down"
+      ],
+      "exclude_title_keywords": [
+        "下载",
+        "视频",
+        "DLC购买指南"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "攻略、新闻入口较稳定。"
+  },
+  "generated_at": "2026-04-23T06:26:57+00:00",
+  "seed_count": 2,
+  "candidate_count": 1,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://www.gamersky.com/z/dresurrected/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 98737,
+      "discovered_candidates": [
+        "https://www.gamersky.com/handbook/202602/2091524.shtml",
+        "https://www.gamersky.com/handbook/202602/2091359.shtml",
+        "https://www.gamersky.com/handbook/202110/1427694.shtml",
+        "https://www.gamersky.com/handbook/202109/1426363.shtml",
+        "https://www.gamersky.com/handbook/202109/1426340.shtml",
+        "https://www.gamersky.com/handbook/202109/1426247.shtml",
+        "https://www.gamersky.com/handbook/202109/1426152.shtml",
+        "https://www.gamersky.com/handbook/202109/1426073.shtml"
+      ]
+    },
+    {
+      "url": "https://www.gamersky.com/z/dresurrected/handbook/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 72042,
+      "discovered_candidates": [
+        "https://www.gamersky.com/handbook/202602/2091524.shtml",
+        "https://www.gamersky.com/handbook/202602/2091359.shtml",
+        "https://www.gamersky.com/handbook/202508/1972373.shtml",
+        "https://www.gamersky.com/handbook/202110/1427694.shtml",
+        "https://www.gamersky.com/handbook/202109/1426363.shtml",
+        "https://www.gamersky.com/handbook/202109/1426340.shtml",
+        "https://www.gamersky.com/handbook/202109/1426247.shtml",
+        "https://www.gamersky.com/handbook/202109/1426152.shtml"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "gamersky_d2r",
+      "source_label": "游民星空 D2R 专区",
+      "authority_tier": "guide",
+      "lane": "portal",
+      "url": "https://www.gamersky.com/handbook/202602/2091524.shtml",
+      "title": "《暗黑破坏神2重制版》术士君临DLC购买指南 术士君临DLC价格与玩法介绍-游民星空 GamerSky.com",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": null,
+      "robots_note": "ok",
+      "note": "excluded-by-title-keyword",
+      "lifecycle_status": "ignored",
+      "capture_status": "filtered",
+      "snapshot_id": null,
+      "snapshot_path": null,
+      "seen_at": "2026-04-23T06:26:57+00:00",
+      "run_id": "20260423T062657Z"
+    }
+  ]
+}

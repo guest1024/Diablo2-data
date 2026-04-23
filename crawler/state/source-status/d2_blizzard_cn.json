@@ -1,0 +1,19 @@
+{
+  "source_id": "d2_blizzard_cn",
+  "enabled": true,
+  "region": "CN",
+  "transport": "direct",
+  "observed_status": "direct-ok",
+  "saved_snapshots": 1,
+  "manual_curated_count": 0,
+  "capture_summary": {
+    "filtered": 1,
+    "frozen": 1
+  },
+  "lifecycle_summary": {
+    "ignored": 1,
+    "frozen": 1
+  },
+  "last_run_status": "captured",
+  "notes": "官方中文入口，适合新闻、公告、术语层快照。"
+}

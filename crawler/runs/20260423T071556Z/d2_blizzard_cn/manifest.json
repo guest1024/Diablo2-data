@@ -1,0 +1,130 @@
+{
+  "source": {
+    "id": "d2_blizzard_cn",
+    "label": "暴雪国服暗黑2中文站",
+    "enabled": true,
+    "weight": 0.99,
+    "region": "CN",
+    "transport": "direct",
+    "observed_on": "2026-04-23",
+    "observed_status": "direct-ok",
+    "home_url": "https://d2.blizzard.cn/",
+    "robots_url": "https://d2.blizzard.cn/robots.txt",
+    "authority_tier": "official",
+    "lane": "official",
+    "language": "zh",
+    "encoding_hints": [
+      "utf-8"
+    ],
+    "seed_urls": [
+      "https://d2.blizzard.cn/sitemap.txt",
+      "https://d2.blizzard.cn/news/"
+    ],
+    "curated_urls": [
+      "https://d2.blizzard.cn/news/24271875/index.html"
+    ],
+    "discovery": {
+      "same_host": true,
+      "include": [
+        "https://d2\\.blizzard\\.cn/news/.+\\.html$",
+        "https://d2\\.blizzard\\.cn/news/.+/index\\.html$"
+      ],
+      "exclude": []
+    },
+    "selection": {
+      "prefer_curated": true,
+      "preferred_keywords": [
+        "news",
+        "24271875",
+        "patch",
+        "补丁",
+        "update"
+      ],
+      "denied_keywords": []
+    },
+    "snapshot": {
+      "immutable_after_capture": true,
+      "store_raw_content": true
+    },
+    "relevance": {
+      "exclude_url_keywords": [],
+      "exclude_title_keywords": [
+        "处罚公告"
+      ],
+      "exclude_text_keywords": []
+    },
+    "notes": "官方中文入口，适合新闻、公告、术语层快照。"
+  },
+  "generated_at": "2026-04-23T07:15:56+00:00",
+  "seed_count": 3,
+  "candidate_count": 4,
+  "status": "captured",
+  "seeds": [
+    {
+      "url": "https://d2.blizzard.cn/news/24271875/index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 14653,
+      "discovered_candidates": []
+    },
+    {
+      "url": "https://d2.blizzard.cn/sitemap.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 1311,
+      "discovered_candidates": [
+        "https://d2.blizzard.cn/news/20260203/42929_1285202.html",
+        "https://d2.blizzard.cn/news/24271875/index.html",
+        "https://d2.blizzard.cn/news/262126142/index.html",
+        "https://d2.blizzard.cn/news/24243863/index.html",
+        "https://d2.blizzard.cn/news/24246296/index.html",
+        "https://d2.blizzard.cn/news/20251222/42929_1277898.html",
+        "https://d2.blizzard.cn/news/24250349/index.html",
+        "https://d2.blizzard.cn/news/20251027/42929_1267224.html"
+      ]
+    },
+    {
+      "url": "https://d2.blizzard.cn/news/",
+      "status": 200,
+      "content_type": "text/html",
+      "note": null,
+      "robots_note": "ok",
+      "bytes": 31997,
+      "discovered_candidates": [
+        "https://d2.blizzard.cn/news/24271875/index.html",
+        "https://d2.blizzard.cn/news/262126142/index.html",
+        "https://d2.blizzard.cn/news/24243863/index.html",
+        "https://d2.blizzard.cn/news/24246296/index.html",
+        "https://d2.blizzard.cn/news/20260203/42929_1285202.html",
+        "https://d2.blizzard.cn/news/20251222/42929_1277898.html",
+        "https://d2.blizzard.cn/news/24250349/index.html",
+        "https://d2.blizzard.cn/news/20251027/42929_1267224.html"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source_id": "d2_blizzard_cn",
+      "source_label": "暴雪国服暗黑2中文站",
+      "authority_tier": "official",
+      "lane": "official",
+      "url": "https://d2.blizzard.cn/news/24271875/index.html",
+      "title": "术士君临 - 3.1.2补丁说明 - 新闻 - 《暗黑破坏神II》官方网站",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "fadaf9f6bc2e136ac2494c7dbcdfb825c100e0a7d9fcbcc68c9273f8b540b5eb",
+      "robots_note": "",
+      "note": "skipped-existing-catalog-entry",
+      "lifecycle_status": "frozen",
+      "capture_status": "frozen",
+      "snapshot_id": "snapshot::d2_blizzard_cn::a6f58d48f348da6f0f9a",
+      "snapshot_path": "snapshots/d2_blizzard_cn/d2_blizzard_cn--a6f58d48f348da6f0f9a.html",
+      "seen_at": "2026-04-23T07:15:56+00:00",
+      "run_id": "20260423T071556Z"
+    }
+  ]
+}

@@ -3,8 +3,8 @@ from __future__ import annotations
 
 import json
 import os
-import shutil
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,8 +19,8 @@ from app.service import Diablo2QAService
 CASES = [
     {
         "query": "Spirit 是什么？",
-        "expected_source_id": "diablo2-io",
-        "expected_retrieval_source": "entity_link",
+        "expected_source_id": ["diablo2-io", "structured-support"],
+        "expected_retrieval_source": ["entity_link", "structured_support"],
         "expected_title_contains": "Spirit",
         "lane": "primary",
     },
@@ -489,12 +489,8 @@ def expect(condition: bool, message: str) -> None:
 
 
 def main() -> int:
-    chroma_dir = ROOT / ".data/chroma"
-    if chroma_dir.exists():
-        shutil.rmtree(chroma_dir)
-    chroma_dir.mkdir(parents=True, exist_ok=True)
-
-    service = Diablo2QAService()
+    chroma_dir = Path(tempfile.mkdtemp(prefix="d2-routing-matrix-", dir="/tmp"))
+    service = Diablo2QAService(chroma_persist_dir=chroma_dir)
     ingest = service.ingest()
 
     rows: list[dict[str, object]] = []
@@ -502,9 +498,11 @@ def main() -> int:
         body = service.answer(case["query"], use_llm=False)
         top = body["chunks"][0]
         title = str(top["metadata"]["title"])
+        expected_sources = case["expected_source_id"] if isinstance(case["expected_source_id"], list) else [case["expected_source_id"]]
+        expected_retrievals = case["expected_retrieval_source"] if isinstance(case["expected_retrieval_source"], list) else [case["expected_retrieval_source"]]
         passed = (
-            top["metadata"]["source_id"] == case["expected_source_id"]
-            and top["retrieval_source"] == case["expected_retrieval_source"]
+            top["metadata"]["source_id"] in expected_sources
+            and top["retrieval_source"] in expected_retrievals
             and case["expected_title_contains"] in title
         )
         expect(passed, f"{case['query']} routes as expected")
