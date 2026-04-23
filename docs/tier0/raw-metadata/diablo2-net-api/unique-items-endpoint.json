@@ -1,0 +1,12 @@
+{
+  "label": "unique-items-endpoint",
+  "url": "https://www.diablo-2.net/api/unique-items?item=TheGrandFather&base-item=colossus_blade&class=Assassin&level=55&strength=75&dexterity=75&theme=d2r&identified=yes&output=json",
+  "output_path": "docs/tier0/raw/diablo2-net-api/unique-items-endpoint.json",
+  "sha256": "62d456430032a77dffd110e5eb64bb419fd820d9cbe054e67d6da58a1113637a",
+  "bytes_written": 50,
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

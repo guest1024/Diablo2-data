@@ -1,0 +1,17 @@
+{
+  "catalog_key": "3dm_d2r::https://www.3dmgame.com/gl/3836959.html",
+  "source_id": "3dm_d2r",
+  "source_label": "3DM D2R 攻略页",
+  "url": "https://www.3dmgame.com/gl/3836959.html",
+  "title": "暗黑破坏神2重制版攻略_图文攻略百科攻略_3DM单机",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "9d2e74f23ec90a03f146f7bf802994f5b4e45f71dcbb443cfa02d3c0a387fe24",
+  "snapshot_id": "snapshot::3dm_d2r::d7119f6d3d26161f68d3",
+  "snapshot_path": "snapshots/3dm_d2r/www.3dmgame.com/gl/3836959.html",
+  "capture_status": "frozen",
+  "lifecycle_status": "frozen",
+  "first_seen_at": "2026-04-23T07:05:54+00:00",
+  "last_seen_at": "2026-04-23T07:15:56+00:00",
+  "last_run_id": "20260423T071556Z"
+}

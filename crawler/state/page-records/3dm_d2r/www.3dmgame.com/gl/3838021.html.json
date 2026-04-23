@@ -1,0 +1,17 @@
+{
+  "catalog_key": "3dm_d2r::https://www.3dmgame.com/gl/3838021.html",
+  "source_id": "3dm_d2r",
+  "source_label": "3DM D2R 攻略页",
+  "url": "https://www.3dmgame.com/gl/3838021.html",
+  "title": "暗黑破坏神2重制版装备系统详解_装备合成公式属性词缀详解_3DM单机",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "3de2197acdaef9006cc5ad54954041993b73f0ca3d5a320981a2e63e8c2ce1ae",
+  "snapshot_id": "snapshot::3dm_d2r::63057df38ffc1fe8e1cf",
+  "snapshot_path": "snapshots/3dm_d2r/www.3dmgame.com/gl/3838021.html",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "monsters",
+  "url": "https://diablo2.io/monsters/",
+  "output_path": "docs/tier0/raw/diablo2-io/monsters.html",
+  "sha256": "d8a2cf19f7d2fbc754105ce3150f67b225981d28aa0d2edf5d1d4195f4021344",
+  "bytes_written": 916750,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

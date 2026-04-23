@@ -1,0 +1,12 @@
+{
+  "label": "classes",
+  "url": "https://classic.battle.net/diablo2exp/classes/",
+  "output_path": "docs/tier0/raw/arreat-summit/classes.html",
+  "sha256": "b7e554e22c5cbb1649583622b2a9fffe7b4cdd2b977655e29fb055d3004a31cb",
+  "bytes_written": 17713,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

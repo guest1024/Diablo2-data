@@ -1,0 +1,17 @@
+{
+  "catalog_key": "news_blizzard_zh_tw::https://news.blizzard.com/zh-tw/article/23725427",
+  "source_id": "news_blizzard_zh_tw",
+  "source_label": "暴雪新闻 zh-TW Diablo II",
+  "url": "https://news.blizzard.com/zh-tw/article/23725427",
+  "title": "《暗黑破壞神 II》：截至目前為止的故事 — 《暗黑破壞神 II：獄火重生》 — 暴雪消息",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": null,
+  "snapshot_id": null,
+  "snapshot_path": null,
+  "capture_status": "ignored",
+  "lifecycle_status": "ignored",
+  "first_seen_at": "2026-04-23T07:13:33+00:00",
+  "last_seen_at": "2026-04-23T07:15:56+00:00",
+  "last_run_id": "20260423T071556Z"
+}

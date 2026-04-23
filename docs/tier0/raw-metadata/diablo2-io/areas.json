@@ -1,0 +1,12 @@
+{
+  "label": "areas",
+  "url": "https://diablo2.io/areas/",
+  "output_path": "docs/tier0/raw/diablo2-io/areas.html",
+  "sha256": "e84004cffd2b64052789ee46b4ace00dfc2c4bdd693902a18bd118004f2e4703",
+  "bytes_written": 901598,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

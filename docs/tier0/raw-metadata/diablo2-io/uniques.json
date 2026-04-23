@@ -1,0 +1,12 @@
+{
+  "label": "uniques",
+  "url": "https://diablo2.io/uniques/",
+  "output_path": "docs/tier0/raw/diablo2-io/uniques.html",
+  "sha256": "49a3a0e64d8baa78673c063c617d496d1e2ee1ebd8b430ccb20da307b3f7b3da",
+  "bytes_written": 2672296,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

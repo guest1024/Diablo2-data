@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T08:04:28.392432+00:00",
+  "generated_at": "2026-04-23T10:00:18.373090+00:00",
   "curated_cards": 56,
   "cards": [
     {
@@ -448,7 +448,9 @@
         "Nova",
         "Lightning"
       ],
-      "queries": []
+      "queries": [
+        "新星电法是什么？"
+      ]
     },
     {
       "title": "Magefist / 法拳（Curated Anchor Card）",
@@ -563,9 +565,7 @@
         "Nova",
         "Lightning"
       ],
-      "queries": [
-        "新星电法是什么？"
-      ]
+      "queries": []
     },
     {
       "title": "Pindleskin / 老P（Curated Anchor Card）",

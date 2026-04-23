@@ -1,0 +1,12 @@
+{
+  "label": "homepage",
+  "url": "https://classic.battle.net/diablo2exp/",
+  "output_path": "docs/tier0/raw/arreat-summit/homepage.html",
+  "sha256": "0e61b41e21b65fef109383ae833463e93e81d2b7b9a12b01dd8d6b0bc27227bf",
+  "bytes_written": 18688,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

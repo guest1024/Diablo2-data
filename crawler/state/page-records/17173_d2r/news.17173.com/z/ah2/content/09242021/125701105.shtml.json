@@ -1,0 +1,17 @@
+{
+  "catalog_key": "17173_d2r::http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+  "source_id": "17173_d2r",
+  "source_label": "17173 暗黑2重制版专区",
+  "url": "http://news.17173.com/z/ah2/content/09242021/125701105.shtml",
+  "title": "《暗黑破坏神2重制版》地狱难度怎么过 野蛮人地狱难度通关攻略_暗黑2重制版_17173.com中国游戏门户站",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "aa26564d43cdb1497c32b1272e02b4cd8f5c5bb2908846e8874bf6e49ba4a69b",
+  "snapshot_id": "snapshot::17173_d2r::8246b8a6ad12e7fa023f",
+  "snapshot_path": "snapshots/17173_d2r/news.17173.com/z/ah2/content/09242021/125701105.shtml",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

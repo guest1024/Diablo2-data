@@ -21,6 +21,14 @@ python3 crawler/run_snapshot.py --limit-per-source 2
 - 哪些页面被冻结
 - 哪些页面被过滤为无关内容
 
+### 1.1 `crawler/state/page-records/<source_id>/*.json`
+逐网页层记录。
+适合查看：
+- 某个静态页是否已经首抓完成
+- 某个页面文件是否发生过显式刷新
+- data branch 中正文 HTML 旁边是否有对应详情 JSON
+- 是否已经形成接近 wget mirror 的 host/path 层级
+
 ### 2. `crawler/state/source-health.json`
 查看各来源最近一次：
 - 是否可达
@@ -36,6 +44,11 @@ python3 crawler/run_snapshot.py --limit-per-source 2
 - `frozen`：已存在快照，本次跳过正文抓取
 - `filtered`：命中无关内容过滤，不保存
 - `ignored`：之前已被过滤，本次直接跳过
+
+说明：
+- `saved/frozen/ignored` 的静态页默认不重复抓正文
+- 页面级记录文件只在首次抓取、过滤建档或显式刷新时更新
+- 快照正文和详情 JSON 都按原始 host/path 目录输出，便于直接静态托管
 
 ## 异常处理
 
@@ -166,6 +179,22 @@ python3 crawler/export_snapshot_relations.py
 
 导出仅包含有效 `url -> snapshot_path` 关系的 `crawler/state/snapshot-relations.jsonl`，方便后续自定义转换链路直接消费。
 
+## 页面层逐文件导出
+
+```bash
+python3 crawler/export_page_records.py
+```
+
+把 `page_catalog.json` 拆成 `crawler/state/page-records/<source_id>/*.json`，用于给镜像正文补充详情索引。
+
+## 镜像目录检查
+
+推荐抽查：
+- `crawler/snapshots/<source_id>/<host>/...`
+- `crawler/state/page-records/<source_id>/<host>/...`
+
+确认正文 HTML 与详情 JSON 是否都保留了原始 URL 层级。
+
 ## Data Branch 精简发布
 
 ```bash
@@ -213,3 +242,11 @@ python3 crawler/build_data_branch_manifest.py
 ## 首次真实推送清单
 
 详见 `crawler/DATA_BRANCH_PUSH_CHECKLIST.md`，用于首次真实执行 `data` 分支推送前的操作检查。
+
+## Page Catalog 分片导出
+
+```bash
+python3 crawler/export_page_catalog_partitions.py
+```
+
+将集中式 `page_catalog.json` 按来源拆分到 `crawler/state/page-catalog/<source_id>.jsonl`，同时保留索引文件。

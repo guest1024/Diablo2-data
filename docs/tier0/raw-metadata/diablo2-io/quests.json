@@ -1,0 +1,12 @@
+{
+  "label": "quests",
+  "url": "https://diablo2.io/quests/",
+  "output_path": "docs/tier0/raw/diablo2-io/quests.html",
+  "sha256": "08245caff7fe0fee034872d5cdd683972550a002b951476b262fe165782e2e87",
+  "bytes_written": 302932,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

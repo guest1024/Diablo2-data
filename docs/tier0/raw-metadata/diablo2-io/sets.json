@@ -1,0 +1,12 @@
+{
+  "label": "sets",
+  "url": "https://diablo2.io/sets/",
+  "output_path": "docs/tier0/raw/diablo2-io/sets.html",
+  "sha256": "bd63ea56d39269e7702b5f520461e12221bf70998eaf89dc9e1c8ed748382075",
+  "bytes_written": 1281498,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

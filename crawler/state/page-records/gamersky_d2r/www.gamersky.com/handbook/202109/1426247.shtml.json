@@ -1,0 +1,17 @@
+{
+  "catalog_key": "gamersky_d2r::https://www.gamersky.com/handbook/202109/1426247.shtml",
+  "source_id": "gamersky_d2r",
+  "source_label": "游民星空 D2R 专区",
+  "url": "https://www.gamersky.com/handbook/202109/1426247.shtml",
+  "title": "《暗黑破坏神2重制版》第一幕地图详解_冰冷之原-游民星空 GamerSky.com",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "7d3ef63f10d1328e60af594729aa3a421dedca8dfcc51f3fb875fd2387cf2250",
+  "snapshot_id": "snapshot::gamersky_d2r::31e9bdff8dd69e000072",
+  "snapshot_path": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426247.shtml",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

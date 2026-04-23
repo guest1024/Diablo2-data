@@ -1,0 +1,17 @@
+{
+  "catalog_key": "3dm_d2r::https://www.3dmgame.com/gl/3837440.html",
+  "source_id": "3dm_d2r",
+  "source_label": "3DM D2R 攻略页",
+  "url": "https://www.3dmgame.com/gl/3837440.html",
+  "title": "暗黑破坏神2重制版隐藏关卡超级boss攻略_6boss红门钥匙攻略_3DM单机",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "e650e49b51f21cfa9f68f96d610594278ae3b93c92d9940aaa17454850c31fea",
+  "snapshot_id": "snapshot::3dm_d2r::639744f591661d192fe3",
+  "snapshot_path": "snapshots/3dm_d2r/www.3dmgame.com/gl/3837440.html",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "skills",
+  "url": "https://classic.battle.net/diablo2exp/skills/",
+  "output_path": "docs/tier0/raw/arreat-summit/skills.html",
+  "sha256": "61d23d4757dd76181e75a2025c40e6b876220a6814856aed2d0078f593b9571d",
+  "bytes_written": 22872,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

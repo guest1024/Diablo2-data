@@ -1,0 +1,12 @@
+{
+  "label": "base",
+  "url": "https://diablo2.io/base/",
+  "output_path": "docs/tier0/raw/diablo2-io/base.html",
+  "sha256": "4ad36a951e7cdf87bf7ee7be15cbbcc73c55bd0087efec44c9b23783edac4e1c",
+  "bytes_written": 4076818,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

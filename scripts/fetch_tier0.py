@@ -17,6 +17,7 @@ from urllib.request import Request, urlopen
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; Diablo2KnowledgeBot/1.0; +https://example.invalid/bot)"
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class LinkExtractor(HTMLParser):
@@ -45,6 +46,7 @@ class FetchResult:
     sha256: str | None
     discovered_url_count: int
     discovered_url_sample: list[str]
+    fetch_mode: str = "full"
     note: str | None = None
 
 
@@ -172,10 +174,42 @@ def discover_urls(url: str, body: bytes, content_type: str | None, rules: dict |
     return []
 
 
-def fetch(url: str, timeout: int = 12) -> tuple[int, bytes, str | None]:
-    req = Request(url, headers={"User-Agent": USER_AGENT})
+def metadata_path(output_root: Path, source_id: str, label: str) -> Path:
+    safe_label = re.sub(r"[^A-Za-z0-9._-]+", "-", label).strip("-") or "target"
+    return output_root / "raw-metadata" / source_id / f"{safe_label}.json"
+
+
+def load_target_metadata(path: Path) -> dict | None:
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
+
+
+def write_target_metadata(path: Path, payload: dict) -> None:
+    write_text(path, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+
+
+def build_request(url: str, etag: str | None = None, last_modified: str | None = None) -> Request:
+    headers = {"User-Agent": USER_AGENT}
+    if etag:
+        headers["If-None-Match"] = etag
+    if last_modified:
+        headers["If-Modified-Since"] = last_modified
+    return Request(url, headers=headers)
+
+
+def fetch(url: str, timeout: int = 12, *, etag: str | None = None, last_modified: str | None = None) -> tuple[int, bytes, str | None, dict[str, str | None]]:
+    req = build_request(url, etag=etag, last_modified=last_modified)
     with urlopen(req, timeout=timeout) as resp:
-        return resp.getcode(), resp.read(), resp.headers.get("Content-Type")
+        headers = {
+            "content_type": resp.headers.get("Content-Type"),
+            "etag": resp.headers.get("ETag"),
+            "last_modified": resp.headers.get("Last-Modified"),
+        }
+        return resp.getcode(), resp.read(), resp.headers.get("Content-Type"), headers
 
 
 def write_text(path: Path, text: str) -> None:
@@ -264,6 +298,7 @@ def main() -> int:
     parser.add_argument("--output-root", default="docs/tier0")
     parser.add_argument("--source", action="append", default=[])
     parser.add_argument("--timeout", type=int, default=12)
+    parser.add_argument("--force-refresh", action="store_true", help="ignore cached fetch metadata and force full re-fetch")
     args = parser.parse_args()
 
     registry_path = Path(args.registry)
@@ -285,30 +320,55 @@ def main() -> int:
             rel_path = target.get("path")
             preferred_output_name = rel_path or f"{slug_from_url(url)}"
             existing_guess = output_root / "raw" / source["id"] / preferred_output_name
+            target_meta_path = metadata_path(output_root, source["id"], label)
+            target_meta = load_target_metadata(target_meta_path)
             if existing_guess.exists():
                 body = existing_guess.read_bytes()
                 content_type = content_type_from_path(existing_guess)
+                cached_sha = hashlib.sha256(body).hexdigest()
                 discovered = discover_urls(url, body, content_type, discovery_rules)
                 inventory_urls.extend(discovered)
-                results.append(
-                    FetchResult(
-                        source_id=source["id"],
-                        label=label,
-                        url=url,
-                        output_path=str(existing_guess),
-                        status="cached",
-                        http_status=200,
-                        content_type=content_type,
-                        bytes_written=len(body),
-                        sha256=hashlib.sha256(body).hexdigest(),
-                        discovered_url_count=len(discovered),
-                        discovered_url_sample=discovered[:15],
-                        note="reused existing capture",
+                if target_meta is None and not args.force_refresh:
+                    write_target_metadata(
+                        target_meta_path,
+                        {
+                            "label": label,
+                            "url": url,
+                            "output_path": str(existing_guess.resolve().relative_to(ROOT)),
+                            "sha256": cached_sha,
+                            "bytes_written": len(body),
+                            "content_type": content_type,
+                            "etag": None,
+                            "last_modified": None,
+                            "fetched_at": now_iso(),
+                            "fetch_mode": "cache-bootstrap",
+                        },
                     )
-                )
-                continue
+                    results.append(
+                        FetchResult(
+                            source_id=source["id"],
+                            label=label,
+                            url=url,
+                            output_path=str(existing_guess),
+                            status="cached",
+                            http_status=200,
+                            content_type=content_type,
+                            bytes_written=len(body),
+                            sha256=cached_sha,
+                            discovered_url_count=len(discovered),
+                            discovered_url_sample=discovered[:15],
+                            fetch_mode="cache-bootstrap",
+                            note="reused existing capture and bootstrapped snapshot metadata",
+                        )
+                    )
+                    continue
             try:
-                http_status, body, content_type = fetch(url, timeout=args.timeout)
+                http_status, body, content_type, response_meta = fetch(
+                    url,
+                    timeout=args.timeout,
+                    etag=None if args.force_refresh else (target_meta or {}).get("etag"),
+                    last_modified=None if args.force_refresh else (target_meta or {}).get("last_modified"),
+                )
                 extension = guess_extension(content_type, url)
                 output_name = rel_path or f"{slug_from_url(url)}{extension}"
                 output_path = output_root / "raw" / source["id"] / output_name
@@ -316,6 +376,22 @@ def main() -> int:
                 discovered = discover_urls(url, body, content_type, discovery_rules)
                 inventory_urls.extend(discovered)
                 sha256 = hashlib.sha256(body).hexdigest()
+                fetch_mode = "full" if args.force_refresh or target_meta is None else "conditional-refresh"
+                write_target_metadata(
+                    target_meta_path,
+                    {
+                        "label": label,
+                        "url": url,
+                        "output_path": str(output_path.resolve().relative_to(ROOT)),
+                        "sha256": sha256,
+                        "bytes_written": len(body),
+                        "content_type": content_type,
+                        "etag": response_meta.get("etag"),
+                        "last_modified": response_meta.get("last_modified"),
+                        "fetched_at": now_iso(),
+                        "fetch_mode": fetch_mode,
+                    },
+                )
                 results.append(
                     FetchResult(
                         source_id=source["id"],
@@ -329,9 +405,50 @@ def main() -> int:
                         sha256=sha256,
                         discovered_url_count=len(discovered),
                         discovered_url_sample=discovered[:15],
+                        fetch_mode=fetch_mode,
                     )
                 )
             except HTTPError as exc:
+                if exc.code == 304 and existing_guess.exists():
+                    body = existing_guess.read_bytes()
+                    content_type = content_type_from_path(existing_guess)
+                    discovered = discover_urls(url, body, content_type, discovery_rules)
+                    inventory_urls.extend(discovered)
+                    sha256 = hashlib.sha256(body).hexdigest()
+                    write_target_metadata(
+                        target_meta_path,
+                        {
+                            **(target_meta or {}),
+                            "label": label,
+                            "url": url,
+                            "output_path": str(existing_guess.resolve().relative_to(ROOT)),
+                            "sha256": sha256,
+                            "bytes_written": len(body),
+                            "content_type": content_type,
+                            "etag": exc.headers.get("ETag") or (target_meta or {}).get("etag"),
+                            "last_modified": exc.headers.get("Last-Modified") or (target_meta or {}).get("last_modified"),
+                            "fetched_at": now_iso(),
+                            "fetch_mode": "conditional-not-modified",
+                        },
+                    )
+                    results.append(
+                        FetchResult(
+                            source_id=source["id"],
+                            label=label,
+                            url=url,
+                            output_path=str(existing_guess),
+                            status="not_modified",
+                            http_status=304,
+                            content_type=content_type,
+                            bytes_written=len(body),
+                            sha256=sha256,
+                            discovered_url_count=len(discovered),
+                            discovered_url_sample=discovered[:15],
+                            fetch_mode="conditional-not-modified",
+                            note="server reported not modified; reused existing snapshot",
+                        )
+                    )
+                    continue
                 body = exc.read()
                 extension = ".txt" if "text" in (exc.headers.get("Content-Type") or "").lower() else ".bin"
                 output_name = rel_path or f"{slug_from_url(url)}{extension}"
@@ -354,6 +471,7 @@ def main() -> int:
                         sha256=hashlib.sha256(body).hexdigest(),
                         discovered_url_count=0,
                         discovered_url_sample=[],
+                        fetch_mode="error",
                         note=note,
                     )
                 )
@@ -374,6 +492,7 @@ def main() -> int:
                         sha256=None,
                         discovered_url_count=0,
                         discovered_url_sample=[],
+                        fetch_mode="error",
                         note=str(exc),
                     )
                 )
@@ -394,6 +513,7 @@ def main() -> int:
                         sha256=None,
                         discovered_url_count=0,
                         discovered_url_sample=[],
+                        fetch_mode="error",
                         note=repr(exc),
                     )
                 )

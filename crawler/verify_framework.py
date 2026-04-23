@@ -18,6 +18,8 @@ MANUAL_VALIDATOR = ROOT / "validate_manual_curated_urls.py"
 MANUAL_BACKLOG = ROOT / "build_manual_curated_backlog.py"
 MANUAL_MANAGER = ROOT / "manage_manual_curated_urls.py"
 RELATION_EXPORTER = ROOT / "export_snapshot_relations.py"
+CATALOG_PARTITION_EXPORTER = ROOT / "export_page_catalog_partitions.py"
+PAGE_RECORD_EXPORTER = ROOT / "export_page_records.py"
 PUBLISH_AUDITOR = ROOT / "audit_publish_bundle.py"
 DATA_BRANCH_MANIFEST = ROOT / "build_data_branch_manifest.py"
 READINESS_CHECKER = ROOT / "check_data_branch_readiness.py"
@@ -51,6 +53,8 @@ def main() -> int:
     expect(MANUAL_BACKLOG.is_file(), "build_manual_curated_backlog.py exists")
     expect(MANUAL_MANAGER.is_file(), "manage_manual_curated_urls.py exists")
     expect(RELATION_EXPORTER.is_file(), "export_snapshot_relations.py exists")
+    expect(CATALOG_PARTITION_EXPORTER.is_file(), "export_page_catalog_partitions.py exists")
+    expect(PAGE_RECORD_EXPORTER.is_file(), "export_page_records.py exists")
     expect(PUBLISH_AUDITOR.is_file(), "audit_publish_bundle.py exists")
     expect(DATA_BRANCH_MANIFEST.is_file(), "build_data_branch_manifest.py exists")
     expect(READINESS_CHECKER.is_file(), "check_data_branch_readiness.py exists")
@@ -91,6 +95,8 @@ def main() -> int:
     expect("python3 crawler/build_source_status_report.py" in workflow_text, "workflow writes source status report")
     expect("python3 crawler/build_manual_curated_backlog.py" in workflow_text, "workflow writes manual curated backlog report")
     expect("python3 crawler/export_snapshot_relations.py" in workflow_text, "workflow exports snapshot relations")
+    expect("python3 crawler/export_page_catalog_partitions.py" in workflow_text, "workflow exports page catalog partitions")
+    expect("python3 crawler/export_page_records.py" in workflow_text, "workflow exports page record files")
     expect("python3 crawler/audit_publish_bundle.py" in workflow_text, "workflow audits publish bundle")
     expect("python3 crawler/build_data_branch_manifest.py" in workflow_text, "workflow writes data branch manifest")
     expect("python3 crawler/prune_snapshots.py" in workflow_text, "workflow prunes old runs/snapshots")

@@ -32,9 +32,15 @@
 - `crawler/state/latest-run.json`
 - `crawler/state/source-health.json`
 - `crawler/state/page_catalog.json`
+- `crawler/state/page-records/<source_id>/*.json`
 
 ### 快照文件
 - `crawler/snapshots/<source_id>/*`
+
+当前快照目录会尽量保留原始站点层级，例如：
+- `crawler/snapshots/91d2/www.91d2.cn/xinshouzhiyin/2025-08-01/1294.html`
+- `crawler/snapshots/d2_blizzard_cn/d2.blizzard.cn/news/24271875/index.html`
+- `crawler/snapshots/bbs_diablo2_com_cn/bbs.diablo2.com.cn/read.php__tid-12676.html`
 
 ### 每次运行结果
 - `crawler/runs/<run_id>/run-manifest.json`
@@ -48,6 +54,7 @@
 - `page_catalog.json` 是长期目录
 - `page-snapshots.jsonl` 是单次运行产物
 - `snapshot_path` 负责关联 URL 与保存下来的网页内容快照
+- `page-records/` 负责把每个静态网页导出成单独文件，并跟随镜像目录层级输出 `.json` 详情
 
 ## 运行方式
 
@@ -86,7 +93,13 @@ python3 crawler/verify_framework.py
 ### 首次抓取后冻结
 - 页面首次命中时：保存快照到 `crawler/snapshots/`
 - 后续运行再次发现同一 URL：默认只记为 `frozen`，不重新抓正文
+- 已冻结页面不会再回写页面层记录文件；只有首次抓取或显式 `--refresh-existing` 才更新该网页记录
 - 如确实需要重抓：使用 `--refresh-existing`
+
+### 镜像式保存
+- 快照文件会尽量保留原始 host/path 目录结构，接近 `wget --mirror` 的静态效果
+- 查询参数会折叠到文件名中，例如 `read.php?tid=239897 -> read.php__tid-239897.html`
+- 页面详情 JSON 会输出到对应镜像路径下，例如 `1294.html.json`
 
 ### 无关内容过滤
 框架会按来源规则过滤：
@@ -106,7 +119,7 @@ python3 crawler/verify_framework.py
 - `sha256`
 - `capture_status`
 - `first_seen_at`
-- `last_seen_at`
+- `last_seen_at`（最近一次真正刷新页面记录的时间）
 - `last_run_id`
 
 ## 文档
@@ -211,6 +224,14 @@ python3 crawler/export_snapshot_relations.py
 
 导出仅包含有效 `url -> snapshot_path` 关系的 `crawler/state/snapshot-relations.jsonl`，方便后续自定义转换链路直接消费。
 
+## 页面层逐文件导出
+
+```bash
+python3 crawler/export_page_records.py
+```
+
+将 `page_catalog.json` 按网页逐条拆成 `crawler/state/page-records/<source_id>/*.json`，作为镜像正文旁边的详情索引文件。
+
 ## Data Branch 精简发布
 
 ```bash
@@ -258,3 +279,11 @@ python3 crawler/build_data_branch_manifest.py
 ## 首次真实推送清单
 
 详见 `crawler/DATA_BRANCH_PUSH_CHECKLIST.md`，用于首次真实执行 `data` 分支推送前的操作检查。
+
+## Page Catalog 分片导出
+
+```bash
+python3 crawler/export_page_catalog_partitions.py
+```
+
+将集中式 `page_catalog.json` 按来源拆分到 `crawler/state/page-catalog/<source_id>.jsonl`，同时保留索引文件。

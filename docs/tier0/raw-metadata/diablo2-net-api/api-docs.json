@@ -1,0 +1,12 @@
+{
+  "label": "api-docs",
+  "url": "https://www.diablo-2.net/api/",
+  "output_path": "docs/tier0/raw/diablo2-net-api/api-docs.html",
+  "sha256": "e0f5175e82a8fa95e4198533b586c830e91248243e29053f30b16e9650bb1785",
+  "bytes_written": 65816,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

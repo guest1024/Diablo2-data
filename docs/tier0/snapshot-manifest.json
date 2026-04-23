@@ -1,0 +1,343 @@
+{
+  "generated_at": "2026-04-23T09:57:07.290477+00:00",
+  "total_snapshots": 30,
+  "by_source": {
+    "arreat-summit": 8,
+    "diablo2-io": 11,
+    "blizzhackers-d2data": 4,
+    "diablo2-net-api": 4,
+    "blizzard-cn-d2": 3
+  },
+  "snapshots": [
+    {
+      "source_id": "arreat-summit",
+      "label": "homepage",
+      "url": "https://classic.battle.net/diablo2exp/",
+      "local_path": "docs/tier0/raw/arreat-summit/homepage.html",
+      "bytes": 18688,
+      "sha256": "0e61b41e21b65fef109383ae833463e93e81d2b7b9a12b01dd8d6b0bc27227bf",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "basics",
+      "url": "https://classic.battle.net/diablo2exp/basics/",
+      "local_path": "docs/tier0/raw/arreat-summit/basics.html",
+      "bytes": 32163,
+      "sha256": "0f305e05dcf076fe61e660364c398736a2ea8b872ebc218f3e1a040136f756dd",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "classes",
+      "url": "https://classic.battle.net/diablo2exp/classes/",
+      "local_path": "docs/tier0/raw/arreat-summit/classes.html",
+      "bytes": 17713,
+      "sha256": "b7e554e22c5cbb1649583622b2a9fffe7b4cdd2b977655e29fb055d3004a31cb",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "skills",
+      "url": "https://classic.battle.net/diablo2exp/skills/",
+      "local_path": "docs/tier0/raw/arreat-summit/skills.html",
+      "bytes": 22872,
+      "sha256": "61d23d4757dd76181e75a2025c40e6b876220a6814856aed2d0078f593b9571d",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "items",
+      "url": "https://classic.battle.net/diablo2exp/items/",
+      "local_path": "docs/tier0/raw/arreat-summit/items.html",
+      "bytes": 22233,
+      "sha256": "5350ca7b057a8da5fdb8e3a083092b30aeedfde6712327046f85f1d4857b32ca",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "monsters",
+      "url": "https://classic.battle.net/diablo2exp/monsters/",
+      "local_path": "docs/tier0/raw/arreat-summit/monsters.html",
+      "bytes": 17410,
+      "sha256": "a4328880a17fba2edf3dee2e8904ae810e76e66d500c6be6342da5533d87be9f",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "quests",
+      "url": "https://classic.battle.net/diablo2exp/quests/",
+      "local_path": "docs/tier0/raw/arreat-summit/quests.html",
+      "bytes": 18137,
+      "sha256": "6b518bd9e2f01d0c4d68aa902e126c1e0e3d2743f675c35862d7b6bef10d6c3e",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "arreat-summit",
+      "label": "maps",
+      "url": "https://classic.battle.net/diablo2exp/maps/",
+      "local_path": "docs/tier0/raw/arreat-summit/maps.html",
+      "bytes": 17850,
+      "sha256": "7a7d8998480ea7c2a4f44efcb1ee4b05e8301db58cfd1d398a0ee673d84c13eb",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "sitemap",
+      "url": "https://diablo2.io/sitemap.xml",
+      "local_path": "docs/tier0/raw/diablo2-io/sitemap.xml",
+      "bytes": 4280815,
+      "sha256": "6dc01c219b3a60bf8f08fe6579ad4b84b8321e1b0314a628e95cb9407b707259",
+      "status": "cached",
+      "content_type": "application/xml",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "uniques",
+      "url": "https://diablo2.io/uniques/",
+      "local_path": "docs/tier0/raw/diablo2-io/uniques.html",
+      "bytes": 2672296,
+      "sha256": "49a3a0e64d8baa78673c063c617d496d1e2ee1ebd8b430ccb20da307b3f7b3da",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "runewords",
+      "url": "https://diablo2.io/runewords/",
+      "local_path": "docs/tier0/raw/diablo2-io/runewords.html",
+      "bytes": 831498,
+      "sha256": "7008dbcf5982abf706ea4bea2b4e035f53cd4a5657b2d0f748070f7605dee5a9",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "sets",
+      "url": "https://diablo2.io/sets/",
+      "local_path": "docs/tier0/raw/diablo2-io/sets.html",
+      "bytes": 1281498,
+      "sha256": "bd63ea56d39269e7702b5f520461e12221bf70998eaf89dc9e1c8ed748382075",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "base",
+      "url": "https://diablo2.io/base/",
+      "local_path": "docs/tier0/raw/diablo2-io/base.html",
+      "bytes": 4076818,
+      "sha256": "4ad36a951e7cdf87bf7ee7be15cbbcc73c55bd0087efec44c9b23783edac4e1c",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "recipes",
+      "url": "https://diablo2.io/recipes/",
+      "local_path": "docs/tier0/raw/diablo2-io/recipes.html",
+      "bytes": 1136049,
+      "sha256": "db32066856cdc6ef760d204ce803792ae65ef583296abdff4f4f934545013019",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "monsters",
+      "url": "https://diablo2.io/monsters/",
+      "local_path": "docs/tier0/raw/diablo2-io/monsters.html",
+      "bytes": 916750,
+      "sha256": "d8a2cf19f7d2fbc754105ce3150f67b225981d28aa0d2edf5d1d4195f4021344",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "npcs",
+      "url": "https://diablo2.io/npcs/",
+      "local_path": "docs/tier0/raw/diablo2-io/npcs.html",
+      "bytes": 321899,
+      "sha256": "835d8855b83f786abe107ed185de438c02304987c7ace708c4ccf38655c621a4",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "skills",
+      "url": "https://diablo2.io/skills/",
+      "local_path": "docs/tier0/raw/diablo2-io/skills.html",
+      "bytes": 1565723,
+      "sha256": "a399e1b35f2f114f59e009659d0c07e43927a8a113985ecc81c497f622cc1ac8",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "areas",
+      "url": "https://diablo2.io/areas/",
+      "local_path": "docs/tier0/raw/diablo2-io/areas.html",
+      "bytes": 901598,
+      "sha256": "e84004cffd2b64052789ee46b4ace00dfc2c4bdd693902a18bd118004f2e4703",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-io",
+      "label": "quests",
+      "url": "https://diablo2.io/quests/",
+      "local_path": "docs/tier0/raw/diablo2-io/quests.html",
+      "bytes": 302932,
+      "sha256": "08245caff7fe0fee034872d5cdd683972550a002b951476b262fe165782e2e87",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzhackers-d2data",
+      "label": "readme",
+      "url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/README.md",
+      "local_path": "docs/tier0/raw/blizzhackers-d2data/README.md",
+      "bytes": 44,
+      "sha256": "4ee6236d854c537ee706df13d56baa94b77c47ce8b2b81dd0773e71081d45a4b",
+      "status": "cached",
+      "content_type": "text/markdown",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzhackers-d2data",
+      "label": "root-contents",
+      "url": "https://api.github.com/repos/blizzhackers/d2data/contents/",
+      "local_path": "docs/tier0/raw/blizzhackers-d2data/root-contents.json",
+      "bytes": 25084,
+      "sha256": "6cff9c5f0ddd72425432464119d67f1f7e1f0acd5368e4771f4ba2ae2589a086",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzhackers-d2data",
+      "label": "json-contents",
+      "url": "https://api.github.com/repos/blizzhackers/d2data/contents/json",
+      "local_path": "docs/tier0/raw/blizzhackers-d2data/json-contents.json",
+      "bytes": 91012,
+      "sha256": "fec8b1199b0fd46a761aeb03513db447c4436b2c872438bcb8f8ea7755788f1b",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzhackers-d2data",
+      "label": "txt-contents",
+      "url": "https://api.github.com/repos/blizzhackers/d2data/contents/txt",
+      "local_path": "docs/tier0/raw/blizzhackers-d2data/txt-contents.json",
+      "bytes": 1439,
+      "sha256": "b7b1ae5add0735ef082b75c1b591db275ddcda9b8f58838841c260129520a634",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-net-api",
+      "label": "api-docs",
+      "url": "https://www.diablo-2.net/api/",
+      "local_path": "docs/tier0/raw/diablo2-net-api/api-docs.html",
+      "bytes": 65816,
+      "sha256": "e0f5175e82a8fa95e4198533b586c830e91248243e29053f30b16e9650bb1785",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-net-api",
+      "label": "items-endpoint",
+      "url": "https://www.diablo-2.net/api/items",
+      "local_path": "docs/tier0/raw/diablo2-net-api/items-endpoint.json",
+      "bytes": 91,
+      "sha256": "bf6d9b9323cd6ceffba5ff330c3726671a782e5365c9399a0de092af12185560",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-net-api",
+      "label": "runes-endpoint",
+      "url": "https://www.diablo-2.net/api/runes?item=ElRune&level=1",
+      "local_path": "docs/tier0/raw/diablo2-net-api/runes-endpoint.json",
+      "bytes": 50,
+      "sha256": "62d456430032a77dffd110e5eb64bb419fd820d9cbe054e67d6da58a1113637a",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "diablo2-net-api",
+      "label": "unique-items-endpoint",
+      "url": "https://www.diablo-2.net/api/unique-items?item=TheGrandFather&base-item=colossus_blade&class=Assassin&level=55&strength=75&dexterity=75&theme=d2r&identified=yes&output=json",
+      "local_path": "docs/tier0/raw/diablo2-net-api/unique-items-endpoint.json",
+      "bytes": 50,
+      "sha256": "62d456430032a77dffd110e5eb64bb419fd820d9cbe054e67d6da58a1113637a",
+      "status": "cached",
+      "content_type": "application/json",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzard-cn-d2",
+      "label": "homepage",
+      "url": "https://d2.blizzard.cn/",
+      "local_path": "docs/tier0/raw/blizzard-cn-d2/homepage.html",
+      "bytes": 39345,
+      "sha256": "4bbdacaadc023258cbb96f4c6acc40026e1a1ed1227f3fa6c6e247a0c4c48643",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzard-cn-d2",
+      "label": "sitemap",
+      "url": "https://d2.blizzard.cn/sitemap.txt",
+      "local_path": "docs/tier0/raw/blizzard-cn-d2/sitemap.txt",
+      "bytes": 1311,
+      "sha256": "28960af2c794937b48053ed91f80013709041099ce6b5d17a4d1dc85298ba8e9",
+      "status": "cached",
+      "content_type": "text/plain",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    },
+    {
+      "source_id": "blizzard-cn-d2",
+      "label": "news-index",
+      "url": "https://d2.blizzard.cn/news/",
+      "local_path": "docs/tier0/raw/blizzard-cn-d2/news-index.html",
+      "bytes": 31997,
+      "sha256": "3f212884c82169aa9a9318b5e35a39d859242c8314a4570fddded9359ca2668e",
+      "status": "cached",
+      "content_type": "text/html",
+      "captured_at": "2026-04-23T09:47:58+00:00"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "runewords",
+  "url": "https://diablo2.io/runewords/",
+  "output_path": "docs/tier0/raw/diablo2-io/runewords.html",
+  "sha256": "7008dbcf5982abf706ea4bea2b4e035f53cd4a5657b2d0f748070f7605dee5a9",
+  "bytes_written": 831498,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

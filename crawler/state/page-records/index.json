@@ -1,0 +1,25 @@
+{
+  "rows": 20,
+  "sources": {
+    "17173_d2r": 4,
+    "3dm_d2r": 4,
+    "91d2": 1,
+    "ali213_d2r": 1,
+    "bbs_diablo2_com_cn": 2,
+    "d2_blizzard_cn": 2,
+    "diablo2_com_cn": 1,
+    "gamersky_d2r": 4,
+    "news_blizzard_zh_tw": 1
+  },
+  "partitions": [
+    "state/page-records/17173_d2r",
+    "state/page-records/3dm_d2r",
+    "state/page-records/91d2",
+    "state/page-records/ali213_d2r",
+    "state/page-records/bbs_diablo2_com_cn",
+    "state/page-records/d2_blizzard_cn",
+    "state/page-records/diablo2_com_cn",
+    "state/page-records/gamersky_d2r",
+    "state/page-records/news_blizzard_zh_tw"
+  ]
+}

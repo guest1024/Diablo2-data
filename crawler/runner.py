@@ -11,7 +11,7 @@ from crawler.http_client import HttpFetcher, RobotsManager
 from crawler.models import CrawlOptions, SourceConfig
 from crawler.relevance import is_relevant_page
 from crawler.selection import discover_urls, normalize_urls, select_candidates, sha256_bytes
-from crawler.storage import save_snapshot, write_json, write_jsonl
+from crawler.storage import normalize_snapshot_catalog_paths, save_snapshot, write_json, write_jsonl
 
 CRAWLER_ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG = CRAWLER_ROOT / "sources.zh.json"
@@ -34,9 +34,16 @@ def safe_relative(path: Path, root: Path) -> str:
         return str(path)
 
 
-def summarize_status(seed_records: list[dict[str, Any]], page_records: list[dict[str, Any]], probe_only: bool) -> str:
+def summarize_status(
+    seed_records: list[dict[str, Any]],
+    page_records: list[dict[str, Any]],
+    probe_only: bool,
+    skipped_existing_count: int = 0,
+) -> str:
     if any(record.get("http_status") == 200 for record in page_records):
         return "probed" if probe_only else "captured"
+    if skipped_existing_count > 0:
+        return "captured"
     if any(record.get("capture_status") in {"frozen", "ignored"} for record in page_records):
         return "catalog-only"
     if any(record.get("status") == 200 for record in seed_records):
@@ -73,6 +80,8 @@ def render_summary(run_manifest: dict[str, Any]) -> str:
             "2. 默认对已抓取静态文章启用冻结机制：首次抓取后不再重复读取正文。",
             "3. 交友、卖号、交易、估价、拍卖等无关页面会过滤并进入 ignored 状态。",
             "4. `page_catalog.json` 维护 `url -> snapshot_path -> metadata` 的长期关系。",
+            "5. `state/page-records/` 会按网页逐文件导出稳定记录，作为镜像正文旁边的详情索引。",
+            "6. `snapshots/` 与 `state/page-records/` 尽量保留原始 host/path 目录层级，接近 wget mirror 效果。",
             "",
         ]
     )
@@ -94,7 +103,7 @@ def should_skip_existing(existing: dict[str, Any] | None, source: SourceConfig, 
         return False
     if options.refresh_existing or not source.snapshot.immutable_after_capture:
         return False
-    return existing.get("capture_status") in {"saved", "filtered"}
+    return existing.get("capture_status") in {"saved", "frozen", "filtered", "ignored"}
 
 
 def build_page_record(
@@ -136,7 +145,7 @@ def build_page_record(
 
 
 def build_frozen_record(source: SourceConfig, existing: dict[str, Any], seen_at: str, run_id: str) -> dict[str, Any]:
-    capture_status = "ignored" if existing.get("capture_status") == "filtered" else "frozen"
+    capture_status = "ignored" if existing.get("capture_status") in {"filtered", "ignored"} else "frozen"
     lifecycle_status = "ignored" if capture_status == "ignored" else "frozen"
     return build_page_record(
         source,
@@ -153,6 +162,21 @@ def build_frozen_record(source: SourceConfig, existing: dict[str, Any], seen_at:
         snapshot_id=existing.get("snapshot_id"),
         snapshot_path=existing.get("snapshot_path"),
     )
+
+
+def normalize_record_snapshot_fields(rows: list[dict[str, Any]], catalog: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    normalized_rows: list[dict[str, Any]] = []
+    for row in rows:
+        existing = get_catalog_entry(catalog, row["source_id"], row["url"])
+        if existing is None:
+            normalized_rows.append(row)
+            continue
+        merged = dict(row)
+        for field in ("snapshot_id", "snapshot_path", "capture_status", "lifecycle_status"):
+            if existing.get(field) is not None:
+                merged[field] = existing.get(field)
+        normalized_rows.append(merged)
+    return normalized_rows
 
 
 def process_source(
@@ -193,16 +217,14 @@ def process_source(
     page_records: list[dict[str, Any]] = []
     catalog_updates: list[dict[str, Any]] = []
     retained_count = 0
+    skipped_existing_count = 0
 
     for url in candidates:
         if retained_count >= options.limit_per_source:
             break
         existing = get_catalog_entry(page_catalog, source.id, url)
         if should_skip_existing(existing, source, options):
-            frozen_record = build_frozen_record(source, existing, seen_at, run_id)
-            page_records.append(frozen_record)
-            catalog_updates.append(frozen_record)
-            retained_count += 1
+            skipped_existing_count += 1
             continue
 
         allowed, robots_note = robots.can_fetch(source.robots_url, url)
@@ -269,12 +291,13 @@ def process_source(
             if record.get('capture_status') in {'saved', 'probed', 'frozen'}:
                 retained_count += 1
 
-    status = summarize_status(seed_records, page_records, options.probe_only)
+    status = summarize_status(seed_records, page_records, options.probe_only, skipped_existing_count)
     source_manifest = {
         "source": source.to_dict(),
         "generated_at": seen_at,
         "seed_count": len(seed_urls),
         "candidate_count": len(candidates),
+        "skipped_existing_count": skipped_existing_count,
         "status": status,
         "seeds": seed_records,
         "pages": page_records,
@@ -292,6 +315,7 @@ def process_source(
         "updated_count": sum(1 for row in page_records if row.get("lifecycle_status") == "updated"),
         "frozen_count": sum(1 for row in page_records if row.get("capture_status") == "frozen"),
         "ignored_count": sum(1 for row in page_records if row.get("capture_status") in {"filtered", "ignored"}),
+        "skipped_existing_count": skipped_existing_count,
         "status": status,
     }
     return result, source_manifest, catalog_updates
@@ -309,15 +333,16 @@ def run_crawl(options: CrawlOptions) -> dict[str, Any]:
     page_catalog = load_page_catalog(PAGE_CATALOG_PATH)
 
     source_results: list[dict[str, Any]] = []
+    source_manifests: dict[str, dict[str, Any]] = {}
     all_page_snapshots: list[dict[str, Any]] = []
     all_catalog_updates: list[dict[str, Any]] = []
 
     for source in resolve_sources(config.sources, options):
         result, source_manifest, source_updates = process_source(source, options, fetcher, robots, page_catalog, run_id, seen_at)
         source_results.append(result)
+        source_manifests[source.id] = source_manifest
         all_page_snapshots.extend(source_manifest["pages"])
         all_catalog_updates.extend(source_updates)
-        write_json(run_dir / source.id / "manifest.json", source_manifest)
         print(
             f"[{result['status']}] {result['id']} seeds={result['seed_count']} candidates={result['candidate_count']} "
             f"new={result['new_count']} updated={result['updated_count']} frozen={result['frozen_count']} ignored={result['ignored_count']}"
@@ -334,6 +359,18 @@ def run_crawl(options: CrawlOptions) -> dict[str, Any]:
         "version": config.version,
         "page_snapshot_count": len(all_page_snapshots),
     }
+    state_dir = CRAWLER_ROOT / "state"
+    state_dir.mkdir(parents=True, exist_ok=True)
+    updated_catalog = update_page_catalog(page_catalog, all_catalog_updates, run_id, seen_at)
+    normalized_catalog, moved_snapshots = normalize_snapshot_catalog_paths(updated_catalog, CRAWLER_ROOT, SNAPSHOT_ROOT)
+    write_json(PAGE_CATALOG_PATH, normalized_catalog)
+    write_json(state_dir / "snapshot-layout-migrations.json", {"run_id": run_id, "moved": moved_snapshots})
+
+    all_page_snapshots = normalize_record_snapshot_fields(all_page_snapshots, normalized_catalog)
+    for source_id, source_manifest in source_manifests.items():
+        source_manifest["pages"] = normalize_record_snapshot_fields(source_manifest["pages"], normalized_catalog)
+        write_json(run_dir / source_id / "manifest.json", source_manifest)
+
     write_json(run_dir / "run-manifest.json", run_manifest)
     write_jsonl(run_dir / "sources.jsonl", source_results)
     write_jsonl(run_dir / "page-snapshots.jsonl", all_page_snapshots)
@@ -343,9 +380,6 @@ def run_crawl(options: CrawlOptions) -> dict[str, Any]:
     )
     (run_dir / "SUMMARY.md").write_text(render_summary(run_manifest), encoding="utf-8")
 
-    state_dir = CRAWLER_ROOT / "state"
-    state_dir.mkdir(parents=True, exist_ok=True)
     write_json(state_dir / "latest-run.json", run_manifest)
     write_json(state_dir / "source-health.json", {"generated_at": seen_at, "sources": source_results})
-    write_json(PAGE_CATALOG_PATH, update_page_catalog(page_catalog, all_catalog_updates, run_id, seen_at))
     return run_manifest

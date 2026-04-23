@@ -1,0 +1,12 @@
+{
+  "label": "quests",
+  "url": "https://classic.battle.net/diablo2exp/quests/",
+  "output_path": "docs/tier0/raw/arreat-summit/quests.html",
+  "sha256": "6b518bd9e2f01d0c4d68aa902e126c1e0e3d2743f675c35862d7b6bef10d6c3e",
+  "bytes_written": 18137,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

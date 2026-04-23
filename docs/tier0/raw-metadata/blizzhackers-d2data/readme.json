@@ -1,0 +1,12 @@
+{
+  "label": "readme",
+  "url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/README.md",
+  "output_path": "docs/tier0/raw/blizzhackers-d2data/README.md",
+  "sha256": "4ee6236d854c537ee706df13d56baa94b77c47ce8b2b81dd0773e71081d45a4b",
+  "bytes_written": 44,
+  "content_type": "text/markdown",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

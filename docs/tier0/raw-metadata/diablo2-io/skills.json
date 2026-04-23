@@ -1,0 +1,12 @@
+{
+  "label": "skills",
+  "url": "https://diablo2.io/skills/",
+  "output_path": "docs/tier0/raw/diablo2-io/skills.html",
+  "sha256": "a399e1b35f2f114f59e009659d0c07e43927a8a113985ecc81c497f622cc1ac8",
+  "bytes_written": 1565723,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

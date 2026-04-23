@@ -1,0 +1,12 @@
+{
+  "label": "runes-endpoint",
+  "url": "https://www.diablo-2.net/api/runes?item=ElRune&level=1",
+  "output_path": "docs/tier0/raw/diablo2-net-api/runes-endpoint.json",
+  "sha256": "62d456430032a77dffd110e5eb64bb419fd820d9cbe054e67d6da58a1113637a",
+  "bytes_written": 50,
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

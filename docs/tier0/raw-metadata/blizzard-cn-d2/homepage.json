@@ -1,0 +1,12 @@
+{
+  "label": "homepage",
+  "url": "https://d2.blizzard.cn/",
+  "output_path": "docs/tier0/raw/blizzard-cn-d2/homepage.html",
+  "sha256": "4bbdacaadc023258cbb96f4c6acc40026e1a1ed1227f3fa6c6e247a0c4c48643",
+  "bytes_written": 39345,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

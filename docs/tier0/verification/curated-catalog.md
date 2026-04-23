@@ -1,6 +1,6 @@
 # Curated Catalog
 
-- Generated at: `2026-04-23T08:04:28.392432+00:00`
+- Generated at: `2026-04-23T10:00:18.373090+00:00`
 - Curated cards: `56`
 
 ## Ancient Tunnels / 古代通道（Curated Anchor Card）
@@ -218,7 +218,7 @@
 - doc_id: `curated::lightning-sorceress`
 - source: `https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells`
 - keywords: `['Lightning Sorceress', '电法', 'Sorceress', 'Nova', 'Lightning']`
-- routed queries: `[]`
+- routed queries: `['新星电法是什么？']`
 
 ## Magefist / 法拳（Curated Anchor Card）
 
@@ -274,7 +274,7 @@
 - doc_id: `curated::nova-sorceress`
 - source: `https://www.purediablo.com/d2wiki/Sorceress_Lightning_Spells`
 - keywords: `['Nova Sorceress', '新星电法', 'Sorceress', 'Nova', 'Lightning']`
-- routed queries: `['新星电法是什么？']`
+- routed queries: `[]`
 
 ## Pindleskin / 老P（Curated Anchor Card）
 

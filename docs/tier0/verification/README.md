@@ -39,6 +39,8 @@
 ```bash
 source .venv/bin/activate
 python scripts/verify_chroma_package.py
+python scripts/build_snapshot_manifest.py
+python scripts/verify_snapshot_manifest.py
 python scripts/build_graph_support_assets.py
 python scripts/verify_graph_support_assets.py
 python scripts/verify_bilingual_term_map.py
@@ -50,6 +52,7 @@ python scripts/build_verification_index.py
 python scripts/build_curated_catalog.py
 python scripts/build_term_map_catalog.py
 python scripts/verify_strategy_docs.py
+python scripts/verify_doc_handbooks.py
 python scripts/verify_first_system_stack.py
 ```
 
@@ -59,4 +62,4 @@ python scripts/verify_first_system_stack.py
 - bilingual term map entries：`71`
 - curated anchors：`56`
 - routing matrix queries：`66`
-- verification suite：`12/12 PASS`
+- verification suite：`15/15 PASS`

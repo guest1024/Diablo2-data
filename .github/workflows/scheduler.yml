@@ -128,6 +128,8 @@ jobs:
           python3 crawler/build_source_status_report.py > crawler/state/source-status-report.md
           python3 crawler/build_manual_curated_backlog.py > crawler/state/manual-curated-backlog.md
           python3 crawler/export_snapshot_relations.py
+          python3 crawler/export_page_catalog_partitions.py
+          python3 crawler/export_page_records.py
           python3 crawler/audit_publish_bundle.py
           python3 crawler/build_data_branch_manifest.py
           python3 crawler/check_data_branch_readiness.py || true
@@ -153,6 +155,8 @@ jobs:
           python3 crawler/build_source_status_report.py > crawler/state/source-status-report.md
           python3 crawler/build_manual_curated_backlog.py > crawler/state/manual-curated-backlog.md
           python3 crawler/export_snapshot_relations.py
+          python3 crawler/export_page_catalog_partitions.py
+          python3 crawler/export_page_records.py
           python3 crawler/audit_publish_bundle.py
           python3 crawler/build_data_branch_manifest.py
           python3 crawler/check_data_branch_readiness.py || true

@@ -1,0 +1,12 @@
+{
+  "label": "items-endpoint",
+  "url": "https://www.diablo-2.net/api/items",
+  "output_path": "docs/tier0/raw/diablo2-net-api/items-endpoint.json",
+  "sha256": "bf6d9b9323cd6ceffba5ff330c3726671a782e5365c9399a0de092af12185560",
+  "bytes_written": 91,
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

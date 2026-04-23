@@ -1,0 +1,12 @@
+{
+  "label": "sitemap",
+  "url": "https://diablo2.io/sitemap.xml",
+  "output_path": "docs/tier0/raw/diablo2-io/sitemap.xml",
+  "sha256": "6dc01c219b3a60bf8f08fe6579ad4b84b8321e1b0314a628e95cb9407b707259",
+  "bytes_written": 4280815,
+  "content_type": "application/xml",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

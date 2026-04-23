@@ -1,0 +1,12 @@
+{
+  "label": "recipes",
+  "url": "https://diablo2.io/recipes/",
+  "output_path": "docs/tier0/raw/diablo2-io/recipes.html",
+  "sha256": "db32066856cdc6ef760d204ce803792ae65ef583296abdff4f4f934545013019",
+  "bytes_written": 1136049,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

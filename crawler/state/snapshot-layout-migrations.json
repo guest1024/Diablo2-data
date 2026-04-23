@@ -1,0 +1,37 @@
+{
+  "run_id": "20260423T071556Z",
+  "moved": [
+    {
+      "from": "snapshots/17173_d2r/news.17173.com/z/ah2/content/03182022/104849514.shtml.html",
+      "to": "snapshots/17173_d2r/news.17173.com/z/ah2/content/03182022/104849514.shtml"
+    },
+    {
+      "from": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426363.shtml.html",
+      "to": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426363.shtml"
+    },
+    {
+      "from": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426247.shtml.html",
+      "to": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426247.shtml"
+    },
+    {
+      "from": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426152.shtml.html",
+      "to": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426152.shtml"
+    },
+    {
+      "from": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426363_2.shtml.html",
+      "to": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426363_2.shtml"
+    },
+    {
+      "from": "snapshots/17173_d2r/news.17173.com/z/ah2/content/03152022/102426979.shtml.html",
+      "to": "snapshots/17173_d2r/news.17173.com/z/ah2/content/03152022/102426979.shtml"
+    },
+    {
+      "from": "snapshots/17173_d2r/news.17173.com/z/ah2/content/09242021/125701105.shtml.html",
+      "to": "snapshots/17173_d2r/news.17173.com/z/ah2/content/09242021/125701105.shtml"
+    },
+    {
+      "from": "snapshots/17173_d2r/news.17173.com/z/ah2/content/10262021/160454018.shtml.html",
+      "to": "snapshots/17173_d2r/news.17173.com/z/ah2/content/10262021/160454018.shtml"
+    }
+  ]
+}

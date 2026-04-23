@@ -1,0 +1,14 @@
+{
+  "rows": 20,
+  "partitions": [
+    "state/page-catalog/17173_d2r.jsonl",
+    "state/page-catalog/3dm_d2r.jsonl",
+    "state/page-catalog/91d2.jsonl",
+    "state/page-catalog/ali213_d2r.jsonl",
+    "state/page-catalog/bbs_diablo2_com_cn.jsonl",
+    "state/page-catalog/d2_blizzard_cn.jsonl",
+    "state/page-catalog/diablo2_com_cn.jsonl",
+    "state/page-catalog/gamersky_d2r.jsonl",
+    "state/page-catalog/news_blizzard_zh_tw.jsonl"
+  ]
+}

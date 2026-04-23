@@ -1,0 +1,12 @@
+{
+  "label": "sitemap",
+  "url": "https://d2.blizzard.cn/sitemap.txt",
+  "output_path": "docs/tier0/raw/blizzard-cn-d2/sitemap.txt",
+  "sha256": "28960af2c794937b48053ed91f80013709041099ce6b5d17a4d1dc85298ba8e9",
+  "bytes_written": 1311,
+  "content_type": "text/plain",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

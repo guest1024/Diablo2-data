@@ -1,0 +1,12 @@
+{
+  "label": "items",
+  "url": "https://classic.battle.net/diablo2exp/items/",
+  "output_path": "docs/tier0/raw/arreat-summit/items.html",
+  "sha256": "5350ca7b057a8da5fdb8e3a083092b30aeedfde6712327046f85f1d4857b32ca",
+  "bytes_written": 22233,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

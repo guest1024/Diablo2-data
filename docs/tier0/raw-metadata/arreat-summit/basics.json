@@ -1,0 +1,12 @@
+{
+  "label": "basics",
+  "url": "https://classic.battle.net/diablo2exp/basics/",
+  "output_path": "docs/tier0/raw/arreat-summit/basics.html",
+  "sha256": "0f305e05dcf076fe61e660364c398736a2ea8b872ebc218f3e1a040136f756dd",
+  "bytes_written": 32163,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

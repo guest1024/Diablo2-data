@@ -1,6 +1,6 @@
 # Routing Matrix Verification
 
-- Generated at: `2026-04-21T15:43:42.700375+00:00`
+- Generated at: `2026-04-23T10:00:18.082996+00:00`
 - Runtime ingest: `511 documents / 8708 chunks`
 
 | Query | Lane | Retrieval | Source | Top title |
@@ -69,5 +69,5 @@
 | 弓马是什么？ | curated | lexical | curated-anchor | Bowazon / 弓马（Curated Anchor Card） |
 | 狼德是什么？ | curated | lexical | curated-anchor | Fury Druid / 狼德（Curated Anchor Card） |
 | 陷阱刺客是什么？ | curated | lexical | curated-anchor | Trapsin / 陷阱刺客（Curated Anchor Card） |
-| 新星电法是什么？ | curated | lexical | curated-anchor | Nova Sorceress / 新星电法（Curated Anchor Card） |
+| 新星电法是什么？ | curated | lexical | curated-anchor | Lightning Sorceress / 电法（Curated Anchor Card） |
 | 召唤死灵是什么？ | curated | lexical | curated-anchor | Summon Necromancer / 召唤死灵（Curated Anchor Card） |

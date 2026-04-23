@@ -1,0 +1,17 @@
+{
+  "catalog_key": "3dm_d2r::https://www.3dmgame.com/gl/3837288.html",
+  "source_id": "3dm_d2r",
+  "source_label": "3DM D2R 攻略页",
+  "url": "https://www.3dmgame.com/gl/3837288.html",
+  "title": "暗黑破坏神2重制版全职业技能加点详解_全职业bd推荐及装备选择_3DM单机",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "af357584b881fa9ca68e0f8f7b99d3d497bfc7fabfa6b652d4d78562ff556e1f",
+  "snapshot_id": "snapshot::3dm_d2r::5c7cdbf76dc295010464",
+  "snapshot_path": "snapshots/3dm_d2r/www.3dmgame.com/gl/3837288.html",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

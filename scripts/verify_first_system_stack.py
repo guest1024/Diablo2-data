@@ -16,6 +16,14 @@ CHECKS = [
         "cmd": [sys.executable, "scripts/verify_chroma_package.py"],
     },
     {
+        "name": "build_snapshot_manifest",
+        "cmd": [sys.executable, "scripts/build_snapshot_manifest.py"],
+    },
+    {
+        "name": "verify_snapshot_manifest",
+        "cmd": [sys.executable, "scripts/verify_snapshot_manifest.py"],
+    },
+    {
         "name": "build_graph_support_assets",
         "cmd": [sys.executable, "scripts/build_graph_support_assets.py"],
     },

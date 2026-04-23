@@ -11,6 +11,7 @@ OUTPUT_ROOT = ROOT / "docs" / "tier0"
 MANIFEST = OUTPUT_ROOT / "fetch-manifest.json"
 REPORT = OUTPUT_ROOT / "fetch-report.md"
 REGISTRY = OUTPUT_ROOT / "source-registry.json"
+RAW_METADATA = OUTPUT_ROOT / "raw-metadata"
 
 
 def expect(condition: bool, message: str) -> None:
@@ -45,6 +46,10 @@ def main() -> int:
     report_text = REPORT.read_text(encoding="utf-8")
     expect("Tier 0 Execution Notes" in report_text, "report contains execution notes")
     expect("require an API key" in report_text or "requires an API key" in report_text, "report captures Diablo-2.net API gating")
+
+    expect(RAW_METADATA.is_dir(), "raw metadata directory exists")
+    metadata_files = list(RAW_METADATA.rglob("*.json"))
+    expect(len(metadata_files) >= 15, "raw metadata has substantial target coverage")
 
     inventories = OUTPUT_ROOT / "url-inventories"
     expect((inventories / "arreat-summit.txt").is_file(), "arreat summit inventory exists")

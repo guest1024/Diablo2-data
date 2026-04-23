@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-04-21T15:43:42.700375+00:00",
+  "generated_at": "2026-04-23T10:00:18.082996+00:00",
   "runtime_ingest": {
     "documents": 511,
-    "chunks": 8708
+    "chunks": 8708,
+    "retrieval_backend": "local"
   },
   "cases": [
     {
@@ -458,7 +459,7 @@
       "lane": "curated",
       "source_id": "curated-anchor",
       "retrieval_source": "lexical",
-      "title": "Nova Sorceress / 新星电法（Curated Anchor Card）"
+      "title": "Lightning Sorceress / 电法（Curated Anchor Card）"
     },
     {
       "query": "召唤死灵是什么？",

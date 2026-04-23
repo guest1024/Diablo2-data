@@ -1,0 +1,12 @@
+{
+  "label": "news-index",
+  "url": "https://d2.blizzard.cn/news/",
+  "output_path": "docs/tier0/raw/blizzard-cn-d2/news-index.html",
+  "sha256": "3f212884c82169aa9a9318b5e35a39d859242c8314a4570fddded9359ca2668e",
+  "bytes_written": 31997,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

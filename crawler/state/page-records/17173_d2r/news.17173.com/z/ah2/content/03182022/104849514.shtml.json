@@ -1,0 +1,17 @@
+{
+  "catalog_key": "17173_d2r::http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+  "source_id": "17173_d2r",
+  "source_label": "17173 暗黑2重制版专区",
+  "url": "http://news.17173.com/z/ah2/content/03182022/104849514.shtml",
+  "title": "《暗黑破坏神2重制版》野蛮人怎么玩？可汗野蛮人配装推荐_暗黑2重制版_17173.com中国游戏门户站",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "675e9496874ae89b8bbfe1daf6472959c50632e49181c467e6fedd43fc2e6bdb",
+  "snapshot_id": "snapshot::17173_d2r::8c56ac882481606f2a34",
+  "snapshot_path": "snapshots/17173_d2r/news.17173.com/z/ah2/content/03182022/104849514.shtml",
+  "capture_status": "saved",
+  "lifecycle_status": "unchanged",
+  "first_seen_at": "2026-04-23T06:13:20+00:00",
+  "last_seen_at": "2026-04-23T07:13:33+00:00",
+  "last_run_id": "20260423T071333Z"
+}

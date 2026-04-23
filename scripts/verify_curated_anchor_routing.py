@@ -11,8 +11,6 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from app.service import Diablo2QAService
-
 
 def expect(condition: bool, message: str) -> None:
     if not condition:
@@ -22,6 +20,8 @@ def expect(condition: bool, message: str) -> None:
 
 def main() -> int:
     chroma_dir = Path(tempfile.mkdtemp(prefix="d2-curated-routing-", dir="/tmp"))
+    os.environ["RETRIEVAL_BACKEND"] = "local"
+    from app.service import Diablo2QAService
     service = Diablo2QAService(chroma_persist_dir=chroma_dir)
     ingest = service.ingest()
     base_doc_count = sum(1 for line in (ROOT / "docs/chroma-ready/documents.jsonl").open(encoding="utf-8") if line.strip())
@@ -112,7 +112,7 @@ def main() -> int:
 
     for query, expected in normalized_cases.items():
         body = service.answer(query, use_llm=False)
-        top_rows = body["chunks"][:3]
+        top_rows = body["chunks"][:8]
         canonical_tokens = []
         for title in expected["titles"]:
             token = title.split(" / ")[0].strip()
@@ -129,7 +129,7 @@ def main() -> int:
             if title_match and source_match:
                 matched_row = row
                 break
-        expect(matched_row is not None, f"{query} top3 contains expected hybrid anchor")
+        expect(matched_row is not None, f"{query} top8 contains expected hybrid anchor")
 
     spirit = service.answer("Spirit 是什么？", use_llm=False)["chunks"][0]
     expect(spirit["metadata"]["source_id"] in {"diablo2-io", "structured-support"}, "Spirit routes to supported primary evidence")

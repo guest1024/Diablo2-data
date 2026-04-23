@@ -1,0 +1,12 @@
+{
+  "label": "txt-contents",
+  "url": "https://api.github.com/repos/blizzhackers/d2data/contents/txt",
+  "output_path": "docs/tier0/raw/blizzhackers-d2data/txt-contents.json",
+  "sha256": "b7b1ae5add0735ef082b75c1b591db275ddcda9b8f58838841c260129520a634",
+  "bytes_written": 1439,
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:58+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

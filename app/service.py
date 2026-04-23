@@ -583,12 +583,54 @@ class Diablo2QAService:
         structured_rows = self._build_structured_evidence_chunks(query_context)
         combined: dict[str, dict[str, Any]] = {row['chunk_id']: row for row in structured_rows}
         for row in chunks:
+            row['fused_score'] = self._score_chunk_for_query(row, query_context)
             existing = combined.get(row['chunk_id'])
             if existing is None or float(row.get('fused_score', row.get('score', 0.0))) > float(existing.get('fused_score', existing.get('score', 0.0))):
                 combined[row['chunk_id']] = row
         ordered = list(combined.values())
         ordered.sort(key=lambda row: (-float(row.get('fused_score', row.get('score', 0.0))), str(row.get('chunk_id', ''))))
         return ordered[:8]
+
+    @staticmethod
+    def _score_chunk_for_query(row: dict[str, Any], query_context: dict[str, Any]) -> float:
+        metadata = row.get('metadata', {}) or {}
+        title = str(metadata.get('title') or '').lower()
+        text = str(row.get('text') or row.get('content') or '').lower()
+        source_id = str(metadata.get('source_id') or '')
+        retrieval_source = str(row.get('retrieval_source') or '')
+        preferred_source_ids = set(query_context.get('preferred_source_ids', []) or [])
+        preferred_title_contains = [str(x).lower() for x in (query_context.get('preferred_title_contains') or [])]
+        preferred_text_contains = [str(x).lower() for x in (query_context.get('preferred_text_contains') or [])]
+        canonical_hints = [str(x).lower() for x in (query_context.get('canonical_hints') or [])]
+        preferred_terms = [str(x).lower() for x in (query_context.get('preferred_terms') or [])]
+
+        score = 0.0
+        score += {
+            'entity_link': 9.0,
+            'structured_support': 8.5,
+            'postgres_bm25': 7.0,
+            'postgres': 6.5,
+            'lexical': 6.0,
+            'postgres_vector': 4.0,
+            'vector': 3.5,
+        }.get(retrieval_source, 2.5)
+        if source_id in preferred_source_ids:
+            score += 4.0
+        if any(token in title for token in preferred_title_contains):
+            score += 8.0
+        if any(token in text for token in preferred_text_contains):
+            score += 6.0
+        if any(token and token in title for token in preferred_terms):
+            score += 5.0
+        if any(token and token in text for token in preferred_terms):
+            score += 3.0
+        if any(token and token in title for token in canonical_hints):
+            score += 6.0
+        if any(token and token in text for token in canonical_hints):
+            score += 4.0
+        if source_id == 'curated-anchor' and 'curated-anchor' not in preferred_source_ids:
+            score -= 3.0
+        return round(score, 4)
 
     @staticmethod
     def _dedupe_structured_support(support: dict[str, Any]) -> dict[str, Any]:

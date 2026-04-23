@@ -1,0 +1,17 @@
+{
+  "catalog_key": "gamersky_d2r::https://www.gamersky.com/handbook/202109/1426152.shtml",
+  "source_id": "gamersky_d2r",
+  "source_label": "游民星空 D2R 专区",
+  "url": "https://www.gamersky.com/handbook/202109/1426152.shtml",
+  "title": "《暗黑破坏神2重制版》纯召流死灵法师入门指南 死灵法师出装加点与开荒心得_队伍构成-游民星空 GamerSky.com",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "eb1673dd79e9dd8eede066a0ccfd797d9a38519ab107e9058a64851453574a0b",
+  "snapshot_id": "snapshot::gamersky_d2r::d53f1e13b0b2954becf4",
+  "snapshot_path": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426152.shtml",
+  "capture_status": "frozen",
+  "lifecycle_status": "frozen",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:15:56+00:00",
+  "last_run_id": "20260423T071556Z"
+}

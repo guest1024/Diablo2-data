@@ -1,0 +1,12 @@
+{
+  "label": "monsters",
+  "url": "https://classic.battle.net/diablo2exp/monsters/",
+  "output_path": "docs/tier0/raw/arreat-summit/monsters.html",
+  "sha256": "a4328880a17fba2edf3dee2e8904ae810e76e66d500c6be6342da5533d87be9f",
+  "bytes_written": 17410,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

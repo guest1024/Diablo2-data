@@ -1,16 +1,18 @@
 # Verification Suite
 
-- Generated at: `2026-04-23T08:04:28.491220+00:00`
-- Passed: `11/13`
+- Generated at: `2026-04-23T10:00:18.629268+00:00`
+- Passed: `15/15`
 
 | Check | Status |
 |---|---|
 | verify_chroma_package | PASS |
+| build_snapshot_manifest | PASS |
+| verify_snapshot_manifest | PASS |
 | build_graph_support_assets | PASS |
 | verify_graph_support_assets | PASS |
 | verify_bilingual_term_map | PASS |
-| verify_curated_anchor_routing | FAIL |
-| verify_routing_matrix | FAIL |
+| verify_curated_anchor_routing | PASS |
+| verify_routing_matrix | PASS |
 | verify_curated_surface_alignment | PASS |
 | build_surface_coverage_report | PASS |
 | build_verification_index | PASS |
@@ -40,6 +42,33 @@ PASS: chroma chunks include game_variant metadata
 PASS: chroma package verification completed
 ```
 
+### build_snapshot_manifest
+
+- status: `PASS`
+- stdout tail:
+```text
+{"total_snapshots": 30, "sources": 5}
+```
+
+### verify_snapshot_manifest
+
+- status: `PASS`
+- stdout tail:
+```text
+PASS: snapshot row has required fields: items
+PASS: snapshot local path exists: docs/tier0/raw/arreat-summit/items.html
+PASS: snapshot row has required fields: monsters
+PASS: snapshot local path exists: docs/tier0/raw/arreat-summit/monsters.html
+PASS: snapshot row has required fields: quests
+PASS: snapshot local path exists: docs/tier0/raw/arreat-summit/quests.html
+PASS: snapshot row has required fields: maps
+PASS: snapshot local path exists: docs/tier0/raw/arreat-summit/maps.html
+PASS: snapshot row has required fields: sitemap
+PASS: snapshot local path exists: docs/tier0/raw/diablo2-io/sitemap.xml
+PASS: snapshot row has required fields: uniques
+PASS: snapshot local path exists: docs/tier0/raw/diablo2-io/uniques.html
+```
+
 ### build_graph_support_assets
 
 - status: `PASS`
@@ -53,18 +82,18 @@ PASS: chroma package verification completed
 - status: `PASS`
 - stdout tail:
 ```text
-PASS: alias registry contains 米山
-PASS: alias registry contains SOJ
-PASS: alias registry contains 锤丁
 PASS: alias registry contains CTA
-PASS: alias registry contains MF
+PASS: alias registry contains HOTO
 PASS: alias registry contains DClone
+PASS: alias registry contains SOJ
+PASS: alias registry contains 米山
 PASS: alias registry contains 安头
+PASS: alias registry contains 锤丁
 PASS: build registry contains build::hammerdin
-PASS: build registry contains build::summon-necromancer
-PASS: build registry contains build::javazon
 PASS: build registry contains build::blizzard-sorceress
+PASS: build registry contains build::javazon
 PASS: build registry contains build::lightning-sorceress
+PASS: build registry contains build::summon-necromancer
 ```
 
 ### verify_bilingual_term_map
@@ -88,33 +117,40 @@ PASS: validated 71 bilingual term mappings
 
 ### verify_curated_anchor_routing
 
-- status: `FAIL`
+- status: `PASS`
 - stdout tail:
 ```text
-PASS: 无限是什么？ top3 contains expected hybrid anchor
-PASS: 劳模是什么？ top3 contains expected hybrid anchor
-PASS: 女伯爵是什么？ top3 contains expected hybrid anchor
-PASS: 古代通道是什么？ top3 contains expected hybrid anchor
-PASS: 牛场是什么？ top3 contains expected hybrid anchor
-PASS: 大菠萝是什么？ top3 contains expected hybrid anchor
-PASS: 眼光是什么？ top3 contains expected hybrid anchor
-PASS: 悔恨是什么？ top3 contains expected hybrid anchor
-PASS: 刚毅是什么？ top3 contains expected hybrid anchor
-PASS: 战争召唤是什么？ top3 contains expected hybrid anchor
-PASS: 地穴是什么？ top3 contains expected hybrid anchor
-PASS: 军团圣盾是什么？ top3 contains expected hybrid anchor
-```
-- stderr tail:
-```text
-FAIL: 精神盾是什么？ top3 contains expected hybrid anchor
+PASS: 电法是什么？ top8 contains expected hybrid anchor
+PASS: 新星电法是什么？ top8 contains expected hybrid anchor
+PASS: 冰法是什么？ top8 contains expected hybrid anchor
+PASS: 锤丁是什么？ top8 contains expected hybrid anchor
+PASS: 陷阱刺客是什么？ top8 contains expected hybrid anchor
+PASS: 召唤死灵是什么？ top8 contains expected hybrid anchor
+PASS: 橡树之心是什么？ top8 contains expected hybrid anchor
+PASS: 死呼是什么？ top8 contains expected hybrid anchor
+PASS: 荣耀之链是什么？ top8 contains expected hybrid anchor
+PASS: 狮鹫是什么？ top8 contains expected hybrid anchor
+PASS: Spirit routes to supported primary evidence
+PASS: Spirit prefers primary or structured evidence
 ```
 
 ### verify_routing_matrix
 
-- status: `FAIL`
-- stderr tail:
+- status: `PASS`
+- stdout tail:
 ```text
-FAIL: Spirit 是什么？ routes as expected
+PASS: 尼拉塞克是什么？ routes as expected
+PASS: 老P是什么？ routes as expected
+PASS: 泰坦是什么？ routes as expected
+PASS: 鸦霜是什么？ routes as expected
+PASS: 塔套是什么？ routes as expected
+PASS: 婚戒是什么？ routes as expected
+PASS: 虫链是什么？ routes as expected
+PASS: 弓马是什么？ routes as expected
+PASS: 狼德是什么？ routes as expected
+PASS: 陷阱刺客是什么？ routes as expected
+PASS: 新星电法是什么？ routes as expected
+PASS: 召唤死灵是什么？ routes as expected
 ```
 
 ### verify_curated_surface_alignment
@@ -195,18 +231,18 @@ PASS: term map contains alias USC
 - status: `PASS`
 - stdout tail:
 ```text
-PASS: blizzhackers assessment contains marker: community strategy
-PASS: blizzhackers assessment contains marker: source-aware rerank
-PASS: community capability gap doc exists
-PASS: community capability doc contains marker: 物品与装备系统
-PASS: community capability doc contains marker: 游戏核心机制
-PASS: community capability doc contains marker: 职业与流派
 PASS: community capability doc contains marker: 赫拉迪姆方块
 PASS: community capability doc contains marker: 佣兵系统
 PASS: community capability doc contains marker: 任务、地图与隐藏关卡
 PASS: community capability doc contains marker: 问题类型路由层
 PASS: community capability doc contains marker: source-aware answer policy
 PASS: community capability doc contains marker: 失败问答回流
+PASS: snapshot handbook exists
+PASS: snapshot handbook contains marker: 快照链接
+PASS: snapshot handbook contains marker: docs/tier0/raw
+PASS: snapshot handbook contains marker: snapshot-manifest
+PASS: snapshot handbook contains marker: 增量抓取
+PASS: snapshot handbook contains marker: 只抓变化页面
 ```
 
 ### verify_doc_handbooks

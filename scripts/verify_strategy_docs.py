@@ -61,6 +61,18 @@ def main() -> int:
         "失败问答回流",
     ]:
         expect(marker in capability_text, f"community capability doc contains marker: {marker}")
+
+    snapshot_doc = ROOT / "docs/快照与增量抓取维护手册.md"
+    expect(snapshot_doc.is_file(), "snapshot handbook exists")
+    snapshot_text = snapshot_doc.read_text(encoding="utf-8")
+    for marker in [
+        "快照链接",
+        "docs/tier0/raw",
+        "snapshot-manifest",
+        "增量抓取",
+        "只抓变化页面",
+    ]:
+        expect(marker in snapshot_text, f"snapshot handbook contains marker: {marker}")
     return 0
 
 

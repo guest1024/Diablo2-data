@@ -1,0 +1,12 @@
+{
+  "label": "npcs",
+  "url": "https://diablo2.io/npcs/",
+  "output_path": "docs/tier0/raw/diablo2-io/npcs.html",
+  "sha256": "835d8855b83f786abe107ed185de438c02304987c7ace708c4ccf38655c621a4",
+  "bytes_written": 321899,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:57+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

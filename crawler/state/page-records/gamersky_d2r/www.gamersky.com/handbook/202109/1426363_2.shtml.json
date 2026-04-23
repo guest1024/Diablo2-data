@@ -1,0 +1,17 @@
+{
+  "catalog_key": "gamersky_d2r::https://www.gamersky.com/handbook/202109/1426363_2.shtml",
+  "source_id": "gamersky_d2r",
+  "source_label": "游民星空 D2R 专区",
+  "url": "https://www.gamersky.com/handbook/202109/1426363_2.shtml",
+  "title": "《暗黑破坏神2重制版》第3-5幕地图详解_第四幕-游民星空 GamerSky.com",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "a34c1f0ca4abfd49ffac0d6fd01ffde78e452bb4de9d6a042a9f5b1532f7b54d",
+  "snapshot_id": "snapshot::gamersky_d2r::f7f3edf52bc10109ce42",
+  "snapshot_path": "snapshots/gamersky_d2r/www.gamersky.com/handbook/202109/1426363_2.shtml",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

@@ -32,6 +32,7 @@
 - `docs/知识文档管理手册.md`
 - `docs/RAG开发手册.md`
 - `docs/用户使用手册.md`
+- `docs/快照与增量抓取维护手册.md`
 - `scripts/smoke_test_first_system.py`
 - `docs/tier0/curated/`
 - `docs/tier0/verification/README.md`

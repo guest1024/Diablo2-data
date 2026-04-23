@@ -1,0 +1,17 @@
+{
+  "catalog_key": "17173_d2r::http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+  "source_id": "17173_d2r",
+  "source_label": "17173 暗黑2重制版专区",
+  "url": "http://news.17173.com/z/ah2/content/10262021/160454018.shtml",
+  "title": "《暗黑破坏神2重制版》防御力有什么用 防御属性机制详解_暗黑2重制版_17173.com中国游戏门户站",
+  "http_status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "sha256": "71dbda02241d96c81e01aa23fc2122b2ab96874ea7ff91261e2f5040eacdc08b",
+  "snapshot_id": "snapshot::17173_d2r::f10ad81bd1934aa097e9",
+  "snapshot_path": "snapshots/17173_d2r/news.17173.com/z/ah2/content/10262021/160454018.shtml",
+  "capture_status": "saved",
+  "lifecycle_status": "new",
+  "first_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_seen_at": "2026-04-23T07:10:55+00:00",
+  "last_run_id": "20260423T071055Z"
+}

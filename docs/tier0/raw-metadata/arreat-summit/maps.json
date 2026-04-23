@@ -1,0 +1,12 @@
+{
+  "label": "maps",
+  "url": "https://classic.battle.net/diablo2exp/maps/",
+  "output_path": "docs/tier0/raw/arreat-summit/maps.html",
+  "sha256": "7a7d8998480ea7c2a4f44efcb1ee4b05e8301db58cfd1d398a0ee673d84c13eb",
+  "bytes_written": 17850,
+  "content_type": "text/html",
+  "etag": null,
+  "last_modified": null,
+  "fetched_at": "2026-04-23T09:47:56+00:00",
+  "fetch_mode": "cache-bootstrap"
+}

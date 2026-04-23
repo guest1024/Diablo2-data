@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-04-23T08:04:28.491220+00:00",
-  "passed": 11,
-  "total": 13,
+  "generated_at": "2026-04-23T10:00:18.629268+00:00",
+  "passed": 15,
+  "total": 15,
   "results": [
     {
       "name": "verify_chroma_package",
       "returncode": 0,
       "passed": true,
       "stdout_tail": "PASS: chroma chunks exist\nPASS: chroma README exists\nPASS: chroma document count matches manifest\nPASS: chroma chunk count matches manifest\nPASS: chroma documents stay aligned with merged normalized documents\nPASS: chroma chunks stay aligned with merged chunks\nPASS: chroma documents use unified schema\nPASS: chroma chunks use unified schema\nPASS: chroma chunks include language metadata\nPASS: chroma chunks include doc_type metadata\nPASS: chroma chunks include game_variant metadata\nPASS: chroma package verification completed",
+      "stderr_tail": ""
+    },
+    {
+      "name": "build_snapshot_manifest",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "{\"total_snapshots\": 30, \"sources\": 5}",
+      "stderr_tail": ""
+    },
+    {
+      "name": "verify_snapshot_manifest",
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: snapshot row has required fields: items\nPASS: snapshot local path exists: docs/tier0/raw/arreat-summit/items.html\nPASS: snapshot row has required fields: monsters\nPASS: snapshot local path exists: docs/tier0/raw/arreat-summit/monsters.html\nPASS: snapshot row has required fields: quests\nPASS: snapshot local path exists: docs/tier0/raw/arreat-summit/quests.html\nPASS: snapshot row has required fields: maps\nPASS: snapshot local path exists: docs/tier0/raw/arreat-summit/maps.html\nPASS: snapshot row has required fields: sitemap\nPASS: snapshot local path exists: docs/tier0/raw/diablo2-io/sitemap.xml\nPASS: snapshot row has required fields: uniques\nPASS: snapshot local path exists: docs/tier0/raw/diablo2-io/uniques.html",
       "stderr_tail": ""
     },
     {
@@ -21,7 +35,7 @@
       "name": "verify_graph_support_assets",
       "returncode": 0,
       "passed": true,
-      "stdout_tail": "PASS: alias registry contains 米山\nPASS: alias registry contains SOJ\nPASS: alias registry contains 锤丁\nPASS: alias registry contains CTA\nPASS: alias registry contains MF\nPASS: alias registry contains DClone\nPASS: alias registry contains 安头\nPASS: build registry contains build::hammerdin\nPASS: build registry contains build::summon-necromancer\nPASS: build registry contains build::javazon\nPASS: build registry contains build::blizzard-sorceress\nPASS: build registry contains build::lightning-sorceress",
+      "stdout_tail": "PASS: alias registry contains CTA\nPASS: alias registry contains HOTO\nPASS: alias registry contains DClone\nPASS: alias registry contains SOJ\nPASS: alias registry contains 米山\nPASS: alias registry contains 安头\nPASS: alias registry contains 锤丁\nPASS: build registry contains build::hammerdin\nPASS: build registry contains build::blizzard-sorceress\nPASS: build registry contains build::javazon\nPASS: build registry contains build::lightning-sorceress\nPASS: build registry contains build::summon-necromancer",
       "stderr_tail": ""
     },
     {
@@ -33,17 +47,17 @@
     },
     {
       "name": "verify_curated_anchor_routing",
-      "returncode": 1,
-      "passed": false,
-      "stdout_tail": "PASS: 无限是什么？ top3 contains expected hybrid anchor\nPASS: 劳模是什么？ top3 contains expected hybrid anchor\nPASS: 女伯爵是什么？ top3 contains expected hybrid anchor\nPASS: 古代通道是什么？ top3 contains expected hybrid anchor\nPASS: 牛场是什么？ top3 contains expected hybrid anchor\nPASS: 大菠萝是什么？ top3 contains expected hybrid anchor\nPASS: 眼光是什么？ top3 contains expected hybrid anchor\nPASS: 悔恨是什么？ top3 contains expected hybrid anchor\nPASS: 刚毅是什么？ top3 contains expected hybrid anchor\nPASS: 战争召唤是什么？ top3 contains expected hybrid anchor\nPASS: 地穴是什么？ top3 contains expected hybrid anchor\nPASS: 军团圣盾是什么？ top3 contains expected hybrid anchor",
-      "stderr_tail": "FAIL: 精神盾是什么？ top3 contains expected hybrid anchor"
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 电法是什么？ top8 contains expected hybrid anchor\nPASS: 新星电法是什么？ top8 contains expected hybrid anchor\nPASS: 冰法是什么？ top8 contains expected hybrid anchor\nPASS: 锤丁是什么？ top8 contains expected hybrid anchor\nPASS: 陷阱刺客是什么？ top8 contains expected hybrid anchor\nPASS: 召唤死灵是什么？ top8 contains expected hybrid anchor\nPASS: 橡树之心是什么？ top8 contains expected hybrid anchor\nPASS: 死呼是什么？ top8 contains expected hybrid anchor\nPASS: 荣耀之链是什么？ top8 contains expected hybrid anchor\nPASS: 狮鹫是什么？ top8 contains expected hybrid anchor\nPASS: Spirit routes to supported primary evidence\nPASS: Spirit prefers primary or structured evidence",
+      "stderr_tail": ""
     },
     {
       "name": "verify_routing_matrix",
-      "returncode": 1,
-      "passed": false,
-      "stdout_tail": "",
-      "stderr_tail": "FAIL: Spirit 是什么？ routes as expected"
+      "returncode": 0,
+      "passed": true,
+      "stdout_tail": "PASS: 尼拉塞克是什么？ routes as expected\nPASS: 老P是什么？ routes as expected\nPASS: 泰坦是什么？ routes as expected\nPASS: 鸦霜是什么？ routes as expected\nPASS: 塔套是什么？ routes as expected\nPASS: 婚戒是什么？ routes as expected\nPASS: 虫链是什么？ routes as expected\nPASS: 弓马是什么？ routes as expected\nPASS: 狼德是什么？ routes as expected\nPASS: 陷阱刺客是什么？ routes as expected\nPASS: 新星电法是什么？ routes as expected\nPASS: 召唤死灵是什么？ routes as expected",
+      "stderr_tail": ""
     },
     {
       "name": "verify_curated_surface_alignment",
@@ -84,7 +98,7 @@
       "name": "verify_strategy_docs",
       "returncode": 0,
       "passed": true,
-      "stdout_tail": "PASS: blizzhackers assessment contains marker: community strategy\nPASS: blizzhackers assessment contains marker: source-aware rerank\nPASS: community capability gap doc exists\nPASS: community capability doc contains marker: 物品与装备系统\nPASS: community capability doc contains marker: 游戏核心机制\nPASS: community capability doc contains marker: 职业与流派\nPASS: community capability doc contains marker: 赫拉迪姆方块\nPASS: community capability doc contains marker: 佣兵系统\nPASS: community capability doc contains marker: 任务、地图与隐藏关卡\nPASS: community capability doc contains marker: 问题类型路由层\nPASS: community capability doc contains marker: source-aware answer policy\nPASS: community capability doc contains marker: 失败问答回流",
+      "stdout_tail": "PASS: community capability doc contains marker: 赫拉迪姆方块\nPASS: community capability doc contains marker: 佣兵系统\nPASS: community capability doc contains marker: 任务、地图与隐藏关卡\nPASS: community capability doc contains marker: 问题类型路由层\nPASS: community capability doc contains marker: source-aware answer policy\nPASS: community capability doc contains marker: 失败问答回流\nPASS: snapshot handbook exists\nPASS: snapshot handbook contains marker: 快照链接\nPASS: snapshot handbook contains marker: docs/tier0/raw\nPASS: snapshot handbook contains marker: snapshot-manifest\nPASS: snapshot handbook contains marker: 增量抓取\nPASS: snapshot handbook contains marker: 只抓变化页面",
       "stderr_tail": ""
     },
     {
