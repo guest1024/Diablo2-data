@@ -1,0 +1,615 @@
+runeword::ancients-pledge	1	res-cold	\N	30	30
+runeword::ancients-pledge	2	res-all	\N	13	13
+runeword::ancients-pledge	3	ac%	\N	50	50
+runeword::ancients-pledge	4	dmg-to-mana	\N	10	10
+runeword::authority	1	gethit-skill	Psychic Ward	2	10
+runeword::authority	2	hit-skill	Miasma Chains	10	15
+runeword::authority	3	war	\N	2	2
+runeword::authority	4	dmg%	\N	40	60
+runeword::beast	1	swing2	\N	40	40
+runeword::beast	2	aura	Fanaticism	9	9
+runeword::beast	3	dmg%	\N	240	270
+runeword::beast	4	str	\N	25	40
+runeword::beast	5	charged	Summon Grizzly	5	13
+runeword::beast	6	oskill	Wearbear	3	3
+runeword::beast	7	oskill	Shape Shifting	3	3
+runeword::black	1	crush	\N	40	40
+runeword::black	2	dmg%	\N	120	120
+runeword::black	3	swing2	\N	15	15
+runeword::black	4	red-mag	\N	2	2
+runeword::black	5	att	\N	200	200
+runeword::black	6	charged	74	12	4
+runeword::bone	1	hit-skill	Bone Spear	15	10
+runeword::bone	2	gethit-skill	Bone Armor	15	10
+runeword::bone	3	nec	\N	2	2
+runeword::bone	4	mana	\N	100	150
+runeword::bramble	1	balance2	\N	50	50
+runeword::bramble	2	ac	\N	300	300
+runeword::bramble	3	aura	Thorns	15	21
+runeword::bramble	4	heal-kill	\N	13	13
+runeword::bramble	5	extra-pois	\N	25	50
+runeword::bramble	6	res-pois	\N	100	100
+runeword::bramble	7	charged	Spirit of Barbs	33	13
+runeword::brand	1	dmg%	\N	260	340
+runeword::brand	2	dmg-demon	\N	280	330
+runeword::brand	3	hit-skill	Bone Spear	100	18
+runeword::brand	4	gethit-skill	Amplify Damage	35	14
+runeword::brand	5	knock	\N	1	1
+runeword::brand	6	noheal	\N	1	1
+runeword::brand	7	explosivearrow	\N	15	15
+runeword::breath-of-the-dying	1	swing2	\N	60	60
+runeword::breath-of-the-dying	2	dmg-undead	\N	125	125
+runeword::breath-of-the-dying	3	lifesteal	\N	12	15
+runeword::breath-of-the-dying	4	noheal	\N	1	1
+runeword::breath-of-the-dying	5	kill-skill	Poison Nova	50	20
+runeword::breath-of-the-dying	6	dmg%	\N	350	400
+runeword::breath-of-the-dying	7	all-stats	\N	30	30
+runeword::bulwark	1	hp%	\N	5	5
+runeword::bulwark	2	ac%	\N	75	100
+runeword::bulwark	3	red-dmg%	\N	10	15
+runeword::bulwark	4	regen	\N	30	30
+runeword::bulwark	5	lifesteal	\N	4	6
+runeword::call-to-arms	1	swing2	\N	40	40
+runeword::call-to-arms	2	dmg%	\N	200	240
+runeword::call-to-arms	3	allskills	\N	1	1
+runeword::call-to-arms	4	oskill	Battle Command	2	6
+runeword::call-to-arms	5	oskill	Battle Orders	1	6
+runeword::call-to-arms	6	oskill	Battle Cry	1	4
+runeword::call-to-arms	7	regen	\N	12	12
+runeword::chains-of-honor	1	res-all	\N	50	50
+runeword::chains-of-honor	2	ac%	\N	70	70
+runeword::chains-of-honor	3	dmg-demon	\N	200	200
+runeword::chains-of-honor	4	dmg-undead	\N	100	100
+runeword::chains-of-honor	5	lifesteal	\N	8	8
+runeword::chains-of-honor	6	allskills	\N	2	2
+runeword::chains-of-honor	7	str	\N	20	20
+runeword::chaos	1	demon-heal	\N	15	15
+runeword::chaos	2	dmg%	\N	240	290
+runeword::chaos	3	dmg-mag	\N	216	471
+runeword::chaos	4	oskill	Whirlwind	1	1
+runeword::chaos	5	swing2	\N	35	35
+runeword::chaos	6	hit-skill	Frozen Orb	9	11
+runeword::chaos	7	hit-skill	Charged Bolt	11	9
+runeword::coven	1	gethit-skill	Sigil Lethargy	5	10
+runeword::coven	2	allskills	\N	1	1
+runeword::coven	3	cast1	\N	20	20
+runeword::coven	4	ac%	\N	30	50
+runeword::coven	5	mag%	\N	1	15
+runeword::coven	6	heal-kill	\N	1	5
+runeword::crescent-moon	1	pierce-ltng	\N	35	35
+runeword::crescent-moon	2	ignore-ac	\N	1	1
+runeword::crescent-moon	3	dmg%	\N	180	220
+runeword::crescent-moon	4	abs-mag	\N	9	11
+runeword::crescent-moon	5	charged	Summon Spirit Wolf	30	18
+runeword::crescent-moon	6	hit-skill	Static Field	7	13
+runeword::crescent-moon	7	hit-skill	Chain Lightning	10	17
+runeword::cure	1	hp%	\N	5	5
+runeword::cure	2	ac%	\N	75	100
+runeword::cure	3	res-pois	\N	10	30
+runeword::cure	4	res-pois-len	\N	50	50
+runeword::cure	5	aura	Cleansing	1	1
+runeword::death	1	dmg%	\N	300	385
+runeword::death	2	deadly/lvl	4	\N	\N
+runeword::death	3	charged	BloodGolem	15	22
+runeword::death	4	att-skill	Glacial Spike	25	18
+runeword::death	5	death-skill	Chain Lightning	100	44
+runeword::death	6	crush	\N	50	50
+runeword::death	7	indestruct	\N	1	1
+runeword::delirium	1	hit-skill	Confuse	11	18
+runeword::delirium	2	charged	Attract	60	17
+runeword::delirium	3	gethit-skill	Terror	14	13
+runeword::delirium	4	ac	\N	261	261
+runeword::delirium	5	gethit-skill	Mind Blast	6	14
+runeword::delirium	6	gethit-skill	Delerium Change	1	50
+runeword::delirium	7	allskills	\N	2	2
+runeword::destruction	1	dmg%	\N	350	350
+runeword::destruction	2	dmg-mag	\N	100	180
+runeword::destruction	3	hit-skill	Molten Boulder	5	23
+runeword::destruction	4	death-skill	Meteor	100	45
+runeword::destruction	5	att-skill	Nova	15	22
+runeword::destruction	6	hit-skill	Volcano	23	12
+runeword::destruction	7	noheal	\N	1	1
+runeword::doom	1	dmg%	\N	280	320
+runeword::doom	2	aura	Holy Freeze	12	12
+runeword::doom	3	swing2	\N	45	45
+runeword::doom	4	noheal	\N	1	1
+runeword::doom	5	pierce-cold	\N	40	60
+runeword::doom	6	allskills	\N	2	2
+runeword::doom	7	hit-skill	Volcano	5	18
+runeword::dragon	1	ac	\N	360	360
+runeword::dragon	2	ac-miss	\N	230	230
+runeword::dragon	3	str/lvl	3	\N	\N
+runeword::dragon	4	hit-skill	Hydra	12	15
+runeword::dragon	5	gethit-skill	Venom	20	18
+runeword::dragon	6	aura	Holy Fire	14	14
+runeword::dragon	7	all-stats	\N	3	5
+runeword::dream	1	ac	\N	150	220
+runeword::dream	2	gethit-skill	Confuse	10	15
+runeword::dream	3	mana/lvl	5	\N	\N
+runeword::dream	4	res-all	\N	5	20
+runeword::dream	5	balance3	\N	20	30
+runeword::dream	6	aura	Holy Shock	15	15
+runeword::dream	7	mag%	\N	12	25
+runeword::duress	1	dmg-cold	50	37	133
+runeword::duress	2	dmg%	\N	10	20
+runeword::duress	3	ac%	\N	150	200
+runeword::duress	4	balance2	\N	20	20
+runeword::duress	5	openwounds	\N	33	33
+runeword::duress	6	crush	\N	15	15
+runeword::duress	7	stamdrain	\N	-20	-20
+runeword::edge	1	dmg-demon	\N	320	380
+runeword::edge	2	dmg-undead	\N	280	280
+runeword::edge	3	swing2	\N	35	35
+runeword::edge	4	noheal	\N	1	1
+runeword::edge	5	aura	Thorns	15	15
+runeword::edge	6	all-stats	\N	5	10
+runeword::edge	7	cheap	\N	15	15
+runeword::enigma	1	ac	\N	750	775
+runeword::enigma	2	heal-kill	\N	14	14
+runeword::enigma	3	move2	\N	45	45
+runeword::enigma	4	str/lvl	6	\N	\N
+runeword::enigma	5	allskills	\N	2	2
+runeword::enigma	6	mag%/lvl	8	\N	\N
+runeword::enigma	7	oskill	Teleport	1	1
+runeword::enlightenment	1	hit-skill	Fire Ball	5	15
+runeword::enlightenment	2	gethit-skill	Blaze	5	15
+runeword::enlightenment	3	sor	\N	2	2
+runeword::enlightenment	4	oskill	Warmth	1	1
+runeword::eternity	1	dmg%	\N	260	310
+runeword::eternity	2	indestruct	\N	1	1
+runeword::eternity	3	slow	\N	33	33
+runeword::eternity	4	charged	Revive	88	8
+runeword::eternity	5	regen	\N	16	16
+runeword::eternity	6	regen-mana	\N	16	16
+runeword::eternity	7	nofreeze	\N	1	1
+runeword::exile	1	block2	\N	30	30
+runeword::exile	2	freeze	\N	1	1
+runeword::exile	3	ac%	\N	220	260
+runeword::exile	4	aura	Defiance	13	16
+runeword::exile	5	skilltab	10	2	2
+runeword::exile	6	hit-skill	Life Tap	15	5
+runeword::exile	7	rep-dur	25	\N	\N
+runeword::faith	1	dmg%	\N	280	280
+runeword::faith	2	att%	\N	300	300
+runeword::faith	3	dmg-fire	\N	120	120
+runeword::faith	4	res-all	\N	15	15
+runeword::faith	5	aura	Fanaticism	12	15
+runeword::faith	6	reanimate	1	10	10
+runeword::faith	7	allskills	\N	1	2
+runeword::famine	1	dmg%	\N	270	320
+runeword::famine	2	lifesteal	\N	12	12
+runeword::famine	3	swing2	\N	30	30
+runeword::famine	4	noheal	\N	1	1
+runeword::famine	5	dmg-mag	\N	180	200
+runeword::famine	6	dmg-elem	\N	50	200
+runeword::famine	7	ethereal	\N	1	1
+runeword::flickering-flame	1	fireskill	\N	3	3
+runeword::flickering-flame	2	aura	Resist Fire	4	8
+runeword::flickering-flame	3	pierce-fire	\N	10	15
+runeword::flickering-flame	4	mana	\N	50	75
+runeword::flickering-flame	5	half-freeze	\N	1	1
+runeword::flickering-flame	6	res-pois-len	\N	50	50
+runeword::fortitude	1	ac%	\N	200	200
+runeword::fortitude	2	dmg%	\N	300	300
+runeword::fortitude	3	cast3	\N	25	25
+runeword::fortitude	4	gethit-skill	Chilling Armor	20	15
+runeword::fortitude	5	dmg-to-mana	\N	12	12
+runeword::fortitude	6	hp/lvl	\N	8	12
+runeword::fortitude	7	res-all	\N	25	30
+runeword::fury	1	dmg%	\N	209	209
+runeword::fury	2	swing2	\N	40	40
+runeword::fury	3	noheal	\N	1	1
+runeword::fury	4	openwounds	\N	66	66
+runeword::fury	5	lifesteal	\N	6	6
+runeword::fury	6	deadly	\N	33	33
+runeword::fury	7	skill	147	5	5
+runeword::gloom	1	ac%	\N	170	230
+runeword::gloom	2	res-all	\N	30	30
+runeword::gloom	3	gethit-skill	Dim Vision	15	3
+runeword::gloom	4	balance2	\N	10	10
+runeword::gloom	5	dmg-to-mana	\N	5	5
+runeword::gloom	6	light	\N	-3	-3
+runeword::gloom	7	half-freeze	\N	1	1
+runeword::grief	1	dmg-dem/lvl	15	\N	\N
+runeword::grief	2	dmg	\N	340	400
+runeword::grief	3	swing3	\N	30	40
+runeword::grief	4	hit-skill	Venom	35	15
+runeword::grief	5	pierce-pois	\N	20	25
+runeword::grief	6	ignore-ac	\N	1	1
+runeword::grief	7	heal-kill	\N	10	15
+runeword::ground	1	hp%	\N	5	5
+runeword::ground	2	ac%	\N	75	100
+runeword::ground	3	res-ltng	\N	10	30
+runeword::ground	4	abs-ltng%	\N	10	15
+runeword::hand-of-justice	1	swing2	\N	33	33
+runeword::hand-of-justice	2	dmg%	\N	280	330
+runeword::hand-of-justice	3	aura	Holy Fire	16	16
+runeword::hand-of-justice	4	levelup-skill	Blaze	100	36
+runeword::hand-of-justice	5	death-skill	Meteor	100	48
+runeword::hand-of-justice	6	ignore-ac	\N	1	1
+runeword::hand-of-justice	7	pierce-fire	\N	20	20
+runeword::harmony	1	dmg%	\N	200	275
+runeword::harmony	2	dmg-elem	\N	55	160
+runeword::harmony	3	charged	Revive	25	20
+runeword::harmony	4	aura	Vigor	10	10
+runeword::harmony	5	oskill	Valkyrie	2	6
+runeword::harmony	6	regen-mana	\N	20	20
+runeword::harmony	7	light	\N	2	2
+runeword::heart-of-the-oak	1	cast2	\N	40	40
+runeword::heart-of-the-oak	2	charged	Oak Sage	25	4
+runeword::heart-of-the-oak	3	mana%	\N	15	15
+runeword::heart-of-the-oak	4	allskills	\N	3	3
+runeword::heart-of-the-oak	5	regen	\N	20	20
+runeword::heart-of-the-oak	6	res-all	\N	30	40
+runeword::heart-of-the-oak	7	charged	Raven	60	14
+runeword::hearth	1	hp%	\N	5	5
+runeword::hearth	2	ac%	\N	75	100
+runeword::hearth	3	res-cold	\N	10	30
+runeword::hearth	4	abs-cold%	\N	10	15
+runeword::hearth	5	nofreeze	\N	1	1
+runeword::holy-thunder	1	dmg%	\N	60	60
+runeword::holy-thunder	2	dmg-ltng	\N	20	60
+runeword::holy-thunder	3	dmg-max	\N	10	10
+runeword::holy-thunder	4	res-ltng	\N	60	60
+runeword::holy-thunder	5	res-ltng-max	\N	5	5
+runeword::holy-thunder	6	skill	118	3	3
+runeword::holy-thunder	7	charged	53	60	7
+runeword::honor	1	dmg%	\N	160	160
+runeword::honor	2	regen	\N	10	10
+runeword::honor	3	allskills	\N	1	1
+runeword::honor	4	att	\N	200	200
+runeword::honor	5	deadly	\N	25	25
+runeword::honor	6	str	\N	10	10
+runeword::hustle-armor	1	move2	\N	65	65
+runeword::hustle-armor	2	stamdrain	\N	35	35
+runeword::hustle-armor	3	swing2	\N	40	40
+runeword::hustle-armor	4	res-all	\N	10	10
+runeword::hustle-armor	5	oskill	Evade	6	6
+runeword::hustle-weapon	1	hit-skill	Quickness	5	1
+runeword::hustle-weapon	2	swing2	\N	10	10
+runeword::hustle-weapon	3	dmg%	\N	180	200
+runeword::hustle-weapon	4	aura	Fanaticism	1	1
+runeword::ice	1	dmg%	\N	140	210
+runeword::ice	2	aura	Holy Freeze	18	18
+runeword::ice	3	extra-cold	\N	25	30
+runeword::ice	4	hit-skill	Frost Nova	25	22
+runeword::ice	5	levelup-skill	Blizzard	100	40
+runeword::ice	6	pierce-cold	\N	20	20
+runeword::ice	7	gold%/lvl	25	\N	\N
+runeword::infinity	1	dmg%	\N	255	325
+runeword::infinity	2	move3	\N	35	35
+runeword::infinity	3	vit/lvl	4	\N	\N
+runeword::infinity	4	aura	Conviction	12	12
+runeword::infinity	5	kill-skill	Chain Lightning	50	20
+runeword::infinity	6	pierce-ltng	\N	45	55
+runeword::infinity	7	charged	Cyclone Armor	30	21
+runeword::insight	1	dmg%	\N	200	260
+runeword::insight	2	att%	\N	180	250
+runeword::insight	3	mag%	\N	23	23
+runeword::insight	4	oskill	Critical Strike	1	6
+runeword::insight	5	cast2	\N	35	35
+runeword::insight	6	aura	Meditation	12	17
+runeword::insight	7	all-stats	\N	5	5
+runeword::king-s-grace	1	dmg%	\N	100	100
+runeword::king-s-grace	2	att	\N	150	150
+runeword::king-s-grace	3	dmg-demon	\N	100	100
+runeword::king-s-grace	4	dmg-undead	\N	50	50
+runeword::king-s-grace	5	att-demon	\N	100	100
+runeword::king-s-grace	6	att-undead	\N	100	100
+runeword::kingslayer	1	swing2	\N	30	30
+runeword::kingslayer	2	dmg%	\N	230	270
+runeword::kingslayer	3	reduce-ac	\N	25	25
+runeword::kingslayer	4	crush	\N	33	33
+runeword::kingslayer	5	openwounds	\N	25	25
+runeword::kingslayer	6	oskill	Vengeance	1	1
+runeword::kingslayer	7	gold%	\N	40	40
+runeword::last-wish	1	dmg%	\N	330	375
+runeword::last-wish	2	att-skill	Charged Bolt	20	20
+runeword::last-wish	3	hit-skill	Life Tap	10	18
+runeword::last-wish	4	gethit-skill	Fade	6	11
+runeword::last-wish	5	crush	\N	40	50
+runeword::last-wish	6	mag%/lvl	4	\N	\N
+runeword::last-wish	7	aura	Might	17	17
+runeword::lawbringer	1	dmg-cold	\N	130	180
+runeword::lawbringer	2	dmg-fire	\N	150	210
+runeword::lawbringer	3	aura	Sanctuary	16	18
+runeword::lawbringer	4	hit-skill	Decrepify	20	15
+runeword::lawbringer	5	ac-miss	\N	200	250
+runeword::lawbringer	6	rip	\N	1	1
+runeword::lawbringer	7	reduce-ac	\N	50	50
+runeword::leaf	1	fireskill	\N	3	3
+runeword::leaf	2	ac/lvl	\N	16	16
+runeword::leaf	3	res-cold	\N	33	33
+runeword::leaf	4	skill	41	3	3
+runeword::leaf	5	skill	36	3	3
+runeword::leaf	6	skill	37	3	3
+runeword::lionheart	1	str	\N	15	15
+runeword::lionheart	2	vit	\N	20	20
+runeword::lionheart	3	dex	\N	15	15
+runeword::lionheart	4	dmg%	\N	20	20
+runeword::lionheart	5	hp	\N	50	50
+runeword::lionheart	6	res-all	\N	30	30
+runeword::lore	1	enr	\N	10	10
+runeword::lore	2	allskills	\N	1	1
+runeword::lore	3	light	\N	2	2
+runeword::lore	4	mana-kill	\N	2	2
+runeword::malice	1	openwounds	\N	100	100
+runeword::malice	2	dmg-ac	\N	-100	-100
+runeword::malice	3	noheal	\N	1	1
+runeword::malice	4	dmg%	\N	33	33
+runeword::malice	5	light	\N	-1	-1
+runeword::malice	6	regen	\N	-5	-5
+runeword::melody	1	dmg%	\N	50	50
+runeword::melody	2	skilltab	0	3	3
+runeword::melody	3	skill	9	3	3
+runeword::melody	4	skill	13	3	3
+runeword::melody	5	skill	17	3	3
+runeword::melody	6	dmg-undead	\N	300	300
+runeword::memory	1	mana%	\N	20	20
+runeword::memory	2	red-mag	\N	7	7
+runeword::memory	3	ac%	\N	50	50
+runeword::memory	4	cast2	\N	33	33
+runeword::memory	5	sor	\N	3	3
+runeword::memory	6	skill	58	3	3
+runeword::memory	7	skill	42	2	2
+runeword::metamorphosis	1	hit-skill	Mark of the Bear	100	1
+runeword::metamorphosis	2	hit-skill	Mark of the Wolf	100	1
+runeword::metamorphosis	3	skilltab	16	5	5
+runeword::metamorphosis	4	ac%	\N	50	80
+runeword::metamorphosis	5	res-all	\N	10	10
+runeword::metamorphosis	6	crush	\N	25	25
+runeword::mist	1	allskills	\N	3	3
+runeword::mist	2	dmg%	\N	325	375
+runeword::mist	3	aura	Concentration	8	12
+runeword::mist	4	pierce	\N	100	100
+runeword::mist	5	vit	\N	24	24
+runeword::mist	6	res-all	\N	40	40
+runeword::mosaic	1	skilltab	20	2	2
+runeword::mosaic	2	charge-noconsume	\N	50	50
+runeword::mosaic	3	swing2	\N	20	20
+runeword::mosaic	4	dmg%	\N	200	250
+runeword::mosaic	5	extra-fire	\N	8	15
+runeword::mosaic	6	extra-cold	\N	8	15
+runeword::mosaic	7	extra-ltng	\N	8	15
+runeword::myth	1	hit-skill	Taunt	10	1
+runeword::myth	2	gethit-skill	Howl	3	1
+runeword::myth	3	bar	\N	2	2
+runeword::myth	4	regen	\N	10	10
+runeword::nadir	1	ac%	\N	50	50
+runeword::nadir	2	ac	\N	10	10
+runeword::nadir	3	light	\N	-3	-3
+runeword::nadir	4	charged	264	9	13
+runeword::nadir	5	gold%	\N	-33	-33
+runeword::nadir	6	str	\N	5	5
+runeword::oath	1	dmg%	\N	210	340
+runeword::oath	2	swing1	\N	30	30
+runeword::oath	3	hit-skill	Bone Spirit	30	20
+runeword::oath	4	charged	IronGolem	14	17
+runeword::oath	5	charged	Heart of Wolverine	20	16
+runeword::oath	6	abs-mag	\N	10	15
+runeword::oath	7	indestruct	\N	1	1
+runeword::obedience	1	dmg%	\N	370	370
+runeword::obedience	2	crush	\N	40	40
+runeword::obedience	3	kill-skill	enchant	30	21
+runeword::obedience	4	pierce-fire	\N	25	25
+runeword::obedience	5	ac	\N	200	300
+runeword::obedience	6	balance3	\N	40	40
+runeword::obedience	7	res-all	\N	20	30
+runeword::obsession	1	allskills	\N	4	4
+runeword::obsession	2	gethit-skill	Weaken	24	10
+runeword::obsession	3	cast3	\N	65	65
+runeword::obsession	4	balance3	\N	60	60
+runeword::obsession	5	res-all	\N	60	70
+runeword::obsession	6	hp%	\N	15	25
+runeword::obsession	7	regen-mana	\N	15	30
+runeword::passion	1	dmg%	\N	160	210
+runeword::passion	2	oskill	Zeal	1	1
+runeword::passion	3	att%	\N	50	80
+runeword::passion	4	oskill	Berserk	1	1
+runeword::passion	5	swing2	\N	25	25
+runeword::passion	6	charged	Heart of Wolverine	12	3
+runeword::passion	7	stupidity	\N	10	10
+runeword::pattern	1	att%	\N	10	10
+runeword::pattern	2	dmg%	\N	40	80
+runeword::pattern	3	dmg-fire	\N	12	32
+runeword::pattern	4	res-all	\N	15	15
+runeword::pattern	5	str	\N	6	6
+runeword::pattern	6	dex	\N	6	6
+runeword::pattern	7	block2	\N	30	30
+runeword::peace	1	hit-skill	Valkyrie	2	15
+runeword::peace	2	gethit-skill	Slow Missiles	4	5
+runeword::peace	3	ama	\N	2	2
+runeword::peace	4	oskill	Critical Strike	2	2
+runeword::phoenix	1	dmg%	\N	350	400
+runeword::phoenix	2	ac-miss	\N	350	400
+runeword::phoenix	3	hit-skill	Firestorm	40	22
+runeword::phoenix	4	levelup-skill	Blaze	100	40
+runeword::phoenix	5	pierce-fire	\N	28	28
+runeword::phoenix	6	aura	Redemption	10	15
+runeword::phoenix	7	abs-fire	\N	15	21
+runeword::plague	1	dmg%	\N	220	320
+runeword::plague	2	gethit-skill	Lower Resist	20	12
+runeword::plague	3	hit-skill	Poison Nova	25	15
+runeword::plague	4	pierce-pois	\N	23	23
+runeword::plague	5	deadly/lvl	3	\N	\N
+runeword::plague	6	aura	Cleansing	13	17
+runeword::plague	7	allskills	\N	1	2
+runeword::pride	1	dmg-dem/lvl	8	\N	\N
+runeword::pride	2	dmg-ltng	\N	50	280
+runeword::pride	3	att%	\N	260	300
+runeword::pride	4	aura	Concentration	16	20
+runeword::pride	5	gethit-skill	Fire Wall	25	17
+runeword::pride	6	regen	\N	8	8
+runeword::pride	7	gold%/lvl	15	\N	\N
+runeword::principle	1	hit-skill	Holy Bolt	100	5
+runeword::principle	2	pal	\N	2	2
+runeword::principle	3	hp	\N	100	150
+runeword::principle	4	dmg-undead	\N	50	50
+runeword::prudence	1	ac%	\N	140	170
+runeword::prudence	2	red-mag	\N	10	10
+runeword::prudence	3	red-dmg	\N	3	3
+runeword::prudence	4	res-all	\N	25	35
+runeword::prudence	5	balance2	\N	25	25
+runeword::prudence	6	rep-dur	25	\N	\N
+runeword::prudence	7	light	\N	1	1
+runeword::radiance	1	light	\N	5	5
+runeword::radiance	2	enr	\N	10	10
+runeword::radiance	3	vit	\N	10	10
+runeword::radiance	4	red-mag	\N	3	3
+runeword::radiance	5	mana	\N	33	33
+runeword::radiance	6	ac%	\N	75	75
+runeword::rain	1	hit-skill	Twister	5	15
+runeword::rain	2	gethit-skill	Cyclone Armor	5	15
+runeword::rain	3	dru	\N	2	2
+runeword::rain	4	mana	\N	100	150
+runeword::rhyme	1	block2	\N	20	20
+runeword::rhyme	2	block	\N	20	20
+runeword::rhyme	3	res-all	\N	25	25
+runeword::rhyme	4	nofreeze	\N	1	1
+runeword::rhyme	5	gold%	\N	50	50
+runeword::rhyme	6	mag%	\N	25	25
+runeword::rift	1	dmg-mag	\N	160	250
+runeword::rift	2	dmg-fire	\N	60	180
+runeword::rift	3	dmg-to-mana	\N	38	38
+runeword::rift	4	hit-skill	Tornado	20	16
+runeword::rift	5	att-skill	Frozen Orb	16	21
+runeword::rift	6	charged	Iron Maiden	40	15
+runeword::rift	7	all-stats	\N	5	10
+runeword::ritual	1	gethit-skill	Sigil Death	13	1
+runeword::ritual	2	swing1	\N	20	20
+runeword::ritual	3	dmg%	\N	200	270
+runeword::ritual	4	dmg-demon	\N	150	250
+runeword::ritual	5	att%	\N	200	260
+runeword::ritual	6	heal-kill	\N	3	5
+runeword::ritual	7	rip	\N	1	1
+runeword::sanctuary	1	block	\N	20	20
+runeword::sanctuary	2	block2	\N	20	20
+runeword::sanctuary	3	ac%	\N	130	160
+runeword::sanctuary	4	ac-miss	\N	250	250
+runeword::sanctuary	5	res-all	\N	50	70
+runeword::sanctuary	6	balance2	\N	20	20
+runeword::sanctuary	7	charged	Slow Missiles	60	12
+runeword::silence	1	manasteal	\N	4	4
+runeword::silence	2	stupidity	\N	33	33
+runeword::silence	3	dmg%	\N	200	200
+runeword::silence	4	swing2	\N	20	20
+runeword::silence	5	res-all	\N	75	75
+runeword::silence	6	allskills	\N	2	2
+runeword::silence	7	balance2	\N	20	20
+runeword::smoke	1	ac-miss	\N	250	250
+runeword::smoke	2	ac%	\N	75	75
+runeword::smoke	3	res-all	\N	50	50
+runeword::smoke	4	balance2	\N	20	20
+runeword::smoke	5	light	\N	-1	-1
+runeword::smoke	6	charged	72	18	6
+runeword::spirit	1	balance3	\N	55	55
+runeword::spirit	2	mana	\N	89	112
+runeword::spirit	3	ac-miss	\N	250	250
+runeword::spirit	4	vit	\N	22	22
+runeword::spirit	5	cast3	\N	25	35
+runeword::spirit	6	abs-mag	\N	3	8
+runeword::spirit	7	allskills	\N	2	2
+runeword::splendor	1	light	\N	3	3
+runeword::splendor	2	gold%	\N	50	50
+runeword::splendor	3	mag%	\N	20	20
+runeword::splendor	4	ac%	\N	60	100
+runeword::splendor	5	block2	\N	20	20
+runeword::splendor	6	cast2	\N	10	10
+runeword::splendor	7	allskills	\N	1	1
+runeword::stealth	1	red-mag	\N	3	3
+runeword::stealth	2	dex	\N	6	6
+runeword::stealth	3	stam	\N	15	15
+runeword::stealth	4	move2	\N	25	25
+runeword::stealth	5	cast2	\N	25	25
+runeword::stealth	6	balance2	\N	25	25
+runeword::steel	1	swing2	\N	25	25
+runeword::steel	2	dmg-min	\N	3	3
+runeword::steel	3	dmg-max	\N	3	3
+runeword::steel	4	openwounds	\N	50	50
+runeword::steel	5	dmg%	\N	20	20
+runeword::stone	1	ac%	\N	220	260
+runeword::stone	2	charged	Clay Golem	16	16
+runeword::stone	3	ac-miss	\N	300	300
+runeword::stone	4	charged	Molten Boulder	80	16
+runeword::stone	5	str	\N	16	16
+runeword::stone	6	vit	\N	16	16
+runeword::stone	7	balance2	\N	40	40
+runeword::strength	1	str	\N	20	20
+runeword::strength	2	dmg%	\N	35	35
+runeword::strength	3	vit	\N	10	10
+runeword::strength	4	crush	\N	25	25
+runeword::temper	1	hp%	\N	5	5
+runeword::temper	2	ac%	\N	75	100
+runeword::temper	3	res-fire	\N	10	30
+runeword::temper	4	abs-fire%	\N	10	15
+runeword::treachery	1	hit-skill	Venom	25	15
+runeword::treachery	2	gethit-skill	Fade	5	15
+runeword::treachery	3	ass	\N	2	2
+runeword::treachery	4	swing2	\N	45	45
+runeword::unbending-will	1	skilltab	12	3	3
+runeword::unbending-will	2	hit-skill	Taunt	18	18
+runeword::unbending-will	3	swing2	\N	20	30
+runeword::unbending-will	4	dmg%	\N	300	350
+runeword::unbending-will	5	red-dmg	\N	8	8
+runeword::unbending-will	6	noheal	\N	1	1
+runeword::unbending-will	7	lifesteal	\N	8	10
+runeword::venom	1	dmg-pois	175	312	312
+runeword::venom	2	ignore-ac	\N	1	1
+runeword::venom	3	charged	83	27	15
+runeword::venom	4	charged	92	11	13
+runeword::venom	5	manasteal	\N	7	7
+runeword::vigilance	1	gethit-skill	Ring of Fire	5	10
+runeword::vigilance	2	move2	\N	10	10
+runeword::vigilance	3	block2	\N	30	30
+runeword::vigilance	4	hp	\N	20	40
+runeword::vigilance	5	mana	\N	20	40
+runeword::vigilance	6	res-all	\N	25	35
+runeword::vigilance	7	ac%	\N	75	100
+runeword::voice-of-reason	1	dmg-demon	\N	220	350
+runeword::voice-of-reason	2	dmg-undead	\N	280	300
+runeword::voice-of-reason	3	dmg-cold	\N	100	220
+runeword::voice-of-reason	4	pierce-cold	\N	24	24
+runeword::voice-of-reason	5	hit-skill	Ice Blast	18	20
+runeword::voice-of-reason	6	hit-skill	Frozen Orb	15	13
+runeword::voice-of-reason	7	nofreeze	\N	1	1
+runeword::void	1	allskills	\N	2	2
+runeword::void	2	cast2	\N	40	40
+runeword::void	3	extra-mag	\N	10	15
+runeword::void	4	oskill	Abyss	1	3
+runeword::void	5	all-stats	\N	8	12
+runeword::void	6	charged	Decrepify	35	4
+runeword::wealth	1	gold%	\N	250	250
+runeword::wealth	2	mag%	\N	100	100
+runeword::white	1	skilltab	7	3	3
+runeword::white	2	red-mag	\N	4	4
+runeword::white	3	cast2	\N	20	20
+runeword::white	4	mana	\N	13	13
+runeword::white	5	skill	68	3	3
+runeword::white	6	skill	84	2	2
+runeword::white	7	skill	69	4	4
+runeword::wind	1	dmg%	\N	120	160
+runeword::wind	2	swing2	\N	40	40
+runeword::wind	3	move2	\N	20	20
+runeword::wind	4	reduce-ac	\N	50	50
+runeword::wind	5	hit-skill	Tornado	10	9
+runeword::wind	6	charged	240	127	13
+runeword::wind	7	balance2	\N	15	15
+runeword::wisdom	1	pierce	\N	33	33
+runeword::wisdom	2	manasteal	\N	4	8
+runeword::wisdom	3	att%	\N	15	25
+runeword::wisdom	4	mana-kill	\N	5	5
+runeword::wisdom	5	nofreeze	\N	1	1
+runeword::wisdom	6	enr	\N	10	10
+runeword::wrath	1	dmg-demon	\N	300	300
+runeword::wrath	2	dmg-undead	\N	250	300
+runeword::wrath	3	dmg-ltng	\N	41	240
+runeword::wrath	4	dmg-mag	\N	85	120
+runeword::wrath	5	hit-skill	Life Tap	5	10
+runeword::wrath	6	hit-skill	Decrepify	30	1
+runeword::wrath	7	nofreeze	\N	1	1
+runeword::zephyr	1	move2	\N	25	25
+runeword::zephyr	2	swing2	\N	25	25
+runeword::zephyr	3	dmg%	\N	33	33
+runeword::zephyr	4	att	\N	66	66
+runeword::zephyr	5	gethit-skill	240	7	1
+runeword::zephyr	6	ac	\N	25	25

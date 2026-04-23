@@ -1,0 +1,3 @@
+pattern::community_alias_fact	fact_lookup	是什么 掉不掉 在哪	community_alias_resolution	alias_then_canonical_then_source_bias	False	False	True	"[""alias"", ""bm25"", ""graph""]"	schema_seed	True	"{""examples"": [""劳模掉不掉军帽"", ""SOJ是什么""]}"
+pattern::numeric_breakpoint	numeric_reasoning	FCR FHR FBR 档位 是否到下一个档	breakpoint_lookup	entity_plus_numeric_table	True	True	True	"[""alias"", ""rule_lookup"", ""numeric_table"", ""graph""]"	schema_seed	True	"{""examples"": [""90 FCR 带精神盾能否上档""]}"
+pattern::build_route_multihop	multi_hop_strategy	怎么刷 最高效 核心装备 底材 去哪里	build_to_farm_route	build_entity_to_graph_expansion	True	False	True	"[""alias"", ""graph"", ""bm25"", ""vector""]"	schema_seed	True	"{""examples"": [""锤丁谜团底材去哪里刷最高效""]}"

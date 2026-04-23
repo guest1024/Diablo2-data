@@ -35,6 +35,8 @@
 - `scripts/smoke_test_first_system.py`
 - `docs/tier0/curated/`
 - `docs/tier0/verification/README.md`
+- `docs/tier0/pgsql统一检索数据库设计.md`
+- `docs/tier0/pgsql17部署与扩展基线方案.md`
 
 ---
 
@@ -445,3 +447,8 @@ A：先接 merged 主层做原型问答，再补中文高质量内容。
 2. 再做评测
 3. 再补中文高质量源
 4. 再增强 graph 关系和版本治理
+
+### PostgreSQL 统一检索延伸入口
+- `docs/tier0/postgres-playbook.md`
+- `docs/tier0/postgres-bundle/`
+- `docs/tier0/postgres-dict-bundle/`

@@ -1,0 +1,3 @@
+policy::default_fact	Default Fact Policy	fact_lookup	8	12	8	4	True	False	True	"{""fusion_strategy"": ""rrf""}"
+policy::numeric_guarded	Numeric Guarded Policy	numeric_reasoning	6	10	6	6	True	True	True	"{""fusion_strategy"": ""weighted_sum""}"
+policy::multi_hop_build	Multi-hop Build Policy	multi_hop_strategy	6	10	10	8	True	False	True	"{""fusion_strategy"": ""rrf""}"

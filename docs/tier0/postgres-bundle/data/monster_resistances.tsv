@@ -1,0 +1,598 @@
+monster::abominable::snowyeti2	snowyeti2	Abominable	墮落王	snowyeti	snowyeti1	1	blizzhackers/d2data	monstats.json	{}
+monster::abyss-knight::doomknight2	doomknight2	Abyss Knight	地獄騎士	doomknight	doomknight2	1	blizzhackers/d2data	monstats.json	{}
+monster::afflicted::bighead1	bighead1	Afflicted	苦難怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::afflicted::bighead6	bighead6	Afflicted	苦難怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::agony-worm::painworm3	painworm3	Agony Worm	苦惱之蟲	vilekind	painworm1	1	blizzhackers/d2data	monstats.json	{}
+monster::andariel::andariel	andariel	Andariel	安達利爾	demon	andariel	1	blizzhackers/d2data	monstats.json	{}
+monster::anguish-worm::painworm5	painworm5	Anguish Worm	悲苦之蟲	vilekind	painworm1	1	blizzhackers/d2data	monstats.json	{}
+monster::apparition::wraith4	wraith4	Apparition	幽影	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::arach::arach1	arach1	Arach	奧拉克	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::arach::arach6	arach6	Arach	奧拉克	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::arach::arach7	arach7	Arach	奧拉克	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::assailant::sandraider10	sandraider10	Assailant	攻擊者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::assailant::sandraider5	sandraider5	Assailant	攻擊者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::baal::baalclone	baalclone	Baal	巴爾	demon	baalclone	1	blizzhackers/d2data	monstats.json	{}
+monster::baal::baalcrab	baalcrab	Baal	巴爾	demon	baalcrab	1	blizzhackers/d2data	monstats.json	{}
+monster::baal::baalcrabstairs	baalcrabstairs	Baal	巴爾	demon	baalcrabstairs	1	blizzhackers/d2data	monstats.json	{}
+monster::baal::baalthrone	baalthrone	Baal	巴爾	demon	baalthrone	1	blizzhackers/d2data	monstats.json	{}
+monster::baal::uberbaal	uberbaal	Baal	巴爾	demon	baalcrab	1	blizzhackers/d2data	monstats.json	{}
+monster::balrog::megademon1	megademon1	Balrog	巴羅格	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::balrog::megademon4	megademon4	Balrog	巴羅格	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::barbarian::act5hire1	act5hire1	Barbarian	野蠻人	human	act5hire1	1	blizzhackers/d2data	monstats.json	{}
+monster::barbarian::act5hire2	act5hire2	Barbarian	野蠻人	human	act5hire1	1	blizzhackers/d2data	monstats.json	{}
+monster::barbarian-captive::act5pow	act5pow	Barbarian Captive	野蠻人俘虜	human	act5pow	1	blizzhackers/d2data	monstats.json	{}
+monster::barricade::barricadewall1	barricadewall1	Barricade	防禦工事	\N	barricadewall1	1	blizzhackers/d2data	monstats.json	{}
+monster::barricade::barricadewall2	barricadewall2	Barricade	防禦工事	\N	barricadewall1	1	blizzhackers/d2data	monstats.json	{}
+monster::barricaded-door::barricadedoor1	barricadedoor1	Barricaded Door	封死之門	\N	barricadedoor1	1	blizzhackers/d2data	monstats.json	{}
+monster::barricaded-door::barricadedoor2	barricadedoor2	Barricaded Door	封死之門	\N	barricadedoor1	1	blizzhackers/d2data	monstats.json	{}
+monster::barricaded-tower::barricadetower	barricadetower	Barricaded Tower	封閉之塔	construct	barricadetower	1	blizzhackers/d2data	monstats.json	{}
+monster::bear::bear	bear	Bear	熊	\N	bear	1	blizzhackers/d2data	monstats.json	{}
+monster::berserker-slayer::suicideminion2	suicideminion2	Berserker Slayer	狂戰士殺手	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::berserker-slayer::suicideminion9	suicideminion9	Berserker Slayer	狂戰士殺手	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-archer::cr_archer4	cr_archer4	Black Archer	黑色弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-lancer::cr_lancer4	cr_lancer4	Black Lancer	黑色長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-lancer::cr_lancer8	cr_lancer8	Black Lancer	黑色長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-lancer::cr_lancer9	cr_lancer9	Black Lancer	黑色長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-locusts::swarm2	swarm2	Black Locusts	黑色蝗蟲	swarm	swarm1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-raptor::foulcrow3	foulcrow3	Black Raptor	黑色開膛手	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-raptor::foulcrow7	foulcrow7	Black Raptor	黑色開膛手	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-raptor-nest::crownest3	crownest3	Black Raptor Nest	黑色開膛手之巢	\N	crownest1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-rogue::corruptrogue4	corruptrogue4	Black Rogue	黑色蘿格	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-soul::willowisp4	willowisp4	Black Soul	黑色靈魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::black-soul::willowisp6	willowisp6	Black Soul	黑色靈魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-boss::overseer4	overseer4	Blood Boss	血腥統治者	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-bringer::siegebeast3	siegebeast3	Blood Bringer	濺血妖	siegebeast	siegebeast1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-clan::goatman3	goatman3	Blood Clan	血腥一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-clan::goatman9	goatman9	Blood Clan	血腥一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-diver::batdemon4	batdemon4	Blood Diver	鮮血潛鳥	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-golem::bloodgolem	bloodgolem	Blood Golem	血石魔	golem	bloodgolem	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-hawk::foulcrow2	foulcrow2	Blood Hawk	血鷹	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-hawk::foulcrow6	foulcrow6	Blood Hawk	血鷹	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-hawk-nest::crownest2	crownest2	Blood Hawk Nest	血鷹之巢	\N	crownest1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-hook::mosquito3	mosquito3	Blood Hook	血鉤	mosquito	mosquito1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-lord::bloodlord3	bloodlord3	Blood Lord	血之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-lord::vampire4	vampire4	Blood Lord	鮮血之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-lord::vampire6	vampire6	Blood Lord	鮮血之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot::sandmaggot5	sandmaggot5	Blood Maggot	鮮血蛆蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot::sandmaggot6	sandmaggot6	Blood Maggot	鮮血蛆蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot::sandmaggot7	sandmaggot7	Blood Maggot	鮮血蛆蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot-egg::maggotegg5	maggotegg5	Blood Maggot Egg	血蛆之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot-egg::maggotegg6	maggotegg6	Blood Maggot Egg	血蛆之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot-queen::maggotqueen5	maggotqueen5	Blood Maggot Queen	血蛆皇后	sandmaggot	maggotqueen1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot-young::maggotbaby5	maggotbaby5	Blood Maggot Young	血蛆幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-maggot-young::maggotbaby6	maggotbaby6	Blood Maggot Young	血蛆幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-raven::bloodraven	bloodraven	Blood Raven	血鳥	corruptrogue	bloodraven	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-temptress::succubus5	succubus5	Blood Temptress	血腥妖婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-wing::mosquito4	mosquito4	Blood Wing	血翼	mosquito	mosquito1	1	blizzhackers/d2data	monstats.json	{}
+monster::blood-witch::succubuswitch4	succubuswitch4	Blood Witch	血女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::blunderbore::blunderbore1	blunderbore1	Blunderbore	大笨獸	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::blunderbore::blunderbore5	blunderbore5	Blunderbore	大笨獸	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::bog-creature::frogdemon2	frogdemon2	Bog Creature	泥沼生物	frogdemon	frogdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-archer::sk_archer3	sk_archer3	Bone Archer	白骨弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-archer::sk_archer7	sk_archer7	Bone Archer	白骨弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_cold2	skmage_cold2	Bone Mage	白骨法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_cold5	skmage_cold5	Bone Mage	白骨法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_cold6	skmage_cold6	Bone Mage	白骨法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_fire2	skmage_fire2	Bone Mage	白骨法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_ltng2	skmage_ltng2	Bone Mage	白骨法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-mage::skmage_pois2	skmage_pois2	Bone Mage	白骨法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-prison::boneprison1	boneprison1	Bone Prison	骨牢	construct	boneprison1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-prison::boneprison2	boneprison2	Bone Prison	骨牢	construct	boneprison2	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-prison::boneprison3	boneprison3	Bone Prison	骨牢	construct	boneprison3	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-prison::boneprison4	boneprison4	Bone Prison	骨牢	construct	boneprison4	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-scarab::scarab5	scarab5	Bone Scarab	白骨聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-warrior::skeleton3	skeleton3	Bone Warrior	白骨戰士	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::bone-warrior::skeleton6	skeleton6	Bone Warrior	白骨戰士	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::bramble-hulk::thornhulk2	thornhulk2	Bramble Hulk	灌木魔	thornhulk	thornhulk1	1	blizzhackers/d2data	monstats.json	{}
+monster::brute::brute2	brute2	Brute	禽獸	brute	brute2	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead::skeleton4	skeleton4	Burning Dead	燃燒死屍	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-archer::sk_archer4	sk_archer4	Burning Dead Archer	燃燒的死亡弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-archer::sk_archer6	sk_archer6	Burning Dead Archer	燃燒的死亡弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-archer::sk_archer8	sk_archer8	Burning Dead Archer	燃燒的死亡弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-mage::skmage_fire3	skmage_fire3	Burning Dead Mage	燃燒的死法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-mage::skmage_fire6	skmage_fire6	Burning Dead Mage	燃燒的死法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-mage::skmage_fire7	skmage_fire7	Burning Dead Mage	燃燒的死法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-mage::skmage_ltng3	skmage_ltng3	Burning Dead Mage	燃燒的死法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-dead-mage::skmage_pois3	skmage_pois3	Burning Dead Mage	燃燒的死法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-soul::willowisp3	willowisp3	Burning Soul	燃燒的靈魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-soul::willowisp7	willowisp7	Burning Soul	燃燒的靈魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::burning-soul::willowisp8	willowisp8	Burning Soul	燃燒的靈魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::bush-barb::quillrat5	quillrat5	Bush Barb	灌木倒刺怪	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::cadaver::mummy5	mummy5	Cadaver	解剖死屍怪	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::cadaver::mummy6	mummy6	Cadaver	解剖死屍怪	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::cantor::cantor2	cantor2	Cantor	領唱者	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::carrion-bird::vulture1	vulture1	Carrion Bird	腐食鳥	vulture	vulture1	1	blizzhackers/d2data	monstats.json	{}
+monster::carrion-bird::vulture5	vulture5	Carrion Bird	腐食鳥	vulture	vulture1	1	blizzhackers/d2data	monstats.json	{}
+monster::carver::fallen2	fallen2	Carver	利刃魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::carver::fallen6	fallen6	Carver	利刃魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::carver-shaman::fallenshaman2	fallenshaman2	Carver Shaman	利刃巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::carver-shaman::fallenshaman6	fallenshaman6	Carver Shaman	利刃巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::catapult::catapult1	catapult1	Catapult	投石器	\N	catapult1	1	blizzhackers/d2data	monstats.json	{}
+monster::catapult::catapult2	catapult2	Catapult	投石器	\N	catapult1	1	blizzhackers/d2data	monstats.json	{}
+monster::catapult::catapult3	catapult3	Catapult	投石器	\N	catapult1	1	blizzhackers/d2data	monstats.json	{}
+monster::catapult::catapult4	catapult4	Catapult	投石器	\N	catapult1	1	blizzhackers/d2data	monstats.json	{}
+monster::cave-leaper::sandleaper2	sandleaper2	Cave Leaper	洞穴跳躍者	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::cave-leaper::sandleaper6	sandleaper6	Cave Leaper	洞穴跳躍者	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::chilled-froth::snowyeti3	snowyeti3	Chilled Froth	寒冰霜	snowyeti	snowyeti1	1	blizzhackers/d2data	monstats.json	{}
+monster::claw-viper::clawviper2	clawviper2	Claw Viper	利爪腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::claw-viper::clawviper6	clawviper6	Claw Viper	利爪腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::clay-golem::claygolem	claygolem	Clay Golem	黏土石魔	golem	claygolem	1	blizzhackers/d2data	monstats.json	{}
+monster::cliff-lurker::sandleaper5	sandleaper5	Cliff Lurker	峭壁潛伏者	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::cloud-stalker::foulcrow4	foulcrow4	Cloud Stalker	煙霧偷襲者	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::cloud-stalker::foulcrow8	foulcrow8	Cloud Stalker	煙霧偷襲者	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::cloud-stalker-nest::crownest4	crownest4	Cloud Stalker Nest	煙霧偷襲者之巢	\N	crownest1	1	blizzhackers/d2data	monstats.json	{}
+monster::combatant::act5barb1	act5barb1	Combatant	戰鬥士	human	act5barb1	1	blizzhackers/d2data	monstats.json	{}
+monster::combatant::act5barb2	act5barb2	Combatant	戰鬥士	human	act5barb2	1	blizzhackers/d2data	monstats.json	{}
+monster::compelling-orb::compellingorb	compellingorb	Compelling Orb	強制球體	construct	compellingorb	1	blizzhackers/d2data	monstats.json	{}
+monster::consumed-fire-boar::suicideminion4	suicideminion4	Consumed Fire Boar	極火野豬	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::consumed-ice-boar::suicideminion3	suicideminion3	Consumed Ice Boar	極冰野豬	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::corpse-spitter::regurgitator2	regurgitator2	Corpse Spitter	噴吐屍體怪	regurgitator	regurgitator1	1	blizzhackers/d2data	monstats.json	{}
+monster::corpulent::regurgitator1	regurgitator1	Corpulent	癡肥怪	regurgitator	regurgitator1	1	blizzhackers/d2data	monstats.json	{}
+monster::council-member::baalhighpriest	baalhighpriest	Council Member	議會成員	councilmember	baalhighpriest	1	blizzhackers/d2data	monstats.json	{}
+monster::council-member::councilmember1	councilmember1	Council Member	議會成員	councilmember	councilmember1	1	blizzhackers/d2data	monstats.json	{}
+monster::council-member::councilmember2	councilmember2	Council Member	議會成員	councilmember	councilmember1	1	blizzhackers/d2data	monstats.json	{}
+monster::council-member::councilmember3	councilmember3	Council Member	議會成員	councilmember	councilmember1	1	blizzhackers/d2data	monstats.json	{}
+monster::crush-beast::siegebeast2	siegebeast2	Crush Beast	重壓獸	siegebeast	siegebeast1	1	blizzhackers/d2data	monstats.json	{}
+monster::crusher::brute4	brute4	Crusher	壓碎者	brute	brute2	1	blizzhackers/d2data	monstats.json	{}
+monster::damned::bighead10	bighead10	Damned	詛咒怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::damned::bighead5	bighead5	Damned	詛咒怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-archer::cr_archer3	cr_archer3	Dark Archer	黑暗弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-archer::cr_archer7	cr_archer7	Dark Archer	黑暗弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-archer::cr_archer8	cr_archer8	Dark Archer	黑暗弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-familiar::batdemon5	batdemon5	Dark Familiar	黑暗熟視者	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-hunter::corruptrogue1	corruptrogue1	Dark Hunter	黑暗獵人	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-lancer::cr_lancer3	cr_lancer3	Dark Lancer	黑暗長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-lancer::cr_lancer7	cr_lancer7	Dark Lancer	黑暗長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-lord::vampire3	vampire3	Dark Lord	黑暗之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-lord::vampire8	vampire8	Dark Lord	黑暗之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-lord::vampire9	vampire9	Dark Lord	黑暗之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-one::fallen4	fallen4	Dark One	黑暗魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-one::fallen8	fallen8	Dark One	黑暗魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-ranger::cr_archer1	cr_archer1	Dark Ranger	黑色流浪者	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-shaman::fallenshaman4	fallenshaman4	Dark Shaman	黑暗巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-shaman::fallenshaman8	fallenshaman8	Dark Shaman	黑暗巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-shape::wraith5	wraith5	Dark Shape	黑暗身影	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-spearwoman::cr_lancer1	cr_lancer1	Dark Spearwoman	黑暗女槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::dark-stalker::corruptrogue3	corruptrogue3	Dark Stalker	黑暗偷襲者	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-beetle::scarab2	scarab2	Death Beetle	死亡甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-berserker::deathmauler4	deathmauler4	Death Berserker	狂戰士死神	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-brawler::deathmauler2	deathmauler2	Death Brawler	爭吵死神	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-brigadier::deathmauler5	deathmauler5	Death Brigadier	死神之長	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-clan::goatman10	goatman10	Death Clan	死亡一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-clan::goatman5	goatman5	Death Clan	死亡一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-lord::bloodlord5	bloodlord5	Death Lord	死神之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-mage::skmage_cold3	skmage_cold3	Death Mage	死亡法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-mauler::deathmauler1	deathmauler1	Death Mauler	巨鎚死神	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-mauler::deathmauler6	deathmauler6	Death Mauler	巨鎚死神	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::death-slasher::deathmauler3	deathmauler3	Death Slasher	揮砍死神	deathmauler	deathmauler1	1	blizzhackers/d2data	monstats.json	{}
+monster::decayed::mummy2	mummy2	Decayed	腐屍	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::defenderspirit::colbarbwhirl	colbarbwhirl	DefenderSpirit	DefenderSpirit	human	act5barb1	1	blizzhackers/d2data	monstats.json	{}
+monster::defiled-warrior::reanimatedhorde5	reanimatedhorde5	Defiled Warrior	瀆神戰士	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-gremlin::imp3	imp3	Demon Gremlin	惡魔小精靈	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-imp::imp1	imp1	Demon Imp	惡魔妖精	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-imp::imp6	imp6	Demon Imp	惡魔妖精	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-rascal::imp2	imp2	Demon Rascal	惡魔嘍囉	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-sprite::imp5	imp5	Demon Sprite	惡魔幽靈	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-steed::siegebeast5	siegebeast5	Demon Steed	惡魔座騎	siegebeast	siegebeast1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-trickster::imp4	imp4	Demon Trickster	惡魔騙徒	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-trickster::imp7	imp7	Demon Trickster	惡魔騙徒	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::demon-trickster::imp8	imp8	Demon Trickster	惡魔騙徒	imp	imp1	1	blizzhackers/d2data	monstats.json	{}
+monster::desert-wing::batdemon1	batdemon1	Desert Wing	沙漠之翼	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::desertmerc::act2hire	act2hire	DesertMerc	DesertMerc	human	act2hire	1	blizzhackers/d2data	monstats.json	{}
+monster::devilkin::fallen3	fallen3	Devilkin	小惡魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::devilkin::fallen7	fallen7	Devilkin	小惡魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::devilkin-shaman::fallenshaman3	fallenshaman3	Devilkin Shaman	小惡魔巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::devilkin-shaman::fallenshaman7	fallenshaman7	Devilkin Shaman	小惡魔巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::devourer::sandmaggot3	sandmaggot3	Devourer	吞噬者	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::devourer-egg::maggotegg3	maggotegg3	Devourer Egg	吞噬者之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::devourer-queen::maggotqueen3	maggotqueen3	Devourer Queen	吞食者皇后	sandmaggot	maggotqueen1	1	blizzhackers/d2data	monstats.json	{}
+monster::devourer-young::maggotbaby3	maggotbaby3	Devourer Young	吞噬者幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::diablo::diablo	diablo	Diablo	暗黑破壞神	demon	diablo	1	blizzhackers/d2data	monstats.json	{}
+monster::diablo::diabloclone	diabloclone	Diablo	暗黑破壞神	demon	diablo	1	blizzhackers/d2data	monstats.json	{}
+monster::diablo::uberdiablo	uberdiablo	Diablo	暗黑破壞神	demon	diablo	1	blizzhackers/d2data	monstats.json	{}
+monster::dire-wolf::fenris	fenris	Dire Wolf	狂狼	\N	spiritwolf	1	blizzhackers/d2data	monstats.json	{}
+monster::disfigured::bighead4	bighead4	Disfigured	醜陋怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::disfigured::bighead9	bighead9	Disfigured	醜陋怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::doom-ape::baboon4	baboon4	Doom Ape	毀滅猴怪	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::doom-caster::fingermage1	fingermage1	Doom Caster	厄運施術者	fingermage	fingermage1	1	blizzhackers/d2data	monstats.json	{}
+monster::doom-knight::dkfig1	dkfig1	Doom Knight	厄運騎士	doomknight	doomknight1	1	blizzhackers/d2data	monstats.json	{}
+monster::doom-knight::dkfig2	dkfig2	Doom Knight	厄運騎士	doomknight	doomknight1	1	blizzhackers/d2data	monstats.json	{}
+monster::doom-knight::doomknight1	doomknight1	Doom Knight	厄運騎士	doomknight	doomknight1	1	blizzhackers/d2data	monstats.json	{}
+monster::dried-corpse::mummy1	mummy1	Dried Corpse	乾屍	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::drowned-carcass::zombie4	zombie4	Drowned Carcass	溺斃死屍	zombie	zombie1	1	blizzhackers/d2data	monstats.json	{}
+monster::dune-beast::baboon1	baboon1	Dune Beast	沙丘野獸	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::dung-soldier::scarab1	scarab1	Dung Soldier	水肥戰士	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::duriel::duriel	duriel	Duriel	都瑞爾	demon	duriel	1	blizzhackers/d2data	monstats.json	{}
+monster::duriel::uberduriel	uberduriel	Duriel	都瑞爾	demon	duriel	1	blizzhackers/d2data	monstats.json	{}
+monster::eagle::eagle	eagle	Eagle	老鷹	\N	eagle	1	blizzhackers/d2data	monstats.json	{}
+monster::embalmed::mummy3	mummy3	Embalmed	防腐屍怪	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::enslaved::minion1	minion1	Enslaved	僕魔	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::evil-demon-hut::evilhut	evilhut	Evil Demon Hut	邪惡魔屋	\N	evilhut	1	blizzhackers/d2data	monstats.json	{}
+monster::faithful::zealot2	zealot2	Faithful	忠誠信使	zakarum	zealot1	1	blizzhackers/d2data	monstats.json	{}
+monster::fallen::fallen1	fallen1	Fallen	沈淪魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::fallen-shaman::fallenshaman1	fallenshaman1	Fallen Shaman	沈淪巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::fanatic-enslaved::suicideminion1	suicideminion1	Fanatic Enslaved	狂信者僕魔	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::feeder::mosquito2	mosquito2	Feeder	餵食者	mosquito	mosquito1	1	blizzhackers/d2data	monstats.json	{}
+monster::festering-appendages::baaltentacle1	baaltentacle1	Festering Appendages	腐爛的附肢	demon	baaltentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::festering-appendages::baaltentacle2	baaltentacle2	Festering Appendages	腐爛的附肢	demon	baaltentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::festering-appendages::baaltentacle3	baaltentacle3	Festering Appendages	腐爛的附肢	demon	baaltentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::festering-appendages::baaltentacle4	baaltentacle4	Festering Appendages	腐爛的附肢	demon	baaltentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::festering-appendages::baaltentacle5	baaltentacle5	Festering Appendages	腐爛的附肢	demon	baaltentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::fetid-defiler::putriddefiler3	putriddefiler3	Fetid Defiler	臭氣污穢者	putriddefiler	putriddefiler1	1	blizzhackers/d2data	monstats.json	{}
+monster::fetish::fetish2	fetish2	Fetish	小矮人	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::fetish::fetishblow2	fetishblow2	Fetish	小矮人	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::fetish-shaman::fetishshaman2	fetishshaman2	Fetish Shaman	小矮人巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::fiend::batdemon2	batdemon2	Fiend	魔鬼	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::fiend::batdemon7	batdemon7	Fiend	魔鬼	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::fire-boar::minion4	minion4	Fire Boar	火野豬	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::fire-golem::firegolem	firegolem	Fire Golem	火石魔	golem	firegolem	1	blizzhackers/d2data	monstats.json	{}
+monster::fire-tower::firetower	firetower	Fire Tower	火焰塔	construct	firetower	1	blizzhackers/d2data	monstats.json	{}
+monster::flame-spider::arach4	arach4	Flame Spider	火焰蜘蛛	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer::fetish3	fetish3	Flayer	剝皮者	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer::fetish6	fetish6	Flayer	剝皮者	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer::fetishblow3	fetishblow3	Flayer	剝皮者	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer::fetishblow6	fetishblow6	Flayer	剝皮者	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer-shaman::fetishshaman3	fetishshaman3	Flayer Shaman	剝皮巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::flayer-shaman::fetishshaman6	fetishshaman6	Flayer Shaman	剝皮巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-archer::cr_archer5	cr_archer5	Flesh Archer	血肉弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-beast::vilechild1	vilechild1	Flesh Beast	血肉野獸	vilekind	vilechild1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-beast::vilechild5	vilechild5	Flesh Beast	血肉野獸	vilekind	vilechild1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-hunter::corruptrogue5	corruptrogue5	Flesh Hunter	血肉獵人	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-hunter::corruptrogue6	corruptrogue6	Flesh Hunter	血肉獵人	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-lancer::cr_lancer5	cr_lancer5	Flesh Lancer	血肉長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-spawner::vilemother1	vilemother1	Flesh Spawner	血肉復甦者	vilekind	vilemother1	1	blizzhackers/d2data	monstats.json	{}
+monster::flesh-spawner::vilemother5	vilemother5	Flesh Spawner	血肉復甦者	vilekind	vilemother1	1	blizzhackers/d2data	monstats.json	{}
+monster::flying-scimitar::flyingscimitar	flyingscimitar	Flying Scimitar	飛空彎刀	construct	flyingscimitar	1	blizzhackers/d2data	monstats.json	{}
+monster::foul-crow::foulcrow1	foulcrow1	Foul Crow	惡臭烏鴉	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::foul-crow::foulcrow5	foulcrow5	Foul Crow	惡臭烏鴉	foulcrow	foulcrow1	1	blizzhackers/d2data	monstats.json	{}
+monster::foul-crow-nest::crownest1	crownest1	Foul Crow Nest	邪惡烏鴉之巢	\N	crownest1	1	blizzhackers/d2data	monstats.json	{}
+monster::frenzied-hell-spawn::suicideminion10	suicideminion10	Frenzied Hell Spawn	狂亂地獄惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::frenzied-hell-spawn::suicideminion5	suicideminion5	Frenzied Hell Spawn	狂亂地獄惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::frenzied-ice-spawn::suicideminion6	suicideminion6	Frenzied Ice Spawn	狂亂冰封惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-abyss::snowyeti4	snowyeti4	Frozen Abyss	冰封地獄	snowyeti	snowyeti1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-creeper::frozenhorror1	frozenhorror1	Frozen Creeper	寒冰爬行者	frozenhorror	frozenhorror1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-horror::frozenhorror4	frozenhorror4	Frozen Horror	寒冰驚怖者	frozenhorror	frozenhorror1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-scorch::frozenhorror5	frozenhorror5	Frozen Scorch	冰凍焦痕	frozenhorror	frozenhorror1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-scourge::frozenhorror3	frozenhorror3	Frozen Scourge	冰凍之鞭	frozenhorror	frozenhorror1	1	blizzhackers/d2data	monstats.json	{}
+monster::frozen-terror::frozenhorror2	frozenhorror2	Frozen Terror	寒冰恐懼者	frozenhorror	frozenhorror1	1	blizzhackers/d2data	monstats.json	{}
+monster::gargantuan-beast::brute1	brute1	Gargantuan Beast	巨大野獸	brute	brute2	1	blizzhackers/d2data	monstats.json	{}
+monster::gargoyle-trap::gargoyletrap	gargoyletrap	Gargoyle Trap	翼魔陷阱	construct	gargoyletrap	1	blizzhackers/d2data	monstats.json	{}
+monster::ghost::wraith1	wraith1	Ghost	鬼魂	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::ghost::wraith6	wraith6	Ghost	鬼魂	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::ghoul::zombie3	zombie3	Ghoul	食屍鬼	zombie	zombie1	1	blizzhackers/d2data	monstats.json	{}
+monster::ghoul-lord::vampire1	vampire1	Ghoul Lord	食屍鬼之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::ghoul-lord::vampire7	vampire7	Ghoul Lord	食屍鬼之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::giant-lamprey::sandmaggot4	sandmaggot4	Giant Lamprey	巨大八目蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::giant-lamprey-egg::maggotegg4	maggotegg4	Giant Lamprey Egg	巨型八目蟲之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::giant-lamprey-queen::maggotqueen4	maggotqueen4	Giant Lamprey Queen	巨型八目蟲皇后	sandmaggot	maggotqueen1	1	blizzhackers/d2data	monstats.json	{}
+monster::giant-lamprey-young::maggotbaby4	maggotbaby4	Giant Lamprey Young	巨型八目蟲幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::gloam::willowisp1	willowisp1	Gloam	薄暮之魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::gloam::willowisp5	willowisp5	Gloam	薄暮之魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::gloombat::batdemon3	batdemon3	Gloombat	幽暗蝙蝠	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::gloombat::batdemon6	batdemon6	Gloombat	幽暗蝙蝠	batdemon	batdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::gore-bearer::siegebeast4	siegebeast4	Gore Bearer	蝕肉妖	siegebeast	siegebeast1	1	blizzhackers/d2data	monstats.json	{}
+monster::gorebelly::blunderbore2	blunderbore2	Gorebelly	血腹獸	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::greater-hell-spawn::minion11	minion11	Greater Hell Spawn	高等地獄惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::greater-hell-spawn::minion7	minion7	Greater Hell Spawn	高等地獄惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::greater-ice-spawn::minion8	minion8	Greater Ice Spawn	高等冰封惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::griswold::griswold	griswold	Griswold	格里斯瓦得	undead	griswold	1	blizzhackers/d2data	monstats.json	{}
+monster::grizzly::druidbear	druidbear	Grizzly	大灰熊	\N	druidbear	1	blizzhackers/d2data	monstats.json	{}
+monster::grotesque::vilemother3	vilemother3	Grotesque	怪誕魔	vilekind	vilemother1	1	blizzhackers/d2data	monstats.json	{}
+monster::grotesque::vilemother4	vilemother4	Grotesque	怪誕魔	vilekind	vilemother1	1	blizzhackers/d2data	monstats.json	{}
+monster::grotesque-wyrm::vilechild3	vilechild3	Grotesque Wyrm	怪異懷姆獸	vilekind	vilechild1	1	blizzhackers/d2data	monstats.json	{}
+monster::grotesque-wyrm::vilechild4	vilechild4	Grotesque Wyrm	怪異懷姆獸	vilekind	vilechild1	1	blizzhackers/d2data	monstats.json	{}
+monster::guard::act5barb3	act5barb3	Guard	守衛	human	act5barb3	1	blizzhackers/d2data	monstats.json	{}
+monster::guard::act5barb4	act5barb4	Guard	守衛	human	act5barb3	1	blizzhackers/d2data	monstats.json	{}
+monster::guardian::unraveler2	unraveler2	Guardian	守護者	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::guardian::unraveler6	unraveler6	Guardian	守護者	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::guardianspirit::colbarbthrow	colbarbthrow	GuardianSpirit	GuardianSpirit	human	act5barb1	1	blizzhackers/d2data	monstats.json	{}
+monster::heart-of-wolverine::heartofwolverine	heartofwolverine	Heart of Wolverine	狼獾之心	\N	spiritofbarbs	1	blizzhackers/d2data	monstats.json	{}
+monster::heirophant::cantor3	cantor3	Heirophant	海爾奧芬特	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::heirophant::cantor4	cantor4	Heirophant	海爾奧芬特	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::heirophant::cantor5	cantor5	Heirophant	海爾奧芬特	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::heirophant::cantor6	cantor6	Heirophant	海爾奧芬特	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-bovine::cowking	cowking	Hell Bovine	地獄之牛	bovine	hellbovine	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-bovine::hellbovine	hellbovine	Hell Bovine	地獄之牛	bovine	hellbovine	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-buzzard::vulture3	vulture3	Hell Buzzard	地獄兀鷹	vulture	vulture1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-cat::pantherwoman4	pantherwoman4	Hell Cat	地獄貓	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-clan::goatman4	goatman4	Hell Clan	地獄一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-clan::goatman8	goatman8	Hell Clan	地獄一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-lord::bloodlord4	bloodlord4	Hell Lord	地獄之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-lord::bloodlord7	bloodlord7	Hell Lord	地獄之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-slinger::slinger4	slinger4	Hell Slinger	地獄投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-spawn::minion10	minion10	Hell Spawn	地獄惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-spawn::minion5	minion5	Hell Spawn	地獄惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-swarm::swarm4	swarm4	Hell Swarm	地獄群蟲	swarm	swarm1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-swarm::swarm5	swarm5	Hell Swarm	地獄群蟲	swarm	swarm1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-temptress::succubus4	succubus4	Hell Temptress	地獄妖婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-temptress::succubus7	succubus7	Hell Temptress	地獄妖婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-temptress::succubus8	succubus8	Hell Temptress	地獄妖婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-whip::overseer5	overseer5	Hell Whip	地獄之鞭	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-whip::overseer6	overseer6	Hell Whip	地獄之鞭	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-witch::succubuswitch5	succubuswitch5	Hell Witch	地獄女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::hell-witch::succubuswitch7	succubuswitch7	Hell Witch	地獄女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::hephasto-the-armorer::hephasto	hephasto	Hephasto The Armorer	海法斯特盔甲製作者	demon	hephasto	1	blizzhackers/d2data	monstats.json	{}
+monster::hollow-one::unraveler1	unraveler1	Hollow One	中空屍怪	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::horadrim-ancient::unraveler4	unraveler4	Horadrim Ancient	古代赫拉迪姆	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::horadrim-ancient::unraveler8	unraveler8	Horadrim Ancient	古代赫拉迪姆	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::horadrim-ancient::unraveler9	unraveler9	Horadrim Ancient	古代赫拉迪姆	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror::skeleton5	skeleton5	Horror	恐怖白骨	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-archer::sk_archer10	sk_archer10	Horror Archer	恐怖弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-archer::sk_archer11	sk_archer11	Horror Archer	恐怖弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-archer::sk_archer5	sk_archer5	Horror Archer	恐怖弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_cold4	skmage_cold4	Horror Mage	恐怖法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_fire4	skmage_fire4	Horror Mage	恐怖法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_ltng4	skmage_ltng4	Horror Mage	恐怖法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_ltng6	skmage_ltng6	Horror Mage	恐怖法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_ltng7	skmage_ltng7	Horror Mage	恐怖法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_pois4	skmage_pois4	Horror Mage	恐怖法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_pois5	skmage_pois5	Horror Mage	恐怖法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_pois6	skmage_pois6	Horror Mage	恐怖法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::horror-mage::skmage_pois7	skmage_pois7	Horror Mage	恐怖法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::hungry-dead::zombie2	zombie2	Hungry Dead	飢餓死者	zombie	zombie1	1	blizzhackers/d2data	monstats.json	{}
+monster::huntress::pantherwoman1	pantherwoman1	Huntress	女獵人	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::huntress::pantherwoman5	pantherwoman5	Huntress	女獵人	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::ice-boar::minion3	minion3	Ice Boar	冰野豬	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::ice-spawn::minion6	minion6	Ice Spawn	冰封惡靈	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::infidel::sandraider4	sandraider4	Infidel	異教徒	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::infidel::sandraider7	sandraider7	Infidel	異教徒	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::insane-hell-spawn::suicideminion11	suicideminion11	Insane Hell Spawn	瘋狂地獄惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::insane-hell-spawn::suicideminion7	suicideminion7	Insane Hell Spawn	瘋狂地獄惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::insane-ice-spawn::suicideminion8	suicideminion8	Insane Ice Spawn	瘋狂冰封惡靈	minion	suicideminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::invader::sandraider3	sandraider3	Invader	入侵者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::invader::sandraider9	sandraider9	Invader	入侵者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::iron-golem::irongolem	irongolem	Iron Golem	鐵石魔	golem	irongolem	1	blizzhackers/d2data	monstats.json	{}
+monster::iron-wolf::act3hire	act3hire	Iron Wolf	鐵狼	human	act3hire	1	blizzhackers/d2data	monstats.json	{}
+monster::itchies::swarm1	swarm1	Itchies	渴望者	swarm	swarm1	1	blizzhackers/d2data	monstats.json	{}
+monster::izual::izual	izual	Izual	衣卒爾	demon	izual	1	blizzhackers/d2data	monstats.json	{}
+monster::izual::uberizual	uberizual	Izual	衣卒爾	demon	izual	1	blizzhackers/d2data	monstats.json	{}
+monster::jungle-hunter::baboon3	baboon3	Jungle Hunter	叢林獵人	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::kaelan::act2guard2	act2guard2	Kaelan	凱倫	human	act2guard2	1	blizzhackers/d2data	monstats.json	{}
+monster::korlic::ancientbarb3	ancientbarb3	Korlic	科力克	human	ancientbarb1	1	blizzhackers/d2data	monstats.json	{}
+monster::korlic::colossal3	colossal3	Korlic	科力克	human	colossal1	1	blizzhackers/d2data	monstats.json	{}
+monster::lasher::overseer2	overseer2	Lasher	鞭笞者	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::lightning-spire::lightningspire	lightningspire	Lightning Spire	閃電螺旋	construct	lightningspire	1	blizzhackers/d2data	monstats.json	{}
+monster::lilith::uberandariel	uberandariel	Lilith	莉莉絲	demon	andariel	1	blizzhackers/d2data	monstats.json	{}
+monster::madawc::ancientbarb2	ancientbarb2	Madawc	馬道克	human	ancientbarb1	1	blizzhackers/d2data	monstats.json	{}
+monster::madawc::colossal2	colossal2	Madawc	馬道克	human	colossal1	1	blizzhackers/d2data	monstats.json	{}
+monster::marauder::sandraider2	sandraider2	Marauder	掠奪者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::marauder::sandraider6	sandraider6	Marauder	掠奪者	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::mauler::blunderbore3	blunderbore3	Mauler	巨槌	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::mauler::blunderbore6	blunderbore6	Mauler	巨槌	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::maw-fiend::regurgitator3	regurgitator3	Maw Fiend	深淵惡魔	regurgitator	regurgitator1	1	blizzhackers/d2data	monstats.json	{}
+monster::maw-fiend::regurgitator4	regurgitator4	Maw Fiend	深淵惡魔	regurgitator	regurgitator1	1	blizzhackers/d2data	monstats.json	{}
+monster::menace-worm::painworm4	painworm4	Menace Worm	瘋狂之蟲	vilekind	painworm1	1	blizzhackers/d2data	monstats.json	{}
+monster::mephisto::mephisto	mephisto	Mephisto	墨菲斯托	demon	mephisto	1	blizzhackers/d2data	monstats.json	{}
+monster::mephisto::ubermephisto	ubermephisto	Mephisto	墨菲斯托	demon	mephisto	1	blizzhackers/d2data	monstats.json	{}
+monster::minion-of-destruction::baalminion1	baalminion1	Minion of Destruction	毀滅的僕從	demon	baalminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::minion-of-destruction::baalminion2	baalminion2	Minion of Destruction	毀滅的僕從	demon	baalminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::minion-of-destruction::baalminion3	baalminion3	Minion of Destruction	毀滅的僕從	demon	baalminion1	1	blizzhackers/d2data	monstats.json	{}
+monster::misshapen::bighead3	bighead3	Misshapen	殘廢怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::misshapen::bighead8	bighead8	Misshapen	殘廢怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::moon-clan::goatman1	goatman1	Moon Clan	月亮一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::moon-clan::goatman6	goatman6	Moon Clan	月亮一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::moon-lord::bloodlord1	bloodlord1	Moon Lord	月之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::moon-lord::bloodlord6	bloodlord6	Moon Lord	月之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::mummy-sarcophagus::sarcophagus	sarcophagus	Mummy Sarcophagus	木乃伊石棺	construct	sarcophagus	1	blizzhackers/d2data	monstats.json	{}
+monster::night-clan::goatman2	goatman2	Night Clan	黑夜一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::night-clan::goatman7	goatman7	Night Clan	黑夜一族	goatman	goatman1	1	blizzhackers/d2data	monstats.json	{}
+monster::night-lord::bloodlord2	bloodlord2	Night Lord	夜之王	bloodlord	bloodlord1	1	blizzhackers/d2data	monstats.json	{}
+monster::night-lord::vampire2	vampire2	Night Lord	黑夜之王	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::night-marauder::baboon6	baboon6	Night Marauder	夜間屠殺魔	baboon	baboon6	1	blizzhackers/d2data	monstats.json	{}
+monster::night-slinger::slinger3	slinger3	Night Slinger	黑夜投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::night-slinger::slinger6	slinger6	Night Slinger	黑夜投石怪	pantherwoman	slinger5	1	blizzhackers/d2data	monstats.json	{}
+monster::night-tiger::pantherwoman3	pantherwoman3	Night Tiger	夜行老虎	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::nihlathak::nihlathakboss	nihlathakboss	Nihlathak	尼拉塞克	human	nihlathakboss	1	blizzhackers/d2data	monstats.json	{}
+monster::oak-sage::oaksage	oaksage	Oak Sage	橡木智者	\N	spiritofbarbs	1	blizzhackers/d2data	monstats.json	{}
+monster::oblivion-knight::dkmag1	dkmag1	Oblivion Knight	遺忘騎士	doomknight	doomknight3	1	blizzhackers/d2data	monstats.json	{}
+monster::oblivion-knight::dkmag2	dkmag2	Oblivion Knight	遺忘騎士	doomknight	doomknight3	1	blizzhackers/d2data	monstats.json	{}
+monster::oblivion-knight::dkmag3	dkmag3	Oblivion Knight	遺忘騎士	doomknight	doomknight3	1	blizzhackers/d2data	monstats.json	{}
+monster::oblivion-knight::doomknight3	doomknight3	Oblivion Knight	遺忘騎士	doomknight	doomknight3	1	blizzhackers/d2data	monstats.json	{}
+monster::overlord::overseer3	overseer3	Overlord	霸主	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::overseer::overseer1	overseer1	Overseer	督軍	overseer	overseer1	1	blizzhackers/d2data	monstats.json	{}
+monster::pain-worm::painworm1	painworm1	Pain Worm	疼痛之蟲	vilekind	painworm1	1	blizzhackers/d2data	monstats.json	{}
+monster::pit-lord::megademon2	megademon2	Pit Lord	洞穴之王	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::pit-lord::megademon5	megademon5	Pit Lord	洞穴之王	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::pit-lord::megademon6	megademon6	Pit Lord	洞穴之王	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::pit-viper::clawviper4	clawviper4	Pit Viper	洞窟腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::pit-viper::clawviper7	clawviper7	Pit Viper	洞窟腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::plague-bearer::darkelder	darkelder	Plague Bearer	瘟疫散佈者	zombie	darkelder	1	blizzhackers/d2data	monstats.json	{}
+monster::plague-bearer::zombie5	zombie5	Plague Bearer	瘟疫散佈者	zombie	zombie1	1	blizzhackers/d2data	monstats.json	{}
+monster::plague-bugs::swarm3	swarm3	Plague Bugs	瘟疫之蟲	swarm	swarm1	1	blizzhackers/d2data	monstats.json	{}
+monster::poison-spinner::arach3	arach3	Poison Spinner	毒氣旋轉者	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::preserved-dead::mummy4	mummy4	Preserved Dead	不朽死屍怪	mummy	mummy1	1	blizzhackers/d2data	monstats.json	{}
+monster::prison-door::prisondoor	prisondoor	Prison Door	牢門	\N	prisondoor	1	blizzhackers/d2data	monstats.json	{}
+monster::protectorspirit::colbarbfrenzy	colbarbfrenzy	ProtectorSpirit	ProtectorSpirit	human	act5barb2	1	blizzhackers/d2data	monstats.json	{}
+monster::prowling-dead::reanimatedhorde3	reanimatedhorde3	Prowling Dead	爬行屍	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::putrid-defiler::putriddefiler1	putriddefiler1	Putrid Defiler	腐敗污穢者	putriddefiler	putriddefiler1	1	blizzhackers/d2data	monstats.json	{}
+monster::quill-rat::quillrat1	quillrat1	Quill Rat	硬毛老鼠	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::quill-rat::quillrat6	quillrat6	Quill Rat	硬毛老鼠	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::radament::radament	radament	Radament	羅達門特	demon	radament	1	blizzhackers/d2data	monstats.json	{}
+monster::rancid-defiler::putriddefiler4	putriddefiler4	Rancid Defiler	惡臭污穢者	putriddefiler	putriddefiler1	1	blizzhackers/d2data	monstats.json	{}
+monster::rank-defiler::putriddefiler5	putriddefiler5	Rank Defiler	下賤污穢者	putriddefiler	putriddefiler1	1	blizzhackers/d2data	monstats.json	{}
+monster::rat-man::fetish1	fetish1	Rat Man	鼠人	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::rat-man::fetish11	fetish11	Rat Man	鼠人	fetish	fetish11	1	blizzhackers/d2data	monstats.json	{}
+monster::rat-man::fetishblow1	fetishblow1	Rat Man	鼠人	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::ratman-shaman::fetishshaman1	fetishshaman1	RatMan Shaman	鼠人巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::razor-spine::quillrat4	quillrat4	Razor Spine	剃刀山脊怪	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::razor-spine::quillrat8	quillrat8	Razor Spine	剃刀山脊怪	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::reanimated-horde::reanimatedhorde2	reanimatedhorde2	Reanimated Horde	再生屍	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned::skeleton2	skeleton2	Returned	復活的怪物	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned::skeleton7	skeleton7	Returned	復活的怪物	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned::skeleton8	skeleton8	Returned	復活的怪物	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-archer::sk_archer2	sk_archer2	Returned Archer	復生的弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-archer::sk_archer9	sk_archer9	Returned Archer	復生的弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_cold1	skmage_cold1	Returned Mage	復生的法師	skeleton	skmage_cold1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_fire1	skmage_fire1	Returned Mage	復生的法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_fire5	skmage_fire5	Returned Mage	復生的法師	skeleton	skmage_fire1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_ltng1	skmage_ltng1	Returned Mage	復生的法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_ltng5	skmage_ltng5	Returned Mage	復生的法師	skeleton	skmage_ltng1	1	blizzhackers/d2data	monstats.json	{}
+monster::returned-mage::skmage_pois1	skmage_pois1	Returned Mage	復生的法師	skeleton	skmage_pois1	1	blizzhackers/d2data	monstats.json	{}
+monster::river-stalker::tentacle2	tentacle2	River Stalker	河流潛行觸角	tentacle	tentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::river-stalker::tentaclehead2	tentaclehead2	River Stalker	河流潛行水怪	tentacle	tentaclehead1	1	blizzhackers/d2data	monstats.json	{}
+monster::rock-dweller::baboon2	baboon2	Rock Dweller	石地居民	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::rock-worm::sandmaggot2	sandmaggot2	Rock Worm	石蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::rock-worm-egg::maggotegg2	maggotegg2	Rock Worm Egg	石蟲之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::rock-worm-queen::maggotqueen2	maggotqueen2	Rock Worm Queen	石蟲皇后	sandmaggot	maggotqueen1	1	blizzhackers/d2data	monstats.json	{}
+monster::rock-worm-young::maggotbaby2	maggotbaby2	Rock Worm Young	石蟲幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::rogue::roguehire	roguehire	Rogue	蘿格	human	roguehire	1	blizzhackers/d2data	monstats.json	{}
+monster::rogue-scout::rogue2	rogue2	Rogue Scout	蘿格斥候	human	rogue2	1	blizzhackers/d2data	monstats.json	{}
+monster::rot-walker::reanimatedhorde1	reanimatedhorde1	Rot Walker	腐行者	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::saber-cat::pantherwoman2	pantherwoman2	Saber Cat	劍齒貓	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::saber-cat::pantherwoman6	pantherwoman6	Saber Cat	劍齒貓	pantherwoman	pantherwoman1	1	blizzhackers/d2data	monstats.json	{}
+monster::salamander::clawviper3	clawviper3	Salamander	蠑螈蛇怪	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::salamander::clawviper8	clawviper8	Salamander	蠑螈蛇怪	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-fisher::arach2	arach2	Sand Fisher	沙漠釣者	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-leaper::sandleaper1	sandleaper1	Sand Leaper	沙地跳躍者	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-maggot::sandmaggot1	sandmaggot1	Sand Maggot	沙蟲	sandmaggot	sandmaggot1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-maggot-egg::maggotegg1	maggotegg1	Sand Maggot Egg	沙蟲之蛋	\N	maggotegg1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-maggot-queen::maggotqueen1	maggotqueen1	Sand Maggot Queen	沙蟲皇后	sandmaggot	maggotqueen1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-maggot-young::maggotbaby1	maggotbaby1	Sand Maggot Young	沙蟲幼生	sandmaggot	maggotbaby1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-raider::sandraider1	sandraider1	Sand Raider	沙地騎士	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::sand-raider::sandraider8	sandraider8	Sand Raider	沙地騎士	sandraider	sandraider1	1	blizzhackers/d2data	monstats.json	{}
+monster::scarab::scarab3	scarab3	Scarab	聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::scarab::scarab6	scarab6	Scarab	聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::serpent-magus::clawviper10	clawviper10	Serpent Magus	法蛇法師	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::serpent-magus::clawviper5	clawviper5	Serpent Magus	法蛇法師	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::sexton::cantor1	cantor1	Sexton	教堂司事	zakarum	cantor1	1	blizzhackers/d2data	monstats.json	{}
+monster::shadow-master::shadowmaster	shadowmaster	Shadow Master	支配影子	\N	shadowmaster	1	blizzhackers/d2data	monstats.json	{}
+monster::shadow-warrior::shadowwarrior	shadowwarrior	Shadow Warrior	影子戰士	\N	shadowwarrior	1	blizzhackers/d2data	monstats.json	{}
+monster::siege-beast::siegebeast1	siegebeast1	Siege Beast	攻城獸	siegebeast	siegebeast1	1	blizzhackers/d2data	monstats.json	{}
+monster::siren::succubuswitch1	succubuswitch1	Siren	賽連	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::siren::succubuswitch6	succubuswitch6	Siren	賽連	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::skeleton::skeleton1	skeleton1	Skeleton	骷髏	skeleton	skeleton1	1	blizzhackers/d2data	monstats.json	{}
+monster::skeleton-archer::sk_archer1	sk_archer1	Skeleton Archer	骷髏弓箭手	skeleton	sk_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::slayer::minion2	minion2	Slayer	殺手	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::slayer::minion9	minion9	Slayer	殺手	minion	minion1	1	blizzhackers/d2data	monstats.json	{}
+monster::slime-prince::frogdemon3	frogdemon3	Slime Prince	黏蟲王子	frogdemon	frogdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::slinger::slinger1	slinger1	Slinger	投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::slinger::slinger7	slinger7	Slinger	投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::slinger::slinger8	slinger8	Slinger	投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::slinger::slinger9	slinger9	Slinger	投石怪	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::snow-drifter::snowyeti1	snowyeti1	Snow Drifter	雪飄者	snowyeti	snowyeti1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer::fetish4	fetish4	Soul Killer	靈魂殺手	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer::fetish8	fetish8	Soul Killer	靈魂殺手	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer::fetishblow4	fetishblow4	Soul Killer	靈魂殺手	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer::fetishblow8	fetishblow8	Soul Killer	靈魂殺手	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer-shaman::fetishshaman4	fetishshaman4	Soul Killer Shaman	靈魂殺手巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::soul-killer-shaman::fetishshaman8	fetishshaman8	Soul Killer Shaman	靈魂殺手巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::spear-cat::slinger2	slinger2	Spear Cat	矛之貓	pantherwoman	slinger1	1	blizzhackers/d2data	monstats.json	{}
+monster::spear-cat::slinger5	slinger5	Spear Cat	矛之貓	pantherwoman	slinger5	1	blizzhackers/d2data	monstats.json	{}
+monster::specter::wraith3	wraith3	Specter	妖魂	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::specter::wraith8	wraith8	Specter	妖魂	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::specter::wraith9	wraith9	Specter	妖魂	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::spider-magus::arach5	arach5	Spider Magus	蜘蛛魔法師	arach	arach1	1	blizzhackers/d2data	monstats.json	{}
+monster::spike-fiend::quillrat2	quillrat2	Spike Fiend	長釘惡魔	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::spike-fiend::quillrat7	quillrat7	Spike Fiend	長釘惡魔	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::spikefist::thornhulk4	thornhulk4	Spikefist	釘拳魔	thornhulk	thornhulk1	1	blizzhackers/d2data	monstats.json	{}
+monster::spirit-wolf::spiritwolf	spiritwolf	Spirit Wolf	精神之狼	\N	spiritwolf	1	blizzhackers/d2data	monstats.json	{}
+monster::spirit-of-barbs::spiritofbarbs	spiritofbarbs	Spirit of Barbs	倒刺之魂	\N	spiritofbarbs	1	blizzhackers/d2data	monstats.json	{}
+monster::steel-scarab::scarab4	scarab4	Steel Scarab	鋼鐵聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::steel-scarab::scarab7	scarab7	Steel Scarab	鋼鐵聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::steel-scarab::scarab8	scarab8	Steel Scarab	鋼鐵聖甲蟲	scarab	scarab1	1	blizzhackers/d2data	monstats.json	{}
+monster::storm-caster::fingermage3	fingermage3	Storm Caster	暴風施術者	fingermage	fingermage1	1	blizzhackers/d2data	monstats.json	{}
+monster::storm-caster::fingermage5	fingermage5	Storm Caster	暴風施術者	fingermage	fingermage1	1	blizzhackers/d2data	monstats.json	{}
+monster::strmonsterwindow::window1	window1	StrMonsterWindow	StrMonsterWindow	\N	window1	1	blizzhackers/d2data	monstats.json	{}
+monster::strmonsterwindow::window2	window2	StrMonsterWindow	StrMonsterWindow	\N	window2	1	blizzhackers/d2data	monstats.json	{}
+monster::strangler::fingermage2	fingermage2	Strangler	扼殺者	fingermage	fingermage1	1	blizzhackers/d2data	monstats.json	{}
+monster::strangler::fingermage4	fingermage4	Strangler	扼殺者	fingermage	fingermage1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-dog::vilechild2	vilechild2	Stygian Dog	冥河之犬	vilekind	vilechild1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll::fetish5	fetish5	Stygian Doll	冥河娃娃	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll::fetish7	fetish7	Stygian Doll	冥河娃娃	fetish	fetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll::fetishblow5	fetishblow5	Stygian Doll	冥河娃娃	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll::fetishblow7	fetishblow7	Stygian Doll	冥河娃娃	fetish	fetishblow1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll-shaman::fetishshaman5	fetishshaman5	Stygian Doll Shaman	冥河娃娃巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-doll-shaman::fetishshaman7	fetishshaman7	Stygian Doll Shaman	冥河娃娃巫師	fetish	fetishshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-fury::succubuswitch3	succubuswitch3	Stygian Fury	冥河之怒	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-hag::vilemother2	vilemother2	Stygian Hag	冥河夜叉	vilekind	vilemother1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-harlot::succubus3	succubus3	Stygian Harlot	冥河妖婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-watcher::tentacle3	tentacle3	Stygian Watcher	冥河看管觸角	tentacle	tentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::stygian-watcher::tentaclehead3	tentaclehead3	Stygian Watcher	冥河看管水怪	tentacle	tentaclehead1	1	blizzhackers/d2data	monstats.json	{}
+monster::succubus::succubus1	succubus1	Succubus	女夢魔	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::succubus::succubus6	succubus6	Succubus	女夢魔	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::sucker::mosquito1	mosquito1	Sucker	吸食者	mosquito	mosquito1	1	blizzhackers/d2data	monstats.json	{}
+monster::swamp-dweller::frogdemon1	frogdemon1	Swamp Dweller	沼澤住民	frogdemon	frogdemon1	1	blizzhackers/d2data	monstats.json	{}
+monster::swamp-ghost::willowisp2	willowisp2	Swamp Ghost	沼澤的鬼魂	willowisp	willowisp1	1	blizzhackers/d2data	monstats.json	{}
+monster::tainted::bighead2	bighead2	Tainted	污染怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::tainted::bighead7	bighead7	Tainted	污染怪	bighead	bighead1	1	blizzhackers/d2data	monstats.json	{}
+monster::tainted::warbighead	warbighead	Tainted	污染怪	demon	warbighead	1	blizzhackers/d2data	monstats.json	{}
+monster::talic::ancientbarb1	ancientbarb1	Talic	塔力克	human	ancientbarb1	1	blizzhackers/d2data	monstats.json	{}
+monster::talic::colossal1	colossal1	Talic	塔力克	human	colossal1	1	blizzhackers/d2data	monstats.json	{}
+monster::temple-guard::baboon5	baboon5	Temple Guard	神殿守衛	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::temple-guard::baboon7	baboon7	Temple Guard	神殿守衛	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::temple-guard::baboon8	baboon8	Temple Guard	神殿守衛	baboon	baboon1	1	blizzhackers/d2data	monstats.json	{}
+monster::the-banished::vampire5	vampire5	The Banished	受放逐者	vampire	vampire1	1	blizzhackers/d2data	monstats.json	{}
+monster::the-smith::smith	smith	The Smith	鐵匠	demon	smith	1	blizzhackers/d2data	monstats.json	{}
+monster::the-summoner::summoner	summoner	The Summoner	召喚者	human	summoner	1	blizzhackers/d2data	monstats.json	{}
+monster::thorn-beast::quillrat3	quillrat3	Thorn Beast	有刺野獸	quillrat	quillrat1	1	blizzhackers/d2data	monstats.json	{}
+monster::thorned-hulk::thornhulk1	thornhulk1	Thorned Hulk	刺木魔	thornhulk	thornhulk1	1	blizzhackers/d2data	monstats.json	{}
+monster::thorned-hulk::thornhulk5	thornhulk5	Thorned Hulk	刺木魔	thornhulk	thornhulk1	1	blizzhackers/d2data	monstats.json	{}
+monster::thrasher::thornhulk3	thornhulk3	Thrasher	打穀魔	thornhulk	thornhulk1	1	blizzhackers/d2data	monstats.json	{}
+monster::tomb-creeper::sandleaper3	sandleaper3	Tomb Creeper	古墓爬蟲	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::tomb-creeper::sandleaper7	sandleaper7	Tomb Creeper	古墓爬蟲	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::tomb-viper::clawviper1	clawviper1	Tomb Viper	古墓腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::tomb-viper::clawviper9	clawviper9	Tomb Viper	古墓腹蛇	clawviper	clawviper1	1	blizzhackers/d2data	monstats.json	{}
+monster::torment-worm::painworm2	painworm2	Torment Worm	痛苦之蟲	vilekind	painworm1	1	blizzhackers/d2data	monstats.json	{}
+monster::trapped-soul::trappedsoul1	trappedsoul1	Trapped Soul	被困的靈魂	\N	trappedsoul1	1	blizzhackers/d2data	monstats.json	{}
+monster::trapped-soul::trappedsoul2	trappedsoul2	Trapped Soul	被困的靈魂	\N	trappedsoul2	1	blizzhackers/d2data	monstats.json	{}
+monster::tree-lurker::sandleaper4	sandleaper4	Tree Lurker	樹木潛伏者	sandleaper	sandleaper1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-fetish::bonefetish2	bonefetish2	Undead Fetish	不死小矮人	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-flayer::bonefetish3	bonefetish3	Undead Flayer	不死剝皮者	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-rat-man::bonefetish1	bonefetish1	Undead Rat Man	不死鼠人	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-scavenger::vulture2	vulture2	Undead Scavenger	不死腐食者	vulture	vulture1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-soul-killer::bonefetish4	bonefetish4	Undead Soul Killer	不死靈魂殺手	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-soul-killer::bonefetish7	bonefetish7	Undead Soul Killer	不死靈魂殺手	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-stygian-doll::bonefetish5	bonefetish5	Undead Stygian Doll	不死冥河娃娃	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::undead-stygian-doll::bonefetish6	bonefetish6	Undead Stygian Doll	不死冥河娃娃	undeadfetish	bonefetish1	1	blizzhackers/d2data	monstats.json	{}
+monster::unholy-corpse::reanimatedhorde4	reanimatedhorde4	Unholy Corpse	邪氣屍	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::unholy-corpse::reanimatedhorde6	reanimatedhorde6	Unholy Corpse	邪氣屍	zombie	reanimatedhorde1	1	blizzhackers/d2data	monstats.json	{}
+monster::unraveler::unraveler3	unraveler3	Unraveler	解答者	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::unraveler::unraveler5	unraveler5	Unraveler	解開者	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::unraveler::unraveler7	unraveler7	Unraveler	解答者	unraveler	unraveler1	1	blizzhackers/d2data	monstats.json	{}
+monster::urdar::blunderbore4	blunderbore4	Urdar	烏達爾獸	blunderbore	blunderbore1	1	blizzhackers/d2data	monstats.json	{}
+monster::venom-lord::megademon3	megademon3	Venom Lord	邪魔之王	megademon	megademon1	1	blizzhackers/d2data	monstats.json	{}
+monster::venom-lord::venomlord	venomlord	Venom Lord	邪魔之王	megademon	venomlord	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-archer::cr_archer2	cr_archer2	Vile Archer	邪惡弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-archer::cr_archer6	cr_archer6	Vile Archer	邪惡弓箭手	corruptrogue	cr_archer1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-hunter::corruptrogue2	corruptrogue2	Vile Hunter	邪惡獵人	corruptrogue	corruptrogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-lancer::cr_lancer2	cr_lancer2	Vile Lancer	邪惡長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-lancer::cr_lancer6	cr_lancer6	Vile Lancer	邪惡長槍手	corruptrogue	cr_lancer1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-temptress::succubus2	succubus2	Vile Temptress	邪惡淫婦	succubus	succubus1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-witch::succubuswitch2	succubuswitch2	Vile Witch	邪女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-witch::succubuswitch8	succubuswitch8	Vile Witch	邪女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::vile-witch::succubuswitch9	succubuswitch9	Vile Witch	邪女巫	succubus	succubuswitch1	1	blizzhackers/d2data	monstats.json	{}
+monster::wailing-beast::brute5	brute5	Wailing Beast	哀泣之獸	brute	brute2	1	blizzhackers/d2data	monstats.json	{}
+monster::wardefiler::warputriddefiler	warputriddefiler	WarDefiler	WarDefiler	demon	warputriddefiler	1	blizzhackers/d2data	monstats.json	{}
+monster::wargoatman::wargoatman	wargoatman	WarGoatman	WarGoatman	demon	wargoatman	1	blizzhackers/d2data	monstats.json	{}
+monster::warped-one::fallen5	fallen5	Warped One	傳送魔	fallen	fallen1	1	blizzhackers/d2data	monstats.json	{}
+monster::warped-shaman::fallenshaman5	fallenshaman5	Warped Shaman	傳送巫師	fallen	fallenshaman1	1	blizzhackers/d2data	monstats.json	{}
+monster::water-watcher::tentacle1	tentacle1	Water Watcher	水域看管觸角	tentacle	tentacle1	1	blizzhackers/d2data	monstats.json	{}
+monster::water-watcher::tentaclehead1	tentaclehead1	Water Watcher	水域看管水怪	tentacle	tentaclehead1	1	blizzhackers/d2data	monstats.json	{}
+monster::winged-nightmare::vulture4	vulture4	Winged Nightmare	有翼惡夢	vulture	vulture1	1	blizzhackers/d2data	monstats.json	{}
+monster::wolf::wolf	wolf	Wolf	狼	\N	wolf	1	blizzhackers/d2data	monstats.json	{}
+monster::worldstone-effect::worldstoneeffect	worldstoneeffect	Worldstone Effect	Worldstone Effect	\N	worldstoneeffect	1	blizzhackers/d2data	monstats.json	{}
+monster::wraith::wraith2	wraith2	Wraith	忿怒	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::wraith::wraith7	wraith7	Wraith	忿怒	wraith	wraith1	1	blizzhackers/d2data	monstats.json	{}
+monster::wretched-defiler::putriddefiler2	putriddefiler2	Wretched Defiler	卑劣污穢者	putriddefiler	putriddefiler1	1	blizzhackers/d2data	monstats.json	{}
+monster::yeti::brute3	brute3	Yeti	雅提	brute	brute2	1	blizzhackers/d2data	monstats.json	{}
+monster::zakarumite::zealot1	zealot1	Zakarumite	撒卡蘭姆	zakarum	zealot1	1	blizzhackers/d2data	monstats.json	{}
+monster::zealot::zealot3	zealot3	Zealot	狂戰士	zakarum	zealot1	1	blizzhackers/d2data	monstats.json	{}
+monster::zealot::zealot4	zealot4	Zealot	狂戰士	zakarum	zealot1	1	blizzhackers/d2data	monstats.json	{}
+monster::zealot::zealot5	zealot5	Zealot	狂戰士	zakarum	zealot1	1	blizzhackers/d2data	monstats.json	{}
+monster::zombie::zombie1	zombie1	Zombie	僵屍	zombie	zombie1	1	blizzhackers/d2data	monstats.json	{}
+monster::a-trap::trap-nova	trap-nova	a Trap	陷阱	\N	trap-nova	1	blizzhackers/d2data	monstats.json	{}
+monster::a-turret::turret1	turret1	a Turret	砲塔	construct	turret1	1	blizzhackers/d2data	monstats.json	{}
+monster::a-turret::turret2	turret2	a Turret	砲塔	construct	turret1	1	blizzhackers/d2data	monstats.json	{}
+monster::a-turret::turret3	turret3	a Turret	砲塔	construct	turret1	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::act2guard1	act2guard1	an evil force	一股邪惡力量	human	act2guard1	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::act2guard3	act2guard3	an evil force	一股邪惡力量	human	act2guard3	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::act2guard4	act2guard4	an evil force	一股邪惡力量	human	act2guard4	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::act2guard5	act2guard5	an evil force	一股邪惡力量	human	act2guard5	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::bonewall	bonewall	an evil force	一股邪惡力量	construct	bonewall	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::mephistospirit	mephistospirit	an evil force	一股邪惡力量	undead	mephistospirit	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::rogue1	rogue1	an evil force	一股邪惡力量	human	rogue1	1	blizzhackers/d2data	monstats.json	{}
+monster::an-evil-force::rogue3	rogue3	an evil force	一股邪惡力量	human	rogue3	1	blizzhackers/d2data	monstats.json	{}
+monster::firebeast::firebeast	firebeast	firebeast	firebeast	\N	firebeast	\N	blizzhackers/d2data	monstats.json	{}
+monster::iceglobe::iceglobe	iceglobe	iceglobe	iceglobe	\N	iceglobe	\N	blizzhackers/d2data	monstats.json	{}
+monster::lightningbeast::lightningbeast	lightningbeast	lightningbeast	lightningbeast	\N	lightningbeast	\N	blizzhackers/d2data	monstats.json	{}
+monster::poisonorb::poisonorb	poisonorb	poisonorb	poisonorb	\N	poisonorb	\N	blizzhackers/d2data	monstats.json	{}

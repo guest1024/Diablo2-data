@@ -1,0 +1,179 @@
+{
+  "schema_files": [
+    "sql/postgres/004_dict_query_quality_schema.sql",
+    "sql/postgres/005_dict_query_quality_views.sql",
+    "sql/postgres/query_understanding_queries.sql"
+  ],
+  "tables": {
+    "term_dictionary": {
+      "rows": 59,
+      "columns": [
+        "term_id",
+        "canonical_term",
+        "canonical_term_zh",
+        "term_type",
+        "domain",
+        "language",
+        "description",
+        "source",
+        "confidence",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/term_dictionary.tsv"
+    },
+    "alias_dictionary": {
+      "rows": 454,
+      "columns": [
+        "alias_id",
+        "term_id",
+        "canonical_term",
+        "alias",
+        "alias_class",
+        "language",
+        "community_frequency",
+        "confidence",
+        "source",
+        "active",
+        "rewrite_priority",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/alias_dictionary.tsv"
+    },
+    "build_dictionary": {
+      "rows": 9,
+      "columns": [
+        "build_id",
+        "class_name",
+        "build_name",
+        "build_name_zh",
+        "aliases",
+        "source",
+        "confidence",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/build_dictionary.tsv"
+    },
+    "build_dictionary_skills": {
+      "rows": 22,
+      "columns": [
+        "build_id",
+        "skill_order",
+        "skill_name"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/build_dictionary_skills.tsv"
+    },
+    "item_dictionary": {
+      "rows": 1088,
+      "columns": [
+        "item_id",
+        "canonical_name",
+        "canonical_name_zh",
+        "item_family",
+        "rarity",
+        "base_code",
+        "normalized_keywords",
+        "source",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/item_dictionary.tsv"
+    },
+    "area_dictionary": {
+      "rows": 137,
+      "columns": [
+        "area_id",
+        "canonical_name",
+        "canonical_name_zh",
+        "act",
+        "area_tags",
+        "farm_tags",
+        "source",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/area_dictionary.tsv"
+    },
+    "monster_dictionary": {
+      "rows": 598,
+      "columns": [
+        "monster_id",
+        "canonical_name",
+        "canonical_name_zh",
+        "monster_type",
+        "monster_tags",
+        "source",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/monster_dictionary.tsv"
+    },
+    "rule_dictionary": {
+      "rows": 259,
+      "columns": [
+        "rule_id",
+        "rule_type",
+        "subject_type",
+        "canonical_subject",
+        "description",
+        "rule_jsonb",
+        "source",
+        "confidence",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/rule_dictionary.tsv"
+    },
+    "query_pattern_dictionary": {
+      "rows": 3,
+      "columns": [
+        "pattern_id",
+        "query_type",
+        "trigger_phrase",
+        "intent_label",
+        "expansion_policy",
+        "requires_subquestions",
+        "requires_numeric_guard",
+        "requires_citation_verification",
+        "lane_hints",
+        "source",
+        "active",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/query_pattern_dictionary.tsv"
+    },
+    "retrieval_policies": {
+      "rows": 3,
+      "columns": [
+        "policy_id",
+        "policy_name",
+        "query_type",
+        "min_alias_lane",
+        "min_bm25_lane",
+        "min_vector_lane",
+        "min_graph_lane",
+        "require_authority_rerank",
+        "require_numeric_grounding",
+        "require_citation_verification",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/retrieval_policies.tsv"
+    },
+    "answer_constraints": {
+      "rows": 2,
+      "columns": [
+        "constraint_id",
+        "query_type",
+        "must_quote_sources",
+        "must_verify_numeric_claims",
+        "must_disclose_conflicts",
+        "forbid_uncited_facts",
+        "forbid_linear_interpolation_without_rule",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-dict-bundle/data/answer_constraints.tsv"
+    }
+  },
+  "import_sql": "docs/tier0/postgres-dict-bundle/import.sql"
+}

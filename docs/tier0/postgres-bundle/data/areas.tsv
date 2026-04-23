@@ -1,0 +1,137 @@
+area::barracks::28	28	28	Barracks	軍營	0	1	\N	9	34	59	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::black-marsh::6	6	6	Black Marsh	黑色荒地	0	0	\N	6	31	56	520	520	520	4	0	blizzhackers/d2data	levels.json	{}
+area::blood-moor::2	2	2	Blood Moor	鮮血荒地	0	0	\N	1	26	51	520	520	520	255	0	blizzhackers/d2data	levels.json	{}
+area::burial-grounds::17	17	17	Burial Grounds	埋骨之地	0	0	\N	3	28	53	520	520	520	255	0	blizzhackers/d2data	levels.json	{}
+area::catacombs-level-1::34	34	34	Catacombs Level 1	地下墓穴第一層	0	1	\N	11	36	61	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::catacombs-level-2::35	35	35	Catacombs Level 2	地下墓穴第二層	0	1	\N	11	36	61	680	680	680	8	0	blizzhackers/d2data	levels.json	{}
+area::catacombs-level-3::36	36	36	Catacombs Level 3	地下墓穴第三層	0	1	\N	12	37	62	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::catacombs-level-4::37	37	37	Catacombs Level 4	地下墓穴第四層	0	1	\N	12	37	62	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::cathedral::33	33	33	Cathedral	大教堂	0	1	\N	11	36	61	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::cave-level-1::9	9	9	Cave Level 1	洞窟第一層	0	1	\N	2	27	52	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::cave-level-2::13	13	13	Cave Level 2	洞窟第二層	0	1	\N	2	27	52	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::cold-plains::3	3	3	Cold Plains	冰冷之原	0	0	\N	2	27	52	520	520	520	1	0	blizzhackers/d2data	levels.json	{}
+area::crypt::18	18	18	Crypt	墓地	0	1	\N	3	28	53	1056	1056	1056	255	0	blizzhackers/d2data	levels.json	{}
+area::dark-wood::5	5	5	Dark Wood	黑暗森林	0	0	\N	5	30	55	520	520	520	3	0	blizzhackers/d2data	levels.json	{}
+area::den-of-evil::8	8	8	Den of Evil	邪惡洞窟	0	1	\N	1	26	51	600	600	600	255	1	blizzhackers/d2data	levels.json	{}
+area::forgotten-tower::20	20	20	Forgotten Tower	遺忘之塔	0	1	\N	7	32	57	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::hole-level-1::11	11	11	Hole Level 1	地洞第一層	0	1	\N	5	30	55	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::hole-level-2::15	15	15	Hole Level 2	地洞第二層	0	1	\N	5	30	55	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::inner-cloister::32	32	32	Inner Cloister	內側迴廊	0	0	\N	10	35	60	720	720	720	7	0	blizzhackers/d2data	levels.json	{}
+area::jail-level-1::29	29	29	Jail Level 1	監牢第一層	0	1	\N	10	35	60	680	680	680	6	0	blizzhackers/d2data	levels.json	{}
+area::jail-level-2::30	30	30	Jail Level 2	監牢第二層	0	1	\N	10	35	60	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::jail-level-3::31	31	31	Jail Level 3	監牢第三層	0	1	\N	10	35	60	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::mausoleum::19	19	19	Mausoleum	大陵寢	0	1	\N	3	28	53	1056	1056	1056	255	0	blizzhackers/d2data	levels.json	{}
+area::monastery-gate::26	26	26	Monastery Gate	僧院大門	0	0	\N	8	33	58	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::outer-cloister::27	27	27	Outer Cloister	外側迴廊	0	0	\N	9	34	59	600	600	600	5	0	blizzhackers/d2data	levels.json	{}
+area::pit-level-1::12	12	12	Pit Level 1	地穴第一層	0	1	\N	7	32	57	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::pit-level-2::16	16	16	Pit Level 2	地穴第二層	0	1	\N	7	32	57	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::rogue-encampment::1	1	1	Rogue Encampment	蘿格營地	0	0	\N	0	25	50	0	0	0	0	0	blizzhackers/d2data	levels.json	{}
+area::stony-field::4	4	4	Stony Field	石塊曠野	0	0	\N	4	29	54	520	520	520	2	0	blizzhackers/d2data	levels.json	{}
+area::tamoe-highland::7	7	7	Tamoe Highland	泰摩高地	0	0	\N	8	33	58	520	520	520	255	0	blizzhackers/d2data	levels.json	{}
+area::the-secret-cow-level::39	39	39	The Secret Cow Level	秘密母牛關卡	0	0	\N	28	53	78	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::tower-cellar-level-1::21	21	21	Tower Cellar Level 1	高塔地牢第一層	0	1	\N	7	32	57	1024	1024	1024	255	0	blizzhackers/d2data	levels.json	{}
+area::tower-cellar-level-2::22	22	22	Tower Cellar Level 2	高塔地牢第二層	0	1	\N	7	32	57	1024	1024	1024	255	0	blizzhackers/d2data	levels.json	{}
+area::tower-cellar-level-3::23	23	23	Tower Cellar Level 3	高塔地牢第三層	0	1	\N	7	32	57	1024	1024	1024	255	0	blizzhackers/d2data	levels.json	{}
+area::tower-cellar-level-4::24	24	24	Tower Cellar Level 4	高塔地牢第四層	0	1	\N	7	32	57	1024	1024	1024	255	0	blizzhackers/d2data	levels.json	{}
+area::tower-cellar-level-5::25	25	25	Tower Cellar Level 5	高塔地牢第五層	0	1	\N	7	32	57	1024	1024	1024	255	0	blizzhackers/d2data	levels.json	{}
+area::tristram::38	38	38	Tristram	崔斯特瑞姆	0	0	\N	6	31	56	520	520	520	255	0	blizzhackers/d2data	levels.json	{}
+area::underground-passage-level-1::10	10	10	Underground Passage Level 1	地底通道第一層	0	1	\N	4	29	54	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::underground-passage-level-2::14	14	14	Underground Passage Level 2	地底通道第二層	0	1	\N	4	29	54	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::ancient-tunnels::65	65	65	Ancient Tunnels	古代通道	1	1	\N	17	42	67	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::arcane-sanctuary::74	74	74	Arcane Sanctuary	神秘庇難所	1	1	\N	14	39	64	990	990	990	16	11	blizzhackers/d2data	levels.json	{}
+area::canyon-of-the-magi::46	46	46	Canyon of the Magi	術士的峽谷	1	0	\N	16	41	66	880	880	880	17	0	blizzhackers/d2data	levels.json	{}
+area::claw-viper-temple-level-1::58	58	58	Claw Viper Temple Level 1	利爪腹蛇神殿第一層	1	1	\N	14	39	64	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::claw-viper-temple-level-2::61	61	61	Claw Viper Temple Level 2	利爪腹蛇神殿第二層	1	1	\N	14	39	64	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::dry-hills::42	42	42	Dry Hills	乾燥的高地	1	0	\N	15	40	65	880	880	880	11	0	blizzhackers/d2data	levels.json	{}
+area::far-oasis::43	43	43	Far Oasis	遙遠的綠洲	1	0	\N	16	41	66	880	880	880	13	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-the-dead-level-1::56	56	56	Halls of the Dead Level 1	死亡之殿第一層	1	1	\N	12	37	62	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-the-dead-level-2::57	57	57	Halls of the Dead Level 2	死亡之殿第二層	1	1	\N	13	38	63	2200	2200	2200	12	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-the-dead-level-3::60	60	60	Halls of the Dead Level 3	死亡之殿第三層	1	1	\N	13	38	63	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::harem-level-1::50	50	50	Harem Level 1	女眷住處第一層	1	1	\N	0	25	50	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::harem-level-2::51	51	51	Harem Level 2	女眷住處第二層	1	1	\N	13	38	63	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::lost-city::44	44	44	Lost City	遺失的城市	1	0	\N	17	42	67	880	880	880	14	0	blizzhackers/d2data	levels.json	{}
+area::lut-gholein::40	40	40	Lut Gholein	魯.高因	1	0	\N	0	25	50	0	0	0	9	0	blizzhackers/d2data	levels.json	{}
+area::maggot-lair-level-1::62	62	62	Maggot Lair Level 1	蛆蟲巢穴第一層	1	1	\N	17	42	67	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::maggot-lair-level-2::63	63	63	Maggot Lair Level 2	蛆蟲巢穴第二層	1	1	\N	17	42	67	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::maggot-lair-level-3::64	64	64	Maggot Lair Level 3	蛆蟲巢穴第三層	1	1	\N	17	42	67	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::palace-cellar-level-1::52	52	52	Palace Cellar Level 1	皇宮監牢第一層	1	1	\N	13	38	63	2200	2200	2200	15	0	blizzhackers/d2data	levels.json	{}
+area::palace-cellar-level-2::53	53	53	Palace Cellar Level 2	皇宮監牢第二層	1	1	\N	13	38	63	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::palace-cellar-level-3::54	54	54	Palace Cellar Level 3	皇宮監牢第三層	1	1	\N	13	38	63	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::rocky-waste::41	41	41	Rocky Waste	碎石荒地	1	0	\N	14	39	64	880	880	880	255	0	blizzhackers/d2data	levels.json	{}
+area::sewers-level-1::47	47	47	Sewers Level 1	下水道第一層	1	1	\N	13	38	63	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::sewers-level-2::48	48	48	Sewers Level 2	下水道第二層	1	1	\N	13	38	63	680	680	680	10	0	blizzhackers/d2data	levels.json	{}
+area::sewers-level-3::49	49	49	Sewers Level 3	下水道第三層	1	1	\N	14	39	64	680	680	680	255	0	blizzhackers/d2data	levels.json	{}
+area::stony-tomb-level-1::55	55	55	Stony Tomb Level 1	石製古墓第一層	1	1	\N	12	37	62	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::stony-tomb-level-2::59	59	59	Stony Tomb Level 2	石製古墓第二層	1	1	\N	12	37	62	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-chamber::73	73	73	Tal Rasha's Chamber	都瑞爾的房間	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::66	66	66	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::67	67	67	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::68	68	68	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::69	69	69	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::70	70	70	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::71	71	71	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::tal-rasha-s-tomb::72	72	72	Tal Rasha's Tomb	塔.拉夏的古墓	1	1	\N	17	42	67	2200	2200	2200	255	0	blizzhackers/d2data	levels.json	{}
+area::valley-of-snakes::45	45	45	Valley of Snakes	群蛇峽谷	1	0	\N	18	43	68	880	880	880	255	0	blizzhackers/d2data	levels.json	{}
+area::arachnid-lair::84	84	84	Arachnid Lair	蜘蛛巢穴	2	1	\N	21	46	71	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::disused-fane::95	95	95	Disused Fane	廢棄的寺院	2	1	\N	23	48	73	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::disused-reliquary::99	99	99	Disused Reliquary	廢棄的聖物	2	1	\N	24	49	74	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::durance-of-hate-level-1::100	100	100	Durance of Hate Level 1	憎恨的囚牢第一層	2	1	\N	25	50	75	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::durance-of-hate-level-2::101	101	101	Durance of Hate Level 2	憎恨的囚牢第二層	2	1	\N	25	50	75	800	800	800	26	0	blizzhackers/d2data	levels.json	{}
+area::durance-of-hate-level-3::102	102	102	Durance of Hate Level 3	憎恨的囚牢第三層	2	1	\N	25	50	75	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::flayer-dungeon-level-1::88	88	88	Flayer Dungeon Level 1	剝皮地窖第一層	2	1	\N	22	47	72	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::flayer-dungeon-level-2::89	89	89	Flayer Dungeon Level 2	剝皮地窖第二層	2	1	\N	22	47	72	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::flayer-dungeon-level-3::91	91	91	Flayer Dungeon Level 3	剝皮地窖第三層	2	1	\N	22	47	72	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::flayer-jungle::78	78	78	Flayer Jungle	剝皮叢林	2	0	\N	22	47	72	650	650	650	21	0	blizzhackers/d2data	levels.json	{}
+area::forgotten-reliquary::96	96	96	Forgotten Reliquary	遺忘的聖物	2	1	\N	23	48	73	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::forgotten-temple::97	97	97	Forgotten Temple	遺忘神殿	2	1	\N	24	49	74	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::great-marsh::77	77	77	Great Marsh	龐大濕地	2	0	\N	21	46	71	650	650	650	20	0	blizzhackers/d2data	levels.json	{}
+area::kurast-bazaar::80	80	80	Kurast Bazaar	庫拉斯特商場	2	0	\N	22	47	72	325	325	325	23	0	blizzhackers/d2data	levels.json	{}
+area::kurast-causeway::82	82	82	Kurast Causeway	庫拉斯特堤道	2	0	\N	24	49	74	325	325	325	255	0	blizzhackers/d2data	levels.json	{}
+area::kurast-docks::75	75	75	Kurast Docks	庫拉斯特海港	2	0	\N	0	25	50	0	0	0	18	0	blizzhackers/d2data	levels.json	{}
+area::lower-kurast::79	79	79	Lower Kurast	庫拉斯特下層	2	0	\N	22	47	72	325	325	325	22	0	blizzhackers/d2data	levels.json	{}
+area::ruined-fane::98	98	98	Ruined Fane	殘破的寺院	2	1	\N	24	49	74	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::ruined-temple::94	94	94	Ruined Temple	殘破神殿	2	1	\N	23	48	73	990	990	990	255	0	blizzhackers/d2data	levels.json	{}
+area::sewers-level-1::92	92	92	Sewers Level 1	下水道第一層	2	1	\N	23	48	73	650	650	650	255	0	blizzhackers/d2data	levels.json	{}
+area::sewers-level-2::93	93	93	Sewers Level 2	下水道第二層	2	1	\N	24	49	74	650	650	650	255	0	blizzhackers/d2data	levels.json	{}
+area::spider-cavern::85	85	85	Spider Cavern	蜘蛛洞窟	2	1	\N	21	46	71	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::spider-forest::76	76	76	Spider Forest	蜘蛛森林	2	0	\N	21	46	71	650	650	650	19	0	blizzhackers/d2data	levels.json	{}
+area::swampy-pit-level-1::86	86	86	Swampy Pit Level 1	沼澤地洞第一層	2	1	\N	21	46	71	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::swampy-pit-level-2::87	87	87	Swampy Pit Level 2	沼澤地洞第二層	2	1	\N	21	46	71	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::swampy-pit-level-3::90	90	90	Swampy Pit Level 3	沼澤地洞第三層	2	1	\N	21	46	71	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::travincal::83	83	83	Travincal	崔凡克	2	0	\N	24	49	74	325	325	325	25	0	blizzhackers/d2data	levels.json	{}
+area::upper-kurast::81	81	81	Upper Kurast	庫拉斯特上層	2	0	\N	23	48	73	325	325	325	24	0	blizzhackers/d2data	levels.json	{}
+area::city-of-the-damned::106	106	106	City of the Damned	神罰之城	3	0	\N	27	52	77	800	800	800	28	0	blizzhackers/d2data	levels.json	{}
+area::outer-steppes::104	104	104	Outer Steppes	郊外大草原	3	0	\N	26	51	76	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::plains-of-despair::105	105	105	Plains of Despair	絕望平原	3	0	\N	26	51	76	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::river-of-flame::107	107	107	River of Flame	火焰之河	3	0	\N	27	52	77	800	800	800	29	0	blizzhackers/d2data	levels.json	{}
+area::the-chaos-sanctuary::108	108	108	The Chaos Sanctuary	混沌庇難所	3	0	\N	28	53	78	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::the-pandemonium-fortress::103	103	103	The Pandemonium Fortress	群魔堡壘	3	0	\N	0	25	50	0	0	0	27	0	blizzhackers/d2data	levels.json	{}
+area::abaddon::125	125	125	Abaddon	艾巴當	4	0	\N	39	64	89	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::arreat-plateau::112	112	112	Arreat Plateau	亞瑞特高原	4	0	\N	26	51	76	350	350	350	32	0	blizzhackers/d2data	levels.json	{}
+area::arreat-summit::120	120	120	Arreat Summit	亞瑞特山脈顛峰	4	0	\N	27	52	77	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::bloody-foothills::110	110	110	Bloody Foothills	血腥丘陵	4	0	\N	24	49	74	0	650	650	255	0	blizzhackers/d2data	levels.json	{}
+area::colossalsummit::137	137	137	ColossalSummit	ColossalSummit	4	0	\N	27	52	77	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::crystalline-passage::113	113	113	Crystalline Passage	水晶通道	4	1	\N	29	54	79	700	700	700	33	0	blizzhackers/d2data	levels.json	{}
+area::drifter-cavern::116	116	116	Drifter Cavern	漂泊者洞穴	4	1	\N	29	54	79	600	600	600	255	0	blizzhackers/d2data	levels.json	{}
+area::forgotten-sands::134	134	134	Forgotten Sands	遺忘沙漠	4	0	\N	50	75	83	880	880	880	255	0	blizzhackers/d2data	levels.json	{}
+area::frigid-highlands::111	111	111	Frigid Highlands	冰凍高地	4	0	\N	25	50	75	450	450	450	31	0	blizzhackers/d2data	levels.json	{}
+area::frozen-river::114	114	114	Frozen River	冰河	4	1	\N	29	54	79	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::frozen-tundra::117	117	117	Frozen Tundra	冰凍苔原	4	0	\N	27	52	77	550	550	550	36	0	blizzhackers/d2data	levels.json	{}
+area::furnace-of-pain::135	135	135	Furnace of Pain	痛苦熔爐	4	0	\N	50	75	83	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::glacial-trail::115	115	115	Glacial Trail	冰河路徑	4	1	\N	29	54	79	700	700	700	34	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-anguish::122	122	122	Halls of Anguish	悲痛之廳	4	1	\N	33	58	83	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-pain::123	123	123	Halls of Pain	痛苦之廳	4	1	\N	34	59	84	700	700	700	35	0	blizzhackers/d2data	levels.json	{}
+area::halls-of-vaught::124	124	124	Halls of Vaught	瓦特之廳	4	1	\N	36	61	86	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::harrogath::109	109	109	Harrogath	哈洛加斯	4	0	\N	0	0	0	0	0	0	30	0	blizzhackers/d2data	levels.json	{}
+area::icy-cellar::119	119	119	Icy Cellar	冰窖	4	1	\N	29	54	79	650	650	650	255	0	blizzhackers/d2data	levels.json	{}
+area::infernal-pit::127	127	127	Infernal Pit	地獄魔窟	4	0	\N	39	64	89	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::matron-s-den::133	133	133	Matron's Den	主母巢穴	4	1	\N	50	75	83	1056	1056	1056	255	0	blizzhackers/d2data	levels.json	{}
+area::nihlathak-s-temple::121	121	121	Nihlathak's Temple	尼拉塞克的神殿	4	1	\N	32	57	82	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::pit-of-acheron::126	126	126	Pit of Acheron	冥河之洞	4	0	\N	39	64	89	800	800	800	255	0	blizzhackers/d2data	levels.json	{}
+area::the-ancients-way::118	118	118	The Ancients' Way	遠古之路	4	1	\N	29	54	79	650	650	650	37	0	blizzhackers/d2data	levels.json	{}
+area::the-worldstone-chamber::132	132	132	The Worldstone Chamber	世界之石大殿	4	1	\N	0	0	0	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::throne-of-destruction::131	131	131	Throne of Destruction	毀減的王座	4	1	\N	43	68	93	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::tristram::136	136	136	Tristram	崔斯特瑞姆	4	0	\N	50	75	83	0	0	0	255	0	blizzhackers/d2data	levels.json	{}
+area::worldstone-keep-level-1::128	128	128	Worldstone Keep Level 1	世界之石要塞第一層	4	1	\N	39	64	89	700	700	700	255	0	blizzhackers/d2data	levels.json	{}
+area::worldstone-keep-level-2::129	129	129	Worldstone Keep Level 2	世界之石要塞第二層	4	1	\N	40	65	90	700	700	700	38	0	blizzhackers/d2data	levels.json	{}
+area::worldstone-keep-level-3::130	130	130	Worldstone Keep Level 3	世界之石要塞第三層	4	1	\N	42	67	92	700	700	700	255	0	blizzhackers/d2data	levels.json	{}

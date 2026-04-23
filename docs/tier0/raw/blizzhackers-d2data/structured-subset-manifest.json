@@ -1,5 +1,5 @@
 {
-  "downloaded_files": 14,
+  "downloaded_files": 22,
   "failed_files": 0,
   "files": [
     {
@@ -33,6 +33,12 @@
       "size": 150554
     },
     {
+      "name": "items.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/items.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/items.json",
+      "size": 1162578
+    },
+    {
       "name": "itemstatcost.json",
       "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/itemstatcost.json",
       "path": "docs/tier0/raw/blizzhackers-d2data/json-files/itemstatcost.json",
@@ -49,6 +55,18 @@
       "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/levels.json",
       "path": "docs/tier0/raw/blizzhackers-d2data/json-files/levels.json",
       "size": 291976
+    },
+    {
+      "name": "localestrings-chi.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/localestrings-chi.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/localestrings-chi.json",
+      "size": 488683
+    },
+    {
+      "name": "localestrings-eng.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/localestrings-eng.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/localestrings-eng.json",
+      "size": 480328
     },
     {
       "name": "misc.json",
@@ -85,6 +103,36 @@
       "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/monstats2.json",
       "path": "docs/tier0/raw/blizzhackers-d2data/json-files/monstats2.json",
       "size": 525894
+    },
+    {
+      "name": "runes.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/runes.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/runes.json",
+      "size": 71540
+    },
+    {
+      "name": "setitems.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/setitems.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/setitems.json",
+      "size": 80802
+    },
+    {
+      "name": "skills.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/skills.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/skills.json",
+      "size": 481048
+    },
+    {
+      "name": "uniqueitems.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/uniqueitems.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/uniqueitems.json",
+      "size": 264813
+    },
+    {
+      "name": "weapons.json",
+      "download_url": "https://raw.githubusercontent.com/blizzhackers/d2data/master/json/weapons.json",
+      "path": "docs/tier0/raw/blizzhackers-d2data/json-files/weapons.json",
+      "size": 528747
     }
   ],
   "failed": []

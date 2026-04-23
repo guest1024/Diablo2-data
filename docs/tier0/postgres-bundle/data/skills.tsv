@@ -1,0 +1,428 @@
+skill::andrialspray	164	AndrialSpray	AndrialSpray	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::andypoisonbolt	201	AndyPoisonBolt	AndyPoisonBolt	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::arcanetower	204	ArcaneTower	ArcaneTower	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::attack	0	Attack	Attack	\N	\N	\N	\N	1	8	0	1	\N	blizzhackers/d2data	skills.json	{}
+skill::baal	284	Baal	巴爾	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-clone-teleport	331	Baal Clone Teleport	Baal Clone Teleport	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-cold-missiles	318	Baal Cold Missiles	Baal Cold Missiles	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-corpse-explode	285	Baal Corpse Explode	Baal Corpse Explode	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-inferno	317	Baal Inferno	Baal Inferno	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-monster-spawn	286	Baal Monster Spawn	Baal Monster Spawn	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-nova	316	Baal Nova	Baal Nova	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::baal-teleport	329	Baal Teleport	Baal Teleport	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::barbs-aura	296	Barbs Aura	Barbs Aura	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bearsmite	326	BearSmite	BearSmite	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bestow	182	Bestow	Bestow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blood-mana	310	Blood Mana	Blood Mana	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bloodlordfrenzy	328	BloodLordFrenzy	BloodLordFrenzy	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::boltsentry	306	BoltSentry	BoltSentry	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::book-of-identify	218	Book of Identify	Book of Identify	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::book-of-townportal	220	Book of Townportal	Book of Townportal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::catapult-charged-ball	287	Catapult Charged Ball	Catapult Charged Ball	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::catapult-spike-ball	288	Catapult Spike Ball	Catapult Spike Ball	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::catapultblizzard	303	CatapultBlizzard	CatapultBlizzard	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::catapultmeteor	305	CatapultMeteor	CatapultMeteor	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::catapultplague	304	CatapultPlague	CatapultPlague	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::charged-bolt-disk	426	Charged Bolt Disk	Charged Bolt Disk	\N	\N	\N	\N	1	5	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::cold-enchant	408	Cold Enchant	Cold Enchant	\N	\N	\N	\N	18	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cold-fissure	406	Cold Fissure	Cold Fissure	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::colossal-thunder-storm	414	Colossal Thunder Storm	Colossal Thunder Storm	\N	\N	\N	\N	24	8	19	0	\N	blizzhackers/d2data	skills.json	{}
+skill::colossal-volcano	413	Colossal Volcano	Colossal Volcano	\N	\N	\N	\N	24	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::corpsecycler	307	CorpseCycler	CorpseCycler	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::countessfirewall	321	CountessFirewall	CountessFirewall	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cry-help	290	Cry Help	Cry Help	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cubeloot	370	CubeLoot	CubeLoot	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cursedballtrapleft	208	CursedBallTrapLeft	CursedBallTrapLeft	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cursedballtrapright	207	CursedBallTrapRight	CursedBallTrapRight	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::deathmaul	308	DeathMaul	DeathMaul	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::defense-curse	309	Defense Curse	Defense Curse	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::delerium-change	350	Delerium Change	Delerium Change	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::demon-portal	302	Demon Portal	惡魔傳送門	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::desertturret	203	DesertTurret	DesertTurret	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diabcold	194	DiabCold	DiabCold	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diabfire	195	DiabFire	DiabFire	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diablight	193	DiabLight	DiabLight	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diabprison	199	DiabPrison	DiabPrison	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diabrun	198	DiabRun	DiabRun	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diabwall	197	DiabWall	DiabWall	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::diablogeddon	349	Diablogeddon	Diablogeddon	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::doomknightmissile	335	DoomKnightMissile	DoomKnightMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::emerge	180	Emerge	Emerge	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::emotewheel	360	EmoteWheel	EmoteWheel	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::evilhutspawner	320	EvilHutSpawner	EvilHutSpawner	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::festering-appendages	315	Festering Appendages	腐爛的附肢	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fetishaura	177	FetishAura	FetishAura	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fetishinferno	178	FetishInferno	FetishInferno	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fingermagespider	196	FingerMageSpider	FingerMageSpider	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-hit	156	Fire Hit	Fire Hit	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-twisters	412	Fire Twisters	Fire Twisters	\N	\N	\N	\N	18	8	7	1	\N	blizzhackers/d2data	skills.json	{}
+skill::gargoyle-trap	172	Gargoyle Trap	翼魔陷阱	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::goatman-berserk	418	Goatman Berserk	Goatman Berserk	\N	\N	\N	\N	1	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::goatman-cleave	419	Goatman Cleave	Goatman Cleave	\N	\N	\N	\N	1	6	28	1	\N	blizzhackers/d2data	skills.json	{}
+skill::goatman-frenzy	417	Goatman Frenzy	Goatman Frenzy	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::goatman-stun	416	Goatman Stun	Goatman Stun	\N	\N	\N	\N	1	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::healing-vortex	291	Healing Vortex	Healing Vortex	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::health-link	405	Health Link	Health Link	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hellmeteor	213	HellMeteor	HellMeteor	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::heraldthorns	428	HeraldThorns	HeraldThorns	\N	\N	\N	\N	6	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hex-purge-explosion	404	Hex Purge Explosion	Hex Purge Explosion	\N	\N	\N	\N	\N	\N	\N	\N	\N	blizzhackers/d2data	skills.json	{}
+skill::hireablemissile	202	HireableMissile	HireableMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::horror-arctic-blast	323	Horror Arctic Blast	Horror Arctic Blast	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hydramissile	337	HydraMissile	HydraMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::imp-fire-missile	299	Imp Fire Missile	Imp Fire Missile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::imp-fire-missile-ex	356	Imp Fire Missile Ex	Imp Fire Missile Ex	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::imp-fireball	283	Imp Fireball	Imp Fireball	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::imp-inferno	282	Imp Inferno	Imp Inferno	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::imp-teleport	330	Imp Teleport	Imp Teleport	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::impbolt	322	ImpBolt	ImpBolt	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::impregnate	300	Impregnate	Impregnate	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::interact	357	Interact	Interact	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::jump	165	Jump	Jump	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::kick	1	Kick	Kick	\N	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::korlic-s-bash	427	Korlic's Bash	Korlic's Bash	\N	\N	\N	\N	1	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::korlic-s-cold-pierce	425	Korlic's Cold Pierce	Korlic's Cold Pierce	\N	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::korlic-s-leap-attack	407	Korlic's Leap Attack	Korlic's Leap Attack	\N	\N	\N	\N	18	8	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::left-hand-swing	5	Left Hand Swing	Left Hand Swing	\N	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::left-hand-throw	4	Left Hand Throw	Left Hand Throw	\N	\N	\N	\N	1	8	0	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-enchant	409	Lightning Enchant	Lightning Enchant	\N	\N	\N	\N	18	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::loot	358	Loot	Loot	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::madawc-s-lightning-pierce	424	Madawc's Lightning Pierce	Madawc's Lightning Pierce	\N	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::maggotegg	159	MaggotEgg	MaggotEgg	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::magottdown	162	MagottDown	MagottDown	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::magottlay	163	MagottLay	MagottLay	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::magottup	161	MagottUp	MagottUp	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mark-of-the-bear	371	Mark of the Bear	Mark of the Bear	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mark-of-the-wolf	372	Mark of the Wolf	Mark of the Wolf	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::megademoninferno	319	MegademonInferno	MegademonInferno	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mephfrostnova	346	MephFrostNova	MephFrostNova	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mephistomissile	334	MephistoMissile	MephistoMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::missileskill1	183	MissileSkill1	MissileSkill1	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monblizzard	205	MonBlizzard	MonBlizzard	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monbonearmor	210	MonBoneArmor	MonBoneArmor	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monbonespirit	211	MonBoneSpirit	MonBoneSpirit	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monbow	339	MonBow	MonBow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::moncoldarrow	341	MonColdArrow	MonColdArrow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::moncursecast	212	MonCurseCast	MonCurseCast	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monexplodingarrow	342	MonExplodingArrow	MonExplodingArrow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monfirearrow	340	MonFireArrow	MonFireArrow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monfreezingarrow	343	MonFreezingArrow	MonFreezingArrow	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monfrenzy	215	MonFrenzy	MonFrenzy	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monfrozenarmor	209	MonFrozenArmor	MonFrozenArmor	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monholyfire	368	MonHolyFire	MonHolyFire	\N	\N	\N	\N	6	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monholyfreeze	365	MonHolyFreeze	MonHolyFreeze	\N	\N	\N	\N	18	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monholyshock	369	MonHolyShock	MonHolyShock	\N	\N	\N	\N	24	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monicespear	347	MonIceSpear	MonIceSpear	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monleap	366	MonLeap	MonLeap	\N	\N	\N	\N	6	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monleapattack	367	MonLeapAttack	MonLeapAttack	\N	\N	\N	\N	18	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monpowerstrike	344	MonPowerStrike	MonPowerStrike	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::monteleport	184	MonTeleport	MonTeleport	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mosquito	206	Mosquito	Mosquito	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::necromagemissile	338	NecromageMissile	NecromageMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::nest	167	Nest	巢	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::nihlathakcorpseexplosion	351	NihlathakCorpseExplosion	NihlathakCorpseExplosion	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::oak-sage-aura	298	Oak Sage Aura	Oak Sage Aura	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::overseer-whip	295	Overseer Whip	Overseer Whip	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::poisonballtrap	200	PoisonBallTrap	PoisonBallTrap	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primeblaze	187	PrimeBlaze	PrimeBlaze	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primebolt	186	PrimeBolt	PrimeBolt	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primefirewall	188	PrimeFirewall	PrimeFirewall	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primeicenova	190	PrimeIceNova	PrimeIceNova	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primelightning	185	PrimeLightning	PrimeLightning	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primepoisonnova	192	PrimePoisonNova	PrimePoisonNova	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primepoisonball	191	PrimePoisonball	PrimePoisonball	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::primespike	189	PrimeSpike	PrimeSpike	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::queendeath	216	QueenDeath	QueenDeath	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::quick-strike	168	Quick Strike	快速攻擊	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::regurgitatoreat	214	RegurgitatorEat	RegurgitatorEat	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::resurrect	181	Resurrect	Resurrect	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::resurrect2	327	Resurrect2	Resurrect2	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::roguemissile	336	RogueMissile	RogueMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::runtoggle	364	RunToggle	RunToggle	\N	\N	\N	\N	\N	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::scroll-of-identify	217	Scroll of Identify	Scroll of Identify	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::scroll-of-townportal	219	Scroll of Townportal	Scroll of Townportal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::self-resurrect	293	Self-resurrect	Self-resurrect	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::serpentcharge	352	SerpentCharge	SerpentCharge	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shamanfire	160	ShamanFire	ShamanFire	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shamanfireex	355	ShamanFireEx	ShamanFireEx	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shamanice	348	ShamanIce	ShamanIce	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::showitems	363	ShowItems	ShowItems	\N	\N	\N	\N	\N	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::siege-beast-stomp	301	Siege Beast Stomp	Siege Beast Stomp	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::sigil-death-explosion	403	Sigil Death Explosion	Sigil Death Explosion	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::skeletonraise	158	SkeletonRaise	SkeletonRaise	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::spiderlay	173	SpiderLay	SpiderLay	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::submerge	176	Submerge	Submerge	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::succubusbolt	345	SuccubusBolt	SuccubusBolt	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::suck-blood	289	Suck Blood	Suck Blood	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::swapweapons	361	SwapWeapons	SwapWeapons	\N	\N	\N	\N	\N	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::swarm-move	166	Swarm Move	Swarm Move	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::tainted-fire-ball	422	Tainted Fire Ball	Tainted Fire Ball	\N	\N	\N	\N	1	7	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::tainted-fire-bolt	421	Tainted Fire Bolt	Tainted Fire Bolt	\N	\N	\N	\N	1	7	5	1	\N	blizzhackers/d2data	skills.json	{}
+skill::tainted-resist-fire	420	Tainted Resist Fire	Tainted Resist Fire	\N	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::talic-s-fire-pierce	423	Talic's Fire Pierce	Talic's Fire Pierce	\N	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::talic-s-whirlwind	410	Talic's Whirlwind	Talic's Whirlwind	\N	\N	\N	\N	30	\N	\N	1	\N	blizzhackers/d2data	skills.json	{}
+skill::teleport-2	292	Teleport 2	Teleport 2	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::throw	2	Throw	Throw	\N	\N	\N	\N	1	8	0	1	\N	blizzhackers/d2data	skills.json	{}
+skill::townportal	359	TownPortal	TownPortal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::townportal-o-skill	411	Townportal O Skill	Townportal O Skill	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::trap-nova	353	Trap Nova	Trap Nova	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::uberancientsheal	415	UberAncientsHeal	UberAncientsHeal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::unholybolt	157	UnHolyBolt	UnHolyBolt	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::unholyboltex	354	UnHolyBoltEx	UnHolyBoltEx	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::unsummon	3	Unsummon	Unsummon	\N	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampirefireball	169	VampireFireball	VampireFireball	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampirefirewall	170	VampireFirewall	VampireFirewall	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampireheal	174	VampireHeal	VampireHeal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampiremeteor	171	VampireMeteor	VampireMeteor	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampiremissile	333	VampireMissile	VampireMissile	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vampireraise	175	VampireRaise	VampireRaise	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vine-attack	294	Vine Attack	Vine Attack	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vinecycler	325	VineCycler	VineCycler	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::wake-of-destruction-sentry	281	Wake Of Destruction Sentry	Wake Of Destruction Sentry	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::wolverine-aura	297	Wolverine Aura	Wolverine Aura	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::zakarumheal	179	ZakarumHeal	ZakarumHeal	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::zakarumlightning	332	ZakarumLightning	ZakarumLightning	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::death-sentry-ltng	324	death sentry ltng	death sentry ltng	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fenris-rage	314	fenris rage	fenris rage	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mon-death-sentry	312	mon death sentry	mon death sentry	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mon-inferno-sentry	311	mon inferno sentry	mon inferno sentry	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::sentry-lightning	313	sentry lightning	sentry lightning	\N	\N	\N	\N	1	\N	\N	0	\N	blizzhackers/d2data	skills.json	{}
+skill::avoid	18	Avoid	Avoid	ama	\N	\N	\N	12	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::charged-strike	24	Charged Strike	Charged Strike	ama	\N	\N	\N	18	6	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::cold-arrow	11	Cold Arrow	Cold Arrow	ama	\N	\N	\N	6	5	28	1	\N	blizzhackers/d2data	skills.json	{}
+skill::critical-strike	9	Critical Strike	Critical Strike	ama	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::decoy	28	Decoy	誘弭	ama	\N	\N	\N	24	6	76	0	\N	blizzhackers/d2data	skills.json	{}
+skill::dodge	13	Dodge	Dodge	ama	\N	\N	\N	6	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::evade	29	Evade	Evade	ama	\N	\N	\N	24	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::exploding-arrow	16	Exploding Arrow	Exploding Arrow	ama	\N	\N	\N	12	6	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fend	30	Fend	Fend	ama	\N	\N	\N	24	8	5	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-arrow	7	Fire Arrow	Fire Arrow	ama	\N	\N	\N	1	5	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::freezing-arrow	31	Freezing Arrow	Freezing Arrow	ama	\N	\N	\N	30	6	36	1	\N	blizzhackers/d2data	skills.json	{}
+skill::guided-arrow	22	Guided Arrow	Guided Arrow	ama	\N	\N	\N	18	6	32	1	\N	blizzhackers/d2data	skills.json	{}
+skill::ice-arrow	21	Ice Arrow	Ice Arrow	ama	\N	\N	\N	18	6	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::immolation-arrow	27	Immolation Arrow	Immolation Arrow	ama	\N	\N	\N	24	6	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::impale	19	Impale	Impale	ama	\N	\N	\N	12	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::inner-sight	8	Inner Sight	Inner Sight	ama	\N	\N	\N	1	7	10	0	\N	blizzhackers/d2data	skills.json	{}
+skill::jab	10	Jab	Jab	ama	\N	\N	\N	1	6	8	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-bolt	20	Lightning Bolt	Lightning Bolt	ama	\N	\N	\N	12	6	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-fury	35	Lightning Fury	Lightning Fury	ama	\N	\N	\N	30	7	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-strike	34	Lightning Strike	Lightning Strike	ama	\N	\N	\N	30	8	9	1	\N	blizzhackers/d2data	skills.json	{}
+skill::magic-arrow	6	Magic Arrow	Magic Arrow	ama	\N	\N	\N	1	5	12	1	\N	blizzhackers/d2data	skills.json	{}
+skill::multiple-shot	12	Multiple Shot	Multiple Shot	ama	\N	\N	\N	6	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::penetrate	23	Penetrate	Penetrate	ama	\N	\N	\N	18	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::pierce	33	Pierce	Pierce	ama	\N	\N	\N	30	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::plague-javelin	25	Plague Javelin	Plague Javelin	ama	\N	\N	\N	18	7	14	1	\N	blizzhackers/d2data	skills.json	{}
+skill::poison-javelin	15	Poison Javelin	Poison Javelin	ama	\N	\N	\N	6	6	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::power-strike	14	Power Strike	Power Strike	ama	\N	\N	\N	6	6	8	1	\N	blizzhackers/d2data	skills.json	{}
+skill::slow-missiles	17	Slow Missiles	Slow Missiles	ama	\N	\N	\N	12	7	10	0	\N	blizzhackers/d2data	skills.json	{}
+skill::strafe	26	Strafe	Strafe	ama	\N	\N	\N	24	8	11	1	\N	blizzhackers/d2data	skills.json	{}
+skill::valkyrie	32	Valkyrie	女武神	ama	\N	\N	\N	30	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blade-fury	266	Blade Fury	Blade Fury	ass	\N	\N	\N	18	5	8	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blade-sentinel	257	Blade Sentinel	Blade Sentinel	ass	\N	\N	\N	6	8	7	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blade-shield	277	Blade Shield	Blade Shield	ass	\N	\N	\N	30	8	27	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blades-of-ice	274	Blades of Ice	Blades of Ice	ass	\N	\N	\N	24	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::charged-bolt-sentry	261	Charged Bolt Sentry	電光衛兵	ass	\N	\N	\N	12	8	13	0	\N	blizzhackers/d2data	skills.json	{}
+skill::claw-mastery	252	Claw Mastery	Claw Mastery	ass	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::claws-of-thunder	269	Claws of Thunder	Claws of Thunder	ass	\N	\N	\N	18	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::cloak-of-shadows	264	Cloak of Shadows	Cloak of Shadows	ass	\N	\N	\N	12	8	13	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cobra-strike	265	Cobra Strike	Cobra Strike	ass	\N	\N	\N	12	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::death-sentry	276	Death Sentry	死神衛兵	ass	\N	\N	\N	30	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::dragon-claw	260	Dragon Claw	Dragon Claw	ass	\N	\N	\N	6	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::dragon-flight	275	Dragon Flight	Dragon Flight	ass	\N	\N	\N	24	8	15	1	\N	blizzhackers/d2data	skills.json	{}
+skill::dragon-tail	270	Dragon Tail	Dragon Tail	ass	\N	\N	\N	18	8	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::dragon-talon	255	Dragon Talon	Dragon Talon	ass	\N	\N	\N	1	8	6	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fade	267	Fade	Fade	ass	\N	\N	\N	18	8	10	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-trauma	251	Fire Trauma	Fire Trauma	ass	\N	\N	\N	1	5	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fists-of-fire	259	Fists of Fire	Fists of Fire	ass	\N	\N	\N	6	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::inferno-sentry	272	Inferno Sentry	煉獄衛兵	ass	\N	\N	\N	24	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-sentry	271	Lightning Sentry	閃電衛兵	ass	\N	\N	\N	24	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::mind-blast	273	Mind Blast	Mind Blast	ass	\N	\N	\N	24	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::psychic-hammer	253	Psychic Hammer	Psychic Hammer	ass	\N	\N	\N	1	6	16	0	\N	blizzhackers/d2data	skills.json	{}
+skill::quickness	258	Quickness	Quickness	ass	\N	\N	\N	6	8	10	0	\N	blizzhackers/d2data	skills.json	{}
+skill::royal-strike	280	Royal Strike	Royal Strike	ass	\N	\N	\N	30	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::shadow-master	279	Shadow Master	支配影子	ass	\N	\N	\N	30	7	70	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shadow-warrior	268	Shadow Warrior	影子戰士	ass	\N	\N	\N	18	7	54	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shock-field	256	Shock Field	Shock Field	ass	\N	\N	\N	6	8	6	1	\N	blizzhackers/d2data	skills.json	{}
+skill::tiger-strike	254	Tiger Strike	Tiger Strike	ass	\N	\N	\N	1	8	1	1	\N	blizzhackers/d2data	skills.json	{}
+skill::venom	278	Venom	Venom	ass	\N	\N	\N	30	8	12	0	\N	blizzhackers/d2data	skills.json	{}
+skill::wake-of-fire-sentry	262	Wake of Fire Sentry	Wake of Fire Sentry	ass	\N	\N	\N	12	8	13	0	\N	blizzhackers/d2data	skills.json	{}
+skill::weapon-block	263	Weapon Block	Weapon Block	ass	\N	\N	\N	12	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::axe-mastery	128	Axe Mastery	Axe Mastery	bar	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::bash	126	Bash	Bash	bar	\N	\N	\N	1	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::battle-command	155	Battle Command	Battle Command	bar	\N	\N	\N	30	8	11	0	\N	blizzhackers/d2data	skills.json	{}
+skill::battle-cry	146	Battle Cry	Battle Cry	bar	\N	\N	\N	18	8	5	0	\N	blizzhackers/d2data	skills.json	{}
+skill::battle-orders	149	Battle Orders	Battle Orders	bar	\N	\N	\N	24	8	7	0	\N	blizzhackers/d2data	skills.json	{}
+skill::berserker	152	Berserker	狂戰士	bar	\N	\N	\N	30	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blade-mastery	127	Blade Mastery	Blade Mastery	bar	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::concentrate	144	Concentrate	Concentrate	bar	\N	\N	\N	18	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::double-swing	133	Double Swing	Double Swing	bar	\N	\N	\N	6	5	8	1	\N	blizzhackers/d2data	skills.json	{}
+skill::double-throw	140	Double Throw	Double Throw	bar	\N	\N	\N	12	8	1	1	\N	blizzhackers/d2data	skills.json	{}
+skill::find-item	142	Find Item	Find Item	bar	\N	\N	\N	12	8	7	0	\N	blizzhackers/d2data	skills.json	{}
+skill::find-potion	131	Find Potion	Find Potion	bar	\N	\N	\N	1	8	2	0	\N	blizzhackers/d2data	skills.json	{}
+skill::frenzy	147	Frenzy	Frenzy	bar	\N	\N	\N	24	7	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::grim-ward	150	Grim Ward	Grim Ward	bar	\N	\N	\N	24	8	4	0	\N	blizzhackers/d2data	skills.json	{}
+skill::howl	130	Howl	Howl	bar	\N	\N	\N	1	8	4	0	\N	blizzhackers/d2data	skills.json	{}
+skill::increased-speed	148	Increased Speed	Increased Speed	bar	\N	\N	\N	24	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::increased-stamina	141	Increased Stamina	Increased Stamina	bar	\N	\N	\N	12	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::iron-skin	145	Iron Skin	Iron Skin	bar	\N	\N	\N	18	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::leap	132	Leap	Leap	bar	\N	\N	\N	6	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::leap-attack	143	Leap Attack	Leap Attack	bar	\N	\N	\N	18	8	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::mace-mastery	129	Mace Mastery	Mace Mastery	bar	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::natural-resistance	153	Natural Resistance	Natural Resistance	bar	\N	\N	\N	30	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::pole-arm-mastery	134	Pole Arm Mastery	Pole Arm Mastery	bar	\N	\N	\N	6	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::shout	138	Shout	Shout	bar	\N	\N	\N	6	8	6	0	\N	blizzhackers/d2data	skills.json	{}
+skill::spear-mastery	136	Spear Mastery	Spear Mastery	bar	\N	\N	\N	6	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::stun	139	Stun	Stun	bar	\N	\N	\N	12	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::taunt	137	Taunt	Taunt	bar	\N	\N	\N	6	8	3	0	\N	blizzhackers/d2data	skills.json	{}
+skill::throwing-mastery	135	Throwing Mastery	Throwing Mastery	bar	\N	\N	\N	6	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::war-cry	154	War Cry	War Cry	bar	\N	\N	\N	30	6	40	0	\N	blizzhackers/d2data	skills.json	{}
+skill::whirlwind	151	Whirlwind	Whirlwind	bar	\N	\N	\N	30	7	25	1	\N	blizzhackers/d2data	skills.json	{}
+skill::arctic-blast	230	Arctic Blast	Arctic Blast	dru	\N	\N	\N	6	2	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::armageddon	249	Armageddon	Armageddon	dru	\N	\N	\N	30	8	35	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cycle-of-life	231	Cycle of Life	Cycle of Life	dru	\N	\N	\N	12	8	10	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cyclone-armor	235	Cyclone Armor	Cyclone Armor	dru	\N	\N	\N	12	8	5	0	\N	blizzhackers/d2data	skills.json	{}
+skill::eruption	234	Eruption	Eruption	dru	\N	\N	\N	12	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::feral-rage	232	Feral Rage	Feral Rage	dru	\N	\N	\N	12	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-claws	239	Fire Claws	Fire Claws	dru	\N	\N	\N	18	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::firestorm	225	Firestorm	Firestorm	dru	\N	\N	\N	1	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fury	248	Fury	Fury	dru	\N	\N	\N	30	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::heart-of-wolverine	236	Heart of Wolverine	狼獾之心	dru	\N	\N	\N	18	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hunger	242	Hunger	Hunger	dru	\N	\N	\N	24	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::hurricane	250	Hurricane	Hurricane	dru	\N	\N	\N	30	8	30	0	\N	blizzhackers/d2data	skills.json	{}
+skill::maul	233	Maul	Maul	dru	\N	\N	\N	12	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::molten-boulder	229	Molten Boulder	Molten Boulder	dru	\N	\N	\N	6	7	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::oak-sage	226	Oak Sage	橡木智者	dru	\N	\N	\N	6	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::plague-poppy	222	Plague Poppy	Plague Poppy	dru	\N	\N	\N	1	8	8	0	\N	blizzhackers/d2data	skills.json	{}
+skill::rabies	238	Rabies	Rabies	dru	\N	\N	\N	18	8	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::raven	221	Raven	渡鳥之	dru	\N	\N	\N	1	8	6	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shape-shifting	224	Shape Shifting	Shape Shifting	dru	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::shock-wave	243	Shock Wave	Shock Wave	dru	\N	\N	\N	24	8	7	1	\N	blizzhackers/d2data	skills.json	{}
+skill::spirit-of-barbs	246	Spirit of Barbs	倒刺之魂	dru	\N	\N	\N	30	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-fenris	237	Summon Fenris	Summon Fenris	dru	\N	\N	\N	18	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-grizzly	247	Summon Grizzly	Summon Grizzly	dru	\N	\N	\N	30	8	40	0	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-spirit-wolf	227	Summon Spirit Wolf	Summon Spirit Wolf	dru	\N	\N	\N	6	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::tornado	245	Tornado	Tornado	dru	\N	\N	\N	24	8	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::twister	240	Twister	Twister	dru	\N	\N	\N	18	8	7	1	\N	blizzhackers/d2data	skills.json	{}
+skill::vines	241	Vines	Vines	dru	\N	\N	\N	24	8	14	0	\N	blizzhackers/d2data	skills.json	{}
+skill::volcano	244	Volcano	Volcano	dru	\N	\N	\N	24	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::wearbear	228	Wearbear	Wearbear	dru	\N	\N	\N	6	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::wearwolf	223	Wearwolf	Wearwolf	dru	\N	\N	\N	1	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::amplify-damage	66	Amplify Damage	Amplify Damage	nec	\N	\N	\N	1	8	4	0	\N	blizzhackers/d2data	skills.json	{}
+skill::attract	86	Attract	Attract	nec	\N	\N	\N	24	8	17	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blood-golem	85	Blood Golem	血石魔	nec	\N	\N	\N	18	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bone-armor	68	Bone Armor	Bone Armor	nec	\N	\N	\N	1	8	11	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bone-prison	88	Bone Prison	Bone Prison	nec	\N	\N	\N	24	8	27	0	\N	blizzhackers/d2data	skills.json	{}
+skill::bone-spear	84	Bone Spear	Bone Spear	nec	\N	\N	\N	18	6	28	1	\N	blizzhackers/d2data	skills.json	{}
+skill::bone-spirit	93	Bone Spirit	Bone Spirit	nec	\N	\N	\N	30	7	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::bone-wall	78	Bone Wall	Bone Wall	nec	\N	\N	\N	12	8	17	0	\N	blizzhackers/d2data	skills.json	{}
+skill::clay-golem	75	Clay Golem	Clay Golem	nec	\N	\N	\N	6	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::confuse	81	Confuse	Confuse	nec	\N	\N	\N	18	8	13	0	\N	blizzhackers/d2data	skills.json	{}
+skill::corpse-explosion	74	Corpse Explosion	Corpse Explosion	nec	\N	\N	\N	6	8	15	0	\N	blizzhackers/d2data	skills.json	{}
+skill::decrepify	87	Decrepify	Decrepify	nec	\N	\N	\N	24	8	11	0	\N	blizzhackers/d2data	skills.json	{}
+skill::dim-vision	71	Dim Vision	Dim Vision	nec	\N	\N	\N	6	8	9	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-golem	94	Fire Golem	火石魔	nec	\N	\N	\N	30	8	50	0	\N	blizzhackers/d2data	skills.json	{}
+skill::golem-mastery	79	Golem Mastery	Golem Mastery	nec	\N	\N	\N	12	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::iron-golem	90	Iron Golem	鐵石魔	nec	\N	\N	\N	24	8	35	0	\N	blizzhackers/d2data	skills.json	{}
+skill::iron-maiden	76	Iron Maiden	Iron Maiden	nec	\N	\N	\N	12	8	5	0	\N	blizzhackers/d2data	skills.json	{}
+skill::life-tap	82	Life Tap	Life Tap	nec	\N	\N	\N	18	8	9	0	\N	blizzhackers/d2data	skills.json	{}
+skill::lower-resist	91	Lower Resist	Lower Resist	nec	\N	\N	\N	30	8	22	0	\N	blizzhackers/d2data	skills.json	{}
+skill::poison-dagger	73	Poison Dagger	Poison Dagger	nec	\N	\N	\N	6	6	12	1	\N	blizzhackers/d2data	skills.json	{}
+skill::poison-explosion	83	Poison Explosion	Poison Explosion	nec	\N	\N	\N	18	8	8	0	\N	blizzhackers/d2data	skills.json	{}
+skill::poison-nova	92	Poison Nova	Poison Nova	nec	\N	\N	\N	30	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::raise-skeletal-mage	80	Raise Skeletal Mage	Raise Skeletal Mage	nec	\N	\N	\N	12	8	8	0	\N	blizzhackers/d2data	skills.json	{}
+skill::raise-skeleton	70	Raise Skeleton	Raise Skeleton	nec	\N	\N	\N	1	8	6	0	\N	blizzhackers/d2data	skills.json	{}
+skill::revive	95	Revive	Revive	nec	\N	\N	\N	30	8	45	0	\N	blizzhackers/d2data	skills.json	{}
+skill::skeleton-mastery	69	Skeleton Mastery	Skeleton Mastery	nec	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::summon-resist	89	Summon Resist	Summon Resist	nec	\N	\N	\N	24	8	44	0	1	blizzhackers/d2data	skills.json	{}
+skill::teeth	67	Teeth	Teeth	nec	\N	\N	\N	1	7	6	1	\N	blizzhackers/d2data	skills.json	{}
+skill::terror	77	Terror	Terror	nec	\N	\N	\N	12	8	7	0	\N	blizzhackers/d2data	skills.json	{}
+skill::weaken	72	Weaken	Weaken	nec	\N	\N	\N	6	8	4	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blessed-aim	108	Blessed Aim	Blessed Aim	pal	\N	\N	\N	12	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blessed-hammer	112	Blessed Hammer	Blessed Hammer	pal	\N	\N	\N	18	6	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::charge	107	Charge	Charge	pal	\N	\N	\N	12	8	9	1	\N	blizzhackers/d2data	skills.json	{}
+skill::cleansing	109	Cleansing	Cleansing	pal	\N	\N	\N	12	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::concentration	113	Concentration	Concentration	pal	\N	\N	\N	18	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::conversion	116	Conversion	Conversion	pal	\N	\N	\N	24	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::conviction	123	Conviction	Conviction	pal	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::defiance	104	Defiance	Defiance	pal	\N	\N	\N	6	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fanaticism	122	Fanaticism	Fanaticism	pal	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fist-of-the-heavens	121	Fist of the Heavens	Fist of the Heavens	pal	\N	\N	\N	30	8	25	1	\N	blizzhackers/d2data	skills.json	{}
+skill::holy-bolt	101	Holy Bolt	Holy Bolt	pal	\N	\N	\N	6	4	32	1	\N	blizzhackers/d2data	skills.json	{}
+skill::holy-fire	102	Holy Fire	Holy Fire	pal	\N	\N	\N	6	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::holy-freeze	114	Holy Freeze	Holy Freeze	pal	\N	\N	\N	18	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::holy-shield	117	Holy Shield	Holy Shield	pal	\N	\N	\N	24	8	35	0	\N	blizzhackers/d2data	skills.json	{}
+skill::holy-shock	118	Holy Shock	Holy Shock	pal	\N	\N	\N	24	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::meditation	120	Meditation	Meditation	pal	\N	\N	\N	24	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::might	98	Might	Might	pal	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::prayer	99	Prayer	Prayer	pal	\N	\N	\N	1	4	16	0	\N	blizzhackers/d2data	skills.json	{}
+skill::redemption	124	Redemption	Redemption	pal	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::resist-cold	105	Resist Cold	Resist Cold	pal	\N	\N	\N	6	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::resist-fire	100	Resist Fire	Resist Fire	pal	\N	\N	\N	1	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::resist-lightning	110	Resist Lightning	Resist Lightning	pal	\N	\N	\N	12	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::sacrifice	96	Sacrifice	Sacrifice	pal	\N	\N	\N	1	8	0	1	\N	blizzhackers/d2data	skills.json	{}
+skill::salvation	125	Salvation	Salvation	pal	\N	\N	\N	30	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::sanctuary	119	Sanctuary	Sanctuary	pal	\N	\N	\N	24	8	1	0	\N	blizzhackers/d2data	skills.json	{}
+skill::smite	97	Smite	Smite	pal	\N	\N	\N	1	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::thorns	103	Thorns	Thorns	pal	\N	\N	\N	6	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::vengeance	111	Vengeance	Vengeance	pal	\N	\N	\N	18	6	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::vigor	115	Vigor	Vigor	pal	\N	\N	\N	18	8	0	0	\N	blizzhackers/d2data	skills.json	{}
+skill::zeal	106	Zeal	Zeal	pal	\N	\N	\N	12	8	2	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blaze	46	Blaze	Blaze	sor	\N	\N	\N	12	7	22	0	\N	blizzhackers/d2data	skills.json	{}
+skill::blizzard	59	Blizzard	Blizzard	sor	\N	\N	\N	24	8	23	0	\N	blizzhackers/d2data	skills.json	{}
+skill::chain-lightning	53	Chain Lightning	Chain Lightning	sor	\N	\N	\N	18	8	9	1	\N	blizzhackers/d2data	skills.json	{}
+skill::charged-bolt	38	Charged Bolt	Charged Bolt	sor	\N	\N	\N	1	5	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::chilling-armor	60	Chilling Armor	Chilling Armor	sor	\N	\N	\N	24	8	17	0	\N	blizzhackers/d2data	skills.json	{}
+skill::cold-mastery	65	Cold Mastery	Cold Mastery	sor	\N	\N	\N	30	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::enchant	52	Enchant	Enchant	sor	\N	\N	\N	18	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::energy-shield	58	Energy Shield	Energy Shield	sor	\N	\N	\N	24	8	5	0	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-ball	47	Fire Ball	Fire Ball	sor	\N	\N	\N	12	7	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-bolt	36	Fire Bolt	Fire Bolt	sor	\N	\N	\N	1	7	5	1	\N	blizzhackers/d2data	skills.json	{}
+skill::fire-mastery	61	Fire Mastery	Fire Mastery	sor	\N	\N	\N	30	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::fire-wall	51	Fire Wall	Fire Wall	sor	\N	\N	\N	18	8	22	0	\N	blizzhackers/d2data	skills.json	{}
+skill::frost-nova	44	Frost Nova	Frost Nova	sor	\N	\N	\N	6	8	9	0	\N	blizzhackers/d2data	skills.json	{}
+skill::frozen-armor	40	Frozen Armor	Frozen Armor	sor	\N	\N	\N	1	8	7	0	\N	blizzhackers/d2data	skills.json	{}
+skill::frozen-orb	64	Frozen Orb	Frozen Orb	sor	\N	\N	\N	30	7	50	1	\N	blizzhackers/d2data	skills.json	{}
+skill::glacial-spike	55	Glacial Spike	Glacial Spike	sor	\N	\N	\N	18	7	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::hydra	62	Hydra	九頭蛇	sor	\N	\N	\N	30	7	40	0	\N	blizzhackers/d2data	skills.json	{}
+skill::ice-blast	45	Ice Blast	Ice Blast	sor	\N	\N	\N	6	7	12	1	\N	blizzhackers/d2data	skills.json	{}
+skill::ice-bolt	39	Ice Bolt	Ice Bolt	sor	\N	\N	\N	1	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::inferno	41	Inferno	Inferno	sor	\N	\N	\N	6	2	24	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning	49	Lightning	Lightning	sor	\N	\N	\N	12	7	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::lightning-mastery	63	Lightning Mastery	Lightning Mastery	sor	\N	\N	\N	30	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::meteor	56	Meteor	Meteor	sor	\N	\N	\N	24	7	34	0	\N	blizzhackers/d2data	skills.json	{}
+skill::nova	48	Nova	Nova	sor	\N	\N	\N	12	8	13	0	\N	blizzhackers/d2data	skills.json	{}
+skill::shiver-armor	50	Shiver Armor	Shiver Armor	sor	\N	\N	\N	12	8	11	0	\N	blizzhackers/d2data	skills.json	{}
+skill::static-field	42	Static Field	Static Field	sor	\N	\N	\N	6	8	9	0	\N	blizzhackers/d2data	skills.json	{}
+skill::telekinesis	43	Telekinesis	Telekinesis	sor	\N	\N	\N	6	8	7	0	\N	blizzhackers/d2data	skills.json	{}
+skill::teleport	54	Teleport	Teleport	sor	\N	\N	\N	18	8	24	0	\N	blizzhackers/d2data	skills.json	{}
+skill::thunder-storm	57	Thunder Storm	Thunder Storm	sor	\N	\N	\N	24	8	19	0	\N	blizzhackers/d2data	skills.json	{}
+skill::warmth	37	Warmth	Warmth	sor	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::abyss	402	Abyss	Abyss	war	\N	\N	\N	30	8	23	1	\N	blizzhackers/d2data	skills.json	{}
+skill::apocalypse	401	Apocalypse	Apocalypse	war	\N	\N	\N	30	8	32	1	\N	blizzhackers/d2data	skills.json	{}
+skill::bind-demon	382	Bind Demon	Bind Demon	war	\N	\N	\N	30	8	25	\N	\N	blizzhackers/d2data	skills.json	{}
+skill::blade-warp	390	Blade Warp	Blade Warp	war	\N	\N	\N	18	8	15	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blood-boil	380	Blood Boil	Blood Boil	war	\N	\N	\N	18	6	15	1	\N	blizzhackers/d2data	skills.json	{}
+skill::blood-oath	378	Blood Oath	Blood Oath	war	\N	\N	\N	6	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::cleave	391	Cleave	Cleave	war	\N	\N	\N	6	8	3	1	\N	blizzhackers/d2data	skills.json	{}
+skill::consume	381	Consume	Consume	war	\N	\N	\N	30	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::death-mark	375	Death Mark	Death Mark	war	\N	\N	\N	6	6	9	1	\N	blizzhackers/d2data	skills.json	{}
+skill::demonic-mastery	374	Demonic Mastery	Demonic Mastery	war	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::echoing-strike	388	Echoing Strike	Echoing Strike	war	\N	\N	\N	12	7	14	1	\N	blizzhackers/d2data	skills.json	{}
+skill::eldritch-blast	384	Eldritch Blast	Eldritch Blast	war	\N	\N	\N	24	7	11	1	\N	blizzhackers/d2data	skills.json	{}
+skill::engorge	379	Engorge	Engorge	war	\N	\N	\N	24	6	12	1	\N	blizzhackers/d2data	skills.json	{}
+skill::enhanced-entropy	397	Enhanced Entropy	Enhanced Entropy	war	\N	\N	\N	24	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::flame-wave	398	Flame Wave	Flame Wave	war	\N	\N	\N	18	7	14	1	\N	blizzhackers/d2data	skills.json	{}
+skill::hex-bane	385	Hex Bane	Hex Bane	war	\N	\N	\N	1	7	12	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hex-purge	389	Hex Purge	Hex Purge	war	\N	\N	\N	12	8	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::hex-siphon	386	Hex Siphon	Hex Siphon	war	\N	\N	\N	24	7	25	0	\N	blizzhackers/d2data	skills.json	{}
+skill::levitate	383	Levitate	Levitate	war	\N	\N	\N	1	8	0	0	1	blizzhackers/d2data	skills.json	{}
+skill::miasma-bolt	395	Miasma Bolt	Miasma Bolt	war	\N	\N	\N	1	7	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::miasma-chains	399	Miasma Chains	Miasma Chains	war	\N	\N	\N	12	7	9	1	\N	blizzhackers/d2data	skills.json	{}
+skill::mirrored-blades	392	Mirrored Blades	Mirrored Blades	war	\N	\N	\N	30	7	10	1	\N	blizzhackers/d2data	skills.json	{}
+skill::psychic-ward	387	Psychic Ward	Psychic Ward	war	\N	\N	\N	18	8	20	0	\N	blizzhackers/d2data	skills.json	{}
+skill::ring-of-fire	394	Ring of Fire	Ring of Fire	war	\N	\N	\N	6	7	16	1	\N	blizzhackers/d2data	skills.json	{}
+skill::sigil-death	400	Sigil Death	Sigil Death	war	\N	\N	\N	24	7	20	1	\N	blizzhackers/d2data	skills.json	{}
+skill::sigil-lethargy	393	Sigil Lethargy	Sigil Lethargy	war	\N	\N	\N	6	8	4	1	\N	blizzhackers/d2data	skills.json	{}
+skill::sigil-rancor	396	Sigil Rancor	Sigil Rancor	war	\N	\N	\N	12	8	12	1	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-defiler	377	Summon Defiler	Summon Defiler	war	\N	\N	\N	18	7	70	0	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-goatman	373	Summon Goatman	Summon Goatman	war	\N	\N	\N	1	7	30	0	\N	blizzhackers/d2data	skills.json	{}
+skill::summon-tainted	376	Summon Tainted	Summon Tainted	war	\N	\N	\N	12	7	50	0	\N	blizzhackers/d2data	skills.json	{}

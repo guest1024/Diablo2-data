@@ -1,0 +1,17 @@
+{
+  "outputs": {
+    "base-items.jsonl": 523,
+    "runes.jsonl": 33,
+    "runewords.jsonl": 99,
+    "unique-items.jsonl": 433,
+    "skills.jsonl": 429,
+    "cube-recipes.jsonl": 227,
+    "areas.jsonl": 137,
+    "monster-resistances.jsonl": 598,
+    "breakpoints.jsonl": 32
+  },
+  "sources": {
+    "blizzhackers_manifest": "docs/tier0/raw/blizzhackers-d2data/structured-subset-manifest.json",
+    "breakpoint_reference": "docs/tier0/raw/diablo2-io/character-info.html"
+  }
+}

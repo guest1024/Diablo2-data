@@ -98,6 +98,29 @@
 - build archetype retrieval
 - graph import
 
+## 1.5 PostgreSQL 统一检索落地方向
+
+新增必读：
+
+- `docs/tier0/pgsql统一检索数据库设计.md`
+- `docs/tier0/pgsql17部署与扩展基线方案.md`
+- `docs/tier0/postgres-playbook.md`
+- `sql/postgres/004_dict_query_quality_schema.sql`
+- `sql/postgres/query_understanding_queries.sql`
+
+### 性质
+
+- 以 PostgreSQL 作为统一外置检索底座
+- 面向 `BM25 + embedding + graph expansion` 多路召回
+- 不强依赖 AGE / Cypher 语法
+
+### 适合做
+
+- 替代 Chroma 的向量检索验证
+- 替代 Elasticsearch 的 lexical/BM25 验证
+- 替代轻量图谱邻接扩展与递归查询验证
+- 后续数据字典统一落库
+
 ---
 
 ## 2. 当前架构怎么理解
@@ -274,3 +297,25 @@ python scripts/verify_first_system_stack.py
 但如果要进一步做“更强的社区攻略问答”，下一步必须补：
 
 > **机制层 + build schema 层 + 版本差异层。**
+
+## 7. 运行时 Query Understanding 增强
+
+当前第一版运行时已经接入：
+
+- rewrite candidates
+- accepted rewrite
+- subquestion plan
+- retrieval policy / retrieval plan
+- structured support
+- retrieval trace
+
+相关代码：
+
+- `app/query_understanding.py`
+- `app/service.py`
+
+快速验证：
+
+```bash
+.venv/bin/python scripts/verify_query_execution_chain.py
+```

@@ -1,0 +1,2 @@
+constraint::strict_default	default	True	True	True	True	True	"{""release_gate"": ""strict""}"
+constraint::numeric_table	numeric_reasoning	True	True	True	True	True	"{""require_table_lookup"": true}"

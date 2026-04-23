@@ -1,0 +1,22 @@
+build::javazon	1	Lightning Fury
+build::javazon	2	Charged Strike
+build::bowazon	1	Guided Arrow
+build::bowazon	2	Strafe
+build::bowazon	3	Multishot
+build::hammerdin	1	Blessed Hammer
+build::hammerdin	2	Concentration
+build::lightning-sorceress	1	Lightning
+build::lightning-sorceress	2	Chain Lightning
+build::lightning-sorceress	3	Nova
+build::nova-sorceress	1	Nova
+build::nova-sorceress	2	Static Field
+build::nova-sorceress	3	Lightning Mastery
+build::blizzard-sorceress	1	Blizzard
+build::blizzard-sorceress	2	Cold Mastery
+build::fury-druid	1	Werewolf
+build::fury-druid	2	Fury
+build::trapsin	1	Lightning Sentry
+build::trapsin	2	Death Sentry
+build::summon-necromancer	1	Raise Skeleton
+build::summon-necromancer	2	Skeleton Mastery
+build::summon-necromancer	3	Corpse Explosion

@@ -1,0 +1,332 @@
+{
+  "schema_files": [
+    "sql/postgres/001_core_schema.sql",
+    "sql/postgres/002_optional_vector.sql",
+    "sql/postgres/003_views.sql",
+    "sql/postgres/queries.sql"
+  ],
+  "tables": {
+    "documents": {
+      "rows": 455,
+      "columns": [
+        "doc_id",
+        "source_id",
+        "source_name",
+        "label",
+        "source_url",
+        "local_path",
+        "content_type",
+        "authority_tier",
+        "lane",
+        "title",
+        "text_content",
+        "char_count",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/documents.tsv"
+    },
+    "chunks": {
+      "rows": 8652,
+      "columns": [
+        "chunk_id",
+        "doc_id",
+        "source_id",
+        "source_name",
+        "source_url",
+        "label",
+        "title",
+        "lane",
+        "authority_tier",
+        "chunk_index",
+        "text_content",
+        "char_count",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/chunks.tsv"
+    },
+    "search_aliases": {
+      "rows": 2662,
+      "columns": [
+        "alias_id",
+        "canonical_id",
+        "canonical_name",
+        "alias",
+        "alias_type",
+        "node_type",
+        "language",
+        "confidence",
+        "source",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/search_aliases.tsv"
+    },
+    "build_archetypes": {
+      "rows": 9,
+      "columns": [
+        "build_id",
+        "canonical_name",
+        "title",
+        "class_name",
+        "source",
+        "source_id",
+        "aliases",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/build_archetypes.tsv"
+    },
+    "build_core_skills": {
+      "rows": 22,
+      "columns": [
+        "build_id",
+        "skill_name",
+        "skill_order"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/build_core_skills.tsv"
+    },
+    "base_items": {
+      "rows": 523,
+      "columns": [
+        "item_id",
+        "code",
+        "name",
+        "name_zh",
+        "bucket",
+        "item_type",
+        "item_type_2",
+        "normal_code",
+        "exceptional_code",
+        "elite_code",
+        "max_sockets",
+        "level",
+        "level_required",
+        "required_strength",
+        "required_dexterity",
+        "min_armor",
+        "max_armor",
+        "min_damage",
+        "max_damage",
+        "speed",
+        "class_specific",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/base_items.tsv"
+    },
+    "runes": {
+      "rows": 33,
+      "columns": [
+        "rune_id",
+        "rune_key",
+        "code",
+        "name",
+        "name_zh",
+        "level",
+        "level_required",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/runes.tsv"
+    },
+    "runewords": {
+      "rows": 99,
+      "columns": [
+        "runeword_id",
+        "runeword_key",
+        "name",
+        "socket_count",
+        "patch_release",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/runewords.tsv"
+    },
+    "runeword_runes": {
+      "rows": 343,
+      "columns": [
+        "runeword_id",
+        "rune_order",
+        "rune_code"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/runeword_runes.tsv"
+    },
+    "runeword_item_types": {
+      "rows": 139,
+      "columns": [
+        "runeword_id",
+        "item_type_code"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/runeword_item_types.tsv"
+    },
+    "runeword_modifiers": {
+      "rows": 615,
+      "columns": [
+        "runeword_id",
+        "modifier_order",
+        "modifier_code",
+        "modifier_param",
+        "min_value",
+        "max_value"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/runeword_modifiers.tsv"
+    },
+    "skills": {
+      "rows": 428,
+      "columns": [
+        "skill_id",
+        "skill_key",
+        "name",
+        "name_zh",
+        "character_class",
+        "skill_page",
+        "skill_row",
+        "skill_column",
+        "required_level",
+        "mana_shift",
+        "mana_cost",
+        "left_skill",
+        "passive",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/skills.tsv"
+    },
+    "skill_prerequisites": {
+      "rows": 203,
+      "columns": [
+        "skill_id",
+        "prerequisite_order",
+        "prerequisite_name",
+        "prerequisite_skill_id"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/skill_prerequisites.tsv"
+    },
+    "cube_recipes": {
+      "rows": 227,
+      "columns": [
+        "recipe_id",
+        "row_id",
+        "description",
+        "recipe_type",
+        "enabled",
+        "version",
+        "num_inputs",
+        "output_code",
+        "source",
+        "source_file",
+        "modifiers",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/cube_recipes.tsv"
+    },
+    "cube_recipe_inputs": {
+      "rows": 696,
+      "columns": [
+        "recipe_id",
+        "input_order",
+        "input_code"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/cube_recipe_inputs.tsv"
+    },
+    "areas": {
+      "rows": 137,
+      "columns": [
+        "area_id",
+        "row_id",
+        "level_id",
+        "name",
+        "name_zh",
+        "act",
+        "is_inside",
+        "is_town",
+        "level_normal",
+        "level_nightmare",
+        "level_hell",
+        "monster_density_normal",
+        "monster_density_nightmare",
+        "monster_density_hell",
+        "waypoint",
+        "quest",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/areas.tsv"
+    },
+    "unique_items": {
+      "rows": 433,
+      "columns": [
+        "unique_item_id",
+        "unique_key",
+        "name",
+        "name_zh",
+        "base_code",
+        "base_name",
+        "base_name_zh",
+        "rarity",
+        "level",
+        "level_required",
+        "enabled",
+        "cost_multiplier",
+        "cost_add",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/unique_items.tsv"
+    },
+    "monster_resistances": {
+      "rows": 598,
+      "columns": [
+        "monster_id",
+        "monster_key",
+        "name",
+        "name_zh",
+        "monster_type",
+        "base_id",
+        "enabled",
+        "source",
+        "source_file",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/monster_resistances.tsv"
+    },
+    "monster_resistance_values": {
+      "rows": 4186,
+      "columns": [
+        "monster_id",
+        "resistance_type",
+        "normal_value",
+        "nightmare_value",
+        "hell_value"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/monster_resistance_values.tsv"
+    },
+    "breakpoints": {
+      "rows": 32,
+      "columns": [
+        "breakpoint_id",
+        "category",
+        "entity_name",
+        "source",
+        "source_url",
+        "metadata"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/breakpoints.tsv"
+    },
+    "breakpoint_points": {
+      "rows": 260,
+      "columns": [
+        "breakpoint_id",
+        "point_order",
+        "breakpoint_value",
+        "frames"
+      ],
+      "path": "docs/tier0/postgres-bundle/data/breakpoint_points.tsv"
+    }
+  },
+  "import_sql": "docs/tier0/postgres-bundle/import.sql"
+}

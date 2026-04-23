@@ -19,6 +19,9 @@ This file is the operator-facing entrypoint for the current Tier 0 acquisition /
 - CSV export manifest: `docs/tier0/export/csv-export-manifest.json`
 - Consumer guide: `docs/tier0/graph-export-consumer-guide.md`
 - Neo4j playbook: `docs/tier0/neo4j-import-playbook.md`
+- PostgreSQL deployment baseline: `docs/tier0/pgsql17部署与扩展基线方案.md`
+- PostgreSQL database design: `docs/tier0/pgsql统一检索数据库设计.md`
+- PostgreSQL operator playbook: `docs/tier0/postgres-playbook.md`
 - Operator notes: `docs/tier0/pipeline-operator-notes.md`
 - Checksum manifest: `docs/tier0/artifact-checksums.json`
 

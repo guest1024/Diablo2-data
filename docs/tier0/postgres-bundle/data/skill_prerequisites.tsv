@@ -1,0 +1,203 @@
+skill::colossal-thunder-storm	1	Nova	skill::nova
+skill::colossal-thunder-storm	2	Chain Lightning	skill::chain-lightning
+skill::colossal-volcano	1	Eruption	skill::eruption
+skill::fire-twisters	1	Cyclone Armor	skill::cyclone-armor
+skill::korlic-s-leap-attack	1	Leap	skill::leap
+skill::avoid	1	Dodge	skill::dodge
+skill::charged-strike	1	Power Strike	skill::power-strike
+skill::charged-strike	2	Lightning Bolt	skill::lightning-bolt
+skill::decoy	1	Slow Missiles	skill::slow-missiles
+skill::evade	1	Avoid	skill::avoid
+skill::exploding-arrow	1	Fire Arrow	skill::fire-arrow
+skill::exploding-arrow	2	Multiple Shot	skill::multiple-shot
+skill::fend	1	Impale	skill::impale
+skill::freezing-arrow	1	Ice Arrow	skill::ice-arrow
+skill::guided-arrow	1	Cold Arrow	skill::cold-arrow
+skill::guided-arrow	2	Multiple Shot	skill::multiple-shot
+skill::ice-arrow	1	Cold Arrow	skill::cold-arrow
+skill::immolation-arrow	1	Exploding Arrow	skill::exploding-arrow
+skill::impale	1	Jab	skill::jab
+skill::lightning-bolt	1	Poison Javelin	skill::poison-javelin
+skill::lightning-fury	1	Plague Javelin	skill::plague-javelin
+skill::lightning-strike	1	Charged Strike	skill::charged-strike
+skill::multiple-shot	1	Magic Arrow	skill::magic-arrow
+skill::penetrate	1	Critical Strike	skill::critical-strike
+skill::pierce	1	Penetrate	skill::penetrate
+skill::plague-javelin	1	Lightning Bolt	skill::lightning-bolt
+skill::power-strike	1	Jab	skill::jab
+skill::slow-missiles	1	Inner Sight	skill::inner-sight
+skill::strafe	1	Guided Arrow	skill::guided-arrow
+skill::valkyrie	1	Dopplezon	\N
+skill::valkyrie	2	Evade	skill::evade
+skill::blade-fury	1	Blade Sentinel	skill::blade-sentinel
+skill::blade-fury	2	Wake of Fire Sentry	skill::wake-of-fire-sentry
+skill::blade-shield	1	Blade Fury	skill::blade-fury
+skill::blades-of-ice	1	Claws of Thunder	skill::claws-of-thunder
+skill::charged-bolt-sentry	1	Shock Field	skill::shock-field
+skill::claws-of-thunder	1	Fists of Fire	skill::fists-of-fire
+skill::cloak-of-shadows	1	Psychic Hammer	skill::psychic-hammer
+skill::cobra-strike	1	Tiger Strike	skill::tiger-strike
+skill::death-sentry	1	Lightning Sentry	skill::lightning-sentry
+skill::dragon-claw	1	Dragon Talon	skill::dragon-talon
+skill::dragon-flight	1	Dragon Tail	skill::dragon-tail
+skill::dragon-tail	1	Dragon Claw	skill::dragon-claw
+skill::fade	1	Quickness	skill::quickness
+skill::inferno-sentry	1	Wake of Fire Sentry	skill::wake-of-fire-sentry
+skill::lightning-sentry	1	Charged Bolt Sentry	skill::charged-bolt-sentry
+skill::mind-blast	1	Cloak of Shadows	skill::cloak-of-shadows
+skill::quickness	1	Claw Mastery	skill::claw-mastery
+skill::royal-strike	1	Cobra Strike	skill::cobra-strike
+skill::royal-strike	2	Blades of Ice	skill::blades-of-ice
+skill::shadow-master	1	Shadow Warrior	skill::shadow-warrior
+skill::shadow-warrior	1	Cloak of Shadows	skill::cloak-of-shadows
+skill::shadow-warrior	2	Weapon Block	skill::weapon-block
+skill::shock-field	1	Fire Trauma	skill::fire-trauma
+skill::venom	1	Fade	skill::fade
+skill::wake-of-fire-sentry	1	Fire Trauma	skill::fire-trauma
+skill::weapon-block	1	Claw Mastery	skill::claw-mastery
+skill::battle-command	1	Battle Orders	skill::battle-orders
+skill::battle-cry	1	Taunt	skill::taunt
+skill::battle-orders	1	Shout	skill::shout
+skill::berserker	1	Concentrate	skill::concentrate
+skill::concentrate	1	Stun	skill::stun
+skill::double-swing	1	Bash	skill::bash
+skill::double-throw	1	Double Swing	skill::double-swing
+skill::find-item	1	Find Potion	skill::find-potion
+skill::frenzy	1	Double Throw	skill::double-throw
+skill::grim-ward	1	Find Item	skill::find-item
+skill::increased-speed	1	Increased Stamina	skill::increased-stamina
+skill::leap-attack	1	Leap	skill::leap
+skill::natural-resistance	1	Iron Skin	skill::iron-skin
+skill::shout	1	Howl	skill::howl
+skill::stun	1	Bash	skill::bash
+skill::taunt	1	Howl	skill::howl
+skill::war-cry	1	Battle Cry	skill::battle-cry
+skill::war-cry	2	Battle Orders	skill::battle-orders
+skill::whirlwind	1	Leap Attack	skill::leap-attack
+skill::whirlwind	2	Concentrate	skill::concentrate
+skill::armageddon	1	Volcano	skill::volcano
+skill::cycle-of-life	1	Plague Poppy	skill::plague-poppy
+skill::cyclone-armor	1	Arctic Blast	skill::arctic-blast
+skill::eruption	1	Molten Boulder	skill::molten-boulder
+skill::feral-rage	1	Wearwolf	skill::wearwolf
+skill::fire-claws	1	Feral Rage	skill::feral-rage
+skill::fire-claws	2	Maul	skill::maul
+skill::fury	1	Rabies	skill::rabies
+skill::heart-of-wolverine	1	Oak Sage	skill::oak-sage
+skill::hunger	1	Fire Claws	skill::fire-claws
+skill::hurricane	1	Tornado	skill::tornado
+skill::maul	1	Wearbear	skill::wearbear
+skill::molten-boulder	1	Firestorm	skill::firestorm
+skill::rabies	1	Feral Rage	skill::feral-rage
+skill::shape-shifting	1	Wearwolf	skill::wearwolf
+skill::shock-wave	1	Maul	skill::maul
+skill::spirit-of-barbs	1	Heart of Wolverine	skill::heart-of-wolverine
+skill::summon-fenris	1	Oak Sage	skill::oak-sage
+skill::summon-fenris	2	Summon Spirit Wolf	skill::summon-spirit-wolf
+skill::summon-grizzly	1	Summon Fenris	skill::summon-fenris
+skill::summon-spirit-wolf	1	Raven	skill::raven
+skill::tornado	1	Twister	skill::twister
+skill::twister	1	Cyclone Armor	skill::cyclone-armor
+skill::vines	1	Cycle of Life	skill::cycle-of-life
+skill::volcano	1	Eruption	skill::eruption
+skill::attract	1	Confuse	skill::confuse
+skill::blood-golem	1	Clay Golem	skill::clay-golem
+skill::bone-prison	1	Bone Wall	skill::bone-wall
+skill::bone-prison	2	Bone Spear	skill::bone-spear
+skill::bone-spear	1	Corpse Explosion	skill::corpse-explosion
+skill::bone-spirit	1	Bone Spear	skill::bone-spear
+skill::bone-wall	1	Bone Armor	skill::bone-armor
+skill::confuse	1	Dim Vision	skill::dim-vision
+skill::corpse-explosion	1	Teeth	skill::teeth
+skill::decrepify	1	Terror	skill::terror
+skill::fire-golem	1	IronGolem	\N
+skill::golem-mastery	1	Clay Golem	skill::clay-golem
+skill::iron-golem	1	BloodGolem	\N
+skill::iron-maiden	1	Amplify Damage	skill::amplify-damage
+skill::life-tap	1	Iron Maiden	skill::iron-maiden
+skill::lower-resist	1	Life Tap	skill::life-tap
+skill::lower-resist	2	Decrepify	skill::decrepify
+skill::poison-explosion	1	Poison Dagger	skill::poison-dagger
+skill::poison-explosion	2	Corpse Explosion	skill::corpse-explosion
+skill::poison-nova	1	Poison Explosion	skill::poison-explosion
+skill::raise-skeletal-mage	1	Raise Skeleton	skill::raise-skeleton
+skill::revive	1	Raise Skeletal Mage	skill::raise-skeletal-mage
+skill::revive	2	IronGolem	\N
+skill::skeleton-mastery	1	Raise Skeleton	skill::raise-skeleton
+skill::summon-resist	1	Golem Mastery	skill::golem-mastery
+skill::terror	1	Weaken	skill::weaken
+skill::weaken	1	Amplify Damage	skill::amplify-damage
+skill::blessed-aim	1	Might	skill::might
+skill::blessed-hammer	1	Holy Bolt	skill::holy-bolt
+skill::charge	1	Smite	skill::smite
+skill::cleansing	1	Prayer	skill::prayer
+skill::concentration	1	Blessed Aim	skill::blessed-aim
+skill::conversion	1	Vengeance	skill::vengeance
+skill::conviction	1	Sanctuary	skill::sanctuary
+skill::fanaticism	1	Concentration	skill::concentration
+skill::fist-of-the-heavens	1	Blessed Hammer	skill::blessed-hammer
+skill::fist-of-the-heavens	2	Conversion	skill::conversion
+skill::holy-fire	1	Might	skill::might
+skill::holy-freeze	1	Holy Fire	skill::holy-fire
+skill::holy-shield	1	Charge	skill::charge
+skill::holy-shield	2	Blessed Hammer	skill::blessed-hammer
+skill::holy-shock	1	Holy Freeze	skill::holy-freeze
+skill::meditation	1	Cleansing	skill::cleansing
+skill::redemption	1	Vigor	skill::vigor
+skill::sanctuary	1	Thorns	skill::thorns
+skill::sanctuary	2	Holy Freeze	skill::holy-freeze
+skill::vengeance	1	Zeal	skill::zeal
+skill::vigor	1	Cleansing	skill::cleansing
+skill::vigor	2	Defiance	skill::defiance
+skill::zeal	1	Sacrifice	skill::sacrifice
+skill::blaze	1	Inferno	skill::inferno
+skill::blizzard	1	Frost Nova	skill::frost-nova
+skill::blizzard	2	Glacial Spike	skill::glacial-spike
+skill::chain-lightning	1	Lightning	skill::lightning
+skill::chilling-armor	1	Shiver Armor	skill::shiver-armor
+skill::enchant	1	Warmth	skill::warmth
+skill::enchant	2	Fire Ball	skill::fire-ball
+skill::energy-shield	1	Teleport	skill::teleport
+skill::energy-shield	2	Chain Lightning	skill::chain-lightning
+skill::fire-ball	1	Fire Bolt	skill::fire-bolt
+skill::fire-wall	1	Blaze	skill::blaze
+skill::frozen-orb	1	Blizzard	skill::blizzard
+skill::glacial-spike	1	Ice Blast	skill::ice-blast
+skill::hydra	1	Enchant	skill::enchant
+skill::ice-blast	1	Ice Bolt	skill::ice-bolt
+skill::lightning	1	Charged Bolt	skill::charged-bolt
+skill::meteor	1	Fire Ball	skill::fire-ball
+skill::meteor	2	Fire Wall	skill::fire-wall
+skill::nova	1	Static Field	skill::static-field
+skill::shiver-armor	1	Ice Blast	skill::ice-blast
+skill::shiver-armor	2	Frozen Armor	skill::frozen-armor
+skill::teleport	1	Telekinesis	skill::telekinesis
+skill::thunder-storm	1	Nova	skill::nova
+skill::thunder-storm	2	Chain Lightning	skill::chain-lightning
+skill::abyss	1	Enhanced Entropy	skill::enhanced-entropy
+skill::apocalypse	1	Flame Wave	skill::flame-wave
+skill::apocalypse	2	Sigil Death	skill::sigil-death
+skill::bind-demon	1	Engorge	skill::engorge
+skill::bind-demon	2	Summon Defiler	skill::summon-defiler
+skill::blade-warp	1	Echoing Strike	skill::echoing-strike
+skill::blood-boil	1	Death Mark	skill::death-mark
+skill::blood-oath	1	Demonic Mastery	skill::demonic-mastery
+skill::cleave	1	Levitate	skill::levitate
+skill::consume	1	Blood Oath	skill::blood-oath
+skill::death-mark	1	Summon Goatman	skill::summon-goatman
+skill::demonic-mastery	1	Summon Goatman	skill::summon-goatman
+skill::echoing-strike	1	Levitate	skill::levitate
+skill::eldritch-blast	1	Psychic Ward	skill::psychic-ward
+skill::engorge	1	Blood Boil	skill::blood-boil
+skill::enhanced-entropy	1	Miasma Chains	skill::miasma-chains
+skill::flame-wave	1	Ring of Fire	skill::ring-of-fire
+skill::hex-purge	1	Hex Bane	skill::hex-bane
+skill::hex-siphon	1	Hex Purge	skill::hex-purge
+skill::miasma-chains	1	Miasma Bolt	skill::miasma-bolt
+skill::mirrored-blades	1	Blade Warp	skill::blade-warp
+skill::mirrored-blades	2	Eldritch Blast	skill::eldritch-blast
+skill::psychic-ward	1	Cleave	skill::cleave
+skill::sigil-death	1	Sigil Rancor	skill::sigil-rancor
+skill::sigil-rancor	1	Sigil Lethargy	skill::sigil-lethargy
+skill::summon-defiler	1	Summon Tainted	skill::summon-tainted
+skill::summon-tainted	1	Summon Goatman	skill::summon-goatman
