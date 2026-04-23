@@ -20,6 +20,25 @@ DEFAULT_INCLUDE = [
     'crawler/snapshots',
 ]
 LATEST_RUN_STATE = REPO_ROOT / 'crawler/state/latest-run.json'
+PAGE_CATALOG = REPO_ROOT / 'crawler/state/page_catalog.json'
+LATEST_ONLY_STATE_PATHS = [
+    'crawler/state/catalog-report.md',
+    'crawler/state/latest-run.json',
+    'crawler/state/page_catalog.json',
+    'crawler/state/source-health.json',
+    'crawler/state/source-status-report.md',
+    'crawler/state/source-status-report.json',
+    'crawler/state/source-status',
+    'crawler/state/manual-curated-backlog.md',
+    'crawler/state/manual-curated-backlog.json',
+    'crawler/state/manual-curated-probe.json',
+    'crawler/state/snapshot-relations.jsonl',
+    'crawler/state/snapshot-relations',
+    'crawler/state/page-catalog',
+    'crawler/state/publish-audit.json',
+    'crawler/state/data-branch-manifest.json',
+    'crawler/state/data-branch-readiness.json',
+]
 
 
 def run(
@@ -52,6 +71,18 @@ def load_latest_run_id() -> str | None:
     return payload.get('run_id')
 
 
+def load_referenced_snapshots() -> list[str]:
+    if not PAGE_CATALOG.is_file():
+        return []
+    payload = json.loads(PAGE_CATALOG.read_text(encoding='utf-8'))
+    snapshots: list[str] = []
+    for row in payload.values():
+        snapshot_path = row.get('snapshot_path')
+        if isinstance(snapshot_path, str) and snapshot_path and snapshot_path not in snapshots:
+            snapshots.append(snapshot_path)
+    return sorted(snapshots)
+
+
 def tracked_paths(paths: list[str]) -> list[Path]:
     resolved: list[Path] = []
     for relative in paths:
@@ -66,18 +97,23 @@ def build_effective_include(latest_only: bool, explicit_paths: list[str] | None,
         return explicit_paths
     if not latest_only:
         return DEFAULT_INCLUDE
+
     include = [
         'crawler/README.md',
         'crawler/CRAWL_POLICY.md',
         'crawler/OPERATIONS.md',
         'crawler/SOURCE_OPTIONS.md',
         'crawler/VERIFIED_SNAPSHOT_TARGETS.md',
-        'crawler/state',
-        'crawler/snapshots',
+        *LATEST_ONLY_STATE_PATHS,
+        *load_referenced_snapshots(),
     ]
     if run_id:
         include.append(f'crawler/runs/{run_id}')
-    return include
+    deduped: list[str] = []
+    for item in include:
+        if item not in deduped:
+            deduped.append(item)
+    return deduped
 
 
 def build_publish_preview(paths: list[Path]) -> list[str]:
@@ -169,7 +205,7 @@ def main() -> int:
     parser.add_argument('--run-id')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--preview-only', action='store_true')
-    parser.add_argument('--latest-only', action='store_true', help='publish only the latest run directory plus state/docs/snapshots')
+    parser.add_argument('--latest-only', action='store_true', help='publish only the latest run directory plus state/docs/current snapshots')
     parser.add_argument('--include', action='append', dest='includes')
     args = parser.parse_args()
 

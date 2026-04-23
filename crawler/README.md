@@ -287,3 +287,19 @@ python3 crawler/export_page_catalog_partitions.py
 ```
 
 将集中式 `page_catalog.json` 按来源拆分到 `crawler/state/page-catalog/<source_id>.jsonl`，同时保留索引文件。
+
+## Workflow 稳定性脚本
+
+为降低 YAML 多行 shell 出错概率，workflow 现在复用：
+- `scripts/commit_crawler_metadata.py`
+- `scripts/print_latest_run_id.py`
+
+这比在 YAML 里内嵌长 heredoc 更稳定。
+
+## 汇总状态生成
+
+```bash
+python3 scripts/build_crawler_reports.py
+```
+
+一条命令生成 catalog report、source status、manual backlog、snapshot relations、page catalog partitions、publish audit、data branch manifest 与 readiness。

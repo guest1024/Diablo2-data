@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+import scripts.push_crawler_to_data_branch as publish
 from scripts.push_crawler_to_data_branch import (
     build_commit_message,
     build_effective_include,
@@ -33,6 +34,15 @@ class DataBranchPublishTests(unittest.TestCase):
         include = build_effective_include(True, None, 'run-1')
         self.assertIn('crawler/runs/run-1', include)
         self.assertNotIn('crawler/runs', include)
+
+    def test_build_effective_include_uses_referenced_snapshots(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            catalog = root / 'page_catalog.json'
+            catalog.write_text(json.dumps({'a': {'snapshot_path': 'crawler/snapshots/a.html'}}), encoding='utf-8')
+            with patch.object(publish, 'PAGE_CATALOG', catalog):
+                include = publish.build_effective_include(True, None, 'run-1')
+        self.assertIn('crawler/snapshots/a.html', include)
 
 
 if __name__ == '__main__':

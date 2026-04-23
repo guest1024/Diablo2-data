@@ -12,3 +12,4 @@ __pycache__/
 .pytest_cache/
 .env.local
 .data/
+./deploy/pgsql17-ubuntu24/data/

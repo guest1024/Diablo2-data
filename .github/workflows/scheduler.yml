@@ -174,46 +174,12 @@ jobs:
 
       - name: Commit crawler metadata back to the current branch
         if: ${{ github.event.inputs.commit_changes != 'false' }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [[ -z "$(git status --porcelain -- crawler .github/workflows/scheduler.yml scripts/push_crawler_to_data_branch.py)" ]]; then
-            echo "No crawler metadata changes to commit"
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add crawler .github/workflows/scheduler.yml scripts/push_crawler_to_data_branch.py
-
-          git commit -F - <<'EOF'
-Keep crawler workflow metadata aligned with scheduled snapshot execution
-
-The scheduled workflow updates crawler-maintained metadata files and the
-workflow/reporting surfaces that describe recent snapshot activity.
-
-Constraint: Source branch commits should stay limited to workflow and crawler metadata
-Rejected: Skip source-branch metadata commits entirely | loses operational traceability in the main branch
-Confidence: high
-Scope-risk: narrow
-Reversibility: clean
-Directive: Keep source-branch commits focused on crawler code/docs/workflow, and publish raw snapshot artifacts to the data branch separately
-Tested: crawler/run_tests.py; crawler/verify_framework.py
-Not-tested: live GitHub Actions execution in this local session
-EOF
-
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+        run: python3 scripts/commit_crawler_metadata.py
 
       - name: Publish crawler artifacts to data branch
         if: ${{ github.event.inputs.commit_changes != 'false' && github.event.inputs.probe_only != 'true' }}
         shell: bash
         run: |
           set -euo pipefail
-          RUN_ID="$(python3 - <<'PY'
-import json
-from pathlib import Path
-print(json.loads(Path('crawler/state/latest-run.json').read_text(encoding='utf-8'))['run_id'])
-PY
-)"
+          RUN_ID="$(python3 scripts/print_latest_run_id.py)"
           python3 scripts/push_crawler_to_data_branch.py --branch data --remote origin --run-id "$RUN_ID" --latest-only

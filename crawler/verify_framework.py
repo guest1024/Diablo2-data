@@ -26,6 +26,10 @@ READINESS_CHECKER = ROOT / "check_data_branch_readiness.py"
 MANUAL_PROBER = ROOT / "probe_manual_curated_urls.py"
 MANUAL_CURATED_FILE = ROOT / "manual_curated_urls.json"
 DATA_BRANCH_CHECKLIST = ROOT / "DATA_BRANCH_PUSH_CHECKLIST.md"
+COMMIT_METADATA_SCRIPT = REPO_ROOT / "scripts/commit_crawler_metadata.py"
+LATEST_RUN_ID_SCRIPT = REPO_ROOT / "scripts/print_latest_run_id.py"
+BUILD_REPORTS_SCRIPT = REPO_ROOT / "scripts/build_crawler_reports.py"
+PREFLIGHT_SCRIPT = REPO_ROOT / "scripts/preflight_data_branch_push.py"
 PRUNE_SCRIPT = ROOT / "prune_snapshots.py"
 OPTIONS_DOC = ROOT / "SOURCE_OPTIONS.md"
 README = ROOT / "README.md"
@@ -61,6 +65,10 @@ def main() -> int:
     expect(MANUAL_PROBER.is_file(), "probe_manual_curated_urls.py exists")
     expect(MANUAL_CURATED_FILE.is_file(), "manual_curated_urls.json exists")
     expect(DATA_BRANCH_CHECKLIST.is_file(), "DATA_BRANCH_PUSH_CHECKLIST.md exists")
+    expect(COMMIT_METADATA_SCRIPT.is_file(), "commit_crawler_metadata.py exists")
+    expect(LATEST_RUN_ID_SCRIPT.is_file(), "print_latest_run_id.py exists")
+    expect(BUILD_REPORTS_SCRIPT.is_file(), "build_crawler_reports.py exists")
+    expect(PREFLIGHT_SCRIPT.is_file(), "preflight_data_branch_push.py exists")
     expect(PRUNE_SCRIPT.is_file(), "prune_snapshots.py exists")
     expect(OPTIONS_DOC.is_file(), "SOURCE_OPTIONS.md exists")
     expect(README.is_file(), "README.md exists")
